@@ -1,0 +1,185 @@
+[00:00:05] My name is, uh, Kevin Quinn. Uh,
+[00:00:07] Mcarter analyst and I cover analytics and AI at Gartner.
+[00:00:12] Uh, I was recently on the
+[00:00:15] Magic, quadrant team that published the uh mq for decision. Intelligence platforms, just came out.
+[00:00:22] In beginning of, uh, of February, which is the first time that we ever had a magic quadrant for decision, intelligence platforms. And today, we're going to talk about the relationship between business intelligence and decision intelligence.
+[00:00:34] Um, it's a lot of people think that decision intelligence is either an evolution of bi or a replacement for Bia, and that's actually not the case before I get into.
+[00:00:45] That though, I want to tell you a quick story. Uh, how many people here?
+[00:00:49] Watch the american Super Bowl national football championship.
+[00:00:54] Well, not as many people as I would have thought it doesn't really matter.
+[00:00:58] The story is about.
+[00:01:01] A lion and a tiger and a jungle.
+[00:01:04] On Super Bowl Sunday, which is practically a holiday in the United States, talking about the fact that they couldn't watch the Super Bowl.
+[00:01:12] And they decided in watching it, they would just have their own football game.
+[00:01:18] So they chose sides and the lion got to choose first and he chose the elephant and tiger chose the hippopotamus and they divided the jungle completely down and 2 and and they played football.
+[00:01:30] uh, so the, uh,
+[00:01:33] The Tigers team kicks off, know, the Lions team kicks off to the Tigers team.
+[00:01:38] And they go a couple yards and they can't move the football. So they have to punt the ball to the Lions team. So, they punt to the Lions team and the Lions team immediately gives the ball to the elephant that proceeds to run down the field and no other animal or insect or anything could could could could tackle them. And he gets to the end zone scores and this goes on through the entire first half of the game. So at the end of the first half, the score is 53 to nothing The Lion and the elephants team.
+[00:02:06] So the tiger gives a a halftime speech to kind of rally the troops. Somebody's got to step up, we have to win this game.
+[00:02:13] And the second.
+[00:02:15] Half begins. So the Tigers team has to kick off to the Lions team again and they kick off to the Lions team, and the Lions team gives the ball to the elephant. And the elephant goes 2 steps. And then there's a big pile up and a big pile of dust and animals all over the place and the tiger comes running over and he's pulling off all the animals, who tackled them, who tackled them, who tackled them and at the bottom of the pile.
+[00:02:37] There's this little centipede.
+[00:02:40] And he raised his hands. I tackled him.
+[00:02:42] Where were you? The whole first half?
+[00:02:44] I was putting on my shoes.
+[00:02:48] 100, 100 shoes. You have to get the idea.
+[00:02:51] Well, the point of that story, I like to tell stories that actually have a moral related to the presentation. So you might think, why is that 1 related to this presentation? Well, it's actually
+[00:03:00] About preparation, right? So the centipede wasn't prepared for that game and you're here to prepare yourself for the inevitability where decision intelligence and business intelligence have to live together in the same Enterprise, and that's what we're going to talk about during this session today.
+[00:03:16] So,
+[00:03:17] A lot of people talk about the idea of being data driven. I actually, tell I tell vendors when they are talking about their messaging because I actually advise vendor side and not the end user side in at Gartner and they, you know, we're we're trying to help our companies, our customers become data driven and data, driven is like is old. It's an old concept, believe it or not, and we're starting to move to a new world. That's decision. Centric.
+[00:03:45] Decision Centric where it's more outcome focused and decision Centric with that decision becomes the focal point and not the the data in the analytics necessarily although they're still needed and that's sort of what we're going to be talking about today. How all of these things kind of relate together because they're there should be a synergistic relationship between these 2 Technologies.
+[00:04:05] So we're going to talk about the 2 software platforms, AI analytics and business intelligence and dip decision intelligence platforms.
+[00:04:15] Uh what they do we're going to talk about how AI is going to automate. A lot of the decisions which will reduce the need for a lot of the traditional uses of business intelligence.
+[00:04:27] and we'll talk about the idea of building, uh, uh,
+[00:04:30] A decision Centric, ecosystems, where these 2 things can live together and actually create uh, a more successful implementation of the 2.
+[00:04:40] So, starting off with the first part there.
+[00:04:44] I, I went through this slide yesterday and I'm going to just focus. If you were on my in my presentation yesterday, it's a, it's a fantastic Gartner, slide that's been around for many many many years, but it talks about the 4 kind of analytics descriptive diagnostic predictive and prescriptive
+[00:04:59] Uh, which map to what happened? Why did it happen? What will happen next? And what should I do about it? And the the top of the screen there, where it's showing you human Centric and machine Centric. And you notice the closer you get
+[00:05:15] To the bottom of the analytic pyramid. If you were going to call it that the closer you're getting to machines, making and taking decisions and actions. And there's that Gap at the top, where the human has to interpret the analytics to make and take, make a decision and take action on it.
+[00:05:32] And in this world of software, bi kind of lives on the left side, more focused on the data, and the analytics stuff. And and giving information to humans where decision intelligence is more about, I always say, decision, intelligence is everything that happens after business intelligence, it's focusing on the decision and the action and monitoring that whole process.
+[00:05:56] So we actually do a lot of different definitions Within.
+[00:06:00] The Gartner uh website. So you'll see 1 which is about decision intelligence, which is not software. It's a practical discipline, used to improve decision making by explicitly understanding and Engineering. How decisions are made, right? So that's its it's a practice.
+[00:06:18] I tell you that because it's very possible that you may actually be doing decision intelligence right now without a decision. Intelligence platform.
+[00:06:25] Uh, and you can probably even do it further. Moving forward with things like agent orchestration platforms, but there's still a difference between that and the software.
+[00:06:34] Then there's decision modeling.
+[00:06:36] Where you? You create a model.
+[00:06:39] That's a an explicit representation of how decisions flow and work.
+[00:06:45] It actually kind of defines who were the characters are in a decision workflow, whether it's human and machine or machine and it includes both structured and unstructured data and deterministic.
+[00:06:56] And non-deterministic or probabilistic reasoning.
+[00:07:00] Um,
+[00:07:01] You may know that there's been things software around called business rules engines, uh, or decision management Suites, they've been around for a long time and they basically apply only rules to decision workflows, which are still important in a lot of decision, workflows. But the new modern decision workflows include probability probabilities of outcomes because not every decision. Um, has just 1 way that it can be done.
+[00:07:28] Then you have a decision.
+[00:07:30] And intelligence system which is an implementation or uh an orchestration of a, of a decision model, uh, by a machine.
+[00:07:38] And then you have decision intelligence platforms, that help you, uh, design and Implement a decision intelligence system. Okay? Just so, you know, because then you're starting to hear things like agent decision intelligence, where a lot of the parts of a decision workflow may be done by AI agents and that is likely the way it's going to be in the not too distant future.
+[00:08:00] Then there's the idea of 3, different parts of 3 different ways to make decisions decisions support, that's where the human that's sort of that the bi realm if you will, where you get analytics and a human decides which analysis to use.
+[00:08:15] And they make a decision.
+[00:08:16] Or the the analytics or embedded in a work a process. It's a repeatable thing where they can look at the analytics and make a decision within an application.
+[00:08:26] Then you have decision augmentation, which will be the primary focus of a decision intelligence platform. Uh, it does decision intelligence platforms, do all, 3, by the way, uh where an AI will suggest or recommend an outcome and a human decides. What whether they should follow, what the AI says or ignore it.
+[00:08:47] Or it could be an approval process where the AI acts but a human has to approve first. And then it has to. Then the last 1 is reversible where an AI acts and the human can reverse that decision.
+[00:09:00] After the fact.
+[00:09:01] And then you have decision automation.
+[00:09:03] Where the AI acts and a human audits, they really just monitoring what the AI is doing. And where it's completely completely autonomous, where there's real, no human intervention at all, and we have things like that that are going on today within our own organizations. And we see those kinds of things, uh, in in our real life, price optimization as an example, uh, for retailers or, or I should say for Airlines or or rental cars, that's a decision automation system. That's done automatically by an AI. Uber surge pricing is a decision intelligence system that is automatic. It just happens based on algorithms as an example.
+[00:09:42] Bi lives in that top.
+[00:09:45] And dips kind of do everything else. So when you see that crossover, the natural thing to think is that decision, intelligence platforms. If it can do all 3, why not use that for everything? Uh and you'll see this reasons why they both could and should live together.
+[00:10:00] If we kind of just take a look at that relationship another way.
+[00:10:06] Um, bi very often starts on, on the data Centric. So, like I said before being data driven, it's focused on the data and the analytics. What data and analytics do I need to make a better decision where decision intelligence starts the other way. It starts. What's the outcome? I'm trying to achieve.
+[00:10:25] and then it works back to the decisions that I make that provide or deliver that
+[00:10:30] Outcome. And then what data and analytics will help make better decisions there but they both still need the data and Analytics.
+[00:10:37] the bi is more report if you kind of do a comparison reports and dashboards bi
+[00:10:44] Decisions. As a first class asset or object is the as decision intelligence insights and metrics is the bi actions and outcomes is the DI
+[00:10:56] what happened and might happen or what should we do about? It is the DI and analytics consumption by humans or decision execution, by machines, the sort of like the dividing line and how you might look at the 2, different different areas.
+[00:11:14] Okay.
+[00:11:15] so,
+[00:11:16] As AI is, an AI is a big part of decision, intelligence. As you can imagine, I'm going to get into the specific features of the products in a couple minutes, but but as you start to see more and more automation,
+[00:11:29] Of of decisions, you can expect that Lots, they'll be less and less need for dashboards for people to make decisions, you know, so you'll you'll probably propagate less dashboards, but the dashboards that you have will be used for different purposes.
+[00:11:45] I use this slide also yesterday in my presentation, if you were there, but I'm only going to focus. So these are these are the challenges that we've kind of run into with business intelligence. Very often most of the effort with building dashboards has to do with data integration.
+[00:12:00] Very often, they lack real time context. Um,
+[00:12:04] it's difficult to connect the, the analytics that I looked at to the decision I made in a another, another application. I always found that a lot of the bi vendors success stories.
+[00:12:18] Were the ROI was represented by the the the customer saying, we get better access to information, we get faster access to information, but they're very difficult to say, how much money did they say or re Revenue? Did they generate because they can't put the 2 together?
+[00:12:35] Um,
+[00:12:37] And I talked about adoption very the the business intelligence adoption. We've measured it for nearly 20 years at Gartner and we
+[00:12:45] Haven't done it in a few years now, but the adoption of business intelligence, within Enterprise culture has been between 25 and 30% for like 20 years.
+[00:12:56] And you would think as the tools get easier, I mean I could just ask questions now, right? Like via chat GPT, why aren't more people using it? And I think 1 of the main reasons is you'll see when you give like a chat interface to somebody who's not an analytics person. They'll say, I don't know what question to ask, what should I be asking? They, they don't know.
+[00:13:17] And if they get analytics sometimes they don't know what the Analytics mean for them to make a decision.
+[00:13:22] They're more concerned or better, uh, the more informed about their role and we'll come back to that in a minute. And that's when you start to think,
+[00:13:30] About things being decision Centric. Well what decisions do you make in your job that are really important to outcomes? And when you start to think about that way, you think about analytics in a different way.
+[00:13:42] Um so users don't know what questions and the other thing is, when you rely on humans and just analytics to make decisions bias easily integrates into the decision-making process? For lots of different reasons, this confirmation bias. There's all sorts of different levels of bias confirmation bias is where I believe something to be true. And I'm just looking for a data point to validate. What I think is true.
+[00:14:07] That's a bias that I put into the process. There's recency bias where I'm going to make a decision by the most recent
+[00:14:15] Piece of analytics that I've consumed and not all of the other stuff that may be the contextual stuff that may be around it. There's all sorts of different levels of that where you rely just on a human, you're going to have bias in the decision-making process. And that can be minimized if you introduce decision, intelligence and AI into the whole decisioning workflow.
+[00:14:36] I use this yesterday also, too, and I because it's just 1 that that people can kind of relate to on a day-to-day basis.
+[00:14:43] Have you ever been in your car where you're driving to a destination, using Google Maps or Waze or Apple Maps and it pops up? And I found since I found a better route, that'll save you 5 minutes.
+[00:14:54] I always ask people when, if when they say yes, that's happened to me. I asked have you ever asked
+[00:15:00] For the analytics behind that.
+[00:15:02] And people like, what do you mean the analytics behind this? Well, there's a lot of analytics that go into determining, 1 route is shorter than the other, there's distance calculations this traffic patterns, there's crowdsourcing if you're using a, an app that actually will will take input. That's coming real time from different different users. So there's a lot that goes into that, but nobody really cares about the analytics in that use case, because they trust the recommendation in most cases.
+[00:15:30] Or, or you, you're not so sure about the recommendation, but you find out more often than not, if it says traffic is building up ahead. It's correct. So taking that other route is a better way to do it. So it's a good example of something that we all can experience that.
+[00:15:45] that happens on a daily basis, that's a good example of a decision intelligence systems, it it and also think about the idea of it being
+[00:15:53] autonomous and going out and working on my behalf. It's trying to get me to My outcome in a better route than than I may actually know how to do myself. That's what a decision intelligence platform can introduce into a decision Centric ecosystem.
+[00:16:09] Uh, also, think about the way that it communicated. It was like a like a, it's almost like a data story showing you the route, giving you the step by step instructions, rerouting you. These are all things that that a decision intelligence system or ecosystem should provide to you.
+[00:16:26] If you look at the the key characteristics or features,
+[00:16:30] Of these 2 different platforms. Let's just start on the on the bi side. So you have integration with multiple data sources, so you get a complete view of what I need to understand for my decision.
+[00:16:42] I have advanced analytics that do statistical models to uncover patterns drivers make predictions about what's going to happen next. Predictive Analytics.
+[00:16:51] I visualize it in a dashboard to make it easier for me to consume with a dashboard. The idea is that you can see lots of data at aggregate levels at detailed levels and you can see relationships that you can't see if you're just looking at a spreadsheet.
+[00:17:06] But it relies on me to make that interpretation.
+[00:17:10] And you can explore data and drill down and pivot to look at it. Different ways you can.
+[00:17:15] Monitor your kpis to understand whether you're moving or influencing the outcomes that you want. And the other thing, this is for the first step that we ever took. If you will in decision intelligence or the relationship where it began is in embedded analytics, most bi vendors have a special license for their bi software called the embedded analytics license. And it's it's a thing that allows you to embed a report or dashboard in another application via an API. So, in Salesforce, in sap inservice, now in workday, or whatever application you use, you can see the analytics side by side with where you're making a decision and taking action on it. That was the first place that we brought the 2 together where we're actually trying to.
+[00:18:00] Influence the decision and outcome of bring them closer together.
+[00:18:03] On the decision intelligence side, the first thing you'll notice is that the first 2 are exactly the same.
+[00:18:09] although,
+[00:18:10] when you're thinking about integration of multiple data sources with decision, intelligence decision, intelligence,
+[00:18:17] Also focuses on Real Time context what other things are going on. Besides the structural data that I'm looking at that, I need to know about. It does weather influence. My outcome is does Consumer sentiment in what people are saying on social media influencer. The things that I'm going to do with whatever I'm trying to accomplish. So real time and contextual information in unstructured, information are brought into that integration process.
+[00:18:45] Uh, and that still could be related on the bi side Advanced analytics are there as well.
+[00:18:50] Other things, simulation and optimization.
+[00:18:53] Um, I look at optimization as a way to say, 1 of the things about Optimum. There's 1 of the, the Gobi I believe is here is is an optimization vendor their specifically good at, uh, optimization kinds of of, of, of questions that happen within businesses. Um,
+[00:19:11] Not every.
+[00:19:14] Uh, not every situation has just 1 answer, right? Sometimes there's an infinite amount of answers and just which of those infinite answers is the best 1 for the outcome. I want to produce.
+[00:19:26] I used to go to, uh, when my daughter was young, we used to go to
+[00:19:30] Uh, the store and I let her get, you know, piece of candy. And she would like, I don't know what to get the Skittles or the chocolate bar, the Skittles or the chocolate bar. I said, do you like Skittles? Yes. Do you like chocolate bars? Yes. So there's no wrong decision, there. Whatever you get you're going to like but you can only get 1 of them. And that's like decisions too. Sometimes decisions are just, which is the best 1 at this point. And that's what an optimization tool. Do simulation is another, really, really big thing happening just in the industry in general is, can I simulate can I make believe I made the decision show me what would happen and what all the outcomes that could come from me making that decision before I make the decision, that's a really big important part of decision intelligence. And then, of course, the modeling in the orchestration,
+[00:20:15] Action Frameworks is a area of software where you're connecting.
+[00:20:20] A decision to the action. So very often a decision is a transaction, right? I need to order more to increase inventory. I need to do something in the system to Discount, this item by 5%, uh, those are transactional things. Sometimes a decision is a delegation, I need to send an email to a subordinate or to a manager or it may have multiple things that need to happen, right? Um, so the action Frameworks allow you to take action on the decision and then finally 1 of the most important is the governance portion of it, all of the things that happen in a decision workflow, right? Something to a log file.
+[00:20:56] And then you can monitor what happened.
+[00:20:59] so, when I made,
+[00:21:00] That decision.
+[00:21:01] Did it have the outcome that I thought was going to happen and then you start to measure the accuracy of those decisions and you use previous decisions as feedback loop into a model so that it can improve for future decisions. So the idea of a a decision intelligence ecosystem, is it should improve and get better over time.
+[00:21:25] Now, I just pointed that out to you, but the first 2, in a sense should be, you could have a common layer. As a matter of fact, I have a suggestion later on which is about the idea that you should be. You should be looking if you're looking to move in and trial decision intelligence, whether it's as a practice or
+[00:21:45] Implementing a platform, a logical place to do. It might be where you already are doing embedded analytics, a place where you're giving people analytics, can it be transformed into a recommendation and an automated action that takes place? If the human accepts that good place to start for where you're going to bring the 2 together?
+[00:22:09] If you look at where we are today,
+[00:22:12] This is probably like a good example, you know, we do a lot of we're dominated by dashboards in many cases.
+[00:22:19] We're starting to embed analytics inside of applications.
+[00:22:23] It's, there's a limited connection to the actual decisions that are made and it requires human interpretation. And, you know,
+[00:22:30] Notice that there is augmentation in automation, that happens already. I mean, just I mentioned already price optimization as an example. Resume selection, is another big thing. That's very automated with enter Enterprises. There's an AI, that will look at a resume and a job description and understand the act, the connection, this is 80% of what we need in the job. This is 95% of what we need in the job and this person's resume and you take a thousand resumes and you get 10 that are really, really good. That's a very common thing that happens in most organizations. That's a an example of a, uh, an augmented decision process.
+[00:23:04] but what we're moving towards is a world where there will be much more augmentation and somewhat more Automation and a little bit less decision support we
+[00:23:15] We actually did a, a survey uh, about it last year. I think it was last year's survey and we found that the idea of the 3 models which do people prefer or Enterprises prefer and decision augmentation. AI recommends.
+[00:23:31] And a human in the loop decides whether that's a good recommendation and takes action on it, if you will, it's a 2 to 1.
+[00:23:37] 2 to 1, they prefer the augmentation over automation, or support. So just food for thought.
+[00:23:45] Now, that's the world of bi that will be the idea. I mean obviously all 3 can be done by dips but the idea is the augmentation where there's a lot of probabilistic uh answer that's that's becoming the most important.
+[00:24:00] If you think about this, what's the point of a decision intelligence platform is? It's, it's to improve decision, quality
+[00:24:08] If you rely on humans in theory, it's going to be the same quality of decision each time unless you replace the human with another human. But in theory decision, quality can get better if you but it relies on really good data. No matter what it relies on data, that's of a high quality. Um, so that's the most the most important part scalability. So in theory, if you start to do more automation decisions can happen at a much faster Pace, right?
+[00:24:34] Um,
+[00:24:35] risk. Mitigation, Of course, the IDE 1 of the big parts of a decision. Intelligence platform is its ability to provide the explainability
+[00:24:45] when more things are automated, um,
+[00:24:49] I saw a thing recently, it was, you know, it was I'm writing a thing about decision. Providence being a really important part of what we're doing with AI, understanding, how, what was the background of that decision but the SI, the risk mitigation is, is the idea that I can explain exactly how that decision was made. If it, if, if something happens where an AI makes a decision and it was something that
+[00:25:13] Puts my company at risk of of being uh, getting regular finds then.
+[00:25:19] I can't just say it's not my fault, it was the AI. I had somebody's responsible for that. So you need to understand the origin of decisions and decision intelligence platforms, do that very nicely and it can
+[00:25:30] Reduce the risk of of, uh, associating with that and collaboration a breakdown of silos. There's a logical thing where decision intelligence is breaking down. A lot of the barriers across business units.
+[00:25:43] So coming into the end here, um, just some more statistics from Gartner, um, the majority of it leaders and cios believe that generative AI helps them make better decisions. So people think already that it's helping them make better decisions. And decisions Centric is having a use case orientation so you focused on the outcome and a prime and and a focal point on decisions think of decisions like data, I mean data is an asset so are the decisions and and keeping track of decisions and monitoring improving them.
+[00:26:15] So decisions become Enterprise assets.
+[00:26:18] And again, if you put them side by side,
+[00:26:21] um,
+[00:26:22] We went through all the things that a bi platform does kpi monitoring dashboards embedded, alerts. I didn't talk about that yet, but alerts, but that could play an important part in a combined ecosystem, Advanced analytics, uh, you have analysts who analyze data developers, who embed data. And then decision makers, who do the decision, support on the other side, just from the role perspective, the decision Engineers, who are doing the models analyst understanding the, the domain specific stuff, uh, that that go into the models. They say, decision scientists using machine learning mathematical optimization for best outcomes decision.
+[00:27:00] Wards people who were responsible for monitoring those decisions and again the same decision maker who can to use all 3 of those things.
+[00:27:11] So when you combine them, you might notice that the names of the things are going to be different in my final picture.
+[00:27:16] Um,
+[00:27:18] What you should look to do is have a combined layer the data. There's no reason why the data layer
+[00:27:24] Should not be the same across both of them. Common semantic. Layer across. You have the decision modeling.
+[00:27:30] The bi alerts in in can be triggers for decisions the alerts that you're already thinking about doing. Now could be the triggers that initiate a decision to happen.
+[00:27:40] a graph is very big part of a decision intelligence platform which introduced
+[00:27:45] Reduces the idea of using contextual information and looking at the relationships of different internal and external data that may influence decisions.
+[00:27:54] Um, simulation and optimization dashboards instead of being
+[00:28:01] An advisory thing that tells me what decision to make it is more about an explanation of why the decision was made. So you think about it going from advisory on decisions to um, an explanation or an audit of the decision.
+[00:28:18] Um, decision governance. We already talked about and kpis don't go away the overall kpis for an Enterprise, an a kpi dashboard should always be there and tell humans
+[00:28:30] Whether the ship is moving in the right direction.
+[00:28:32] Uh, and that could be a kind of a foundational thing on how you build on top of these 2 things coming together.
+[00:28:40] So just you know, 1 way to let so AI becomes sort of like uh the observation layer, if you will uh the evidence base for ai's reasoning.
+[00:28:50] Uh, and you create a closed loop, the system where dashboards become signal, generators, kpis are decision. Explanations alerts can become triggers. So you think about it as bi can be where you break ground on a potential, future decision intelligence or decision ecosystem.
+[00:29:09] Decision. Models or built. This decision intelligence acts be.
+[00:29:15] I can measure the decisions that were made and Di learns from those decisions and gets better. That's sort of the ecosystem that you're looking to build.
+[00:29:24] These are just good examples. I'll I'll just pick on 2 of them. Quickly of where the 2 were living together because you'll see just from reading them off. You start to see
+[00:29:33] Why they're they're actually different things of part of the same ecosystem. So in in financial services
+[00:29:40] Uh, bi report can report historical, performance?
+[00:29:46] Risk metrics compliance and transaction Trends where di is flagging fraud. Predicting risk recommend lending based on curated bi data in healthcare you analyze patient.
+[00:30:00] Flows resources and outcomes from historical operational data.
+[00:30:05] Di predicts patient surges.
+[00:30:08] Optimizes Staffing and suggests treatment for the patient. You can see how they they're in the same realm, but they're not doing the same thing and they can still participate in the same part.
+[00:30:21] So just some of the final recommendations data quality become some of the most important part of this. So so dies. Effectiveness is going to be undermined if the bi foundational infrastructure is in very good, so that's an important part of that. Uh, it it it, it relies on a really good semantic layer and go good quality data.
+[00:30:42] User trust there. There's a
+[00:30:45] There's a lot of push back when you introduce the idea of decision intelligence where there's a lot of bi analysts because they think that their job is going to go away and they want to be able to rely on the reports and dashboards that they looked at for making decisions to at least validate that the DI is making a good recommendation. So I think that there's a comfort level that you get to when you kind of blend these 2 environments together that people can feel more comfortable that. Yeah, these decisions that are being recommended or very accurate or they're not accurate. So so that's an important part of the Dual system approach.
+[00:31:18] Um,
+[00:31:19] you can definitely look at the complexity of the integration increasing in a in an environment where where you need to bring in real time information. Contextual information of
+[00:31:30] Structured data that could influence outcomes. So the integration layer the integration of these things can be more complex when they're combined together. So you think about real time becoming an important part of that
+[00:31:41] um,
+[00:31:42] And think about incremental adoption moving too quickly, can you know can sometimes increase risks? So the idea of focusing on that middle ground, a recommendation based on probabilities in the middle of a process before you go to complete automation. I think that that's probably 1 of the best recommendations is. Where are we? Embedding just reports and dashboards now.
+[00:32:06] Can we get to a place where AI recommends the next best action?
+[00:32:10] Uh and so you go to an all sort of like a middle of the road before you go to complete.
+[00:32:15] what autonomy and the more you start to feel comfortable with it, the more you get like the Google Maps example where I trust the recommendation, I'm going to take it but when that happens 1 of the things that does happen on the other end is that the Analytics
+[00:32:27] Become more and more invisible and in the background and you don't see them anymore because you trust the AI. So that's why it's important to have an audit process to go over oversee, this, as well.
+[00:32:38] That's all I have. Thank you for coming. I appreciate your time. Hope you got some good thing and I'll be here for questions.

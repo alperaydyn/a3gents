@@ -1,0 +1,340 @@
+[00:00:04] Good afternoon everybody and welcome to a data agent talk.
+[00:00:09] Um, I hope you guys are all enjoying the conference so far.
+[00:00:12] I hope that you are mentally entertained, emotionally distracted and uh, a little bit tired at this time of the afternoon.
+[00:00:22] Uh, my name is Mark Byer. I'm a distinguished vice president analyst with Gardner.
+[00:00:27] I am a former practitioner in data integration data management.
+[00:00:31] I have been doing something with data since 1989 um and I really enjoy hard problems.
+[00:00:40] So, I am going to talk about data agents this afternoon.
+[00:00:45] Because 1 of the sort of typical mistakes that we make in it over and over again, is we forget that data is reused by all use cases.
+[00:00:59] This is not about data agents for AI.
+[00:01:05] This is about data agents. AI is only in the title because everyone in the market wants AI in the title.
+[00:01:15] So this is about data agents, and that's what we're going to talk about today.
+[00:01:21] So, 1 of the most important aspects about understanding a data agent, is that a data agent is all about.
+[00:01:30] Standing everything about the data asset.
+[00:01:34] And interpreting the request.
+[00:01:37] And going out and finding a effectively your assets.
+[00:01:42] by the metadata that is known about them and said, hey, if you're looking for X,
+[00:01:49] I have X, that's why we don't want, why?
+[00:01:54] An agent is something that behaves like a human. And in this case, it has to behave like a data engineer that knows what they're doing.
+[00:02:04] So that's what a data agent. Is it monitors the use cases, it monitors the utilization. Um, the metadata that comes from all sorts of inputs.
+[00:02:15] Turns into an input to the data agents reasoning.
+[00:02:18] And it says, if you're looking for something, I can find it, it's just like going and doing requirement specification with a really great data engineer or a really good data architect. That's the job of a data agent.
+[00:02:35] So we're going to go over 3 key issues. What are the primary components of a data agent? We're going to talk about how metadata helps tune the way the agent behaves. And then we're going to talk about the difference between small agents and large agents and how to have them work together.
+[00:02:50] Now in all of our Gartner presentations, we like to set a little bit of context. First, I know that the 1 of the themes of this particular Summit is contact.
+[00:03:00] Text. So we're going to set context for this presentation.
+[00:03:04] So before we jump into the next part, I'm going to make this big point, it's really easy.
+[00:03:12] To build a data agent.
+[00:03:14] Honest.
+[00:03:16] To build a good data agent is a different Prospect.
+[00:03:20] And so I want you guys to have a little bit of fun with me right now. I want you to think about what this slide says and I'm going to read it out loud. Take several seats your agents are dank get on fleek.
+[00:03:35] How many of you understand that?
+[00:03:37] That's gen Z language 4.
+[00:03:41] You don't know what you're talking about. You're making way too many assumptions.
+[00:03:45] Your overruling, everybody else in the room, sit down, and shut up and listen to what other people have to say, because what you're telling us is useless. So, why don't you listen to everyone else? Figure out what we're saying and make something we can use
+[00:04:01] But it's a lot faster to say, take several seats, your agents are dank and get on fleek.
+[00:04:07] So notice the caption I have absolutely no idea what you just said. If I can't explain to the data agent, what I need it's going to go get whatever it got the last time. That's what it's going to do.
+[00:04:23] So, we have to learn how to talk to the metadata and how to talk to the data agent and it.
+[00:04:30] Has to learn how to talk to us.
+[00:04:32] Now, a lot of people will say, that's a semantic.
+[00:04:35] I'm going to give you a weird experience with the word. Semantics, semantics are not static.
+[00:04:42] Semantics are in context.
+[00:04:46] Semantics are a negotiation, every time we talk to each other, we say a word we're not entirely certain that you heard the same word that I was saying.
+[00:05:00] I am not certain that you are repeating back even using the same words, the same meaning.
+[00:05:06] And the reason we can communicate with each other is we start to have a shared context.
+[00:05:12] and as the negotiation,
+[00:05:15] Continues. You develop a semantic, that's what semantics is. Semantics is a negotiation and it happens all the time if you have children and you ask them to do something and they go off to do it and they come back and they did not do what you said, and then they say to you, but you told me to do XYZ and they did exactly XYZ. And, as a parent, I have 2 adult children now, who are adults, but don't like being called adult children, but they're still my children and now they're adults. So they're adult children. They don't like that. They would rather they say I'm a responsible adult and I can do what you asked me to
+[00:05:59] And yet, when I asked,
+[00:06:00] To do something and they don't do it, I go. Okay, where did responsible adult go? Because now we're having a Communications issue and of course, it's always my fault. So semantics is an ongoing and continuous negotiation. Now, if I don't have context,
+[00:06:19] And I don't understand what it is. You're trying to ask me or what you're trying to tell me.
+[00:06:25] I will get it wrong every time.
+[00:06:27] So I have to develop a shared context. So where does that come from?
+[00:06:31] 1 of the, an American actor. And we, by the way, we had a great slide image on here of Frank Burns guarding. A cow with his rifle in bayonet. And the whole point was
+[00:06:45] You didn't have to tell people that was absurd. Almost every culture, understood guarding a cow with a rifle in a bayonet and camouflage was probably absurd. So that is a shared context that we can all experience.
+[00:06:59] Alan Alda said listening.
+[00:07:02] Is the ability to be changed by the other person.
+[00:07:07] And that's what an agent has to do. It has to listen to multiple inputs, understand all the different terminology and equate that to the metadata that you have.
+[00:07:19] So we have to get a shared context.
+[00:07:22] So, let's talk about how data management skills Echo human skills.
+[00:07:27] Human beings. Listen with passive observation.
+[00:07:30] Ability.
+[00:07:31] Or active interoperability.
+[00:07:35] Passive observability is a 1-way communication.
+[00:07:38] It says, I need you to do the following. And when you respond
+[00:07:43] I will determine if it is correct.
+[00:07:46] It lacks dispute resolution.
+[00:07:49] It says, I told you to do something, do it.
+[00:07:52] It also lacks the understanding that processing can occur later.
+[00:07:58] Like right now in this room, I'm telling you a whole bunch of things. Some of you are going to leave the room and go, I got it and then 5 minutes later, you're going to be talking to each other and 2 of you are going to talk to each other and say no that's not what he said.
+[00:08:11] That's latent processing. You're now, working it out.
+[00:08:15] Later. Now, in active interoperability, we expect a response.
+[00:08:21] When we say something we expect it immediate response back. We are now negotiating the semantic. That's what your data agents going to do. It's going to test itself. See if it got the right answer going to show you a partial answer. Figure out if it got it, right, reinforce the model and say answer, a was wrong, B was close. Let's try B with c.
+[00:08:45] And agents are going to be very fast, they're going to go back and forth and they're going to do that negotiation.
+[00:08:51] The primary skill.
+[00:08:53] In an agent that is interoperable and active.
+[00:08:57] Is that it's a probability and elimination equ.
+[00:09:00] Occasion.
+[00:09:00] I tried something because it was probable.
+[00:09:04] I showed it to you and you said no.
+[00:09:08] Now, probability for that answer is less the next time.
+[00:09:13] And so I need a lot of metadata every single time the agent runs.
+[00:09:17] So when we think about passive observability, I want you to think about the existing processes you have.
+[00:09:25] You wrap them up.
+[00:09:28] And you say, this is an agent.
+[00:09:31] It's not.
+[00:09:33] All it's doing is machine enabling an existing process.
+[00:09:37] The agent has to test, it has to figure out if the answer is right or not.
+[00:09:43] so here, we're going to get a little
+[00:09:45] It down to brass tacks.
+[00:09:47] Your agents.
+[00:09:48] every time you go to access data are going to do 3 things,
+[00:09:54] they're going to execute a get
+[00:09:57] They're going to try to get the data and pull it back.
+[00:10:00] The second thing they're going to do is they're going to prepare the data. They might have to reparse it, think about a column that has been reused and has multiple data points in the same column.
+[00:10:12] I worked at a client site 1 time where they had a claim number for an insurance company.
+[00:10:17] The claim number had 12 length character. They could use alpha or numeric didn't matter alpha or digit.
+[00:10:24] 12.
+[00:10:26] That was what they used. The column width was 15.
+[00:10:30] 1 of the Departments realized nobody ever used the last 3 character places. They introduced 2 alphas and a digit and created a 26x 10 coding system.
+[00:10:43] Times 26.
+[00:10:45] Because there were 2 Alphas.
+[00:10:48] They issued a code book, they didn't tell anybody, they did it, they started inputting the data and all of the integration jobs blew up.
+[00:10:57] Said forget it it's not 12. We don't know what to do with these last 3 characters.
+[00:11:02] And so that's an example of parsing data and that's 1 of the things you got to do in prep parsing is not selecting The Columns in the rows, so get is pull it.
+[00:11:12] Prep is figure out what it's supposed to look like.
+[00:11:15] And put his confirmation.
+[00:11:17] I sent it to you. You verified, its correct.
+[00:11:21] The format and the content and you gave me a true back to the prep that said prep was good and then that Cascades back to the get and says get was true as well. So I have 3 different logical arguments right here.
+[00:11:38] That's what a data agent has to do every time get prep put
+[00:11:42] It needs to track. Who is using the data?
+[00:11:46] So we're going to go through logic right now of how to build a data graph portion of a Knowledge Graph and believe it or not, this is fast.
+[00:11:56] But it's going to give you a lot of detail so I I guess buckle up.
+[00:12:00] Up. So the first thing that's going to happen is in your organization right now. People are already executing queries processing. Steps reports, they're running Imports, they're running exports. There's a log, for every 1 of those.
+[00:12:16] It has the access pathway they use to get it.
+[00:12:19] It shows who they are.
+[00:12:21] It has stats that says how much data they retrieved.
+[00:12:25] It has a volumetric, it also has a frequency and distribution of the value that are included.
+[00:12:31] Depending on your log, it gets richer and richer.
+[00:12:34] If they have a shared access pathway, it probably came from an application or a portal, or an API, or a Gateway, and that knows who they were. So I can get
+[00:12:45] All the way back to the individual.
+[00:12:47] I can put the org chart on top of that and see who works with each other. I can see which data is used by which business unit Which business Channel, which delivery Channel. I can see, which processes are running the most often and which are running infrequently. I can build all of that, just by looking at logs.
+[00:13:07] Now, once I put the org chart on top of it, I can see who's using the data and where they're using it.
+[00:13:13] I can now look at unstructured reports and see where the data is showing up with other unstructured data.
+[00:13:21] When I look at the unstructured data, I can see what people think about the data.
+[00:13:27] I, there's always a write up around a
+[00:13:30] number in every report and the write-up usually says something like,
+[00:13:34] This period was 8% increase.
+[00:13:37] Which represents a 33% year-over-year?
+[00:13:40] And we like that.
+[00:13:43] that's 3, different statements that's a reporting statement, an analytic statement and a sentiment
+[00:13:48] There's usually an explanation of how they did the calculation, that's the math, and there's usually a sourcing statement.
+[00:13:56] If I take the image from a dashboard it has a title, it has a legend, it has column and row, headers and those are business terms.
+[00:14:07] That b, those business terms are specific to that report and that is context.
+[00:14:14] and once I link,
+[00:14:15] Take all of that together. I can use that as a thesaurus as a glossary and as a search engine.
+[00:14:23] And once I put all that together, an agent.
+[00:14:27] Can talk to it.
+[00:14:28] And a, somebody says to the agent, find me net present value of these assets.
+[00:14:35] Once I've asked that question, I go into that graph, I find that person or that or unit I find the data they normally, like to use I find the words Net Present Value, I find the equation that was in that report or in that dashboard and I know now that's the right data.
+[00:14:56] That's how you build a n, the data graph portion of a knowledge graph.
+[00:15:00] And so, if you think about that, the get is tracking all of that metadata. Now
+[00:15:06] Is the get going to do that? And the answer is no.
+[00:15:09] You have to piece together, the metadata from everywhere, you can get it.
+[00:15:14] Some systems have great. Meditator
+[00:15:17] They document everything other systems are like, metadata black holes, there's nothing there. Except for maybe the description.
+[00:15:25] So if you think about that idea, the question becomes, what I do with that blank 1 with that black hole.
+[00:15:31] when people put data together,
+[00:15:34] they are linking the metadata of all the assets together.
+[00:15:40] When you link metadata together, it's no longer set.
+[00:15:45] Separate.
+[00:15:46] Metadata itself is a graph.
+[00:15:49] So if I link Rich metadata to Rich metadata through a black hole,
+[00:15:55] it works just like a black hole. All the metadata is now sucked into the middle.
+[00:16:00] That's how it works.
+[00:16:02] So, you can start anywhere. We recommended data fabric, we recommend active metadata Management Systems
+[00:16:10] But you can collect metadata in any form you want to and do that type of process.
+[00:16:15] Now, after you do that, you want to look at the queries. The views, the reports, the processing steps code tells you what people do to data,
+[00:16:25] It's right there in the report, you wrote.
+[00:16:28] I can see all of that.
+[00:16:30] I can recognize which predicates in other words, which logical arguments, where select filter join that goes with that data.
+[00:16:39] After I create my lists, using all of my logical arguments.
+[00:16:43] I can look at the math.
+[00:16:45] You like count you like some you like men median mean Max. I can see all of that. Maybe I can see in your model you like to do things like linear regression. You like to use K mean
+[00:16:58] I can build that as a triple, this object likes linear regression with this other data object in this department by these people.
+[00:17:10] The agent. Now can read that metadata and say, oh I found data that look
+[00:17:15] Like this other data, the profiles are similar. It's in the same type of business process.
+[00:17:21] Let's do this fun thing data agent says, show me a query that already runs that way.
+[00:17:27] Clone the query, run it in a sandbox.
+[00:17:31] Let me see the results of the 2 processes with the 2 sets of data.
+[00:17:36] It can do a correlation analysis and say, I think I'm right.
+[00:17:40] Push the data out.
+[00:17:42] Agents need to be built with the idea of understanding what came before.
+[00:17:48] Who uses them?
+[00:17:49] And how many times?
+[00:17:51] That's the put.
+[00:17:55] I'm going to break it down in simple way.
+[00:17:57] That was the big model. I said it was going to be Excel.
+[00:18:00] Like a freight train. Here comes the simple version.
+[00:18:04] You got to get.
+[00:18:07] You got to prep.
+[00:18:09] You got to put.
+[00:18:11] And I said it's not specific to AI.
+[00:18:15] That's for any consumption model.
+[00:18:18] if I'm going from 1,
+[00:18:21] I can do application integration. The consumption is the second application.
+[00:18:26] if I'm doing a report,
+[00:18:29] bi and Analytics.
+[00:18:31] Same thing.
+[00:18:33] The consumption layer is just the report.
+[00:18:36] if I'm doing a regulatory filing or a compliance report,
+[00:18:41] I'm doing get prep, put
+[00:18:43] and I'm putting it into a
+[00:18:45] Assuming dashboard or consuming report.
+[00:18:48] So this is how you have to break a data agent down, but the question is, do I do all 3 every time?
+[00:18:55] The answer is no.
+[00:18:57] You have to determine the grain of your data agent.
+[00:19:01] What if 1 data agent, does the get?
+[00:19:05] Another 1 does the prep.
+[00:19:07] and a third 1 does the put
+[00:19:10] that's far more granular.
+[00:19:13] Why would I do that? Well, what if the same data
+[00:19:16] Has to be prepared more than 1 different 1, way or another.
+[00:19:20] For different consumptions.
+[00:19:23] When that same data has a diverse prep,
+[00:19:27] Because of context.
+[00:19:29] I want to isolate.
+[00:19:30] The get.
+[00:19:31] Very small agent, just get my data.
+[00:19:34] If everybody wants the data to look the same feel the same act, the same, I can put get and prep together.
+[00:19:41] In a single agent.
+[00:19:43] If different use cases, use that same prep, I could have 3 or 4 different puts
+[00:19:49] All of them will get their own metadata, they all get their own runtime. So I want you to look at this chart as 6 things
+[00:19:56] And remember from math class how factorials work.
+[00:20:01] There's 6 choices here.
+[00:20:04] 1 2 3 4 5 6.
+[00:20:09] think of that as your strategy of how big you want to build your data agents, and how much complexity you want to put,
+[00:20:15] Into each of those and it's going to be driven by the ReUse commonality or shared context of the data.
+[00:20:24] So what's the key issue takeaway data in are not specific to 1 type of use case? It's not only for AI data was here before. AI data was here before, bi data was here before data management.
+[00:20:38] If you think about it, the Romans used to send data and Scrolls.
+[00:20:42] So data has been around a long, long time. It's going to remain an inert object until you put it into a use case. So determine the get, determine the prep, determine the extent to which they all go together.
+[00:20:56] so, number 2, and this is where we hit the accelerator once the
+[00:21:00] Groundworks laid, you guys, if you've been in my presentations before foundation is everything. Once you get past Foundation, I can just use stuff over and over again and so can you
+[00:21:10] So the next key issue, how does metadata help tune it? Well, I kind of talked you through it but I want you to think about assets being used in different tasks
+[00:21:18] It's the data asset being used in the task. And if you think about it, let's talk about asset task number 1. There's a need up here for asset number 1.
+[00:21:29] That might be a commonality of a data agent. I look at my next use case and say wow, there's a task here. I've got a second task here. Same asset being used in both tasks.
+[00:21:41] that's an example of 1, get
+[00:21:44] to Preps.
+[00:21:45] And so if you think about this chart and breaking it out again, get prep put you're getting a little bit of a chart of how to break things out. But these are the 3 question, you asked.
+[00:21:55] What data usage do you need number 1? Where in the org chart of your organization to people need the data? That's the first question to ask. That's usage.
+[00:22:05] What data assets do you have?
+[00:22:09] That's where you need the metadata. You better start finding out everything about your assets that you can. Now here's the good part about the metadata.
+[00:22:17] Don't go out on a massive, metadata management project.
+[00:22:22] You probably don't have the budget. You probably don't have the people.
+[00:22:27] Instead turn.
+[00:22:30] A machine learning engine on the metadata you have.
+[00:22:35] It will show you which assets people are using, put the logs in there. Put the profile in their build, the graph from the code data, Ops tools do this all the time.
+[00:22:46] Advanced metadata management tools, do it as well.
+[00:22:49] But it's not about getting more metadata.
+[00:22:52] 1 of the things that I like to tell people about using their data assets when they're reusing them all data is reused.
+[00:23:00] All data.
+[00:23:02] Is reused.
+[00:23:04] Just watch how people are using it.
+[00:23:06] You don't have to build something new. You just read the metadata. You have any metadata that connects fills the black hole.
+[00:23:13] And finally, how should they all be?
+[00:23:15] Orchestrated together.
+[00:23:16] That's the flow of the data by the metadata, through the logs through the applications to the org chart.
+[00:23:23] And then once you have that connection, you know who's using what?
+[00:23:27] This is another way of saying the same thing and I introduced 1 More Concept.
+[00:23:32] If I have a separate get prep and put agent 3, different agents.
+[00:23:38] Used in a use case.
+[00:23:40] I need something wrapped around them.
+[00:23:43] To actually monitoring the metadata of how the 3 connect.
+[00:23:46] So this is an orchestration agent.
+[00:23:50] The orchestration agent is only needed when I'm not doing all 3 together.
+[00:23:56] So orchestration agent says, how does get prep talk to put?
+[00:24:00] How does get talked to prep put?
+[00:24:03] How to each of the 3, talk to each other. It will have its own metadata. Once I understand it. That's where I get my confidence.
+[00:24:11] And what happens is the data agent reports back, the orchestration agent reports back from the consuming case and says, hey, you did a good job. You filled up my sample, cell framework and a AI, you filled up my data sheet,
+[00:24:26] And I can compare the metadata to the data sheet and say I did it.
+[00:24:31] You got the data you were looking for. It's in your data sheet. That's how you specify the data that AI model needs. It's in the model card, ask your data scientist. What's your data sheet? Look like tell me how to fill it up. Okay I'm going to build you an agent.
+[00:24:47] This is the cycle.
+[00:24:49] Of all the different kinds of metadata that you can put together.
+[00:24:53] Notice it starts at the same place identify access read. Parse, I want you to notice it says qualify.
+[00:25:04] Not quality.
+[00:25:07] Qualify is 2 parts.
+[00:25:10] You assure the data, fits the governance model that's quality.
+[00:25:15] But you also qualify it for use case.
+[00:25:18] If the data is classified and your use case is not cleared, that's part of qualify.
+[00:25:26] If 2 people using the same data,
+[00:25:29] Are coming.
+[00:25:30] Up with 2 different answers.
+[00:25:31] They either changed the math.
+[00:25:34] Or 1 of them, can't see all the data.
+[00:25:37] Those are the only 2 things that can change the answer, with the same data, different math or different classification. We continue on around the wheel, make sure the structure is right, we transmit it. We write it, we confirm it and then we commit it and an agent environment, the agent simply sends the data and waits for the consumption case to report. Back through the confirmation says I got it. The data agent says fine, I'm committing my metadata to my repository. I'm going to track what I do now.
+[00:26:06] the other thing I want you to notice on here, is this
+[00:26:10] every time you reuse meta reuse data, it creates 10, n of metadata.
+[00:26:16] Metadata is enormous.
+[00:26:18] Do not try to track all your metadata go to graph model of what the metadata looks like.
+[00:26:24] And then put statistics on the graph model.
+[00:26:28] If you try to keep all of your metadata for all of eternity, the library at Alexandria burned to the ground. That's gone a long time ago.
+[00:26:36] So don't try to keep all of your metadata.
+[00:26:39] This is how the model Works. In another approach, get a data fabric to get the usage and utilization. That's all the logs. It's all the profiles. Analyze the content and understand how people are putting it together. This is how a data fabric adds observability. So the agent can use the observability
+[00:27:00] I'm going to go ahead and go to the next 1 because I want to make sure we get to a good example here.
+[00:27:06] Also know.
+[00:27:08] That the use case may require a different level of confirmation.
+[00:27:14] In this particular case, if you look at this, it says, hey my data has to be above the green line.
+[00:27:20] I did my get in my prep and over time I can prove my agent is above the green line.
+[00:27:27] But what if I have a use case, that's highly specific to an event within a period of time.
+[00:27:34] The same exact data. Same exact metadata shows weight in period 1, it failed. Period 2 is succeeded period 3. It failed succeed.
+[00:27:45] Succeed. Fail, fail, I need to understand the granularity of the use case, and that's what the orchestration agent is doing. It's saying you can flatten it out, or you got to keep them separate.
+[00:27:59] Yet another picture of how to break out the data agent. This is an AI model card, it tells you what people are looking for, what data they need, how much of it they need. If you look at the model card, there's that data sheet or that sample, cell framework, it tells you, I have 400 sells, please, fill up these 280.
+[00:28:20] Oh, by the way, my confidence goes from 92% to 96%. If you fill up a 100 more,
+[00:28:28] So, the model card, the data.
+[00:28:30] This sheet tells you how much data it needs.
+[00:28:32] The governance model tells you if it's an approved Source how big the data is, how much of it you have where to find it, the orchestration agent Compares. These 2 things
+[00:28:43] and says data agent, we got your data.
+[00:28:45] This is where we found it.
+[00:28:48] Key issue, takeaway audit and learning feedback loop
+[00:28:54] Monitor everything that runs and analyze The Living Daylights out of it.
+[00:28:59] You don't have to do it manually.
+[00:29:01] machine learning graph analysis and automated data profiling will fill up that metadata
+[00:29:09] Last key issue. Small agents versus big agents, how to get from where we are to where
+[00:29:15] You got to go, you've already built data, integration jobs, data quality jobs, Master data management, jobs they do it like this. They grab the data, they get the access. They ingest it. They bespoke analyze it, and they spit it back out. They refactor it. They reform it, and they deliver it.
+[00:29:32] Why not just break that in half?
+[00:29:34] Have all the get and prep.
+[00:29:37] Around a hub.
+[00:29:40] Which is the data fabric, which is recording all that metadata.
+[00:29:43] Why not get all of the different steps in your different pipelines and get metadata for each step?
+[00:29:51] This is the way the fabric goes together with that miraculous hub.
+[00:29:56] You're slowly going to build graph.
+[00:29:58] A big graph.
+[00:30:00] From all the small graphs.
+[00:30:02] And this is where I'm going to tie that unstructured data, comment from the very beginning back to the total theme.
+[00:30:08] When people use assets together.
+[00:30:12] They are telling you, they're linked.
+[00:30:15] If you see an image.
+[00:30:17] In a report.
+[00:30:19] Next to a bi dashboard graphic.
+[00:30:22] With a bunch of words around it.
+[00:30:24] That's context.
+[00:30:27] Chunk the document.
+[00:30:29] Grab the image reference, get the source citation and fill out a graph.
+[00:30:36] The data agent will find that the next time.
+[00:30:40] It'll be able to look for it if you're using different words in 2 different departments.
+[00:30:45] If it's the same data.
+[00:30:48] And it's the same math.
+[00:30:50] It's the same thing.
+[00:30:53] It doesn't matter what words they use. So now I can analyze the data in the math and attach all the word tags I want to
+[00:31:00] Now, it's a reverse thesaurus. You type in 1 thing, I type in another thing, same data, same math, we're talking to each other,
+[00:31:10] and that's the negotiation of how semantics links with this whole thing.
+[00:31:15] The orchestration engine.
+[00:31:17] Right in the loop.
+[00:31:20] Capturing more metadata, adding the summary graph.
+[00:31:24] And building out what the data agent needs to read the next time.
+[00:31:28] And with that, you have
+[00:31:30] To ask yourself the question as I promised at the beginning. Will you build a small agent? Will you build layers or will you build a large agent? And it's based upon how consistent it is between each of these 3 parts?
+[00:31:44] And that's how you decide the grain of your data. Aging agent, what is my plan leaving out of here? I know that we're 1 and a half minutes over. I promise we won't go more than 3 minutes over. So what's the plan on Monday first? 100 days? Figure out. If you're really ready for agentic data, do you already know how to analyze the logs? The access Pathways all the information review? How those assets are combined figure out who's using the same data, but in different departments, come down here to the Bob and bottom and use that
+[00:32:15] Understand the grain long term.
+[00:32:18] Learn how to make go. No-go decisions about whether the agents useful or not because they have broad use, simple use identify identical or closely parallel, reuse cases, cluster, those together, create a priority model and then group up their budgets.
+[00:32:35] Everybody has a little bit of their budget left for design, a little bit of their budget, left for metadata. None of them are big enough by themselves.
+[00:32:44] Find the Clusters and grab that marginal budget which was always inadequate and create a group funding effort. And finally build, at least 1, orchestration agent as a prototype, build a get prep, put that are all
+[00:33:00] Separate and then build an orchestration around it. That's going to give you the prototype to teach you how to build more agents later with that. I'm going to put up some recommended research as promised. It's 301 after. Thank you very much, everybody for your extra 3 minutes and I'll be standing up here.

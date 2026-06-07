@@ -1,0 +1,58 @@
+{
+  "summary": "The session discusses the current state and future of data governance, emphasizing the need for organizations to adapt their governance frameworks to support AI ambitions. It highlights the importance of integrating technology and collaboration across various governance mechanisms to ensure effective data management. The speaker outlines key drivers for change and actionable steps to future-proof governance practices.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Current State of Data Governance",
+      "key_points": [
+        "Many organizations struggle with the effectiveness of their current data governance programs.",
+        "Only one-third of surveyed organizations have responsibility for AI-ready data."
+      ],
+      "start_time": "00:00:03",
+      "end_time": "00:10:00"
+    },
+    {
+      "order": 2,
+      "topic": "Drivers of Change in Governance",
+      "key_points": [
+        "The scope of governance is expanding to include unstructured data and AI agents.",
+        "Technology is enabling more effective execution of governance policies."
+      ],
+      "start_time": "00:10:00",
+      "end_time": "00:20:00"
+    },
+    {
+      "order": 3,
+      "topic": "Future-Proofing Data Governance",
+      "key_points": [
+        "Organizations need to focus on explicit business outcomes rather than just data.",
+        "Developing a common language and formalizing stewardship models is essential."
+      ],
+      "start_time": "00:20:00",
+      "end_time": "00:30:23"
+    }
+  ],
+  "key_takeaways": [
+    "Data governance must evolve to support AI ambitions and ensure effective management of derived assets.",
+    "Organizations should integrate technology into governance practices to enhance efficiency and compliance.",
+    "Building a risk register and understanding the language of risk management is crucial for effective governance."
+  ],
+  "entities": [
+    {
+      "data governance": 12
+    },
+    {
+      "ai agents": 5
+    },
+    {
+      "trust": 8
+    },
+    {
+      "stewardship": 7
+    },
+    {
+      "risk management": 6
+    }
+  ],
+  "subject_area_id": "governance"
+}

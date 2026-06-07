@@ -1,0 +1,286 @@
+[00:00:05] Good afternoon, everybody. Welcome to the session. Uh, I know we have options because I don't know if you know this, but we have about 270 sessions over 3 days. This is the mid midpoint so almost like 150 in. So I know you have uh, options. So thank you very much for for making time.
+[00:00:24] And today, I'm going to talk about a topic.
+[00:00:27] That I'm passionate about and I think you should be passionate about and I guess you are all of us you wouldn't show up which is explainability of artificial intelligence. Okay? Um
+[00:00:37] as you can tell from my name,
+[00:00:39] Definitely my accent. I'm originally from the Netherlands, but I live in Canada. I went to Canada.
+[00:00:45] 2 years ago, to become a pilot.
+[00:00:47] Um, question too many planes and that's how I ended up in AI. Well, getting aside, I compromised, uh, but I've been in AI for, uh, well longer than I want to want to remember. But the reason why I'm showing this picture is not so much. Like, how does our corporate work? But if you think about it, millions and millions of hundreds of millions of people every year,
+[00:01:08] They take this transport.
+[00:01:11] Yet 99.999% of the people. Cannot explain how an airplane. Works doesn't know the intricate ecosystem of the crew. The crown staff Air Traffic Control yet. They put the trust in that ecosystem. To get them from A to B in a safe and secure manner.
+[00:01:28] Wouldn't it be great if we can do the same?
+[00:01:30] With our AI systems.
+[00:01:32] So the purpose of today is I'm going to give you hopefully
+[00:01:36] a couple of good best practices that will help you with AI explainability because AI explainability is essentially 1 of the pillars to get to trust at least the way how we see it.
+[00:01:50] To get it in there.
+[00:01:54] By the way.
+[00:01:55] This presentation is based on the great work, from my colleague Miriam heno uh the Gartner clients on the you you may have talked to her about this or maybe not as grass. So here's the deal. I want to make with you.
+[00:02:06] if you like what you hear today,
+[00:02:08] I get all the credit.
+[00:02:10] If you don't like it, we blame Miriam, okay? All right. Good before we do that.
+[00:02:15] Let's talk about the adoption rate of AI, so, a quick survey for the orders, and if you attended the keynote yesterday, you probably have a little bit, have an idea. The question is
+[00:02:25] What is the adoption rate?
+[00:02:26] Of AI models built by technical Professionals in production.
+[00:02:31] Who thinks it's less than 50%.
+[00:02:36] Fair, who thinks it's between 15 and 75%.
+[00:02:41] And who thinks is 75%. 200%
+[00:02:46] Group, your 2% mistake.
+[00:02:50] The third group you are too optimistic. Otherwise hardly see any hands.
+[00:02:53] The second group is quite kind of in the middle.
+[00:02:57] So it's about 65%. Now I'm not going to debate if it
+[00:03:00] 6768 59, it doesn't matter. The point is about 2/3 of models that are produced make it to production.
+[00:03:08] Okay. Is it a low number? It's in the eye of the beholder. You might say it's slightly better than a random coin toss. Okay. Is it low low? No.
+[00:03:18] So what are reasons?
+[00:03:19] I used to be an AI scientist before I joined Gartner a while ago.
+[00:03:24] So I've been in the trenches like most of you, okay? And I can tell you, based on my own experience that a couple of reasons why this is the case is
+[00:03:32] Companies take a technology first approach.
+[00:03:35] Let's build this stuff, especially with Jen. I nowadays if you go to any of the hyperscalers, it's so easy to pull something off. That's the wrong approach or building a proof of concept.
+[00:03:45] and try to scale it in production, never going to work because production has its own
+[00:03:49] Let's say, challenges in terms of reliability scalability, performance and what have you?
+[00:03:54] but 1 of the key reasons,
+[00:03:56] Is trust or I should say.
+[00:03:59] Lack of trust. So if you look at this survey, the survey says that the top barrier.
+[00:04:05] Is the lack of trust in AI systems. That's not a good thing.
+[00:04:10] so, the question is,
+[00:04:11] Can we do something about it?
+[00:04:14] Yes, I think we can.
+[00:04:16] And AI explainability is the road to trust in our opinion, but trust is or explainability is a kind of a difficult topic, right? It really depends who you talk to how you spin the story. So you will, I will come back to that a little bit later.
+[00:04:30] but just in general understanding, if you have an audience that has a low understanding of AI,
+[00:04:36] Your conversation is more, simplified.
+[00:04:40] Now make no mistake simplification.
+[00:04:43] Is not dumb ification. As a matter of fact, to explain something complex in simple terms is actually very hard.
+[00:04:50] If you can do that, you understand that, okay?
+[00:04:52] So if you have an audience that has high understanding of AI, for example, data scientists, sorry,
+[00:04:58] Hey, ya. Engineer's different conversation. Maybe more technical.
+[00:05:02] Okay.
+[00:05:03] 1 more survey, I promise. I'm not going to present you death by by surveys. But here you can see that about 1/3
+[00:05:12] They said, okay, we trust the technology we are ready.
+[00:05:15] To take this on.
+[00:05:17] However, that means that.
+[00:05:19] 42%. They are Cooperative but they need some more. Let's say,
+[00:05:24] Explanations, right? And that's I think where a lot of companies are nowadays.
+[00:05:29] There are Cooperative regarding AI. I'm not saying everybody wants to. Well, everybody wants to jump on the agentic AI trained, that's a different story, but um, I think people are Cooperative but there's still a little bit leery. Like, okay, I need to explain to have an understanding how it works.
+[00:05:46] Okay.
+[00:05:47] So storytelling.
+[00:05:49] Is the key Point here. So storytelling is key to effective. Uh uh explanations. Um, like how does the system work? Why does it work this way? Etc.
+[00:05:59] so what I want to
+[00:06:00] Do today.
+[00:06:01] To help you to talk about 3. Best practices.
+[00:06:06] So, 1 is how do you engage with your stakeholders? What are stuff that you can do to help this? The second 1 is all about
+[00:06:13] How do you leverage the storytelling?
+[00:06:16] To your audience. As I said you can have the same model the same solution depending on the audience you have different stories, okay? Or at least different ways of spinning, the story.
+[00:06:25] And then the third 1.
+[00:06:27] Which actually should be the first 1 in my opinion, but okay is be transparent and set real or realistic expectations.
+[00:06:35] Especially in the whole gen AI space.
+[00:06:38] I mean, let's be honest.
+[00:06:40] That is a lot of noise and Bs out there. Okay, I'm just calling it out. Um,
+[00:06:45] Whether this is from vendors, whether this is for marketing, whether this is for new. So there's a huge disconnect in my opinion between what people expect what people think can happen and what really happens in reality, okay? And I think it's very important to have that conversation with stakeholders like
+[00:07:01] I understand that this is what you want or that you think that you want, but this is what really possible, okay?
+[00:07:08] All right.
+[00:07:09] so,
+[00:07:12] Okay, let's go. So the 5 items that I will touch on use cases data models or more outputs prototypes and documentation.
+[00:07:24] Use cases.
+[00:07:26] 1 of the problems that I always run into, when there was an a scientist with the
+[00:07:30] Teams.
+[00:07:31] Boss. This is very familiar story to you. I'm sure of it.
+[00:07:34] The management called me up and say, listen.
+[00:07:36] our AI team built a fantastic system so they say
+[00:07:40] And now they're coming to me to looking for a problem. All right, now this is not specifically related to AI. We see that a lot of Technologies so that's why what I call the disconnect. So you need to First have a conversation
+[00:07:52] Why are we bothering about AI in the first place? You know what are use cases? That are even be mostly interesting for AI to use?
+[00:08:01] And Gartner has developed a couple of research notes on this.
+[00:08:05] Uh, 1 of them is the
+[00:08:07] Use case evaluation 2 things. If you are a cartoon, a client for a while, you may remember this as the prisms.
+[00:08:13] It's the same methodology.
+[00:08:15] Will explain it in a second. If you go outside the booth here or the suite as they call it, I guess. And you go to where the Showcase is, there is 1 showcase? Uh, where they show the AI use cases, ong.com, I would recommend you to go there just to get a little bit of an idea. Why is this relevant for you?
+[00:08:32] 2 things 1.
+[00:08:34] If you look at the use case for your industry, you may get some inspiration. And the way how this works
+[00:08:39] Is um, see if this work? No. Okay. There are 2 axis here. Right.
+[00:08:44] Feasibility is a technical feasible, organization, feasible, data feasible, and the expected business value or the value, and you have 3 compartments. So you will.
+[00:08:54] Marginal gains, slow hanging fruit. A relatively easy to pull off low value,
+[00:09:00] Process, for example, calculated risks harder to pull off but maybe higher value.
+[00:09:05] And then the, uh, the likely wins. Okay? So,
+[00:09:09] Research like this, I think is important for 2 Reasons, 1. It gives you an idea in your industry. What are others doing? What is to others possible?
+[00:09:17] And when you have your own use case, you can map it to these quadrants here. So you won't say, okay, my use case looks very similar to this 1 apparently.
+[00:09:26] It's a calculated risk. The means you have to talk about whether we want to pull us off. Yes or no.
+[00:09:32] Okay.
+[00:09:33] That's 1.
+[00:09:35] The other 1 is data, data is abstract, right? You have structured data. Now we have unstructured data. We talk about data quality. Are you ready data? Data management, all complex stuff,
+[00:09:45] Seeing as a kind of believing. So when it comes now to data, and you have to talk to stakeholders about explaining of data, you can use visualization techniques. So, this is a technique called umap, you can forget about it immediately.
+[00:09:57] but what it essentially does, it clusters topics that are related in distinguishable,
+[00:10:04] Well, what's this? Like, for example, if you look in the in the middle, the red is about computers. If you look at the blue at the bottom, there it's about for example talks.
+[00:10:13] And let me give you a concrete example when you work with language models. So when you build a chatbot using, for example, retrieval augmented generation and you use semantic search under the hood. You you use so-called embeddings. Now, embeddings is a fancy word for a numerical representation of natural.
+[00:10:30] Language. Okay.
+[00:10:32] Sometimes.
+[00:10:33] All the time. You see that you read your chatbot is not giving the right answer. So what you can do with embeddings you can build embedding clusters to see like hey which part of the data.
+[00:10:43] Is not going well and that's a conversation that you can have with your stakeholders. You could you could because you might say, listen.
+[00:10:49] I built a chatbot.
+[00:10:51] It's 85%, correct? But there is a cluster of questions.
+[00:10:55] Where the answer is always wrong.
+[00:10:57] And there's nothing to do with the language model. It has to do with the data, okay? And I'll show you visually where that pocket of problems is we have to work on that again. It's just a communication tool.
+[00:11:09] The same with model outputs.
+[00:11:11] I mean, if I tell the audience unless you're a data scientist here, like
+[00:11:15] Hey, I build on classification problem with Advanced score 85% and a false negative rate between 1 and 5%.
+[00:11:23] people are looking at me, like,
+[00:11:25] I know you're from Holland. I know you've been smoking but that's uh, you know, I I don't follow. All right, so you have to think about visualizations?
+[00:11:34] For instance.
+[00:11:35] This is methodology called line.
+[00:11:37] What is essentially does it shows you for this particular prediction model?
+[00:11:42] But are the most important features that determine whether I would get a loan, okay? Now, you see, the Orange is positive, the blue is kind of negative. For instance, you can say, Okay, depending on your income, if you have a good income, good credit score, for example,
+[00:11:56] The chances that you get a loan is somewhat higher. There's also a feature.
+[00:12:00] You married, I have no idea what it has to do with it, but okay, that's my personal point of view. The point is that you show features.
+[00:12:06] That are important gives you a concrete example, out of the, the real world. So you will
+[00:12:10] So I live in Canada, as I said, so uh, my company worked for a large pharmaceutical in Canada. They are dealing with lifelong medications. So not your Tylenol, not your Advil, but ALS medication MLS chemo. Etc.
+[00:12:25] And the CEO he told me. He said, listen.
+[00:12:28] We are in a very reactive mode.
+[00:12:31] Clients are not showing up anymore, after a couple of months. Um, we have no idea. Why can you figure out based on the data?
+[00:12:39] Why clients are not showing up anymore for blood work, uh, for scans, um, Etc.
+[00:12:45] No, we can take, we can take a look. So we look at the data.
+[00:12:49] And the number 1 feature.
+[00:12:51] Was.
+[00:12:53] End of clinical trials.
+[00:12:55] Because end of clinical trials means no insurance.
+[00:12:58] Even for Canadian standards that's like okay that's the that's that's expensive, right? So literally people fell off the radar.
+[00:13:05] Okay, because the end of clinical trials. So the the CEO had something to work on. I will come back to another example of this use case, but again, he was looking for it, tell me out of the data, what distinguishes? This particular Behavior he was first thinking about
+[00:13:20] Demographics, maybe geographical because, you know, I for those of you who have been in Canada in the winter, it can be pretty harsh. Maybe that's a something to do with it. It has an impact. But
+[00:13:30] Not the majority. That's how you have to think about it.
+[00:13:33] If you look at language models,
+[00:13:36] This even get worse, right? So uh, for example, if you look at um your right there, yeah, the multi-step reasoning, so language models as you know,
+[00:13:46] Is I have an input and the language model, generates a next token based on probability function. All right.
+[00:13:52] Okay, so there's a lot of stuff that happens in the network.
+[00:13:55] So there's research going on now with a fence. It's almost like nervous, science laboratory for language models.
+[00:14:02] Uh it's a research area that I'm uh very interested in that I follow closely.
+[00:14:06] uh, another term is mechanistic interpretability
+[00:14:10] And essentially, you're trying to probe in the language model, what's happening? And this is an interesting post, if you're interested from a trophy,
+[00:14:16] What is the reasoning step in a language model to predict a certain answer or to generate a certain answer, this is very much in infancy. I will come back to this later.
+[00:14:24] But there's a lot of work to be done. Like, can we understand those language models? Why is this relevant? Well it looks like the whole world runs on language models nowadays, so it's better like we need to get a better grip. All right.
+[00:14:37] And then finally meta model is in production. You want to know, is it performing? Is it drifting? Does it still do well? So you get into this visualization desportes.
+[00:14:47] Okay.
+[00:14:49] Prototyping.
+[00:14:51] AI. Even for us here in this room I guess is very abstract, right? So you want to take the abstraction out of it, making it more concrete?
+[00:15:00] The best way to do this is in a prototype minimum viable product. Does it have to be perfect? Absolutely not, but it has to give you a sense.
+[00:15:08] How the end user is going to use it.
+[00:15:10] What is the feedback?
+[00:15:12] Does it work as as promised are there any features that there had to be requested? So prototyping even quick and dirty is important do not make the mistake.
+[00:15:21] To throw a prototype in production.
+[00:15:24] It's never going to work, be bold and throw a prototype away. If you have to, I know this sounds like what the hell I spent 2 or 3 months building this prototype and there is saying get rid of it and do it again. Yes, because production creates systems is a completely different ball game. The purpose of the Prototype is to get an idea.
+[00:15:42] if the application works as supposed to work,
+[00:15:45] And get feedback from the users, all right.
+[00:15:49] And then documentation this. So for instance, a good documentation are model card. That's the metadata of the model where you say like we have used the system.
+[00:15:58] I explained to you the data I explained to you the outcome. I showed you a prototype. And this is the data that we use to train it. These are the model details. These are the intended. Use etc. Etc.
+[00:16:09] If you look in the world of geni,
+[00:16:11] You have those uh, model cards for example.
+[00:16:14] On how can face a little bit of a wild west.
+[00:16:17] Because the depending on the LM providing you get almost next to nothing or you get a lot of information. Good example is um the Len Institute for AI. They have the Tulu and the omo models and that's truly open source.
+[00:16:30] I mean they give you the source code, they give you the data, the documentation. So if you really want to and you have money to burn, you can build the model from scratch versus open weights models. Okay.
+[00:16:41] Storytelling.
+[00:16:43] Um,
+[00:16:44] Quick sip of water if you don't mind.
+[00:16:49] if you look at storytelling,
+[00:16:51] And you look at any organization, they're kind of 4.
+[00:16:55] Types. So you go, I mean, just the way how we look at it, you have end users.
+[00:17:00] We've got business users. You've got others. You got technical users. So here's the, here's the idea behind it.
+[00:17:06] the same story that you have to tell the same explanation runs 4 different times in the sense that if you look at, for instance, data scientists,
+[00:17:16] They look for tactical information, they want to go down to the details. They are looking for techniques such as shap or lime.
+[00:17:23] Or maybe mechanistic interpretation, right? There's a completely different conversation than for example. May, I talk to business users, right business. Architect Executives, for instance, they look at different types, of information, maybe more high level, maybe they look at risks. They look at opportunities, so they're going to ask you questions. Like, Okay, so this AI model that you built, right? How much does it cost me? How much is going to save me? What is the impact? How difficult is it? Etc. So we talked about the same AI model.
+[00:17:55] but the data scientist, you talk about the technique,
+[00:17:58] Business owner business.
+[00:18:00] Issues, we talked about the the opportunity to Value Etc.
+[00:18:05] Auditors.
+[00:18:06] They look at this and Regulators from a compliance auditing perspective. Is it fair? Is it safe? Is it biased? They look for quantitative information, they look for structured information. So the model context I just showed you the 1 told the boxes. That's a great example for Auditors. May I say like okay you have a question about fairness in data. You have a question about the data that we use. You have a question about model details, it's all there.
+[00:18:30] and then, finally,
+[00:18:32] We have the end users, so the end users are not are maybe less interested or they're probably not interested in how it's built. But how again, how it's being used? Does it make sense to them? It's very intuitive. I mean, I'm sure we all have used.
+[00:18:45] education is like,
+[00:18:46] I have no idea how to use it, this is not intuitive for me, right? So that's the end user perspective again. Summary of of this particular session section, Sorry 4 different types of users. Same model for different stories.
+[00:19:00] Now, I'm not saying.
+[00:19:02] That as a technical professional.
+[00:19:04] That you need to be able to talk to all those 4 groups, okay?
+[00:19:08] But that's the capability that you need to have in your team.
+[00:19:12] some people are very good to talk to propeller heads and I say that with tongue and cheek because I'm 1 I'm a certified nerd I have no problem talking techno
+[00:19:19] other people say yeah I have no idea what you're talking about. I want to I'm I'm confident with business users or end users and let's say I love to talk to Auditors who will also talk to auditors.
+[00:19:30] Don't don't raise your hand. Okay, but it's it's different species. I say that tongue and cheek I say that in in just but it's a different conversation.
+[00:19:39] All right.
+[00:19:41] Last best practice, be transparent and set realistic expectations.
+[00:19:47] Now, this is an important graph.
+[00:19:50] There is always the trade-off between accuracy.
+[00:19:54] And explainability, everybody wants both at the same time. Now, that's that's hard, so on the x axis, you cut X. So systems or techniques I should say,
+[00:20:04] That are highly explainable decision. Trees rules logistic regression. Linear regression. Those are the simplest of statistical models to find patterns in data, okay?
+[00:20:15] Let me explainable, but typically not a very high accuracy. I'm not saying that these models always have a low accuracy, that's not true. In some cases a decision tree.
+[00:20:24] Is totally cool to get to 90% right or 100% even on the other hand, if you see on the left, accuracy may be higher but the systems are more opaque. For example, boosting trees, neuro-net networks, large language models Etc.
+[00:20:39] So, the conversation that you need to have is, what is the balance is explained in the ability, more important or accuracy? I'm coming to the pharmaceutical example that they gave in Canada. Another question that the CEO had he said, listen,
+[00:20:53] can you generate a model?
+[00:20:55] That gives me a list of 100 patients that have a high probability.
+[00:21:00] That they are dropping off the radar in the let's say in the next 100 days. Yeah, we can.
+[00:21:05] And then we had a conversation about explainability and accuracy. He said, I don't care about explainability
+[00:21:10] I want high accuracy. As a matter of fact, I'm totally cool act with the high accuracy, actually. He said, I even totally cool when I have a lot of false positives, so those are people that I call
+[00:21:23] And they say, hey, what's up?
+[00:21:26] Thanks for checking in. I'm doing totally fine.
+[00:21:29] And I want to minimize the false negatives so people who are should have called and I didn't, right? So he he was more about that concept of confusion Matrix than anything else. That's the conversation that you need to have.
+[00:21:42] A couple of ways, um, strategies to deal with that.
+[00:21:45] first of all, for example, workshops
+[00:21:47] What what it really means, what is accuracy, um, what is explainability, how does it relate to each other, Etc. The other ones use case analysis. So talk about the use case,
+[00:21:58] Um what is important is explainability is an accuracy Etc. Um document that right? Uh remember the metadata documentation I was talking about
+[00:22:09] Take that take that to heart document. Everything that you do around this, especially these type of uh conversations especially when you are in a highly regulated industry in higher regulated Industries. So let's go back here. You might say I want a high level of accuracy for example, uh, to predict whether somebody is going to pay off the mortgage.
+[00:22:30] Okay. Chances are that boosting trees will be a good. We'll do a good job for you but boosting trees as I said is hard to explain. Now if you look at the gdpr
+[00:22:40] There's an article in there. I think it's 20 or 22 from the top of my head. I'm not a lawyer, nor do I want to be, but just there is an article in there that says, when you use a system,
+[00:22:50] For automated decision making for European citizen, you have to be able to explain the outcome.
+[00:22:56] Okay. What does that mean?
+[00:22:59] The system says yay. Or the system says, nay, is that good enough? Probably not. You get into the features. Like why does the system say, whoa, you don't get that mortgage.
+[00:23:09] As an individual, I want to know why in the first place, but I'm also legally entitled to an answer. So
+[00:23:15] then it's like,
+[00:23:16] We can have a better prediction model.
+[00:23:19] Using X XG booster boosting trees, we cannot use it because our hands are tied from a compliance perspective.
+[00:23:26] Right? So that's the conversation that you need to have. Sometimes you want 1 but you can't because there are other constraints that you have to deal with.
+[00:23:34] Hence the use case analysis. High accuracy. I understand. But there are only so many things I can do.
+[00:23:39] All right.
+[00:23:41] Generative AI.
+[00:23:43] Anybody's favorite topic.
+[00:23:45] The question is,
+[00:23:46] Is generative AI explainable.
+[00:23:49] hm philosophical debate, because
+[00:23:52] I can perfectly explained.
+[00:23:55] While the Transformer architecture is how does it work?
+[00:23:58] How does the data work? How does stock?
+[00:24:00] Organization work. How does amending work? Etc, etc. I cannot tell you.
+[00:24:04] Parameter 1,731 out of the 100 billion parameters has a 0.98 as a weight. Why is that 098 and not 09?
+[00:24:14] No idea.
+[00:24:16] So that's where it stops.
+[00:24:18] so, the concept of generative AI here is you have to accept the fact,
+[00:24:23] That geni with language models, as the poster, child are not explainable again, I mentioned that upcoming research in the mechanistic interpretability of these system. It has very much in its infancy. So you have to take that as a constraint.
+[00:24:38] So the question is that, okay? If I cannot explain it, at least,
+[00:24:44] Can I make it credible?
+[00:24:45] In other words, can I use language models as a component in My overall solution and make the solution credible? In other words, trustworthy
+[00:24:53] You can.
+[00:24:55] So, there are couple of things that you can do. Uh, first of all, guardrails,
+[00:25:00] It's 1 of my specialties. Uh so the guardrails is as the name implies is guarding the language model for bad behavior. So for example, if I have a chatbot
+[00:25:09] Why would I entertain toxicity?
+[00:25:11] In a prompt, why would I entertain buyers? Why would I entertain personal identifying information? If I have an HR chatbot? Why would I entertain a conversation on soccer? Oh, or maybe it should. I don't know. But the point is,
+[00:25:25] if you have a prompt,
+[00:25:26] you want to get to concert called validate, The Prompt validate. The Prompt is
+[00:25:30] Prompt is assertion. So it's a clean prompt that's sent to the language. 1. So that's at least a gate, right?
+[00:25:34] Same with output. When you have an output and you have a rack-based solution, you want to make sure that the output for example, is grounded in the context, you want to make sure that the answer is accurate compared to the context etc, etc. So you can almost like there are dials
+[00:25:48] that you can turn try to squeeze that behavior a little bit.
+[00:25:52] Another 1 is when you use whack is at least with whack, you can try to explain this answer is based on this part of my Enterprise data, instead of, hey, I got a big document, let's throw it in the prompt because it has a long context window. Let's see if we can figure out the answer, right? So, with Rag and especially for the graph rack. So Mariam who, uh, who, who wrote the note on explainability is also an
+[00:26:15] Expert in Knowledge Graph. So, with graph rack, you get the retrieval step using Knowledge Graph, but hopefully lead to a better retrieval Step At least to higher accuracy. So you have to start to think about that.
+[00:26:26] This 1 is also 1 of the things that I'm passionate about. As a matter of fact, I do, um, RCN list tomorrow, on this topic, evaluations is
+[00:26:35] you have a system, you have guided it now, the question is, does the system work in production? Do the cartwheels hold up is the system doing any crazy things with Holiness. So the whole observability
+[00:26:47] And then finally are 2. Things is the Chain of Thought. So, Chain of Thought, essentially is priming the language model to explain their thoughts. Now with reasoning models, they are trained on these chains of thought, so it's a little bit, it's definitely not an outdated.
+[00:27:00] Concept, but now it's becoming inherent in reasoning models.
+[00:27:03] But at least you have an a lever like explaining your thoughts. That's literally what you say, explain this step by step you probably have tried to uh, to use that. And then finally,
+[00:27:13] From a security compliance and governance perspective. He has the The Gardener method called trism which stands for uh trust risk and information security management for the whole security hardness around it.
+[00:27:24] So you probably will get away with the message hopefully like, okay.
+[00:27:28] If the LM is the middle component, I do everything around it to try to contain the Beast because this is the fundamental problem. Um, when it comes down to G, and this is what I would like you to take away. Well, I would like you to take away all the other stuff as well, but here's the fundamental problem.
+[00:27:45] A language model.
+[00:27:47] Is by definition.
+[00:27:49] to use a fancy word non-deterministic which means that the same input can lead to different outputs if you have worked with Chet or Gemini and you click on that regenerate response, so you don't change the prompt
+[00:27:59] You get a different output could be completely. Different could be slightly different, how is it even possible? Well, that's to do with the mathematical mechanism that under the hood. The point is it's non-deterministic.
+[00:28:11] In business, unless you look for Creative content generation, we want deterministic output and summarization should be good all the time. The answer to a question, should be the right answer all the time, not every now and then.
+[00:28:23] So the fundamental problem, if you don't take all these best practices into account is that you get a system,
+[00:28:29] That is consistent.
+[00:28:30] Instantly inconsistent.
+[00:28:33] That don't that don't make you very popular. I can carry it to you then. All right, so you try to essentially tame the behavior of a language model with those surrounding best practice. That's essentially what happens here.
+[00:28:45] Okay.
+[00:28:47] This is done the last slide.
+[00:28:49] The typical recommendations especially the second 1. As I said, make sure that you tailor your stories to the Right audience, very important and the third 1 be transparent, set the realistic, expectations, go back to the accuracy versus explainability. Go back to the fact that language models are non-deterministic systems, so it's very, very hard to get 100% accuracy out of those systems all the time and that has
+[00:29:15] ramifications legally, um,
+[00:29:18] financially depending on the criticality of the use case, but people need to understand it. So it's your task with you and your team.
+[00:29:26] to start to explain these Concepts in terms and language that they understand,
+[00:29:32] With that we are. Let's say on the halfway point, I think I'm between you and lunch which is a very dangerous place to be. I will get out of your way. I wish you a fantastic uh rest of the summit and I hope it was worth your time. Thank you.

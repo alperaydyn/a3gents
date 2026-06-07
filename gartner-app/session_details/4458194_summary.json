@@ -1,0 +1,75 @@
+{
+  "summary": "The session discusses the current state of data analytics and the challenges faced by leaders in the field, particularly in the context of AI adoption and governance. It emphasizes the importance of effectively managing budgets, architecting technology for scalability, and adopting AI within data analytics functions. The speaker encourages leaders to take control and drive change despite the inherent vulnerabilities and challenges in their roles.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction and Context",
+      "key_points": [
+        "Data analytics leaders face challenges in driving change.",
+        "Many leaders feel vulnerable and lack control."
+      ],
+      "start_time": "00:00:15",
+      "end_time": "00:02:01"
+    },
+    {
+      "order": 2,
+      "topic": "Current Challenges in Data Analytics",
+      "key_points": [
+        "72% of leaders inherit messy functions.",
+        "Budget and literacy are perennial issues."
+      ],
+      "start_time": "00:02:01",
+      "end_time": "00:08:41"
+    },
+    {
+      "order": 3,
+      "topic": "Effective Budget Management",
+      "key_points": [
+        "Maximize the use of existing budgets.",
+        "Focus on delivering value quickly."
+      ],
+      "start_time": "00:08:41",
+      "end_time": "00:15:00"
+    },
+    {
+      "order": 4,
+      "topic": "Architecting for Scale",
+      "key_points": [
+        "85% of practices are not architected for scale.",
+        "Use architecture best practices to improve scalability."
+      ],
+      "start_time": "00:15:00",
+      "end_time": "00:20:21"
+    },
+    {
+      "order": 5,
+      "topic": "Adopting AI in Data Analytics",
+      "key_points": [
+        "90% have not integrated AI techniques into delivery models.",
+        "AI adoption can enhance data management and governance."
+      ],
+      "start_time": "00:20:21",
+      "end_time": "00:26:34"
+    }
+  ],
+  "key_takeaways": [
+    "Leaders must effectively manage their budgets to deliver value in data analytics.",
+    "Architecting technology for scalability is crucial for maximizing impact.",
+    "Adopting AI within data analytics functions is essential for driving innovation and efficiency."
+  ],
+  "entities": [
+    {
+      "data governance": 5
+    },
+    {
+      "budget management": 4
+    },
+    {
+      "scalability": 6
+    },
+    {
+      "data management": 5
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

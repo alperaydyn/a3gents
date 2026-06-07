@@ -1,0 +1,69 @@
+{
+  "summary": "The session focuses on the importance of data governance, particularly in relation to AI governance and managing unstructured data. It emphasizes aligning data governance with business value and utilizing a federated governance model to enhance organizational effectiveness. The speaker also discusses the necessity of tools for effective governance and the integration of metadata across structured and unstructured data.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Data Governance",
+      "key_points": [
+        "Data governance is about defining decision rights and accountability frameworks.",
+        "There is a disconnect between technology and business leaders regarding data governance."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:10:58"
+    },
+    {
+      "order": 2,
+      "topic": "Organizing Data Governance",
+      "key_points": [
+        "Align data governance with business value to engage stakeholders.",
+        "Use a hub and spoke model to enable adaptive governance."
+      ],
+      "start_time": "00:10:58",
+      "end_time": "00:20:57"
+    },
+    {
+      "order": 3,
+      "topic": "AI Governance and Unstructured Data",
+      "key_points": [
+        "AI governance is becoming increasingly important and should be integrated with data governance.",
+        "Managing metadata for unstructured data is crucial for building knowledge graphs."
+      ],
+      "start_time": "00:20:57",
+      "end_time": "00:30:17"
+    }
+  ],
+  "key_takeaways": [
+    "Align data governance with business value and avoid discussing governance as a standalone topic.",
+    "Implement a federated governance model to support diverse organizational needs.",
+    "Capitalize on the opportunity to redefine data governance in the context of AI.",
+    "Prioritize the integration of metadata for both structured and unstructured data.",
+    "Utilize appropriate tools to enhance governance capabilities and align them with specific use cases."
+  ],
+  "entities": [
+    {
+      "data governance": 10
+    },
+    {
+      "ai governance": 5
+    },
+    {
+      "unstructured data": 6
+    },
+    {
+      "hub and spoke model": 3
+    },
+    {
+      "metadata management": 4
+    },
+    {
+      "knowledge graph": 3
+    },
+    {
+      "data quality": 5
+    },
+    {
+      "master data management": 4
+    }
+  ],
+  "subject_area_id": "governance"
+}

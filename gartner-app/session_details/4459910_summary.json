@@ -1,0 +1,113 @@
+{
+  "summary": "The session focuses on three critical shifts that data and analytics leaders must make to create sustained value by 2030, emphasizing the importance of trusted data products, evolving technology foundations, and establishing trust as a catalyst for value. It highlights the role of AI in transforming business processes and the necessity for organizations to adapt their structures and skill sets to leverage AI effectively. The discussion includes examples of organizations successfully implementing these shifts to enhance their operational efficiency and decision-making capabilities.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to the 2030 Mandate",
+      "key_points": [
+        "Discuss the need for sustained value creation as DNA leaders in the age of AI.",
+        "Introduce the concept of three critical shifts necessary for achieving this goal."
+      ],
+      "start_time": "00:00:14",
+      "end_time": "00:03:03"
+    },
+    {
+      "order": 2,
+      "topic": "Creating Trusted Data Products",
+      "key_points": [
+        "Emphasize the importance of highly discoverable, trusted, and reusable data products.",
+        "Highlight the need for always-on intelligence delivered to smaller, skilled teams."
+      ],
+      "start_time": "00:03:03",
+      "end_time": "00:06:52"
+    },
+    {
+      "order": 3,
+      "topic": "Building and Scaling Technology Foundations",
+      "key_points": [
+        "Discuss the significance of context as critical infrastructure for AI.",
+        "Explain how organizations need to evolve their technology foundations to support AI capabilities."
+      ],
+      "start_time": "00:06:52",
+      "end_time": "00:10:30"
+    },
+    {
+      "order": 4,
+      "topic": "Establishing Trust as a Catalyst",
+      "key_points": [
+        "Address the importance of trust in AI adoption and value realization.",
+        "Introduce governance models that support trust and operationalize policies."
+      ],
+      "start_time": "00:10:30",
+      "end_time": "00:14:15"
+    },
+    {
+      "order": 5,
+      "topic": "Case Studies of Successful Implementation",
+      "key_points": [
+        "Present examples of organizations like Triumph and Cisco that have successfully implemented AI-driven transformations.",
+        "Highlight the results achieved through innovative data management and governance practices."
+      ],
+      "start_time": "00:14:15",
+      "end_time": "00:20:29"
+    },
+    {
+      "order": 6,
+      "topic": "Future Workforce and Skills Development",
+      "key_points": [
+        "Discuss the need for a talent shift towards critical thinkers and AI strategists.",
+        "Emphasize the importance of continuous learning and adaptability in the workforce."
+      ],
+      "start_time": "00:20:29",
+      "end_time": "00:25:43"
+    },
+    {
+      "order": 7,
+      "topic": "Conclusion and Call to Action",
+      "key_points": [
+        "Summarize the key shifts and their implications for organizations.",
+        "Encourage leaders to amplify their data, context, and people to transform their organizations."
+      ],
+      "start_time": "00:25:43",
+      "end_time": "00:33:32"
+    }
+  ],
+  "key_takeaways": [
+    "Data and analytics leaders must create highly discoverable and trusted data products to drive value.",
+    "Organizations need to evolve their technology foundations to support AI capabilities and ensure real-time data access.",
+    "Establishing trust through effective governance is essential for AI adoption and achieving high business outcomes."
+  ],
+  "entities": [
+    {
+      "ai ambition": 5
+    },
+    {
+      "data governance": 7
+    },
+    {
+      "context layer": 4
+    },
+    {
+      "data products": 6
+    },
+    {
+      "trust": 8
+    },
+    {
+      "agentic transformation": 3
+    },
+    {
+      "ai first organizations": 4
+    },
+    {
+      "data fabric": 3
+    },
+    {
+      "self-service analytics": 3
+    },
+    {
+      "autonomous service": 2
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

@@ -1,0 +1,150 @@
+{
+  "summary": "The session discusses the emerging role of agentic AI in data management, highlighting its potential to automate and enhance traditional data processes. It emphasizes the importance of integrating AI agents to improve data quality, governance, and operational efficiency. The speaker outlines key challenges organizations face in deploying AI initiatives and presents actionable strategies for leveraging agentic AI effectively.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Agentic AI",
+      "key_points": [
+        "Investment in AI ready data is a top trend in data management.",
+        "Data quality and availability are critical barriers for AI initiatives."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:01:29"
+    },
+    {
+      "order": 2,
+      "topic": "Role of Automation in AI",
+      "key_points": [
+        "Automation is seen as a key enabler for AI agents.",
+        "88% of leaders believe AI agents will automate many tasks."
+      ],
+      "start_time": "00:01:29",
+      "end_time": "00:02:32"
+    },
+    {
+      "order": 3,
+      "topic": "Understanding Agentic AI",
+      "key_points": [
+        "Agentic AI extends traditional data management with automation.",
+        "Human judgment is essential in conjunction with AI agents."
+      ],
+      "start_time": "00:02:32",
+      "end_time": "00:03:43"
+    },
+    {
+      "order": 4,
+      "topic": "Types of Agents in Data Management",
+      "key_points": [
+        "Task-based agents perform specific tasks.",
+        "Multi-agent systems facilitate end-to-end data management."
+      ],
+      "start_time": "00:03:43",
+      "end_time": "00:07:06"
+    },
+    {
+      "order": 5,
+      "topic": "Operational Characteristics of Agents",
+      "key_points": [
+        "Agents require continuous monitoring and planning capabilities.",
+        "Learning and execution are key differentiators of agentic automation."
+      ],
+      "start_time": "00:07:06",
+      "end_time": "00:09:37"
+    },
+    {
+      "order": 6,
+      "topic": "Changing Data Management Functions",
+      "key_points": [
+        "Agentic AI enhances data integration workflows.",
+        "It continuously monitors data quality and governance."
+      ],
+      "start_time": "00:09:37",
+      "end_time": "00:11:55"
+    },
+    {
+      "order": 7,
+      "topic": "Architecture for Agentic AI",
+      "key_points": [
+        "Integrating AI agents requires a user interface and orchestration layer.",
+        "Active metadata is crucial for agentic experiences."
+      ],
+      "start_time": "00:11:55",
+      "end_time": "00:13:12"
+    },
+    {
+      "order": 8,
+      "topic": "Disruptions in Data Management",
+      "key_points": [
+        "Agentic AI shifts from manual to automated processes.",
+        "It enables real-time data operations and insights."
+      ],
+      "start_time": "00:13:12",
+      "end_time": "00:21:45"
+    },
+    {
+      "order": 9,
+      "topic": "Vendor Landscape for Agentic AI",
+      "key_points": [
+        "Various vendors are enhancing capabilities for agentic data management.",
+        "AI native vendors provide end-to-end solutions for data management."
+      ],
+      "start_time": "00:21:45",
+      "end_time": "00:25:04"
+    },
+    {
+      "order": 10,
+      "topic": "Preparing for Agentic AI Deployment",
+      "key_points": [
+        "Organizations must assess their data management platforms.",
+        "Focus on building a rich semantic layer for agentic AI."
+      ],
+      "start_time": "00:25:04",
+      "end_time": "00:30:54"
+    },
+    {
+      "order": 11,
+      "topic": "Final Takeaways",
+      "key_points": [
+        "Data engineers must redefine their roles in the context of agentic AI.",
+        "Investing in data readiness and governance is crucial for success."
+      ],
+      "start_time": "00:30:54",
+      "end_time": "00:32:16"
+    }
+  ],
+  "key_takeaways": [
+    "Organizations should prioritize investing in AI ready data to overcome barriers.",
+    "Automation through agentic AI can significantly enhance data management efficiency.",
+    "Building a robust semantic layer is essential for effective agentic AI deployment."
+  ],
+  "entities": [
+    {
+      "agentic ai": 10
+    },
+    {
+      "data quality": 6
+    },
+    {
+      "data governance": 5
+    },
+    {
+      "automation": 7
+    },
+    {
+      "data integration": 4
+    },
+    {
+      "active metadata": 3
+    },
+    {
+      "multi-agent systems": 3
+    },
+    {
+      "task-based agents": 3
+    },
+    {
+      "data management": 12
+    }
+  ],
+  "subject_area_id": "data_management"
+}

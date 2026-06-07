@@ -1,0 +1,134 @@
+[00:00:05] So good morning and thank you for joining me this morning, to talk about the intelligence capabilities. Canvas have are any of you familiar with this framework?
+[00:00:18] No. Okay. Well you will be after the next 30 minutes um and I'm excited to be able to talk to you about this today so I'm Karly iWin. And if you were at the keynote this morning, we talked about this idea of how do we build kind of this Foundation as things around us are really turbulent, right? And really changing how do we build a foundation that is
+[00:00:45] was going to, um,
+[00:00:48] You know, give us the resilience that we need.
+[00:00:51] So this is really a conversation today about context. And we heard in the keynote that context is king. And, you know, you probably you've been hit with context already. I know a lot from, you know, vendor from some of the presentations from some of the things that you've been reading about the, uh, about the conference itself. But, you know what? In today's world context matters significantly right context, really is King. And so this story even though it's about
+[00:01:30] This intelligence capabilities framework, it's really about context and creating an environment more importantly that adapts to an understands the context within our organization to deliver results. Now we don't have 1 contextos.
+[00:02:02] Right. And more importantly, there's an increased Focus. Not only to do data to Insight kind of continue that path to action. And then
+[00:02:15] Impact.
+[00:02:15] It's not good enough to just deliver the insights anymore. We have to position the people to really be able to do the actions and get that final value out of the work that we do, right? So context is really required to enable the accurate interpretation of the data as well as the results that are going to help us improve that decision making and get us to that action. And then eventually, the the impact, right? So context, think of it, as kind of bridging that gap between the data and a fully,
+[00:03:00] Developed business strategy, right?
+[00:03:04] so,
+[00:03:06] Today's DNA leaders are kind of in the middle of a perfect storm of converging forces. And I feel like we've been talking about this for a long, long time, but there's something that feels different about it, right? And I think what's different about it is really the pace of change. It's accelerating, in fact, we were talking about with the keynote, you know, typically, for Gartner, we write a keynote and we use that same keynote for all the DNA Summits as we move throughout the world. And we have this realization today that in this world, that's changing
+[00:03:45] So quickly that may not work anymore. Right? And that's like, wow that's that's a real realization. So things are changing faster, continuing to change and changing at a faster pace. So what do we have here? We've got the external drivers, right? Changing business models, um, think of things like mergers and Acquisitions, um, thinking about the changing culture within organizations, right? We've got evolving industry Dynamics across all Industries, right? Um, and especially in some cases across regulated Industries and then shift
+[00:04:30] Societal expectations, the world that I grew up in, in Corporate America is very different than the world that my sons, right? Are growing up in, it's interesting to kind of watch them as they navigate and how different things are. So in addition to the external drivers, we also have the internal pressures, right?
+[00:04:55] Who here is charged with making sure that you're tying your DNA results to Mission critical priorities.
+[00:05:03] Right. And delivering value. Yeah, a good number of you and that is absolutely what we're seeing right demonstrating this value. And it's in that
+[00:05:15] Way. And oftentimes only in that way that we can actually justify getting the spending that we need, right? And then finally, gosh obviously the technology disruptions but I do kind of put the technology disruptions last because I think that you know it it it is absolutely going to continue but some of these external internal pressures. Um, you know, those things are really going to impact eventually, how can we deliver even on these technology disruptions right? It used to be. We focused on the technology disruptions right now. They're just kind of 1 dimension of everything that we need to be thinking about. So, you know, we know this idea of moving from structured data to all.
+[00:06:00] All data, right things become data sources now that we never thought about historically, we've got this rise of ai, ai agents. Agentic analytics, right. Agentic workflows throughout the whole process that demand context in order to really work, right? So agents in a lot of ways are forcing the issue around building contacts.
+[00:06:29] So here we are, right? We're in this world and you have a choice. You have a choice and I hope what we can encourage you to do. Over the course of the next few days is to really lead this, right? It's
+[00:06:45] Choice. Are you going to drive? What we have here?
+[00:06:49] Right? Or are you going to be driven? Because I'll tell you what the change is coming with or without it. And so what I hope to inspire you to do with this session is to get out in front of it. And think about how can I at least from a technology perspective, get ahead of some of the change that's coming. So 3 things that we're going to talk about today. First of all, what is this thing that I call the intelligence capabilities framework?
+[00:07:17] Second is okay.
+[00:07:19] How do I activate it, right? How do I use it? Because it's a framework.
+[00:07:24] So how do I then take that framework and actually apply it to the work that I'm going to do?
+[00:07:30] And then what do I do when I leave here?
+[00:07:34] Right? Or, or maybe I'll give you a little bit of break and say, what do you do when you get back to work, right? So how do you actually make it real and get value from it for you, within your own organization? All right, so let's Jump Right In. What is this intelligence capabilities framework?
+[00:07:53] Now you can probably imagine a room full of Gartner analysts trying to figure out what we call this.
+[00:08:03] Kind of set of Technology capabilities for the future, right? I literally if I had to print it out I probably had 6 pages of names for
+[00:08:15] What we should call this framework. And the idea here, how we landed on this is intelligence capabilities framework. First of all, we wanted it to reflect the idea that it is, it learns, and it is resilient and it is adaptive to change. That's where intelligence came in.
+[00:08:36] The capabilities is.
+[00:08:39] A focus on technical capabilities specifically. We're not talking about people, we're not talking about process. This is technical capabilities.
+[00:08:52] And then the idea of the framework is what we're going to lay out in front of you today, is the big picture. It is
+[00:09:00] The complete intelligence capabilities framework, right? And then the idea is that you take that back and you apply it in a way that is appropriate within your own organization. So what does it look like?
+[00:09:14] It's actually pretty simple. You can see here that we have 5 horizontal layers and then we have 2 vertical layers. So the 5 that you can see information contacts intelligence, interactions and outcomes.
+[00:09:35] And then the vertical layers are agentic Ai, and trust and governance. Now, the ICF as I mentioned
+[00:09:45] It's a comprehensive intelligence capabilities framework. It's basically a model, right? And what it gives you is a flexible responsive
+[00:09:58] framework for building your data and analytics and AI architecture, right. But it gives you a way to also then tailor that to your own perspective within your organization.
+[00:10:13] So these are the core foundational layers, right? And each of these can be broken into detailed sets of capabilities and then the detailed capabilities themselves. So there are kind of
+[00:10:30] 3 different levels of this high level you're looking at, right? What are the different layers? Then we've got the subset of capabilities and you can drill in even further to what are the actual capabilities. So this gives you the depth that you need to assess a vendor. For example, to plan your architecture for the future. Am I on track? What do I need right? And to close where you may have potential gaps. Now, 1 thing, I want to point out right out of the gate that this, it is not implied here that we build this from the bottom up.
+[00:11:12] Right, I think that's a kind of a misconception.
+[00:11:15] Of the model.
+[00:11:16] You can actually build from the middle if that's where your gaps are.
+[00:11:22] Right? Or you may very often, we see, people starting at the top, what are the outcomes, right? Which is actually mostly how I recommend for people that are starting from scratch. But the reality is most of us aren't starting from scratch so where you start depends on where you are and we'll get more into that in a bit. This is the the drill down into the groupings within each 1 of the layers. Now, 1 thing to point out again here, I couldn't obviously fit the exhaustive list on the slide so what you're
+[00:12:00] You're going to see here on these subsequent, um, deeper levels. It's just a subset of the true, you know, the all of all the capabilities. So this is representative sample of the various groupings. So you can see what we're talking about in each 1 of the layers. And then, of course, the detailed capabilities. So those are the 3 different levels of the layers. Now I want to come back here to for a minute, to the agentic AI and Trust in government governance. Those are vertical layers, maybe obviously, because they run through all of
+[00:12:45] The the horizontal layers right now, what's kind of interesting and and maybe it'll be version 2.0 of this is in a way. Those are both their own horizontal layers as well.
+[00:12:59] So again this is a framework, not 100%. But the idea here that we're trying to present is that agentic AI, trust in governance are really the planes that pull all of these pieces together to make that comprehensive framework.
+[00:13:17] Okay, so you can see here that how those fit across each 1 of the horizontal layers, right? So you can see examples of the agent trust in governance.
+[00:13:30] And then the general capabilities. Again, it's a sample list of capabilities, we tried to just kind of pick some to give you the gist of it. It is not the exhaustive list. We will by the way, be publishing the exhaustive list as a tool within the next couple of months. So we're actually working on that now.
+[00:13:53] Okay.
+[00:13:54] So, let's go through each 1 of these layers in a little bit more detail.
+[00:13:59] The information layer, I think of this layer as kind of like, the raw power, right? This is the power. This is where we have the collection, the connection, the integration and delivery of data.
+[00:14:15] From all of the sources that we have, right? So the definition of this is, this is a foundation to support, any use cases.
+[00:14:26] That re any use case that requires any data?
+[00:14:31] And it supports the appropriate alignment of quality and structure of data to the requirements of those business use cases, right? So this enables activation of the metadata in support of the data fabric architecture. So data fabric is 1 component of this, right? And building and delivering data products as we move.
+[00:15:00] Through the stack.
+[00:15:01] Now it's important to note. As I mentioned earlier, that information isn't just information that we have in our systems, right? We have information in people and throughout our organization
+[00:15:18] Right? But what we're focusing on here are the capabilities to bring that information to life within our systems, right? Foundational to the architecture. So, that's the information layer now, if we move up to the context layer,
+[00:15:38] The purpose of the context layer is to deliver comprehensive business-friendly.
+[00:15:45] Abstraction across the data layer. Right? So this is where we have the data, but then we kind of say, okay, well, what does that really mean from the business perspective? Now what does it do? It provides a unified consistent business consumption, ready, and meaningful view into the data across all those heterogeneous data sources that we have, right?
+[00:16:14] Now.
+[00:16:16] Sometimes people will, when I talk about this, people will say, oh okay, well that's my business glossary, right. Well, this isn't your traditional business, glossary that's part of it, but it really goes beyond
+[00:16:30] on that to support the semantic enrichment of the data through technical business and even social metadata, um,
+[00:16:42] to to Really deliver this fully comprehensible and agreed upon context that we need from that data in order to use it for analytics and Ai and increasingly agent-based access as well, right? So as Things become more automated as Things become more agent driven, this context layer becomes increasingly important, I think right?
+[00:17:15] Because how are they going to operate? They need that context.
+[00:17:18] Okay, so
+[00:17:21] the information and context layers, come together.
+[00:17:27] To provide that AI, ready? Meaningful data.
+[00:17:31] The information layer is the raw fuel think of it as and kind of the foundation and the context layer is the map. The meaning, right? We can't have 1 without the other or maybe I should say. We can't use 1 without the other, right? You can have it but you can't use it without the other. So
+[00:17:53] the future of data and AI in my mind is not about building.
+[00:18:00] More models. We tend to focus on that a lot, don't we? But it's really not about building more models. It's really about how effectively can we give context and give that contextual access to the right data at the right, time to the right people and for The Right Use cases. I feel like we keep adding for the to the right. Right. But that's what it's all about. It's getting that data to, uh, to basically address the use cases that we have, Okay? So let's move on to the intelligence layer. Now, the intelligence layer provides the capabilities to support the interactions.
+[00:18:45] In both directions, by the way. Remember we're not going up. We're going up and down and and out actually we're moving up and down and through this um, through this framework. So supporting those interactions in both directions. This includes the analytics the models and the AI workflows. Now, what's interesting here and we talked about kind of the AI and the Agents, you know, gen Ai and agents um are increasingly being leveraged in this layer to make analytics a more seamless and kind of active participant, right? In that decision-making process.
+[00:19:30] I thought it was interesting in the keynote today when they talked about um, you know in the future.
+[00:19:37] People will have will probably never see a dashboard.
+[00:19:42] That's kind of weird is to think about, isn't it?
+[00:19:46] It is for me, I don't know how many of you still have dashboards in your organization.
+[00:19:50] Yeah, a lot of us. So imagine what's going to happen to all that? Well, in the in the perfect world that will all be embedded into the business process.
+[00:20:00] It's imaginable Now, isn't it?
+[00:20:03] So that's really kind of what we're focusing on here is those capabilities but also then making that seamless as we move across the architecture,
+[00:20:15] Okay.
+[00:20:17] Now.
+[00:20:20] The intelligence layer provides the brains, right? The model in the agents and the interaction layer is the face. So these are the interactions and the experiences. How do we get in and actually use, um, that intelligence layer, right? This is where the intelligence meets the user. Now interesting thing there, the user is not necessarily human
+[00:20:50] Right. It could be machine.
+[00:20:53] I don't know if any of you have seen um this was another thing that really kind of hit me. Um the new
+[00:21:00] Must have roles at Gartner publish, must have roles for data, analytics, and AI. Anybody familiar with that research,
+[00:21:07] Uh, for the first time ever, we actually have a non-human on that.
+[00:21:12] Which I think is, is kind of interesting, right? So we have a bot for the first time ever. So that's part of what we're talking about here on the interaction layer. Not just people. It's how is anything going to be able to interact with all of these capabilities? So this layer takes those trusted insights that we've built now, right? And it embeds it, as I mentioned into the workflows and the intention here is to accelerate the time to Insight.
+[00:21:45] And really Drive tangible business outcomes. So this is really where we're starting to think about how do we go from? Not just insight and stop with the inside. But how do we then move seamlessly into that business experience? Where we're taking action? And then ultimately understanding the impact of that work that we've done.
+[00:22:08] Okay.
+[00:22:09] so,
+[00:22:11] The intelligence capabilities framework there it is. And in the end. What this is, as I mentioned, is a comprehensive set of capabilities that support all the horizontal and the vertical layers.
+[00:22:30] Okay, so
+[00:22:33] what do we do with this, right? How do we leverage it?
+[00:22:37] Now.
+[00:22:39] You may be familiar. How many of you are familiar with Gartner? We talk about the uh 3 Aiello.
+[00:22:47] AI cautious, ai, opportunistic, ai first, are you familiar with that? They talked about it a little bit in the keynote as well, right? And, as I mentioned, what we're going to do with this framework, really depends on our own perspective. And so the idea here is that you can lay different perspectives over this intelligence capabilities framework to see which capabilities really matter.
+[00:23:15] For you, right? So from 1 perspective, how you build might be based on your ambition
+[00:23:23] And so we can use that to Overlay as I mentioned on this framework. Now, these archetypes, I think of these as archetypes, right? Um, they can change. They're, they're also Dynamic, right? Where you are today, might not be where you are in the future and everyone in your organization. May not be in the same place. So having that overall framework gives you kind of a place to put a stake in the ground and then we can think about how do we really apply this. So let's take this idea of AI ambition and drill into it a little bit more now,
+[00:24:00] Let's say I'm AI cautious if I overlay that AI cautious. Um,
+[00:24:06] Perspective over the framework. These are again, representative sample, not all inclusive. Some of the capabilities that I may be focusing on across the various levels, right? Building that solid foundation.
+[00:24:24] Focusing more on that, right? Then taking risk and doing some of the, the newer, um, and more flexible types of capabilities. Here's what it might look like if we were doing AI opportunistic. So, notice here. I'm starting to move into some automation. We've got automated data quality.
+[00:24:45] Rules here, we've got active metadata moving into some more advanced analytics, we've got data science, and machine learning. And even a little bit of nlq going on here again, representative sample. The idea is to show you how the prospective shifts based on how we're coming at this as an organization, right? And then finally, we have the AI first approach. And here you can see here, we're focusing on that policy in code that um, that why was talking about today in the keynote, Vector databases, unstructured databases bringing in more and different kinds of data um, multi-agent or
+[00:25:30] Ation and Rag and you get the idea. So, more autonomy, more advanced, more, agentic types of capabilities, right? So AI first is really focused on the transformation and AI first organizations. As you can see, based on these examples, really treat intelligence and data analytics and AI as part of that definition as a core utility, right?
+[00:26:01] So here's what it looks like. Just a quick summary in terms of how
+[00:26:08] How I meet this framework with my AI appetite will impact where I focus.
+[00:26:15] And how I build out, right? But your AI, um,
+[00:26:20] Ambition is really just 1 perspective that you may want to come at this framework. There are a lot of different perspectives. This is 1. I really love. I know it's hard to read. Um this is from published research but this is a vendor perspective. So think about the use of this ICF where I can say, hey, you know what, I'm a Microsoft Shopper, I'm an AWS Shopper or or a Google shop or whatever. What this enables you to do is lay that vendor perspective, over the framework and identify a couple of things. First of all, you might be able to identify where you have capabilities
+[00:27:00] That you may not be aware of or that you could easily extend into using the stack or the tool set that you already have. The other thing that I might do is obviously Identify some gaps.
+[00:27:14] Right. So, the intention with the framework is not that you're building this with 1 vendor, but that you're building a set of capabilities, right? So this vendor perspective, may give you an idea of where some of your gaps are. So this graphic that I pulled is from some research that Gareth. Um, Hershel did, what's interesting about his research? Is it only includes the critical capabilities but we're working on building that out, right? Because critical capabilities are
+[00:27:45] Part of the ICF but they're not the ICF in its entirety. But you get the idea here in terms of how different pairs, how you could use different perspectives, right? Applied to this ICF to get value from it.
+[00:28:00] Okay.
+[00:28:02] This is just a chart you can do in that research. That's uh, you can go in and kind of pick the ca. Another thing you can do with, this is pick the capabilities you're interested in, and then it'll show you, which vendors give you meet most of those capabilities, right? So another kind of variation on a theme there.
+[00:28:20] Okay, so
+[00:28:22] Now, what what do we do? You get the idea here. Um, so how do I use this first of all, think about what we start.
+[00:28:30] Started to do here which is what are some of the additional perspectives that we can talk about? You know, we talked about AI, ambition, we talked about vendor perspective, what about your org size? What about your skill? Level, right? Lots of things that you can kind of overlay on this ICF, to help you figure out, where do I start and what capabilities do I need. Now the ICF is focused specifically on data analytics and AI, but I think it's also interesting to use this as an extension into other areas as well. For example, software engineering I find from calls I take were increasingly colliding right with
+[00:29:15] That space as well.
+[00:29:17] So this gives you kind of a stake in the ground for data, analytics and AI, but I think it does give you broader. It does have broader applicability.
+[00:29:27] Okay, bottom line, we talked about this DNA 2030 mandate in the, the keynote, but I fundamentally believe that. You guys, you guys, as DNA, leaders are really in the best position to drive this transformation that we're talking about, right? That's why I'm so excited to talk to you guys about this today. AI is a natural extension of data and analytics and the work that we've always done, right? We're halfway there already. It's
+[00:30:00] Changing how value is created and consumed across the whole organization but now we have the opportunity. As I mentioned to not just stop on that Insight but really drive to the action and that impact and that's what this DNA 2030. Mandate is all about.
+[00:30:21] And so the intelligence capabilities framework, leverages these Technologies right to deliver context aware strategic insights.
+[00:30:34] And gives you executable recommendations that will enable you to continuously adapt as of the world around, you continues to change.
+[00:30:45] Bench more quickly.
+[00:30:47] Okay, so what do I want you to do? I told you, you were going to have homework, right? So your homework is, first of all, assess your position. Where are you relative to the framework?
+[00:30:59] Right. And what matters to you relative to the framework?
+[00:31:05] Identify then from that, what are your critical gaps?
+[00:31:11] Right. Take that framework. Think about what are the business objectives that we're trying to align to and where are our messes?
+[00:31:19] That's going to help you prioritize where you start. So remember I said you're not starting at the bottom and trying to build this from the ground up. You're starting with what
+[00:31:30] Matters to your organization and where your gaps are. And in that way, you're going to be able to justify the investment to keep on board with your organization's overall objectives, right?
+[00:31:45] Okay, so
+[00:31:47] I believe fundamentally the future is your choice, right? It's in large part in the hands of you as DNA leaders.
+[00:31:58] Your choice.
+[00:32:00] Are you going to drive?
+[00:32:01] Or are you going to be driven?
+[00:32:05] So thank you very much for joining me. I've included some of the research, uh, that we used to build this presentation if you have access to Gartner.
+[00:32:15] Take a look at this and I'll say too that we've got a lot more in the works. That'll be publishing in the next couple of months on this. So thank you very much and I hope you have a great week this week.

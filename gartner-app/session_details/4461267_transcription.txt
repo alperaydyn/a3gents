@@ -1,0 +1,216 @@
+[00:00:04] Good afternoon, right?
+[00:00:06] About.
+[00:00:07] 35 years ago, I was I had gotten engaged been married for 35 years.
+[00:00:12] and uh,
+[00:00:14] My fiance at the time, my wife now, her family was throwing an engagement party.
+[00:00:20] and, uh, so I went to the, the house for the engagement party and uh,
+[00:00:26] My fiance and her mother and a grandmother in the kitchen. They were cooking for this party and they were making pot roast. And I'm not a big fan of pot roast.
+[00:00:36] But my fiance said, Hey try it. You should try it. So, I took a bite of the pot roast, and it was, it was actually really very good. And I had never tasted pot roast that tasted. So,
+[00:00:45] Good before in my life.
+[00:00:47] So I said that's, you know, that's great, what's the recipe? What do you do? And my fiance said, well, we have this thing that we do where we cut a slice of meat off from each end of the meat.
+[00:00:57] So it allows the flavors of the gravy to get into the meat. So it tastes really, really good, but you can ask my mother, my mother taught me the recipe.
+[00:01:04] so, I went over to a her mother and said,
+[00:01:08] I had the pot roast, that was really good. I understand you cut off a slice of meat from each end, so that the flavors of the gravy could make it into the meat because no, no, no, no, no, no. It's the other way around, it's the flavors of the meat now that can leak out into the gravy that gives you the flavor but I got the recipe from my mother and she's here you can ask her
+[00:01:26] Okay, I went over to the grandmother. It says Hi. I'm
+[00:01:30] Kevin because I I had the pot roast. It's really good and but we're trying to figure out what this is all about this recipe that you take a slice of meat off from each end.
+[00:01:38] Is it? So the gravy can make its way into the meat or so the flavors of the meat can make its way into the gravy.
+[00:01:45] She said, that's not why we do it. So why do you do it?
+[00:01:48] We cut a slice of meat off of each end because we didn't have a pot big enough to put the pot roast in.
+[00:01:55] And you know, it's a funny story, right? But the reason why it's funny is because, how many things do we do? Like that, with technology where we do the same thing over and over and over again? But we're not exactly sure why we're doing it. You think about that with dashboards?
+[00:02:09] Every time somebody asks a question, let me build a dashboard.
+[00:02:12] And do we really need to build dashboards to analy?
+[00:02:15] Is transforming so much.
+[00:02:17] That dashboards may not be the primary way that we answer questions anymore. It's already becoming that as a matter of fact so that's what this presentation is about the idea of
+[00:02:26] Going from artificial to actual intelligence is about the transformation of a lot of products that are in the data and analytics Continuum that are all being infiltrated by agents and where that's going.
+[00:02:40] how many people have been in their car, going to a destination using Google Maps or Waze or Apple Maps or whatever, your favorite navigation system is and it pops up on the screen and says
+[00:02:54] I found a better route. That'll save you 5 minutes.
+[00:02:57] Everybody's probably experienced that some
+[00:03:00] Along the line.
+[00:03:01] I always say to people when they I tell that, you know, ask them if they've experienced that I always say, did you ever ask for the analytics behind that?
+[00:03:08] They look at me, strange.
+[00:03:10] What do you mean? I says there's a lot of analytics that go into the calculation that determines that this route is going to be 5 minutes faster. There's building traffic patterns, there's distance calculations, this crowdsourcing. There's a lot that goes into that but we don't care.
+[00:03:28] Because we trust the recommendation in most cases depending on whether you like or dislike your your navigation app.
+[00:03:35] That's a good microcosm of where we can expect.
+[00:03:39] Analytics to be in the not too distant future. If you think about it, it's prescriptive. It's
+[00:03:45] Proactively working out, working on your behalf to meet an outcome that you want.
+[00:03:51] It's prescriptive. It's making a recommendation in process with real time data coming in.
+[00:03:58] And it's making adjustments for you to so you can meet your goal or actually uh, exceed.
+[00:04:04] Um, this Visual and audio input, there's conversational. You more than likely might have used your voice to describe where you wanted to go. Imagine if
+[00:04:14] With analytics, you could say.
+[00:04:17] I need to cut customer churn by 3%.
+[00:04:20] That's my destination. What should I do?
+[00:04:24] I need to reduce readmissions into the hospital.
+[00:04:28] Uh, you know, I need
+[00:04:30] To reduce re admissions into the hospital by 5%. What should I do questions like that? Where the answer can be something that's completely different than a dashboard or the analytics that we expect
+[00:04:41] Uh, even though the analytics are still there, the analytics don't disappear but in many cases they can become completely invisible. Like the Google Maps example.
+[00:04:51] So we're going to talk about a couple different things here. We're going to talk about where we are with bi in most cases, I say bi
+[00:04:59] We throw out so many acronyms at Gartner. It's unbelievable you know analytics and bi is the marketplace analytics and business intelligence is the marketplace. Sometimes we we summarize it down to just bi so we're going to talk about where analytics and bi is today where most
+[00:05:15] Of us are we're going to talk about how agents are infiltrating, all aspects of the data and analytics continuum.
+[00:05:22] Uh and I say all of it because there's lots of different markets, software markets that are involved there and then we're going to talk about the idea of a multi-agent decision fabric that can re-emerge as a new kind of analytics for all of us.
+[00:05:39] So first
+[00:05:42] There we go. Where where are we right now?
+[00:05:45] Uh, well we use, what do we use bi for our analytics and bi? Well, we use it to explore data, a business analyst, whose job it is to explore data. Basically investigates new data sources, looks for relationships within data drills down brings in and
+[00:06:00] Merges new data.
+[00:06:01] We asked questions today almost every single 1 of the major business intelligence products that's out. There has added a natural language interface like a chat GPT for their product, right? So you can say what did I sell last week or what's the sales Trend or whatever question you'd like to ask
+[00:06:19] um,
+[00:06:20] we embed analytics at the point that we make decisions in applications like CRM and and supply chain apps and and so on. And we also monitor kpis. So we look at dashboards to understand is the ship my Enterprise moving in the right direction.
+[00:06:39] I mentioned.
+[00:06:41] Analytics there. This is 1 of my favorite slides ever created.
+[00:06:45] That Gartner and it's an old version because there's a new version which you'll see later on in the presentation.
+[00:06:50] but it talks about the 4 kind of analytics which are things that you do in an analytics and bi product
+[00:06:57] descriptive diagnostic predictive and prescriptive, which maps to
+[00:07:06] What happened?
+[00:07:07] Why did it happen? What will happen next and what should I do about it? 1 of the things that we don't necessarily look at when we see this slide. Is this other stuff? That's on the right hand side here you see where on the top it says human Centric and machine Centric.
+[00:07:24] and you see here in the top types of analytics descriptive and diagnostic, which are both
+[00:07:30] Backward-looking. Meaning they look at historical data to see what happened and what are the different situations where it happened. And then a human. A human is responsible for understanding. What that means then deciding what to do and taking action on it.
+[00:07:47] And you notice as you get closer to the bottom when you get into predictive then you're starting to talk about machine. Learning forecasts predictions. Prescriptive is a recommendation on what to do. You're getting closer to where the decision in action occur,
+[00:08:01] Um, so in that the reason why I show that is because this is where largely business intelligence has lived for the last 25 years. It does the descriptive and the diagnostic really well.
+[00:08:15] And all of the responsibility of the decisions and actions that you take are on the human. The human must kind of interpret all that data.
+[00:08:24] Uh they do now largely all provide Predictive Analytics in some of them are even moving into the more of the prescriptive but that's largely 95% of what we do.
+[00:08:36] And these are some of the things that we see that are the challenges that come up from that.
+[00:08:40] 1 is it requires a lot of effort on the data so we spend 80% of the time doing bi. We're doing something with data integrating data.
+[00:08:49] Generally, we're not doing stuff in real time, it's not taking in real time context like the Google Maps example, I gave you it's always very often. Looking backwards.
+[00:08:58] Uh, it's difficult.
+[00:09:00] To connect whatever Insight you get to the decision in action. You made 1 of the discoveries. I made a couple years ago was I looked at all of the not all of but a lot of success stories on the websites of these business intelligence vendors and very often the ROI is described as
+[00:09:18] we get better access to information.
+[00:09:20] We get faster access to information, I always ask, what did you say? We're not really sure, but we think there's a lot because they can't make that connection of those 2 things together.
+[00:09:32] Um,
+[00:09:34] So in general, even as tools got easier to use with the natural language, interface is the the the the adoption of bi is only been around 30%.
+[00:09:44] For the last.
+[00:09:45] 20 years or so. It goes between 25 and 30% and never more.
+[00:09:49] You think you have these natural language interfaces? Shouldn't it shouldn't there be more adoption of the tools and what you find out is very often
+[00:09:58] when you say you have a tool now you can use natural language. It can ask any analytic question and then people say well what question should I ask? I don't know.
+[00:10:06] They don't know what question to ask very often. You see these tools will make a suggestion on questions to ask and then when you ask that question and did they come back with all of these dashboards people? Look at it and see some people see pretty pictures and other people can see insights and answer questions. So there's a lot to the fact that I I you people don't necessarily know what questions to ask, even if they had a really, really simple interview.
+[00:10:30] Interface.
+[00:10:31] Um,
+[00:10:32] And the other thing that goes if it's always on the human to make to in to to take that information in and make the decision.
+[00:10:39] Then bias can leak into that. There's all sorts of different kinds of bias people get tired and they make decisions really quick because they're just tired, they get hungry, they make decisions because of that, they have recency bias and all other things, that kind of come into the decisions that they make. And in theory, if you have an AI, That's making the decisions we can get to a point where there isn't
+[00:11:00] It doesn't get tired.
+[00:11:02] And depending on the data you have it may not be as biased as a human could be. So anyway, that's the direction that we're going in. If you add AI into the picture, what do you get? So you have different levels of AI, right? So you have traditional classic or narrow,
+[00:11:15] AI. That's at the top. That's where the predictive and the prescriptive. Why, what happens next? What should I do about it? Come in.
+[00:11:22] what also does classification, anomaly detection optimization
+[00:11:27] Generative AI when chat gbt came out and then we saw generative introduced the idea of language and conversational analytics and conversations you could have with data. It also introduced a couple other things like synthetic data and and simulation, the idea that you can test out something before you actually do it.
+[00:11:48] Uh, agents, now, everything's all about agents. I could tell you that probably 90% of my phone calls that Gartner are um are are around AI agents, and there are autonomous, they
+[00:12:00] There, multi-step. Uh, they can do multi-step reasoning, lots of lots of really good things but there's still a problem there is. You need to trust it. So you need to have good quality data, trusted data and explainability within that data. So whether you're using traditional bi or or Ai and agents, you need, you have challenges and very often, they come back to the same thing in data.
+[00:12:21] These are just 3 things that I've I, I just picked up on 3 different areas, where I, I heard recent stories about things that people were doing that were sort of
+[00:12:30] on to that next step of what we can do with AI and analytics together. The first 1 was, uh, from thoughtspot at elevance
+[00:12:40] Health. Um, they thoughtspot has a has a natural language tool called spy.
+[00:12:45] That's their tool that you can ask natural language questions to.
+[00:12:49] So what like many organizations at elevance when you wanted to, you want a dashboard, you put in a ticket into a ticketing system service now or whatever it is. And then it goes to a thot spot developer and they build that dashboard in the dashboard. Comes back to you a week or so later.
+[00:13:07] Uh, what elevance notice is that when they introduced spotter into the account,
+[00:13:13] Or into elevance and taught people how to use it. The requests for new dashboards went down by 50% because people were people, even people who were dashboard users, whatever they they they could get information themselves without any any other anybody helping them,
+[00:13:30] At Seamans.
+[00:13:32] semmens is a big Energy company but they also make equipment for manufacturing plants and they have a product called mindsphere
+[00:13:39] and uh 1 of the things that they do is predictive maintenance. So they want to predict when equipment in the manufacturing plant is going to break down.
+[00:13:46] They had this idea.
+[00:13:48] That all this equipment, they have in a manufacturing plant, they had 3,000 manuals in that plant.
+[00:13:54] That told tells you what to do and how to fix that equipment.
+[00:13:57] so, they actually
+[00:13:59] Took all those manuals and loaded them into a vector database, and did what's called a, a retrievable augmented generation or rag if you know that and they created an a, a knowledge engine on fixing the equipment. So now the system that used to say this,
+[00:14:15] Pieces of equipment is going to break down and you should fix it at this point in time. Now, also says, and here's how to fix it,
+[00:14:23] so it's bringing those that the knowledge and unstructured data and the analytics together into 1 System,
+[00:14:29] Uh and Elation that has a data Marketplace, that's another, a data integration company that that 1 of the things that they do is they allow you to explore external data very easily so you can actually take a spreadsheet of your own data, it will inspect it and then find data that it has access to that they have influence. So it does entity resolution figures out. How the data is can be joined automatically and says this data here here has an influence on your business outcomes. So those are all things that are sort of leading towards
+[00:15:00] That next step of where we're going with with Analytics.
+[00:15:07] So Going On To The Next Step, a AI agents, infiltrating each aspect of the data and analytics continuum.
+[00:15:15] This is the same slide I showed you before I mentioned before that bi is part of this but this actually represents several markets but here are just a few of the other ones that are here, right data management. So this is where you do data, integration data preparation data, quality,
+[00:15:32] Data science and machine learning platforms, like data, robot data IQ SAS math Works, Watson X. Those are all places where you can do machine learning and you can predict and do prescriptive and predictive
+[00:15:45] Analytics there.
+[00:15:46] A brand new market which I had the pleasure of being on the magic quadrant team for is the last part.
+[00:15:52] Decision intelligence platforms.
+[00:15:55] I always say what is a people ask. They think the decision intelligence is just business intelligence and it's smarter. It's a it's not 1 of the things I say is decision intelligence is everything that happens after business intelligence
+[00:16:09] Sort of, sort of meaning, it's all about making the decision, the center of the universe and monitoring. How decision modeling and monitoring, how decisions are made the actions that are taken. And what kind of outcome that has and reinforcing and making decisions better in the future. As a matter of fact, I'm doing a presentation tomorrow.
+[00:16:30] On the relationship between business intelligence and decision intelligence and how they should work together.
+[00:16:36] uh,
+[00:16:37] So the reason why I show you that is that that's actually a Continuum. So like it's a left to right kind of linear thing data management.
+[00:16:44] Data science, bi and, and decision intelligence. And there's different players that are from different markets that are in each 1 of those.
+[00:16:52] And what you're starting to see is a, a world of agents that are growing from each of these markets. And if you're a good product manager, like that, I spent most of my time doing, by the way, I don't think I ever introduced myself
+[00:17:05] My name is Kevin Quinn, I cover Ai and analytics at Gartner and I've been with Gartner for 7 years. But before that 30 years for 30 years before that I did product management.
+[00:17:15] Roles for analytics companies.
+[00:17:17] And as a good product manager 1 of the things that you do as you when you exhaust, exhaust all the things that you can put into your product in your Market, is you ask the question. I wonder what people do right before they come into my product. I wonder what people do right after they leave my product and you start to look for new features that are in the before and after. And if you think of this as a Continuum each of the vendors that are in, these markets are starting to build agents that bleed into the next Market that happens after and before
+[00:17:48] So the point of that is that this this whole agent world that's kind of growing up.
+[00:17:54] Uh, and you don't know that the it's going to be a business intelligence vendor that actually solves. The
+[00:18:00] Future problem of analytics, it could be a data management. Vendor, it could be a decision intelligence vendor or it could be a conglomerate that actually has all of those things together. You've seen a lot of the vendors in the bi Market, start to Pivot to new areas. I look at bi as being somewhat dominated by powerbi.
+[00:18:18] and you look at vendors like click click is now a full data and integration and analytics company data science and analytics they bought Talent Salesforce tableau
+[00:18:29] They bought Informatica so they're all doing new things and they're all growing a world of Agents from from their own perspectives.
+[00:18:37] Um so these agents are starting to leak leak into into, you know, different parts of the whole data and analytics. Continuum and
+[00:18:45] Um, and they're all augmenting, the steps that go along the way.
+[00:18:50] So 1 of the first things that you want to think about is if you have a b bi or more than 1 bi vendor which is most companies and you start to see these natural language interfaces, they should start to go be going Way. Beyond the idea of what did I sell last week?
+[00:19:08] Those those questions have been asked for a long time, and I actually hate when I see those demos because I want to see something of more substance. And the question you can ask, can go all along that Continuum. So, if you look at the top there, the idea of new data, discovering new data, does this new data have any influence on my business outcomes?
+[00:19:28] Um, or real time.
+[00:19:30] Where are we losing customers in checkout funnel right now? So, that's a real-time question for data science. You can do prescriptive, what should I do next?
+[00:19:39] How should I staff the call center based on upcoming inbound? Call volume forecasts. That's a, a future, uh, question.
+[00:19:48] For bi very often.
+[00:19:51] It's going to change the. When you think of bi and dashboards, it's going to change from being.
+[00:19:57] Advisory.
+[00:19:59] To forensic.
+[00:20:01] advisory to forensic what that means is today we use dashboards to
+[00:20:06] Advise us on what decision to make.
+[00:20:09] Later, not too distant future. The decision will already be made and I need the
+[00:20:15] Insight to understand was it the right decision? Why did it make that decision? So the bi will be used more for an explanation or the forensics of the decision.
+[00:20:25] So you might ask, please explain your recommendations on why I what I should do for the uh the call center?
+[00:20:32] And if you go into the world of decision intelligence, simulation is a really important part of that. So you can try out what would happen if so what would be the effect on margin and revenue? If I reduce the price of widgets by 5%,
+[00:20:48] Uh, but increase prepay inventory by 3%. The point is, that you should be able to start asking much more complex questions that go across the entire data data and analytics, Continuum, and you should
+[00:21:00] To ask your vendors to do that for you. Uh, and you start to see, you'll start to see more and more of those types of things. And, and think also about what I was saying before about the Google Maps, example, the idea that a business person may not know the analytics question to ask,
+[00:21:16] but they may know the question to ask about their role.
+[00:21:20] You know, I'm a dispatcher in Customer Support. What can I do to to reduce hold times?
+[00:21:25] You know, I'm in, you know, I I work in a hospital. What can I do about reinventions? So that's a a business question about what they do? That will can have lots of analytics behind it, but they may never see the analytics. They might just get steps that they should execute in order to solve the problem.
+[00:21:44] Multi.
+[00:21:45] Agent decision, fabric emerges. So that's that's the idea of what's, where we're where we're going next?
+[00:21:54] So, the future of analytics is agentic. So,
+[00:21:58] We already, I already mentioned the idea that that that's going to be conversational. You're already seeing that in a lot of the examples that you've seen today and you see from the vendors that you're working with.
+[00:22:09] It's also going to be autonomous, it's going to be out there. Being able to work on your behalf. You'll be able to set it off, set these agents off on a goal to achieve something for you.
+[00:22:20] It'll be proactive. So it'll give you insights even before you ask them, it will give you alerts. It will tell you what to do it on your behalf. It will change.
+[00:22:30] Your direction.
+[00:22:32] Change the route that you're currently taking to your goal. If it sees there's changes contextual changes in real time information that that need that change.
+[00:22:42] And it will be adaptive. So it's going to learn it's going to learn your personal uh, preferences and it's going to get smarter over time. Those are all things that should happen in a world where you have agents, that are doing all of the parts of the data and analytics, Continuum for you.
+[00:22:59] So I'm starting to see today.
+[00:23:03] 2 different methodologies, if you will on how vendors are producing that next,
+[00:23:10] uh, evolution of analytics, 1 of them is and what's
+[00:23:15] Called Agent to agent. So there's, there's 2 things that I I that you you probably many of you may know about a to a agent to agent Communications that's sort of horizontal agents that are peers that can communicate with each other.
+[00:23:29] And there's mCP, which is more vertical where your agents can talk to tools and do things with those tools. You may actually know a lot of your vendors are making announcements about
+[00:23:41] We've just released an mCP server.
+[00:23:43] Have you heard your your have they told you about? We've just what does that mean? That means that they released
+[00:23:49] Um, a server version of their product, which is kind of headless, if you will, meaning that it gives the instructions to any llm on how to use those tools.
+[00:24:00] Tools. So, you can put claw or GPT for in front of them, and it can use Tableau or qlik or powerbi or whatever tool introduced to the mCP server and all the tools that are in their bag of tricks.
+[00:24:12] So, 1 method that I see, is this 1, this is the side by side version where you actually have, you'll have a series of Agents. It says, Foundation data agents, but there's multiple ingestion. Agents data, quality agents integration agents metadata and lineage agents and privacy and security agents. That may be shared with the governance. Uh layer, you have modeling and analytics agents. Um, I got to change that that's supposed to say policy and decision aware agents. Um, so those are the
+[00:24:45] The ones that actually make decisions and take action and maybe do simulations, customer communication experience agents governance, and oversight and maybe even domain specific agents and they all will communicate with each other and solve problems for you.
+[00:25:00] I have heard from different vendors. That say, 1 of the challenges with agent to agent architectures is you don't always know. Even if you have guardrails, you don't always know what the communication between the agents are actually doing.
+[00:25:15] Um, so that becomes something that could when you have lots of Agents where there could be lots of connections that you're not completely sure how it got to the end result, that's not always the case. But that's, that's some of the things that I've heard from vendors. That I talked about it, the other methodology is the
+[00:25:30] 1 where you have 1 Master agent and it simply uses mCP servers to use a lot of tools and solve a problem.
+[00:25:37] Uh and I got a couple of quick demos that I was going to show you that are that are related to these 2 different architectures.
+[00:25:43] Um, so it's a similar group of of, of tasks. But there's 1 Master a, and when a company releases an mCP server, what they generally are saying is you can use Claude or open AI, chat, GPT and put it on the front end and these and it will know how to use our tools. If you load in our MP mCP server, that's what they're they're saying.
+[00:26:09] Um, so this is this is a quick example. I'm going to toggle over need my glasses here.
+[00:26:15] See if this works.
+[00:26:18] This is from a small vendor, uh, known as, uh, the vendors called unsupervised. And they had a, they had a, a data from the health and human services department, and they asked the question about to evaluate the data and under and and give me a report on why Medicaid costs are rising.
+[00:26:38] And you see I actually kicked off that query and it goes off and it starts to do things. Oh you're not seeing that.
+[00:26:46] Okay.
+[00:26:47] I thought you were seeing my screen.
+[00:26:49] Do I have to talk to that? Okay. Yeah. Anyway, it's it's working in the background in any case, so agents, run. And they, they runs computer efficient. Exploration code not sequel. So,
+[00:27:00] Because it actually conserves, uh, compute compute, the agent decided that in order to use this data, I also need to validate it with data from the, from the Federal Reserve, that's the Fred data there.
+[00:27:13] It realized that the data was similar to data that had already had in a tableau dashboard and it actually combined it to corroborate the answers that it was getting it actually started to write some python code and it ran into an era and tried a different route to solve the problem. These are all things that are happening under the covers as the agent is trying to solve the problem for me of creating this report and the resulting report.
+[00:27:38] I'm not going to looks like this is a big long 30 page. This is this agent actually ran for 3.
+[00:27:45] Hours and it solved this problem and created this really complex well-laid out report on why Medicaid prices uh costs were Rising. Uh the the problem is kind of irrelevant, it's just the idea that um and this was in the in the model of an mCP server, okay? Uh let me toggle back here.
+[00:28:07] Is that the right 1?
+[00:28:09] Yeah.
+[00:28:17] Yeah, yeah, that's where I want to be. This is from uh click that was just a click conference and uh, and I'm not pointing at these vendors for any other reason where they're just examples most of the vendors are out there.
+[00:28:30] Now how either have announced their mCP server or release them. So this is 1 where they use Claude in front of click and you notice the first thing they're doing is, they click the plus sign. And there's a thing right there that says, click mCP, right? So you click that. And the question is, as a hospital administrator, what readmission trends should be paying, should I be paying attention to right now?
+[00:28:54] And it goes off and it starts to call these different agents. Multiple agents, that solve the problem, and it comes back with a dashboard. Then there's a follow-up question. Well, that's the actual specific answer. There's a follow-up question, says, what are the latest benchmarks? Uh uh uh uh, for reducing agents or build a simple way for me to track performance?
+[00:29:15] Against those benchmarks in Click. So what happens when you click the button, there it actually, you could see it go into click and start to build a dashboard that answers. The question that the person was just was just asking, but these are just examples of of where these things
+[00:29:33] where the, where these tools are starting to go and those are 2, different methodologies, mCP, or a TOA. Um, so those are just examples. I, I would just, you know, recommend that you you
+[00:29:46] As as you're talking to your vendors. Take a look at the kinds of questions. You can ask the natural language interface to see if they starting to get more and more advanced find out if
+[00:29:56] They're are they are they releasing an army of Agents?
+[00:30:00] Seeking AA, mCP, and more than likely, the end result is going to be a hybrid of multiple agents and mCP servers and tools that can be, can be used by by by those agents.
+[00:30:12] So the things that you want to focus on just from a from a standpoint of where you go, we go. Next is to start to change the way that you think about analytics. Don't think about dashboards, you should be thinking about the decisions that people need to make. So you should be more decisions Centric than data driven to a certain extent.
+[00:30:31] Uh a unified semantic layer is kind of a critical component that I didn't touch on. I mentioning it I'm mentioning it here is a way that that everything the agents all understand what every what every piece of uh
+[00:30:45] Of data means 1 of the semantics of that data so that all of the queries can be, uh, consistent. Um,
+[00:30:52] Take a look at the conversational interfaces that are out there for the analytics products and start to experiment with them.
+[00:30:58] Um, real time context is a huge part of what some of the things that we're doing with the future of analytics. You need to take contextual information, especially unstructured information, that could potentially be coming from outside your organization. Things like weather news, you, uh, consumer sentiment are all things that we dabbled in, but they should be part of the decision systems that you're building right now.
+[00:31:24] Decision intelligence is a new market. It's something that you should investigate, and if you're interested in finding out,
+[00:31:30] How it can kind of work together with bi. I have a session I mentioned tomorrow but but decision intelligence is is is is agentic in itself but it helps you model. How decisions are made in your Enterprise so that they can be augmented human in the loop or automated human on the loop.
+[00:31:46] Um,
+[00:31:48] governance should go beyond just data right data.
+[00:31:52] Analytics models and decisions decisions that should be part of the governance process, it's 1 of the definitions. We have on the Gartner website, website is decision governance.
+[00:32:02] Um, and then upskill, I mean, I I just the idea of teaching people in your organization prompting techniques in many of you may have done that already, uh, but I've seen
+[00:32:12] the, the distribution of co-pilots with
+[00:32:15] Without any training and it doesn't really go anywhere. But when you teach people how to prompt and how to create a, you know, a good prompts, you get a lot of a lot more success out of the deployment of these of these agents, especially the analytics agents.
+[00:32:29] So with that, I think I'm 2 minutes and 30 seconds over. Uh I I appreciate you coming here today. Thank you very much. If you have any questions I'll be here for a little while after the session. Thank you.

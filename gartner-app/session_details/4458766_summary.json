@@ -1,0 +1,97 @@
+{
+  "summary": "The session discusses the relationship between business intelligence (BI) and decision intelligence (DI), emphasizing that DI is not merely an evolution of BI but a distinct discipline focused on improving decision-making outcomes. It highlights the importance of integrating AI into decision-making processes to enhance efficiency and reduce reliance on traditional BI tools. The speaker also addresses the need for organizations to adopt a decision-centric approach to leverage both BI and DI effectively.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Decision Intelligence",
+      "key_points": [
+        "Decision intelligence is distinct from business intelligence and focuses on decision-making outcomes.",
+        "The session will explore the integration of AI in decision-making processes."
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:04:40"
+    },
+    {
+      "order": 2,
+      "topic": "Understanding Decision Intelligence",
+      "key_points": [
+        "Decision intelligence is a practical discipline that enhances decision-making by understanding how decisions are made.",
+        "It includes decision modeling and the orchestration of decision workflows."
+      ],
+      "start_time": "00:04:40",
+      "end_time": "00:09:00"
+    },
+    {
+      "order": 3,
+      "topic": "Decision-Making Models",
+      "key_points": [
+        "There are three decision-making models: decision support, decision augmentation, and decision automation.",
+        "Decision intelligence platforms can facilitate all three models."
+      ],
+      "start_time": "00:09:00",
+      "end_time": "00:12:30"
+    },
+    {
+      "order": 4,
+      "topic": "Challenges with Business Intelligence",
+      "key_points": [
+        "Business intelligence often lacks real-time context and can be difficult to connect to decision-making.",
+        "Adoption of BI tools has stagnated despite advancements in technology."
+      ],
+      "start_time": "00:12:30",
+      "end_time": "00:17:00"
+    },
+    {
+      "order": 5,
+      "topic": "Integrating BI and DI",
+      "key_points": [
+        "A synergistic relationship between BI and DI can enhance decision-making capabilities.",
+        "Real-time context and advanced analytics are crucial for effective integration."
+      ],
+      "start_time": "00:17:00",
+      "end_time": "00:22:00"
+    },
+    {
+      "order": 6,
+      "topic": "Future of Decision Intelligence",
+      "key_points": [
+        "The future will see more automation and augmentation in decision-making processes.",
+        "Organizations should focus on incremental adoption of decision intelligence."
+      ],
+      "start_time": "00:22:00",
+      "end_time": "00:32:38"
+    }
+  ],
+  "key_takeaways": [
+    "Organizations must shift from a data-driven to a decision-centric approach to improve outcomes.",
+    "Integrating AI into decision-making processes can enhance efficiency and reduce reliance on traditional BI tools.",
+    "Incremental adoption of decision intelligence is crucial to mitigate risks associated with rapid changes."
+  ],
+  "entities": [
+    {
+      "decision intelligence": 10
+    },
+    {
+      "business intelligence": 8
+    },
+    {
+      "decision-making": 9
+    },
+    {
+      "data integration": 5
+    },
+    {
+      "real-time context": 4
+    },
+    {
+      "decision automation": 3
+    },
+    {
+      "decision support": 3
+    },
+    {
+      "decision augmentation": 3
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

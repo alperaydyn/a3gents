@@ -1,0 +1,920 @@
+{% extends 'base.html' %}
+{% block title %}Study Path{% endblock %}
+
+{% block head %}
+<style>
+/* ── Page shell ───────────────────────────────────────────────────────── */
+.sp-page {
+  display: flex;
+  height: calc(100vh - 52px);
+  overflow: hidden;
+  background: #f8fafc;
+}
+
+/* ── Left panel — path ────────────────────────────────────────────────── */
+.sp-left {
+  width: 272px;
+  flex-shrink: 0;
+  background: #fff;
+  border-right: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.sp-left-header {
+  padding: 14px 16px 10px;
+  border-bottom: 1px solid #f1f5f9;
+  flex-shrink: 0;
+}
+.sp-left-title {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #94a3b8;
+  margin-bottom: 10px;
+}
+.sp-left-btns {
+  display: flex;
+  gap: 6px;
+}
+.sp-btn {
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+  border: 1px solid transparent;
+}
+.sp-btn-primary { background: #6366f1; color: #fff; border-color: #6366f1; }
+.sp-btn-primary:hover { background: #4f46e5; }
+.sp-btn-primary:disabled { background: #c7d2fe; border-color: #c7d2fe; cursor: default; }
+.sp-btn-outline { background: #fff; color: #64748b; border-color: #e2e8f0; }
+.sp-btn-outline:hover { border-color: #cbd5e1; color: #1e293b; }
+.sp-btn-ghost { background: none; color: #64748b; border-color: transparent; }
+.sp-btn-ghost:hover { background: #f1f5f9; }
+.sp-btn-study {
+  width: 100%; margin-top: 8px; justify-content: center; display: flex;
+  align-items: center; gap: 6px;
+  background: #0f172a; color: #fff; border-color: #0f172a;
+}
+.sp-btn-study:hover { background: #1e293b; border-color: #1e293b; }
+.sp-btn-study:disabled { background: #e2e8f0; color: #94a3b8; border-color: #e2e8f0; cursor: default; }
+
+/* ── Path flow ────────────────────────────────────────────────────────── */
+.sp-path-flow {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px 12px 20px;
+}
+.sp-path-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sp-path-card {
+  width: 100%;
+  padding: 9px 10px;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 9px;
+  background: #fff;
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+.sp-path-card:hover { border-color: var(--sc, #6366f1); box-shadow: 0 1px 6px rgba(0,0,0,0.06); }
+.sp-path-card.current {
+  border-color: var(--sc, #6366f1);
+  background: var(--sbg, #eef2ff);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--sc, #6366f1) 15%, transparent);
+}
+.sp-path-num {
+  font-size: 10px;
+  font-weight: 700;
+  color: #94a3b8;
+  min-width: 16px;
+  padding-top: 1px;
+}
+.sp-path-info { flex: 1; min-width: 0; }
+.sp-path-stream {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--sc, #6366f1);
+  margin-bottom: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.sp-path-stream-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
+.sp-path-card-title { font-size: 12px; font-weight: 600; color: #1e293b; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.sp-path-remove {
+  background: none; border: none; cursor: pointer;
+  color: #cbd5e1; padding: 2px; border-radius: 4px;
+  flex-shrink: 0; font-size: 13px; line-height: 1;
+  transition: color 0.15s;
+}
+.sp-path-remove:hover { color: #ef4444; }
+.sp-path-arrow {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #cbd5e1;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+/* ── Right panel — suggestions ────────────────────────────────────────── */
+.sp-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.sp-right-header {
+  padding: 14px 20px 12px;
+  background: #fff;
+  border-bottom: 1px solid #e2e8f0;
+  flex-shrink: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.sp-right-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1e293b;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.sp-right-meta { font-size: 12px; color: #94a3b8; white-space: nowrap; }
+.sp-right-status {
+  font-size: 11px;
+  color: #94a3b8;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.sp-right-status .dot-pulse {
+  display: inline-block;
+  width: 7px; height: 7px; border-radius: 50%;
+  background: #6366f1;
+  animation: pulse 1s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
+
+.sp-suggestions-scroll {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px 20px 40px;
+}
+.sp-suggestions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+/* ── Suggestion card ──────────────────────────────────────────────────── */
+.sg-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #fff;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 11px 14px;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.3s ease;
+  will-change: transform;
+}
+.sg-card:hover {
+  border-color: var(--sc, #6366f1);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+.sg-card.entering {
+  animation: sg-enter 0.3s ease forwards;
+}
+@keyframes sg-enter {
+  from { opacity: 0; transform: translateX(18px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+.sg-stream-bar {
+  width: 4px;
+  border-radius: 2px;
+  align-self: stretch;
+  flex-shrink: 0;
+  background: var(--sc, #6366f1);
+}
+.sg-body { flex: 1; min-width: 0; }
+.sg-meta { display: flex; align-items: center; gap: 6px; margin-bottom: 4px; }
+.sg-stream-tag {
+  font-size: 10px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase;
+  color: var(--sc, #6366f1);
+}
+.sg-level-badge {
+  font-size: 9px; font-weight: 700; background: #f1f5f9; color: #64748b;
+  padding: 1px 6px; border-radius: 4px;
+}
+.sg-title {
+  font-size: 13px; font-weight: 600; color: #1e293b; line-height: 1.35;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  margin-bottom: 4px;
+}
+.sg-reasons {
+  font-size: 11px; color: #94a3b8;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.sg-reasons-label {
+  font-size: 9px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+  color: #cbd5e1; margin-right: 4px;
+}
+.sg-score-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  min-width: 80px;
+  flex-shrink: 0;
+}
+.sg-score-bar-wrap {
+  width: 80px; height: 4px; background: #f1f5f9; border-radius: 2px; overflow: hidden;
+}
+.sg-score-fill {
+  height: 100%; border-radius: 2px;
+  background: var(--sc, #6366f1);
+  transition: width 0.6s ease;
+}
+.sg-score-num { font-size: 11px; font-weight: 700; color: #475569; }
+.sg-detail-link {
+  font-size: 11px; color: #cbd5e1; text-decoration: none;
+  padding: 4px 6px; border-radius: 5px; flex-shrink: 0;
+  transition: color 0.15s, background 0.15s;
+}
+.sg-detail-link:hover { color: #6366f1; background: #eef2ff; }
+
+/* ── Empty / spinner ──────────────────────────────────────────────────── */
+.sp-spinner-wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; padding: 60px 0; color: #94a3b8; font-size: 13px; }
+.sp-spinner { width: 28px; height: 28px; border: 3px solid #e2e8f0; border-top-color: #6366f1; border-radius: 50%; animation: sp-spin 0.8s linear infinite; }
+@keyframes sp-spin { to { transform: rotate(360deg); } }
+.sp-empty { text-align: center; padding: 60px 24px; color: #94a3b8; font-size: 13px; }
+.sp-empty strong { display: block; color: #475569; margin-bottom: 5px; font-size: 14px; }
+
+/* ── Modals ───────────────────────────────────────────────────────────── */
+.sp-modal-backdrop { position: fixed; inset: 0; background: rgba(15,23,42,0.4); display: flex; align-items: center; justify-content: center; z-index: 300; }
+.sp-modal-backdrop.hidden { display: none; }
+.sp-modal { background: #fff; border-radius: 14px; width: 420px; max-width: calc(100vw - 32px); max-height: 80vh; display: flex; flex-direction: column; box-shadow: 0 20px 60px rgba(0,0,0,0.2); }
+.sp-modal-head { display: flex; align-items: center; justify-content: space-between; padding: 16px 18px 12px; border-bottom: 1px solid #f1f5f9; }
+.sp-modal-head h3 { font-size: 15px; font-weight: 700; color: #1e293b; margin: 0; }
+.sp-modal-x { background: none; border: none; cursor: pointer; color: #94a3b8; padding: 3px; border-radius: 5px; }
+.sp-modal-x:hover { background: #f1f5f9; color: #475569; }
+.sp-modal-body { padding: 14px 18px 18px; overflow-y: auto; }
+.sp-input { width: 100%; border: 1.5px solid #e2e8f0; border-radius: 7px; padding: 8px 11px; font-size: 13px; color: #1e293b; outline: none; box-sizing: border-box; transition: border-color 0.15s; }
+.sp-input:focus { border-color: #6366f1; }
+.sp-path-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 7px; }
+.sp-path-item { display: flex; align-items: center; gap: 8px; padding: 9px 11px; border: 1.5px solid #e2e8f0; border-radius: 8px; }
+.sp-path-item-info { flex: 1; min-width: 0; }
+.sp-path-item-name { font-size: 13px; font-weight: 600; color: #1e293b; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sp-path-item-meta { font-size: 11px; color: #94a3b8; margin-top: 2px; }
+.sp-path-item-actions { display: flex; gap: 3px; }
+.sp-icon-btn { background: none; border: none; cursor: pointer; padding: 5px; border-radius: 5px; color: #94a3b8; transition: all 0.15s; }
+.sp-icon-btn:hover { background: #f1f5f9; color: #374151; }
+.sp-icon-btn.danger:hover { background: #fef2f2; color: #ef4444; }
+.sp-share-row { display: flex; gap: 7px; margin-top: 10px; }
+.sp-share-row input { flex: 1; font-size: 12px; }
+
+/* ── Shared path ──────────────────────────────────────────────────────── */
+.sp-shared-banner { background: #fffbeb; border: 1px solid #fde68a; border-radius: 8px; padding: 9px 13px; font-size: 13px; color: #92400e; display: flex; align-items: center; gap: 7px; }
+.sp-shared-list { display: flex; flex-direction: column; gap: 7px; margin-top: 14px; }
+.sp-shared-row { display: flex; align-items: center; gap: 9px; padding: 10px 13px; background: #fff; border: 1.5px solid #e2e8f0; border-radius: 8px; text-decoration: none; transition: border-color 0.15s; }
+.sp-shared-row:hover { border-color: #6366f1; }
+.sp-shared-num { font-size: 11px; font-weight: 700; color: #cbd5e1; width: 18px; text-align: center; flex-shrink: 0; }
+.sp-shared-info { flex: 1; min-width: 0; }
+.sp-shared-title { font-size: 13px; font-weight: 600; color: #1e293b; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sp-shared-meta { font-size: 11px; color: #94a3b8; margin-top: 1px; }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="sp-page">
+
+  <!-- Left: path flow -->
+  <aside class="sp-left" id="sp-left">
+    <div class="sp-left-header">
+      <div class="sp-left-title">Study Path</div>
+      <div class="sp-left-btns">
+        <button class="sp-btn sp-btn-primary" id="sp-save-btn" disabled>Save</button>
+        <button class="sp-btn sp-btn-outline" id="sp-paths-btn">My Paths</button>
+      </div>
+      <button class="sp-btn sp-btn-study" id="sp-study-btn" disabled title="Lock this path and start studying session by session">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+        Start Studying
+      </button>
+    </div>
+    <div class="sp-path-flow" id="sp-path-flow">
+      <div class="sp-spinner-wrap" style="padding:40px 0"><div class="sp-spinner"></div></div>
+    </div>
+  </aside>
+
+  <!-- Right: suggestions -->
+  <div class="sp-right" id="sp-right">
+    <div class="sp-right-header" id="sp-right-header">
+      <div class="sp-right-title" id="sp-right-title">Loading…</div>
+      <div class="sp-right-status" id="sp-right-status"></div>
+    </div>
+    <div class="sp-suggestions-scroll">
+      <div class="sp-suggestions-list" id="sp-suggestions-list">
+        <div class="sp-spinner-wrap"><div class="sp-spinner"></div><span>Computing suggestions…</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Save modal -->
+<div class="sp-modal-backdrop hidden" id="sp-save-modal">
+  <div class="sp-modal">
+    <div class="sp-modal-head">
+      <h3>Save Study Path</h3>
+      <button class="sp-modal-x" onclick="closeModal('sp-save-modal')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>
+    <div class="sp-modal-body">
+      <label style="font-size:12px;font-weight:600;color:#374151;display:block;margin-bottom:7px">Path name</label>
+      <input class="sp-input" id="sp-path-name" placeholder="e.g. GenAI deep dive" maxlength="60">
+      <div style="margin-top:14px;display:flex;gap:7px;justify-content:flex-end">
+        <button class="sp-btn sp-btn-ghost" onclick="closeModal('sp-save-modal')">Cancel</button>
+        <button class="sp-btn sp-btn-primary" id="sp-save-confirm">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- My Paths modal -->
+<div class="sp-modal-backdrop hidden" id="sp-paths-modal">
+  <div class="sp-modal">
+    <div class="sp-modal-head">
+      <h3>My Study Paths</h3>
+      <button class="sp-modal-x" onclick="closeModal('sp-paths-modal')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>
+    <div class="sp-modal-body" id="sp-paths-body">
+      <div class="sp-spinner-wrap"><div class="sp-spinner"></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- Share modal -->
+<div class="sp-modal-backdrop hidden" id="sp-share-modal">
+  <div class="sp-modal">
+    <div class="sp-modal-head">
+      <h3>Share Path</h3>
+      <button class="sp-modal-x" onclick="closeModal('sp-share-modal')"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    </div>
+    <div class="sp-modal-body">
+      <p style="font-size:13px;color:#475569;margin:0 0 10px">Anyone with this link (who can log in) can view your path.</p>
+      <div class="sp-share-row">
+        <input class="sp-input" id="sp-share-url" readonly>
+        <button class="sp-btn sp-btn-outline" id="sp-copy-btn">Copy</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+// ── State ──────────────────────────────────────────────────────────────────
+const ENTRY_SID  = '4508150';
+const sessionCache = {};       // sid → enriched session
+const pathStore    = {};       // path_id → saved path object
+let currentPath   = [];        // ordered enriched sessions
+let currentPathId = null;
+let activeSse     = null;      // current EventSource
+let suggestions   = [];        // [{…session, score, reasons}] sorted desc
+let sharedData    = {{ shared_path | tojson if shared_path else 'null' }};
+
+// ── Boot ───────────────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', async () => {
+  if (sharedData) { renderSharedView(sharedData); return; }
+
+  try {
+    const res = await fetch('/api/user/state/path_state');
+    if (res.ok) {
+      const data = await res.json();
+      const saved = data.value;
+      if (saved?.path?.length) {
+        currentPath   = saved.path;
+        currentPathId = saved.path_id || null;
+        currentPath.forEach(s => { sessionCache[s.session_id] = s; });
+        renderPath();
+        loadSuggestions(currentPath[currentPath.length - 1].session_id);
+        return;
+      }
+    }
+  } catch (_) {}
+
+  // Bootstrap from entry session
+  fetch(`/api/studypath/session/${ENTRY_SID}`)
+    .then(r => r.json())
+    .then(s => {
+      sessionCache[s.session_id] = s;
+      currentPath = [s];
+      persistPath();
+      renderPath();
+      loadSuggestions(ENTRY_SID);
+    })
+    .catch(() => setRightContent(`<div class="sp-empty"><strong>Error</strong>Could not load entry session.</div>`));
+});
+
+function persistPath() {
+  fetch('/api/user/state/path_state', {
+    method: 'POST', headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ path: currentPath, path_id: currentPathId }),
+  }).catch(() => {});
+}
+
+// ── Path panel ─────────────────────────────────────────────────────────────
+function renderPath() {
+  const flow = document.getElementById('sp-path-flow');
+  if (!currentPath.length) {
+    flow.innerHTML = `<div style="padding:20px 12px;font-size:12px;color:#94a3b8">No sessions yet.</div>`;
+    return;
+  }
+
+  let html = '';
+  currentPath.forEach((s, i) => {
+    const isCurrent = i === currentPath.length - 1;
+    const canRemove = s.session_id !== ENTRY_SID;
+    html += `
+      <div class="sp-path-entry">
+        <div class="sp-path-card ${isCurrent ? 'current' : ''}"
+             style="--sc:${s.stream_color};--sbg:${s.stream_bg}"
+             onclick="navToPathIndex(${i})">
+          <div class="sp-path-num">${i + 1}</div>
+          <div class="sp-path-info">
+            <div class="sp-path-stream">
+              <div class="sp-path-stream-dot" style="background:${s.stream_color}"></div>
+              ${escHtml(s.stream_short)} · L${s.level}
+            </div>
+            <div class="sp-path-card-title">${escHtml(s.title)}</div>
+          </div>
+          ${canRemove ? `<button class="sp-path-remove" onclick="removePath(event,${i})" title="Remove">×</button>` : ''}
+        </div>
+        ${!isCurrent ? `<div class="sp-path-arrow">↓</div>` : ''}
+      </div>`;
+  });
+
+  flow.innerHTML = html;
+  // Scroll to bottom so current is visible
+  flow.scrollTop = flow.scrollHeight;
+
+  // Update save + study buttons
+  const enoughSessions = currentPath.length >= 2;
+  document.getElementById('sp-save-btn').disabled  = !enoughSessions;
+  document.getElementById('sp-study-btn').disabled = !enoughSessions;
+}
+
+function navToPathIndex(i) {
+  if (i === currentPath.length - 1) return; // already current
+  currentPath = currentPath.slice(0, i + 1);
+  persistPath();
+  renderPath();
+  loadSuggestions(currentPath[i].session_id);
+}
+
+function removePath(event, i) {
+  event.stopPropagation();
+  currentPath.splice(i, 1);
+  if (!currentPath.length) {
+    // Re-add entry session
+    const entry = sessionCache[ENTRY_SID];
+    if (entry) currentPath = [entry];
+  }
+  currentPathId = null;
+  persistPath();
+  renderPath();
+  if (currentPath.length) loadSuggestions(currentPath[currentPath.length - 1].session_id);
+}
+
+// ── Suggestions ─────────────────────────────────────────────────────────────
+function loadSuggestions(sid) {
+  suggestions = [];
+  setRightHeader(sid, null, false);
+  setRightContent(`<div class="sp-spinner-wrap"><div class="sp-spinner"></div><span>Computing suggestions…</span></div>`);
+
+  if (activeSse) { activeSse.close(); activeSse = null; }
+
+  const list = document.getElementById('sp-suggestions-list');
+  if (list) list.innerHTML = '';
+
+  const sse = new EventSource(`/api/studypath/suggestions/${sid}`);
+  activeSse = sse;
+  let started = false;
+  let received = 0;
+
+  // For cached results: stagger rendering
+  let cachedQueue = [];
+  let cachedTimer = null;
+
+  sse.onmessage = (e) => {
+    const msg = JSON.parse(e.data);
+
+    if (msg.type === 'start') {
+      started = true;
+      if (!list.id) return; // guard
+      if (!msg.cached) {
+        // Live: clear spinner, show empty list
+        list.innerHTML = '';
+        setRightStatus(true, 0);
+      } else {
+        // Cached: batch render with stagger
+        list.innerHTML = '';
+        setRightStatus(false, msg.total);
+      }
+    }
+
+    if (msg.type === 'result') {
+      received++;
+      const s = msg.session;
+      sessionCache[s.session_id] = s;
+
+      if (!started) return;
+
+      if (msg.cached === undefined) {
+        // We don't know yet; try both paths
+      }
+      // Insert with FLIP animation
+      insertSuggestion(s);
+      setRightStatus(activeSse?.readyState !== EventSource.CLOSED, received);
+    }
+
+    if (msg.type === 'done') {
+      sse.close();
+      activeSse = null;
+      setRightHeader(sid, received, false);
+      setRightStatus(false, received);
+    }
+
+    if (msg.type === 'error') {
+      sse.close();
+      activeSse = null;
+      list.innerHTML = `<div class="sp-empty"><strong>No suggestions available</strong>${escHtml(msg.message || '')}</div>`;
+    }
+  };
+
+  sse.onerror = () => {
+    sse.close();
+    activeSse = null;
+    if (!received) {
+      list.innerHTML = `<div class="sp-empty"><strong>Error</strong>Could not load suggestions.</div>`;
+    }
+    setRightStatus(false, received);
+  };
+}
+
+// ── FLIP insert ────────────────────────────────────────────────────────────
+function insertSuggestion(s) {
+  const list = document.getElementById('sp-suggestions-list');
+  if (!list) return;
+
+  // Skip sessions already in the current path
+  if (currentPath.some(p => p.session_id === s.session_id)) return;
+
+  // Find insertion index (sorted desc by score)
+  const idx = suggestions.findIndex(x => x.score < s.score);
+  const insertAt = idx === -1 ? suggestions.length : idx;
+  suggestions.splice(insertAt, 0, s);
+
+  // Record current positions of existing cards (FLIP: First)
+  const existingCards = Array.from(list.querySelectorAll('.sg-card'));
+  const oldRects = new Map();
+  existingCards.forEach(c => oldRects.set(c.dataset.sid, c.getBoundingClientRect()));
+
+  // Create new card
+  const newEl = makeSuggestionCard(s);
+
+  // Insert at correct position
+  const refNode = list.children[insertAt] || null;
+  list.insertBefore(newEl, refNode);
+
+  // Animate in new card (FLIP: Play for new)
+  newEl.classList.add('entering');
+  // Score bar animates from 0 → score
+  const fill = newEl.querySelector('.sg-score-fill');
+  if (fill) {
+    fill.style.width = '0';
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        fill.style.width = `${Math.round(s.score * 100)}%`;
+      });
+    });
+  }
+  setTimeout(() => newEl.classList.remove('entering'), 350);
+
+  // Animate displaced cards (FLIP: Invert + Play)
+  existingCards.forEach(c => {
+    const oldRect = oldRects.get(c.dataset.sid);
+    if (!oldRect) return;
+    const newRect = c.getBoundingClientRect();
+    const dy = oldRect.top - newRect.top;
+    if (Math.abs(dy) < 1) return;
+    c.style.transition = 'none';
+    c.style.transform = `translateY(${dy}px)`;
+    requestAnimationFrame(() => {
+      c.style.transition = 'transform 0.35s cubic-bezier(0.4,0,0.2,1)';
+      c.style.transform = '';
+    });
+  });
+}
+
+// ── Suggestion card DOM builder ────────────────────────────────────────────
+function makeSuggestionCard(s) {
+  const div = document.createElement('div');
+  div.className = 'sg-card';
+  div.dataset.sid = s.session_id;
+  div.style.setProperty('--sc', s.stream_color);
+  const pct = Math.round(s.score * 100);
+  div.innerHTML = `
+    <div class="sg-stream-bar"></div>
+    <div class="sg-body">
+      <div class="sg-meta">
+        <span class="sg-stream-tag">${escHtml(s.stream_short)}</span>
+        <span class="sg-level-badge">L${s.level} ${escHtml(s.level_name)}</span>
+      </div>
+      <div class="sg-title">${escHtml(s.title)}</div>
+      ${s.reasons?.length ? `<div class="sg-reasons"><span class="sg-reasons-label">shared topics</span> ${s.reasons.map(r => escHtml(r)).join(' · ')}</div>` : ''}
+    </div>
+    <div class="sg-score-col" title="Match score: ${pct}%&#10;&#10;How it's calculated:&#10;• 55% — Jaccard similarity of section topic words between the two sessions&#10;• 45% — IDF-weighted entity co-occurrence (rarer shared entities score higher)&#10;&#10;Keywords shown are the overlapping topic words driving the section similarity.">
+      <div class="sg-score-bar-wrap">
+        <div class="sg-score-fill" style="width:${pct}%;background:${s.stream_color}"></div>
+      </div>
+      <div class="sg-score-num">${pct}%</div>
+    </div>
+    <a class="sg-detail-link" href="/session/${s.session_id}" target="_blank" title="Open session">↗</a>`;
+  div.addEventListener('click', (e) => {
+    if (e.target.classList.contains('sg-detail-link') || e.target.closest('.sg-detail-link')) return;
+    selectSuggestion(s.session_id);
+  });
+  return div;
+}
+
+function selectSuggestion(sid) {
+  const s = sessionCache[sid];
+  if (!s) return;
+  currentPath.push(s);
+  currentPathId = null;
+  persistPath();
+  renderPath();
+  loadSuggestions(sid);
+}
+
+// ── Right header & status ──────────────────────────────────────────────────
+function setRightHeader(sid, count, loading) {
+  const s = sessionCache[sid];
+  const title = document.getElementById('sp-right-title');
+  if (title && s) {
+    title.textContent = `After: "${truncate(s.title, 60)}"`;
+  }
+}
+
+function setRightStatus(loading, count) {
+  const el = document.getElementById('sp-right-status');
+  if (!el) return;
+  if (loading) {
+    el.innerHTML = `<span class="dot-pulse"></span> finding matches…`;
+  } else {
+    el.innerHTML = count ? `${count} matches` : '';
+  }
+}
+
+function setRightContent(html) {
+  const list = document.getElementById('sp-suggestions-list');
+  if (list) list.innerHTML = html;
+}
+
+// ── Save path ──────────────────────────────────────────────────────────────
+document.getElementById('sp-save-btn')?.addEventListener('click', () => {
+  const inp = document.getElementById('sp-path-name');
+  if (inp) inp.value = autoName();
+  openModal('sp-save-modal');
+  setTimeout(() => inp?.select(), 50);
+});
+
+document.getElementById('sp-save-confirm')?.addEventListener('click', async () => {
+  const name = (document.getElementById('sp-path-name').value.trim()) || 'My Path';
+  const btn  = document.getElementById('sp-save-confirm');
+  btn.disabled = true; btn.textContent = 'Saving…';
+  try {
+    const r = await fetch('/api/studypath/paths', {
+      method: 'POST', headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({ name, sessions: currentPath.map(s => s.session_id), path_id: currentPathId }),
+    }).then(r => r.json());
+    currentPathId = r.path_id;
+    persistPath();
+    closeModal('sp-save-modal');
+  } catch { alert('Could not save.'); }
+  finally { btn.disabled = false; btn.textContent = 'Save'; }
+});
+
+function autoName() {
+  if (!currentPath.length) return 'My Path';
+  return `${currentPath[0].stream_short} · ${currentPath.length} sessions`;
+}
+
+// ── Start Studying ─────────────────────────────────────────────────────────
+document.getElementById('sp-study-btn')?.addEventListener('click', async () => {
+  if (currentPath.length < 2) return;
+  const study = {
+    path:          currentPath,
+    name:          autoName(),
+    current_index: 0,
+    started_at:    new Date().toISOString(),
+  };
+  try {
+    await fetch('/api/user/state/active_study', {
+      method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(study),
+    });
+  } catch (_) {}
+  window.location.href = `/session/${currentPath[0].session_id}`;
+});
+
+// ── My Paths ───────────────────────────────────────────────────────────────
+document.getElementById('sp-paths-btn')?.addEventListener('click', () => {
+  openModal('sp-paths-modal');
+  fetchPathsList();
+});
+
+async function fetchPathsList() {
+  const body = document.getElementById('sp-paths-body');
+  body.innerHTML = `<div class="sp-spinner-wrap"><div class="sp-spinner"></div></div>`;
+  try {
+    const data = await fetch('/api/studypath/paths').then(r => r.json());
+    if (!data.paths.length) {
+      body.innerHTML = `<div class="sp-empty"><strong>No saved paths</strong>Explore and save your first path.</div>`;
+      return;
+    }
+    data.paths.forEach(p => { pathStore[p.path_id] = p; });
+    body.innerHTML = `<ul class="sp-path-list">${data.paths.map(pathItemHtml).join('')}</ul>`;
+  } catch { body.innerHTML = `<div class="sp-empty"><strong>Error</strong></div>`; }
+}
+
+function pathItemHtml(p) {
+  const shareBtn = p.share_token
+    ? `<button class="sp-icon-btn" title="Copy link" onclick="showShare('${p.share_token}')"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg></button>`
+    : `<button class="sp-icon-btn" title="Share" onclick="doShare('${p.path_id}',this)"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg></button>`;
+  return `<li class="sp-path-item">
+    <div class="sp-path-item-info">
+      <div class="sp-path-item-name">${escHtml(p.name)}</div>
+      <div class="sp-path-item-meta">${p.session_count} sessions · ${fmtDate(p.updated_at)}</div>
+    </div>
+    <div class="sp-path-item-actions">
+      <button class="sp-icon-btn" title="Load" onclick="loadSavedPath('${p.path_id}')"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg></button>
+      ${shareBtn}
+      <button class="sp-icon-btn danger" title="Delete" onclick="deletePath('${p.path_id}',this)"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4h6v2"/></svg></button>
+    </div>
+  </li>`;
+}
+
+async function loadSavedPath(pathId) {
+  const p = pathStore[pathId];
+  if (!p) return;
+  closeModal('sp-paths-modal');
+  setRightContent(`<div class="sp-spinner-wrap"><div class="sp-spinner"></div><span>Loading path…</span></div>`);
+  const enriched = [];
+  for (const sid of p.sessions) {
+    try {
+      let s = sessionCache[sid] || await fetch(`/api/studypath/session/${sid}`).then(r => r.json());
+      sessionCache[s.session_id] = s;
+      enriched.push(s);
+    } catch (_) {}
+  }
+  currentPath = enriched;
+  currentPathId = p.path_id;
+  persistPath();
+  renderPath();
+  if (currentPath.length) loadSuggestions(currentPath[currentPath.length - 1].session_id);
+}
+
+async function deletePath(pathId, btn) {
+  if (!confirm('Delete this path?')) return;
+  btn.disabled = true;
+  try {
+    await fetch(`/api/studypath/paths/${pathId}`, {method:'DELETE'});
+    if (currentPathId === pathId) { currentPathId = null; persistPath(); }
+    fetchPathsList();
+  } catch { btn.disabled = false; }
+}
+
+async function doShare(pathId, btn) {
+  btn.disabled = true;
+  try {
+    const d = await fetch(`/api/studypath/paths/${pathId}/share`, {method:'POST'}).then(r=>r.json());
+    showShare(d.token, d.url);
+    fetchPathsList();
+  } catch { btn.disabled = false; }
+}
+
+function showShare(token, url) {
+  const full = url || `${location.origin}/studypath/shared/${token}`;
+  closeModal('sp-paths-modal');
+  document.getElementById('sp-share-url').value = full;
+  openModal('sp-share-modal');
+}
+
+document.getElementById('sp-copy-btn')?.addEventListener('click', () => {
+  const inp = document.getElementById('sp-share-url');
+  navigator.clipboard.writeText(inp.value).then(() => {
+    const btn = document.getElementById('sp-copy-btn');
+    btn.textContent = 'Copied!';
+    setTimeout(() => { btn.textContent = 'Copy'; }, 2000);
+  });
+});
+
+// ── Shared path view ───────────────────────────────────────────────────────
+async function renderSharedView(shared) {
+  // Replace main content with read-only view
+  document.getElementById('sp-left').style.display = 'none';
+  const right = document.getElementById('sp-right');
+  right.style.flex = '1';
+
+  const rows = [];
+  for (const sid of shared.sessions) {
+    try {
+      const s = await fetch(`/api/studypath/session/${sid}`).then(r => r.json());
+      rows.push(`
+        <a class="sp-shared-row" href="/session/${sid}">
+          <div class="sp-shared-num">${rows.length+1}</div>
+          <div class="sp-shared-info">
+            <div class="sp-shared-title">${escHtml(s.title)}</div>
+            <div class="sp-shared-meta" style="color:${s.stream_color}">${escHtml(s.stream_short)} · L${s.level} ${escHtml(s.level_name)}</div>
+          </div>
+          <div style="width:8px;height:8px;border-radius:50%;background:${s.stream_color};flex-shrink:0"></div>
+        </a>`);
+    } catch (_) {}
+  }
+
+  const header = document.getElementById('sp-right-header');
+  header.innerHTML = `
+    <div class="sp-right-title">${escHtml(shared.name)}</div>
+    <div class="sp-right-meta">
+      <span class="sp-shared-banner" style="margin:0;padding:4px 10px">
+        Shared by <strong style="margin:0 4px">${escHtml(shared.owner)}</strong>
+      </span>
+    </div>`;
+
+  document.getElementById('sp-suggestions-list').innerHTML = `
+    <div class="sp-shared-list">${rows.join('')}</div>
+    <div style="margin-top:16px">
+      <button class="sp-btn sp-btn-outline" onclick="forkPath(${JSON.stringify(shared)})">Fork this path</button>
+    </div>`;
+}
+
+async function forkPath(shared) {
+  try {
+    await fetch('/api/studypath/paths', {
+      method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({name:`Fork of "${shared.name}"`, sessions: shared.sessions}),
+    });
+    alert('Path saved to "My Paths".');
+  } catch { alert('Could not fork path.'); }
+}
+
+// ── Modal helpers ──────────────────────────────────────────────────────────
+function openModal(id)  { document.getElementById(id).classList.remove('hidden'); }
+function closeModal(id) { document.getElementById(id).classList.add('hidden'); }
+document.querySelectorAll('.sp-modal-backdrop').forEach(b =>
+  b.addEventListener('click', e => { if (e.target===b) b.classList.add('hidden'); })
+);
+document.addEventListener('keydown', e => {
+  if (e.key==='Escape') document.querySelectorAll('.sp-modal-backdrop').forEach(m=>m.classList.add('hidden'));
+});
+
+// ── Utilities ──────────────────────────────────────────────────────────────
+function escHtml(s) { return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function truncate(s,n) { return s&&s.length>n ? s.slice(0,n)+'…' : (s||''); }
+function fmtDate(iso) {
+  try { return new Date(iso).toLocaleDateString('en-US',{month:'short',day:'numeric'}); }
+  catch(_) { return (iso||'').slice(0,10); }
+}
+
+// Expose globals for inline onclick in shared view
+window.navToPathIndex = navToPathIndex;
+window.removePath     = removePath;
+window.loadSavedPath  = loadSavedPath;
+window.deletePath     = deletePath;
+window.doShare        = doShare;
+window.showShare      = showShare;
+window.openModal      = openModal;
+window.closeModal     = closeModal;
+window.forkPath       = forkPath;
+</script>
+{% endblock %}

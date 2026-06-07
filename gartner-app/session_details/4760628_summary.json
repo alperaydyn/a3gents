@@ -1,0 +1,90 @@
+{
+  "summary": "The session discusses BNP Paribas's approach to managing third-party data through a zero copy model, emphasizing the need for a unified vision and improved data quality. The speaker outlines the challenges of fragmented data across various systems and the importance of governance and automation in enhancing efficiency. By leveraging Denodo for data integration, BNP Paribas aims to create a comprehensive, real-time data access framework that supports regulatory compliance and AI readiness.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to BNP Paribas and Third-Party Data",
+      "key_points": [
+        "BNP Paribas operates in multiple divisions and countries, necessitating a unified view of third-party data.",
+        "Third-party data is critical for various banking processes, including regulatory compliance and customer onboarding."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:05:03"
+    },
+    {
+      "order": 2,
+      "topic": "Challenges in Data Management",
+      "key_points": [
+        "Data fragmentation and discrepancies pose significant challenges to trust and efficiency.",
+        "The lengthy process of integrating new data sources is costly and time-consuming."
+      ],
+      "start_time": "00:05:03",
+      "end_time": "00:10:58"
+    },
+    {
+      "order": 3,
+      "topic": "Requirements for Improvement",
+      "key_points": [
+        "Establishing a common data foundation is essential for consistency.",
+        "Automation and traceability are crucial for reducing costs and improving data quality."
+      ],
+      "start_time": "00:10:58",
+      "end_time": "00:17:12"
+    },
+    {
+      "order": 4,
+      "topic": "Implementation and Governance",
+      "key_points": [
+        "A distributed approach to data management is necessary to handle the scale of operations.",
+        "Strong governance is required to ensure accountability and quality across all data sources."
+      ],
+      "start_time": "00:17:12",
+      "end_time": "00:22:54"
+    },
+    {
+      "order": 5,
+      "topic": "Outcomes and Future Readiness",
+      "key_points": [
+        "The new model provides real-time access to data, enhancing decision-making capabilities.",
+        "BNP Paribas is now better positioned for AI integration and regulatory compliance."
+      ],
+      "start_time": "00:22:54",
+      "end_time": "00:26:25"
+    }
+  ],
+  "key_takeaways": [
+    "A unified vision of third-party data is essential for effective banking operations.",
+    "Improving data quality and reducing duplication can significantly lower operational costs.",
+    "Implementing a zero copy model allows for more efficient data access and governance."
+  ],
+  "entities": [
+    {
+      "third-party data": 10
+    },
+    {
+      "data quality": 8
+    },
+    {
+      "governance": 6
+    },
+    {
+      "denodo": 5
+    },
+    {
+      "zero copy model": 4
+    },
+    {
+      "automation": 4
+    },
+    {
+      "data foundation": 3
+    },
+    {
+      "regulatory compliance": 3
+    },
+    {
+      "data integration": 3
+    }
+  ],
+  "subject_area_id": "data_management"
+}

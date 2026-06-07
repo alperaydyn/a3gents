@@ -90,6 +90,7 @@ async def db_test():
     rows = cursor.fetchall()
     cursor.close()
     conn.close()
+
     return {"ok": True, "rows": rows}
 
 

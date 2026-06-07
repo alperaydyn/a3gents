@@ -1,0 +1,87 @@
+{
+  "summary": "Anish from Densu shared the journey of their Master Data Management (MDM) experience, highlighting the challenges faced due to numerous acquisitions and the need for data integration. The company implemented an enterprise-wide data hub and selected Semarchy as their MDM solution to improve data quality and governance. The session detailed the steps taken to create a high-quality client reference base and the ongoing efforts to enhance data management practices.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Densu and Data Challenges",
+      "key_points": [
+        "Densu is a large media company with numerous acquisitions.",
+        "Data integration challenges arose from multiple CRM and ERP systems."
+      ],
+      "start_time": "00:00:03",
+      "end_time": "00:05:06"
+    },
+    {
+      "order": 2,
+      "topic": "Creating an Enterprise Data Hub",
+      "key_points": [
+        "The company established a data hub to consolidate data from various sources.",
+        "They sought modern technologies for data warehousing and MDM."
+      ],
+      "start_time": "00:05:06",
+      "end_time": "00:10:14"
+    },
+    {
+      "order": 3,
+      "topic": "Choosing Semarchy for MDM",
+      "key_points": [
+        "Semarchy was chosen for its strong MDM functionality and user interface.",
+        "The solution helped demonstrate data issues to stakeholders."
+      ],
+      "start_time": "00:10:14",
+      "end_time": "00:15:00"
+    },
+    {
+      "order": 4,
+      "topic": "Building the Client Reference Base",
+      "key_points": [
+        "A high-quality client reference base was created using best practices.",
+        "Automation processes were established for data integration and quality checks."
+      ],
+      "start_time": "00:15:00",
+      "end_time": "00:20:22"
+    },
+    {
+      "order": 5,
+      "topic": "Ongoing Governance and Future Plans",
+      "key_points": [
+        "Governance processes were implemented for data quality assurance.",
+        "Plans to replicate successful practices for vendor information were discussed."
+      ],
+      "start_time": "00:20:22",
+      "end_time": "00:24:51"
+    }
+  ],
+  "key_takeaways": [
+    "Establishing a centralized data hub is crucial for managing data from multiple acquisitions.",
+    "Choosing the right MDM solution can significantly enhance data quality and stakeholder engagement.",
+    "Automation and governance are essential for maintaining high-quality data in large organizations."
+  ],
+  "entities": [
+    {
+      "master data management": 10
+    },
+    {
+      "semarchy": 5
+    },
+    {
+      "data quality": 8
+    },
+    {
+      "data integration": 6
+    },
+    {
+      "client reference base": 4
+    },
+    {
+      "data hub": 3
+    },
+    {
+      "automation": 5
+    },
+    {
+      "governance": 4
+    }
+  ],
+  "subject_area_id": "data_management"
+}

@@ -1,0 +1,248 @@
+[00:00:05] All right, good morning everyone. Thank you. Thank you for joining.
+[00:00:11] Ah, I was warned. There's a bit of echo indeed in the room. I hope it's okay for you guys.
+[00:00:17] Um, all right. So um, my name is roxani and actually 3 years ago, exactly. Uh, I was already presenting on AI, ready data here in London, for the first time.
+[00:00:31] And we had just been finalizing our definition of AI ready data and it's unbelievable. How time flies
+[00:00:42] and so, today after speaking with,
+[00:00:45] Many of you uh, in our inquiries and these events.
+[00:00:48] Uh, speaking also, to many vendors, AI ready data, as a discipline, has really matured and so here we are.
+[00:00:56] Sharing with you. Some of the lessons learned that we collectively learned.
+[00:01:01] and,
+[00:01:02] Hopefully deriving some best practices from that so that's what's on the menu for today.
+[00:01:08] All right, so what are those Lessons Learned?
+[00:01:11] So there are 5 things which we've noticed. First of all,
+[00:01:16] Everyone wants to rely on everything that they've got.
+[00:01:20] The first lesson is do not rely solely on, whatever you've already had data. Warehouses lately, have says, that might not be enough.
+[00:01:30] AI teams and data management teams. Don't get along.
+[00:01:35] Right. And having the AI teams doing their own data management, is the same old mistake.
+[00:01:41] Of everyone working in silos and part of data management and I speak with many of my colleagues and clients on the AI side. Same thing happens, how many in the room are from the data management side?
+[00:01:56] And how many on from the AI side?
+[00:01:59] Yeah, well, we have a pretty good mix. So hopefully you know this is an opportunity to mingle and chat also after this presentation to discover well, how how do you guys work together? Um, static policies aren't going to
+[00:02:15] Work. It's much more complex than that. Obviously, when it comes to, um, all of the changes and data governance and, and data quality, because data quality, now becomes contextual
+[00:02:27] And the good news is that you can actually learn.
+[00:02:33] From everything that you've done to automate.
+[00:02:37] The AI Readiness assessment.
+[00:02:39] so, before we get into those,
+[00:02:43] I want to discuss with you, a few.
+[00:02:46] key issues prior to that first making sure that we all mean the same thing behind AI ready data,
+[00:02:53] The challenge.
+[00:02:55] About AI ready data, is that it has become so popular.
+[00:02:59] That.
+[00:03:00] Everybody's talking about it and I'm sure all of the vendors you speak to are also talking about Ai and data Readiness in the context of what solution they are actually delivering.
+[00:03:13] But let's make sure we all mean the same thing.
+[00:03:17] Because I still got that question on so many inquiries. And I see so many variations of what people actually put behind this term.
+[00:03:26] Now.
+[00:03:28] Next, we're going to go to okay, now that we've agreed to what it is. How do we go about evaluating it?
+[00:03:36] And what does it take to actually evaluate the Readiness. And what is that Readiness uh, evaluation criteria. And we'll
+[00:03:45] Look at a sneak peek of our toolkit. Um, and then, you know, hopefully you guys can go and start using it on your own, and we've started to get some feedback and some, you know, uh, customization from our clients of how they've actually been using it for themselves. So, uh, hopefully I'll share some of that with you.
+[00:04:03] and then,
+[00:04:05] We'll go back to our practices.
+[00:04:08] Those 5 that I started off with, we're going to make sure we align to those and then we'll look at okay.
+[00:04:14] What are the practices that can follow to help with um those Lessons Learned okay?
+[00:04:21] so,
+[00:04:23] What is different about AI ready data?
+[00:04:27] Well, so here's the thing.
+[00:04:29] We're all here.
+[00:04:30] Humans in the room.
+[00:04:33] We speak, we interact.
+[00:04:35] I'm not naturally English speaking. My native language is French
+[00:04:41] And I'm trying to express myself in a way to all of you. That is as an ambiguous as possible.
+[00:04:49] And the way that I do that is by using our common context, because we are all working in some shape or form with data and AI.
+[00:05:01] Same thing happens for analytics, for example,
+[00:05:04] Nobody said, we want to make data analytics, ready.
+[00:05:08] Because the analysis is not the dashboard, the analysis is performed by the user.
+[00:05:15] Who is looking at the dashboard, he may have questions about the data or where is it coming from? And I cannot trust it and what does it exactly mean?
+[00:05:24] And so, they might want more semantics more details, but they are actually doing the analysis themselves.
+[00:05:30] And the reason it works is because across the whole organization, everybody shares the same context.
+[00:05:38] And so, you know, every time you change jobs how every company has their own acronyms and the first few days, you're in a new job, you're like, I don't understand any of what they're saying. And then 3 months, later you're using the very same acronyms and it seems like obvious.
+[00:05:53] Well that's a shared context and that's also what happens without you noticing it when you're looking at a dash.
+[00:06:00] Bored or you're reading an email or you're reviewing a document from 1 of your colleagues.
+[00:06:06] That's this context that we all share.
+[00:06:10] And that's what makes it different for us humans, because we have that context and we have that experience as compared to ai, ai only has the base data, it has the data from your databases, your applications, your documents. It doesn't have that shared understanding that comes through the communication.
+[00:06:29] Like when I speak to you and you are repeating back to me what you've said and you're trying to figure out, uh, did we really understand each other? That that that you understand what I said and did I understand correctly? What was being told what?
+[00:06:45] Was being, uh, what? What was being said to me. So, that's this whole process is what we have in common, which AI needs help with. Because it doesn't have all of that. That is kind of the white spots and everything that it has
+[00:07:01] and so actually, when we can start to combine the human and the Machine,
+[00:07:06] here's the definition from as Gartner.
+[00:07:10] Our LM implementation based on our own research of what does AI ready data mean? Well, the definition is actually pretty good because what AI ready data means is it means that the data is representative
+[00:07:24] Of the AI use case and the AI technique.
+[00:07:28] Guaranteeing that it.
+[00:07:30] Is actually contextually valid.
+[00:07:33] For that specific use case.
+[00:07:37] And it isn't just us. This is also what happens when you actually uh use model cards.
+[00:07:44] When you use a model card, for your AI model, it comes with the model card that actually describes what to expect. It's like the leaf lift of your medication that you're supposed to read. Um, it says, you know, what's in scope, what's outside of scope and what circumstances do you use it? The description of the data sources that where the data was used for, for the model, the version of the data, uh, the failure scenario is the security features and requirements that are
+[00:08:15] Are uh needed. So essentially it tells you, okay, this AI model is supposed to be used in this context and if you use it as described
+[00:08:25] you're going to get to the level of accuracy and precision that we've observed, when building it
+[00:08:31] And so that's what the data Readiness assessment is about.
+[00:08:36] It is about saying, do I have all of the metadata that to actually answer? The question is the AI model of operating as expected or in the context that was actually required? That's what is being required here. If you don't do that. And this isn't really an AI model, it's going to be more like robotic process automation.
+[00:09:00] And it doesn't really AI.
+[00:09:02] So, AI, uh, ready data is really about bringing together all of the metadata that is going to help you answer that question.
+[00:09:11] In my operating, in the same condition.
+[00:09:15] So,
+[00:09:17] What are the actual?
+[00:09:20] Data modes and practices.
+[00:09:23] That support data Readiness for AI.
+[00:09:27] Well.
+[00:09:29] The first 1.
+[00:09:31] Is metadata.
+[00:09:35] You have said it already. It's been proven, We Know It. And the reason it's proven is because every time we do 1 of our surveys, whether it's the evolution of data, man,
+[00:09:45] Mint 2 years ago or the are ready data survey, which we ran, um, a bit less than a year ago. Um, you know, actually 6 months ago
+[00:09:54] What shows consistently is that those organizations who are advanced in metadata management and metadata management, practices are better at delivering data. That is. AI ready?
+[00:10:06] And not only are they better at it?
+[00:10:09] It also delivers Better Business outcomes on their AI use cases.
+[00:10:16] So,
+[00:10:17] what happens about metadata is that it's difficult to get it.
+[00:10:23] but once you have it and you started collecting it, and there are many ways now to collect it and analyze it,
+[00:10:30] You need to actually analyze what it actually is, telling you about the data that you have.
+[00:10:35] and then you need to infer it when it is missing because as we said,
+[00:10:41] Everything that we talk about is sparse.
+[00:10:45] Right? And so the data itself is sparse. So the data is intentionally sparse because we can't capture everything. If you're talking about the business process, the data of the business process is just storing the data of the different states of the process or the transaction, but the metadata is actually in the application and in the application process or it is in the head of the data management teams and data Architects and business experts, that actually extracted that data and organized it somewhere else.
+[00:11:16] so we don't usually have all of the metadata, we have oftentimes to infer it
+[00:11:22] and the way that you can infer it,
+[00:11:25] Is by, for example, um, you know, automating some of the recognition patterns, the, you know, using profiling data and saying, oh well, you know, that this data really looks like customer data that I have in this place and it it is likely related to it. So you can build. You can start to build knowledge graphs that actually describes the relationships, which you have among your sources. And it doesn't necessarily mean that you bring all of your sources in the same place to be able to, to build the relationship, and the semantics of how all of these data elements relate together.
+[00:12:00] And that is true for structured data. And that is also true for unstructured data or content.
+[00:12:06] The same applies what are going to be the terms that are going to be used. The context of a document is are we talking about a legal document or are you talking about?
+[00:12:18] Um a a document that is coming um you know from your marketing team or is it a contract? All of those things are important metadata that you need to have.
+[00:12:29] To actually set the context for your AI use cases.
+[00:12:33] So that's why you need to build a graph.
+[00:12:37] And revive that graph on an ongoing basis to actually represent all of those relationships across your data assets.
+[00:12:45] The fact that you may end up bringing them in the same place for the purposes of processing.
+[00:12:49] That's totally valid. I mean that's totally true. Certainly exists certainly will continue to exist uh and that's part of the data engineering whether it is done by the data management team or the it teams that is likely going to happen. Uh also. But the first step
+[00:13:06] Is getting to know all of the data that you have and the relationships among those.
+[00:13:14] Next.
+[00:13:16] Once you're there and you're starting to put together, your AI ready data, practice, that's really important. We've actually identified 4 different modes,
+[00:13:26] the first mode is PC mode, and I think this 1 every
+[00:13:30] Body gets because that's what everyone does. This is when the AI team.
+[00:13:35] Is trying to answer the question, what data do I have?
+[00:13:39] And does it actually fit the AI use case requirements and what are actually they are use case requirements and that step is always 1 of the most tedious tasks for the AI teams and the data teams to work together on to identify what data is available and does it meet the quality governance requirements of the use case, that's where they all come together and try to build that and iterate through that. And it, that really takes time. And we know how difficult it is, until they get to a level of satisfaction about their accuracy and the Precision of the AI use case that they feel okay.
+[00:14:15] We're good here. We're done.
+[00:14:18] So, here's the catch.
+[00:14:20] They say we're good. We're done.
+[00:14:24] But are we really done?
+[00:14:27] And that's where the, you know, the the challenge comes because of course, you can bring to production, the AI use case.
+[00:14:34] and,
+[00:14:36] You know, you did check everything that needed to be checked but it was humanly checked. It was a set of Specialists from AI data governance data and AI governance coming together. Verifying saying, okay, we feel we're in a good spot.
+[00:14:53] But that isn't enough.
+[00:14:55] The fact that you are actually doing it and that you're in a good spot.
+[00:15:00] Doesn't mean that you're going to stay in a good spot.
+[00:15:04] Right? And so that's really the challenge about the D data Readiness for AI. Is that if you bring it to production in a PC mode, the fact that something changed depends on those people to check. And verify that everything is still
+[00:15:21] Running as expected. And that's a challenge.
+[00:15:25] The second mood, which is a little bit further is a multicontextual when you're in the PC mode and you're like, oh but I know this data.
+[00:15:37] Oh, I've used it already. I've used it in this other use case. Oh, so let me go check. What do I know about it? Oh, I have all the
+[00:15:45] The data I know where it's coming from. I know what quality rules are applied. I can answer a number of questions that are going to help me infer whether it's suitable in this context.
+[00:15:56] but,
+[00:15:57] To answer the question, it's suitable in this context. Still very much depends on those AI experts defining, the requirements and analyzing whether the data fulfilled, their area use case.
+[00:16:08] And the process of making sure that it actually verifies and validates that is also done manually.
+[00:16:14] Still no automation but the good news is because you're using it in multiple contacts. You have more metadata about the same data because now you have the metadata about the first Contact that you used it in. Plus the second contacts, which you might have likely
+[00:16:30] Enriched.
+[00:16:31] Because the Second Use case is probably slightly different than the first 1 or has slightly different data requirements than the first 1 and so you know, that will enrich your data set.
+[00:16:43] So that's the multi context and then you have the step where you're starting to operationalize. The idea of operationalization is when you start to automate the Readiness assessment. So instead of expecting that you are actually going to uh, verify manually, whether things are going wrong, you're going to put in place, um, observability and requirements to track how, you know, the data is possibly changing or shifting, but for specific use cases. So in isolation,
+[00:17:15] and finally, when you get to the production,
+[00:17:19] this is when you start to automate on an ongoing basis,
+[00:17:24] The verification of your data Readiness assessment across the different, use cases, and checking that it is fulfilling all of those use cases. Including those that are multi multi context.
+[00:17:38] When you're using it across multiple context, and then you can also verify for example, which is going to be immensely important for agent like use cases, for example, what are the downstream and Upstream requirements is there inference of derivation of the data, you know, is there an impact if you're using? So here's the the the situation I had a client who called me.
+[00:18:00] Up and said, we've been building, those AI use cases. And automating the Readiness assessment. Exactly as as you were, uh, you're talking about it.
+[00:18:09] But we've been using a lot of synthetic data.
+[00:18:13] and,
+[00:18:14] Now, we're starting when we pipeline those use cases. Together. We starting to see model collapse in isolation. Every model is fine. In combination.
+[00:18:24] We're starting to see collapse.
+[00:18:26] And that's where you need to check the Readiness assessment to ac across a group to, for example, say, oh, wow, when these 3 use cases are used in combination, we're not getting the same level of accuracy.
+[00:18:42] you know, as the combination of use cases that
+[00:18:45] We could expect it is much lower.
+[00:18:47] And then you are going to look at. Oh, but why did that happen? Well,
+[00:18:52] in this particular case,
+[00:18:54] it was possibly using too much synthetic data.
+[00:18:57] So, they didn't have the information in isolation, although they had put the checks and the Automation in place, but in combination, they couldn't really verify it.
+[00:19:09] So that's what you that's why you need that production. Uh, Readiness assessment that comes up.
+[00:19:16] So, here's what it looks like. Um, it's quite complex and a lot of our clients, tell us, oh, there's a lot here to digest and, you know, half our calls are often uh, too short to uh, answer all of
+[00:19:30] Questions. The ones that are in orange are the ones that are specifically required for unstructured, data or content.
+[00:19:38] Uh, there is actually a toolkit going with that, that helps. You put that in motion and what you see is indeed, uh, as you get to production, you see that we're starting to get to versioning, uh, training to production data, verification risk and compliance. Um you know, uh, checking alignment to AI techniques, uh, regression testing, continuous profiling. And then the last 2 were what? I just referred to as inference and derivation, which is what is the impact when those things are being used in combination?
+[00:20:12] When those AI use cases are being used.
+[00:20:15] In combination.
+[00:20:16] So,
+[00:20:17] That's really what the data Readiness is about. Is the more you add
+[00:20:22] Automation, and verification, and validation, and you get to, you know, the far right of this Excel spreadsheet or this this uh, assessment, the more you have what we call the checksum model, which is instead of doing manually, every single step
+[00:20:40] You actually benefit from the Automation and the Readiness assessment of all of the other use cases. So when I get the question of, when I start to explain AI ready data and I tell them well you know this is all about
+[00:20:57] if it is all about verifying.
+[00:21:00] in the context of the AI use case and the AI technique,
+[00:21:04] We are only doing these things 1 off and it's got to be a bunch of silos, right? That's what some of our clients ask me. Especially the data management teams, who honestly, hey, building things in, for a 1 off, right? They want to build things that are shared and reused and you know, scale and everything else.
+[00:21:25] Well, that's what you get when you get to production indeed. When you start in PC mode, you are verifying for that use case, because that's where you need to start.
+[00:21:37] But the more, you know, about the data, the less time you spend in PC mode because you already know everything about the data that you using.
+[00:21:45] That helps. You answer it really fast. Is it applicable in this new context?
+[00:21:51] so,
+[00:21:53] That's really what AI ready data means. So what it actually tries to say is, um, do you know what you have do? You know, whether you can use it and do you know whether things have changed?
+[00:22:09] So yeah, ready data is not something that you do once and that you're done with it unfortunately and so that's what I was telling you at the end of the POC. When we are like whoa, we're done here. We're done building. The AI use case, we are not done with the Readiness assessment because you need to check
+[00:22:30] Fact that you're still operating in the same conditions throughout the life cycle of the AI use case.
+[00:22:38] And the idea is that you want to automate for anything that has changed.
+[00:22:43] So I had this client who called me and I was explaining to him a already data and everything, and he was, you know, coming from a background of more, traditional traditional statistical and forecasting models. And he was like, oh, I get it. I I totally understand because what we've been historically doing is we building a lot of forecasting models and
+[00:23:03] actually, when I use a forecasting model as a specialist, I actually know that the data drifts
+[00:23:10] but I also know that directionally the model is correct.
+[00:23:16] And I adjust for the drift.
+[00:23:19] Right.
+[00:23:21] So that's great because he's got the experience.
+[00:23:25] To adjust for the drift.
+[00:23:27] The question becomes if now you're going to embed those AI use cases as in business processes and applications and bi and analytics, whatever type of application and whoever is at the receiving end doesn't have that understanding, or that experience to understand this something changed, how are you going to know?
+[00:23:48] How are they going to know? How do you know that you are actually using it for what it was designed for and that's what AI ready data is about now.
+[00:23:58] Think 1 Step.
+[00:24:00] Further, we are in the age already of agentic AI.
+[00:24:04] Imagine 1 of those AI models embedded in an AI agent, how does the agent knows its operating as planned? How do you know when calling an agent? Oh yeah, this agent is going to perform as expected because it is the operating and the contacts that it was supposed to.
+[00:24:23] so, when you remove the human in the loop,
+[00:24:28] whether you know, the human has the skills or not the scales, or maybe you should train them, and Etc alike, this guy who knew to detect or to drift because he understood his data and understood the, the models,
+[00:24:42] But an AI agent. How is it? How is it going?
+[00:24:45] To know, so you can't really afford not to have that data Readiness assessment.
+[00:24:50] Finally, I have to add that what we have seen, is that this is a driving Factor.
+[00:24:57] For success of your AI use cases in our latest AI ready data survey.
+[00:25:03] 1 of the key drivers for success of delivering business value was having an ongoing assessment
+[00:25:10] of your readiness.
+[00:25:12] throughout the life cycle of your AI, use case and
+[00:25:16] We only interviewed folks who are already doing AI, so this is not everyone only those who are doing AI, only 32% of them had it.
+[00:25:27] Had that ongoing assessment only.
+[00:25:30] 32%, which means the concerning 68% were using their AI use cases without the Readiness assessment.
+[00:25:40] which means that, you know,
+[00:25:42] you know, they were dependent on their AI expert to say, whether it was okay to use this and this application or in this other use case or how to combine it, it was all dependent on the experts.
+[00:25:54] Or.
+[00:25:56] You know, worst case scenario crossing fingers, that everything works as expected.
+[00:26:02] Not very reassuring, really?
+[00:26:04] So, let's get to the final, um, key issue. So do not rely solely on your existing data architecture and practices seek representativeness.
+[00:26:15] That's the key aspect. You can use everything that you have, you should use everything that you have, but it might not be enough, you need to make sure that you are actually building representativeness. And that comes with building the the, the practice to actually uh, collect analyze the metadata for that representativeness around the evaluation criteria, which we shared
+[00:26:42] History is repeating itself every time we have new use cases. We all want to build new data to meet those new demands, you know.
+[00:26:51] Invariably, that's what we all do. That's what we all want to do and we all want to have uh the same way of doing it, the challenge.
+[00:27:00] Is that of course that creates friction.
+[00:27:03] Data management. Teams are going to ask AI teams. What you need the data for. The AI teams are going to say. Just give me the data. And so, you know, this is going to be creating friction about delivering to that representativeness assessment.
+[00:27:17] And so what you need to make sure is that your data scientists and your AI Specialists and your data management teams, have the understanding and the transparency over all of the data that you are already have and everything that you know about that data.
+[00:27:32] So that it actually accelerate accelerates the discovery process to the most, you know, to the greatest possible extent.
+[00:27:44] Next.
+[00:27:45] Creating static policies.
+[00:27:47] That's going to resolve in brittle Solutions.
+[00:27:51] When we think about data governance and also data quality. As I'm telling, um, as I'm talking to it, just after that, the challenge is that we know, it's contextual, we know it is going to change, we know, regulations are going to change. We know that, uh, depending on whether you're using, your AI use case in 1 contact versus another context. You might have different governance, requirements, you can't really, um, simply rely on stewards and manual verification and validation on, which policies need to be applied to actually perform the job. You need to actually build automation around them. So you need to actually
+[00:28:30] Bring all of that Automation. And that AI production, validation assessment to actually start to be able to automate. Also, the policies and the execution of those policies and there are actually new ways of doing it, which is called Data gov Ops, which is the operationalization of data governance, which does not necessarily require to, actually, you know, manually Implement and verify all of the policies that are being required and the different context, and that also applies,
+[00:29:02] To data quality.
+[00:29:04] Right? And so that's why it's really important to get to the production assessment where you have that Texan model where, you know exactly what are the quality requirements in the
+[00:29:15] Use cases. So you know what to expect when a new contact comes comes about and that's where you actually start to benefit.
+[00:29:24] from having that Collective, uh, uh, that that continuous collection of metadata across, all of your AI use cases,
+[00:29:34] So you can actually verify and infer those requirements.
+[00:29:41] Last.
+[00:29:42] You can actually build.
+[00:29:46] AI to learn and accept data.
+[00:29:50] From the delivery architecture. And that's the whole point about the data Readiness assessment. Not only can you build that Readiness assessment and automate it, you
+[00:30:00] Can also make it part of your AI use case.
+[00:30:03] You can actually make the AI, use case, self assess.
+[00:30:07] Whether it is operating as expected or not and maybe you know, turn out uh an exception saying oh we've drifted something happened, we might not know what it is.
+[00:30:20] But, you know, here's a, you know, here, here's an exception or an alert that something has happened and so that it doesn't depend on your specialist to actually detect if something, uh, is going wrong. And that's going to be immensely important.
+[00:30:37] for your agents, you can't expect every agent come calling another agent to do the
+[00:30:45] Verification prior to calling them.
+[00:30:48] That's where you need every agent to give its go. No go.
+[00:30:52] To decide whether the model can run or cannot run.
+[00:30:57] So that becomes immensely important and often, especially in the context of agent Tech not actually considered yet or, you know, not yet high enough on the radar as far as I'm concerned. Because, you know, the model. Decay, the synthetic data issue that that, uh, client for example, was experiencing or many other challenges that may happen are going to be, you know, exponentially more complex than just this Readiness assessment, which seems already complex as of itself.
+[00:31:27] All right, so what are the data?
+[00:31:30] What are the lessons learned?
+[00:31:32] Do not solely rely on what you have, of course you can, but you might need more. Um, you need to bring in the practices, uh, to do that data management assessment and, you know, avoiding those same old mistakes.
+[00:31:47] And so hopefully you start to build um the automation around it, you can't really rely only on static policy, so you need to operationalize your data governance uh as as well. So that, you know, you can actually respond to changes more dynamically that also applies to Quality which is contextual. There is no such thing as data quality that would work in all of the context.
+[00:32:12] And the good news is if you do it, right?
+[00:32:15] You can actually automate the Readiness assessment and the go no-go decision so that you don't actually depend on any single human verifying and validating.
+[00:32:27] So, what should you do when you get home?
+[00:32:31] As you get home, first of all, make sure that your data management teams, understand everything about Ai and data management requirements for AI and model cards is a good way of starting.
+[00:32:41] Make sure that your data scientist and your AI specialist and your data teams work together on. Building the same Baseline of metadata that is going to support their uh requirements and help them assess the Readiness from the get-go.
+[00:32:58] and then, as you
+[00:33:00] To build more of those AI use cases. And you bring Automation and production, make sure that you bring in the Automation. And the production in that go no-go decision that, you make sure that you build that ongoing certification process that you're operating as required and automate the governance policy, then the application of the governance policies and quality, um, uh, the quality policies that are being contextually required,
+[00:33:27] All right, so with that, hopefully, you have a plan, you know, where you know, where to get started, and why it's so important to put that in place, and then you have the toolkit and, um, the evaluation criteria to help you get started, putting that practice.
+[00:33:45] Uh, in place in your organization, we've got plenty of research. So we can come speak to us about it. Uh, we're happy to help and, um, last but not least because they are ready. Data is going to be so critical.
+[00:33:59] To data analytics and AI. Um, I would love to get your answer to uh, that our future of data and analytic survey and see what you guys are planning with that. I wanted to thank you and I'll be around for a few questions and sorry for going a bit over by a few minutes. Thank you.

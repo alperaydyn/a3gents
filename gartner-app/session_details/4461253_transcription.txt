@@ -1,0 +1,156 @@
+[00:00:05] People often think of AI as a magic wand.
+[00:00:09] That can touch their business and solve their problems.
+[00:00:15] Sounds familiar.
+[00:00:19] To some extent.
+[00:00:21] It's true.
+[00:00:23] because,
+[00:00:24] Both magic wands and AI are amazing tools that can have surprising for reaching effects.
+[00:00:34] And both Ai and magic wands.
+[00:00:37] Require skills accountability and understanding how to use AI wisely.
+[00:00:46] Both can serve Good and Evil.
+[00:00:51] Both can backfire or just do nothing and that's why you need governance not to do nothing but to do good.
+[00:01:01] And that's why we're all here.
+[00:01:04] To figure out what it is. Do we need to do with governance?
+[00:01:08] There is 3 subjects here, 3, main topics.
+[00:01:13] That uh, involve first, what the components are of AI governance.
+[00:01:19] The other 1 is how to get organized a big, big question. And finally, we will speak a little bit how to differentiate your governance.
+[00:01:30] Depending on what you govern.
+[00:01:34] Let's start, uh, with uh, the entry points.
+[00:01:39] There are typically 3 entry points in AI governance.
+[00:01:44] It's either how to get organized and all organizational structures.
+[00:01:50] the other 1 if you know how to get organized is uh the start with the policies and controls and uh the last 1 is when you already doing Ai and
+[00:02:06] finally, you're ready to scale and you face the situation where you can't scale without governance and you
+[00:02:15] Need tools for scaling but tools alone are not enough. You need all 3 components.
+[00:02:23] and uh,
+[00:02:26] Those components have sub components and there are many of them.
+[00:02:31] That is like a menu.
+[00:02:33] Don't be afraid. You don't need to implement them. All you need to implement only part of them. I I was on the plane with the very British lady and she's said you seem like you have to accents.
+[00:02:48] I I said, yes, 1 is from Ukraine. And another 1 is from California.
+[00:02:54] the so we learning here, how to put the accents and how to put the right accents and
+[00:03:00] The main thing that you need to take away from that session is where to focus and how to focus and I will dedicate the whole session pointing out you focus. Here you focus here so that it doesn't seem intractable. But you know what to do when to do it and what not to do which is also a very important.
+[00:03:30] Because it's seems so attractable. Only 23% of everyone who is doing governance according to our surveys.
+[00:03:40] Or confident that they can do it others?
+[00:03:45] Her hesitant. And that's why we want to get you in this 23%. And this is just by focusing.
+[00:03:54] If you are the low maturity you need to focus on setting realistic expectations. That at this point AI is not a magic wand and it can't do things immediately and it can do only certain things at the right time and you govern those things are we here at the data and analytics Summit. I hear quite a bit of points that we don't ready to start AI because our data is not ready. Your data won't be ready, if
+[00:04:30] You don't know what to focus on if you focus your data on the use cases and set expectations, that that's what you do for the data governance for AI, that will make you much more confident and your task will be much more tractable and containable.
+[00:04:50] And the medium maturity people face data issues, not at the beginning but at the medium maturity and that's where they already understand what to do and they are ready to put together, AI ready data to its fullest and the task of AI. Ready data is, uh, to make sure that others can find this data.
+[00:05:15] Understand and interpret it, right?
+[00:05:19] And finally, for the high maturity, you probably won't find all the tools that you need and that's why you will face some technical problems. This means you need to take care of procurement of the fast track for procurement, which is a challenge for a lot of Enterprises. It means that you need to take care of integration and uh you everything else applies to unrealistic expectations and data issues.
+[00:05:50] The very first thing that you do with AI, you focus on trust.
+[00:05:57] And that's a very interesting.
+[00:06:00] picture because it illustrates that the beginners are really worried about trust and uh, this skeptical in terms of what AI can deliver and how
+[00:06:13] And in some cases, they not only skeptical on 1 side of the spectrum, but there are also those who trusts AI. Blindly, you have to calibrate this trust those who who are much more advanced that the top already figured it out, what it means to you that when you start and your focus on trust and that's how you focus on trust.
+[00:06:42] You make it as you.
+[00:06:45] Good top priority because people have to calibrate how they trust AI.
+[00:06:51] But when you more advanced, you shouldn't focus on trust so much because your users have already calibrated their expectations and their trust. So it doesn't mean that you don't do it but you do it to uh to a lesser extent, you just continue doing what you figured out and don't accelerate with trust.
+[00:07:19] The big thing is um, AI literacy and a lot of companies are focused on AI literacy and have education Partners. Sometimes those are an
+[00:07:30] online education, uh, partners and uh,
+[00:07:35] It's clear that uh, the higher maturity you have, the more you need to focus on all kinds of issues that are related to AI literacy because there's always something new and that has to be an ongoing program.
+[00:07:51] Now automation is not enough.
+[00:07:55] You need both Automation and uh human presence or what is often called human in the loop.
+[00:08:03] Uh here's the case study of uh uni banko that is a Brazilian bank bank uh that uh developed an AI.
+[00:08:15] Agent to help low-income population and uh this is an illustration. I just wanted to give a concrete example to you so that you understand how this works, what they started with they created 2 teams 1 team was uh a blue team that is an automation team and they created monitoring and automation of the guard rails and the other team that was called red team are. Those are people who were doing it in their own way. So automation is not enough and only people are not enough. You need to have
+[00:09:00] Both and you should set your own expectations that whatever you deliver with governance will need to be tweaked later in iterations. You won't get it right from the first attempt, but it doesn't mean that it has to be carved in stone. And you persist on the 1 hand, or it doesn't mean that you need to constantly change. You need to monitor what's there and get to the point where you're satisfied. So in it they were tweaking those guard rails and iterations, and until they were happy with the guard rails through Automation, and through the teams and uh, eventually
+[00:09:45] Um, they were ready to deploy once they deployed they kept monitoring and what they found that kind of a side note, but a very important 1, they found that the customers don't trust the advice because the advice comes very quickly and customer perceive this advice as something that is uh, 1 size, fits all, and the governance group made the conscious decision to slow down the response.
+[00:10:20] You wouldn't expect it until you live through it and that's why set expectations that things will be improving. They will be.
+[00:10:30] Improving in iterations.
+[00:10:33] Now, we spoke about the main components of AI. Now, let's speak about how to get organized.
+[00:10:45] How does the ministry of magic? Look like
+[00:10:51] In essence, the structure of this ministry is very similar to other Ministries to other governance organizations. But it's a separate Ministry because
+[00:11:03] They deal with magic. It's an iterator. It's very, very iterative. And AI is probabilistic. It's the first technology that is probabilistic, which means that
+[00:11:15] The answers might drift, you will not be able to reproduce certain results or a lot of results and much more.
+[00:11:25] Therefore uh you organize AI similarly to what you have but separately and what we see that there are 2 main parts of AI governance, 1 is strategic part, which is a shown here. The picture is the AI governance Council and the other 1 is this tactical group, because strategic group are people with high entitlement and Authority who don't have the time to go into everyday min.
+[00:12:00] Russia. Therefore there should be someone who does the day-to-day work, create standards rights policies and the Tactical steps and the Strategic part makes strategic decisions such as trade-offs.
+[00:12:18] Now um there for technical companies, we have we see a lot of tech review committees and what is often missing to make AI governance? Work is AI storage for those of you who know data governance, you probably familiar with data stewards. The idea is more or less the same. It's a Leah Amazon between the lines of business.
+[00:12:45] And uh, the centralized AI governance.
+[00:12:50] And that's um, what is happening in inside the governance organizations. The main focus for strategy is making trade-offs. And sometimes for tactics too, but often it's about strategy.
+[00:13:07] knowing what your optimizing, your AI for deciding, what you're optimizing communicating this such as it, it your your actions and decisions would be different depending of uh depending on whether you want to be the first to the market and you put all
+[00:13:30] Your effort to, to speed up what you're doing versus reliability.
+[00:13:35] And uh the list goes on and on and on here, on the picture there, uh just uh sample, trade-offs. You will make trade-offs on every single step and these trade-offs is something that nobody else has done before you.
+[00:13:53] Therefore you have to document your decisions because later on you will ask how did we make this trade-off? How did we make this decision? You need to be able to go back and understand what drove those decisions now and it would be also a good for the lawyers.
+[00:14:15] The question that we get often, should we centralize or decentralize or, um, create hybrid governance structure?
+[00:14:26] What we see here in our surveys, is the big, big shift towards centralization, and I personally explained it by the fact that a lot of AI initiatives. Currently are driven top-down. They come all the way from the seaside and from the board. And when they come from the sea suite and from the board, these guys know what governance is and often. They, uh they ask the first question, do you have ai governance?
+[00:14:58] Your AI governance.
+[00:15:00] Has to support the, I progress again where to focus, you don't have to have a preventive government governance approach or you, you shouldn't solve problems and principal. In AI doesn't work because principals are changing and what works. Today will not work tomorrow. Therefore if you focus on your AI use cases, again you make governance containable focusing on the use cases doing only what's necessary for your road map and for your portfolio of AI, use cases.
+[00:15:40] centralized governance also allows faster movement because
+[00:15:45] AI is changing very rapidly. If it's done in the decentralized fashion, it would be very difficult, uh, because you will be hurting cats.
+[00:15:56] Now, this is also a result of our survey. We looked at high maturity organizations and low maturity organizations. And we found the most statistically significant differences that are here on the picture in terms of what high maturity organizations do different compared to low maturity organizations.
+[00:16:22] But this also a tool for you that is my most photogenic slide as a matter of fact
+[00:16:30] It's a tool for you to see where decentralization hurts and where centralization helps you out.
+[00:16:40] data centralization works very well because you can secure data and you can you can allow to use
+[00:16:50] Sensitive data in the controlled fashion while AI is moving very, very quickly.
+[00:16:59] 1 of the very first actions of AI governance organizations. That would be also very helpful in terms of making you focused on the right. Things is a conversation about.
+[00:17:15] How do we tear?
+[00:17:17] How different levels of criticality. I'm speaking about criticality, I'm not necessarily speaking about risk.
+[00:17:27] Criticality involves risk and value and scale.
+[00:17:31] And you start with asking what's low criticality, you can Define it by the types of the use case, like here on the picture, by the impact of Errors. Uh, by the number of people to whom you are deploying AI, of course by data sensitivity. But that's a very useful or conversation at the very beginning of your AI governance because you will
+[00:18:00] Have clarity about what to do and what not to do and how to do this. Of course, when you start with low low priority, you might start also with low priority, low criticality AI. But later on, you can leave your low, criticality AI alone especially if you have ai stewards who can attest to the fact that it's low criticality.
+[00:18:27] Now, the other set of things that you develop right away and have a conversation about is uh, what is prohibited? I'm giving here the example from the AI Act of the European Union
+[00:18:45] But you might prohibit many things that just don't make sense to do or don't make sense to do right now.
+[00:18:55] So that also will eliminate a bunch of activities and a bunch of use cases, because 1 of the, uh, tasks of AI governance. Often is to review and prioritize, the use cases and I hear, uh, stories, like we have 500 use cases, what do we do? If you look from that perspective, and you know that you start, for example, with the low priority, you focus on the low priority, you eliminate half of those, you
+[00:19:30] This case is at least because you are not doing it and currently it's prohibited and then you move forward and eventually you focus on medium and high priority use cases. But you differentiate how you focus?
+[00:19:47] So that's a very, very good conversation and it's an excellent.
+[00:19:53] Team building exercise for AI governance so that you know who is who and how you do it.
+[00:20:03] and uh,
+[00:20:04] another thing I wanted to speak about is, uh,
+[00:20:10] How to govern different implementations if you have applications.
+[00:20:15] you govern them differently uh, from agents, for example, and uh, if you know what you have, you, you again, you know where to focus and how to focus
+[00:20:31] Like every magic 1 is unique.
+[00:20:34] Every company has unique AI.
+[00:20:39] And, uh, like every magic wand Finds Its magician. So, every application Finds Its, uh, specific users who have to develop those wisdom, and then accountability and skills to do this, right?
+[00:21:00] Let's start with uh how you focus when you have chat Bots and probably the majority of you do have chat Bots.
+[00:21:09] What I'm recommending here is based on our exposure to thousands and thousands of companies who are asking the same questions and who share the experience with us in terms of what works and what doesn't
+[00:21:25] you, um,
+[00:21:27] Focus on the use case is for the chat Bots because chat Bots could be internal external. They could have sensitive information or not sensitive. And you also assess criticality of each chatbot and then you decide.
+[00:21:45] On the usage policies. You communicate communicating all policies is very important writing them is not enough.
+[00:21:54] and,
+[00:21:55] You need to understand costs that applies to many other things. But for chat Bots, you you have to know, uh, what it costs in terms of production, what it costs to scale, you need to decide even on the licenses. Do I buy? The license is for a 100 users or do I buy corporate license and then find out that as a rule of thumb, only 10% of people, use it aggressively, all of those are very very specific where your magic
+[00:22:30] Once find the magician. So it's very specific to your organizations.
+[00:22:36] Security, uh, is a separate story. If you hear AI governance or about AI governance from your security people.
+[00:22:48] They don't mean the same thing as we are discussing here. They mean governance of AI, security, AI security people.
+[00:22:59] Or security. People are very important participants of AI governance and they they should be in charge of your security line, but they cannot, they, they don't don't address ethics, they don't address.
+[00:23:15] Value. They don't address a lot of tooling, other than Security reviews. Security is is all over the place right now. So be careful about what you do about security but have it as a first line of defense that will allow you to eliminate a lot of tools.
+[00:23:38] early so that if you want a tool but it's not secure, don't implement it because you probably will find an alternative
+[00:23:50] The applications is a different story.
+[00:23:55] and, uh, when we hear this uh, new thing,
+[00:24:00] Share the way, I not so new and we know how to deal with Shadow it. We have seen Shadow it in the past and now recommendation is to embrace.
+[00:24:12] Shadow it and I would uh, bet that in the year or 2, everything will have ai. So Shadow AI which means AI about which you're not aware, often comes from the applications.
+[00:24:28] Because applications introduce AI capabilities and give it to you during the upgrade.
+[00:24:36] and in some cases you need to make some actions to shut them down and in many cases you need to understand what it
+[00:24:45] What is they doing?
+[00:24:46] Here on the picture. You see the top priorities for governance in terms of the applications.
+[00:24:54] and,
+[00:24:55] And when it comes to trust and applications, here is the picture.
+[00:25:02] I included this picture because if you saw something like this on uh your favorite online shopping site,
+[00:25:11] You probably won't buy products with this rating.
+[00:25:17] But with applications, that's where we're standing. They will be improving but they might not be backwards compatible and so on. These are things that you need to pay attention. How to
+[00:25:30] Understand explainability dealing with hallucinations.
+[00:25:34] Uh pricing because they tweaking the pricing too. You can work with them on this and of course, security and other controls. Ask your providers, what they do for their governance.
+[00:25:49] And finally, the agents, that's the most popular emerging topic. How do we govern AI agents?
+[00:26:00] My view that having any framework is better than not having a framework. And this is the evolution. You have not very autonomous, individual agents. And then you have autonomous individual agents. So,
+[00:26:15] That the second level is simple but autonomous agents that exhibit Behavior. Then you have agent orchestrations and workflow. And then you have agent ecosystems where uh, you your agents communicate with external agents.
+[00:26:32] I am showing you what to do in the order of doing it.
+[00:26:38] You start first with addressing accountability and guardrails.
+[00:26:44] Then you continue with understanding how to make agents, interoperable and reliable, every agent should have a goal and success criteria. A goal would be to make a decision.
+[00:27:00] Addition, the success criteria that you your agent should make different decisions. When you're, let's say, if you're a financial institution within the trading window or outside the trading window,
+[00:27:14] Contextual and translate those goals and success criteria into pervasive evals evaluations. That's a new step and the new thing for agents, evals have to be pervasive
+[00:27:29] Then, uh, you do need to address.
+[00:27:34] Monitoring because and um understanding how agents are orchestrated, especially when it's Dynamic orchestration but any kind of orchestration.
+[00:27:45] Require deep understanding through monitoring and observability. And with the ecosystems, you have to understand what to do in terms of Agents contact. And in terms of avoiding, uh, for example, price setting and collusions, because it's uh, uh, agents have to have this understanding.
+[00:28:11] now, the very first thing that is very popular with our clients is creating the agentic code of conduct
+[00:28:20] It's similar to the employee code of conduct, and it's also a very good conversation for the AI governance organization.
+[00:28:30] Is what are the ground rules that we want to apply to all agents? So this is not specific not detailed but that's the code of conduct that applies to everything like fulfill. Your duties means act within constraints.
+[00:28:50] Um, prioritize security, which means, uh, for example, a best practice to isolate Agents from any access to any security tools,
+[00:29:03] And much more. We have a tool that allows you to create your own code of conduct. I already had the cold call from some company that was offering to me this solution.
+[00:29:15] but that is something that gives you a good thinking about setting expectations and a good communication vehicle in terms of
+[00:29:27] Communicating, what the expectations are to the entire organization.
+[00:29:33] And with this, I want to stress.
+[00:29:36] That focusing is what makes governance work.
+[00:29:42] But the first activity for your governance is defining the use case criticality.
+[00:29:48] You need to Pace your governance uh with the speed of AI, which means don't make governance a bottleneck but make governance support.
+[00:30:00] AI progress.
+[00:30:02] And when it comes to the agents, create the code of conduct and uh, communicated through your HR, uh, mechanisms. And once you are done,
+[00:30:15] AI will be truly magical, you will acquire wisdom to focus on what matters you will create Norms. You will give people skills. And by the way,
+[00:30:29] if people don't like the word governance and perceive it as a bottleneck, just call your governance once.
+[00:30:39] Thank you very much for coming and I wish you all the best on your AI.
+[00:30:45] Your name.

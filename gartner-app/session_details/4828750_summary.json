@@ -1,0 +1,71 @@
+{
+  "summary": "The session discusses the evolution of data analytics in auditing, highlighting the transition from traditional methods to agentic analytics. Graeme Kaisley from Grant Thornton shares insights on how their automated analytics platform has transformed audit processes, enabling auditors to focus on analysis rather than manual data handling. Key themes include the importance of AI readiness and the need for a common data model to enhance efficiency and client engagement.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Agentic Analytics",
+      "key_points": [
+        "Agentic analytics allows users to interact with data using natural language.",
+        "The transition from dashboards to agentic analytics represents a significant evolution in data interaction."
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:02:34"
+    },
+    {
+      "order": 2,
+      "topic": "Grant Thornton's Data Journey",
+      "key_points": [
+        "Grant Thornton has developed a proprietary automated analytics platform to enhance audit efficiency.",
+        "The focus is on creating a common data model to streamline data handling and improve client experiences."
+      ],
+      "start_time": "00:02:34",
+      "end_time": "00:12:00"
+    },
+    {
+      "order": 3,
+      "topic": "Impact of Automation on Auditing",
+      "key_points": [
+        "Automation has shifted auditors from document inspectors to data analysts.",
+        "The platform enables self-service capabilities, allowing auditors to access data products directly."
+      ],
+      "start_time": "00:12:00",
+      "end_time": "00:20:15"
+    },
+    {
+      "order": 4,
+      "topic": "Future of Audit and AI Integration",
+      "key_points": [
+        "The future involves moving towards a self-service AI model for auditing.",
+        "AI readiness is crucial for transforming audit processes and enhancing decision-making."
+      ],
+      "start_time": "00:20:15",
+      "end_time": "00:24:54"
+    }
+  ],
+  "key_takeaways": [
+    "Understanding the data requirements and timing is essential for effective auditing.",
+    "Ownership of the analytics product by auditors fosters empowerment and accountability.",
+    "AI should be deterministic to ensure reliability in audit processes."
+  ],
+  "entities": [
+    {
+      "agentic analytics": 5
+    },
+    {
+      "automated analytics platform": 3
+    },
+    {
+      "common data model": 4
+    },
+    {
+      "ai readiness": 3
+    },
+    {
+      "self-service capabilities": 2
+    },
+    {
+      "audit processes": 6
+    }
+  ],
+  "subject_area_id": "data_management"
+}

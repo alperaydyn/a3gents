@@ -1,0 +1,175 @@
+[00:00:03] Hello, good morning and welcome to Gartner's DNA conference for 2026 here in London again, I hope you're looking forward to a great 3 days of data analytics and AI uh to get started with this session. I'm going to look at some of the critical data management technologies that are going to be key to helping you advance some of your AI strategies and data strategies as you begin to progress.
+[00:00:26] To get started though. I want to borrow your imaginations.
+[00:00:30] For a second. Imagine I came to you and I said, I have a great car.
+[00:00:34] For you to try and test drive and why don't you try and do it? But I didn't tell you what type of car that was going to be, but I also gave you 1 last test and said you have to bring the gas forward.
+[00:00:44] so,
+[00:00:45] Like, most people, you probably just go to your local petrol station, pick up a couple of canisters of fuel. You come to the racetrack and put the fuel in the car, only to find out that it's a formula, F1 racer.
+[00:00:57] Now, if you bought Patrol, the car will start.
+[00:01:00] It'll drive around the track, but it may not perform. You may not hit those maximum uh, speeds. You can with this type of car because again, it needs a slightly specialized fuel to be able to do it.
+[00:01:10] and if you bought diesel,
+[00:01:11] you're not going anywhere.
+[00:01:13] Uh at best, you're sitting in your car, taking a photo putting it up on in, on social social social media and well telling everyone, you had such a great time when you actually just didn't didn't go anywhere.
+[00:01:25] and when we look at some of the AI initiatives,
+[00:01:29] Happening right now.
+[00:01:30] Receive some of the same thing happening, they're bringing their data. In the environment they were giving us huge, beautiful, special advanced technology. But as we feed data into it, from our environments right now we're finding that it's lacking.
+[00:01:42] some people are able to kind of make some progress with it, but maybe not optimal and many organizations are going to re are failing to kind of have a lot of success, uh, with AI primarily because of some of the data issues that they're facing
+[00:01:56] So today we're going to again, look at some of these common challenges are, as you begin to kind of work, uh, with data for AI initiatives. Again, how can they be managed, uh, solved with certain types of data management tools? Again, how do you look at these Market offerings and choose them?
+[00:02:15] To begin, when we look at common data challenges, they've come down to kind of 5 basic categories. We tend to see and this repeats AI didn't create anything new. These are common challenges we've seen before but there's certain much more enhanced.
+[00:02:28] With AI.
+[00:02:29] Data availability. So remains a big challenge. So we see distributed infrastructures.
+[00:02:35] Where data is stored in different areas? Again, being disconnected in many cases. Siloed. This data may also may not be documented or we don't understand what the connections are between them through lineage. So this creates the challenges of wondering, what data do we have?
+[00:02:50] Again, how can that data actually support our business requirements? And even how can we access that data to make it available to an AI project?
+[00:03:03] Data quality. Uh this is an area. I've worked in now. For over 25 years, in particular again the data quality challenges haven't gone away, we still have challenges of just understanding the in the accuracy of it or we don't actually have sufficient data to kind of meet uh certain demands, click your amount AI or building AI models.
+[00:03:21] In accuracy of the data, incompleteness the validity checks are constant kind of challenges particularly in the structured data world. But even in the unstructured data world, this is now beginning to be blended into our data management sphere. And unstructured data, brings new types of challenges with regards to how we assert quality, particularly with regards to extracting metadata Forge.
+[00:03:40] And so again we get these challenges. How do we meet the data quality requirements is that
+[00:03:45] Going to have again. How can we improve data quality putting in place, the governance in the workflow processes to support that?
+[00:03:54] Data integration and preparation has also been a challenge in this area. Again AI is just enhanced these challenges, we still have challenges with interoperability
+[00:04:04] Uh, we still rely on many redundant again, multiple pipelines in some cases doing the same thing, or moving the same data is a challenge. Some processes are still manual.
+[00:04:13] Manual copy of data, putting stuff into a spreadsheet transforming it copying. It someplace else, again, this is still very common inside most organizations.
+[00:04:22] And this leads us to kind of challenge around Limited scalability.
+[00:04:25] So the question is around again around. How do we manage this pipeline again, how do we
+[00:04:30] Get full visibility of what the workflow is through lineage or observing it over time become again. Ongoing challenges here,
+[00:04:39] Data governance.
+[00:04:41] Still Remains.
+[00:04:42] 1 of the top challenges we see in our surveys with regards to organizations. Yes, we have data but how do we manage it? And many organizations that try and put in place data governance in many cases go for a 1 size fits all approach. We put in the same type of processes the procedures. Some of this can be very bureaucratic and many cases, it's overkill for what is needed to kind of get the right outcome.
+[00:05:05] Regulatory complexity is also increasing.
+[00:05:08] We still have gdpr the eui ACT, a new regulations around as a result of AI. Maybe begin to increase.
+[00:05:15] Sovereignty is another challenge. We're seeing again, increasingly among particularly in Europe.
+[00:05:20] How do we control the data? How do we make sure we own it again?
+[00:05:23] Could other governments gain access to it if they if the demand depending on the vendors that we choose?
+[00:05:29] stewardship also remains a problem, getting our business users to participate inside of data management practices and data governance practices is ongoing
+[00:05:37] Getting them at the collaborate across teams where they share data but don't necessarily have a specified. Interest are also ongoing challenges in this area and so we look at again the data policies that we need.
+[00:05:48] How do we get people to follow these policies? How do we enforce those policies at a detailed level in terms of individual documents or rows within a, a particular database table.
+[00:06:02] And finally, we have data sharing.
+[00:06:05] and this is similar to the idea of data availability, but we've taken time, we've produced data, we make it available to our stakeholders, but we still have the limits of fragmented understanding
+[00:06:15] Very often a team will document the data, they'll put in their own definitions, another team will read that and interpret it their own way.
+[00:06:21] And therefore, they may misuse that data that creates reluctance to share or lack of trust in terms of what that data means and how it can be utilized in a in a process.
+[00:06:30] Uh some people may be reluctant to share their data as well uh just because they don't trust what people are going to do with it. They could be used to undermine their own uh definitions in terms of of report they made versus what someone else may develop.
+[00:06:47] And so this again means again, how do we create that unified view of data? So that people understand again, have a common understanding of of what it means, and how it can be utilized. And then how do we encourage people to share the data?
+[00:06:58] Getting past those trust barriers.
+[00:07:06] So how can we overcome some of these challenges?
+[00:07:10] And how can they be solved by data management tools?
+[00:07:14] so we're going to go through 5 kind of key Technologies here that are
+[00:07:18] utilized to help shape. And again, solve a lot of these data management problems. The first 1 is metadata
+[00:07:24] And this is often been a forgotten piece of many data management activities. We've been working on a lot in Gartner.
+[00:07:30] Over the last couple years and this is 1 of the types of Technologies. Again that helps understand what data means and how it can be utilized. It provides the what the when the, where the, how the who of, of data again, providing a lot of that context that's needed particularly in the context of AI deployment.
+[00:07:48] And this means it helps support semantics.
+[00:07:51] What is the data stand for?
+[00:07:53] It helps.
+[00:07:55] Specify location work in the data to be accessed, where is it? Stored right now and who can start to use it?
+[00:08:01] It provides timestamp information. When was the last updated uh, when was it originally created?
+[00:08:07] It can help support data access in terms of understanding where sensitive data is or what are the role. Uh, role-based access controls, you can put on a particular Data Center,
+[00:08:15] In terms of who can utilize it, how can how it can be accessed?
+[00:08:19] It helps support Data, Trust through lineage, through data quality checks, uh, profiles. All of this gives you information in terms of what that data means, where it came from. And again, helping support that confident create confidence that it can be utilized inside of a particular business process or an AI model.
+[00:08:36] And even look at data usage, what can the data be used for?
+[00:08:40] Uh but also again how can it be uh how can it be used? I guess, inside of a particular business process, are all those kind of key Concepts that need to be addressed.
+[00:08:49] so metadata is really the heart of a lot of what we try and do in data management because it gives you that context in terms of what you need to know about the data and how it can be utilized and as you start to bring on board,
+[00:09:00] AI models, which are going to begin to work within your own data. They need that context to be able to work with and interact with the data in a reliable fashion.
+[00:09:09] Metadata is just 1 piece of this again. Data quality technologies have been around for 25 years at this stage and they've grown in a lot of their capabilities and they do a lot, um, to help support some of the AI ready data, Concepts we talked about in terms of knowing your data data, quality tools. Now, we'll start to incorporate lineage, they'll have their own catalog, and metadata definitions, and terms of what data means in terms of a business context because this applies alignment of what those rules are.
+[00:09:37] They can do, anomaly detection, do pattern, and a trend Discovery. And begin to make some predictions in terms of what data means.
+[00:09:45] Once you know what the data means and have an alignment to it, you can now start to gain trust from it. So through profiling exercises, you can compare the metadata definition to what you infer from the data itself.
+[00:09:54] And begin to do monitoring on that to say, does the data continue to align to the metadata and is a good quality.
+[00:10:01] You can help do business rules and again data validations which will make sure the data is actually aligned and correct in terms of the business context that you have.
+[00:10:09] Uh this can also begin to support issue resolution and workflows. So once you detect bad data you need to do something with it. Keywords need to be involved and they need to make decisions with regards to how to correct that data and begin to remediate it.
+[00:10:23] Once you have those workflows in place that takes you to the next level of terms of, how do we fix the data? Just knowing something's bad isn't enough? You?
+[00:10:30] Need to be able to take some sort of action on it, to get it back into alignment, so it can be used and reused.
+[00:10:34] So using again, cleansing the duplication matching and merging.
+[00:10:38] Parsing classification and enrichment te techniques data quality tools. Can again interrogate that data, apply this logic, correct data and make it reusable for your various types of business processes including inside of an AI model.
+[00:10:53] So data quality itself is not just about establishing what the data means, but also gaining insight into it understanding again. Uh, what it's quality is, uh, again helping to inform an AI model in terms of what the limitations of data might be and how it can be utilized in server and service level business process.
+[00:11:12] An extension of that data quality, I guess.
+[00:11:15] A lot of that monitoring but there's a trend that started a couple years ago called data observability and this was primarily focused on again, helping data Engineers, understand the health of a data pipeline.
+[00:11:26] The landscape of the data that data operates on and in some cases, even helping support, uh, Financial cost assessment. So your building pipelines, you're running this in. In the cloud-based system, you want to know, am I running pipelines? Are there any drift or change happening to it? And how do I start to track that data as it goes through?
+[00:11:44] And it does this through that continuous monitoring of the Data Tracking it over time series to see if there's any anomaly patterns tracking coming in, it can do alerting to stakeholders when issues pop up showing them when there's different issues and helping them take action on in terms of investigation and issue remediation.
+[00:12:00] And even some cases new tools. Using AI agents can begin to kind of look through a fault. Begin to trace a lineage path. Look at logs and help identify single points of failure.
+[00:12:11] Again, speeding up that time to resolution and speeding up the time it takes to be able to resolve different types of pipeline issues.
+[00:12:19] An observability really is about providing that end to end integrated view of a pipeline again itself, and keeping it visible to your data, engineers and data teams
+[00:12:32] Now, related technology again, is data integration again. It's not new been around for 25, maybe even 30 years at this stage in terms of uh, professional tools to be able to do it. And at a tart it's quite simple move data, from
+[00:12:45] Point A to point B and transform it to meet again. The needs of a new data model or a new use case.
+[00:12:50] But it's now being augmented with a lot of AI capabilities. So we're starting to see augmented pipeline development where you start to see coding assistance.
+[00:12:58] Make suggestions in terms of how to connect data sets together and how to transform it.
+[00:13:02] You see it, helping with workload optimization again, looking at how data is performing, uh, helping do cost optimization helping make deployment recommendations.
+[00:13:11] Emerald also seeing again, some levels of automated actions against repeating, uh, repetitive Transformations. You might have to do in data, AI agents and AI technology can look at the patterns of previous users. And again, make suggestions in terms of how to do that transformation logic. Uh, they may even look for pii or sensitive data and automatically mask it as it begins to flow through.
+[00:13:30] Uh and we're starting to see this is a prediction. We've made by 2027 uh the use of AI and hates workflows can help reduce.
+[00:13:38] The challenges of teams by 60% and again, enable self more self-service data management over time.
+[00:13:49] Now running a data Pipeline and building and deploying them also requires some support with regards to, with regards to again how those pipelines run and monitoring them and deploying them over time in a consistent, reliable manner.
+[00:14:00] Data Ops tools again bring these 5 different Technologies or 5 different capabilities into the market. Some of them overlap with what you can do in a data integration tool but also a data Ops tool but they give you again a more consistent platform with regards to how you can manage deployment of Pipelines.
+[00:14:15] Through orchestration.
+[00:14:17] again, monitoring the workflow, the test and the test scheduling
+[00:14:22] They can help support some of the data pipeline. Observability. Again, looking at the business rule detection,
+[00:14:27] And helping support some of the data quality monitoring that happens inside them.
+[00:14:31] You may get some data pipeline um environment managing so the software development life cycle, going from development to test to prod.
+[00:14:39] So these tools can again help to support that deployments and even do roll back when you have challenges again in that pipeline.
+[00:14:47] Uh they'll support testing doing dry run tests. Examples are also doing regression testing as you begin to kind of execute on those processes and finally even helping with the pipeline again doing Version Control and the cicd
+[00:15:00] and also again is helping with the again, the pipeline deployments again, publishing to a to an area to be able to execute
+[00:15:07] These tools again are all kind of coming in combination to help support that and the thing we see with Cam combining data integration with data Ops tools, again you can be 10x more productive.
+[00:15:17] Data integration team will be 10x more productive again. If they deploy again data Ops Technologies and practices within their organization because you build the pipeline, it goes into, a devops a data Ops process.
+[00:15:28] The whole process of monitoring the deploying execution of tests become far more automated and therefore, the team can focus on building new content for uh, the pipelines. And the again, the management and deployment of those pipelines, become an automated function.
+[00:15:42] In many cases, we do see organizations with 5,000 and 10.
+[00:15:45] 000 15000 pipelines running uh, in in production, as a result of these types of capabilities.
+[00:15:54] so, when we look at these, um, challenges and the technologies that are available, uh,
+[00:16:01] Some of them have overlaps again with with here. So we look at data availability here, are you doing stuff like inventory, capturing, semantics helping support some of the access management
+[00:16:11] Uh, and doing association between different types of tools.
+[00:16:14] And here we have 3 different Technologies. Again, the ones with 2 stars have the strongest Association, I guess to this particular task, and a single star ones will give you some limited capability helps support that function.
+[00:16:27] So metadata Management Solutions again, have that ability to scan
+[00:16:30] Different data assets to create that inventory, which can be reused, I can do the semantic analysis and help, do some of the tagging.
+[00:16:37] Data integration and data Ops tools, give you the ability to connect to data sources that are perhaps inaccessible and then move it into an area where it can be utilized by AI or different types of data teams.
+[00:16:48] So in combination, again these tools will help support the data availability cycle.
+[00:16:54] For data quality, we have these tasks around data profiling uh doing some of the runtime anomaly detection. Also looking at cleansing validation activities here, the 2 strongest Technologies here would be the data, quality tools who can do the full Suite, they can do the analysis of the data, looking at the Quality checks, they can also do the remediation cleansing and valid
+[00:17:15] Of the data.
+[00:17:16] A data observability tools will be much stronger, just on the detection piece. Uh, but in concert with the data Ops tool, you also have the ability to do some remediation through the orchestration piece. So if you detect anomalies inside your pipeline, you have the ability to use the orchestration from data Ops to pause that pipeline. Perhaps taking bad data off to the side where it can be reviewed or just again, creating an incident for an engineer to address before. The data is allowed to move further down the pipeline.
+[00:17:43] For data integration and preparation tasks. Uh again you're going to have those capabilities of doing data and data ingestion. Uh, you're going to do pipeline monitoring, you're going to have some levels of deployment, query optimization becomes a factor here and even just some of the workflow automation.
+[00:17:59] Data.
+[00:18:00] Ation and data Ops tools. Again, here will be the leading Technologies in this particular space data integration primarily for the creation of the pipelines and development of them and the data Ops tools again used in concert to help do the deployments. And some of the, some of the monitoring observation, uh data, observability tools will also be a supplemental technology in this case, primarily from the monitoring again, helping alert detect, anomalies and again, they can all work in concert to give you that higher levels of efficiency and productivity as data teams.
+[00:18:32] With data governance, really focused on the application of policies.
+[00:18:36] to the data 1 of the key policies around sensitive data detection, uh doing pii uh detecting understanding where that data is
+[00:18:45] Using lineage the track to see where that data came from. But also, where it's going.
+[00:18:49] And monitoring the policies and checking for violations here. Um 2 Technologies here. Again metadata Management Solutions as 1 magic Quantum. We have. We also have a separate magic quadrant called data analytics governance platforms and we look at those magic quantities. You see a lot of the same vendors but we assess them for different capabilities. Um, governance platforms are really more aligned to helping support the policies, but they do require a lot of metadata Discovery to make that happen.
+[00:19:14] Data quality solution. Also, again, focus on a certain type of governance policy with regards to the quality of the data again, checking for the metadata. And again, making sure that the data is there and supporting some of the remediation tasks.
+[00:19:26] An observability tools again, many of them will have profiling capability.
+[00:19:30] Is data detection capabilities to help check for sensitive data or check for anomalies of the data.
+[00:19:35] That may cause faults in a pipeline that need to be addressed by a business team.
+[00:19:44] And finally, for data sharing, we're looking at the tasks around data product creation, uh, data marketplaces to be able to share these components. And again, just the documentation of the data sources.
+[00:19:54] Metadata Management. Solutions here will be again that leading technology to help support that capability. Primarily from the point of view of capturing the lineage, many of them will also have a data Marketplace capability as an offering. So as you curate and cleanse data and ready to produce it as a data product, it can be published to that Marketplace again, where users can access it understand what it means. And
+[00:20:15] Start the workflow processes with regards to getting Access Control to it.
+[00:20:18] Integration and data Ops tools, play a key role primarily to getting the data through the pipeline, uh, that the metadata management, uh, tools can then Monitor and, and observe. Uh, but they also make sure you can meet the slas to say, you actually have a data product.
+[00:20:32] Uh, there, so products again, require a certain level of commitment to make sure that they can be delivered in a reliable to their user base.
+[00:20:43] So what are the market offerings?
+[00:20:46] That are out there. And again, how do we start to choose these different types of tools? So, going back to the challenges. And again, starting to look at the overlay of the Technologies. Here, we can see. There's a lot of overlap and there's a lot of confusion, I guess, with regards to what's here, so, which technology
+[00:21:00] Allows you to choose. Do you need to buy all of them?
+[00:21:02] Can you pick and choose certain elements and again, where do you, deploy them where you have overlaps.
+[00:21:07] Some aspects of a data Quality Tool can also be handled by a data. Observability tool. Some aspects of data observability can be handled by data Ops, uh, some aspects of data Ops can be handled by data integration. So, these create these different challenges with regards again, how you manage that from an architecture point of view. Um, but there has been some change in the market in this respect, because this is all bound together, by more or less metadata.
+[00:21:29] We're now seeing data management platforms, begin to emerge and they take these 5, different capabilities and kind of create more of a unified experience for your user base to be able to do it kind of simplifying. Some of the choices you have.
+[00:21:45] Now.
+[00:21:46] Single tool or specialized tools are very common question I get when I'm speaking to clients in terms of how to build out a data platform. So the 1 to converge platform has some certain benefits to it. I guess the main 1 is the consolidation, so you have multiple capabilities within a single tool.
+[00:22:01] You have a unified metadata layer, then it makes it easier to exchange and you don't have to deal with a lot of the Integrations. You may have to do with the best of breed type of solution. So you get a consistent platform experience and you get a consistent experience for your user base with regards to the technology and can how it can be deployed.
+[00:22:17] The downside of course, is that in these tools, they collect pretty much all your metadata, all your context and how they're going to be utilized. And once you have a substantial footprint on that, it becomes very expensive to move out that metadata that
+[00:22:30] Knowledge that's contained inside that tool all of a sudden becomes bound to that technology, the vendors, don't make it easy to transfer their metadata to another platform.
+[00:22:38] Um,
+[00:22:40] You may also get immaturity so they say they have certain types of capabilities but they may not have the same Advanced capabilities, they have a data observability, specialized data observability, vendor inside their own product. They maybe just do profiling of the data in a, in a slightly Advanced way using anomaly detection.
+[00:22:55] So that can be kind of 1 Gap in there in, in that platform technology. They may also have certain Partnerships particularly around large language models Genai applications that kind of bind you to that, not just
+[00:23:07] Them but also to their partners. And again, this could also create challenges with regards to how you integrate them into your environment uh over time.
+[00:23:16] If you go with multiple tools again, the best of breed Technologies do, give you those Niche, Advanced capabilities, uh, many Architects like the idea of being able to build out a, uh, a platform that has been optimized. According to what they think what what their needs are and you can get quicker adoption for certain specialized pieces of Technology as opposed to having 1 broad platform that you're trying to figure out how to use uh consistently
+[00:23:39] The downside is that the integration complexity does get higher.
+[00:23:42] Um, many of these tools will have apis, they will have Partnerships with some of the other partners in that space. They will have the ability to do do API Integrations and do some levels of automation. But now you get into you having to manage those Integrations, keeping the consistency up and making that run.
+[00:23:57] Uh, the over ownership is also going to going to get more expensive
+[00:24:00] Sense of with regards to doing it. You're now negotiating 3 4 5 different license agreements to deal with these vendors as opposed to kind of 1 license agreement.
+[00:24:12] So, how do you choose?
+[00:24:14] Well with all these choices again you want to prioritize an investment based on again, your current business requirements. Again, looking at your data strategy and again the current technology landscape.
+[00:24:23] You want to identify again where those biggest gaps are in your architecture and what type of solution you might need to be able to patch it up?
+[00:24:30] you want to look at the interoperability with your current ecosystem, in terms of the technology you have Legacy or or cloud-based and again any technology choices you have, and how that's going to integrate
+[00:24:40] Um, you want to look at the security and the scalability of the solutions. So some of these platforms technology.
+[00:24:45] May offer a lot but they do it in a very limited scope on a smaller number of connectors. So they may not necessarily fit with your environment.
+[00:24:52] And again, you want to look at the implementation, the customization and the maintenance costs that may be required to fit any of these Solutions into your own technology stack.
+[00:25:01] You also want to look at some of the non-technology pieces use cases, uh, the potential users, the technical skills. You have available to be able to deploy this
+[00:25:13] So, to wrap up.
+[00:25:16] Again, number 1 recommendation, again is just look for and identify some of your biggest challenges. Uh evaluate again. The current conditions of your of your technology stack, uh, where those gaps are and begin to kind of create some priorities with regards again, how you might want to make that transformation to an
+[00:25:30] Do a technology or technology stack.
+[00:25:34] I want to assess the current technology landscape and identify any of those gaps.
+[00:25:39] Look at what's already been purchased and again. Any homegrown applications that are currently deployed inside of your inside your environment.
+[00:25:47] Again, prioritize any new purchases based on the technical requirements, be sure to engage. Again, your stakeholders Technical and business as you begin to kind of investigate these Technologies who might be using them again, how that can be integrated and work, and how they're going to work with that.
+[00:26:04] And finally, look at the new and the incumbent vendors that are in the markets, uh, some of the larger vendors again will have very mature stacks. And again, lots of capabilities there, uh, some of the smaller Niche vendors again are also going to have
+[00:26:15] Have a lot of very Advanced capabilities and be able to do what some of these Niche cases. Um, but again the stability and and the viability of some of these vendors over the longer term may need to be taken into account as well.
+[00:26:27] And just to help again. We have published a number of magic quadrants and Market guides, uh, in this particular area, uh, around metadata management, data integration, the converge data management platforms, uh, you, I believe at some of the Pavilions out here are are Pavilion out here. We can actually get a look in some of those Tech capabilities, and of course, on the show floor down downstairs again. Most of the vendors in these categories are represented. So this is a great opportunity for you to kind of compare and get some additional Insight in that area.
+[00:26:55] Uh, and that's all. Thank you very much again. We have our Gartner survey again, I'd encourage you to uh take a look at that.
+[00:27:00] Uh, you will get a uh response back in terms of the findings over next 2 to 3 months once we complete the analysis. So it's a great way to participate in a Gartner research if you're interested. But again, thank you for your time, uh, enjoy the conference and, uh,
+[00:27:12] Enjoy.

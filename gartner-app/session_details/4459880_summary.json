@@ -1,0 +1,89 @@
+{
+  "summary": "The session focuses on designing an effective AI organization, emphasizing the importance of alignment with existing structures and the need for a proactive approach to AI adoption. Key design principles include the necessity for a hybrid operating model and the critical role of leadership in fostering collaboration and accountability. The discussion also highlights the evolving nature of AI organizations and the importance of continuous assessment and adaptation as maturity increases.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to AI Organization Design",
+      "key_points": [
+        "AI organization is a key pillar for successful AI adoption.",
+        "Collaboration and structure are essential for AI success."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:02:27"
+    },
+    {
+      "order": 2,
+      "topic": "Design Principles",
+      "key_points": [
+        "AI organization must align with overall organizational structure.",
+        "AI organizations should evolve with AI maturity."
+      ],
+      "start_time": "00:02:27",
+      "end_time": "00:12:35"
+    },
+    {
+      "order": 3,
+      "topic": "Leadership in AI Organizations",
+      "key_points": [
+        "AI leaders should report directly to the CEO for effective governance.",
+        "Leadership roles must be seen as orchestrators rather than centralizers."
+      ],
+      "start_time": "00:12:35",
+      "end_time": "00:20:15"
+    },
+    {
+      "order": 4,
+      "topic": "Building Blocks of AI Organizations",
+      "key_points": [
+        "Establish a Center of Excellence and Fusion Teams.",
+        "Create a supportive platform team for infrastructure."
+      ],
+      "start_time": "00:20:15",
+      "end_time": "00:30:05"
+    },
+    {
+      "order": 5,
+      "topic": "Monitoring and Evolving AI Organizations",
+      "key_points": [
+        "Use criteria to evaluate organizational performance.",
+        "Adapt the organization based on maturity and needs."
+      ],
+      "start_time": "00:30:05",
+      "end_time": "00:31:30"
+    }
+  ],
+  "key_takeaways": [
+    "Design your AI organization to align with existing structures and business models.",
+    "Adopt a hybrid operating model to balance centralization and decentralization.",
+    "Ensure that AI leadership is proactive and connected to top management.",
+    "Continuously assess and adapt your AI organization as it matures.",
+    "Foster collaboration through communities of practice and shared learning."
+  ],
+  "entities": [
+    {
+      "ai organization": 10
+    },
+    {
+      "hybrid operating model": 5
+    },
+    {
+      "center of excellence": 4
+    },
+    {
+      "fusion teams": 4
+    },
+    {
+      "ai leader": 6
+    },
+    {
+      "ai maturity assessment": 3
+    },
+    {
+      "organizational structure": 5
+    },
+    {
+      "proactive approach": 3
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

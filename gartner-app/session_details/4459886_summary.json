@@ -1,0 +1,81 @@
+{
+  "summary": "The session discusses the evolving role of data science in the context of AI, emphasizing the importance of data scientists in driving decision-making and business engagement. It highlights the need for data science teams to align closely with business units to effectively prepare for AI disruption. The presentation also explores various methodologies and techniques that can enhance data science practices within organizations.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Data Science and AI",
+      "key_points": [
+        "Data scientists are facing challenges in their roles amidst the rise of AI.",
+        "The session aims to clarify the purpose of data science in organizations."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:03:40"
+    },
+    {
+      "order": 2,
+      "topic": "Importance of Business Alignment",
+      "key_points": [
+        "Data science teams aligned with business units are more prepared for AI disruption.",
+        "Understanding business requirements is crucial for effective data science."
+      ],
+      "start_time": "00:03:40",
+      "end_time": "00:07:55"
+    },
+    {
+      "order": 3,
+      "topic": "Decision-Making in Data Science",
+      "key_points": [
+        "Data science should not only focus on predictions but also on actionable insights.",
+        "Decision maps can help structure hypotheses and guide analysis."
+      ],
+      "start_time": "00:07:55",
+      "end_time": "00:13:40"
+    },
+    {
+      "order": 4,
+      "topic": "Building Effective Data Science Teams",
+      "key_points": [
+        "Data science requires a collaborative and agile approach.",
+        "Roles such as data and analytics translators are essential for bridging gaps."
+      ],
+      "start_time": "00:13:40",
+      "end_time": "00:19:30"
+    },
+    {
+      "order": 5,
+      "topic": "Techniques and Methodologies",
+      "key_points": [
+        "Composite AI involves using multiple techniques for better outcomes.",
+        "Organizations should leverage various methodologies beyond just machine learning."
+      ],
+      "start_time": "00:19:30",
+      "end_time": "00:25:42"
+    }
+  ],
+  "key_takeaways": [
+    "Data scientists must engage closely with business units to enhance their relevance.",
+    "Utilizing decision maps can improve the structure of data-driven investigations.",
+    "Organizations should adopt a diverse set of methodologies to address different data science challenges."
+  ],
+  "entities": [
+    {
+      "data science": 12
+    },
+    {
+      "decision maps": 3
+    },
+    {
+      "composite ai": 3
+    },
+    {
+      "business alignment": 2
+    },
+    {
+      "data storytelling": 2
+    },
+    {
+      "predictive models": 2
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

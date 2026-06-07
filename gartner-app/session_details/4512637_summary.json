@@ -1,0 +1,78 @@
+{
+  "summary": "The session discusses Kongstar's journey towards becoming a data-driven organization through the implementation of Pyramid Analytics. Key speakers highlight the importance of self-service analytics and user empowerment, which has led to a significant increase in active data users within the company. They emphasize the need for a strong data foundation and AI literacy to support ongoing analytics initiatives.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Kongstar and Pyramid Analytics",
+      "key_points": [
+        "Kongstar has over 7.5 million customers and emphasizes data-driven decision making.",
+        "Pyramid Analytics was chosen for its user-friendly platform that meets diverse organizational needs."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:05:08"
+    },
+    {
+      "order": 2,
+      "topic": "Challenges in Analytics Prior to Pyramid",
+      "key_points": [
+        "Kongstar faced issues with outdated analytics tools and weak self-service capabilities.",
+        "The need for a 360-degree view of customer journeys highlighted the limitations of their previous data foundation."
+      ],
+      "start_time": "00:05:08",
+      "end_time": "00:10:59"
+    },
+    {
+      "order": 3,
+      "topic": "Implementation of Self-Service Analytics",
+      "key_points": [
+        "Kongstar prioritized self-service analytics to empower users and improve decision-making speed.",
+        "46% of employees are now actively using data, a significant increase from previous usage rates."
+      ],
+      "start_time": "00:10:59",
+      "end_time": "00:15:30"
+    },
+    {
+      "order": 4,
+      "topic": "Building a Data-Driven Culture",
+      "key_points": [
+        "Kongstar focuses on user-centric approaches to analytics, involving employees in the tool selection process.",
+        "Training and support are provided to foster a data-driven mindset across the organization."
+      ],
+      "start_time": "00:15:30",
+      "end_time": "00:20:56"
+    },
+    {
+      "order": 5,
+      "topic": "Future Directions and AI Integration",
+      "key_points": [
+        "Kongstar aims to enhance AI literacy and build an AI-ready data foundation.",
+        "The organization recognizes the importance of maintaining a balance between AI and human oversight in analytics."
+      ],
+      "start_time": "00:20:56",
+      "end_time": "00:30:00"
+    }
+  ],
+  "key_takeaways": [
+    "Empower users through self-service analytics to increase engagement and decision-making speed.",
+    "Involve employees in the analytics tool selection process to ensure the solution meets their needs.",
+    "Build a strong data foundation to support AI initiatives and foster a data-driven culture."
+  ],
+  "entities": [
+    {
+      "pyramid analytics": 10
+    },
+    {
+      "kongstar": 8
+    },
+    {
+      "self-service analytics": 5
+    },
+    {
+      "data-driven culture": 4
+    },
+    {
+      "ai literacy": 3
+    }
+  ],
+  "subject_area_id": "data_management"
+}

@@ -1,0 +1,174 @@
+[00:00:05] Hey everybody. Uh, welcome, welcome. Uh, all right, we're going to do a quick hands in the air. If you have a gentic initiative that you came to Garner to learn a little bit more about
+[00:00:19] Anybody doing AI?
+[00:00:21] Okay.
+[00:00:23] Uh and then I want you to put your hand in the air. If you have internal teams that are battling it out, wrestling, trying to figure out if you should build or if you should buy
+[00:00:34] All right.
+[00:00:35] now hand in the air 1 more time, if the word agentic makes you want,
+[00:00:41] To, or not, want to. But if the word agentic,
+[00:00:45] Is going to make you go crazy.
+[00:00:47] We've heard a lot. It's nuts. Okay.
+[00:00:50] Uh, so my name is Drew Goulart and I'm the director of go to market at a company called Zen lytic. And I'm joined here by James Elmore, uh, who you guys will learn a little bit more about in a second?
+[00:01:06] So, real quick, Zen lytic is an agentic analytics platform. Sorry, that's the word. I know. Uh, and basically what that means is we are a platform that connects to all your structured data.
+[00:01:18] And we help companies ask and analyze it using AI, right? So it's like, you have your own personal AI data analyst for the business to ask questions about and get answers quickly.
+[00:01:31] And 2 years ago, we came to another conference here in London.
+[00:01:36] And, you know, if you, if you can see behind my very handsome, Associates, right shoulder. There he is. You'll see that we had on our booth.
+[00:01:46] Conversational business. Intelligence make self-serve powerful.
+[00:01:52] And at the time, this was really novel people would come by and we would show the demo. They had seen kind of, you know, natural language querying where you ask a question and it kind of finds a few key words, but people that had seen conversational analytics and we were having crazy reactions to the concept and this was only 2 years ago.
+[00:02:11] we had about 15% of people that came over and they were
+[00:02:15] Like, holy shit. This is the future. I need it. I want it. I want to get involved now. Let's start building. Let's try it out.
+[00:02:22] Right. Then we had uh, 20% of people that said, okay, this is the future, but we're going to wait, you know, we just stood up
+[00:02:30] Tableau or powerbi that's really new for us. We're going to we're going to give it a minute.
+[00:02:36] Then we had about 60% of people that were like wow this is a cool toy. I want to play around with it. I think this is going to be fun, but I don't know these strategic impact. It's going to make on how we as a business do data.
+[00:02:49] Right? Uh, and then we had the remaining 5% of people that didn't they didn't get it at all. Uh, they were like, what are you doing? Uh, Tableau is good. We have
+[00:03:00] Business people that have 5 dashboard with 4 filters and they're happy. Uh, so let's keep it as is
+[00:03:06] Stop trying to make AI analytics happen.
+[00:03:11] And the mood on camp at Camp is kind of shifted.
+[00:03:16] And you can see this now with every booth in the conference center, having a AI, or a gentic in the title, I don't know what half of it means. Um, but everyone's talking about it and it's because we realized we have this really, really big problem.
+[00:03:28] The problem is that we spend 2 trillion dollars every year as a global economy getting data into the warehouse and only 2% to 5% of the company, can meaningfully get it out.
+[00:03:40] Can do real analysis.
+[00:03:42] Everyone else is stuck staring at a dashboard.
+[00:03:45] That tells them what happened last week.
+[00:03:47] And that's not good enough.
+[00:03:49] Right? And so everyone is thinking now, okay?
+[00:03:52] AI is here AI is really powerful, can't AI fix this shouldn't AI. Be able to you know, make
+[00:03:58] Data democratized. So anybody can analyze it?
+[00:04:02] and so, a lot of people
+[00:04:04] is that have kind of heard the hype of AI and are on, you know, on the train. But they haven't really spent time building with these applications.
+[00:04:13] are saying, wait, we have clawed, it's brilliant, and it is
+[00:04:17] We have an mCP toward our data warehouse.
+[00:04:20] and we have a semantic layer kind of, or a catalog, something
+[00:04:24] Can't we just Stitch all that together?
+[00:04:27] And voila, like people can talk to their data.
+[00:04:32] The answer is yes.
+[00:04:34] Of course you can, you can actually do it in 48 hours over the course of a weekend and I recommend you do. It's really cool.
+[00:04:42] The challenge though is it was never about the hard part, is not getting an AI to write the sequel.
+[00:04:49] The hard part is getting the business to actually trust and use it so they can change the way that they make decisions.
+[00:04:57] That's the Focus, right?
+[00:05:00] And that's why I am. So you know, thrilled to be joined here by James.
+[00:05:05] Because James is a guy that before joining team blue to lead up their analytics and data strategy.
+[00:05:13] He founded a company.
+[00:05:15] Where he built an agentic analytics platform. He knows more than 99.999% of the world in terms of what it actually takes to build these AI applications and what it takes to build with these large language models. And so when he got in the seat,
+[00:05:31] And he had to make the decision. Hey,
+[00:05:33] we want a gentle analytics. We want to talk to data and move faster.
+[00:05:37] How do we go about enabling that? And so we're lucky to be able to you know learn from you and get you to talk about your experience. Uh so I will pass it to James and shut up.
+[00:05:48] Thanks Terry. Um, so yeah, just quickly on me previously, as Drew said, I found it caliper which was a VC, backed AI, analytic analytics startup. Um, and
+[00:06:00] Marketed that in 2024. Um and now I'm leading analytics at Team blue which is a large uh European provider of tech services for smbs.
+[00:06:11] um,
+[00:06:13] we'll talk quickly to the situation. I found when I first joined team blue with regards to data, so I found a large complex business with which was very data driven, uh, and data hungry.
+[00:06:26] Uh, the company had dashboards for almost every use case um, and over 100 metrics for users to use to, to drive decisions, but there was the common problem which Drew talked about where, when a question came from a business user that sat outside the scope of an exist, existing dashboard. It ended up as a support query to
+[00:06:45] Someone within the data team, um, which by the time, the answer to that question came back, it was often too late for the for the person on the side.
+[00:06:53] so,
+[00:06:54] I saw AI as a potential way to solve this.
+[00:06:57] Um and as Drew said, I also know AI quite well. From my experience of building caliper uh caliper likes, analytic was 1 of those early companies trying to build an AI analyst. Um, and what I saw when building that was it's really strong in a lot of important aspects around reasoning and comprehension of users questions. And uh, also like it is with other applications. It's really great at getting from zero to 80% of an answer but with data that's often not good enough. If things aren't 100%.
+[00:07:30] Or close to 100% accurate. It's not good enough and you're not going to get the, the answers you need. Uh, so at caliper, what we actually did was, we used, uh, AI for the reasoning of users questions, but then for the metric calculations and queries, we actually used a deterministic function instead and we, we literally gave up on using AI at that point. It, it's moved along a lot since then, but I still believe that, uh, you can't be all 100%. Uh, confident in our writing SQL.
+[00:07:59] Um, so yeah, at Team blue, uh, kind of came to the point of do we build, or do we buy in this case? And uh, I really wanted to make sure there was a solution where we could have a trust layer on top of the AI. So that we could really
+[00:08:15] Have a good track of where it is or isn't accurate.
+[00:08:19] um, and here's my perspective on
+[00:08:22] when building can be the right call. So I think in some cases where you've got a technical team or and quite organized data, uh, and you're doing a lot of ad hoc analysis, then building can make a lot of sense, but I think many businesses don't actually look like this, especially Enterprises, they're much more complex and at Team blue, that really wasn't us. We are a multi hundred million euro business with spread all over Europe. We have millions of customers and 70 plus Brands, uh, within the group, um, and our stakeholders are making Dynamic decisions on a, on a daily basis. So,
+[00:09:00] It's way beyond that that scope of complexity.
+[00:09:03] Um, so in our case, I really thought we needed something uh more advanced that we didn't need to maintain ourselves.
+[00:09:11] Uh, this page kind of summarizes summarized my initial vision for what I wanted to achieve in team blue with our, uh, agentic AI analyst. I wanted to go from a world where on the left, you've got uh a small data team dealing with a queue of queries coming from business, people to a world where that data team could be managing the context layer of an AI analyst, which is an available to all the business, uh, as a kind of business partner to them.
+[00:09:39] Um, but the other thing that's critical to this, which I'm going to keep coming back to is, is Trust.
+[00:09:45] In that area analyst. And uh if you don't have that, then the right the view of the right side actually comes back to what's on the left because if people go to the AI analyst and they don't believe what it's giving them back. They then go to the data team to verify the results and then they end up in a queue again. So that's why the trust part is is so so important.
+[00:10:06] Um, so what I thought, we actually needed with, uh, our solution was kind of these 3 core pillars. We needed, uh, a kind of trust verification layer. That was, uh, not just written core that was used, but something that could be audited by non-technical people. Um, we also needed adaptive learning as with a lot of Enterprises, our business is changing over.
+[00:10:30] Time every month. We have, we acquire new products and new Services, which means that the language of our business is constantly changing. So we need an analyst that can grow and learn with us over time.
+[00:10:41] And also a bit against, uh, your typical llm, we need predictable deliverables. Uh, we want, uh, a situation where people can ask for the same report for the same at the same question over and over again and actually get the same answer rather than something different, because that's really important for governance and making sure different people in the business are speaking the same language.
+[00:11:03] Um, the other thing I realized is that there's lots of other Enterprise must-haves for this type of solution, which listed at the bottom of this slide, uh, such as kind of your governance permissioning.
+[00:11:15] Uh an integration is to other platforms. And and as an analytics team, this is the kind of stuff. I really don't want to have to maintain. Uh, so it's another reason I really wanted to kind of buy a solution in this case.
+[00:11:28] So, as I started to go out to the market, to explore what the options were. Um, we spoke to 1 of our lead investors, who recommended analytic. And when I looked into them and they're kind of concept of explainable AI, I was positively impressed with how their principles matched to these found. These pillars that I was going after.
+[00:11:49] So we decided to run a 3-week pilot with genetic to test it out. And then um, and in my experience, a lot of these types of Pilots can, uh, fail,
+[00:12:00] Because they get really dragged out on a scope creep and these types of things. So we try to keep it super tight in 3 weeks and have a clear goal for each week. Uh, Week 1 set up in tune week 2. Get on some initial powers in the business, to test it out. And then week 3, properly roll out to the business and just to add some color here.
+[00:12:20] The way we we we've done kind of a lot of these Pilots with companies that are like hey we want this and there's 2 things that they're balancing when they're evaluating. Uh the first is Canada, answer the questions that the impact, you know, the business wants to answer uh and the second. And this is why we we really aim to keep the scope of these uh tight is
+[00:12:43] What does the level?
+[00:12:45] Of effort look like to the output. Like if that ratio if you need to spend
+[00:12:50] 6 weeks, predefined every field in a semantic model in yaml before you can give it to the business. That's not going to scale as you go to different domains. And so we we really try to focus on this 3 week pilot because that 1 allows us to probe. Yeah, we can answer questions but 2 then it's not going to be this Herculean task for the data team when they eventually have to scale it.
+[00:13:10] Yep. So what actually happened on the pilot. Uh so Week 1 we basically started by ingesting our existing semantic layer into Zoe or Zenith um and we were able to start testing questions within the first uh day or 2 um and already the value of the explainable.
+[00:13:30] I was really helping with the setup, um, when we came up, uh, AC cross like problems or wrong results things that weren't working. Zoe was always able to explain like, where the results came from. And in a very clear way that allowed us to diagnose what the problems were. For example, in the first few days we were having an issue where, uh, Zoe when people would ask for, uh, latest number of customers or latest. Uh, Revenue should we give some results from the future like in 2028 or something like that? And it's because we have, we have subscription business. We have like multi-year contracts for some customers and therefore some revenue is actually way in the future. So we had to do some like, teaching to Zoe of like how this works and how we have treatment of dates and when data is complete, um, but after we did that, uh, and had a little bit
+[00:14:15] Inspiration. Zoe hasn't made any of these kind of mistakes since. Um, so yeah, like just the process of how Zoe explains exactly what she's doing. Uh, really helped with kind of the setup and the development of the learning.
+[00:14:29] Um, so yeah, and we went into the second week while we started giving the people access and things started getting really interesting. Um, not to our surprise. There were some Skeptics came in at first uh, who wanted to maybe ask some simple questions to see if anything would catch up the AI and in most cases it didn't she did pretty well. But with these type of like simplistic questions like sales by country, uh, you know, people weren't that impressed initially and we realized there was a problem that they were speaking to
+[00:15:00] Like she was a dashboard rather than an analyst, um, but once we kind of reframed to people, you know, speak to it, like, give it, like, not the data that you want. But the problem you're trying to solve
+[00:15:12] That was kind of a paradigm shift, in terms of the value they saw. So, instead of, instead of asking for sales by country, ask for a performance review by country with a root cause analysis and then it would really go above and beyond to give them more thorough view of of what they needed and that's really beyond what your traditional bi can do.
+[00:15:31] Um so then the kind of trend we saw was once, trust was established with people, they really started to see the magic and then grow their their use cases from there. And then this week 3, once we started rolling out to the business.
+[00:15:45] Um, we really started to see whether it would be clear, productivity, gains, uh, there were people across multiple teams and building reports and Analysis which before would have taken hours or days. But now, Zoe was able to do them in in minutes stuff, like retention analysis of cohorts product penetration, uh, analysis for our kind of cross sale team to plan and also like Revenue forecasting. Um, so people started to get really excited. Um, I was getting lots of messages from users saying they were mind blown, they were addicted and there were some people already, some people were becoming daily active users.
+[00:16:22] Um,
+[00:16:23] and, uh, 1 of those daily active users was our cro. Um, who? Who got quite excited.
+[00:16:30] And 1 of his first use cases, which he wanted to tackle was his, like, daily sales tracker. So, uh, he had, uh, before in Tableau, a report to see number of new customers by country every day, and he would, uh, refresh that every every Monday to prepare for his sales meetings in the week. Uh, and he rebuilt this in in analytic, uh, and it really elevated to his experience because it was able to kind of add insight and root cause analysis behind the trends. He was seeing that went beyond, uh, the, uh, analysis he had before. Because the raw numbers only tell half of the story.
+[00:17:09] Um, and it was really able to make his conversations with the sales leaders much more productive.
+[00:17:15] But there was 1, other funny story with this dashboard. Um, because when he first built this dashboard he actually hated it and complained to us because uh
+[00:17:25] He just asked for kind of the raw number of customers per country per day. Uh, and Zoe actually went above and beyond that had a lot more relevant, metrics to it like revenue revenue per customer and marketing spend too. And when it gave the dashboard it put the 1, he wanted in the last column and it was kind of cut out of the view and it was like, oh, it gave me lots of additional stuff. It didn't want and uh, it missed the 1 thing. I was looking for
+[00:17:48] But once you realize it actually just went above and beyond and had what you wanted. He loved it and as soon as then, it's been trying to migrate more and more of his stuff uh into into zedic
+[00:18:00] Um, another use case, which we've seen so far, which kind of blew our mind was, uh, 1 of our SLT using, Zoe for live analysis in a board meeting. Um, so a few weeks ago, 1 of our business units, um, was highlighting in a board meeting their new pricing and packaging strategy where for 1 of their products, they removed free trials, uh, for the product. And, uh, they've seen a big spike in retention of customers since which of course, makes sense. If you're moving free customers, you're going to have better retention but it was not clear from the results so far. Whether that was having an overall Improvement on revenue and customer growth. Uh, so an SLT member asked Zoe this live to compare 3.
+[00:18:45] Scenarios to compare, um, that region before the change, after the change and against other regions, and Zoe kind of pulled all the relevant retention and Revenue data and showed the uh the customers that had this new packaging strategy had the best volume and revenue growth in q1. Um, and yeah, now this SLT member says, he's kind of got Zoe on standby every board meeting, um, and this is something that wasn't possible before.
+[00:19:13] How would it work before?
+[00:19:15] Uh, before you're limited by the results and prep that you've done before, right? So, uh, you you might have access to a dashboard and some insights that analysts have prepared. But anything that goes beyond that, uh,
+[00:19:30] Uh I don't know a say like the CEO asks, you know, what's driving the key inside that you've asked for uh, then uh, they'd have to say, okay, we'll come back to you on that in a few days, you know, you wouldn't be able to go to it live because it's way too slow.
+[00:19:46] Um, so yeah. And then, finally, I think this is kind of how we see ourselves. Now, evolving our capability with data, um, with, uh, the capability of an AI analyst, um, at our fingertips. Um, it really has affected all, uh, users within the business in a positive way. Um, our leadership of now evolved from data consumers, into Insight, Builders who are able to kind of construct, their own reports and insights in real time, um, our functional leaders across marketing.
+[00:20:15] Finance sales, uh, are going from a kind of domain focused view, where they were data driven before in their own domain. But didn't really have a full view of the entire customer journey to 1 where they can now. Learn from Zoe, uh, what's happening across, uh, other departments too? Um, and also for analysts, this is a value ad as well. Um, a lot of people feel full of like analysts losing their jobs, but we've actually already seen it elevate the work of our analysts and they're not stuck, like answering these ad. Hoc queries and support requests all the time and they're actually now more strategic partners for the leaders in our business, um, to work on the really important insights that, you know, maybe go beyond the capability of what Zoe can really get to, um, very quickly.
+[00:21:00] Okay. So yeah, we're we're really excited about the direction. It's taking us.
+[00:21:04] Awesome, man. And I think uh, you know your point on
+[00:21:08] The leadership and how historically people that were just data consumers, they would look at a dashboard. They would ask follow-up questions but there was no way of them for really, to really explore 1 of the things we constantly hear is that
+[00:21:20] This, you know, this sort of functionality of these capabilities. They allow people to capitalize. Um you know on their curiosity the business is going to have questions that the data team could never think of uh, that they could never predict because they're, you know, in the field. They're, they're operating with customers or hearing stuff and being able to, in real time
+[00:21:40] Identify and drill into the questions that nobody in.
+[00:21:45] Participated is is really what the unlock is, right? Like you're not. I don't think you're buying or building a genetic analytics to tell you sales last week by product, right? You have 20 dashboard that do that today. They do it pretty well.
+[00:22:00] The reason you're buying an evaluating, this technology is to use the intelligence of these models. And these agents to answer questions, you historically never could. Uh, and that's, I guess you can go to the next slide that that's, that's really what we're focused on, right? It's
+[00:22:15] This technology, everyone's excited about it. Um,
+[00:22:19] It's going to change the way we work with data, for sure. I think everyone knows that. Um but that change only happens, if the technology is adopted
+[00:22:28] And the technology only gets adopted.
+[00:22:30] Opted, regardless of how high-tech and sexy it is. If people trust it because if they don't trust, it doesn't matter. They're not going to use it. And so that's what we're focused on. I, you know, the the goal of the talk was to say, yes, you can 100% build these agents, um, and a lot of people do and there's use cases where it actually makes sense and I'd recommend building, um, but if you want,
+[00:22:53] And agentic analytics platform to be the nucleus for how people make decisions trust is Paramount. Um, and that's what we're trying to solve for.
+[00:23:02] Um, so thank you all for taking the time and coming to the talk. Uh, James, thank you so much for sharing your experience and perspective. Um,
+[00:23:10] Yeah. Happy happy. Happy end of Garner.
+[00:23:15] Thank you, appreciate it. Um, okay. We have 7 minutes left and uh we wanted to open it up for Q&A. Um,
+[00:23:25] Who's got, who's got questions?
+[00:23:27] Yeah. Uh, his question was, do you have on premise uh deployment options and we have mvpc stuff that we do with some of our uh larger customers?
+[00:23:38] Any other? Yeah.
+[00:23:39] Mark and look like like the data. Do you have to do a lot of aggregation?
+[00:23:45] And how complex is the uh, decision?
+[00:23:48] Uh, so we using data bricks and the data sources, we haven't really changed them much versus what we have with our previous bi and it works out of the box. I would say that
+[00:24:00] There's a lot we can do to improve that we've already done some aggregations, to make it quicker and make to make sure like also the the AI doesn't have to query. The full database that has all metrics and Max granularity for everything, just so it speeds things up and there's a lot more we can do to improve over time. But yeah, I'd say like, it it works already out of the box. Um, uh, but you might have to also think about data in a different way to maybe how you have before, like before we had, you know, your typical data structure, where it's like your facts tables and connected to your dimension tables, but I think these kind of new way of tools. They work much better with wider tables where you have, you know, already your dimensions and stuff in there and if you are joined, so yeah, high level.
+[00:24:45] Uh it it worked with a variety of data sources but there's a lot you can do to improve and and tune it to what Zoe likes.
+[00:24:51] and there's, there's this middle kind of context layer, right that sits in between the, the database where all the tables are and, uh, the agent and a, a big part of that context layer is if you have to
+[00:25:05] predict every metric and dimension that you need to put in that metrics layer, then you're going to end up in the same bottleneck, you were before where you have people waiting on, you know, they used to be waiting on the data team to build dashboards, but now they're waiting on the data team to write yaml. And so 1 of the things we're focused on is having that adaptive context layer that as people are asking questions and saying, hey, I asked you for this field. You got this answer. It's not actually quite what I was thinking.
+[00:25:30] This is what I was looking for, so we can Harvest that and add it back into the context layer. So it learns as people ask questions
+[00:25:42] Yeah, we're we're responsible for the context layer. Um,
+[00:25:46] Yeah, it's it's in the platform. Um but then yeah they they know the context of their business far better than we do. Um,
+[00:25:54] So, they add that. And that's 1 of the most important things for the trust layer as well. Because once you, once you have metrics there it within your data model, they're kind of shown, uh, verified within Zoe. So anytime someone asks for a metric which is
+[00:26:09] From our data model and aligned. With the way we think about the metric, it's using the right definition. It always appears with like a green tick.
+[00:26:15] So we kind of tell it all the users when you see that green tick you know you can kind of trust that because it's verified by us.
+[00:26:21] so basically,
+[00:26:28] That's, that's the kind of thing. Yeah. I I still have to do my pre-work to make sure that the data is very important later. Otherwise, I'm I'm asking this because we experimented at some point, it was a mess.
+[00:26:42] Totally. So if you just yeah, and I I think next to the data sources is something. So I think there is still a lot of importance to be done in the minute later. It, it totally can be. The challenge is, how do you figure out what works needs to be done in that middle layer before people are consuming right? Like
+[00:27:00] Oftentimes we we I uh the head of data at J crew when we started working with them, she was like, Hey when we started this project we were told to make our data, AI ready?
+[00:27:09] The secret was, we had no idea what AI already meant, right? And it wasn't until we were actually consuming data in an AI platform and we were seeing what it did that we were able to figure out. Okay, what context do we need to add to get it right? And so when we start working with companies, we we connect directly to the data as it is today. And then we build that context layer over time as we identify the Searing, that's necessary.
+[00:27:38] I totally.
+[00:27:39] Totally.
+[00:27:41] Yeah, of course. Thank you.
+[00:27:44] Any other questions?
+[00:27:46] Yes, how do you conceptually do this learning? I mean, there are people that ask questions, they decide on the wrong data. So how do you feel about, you know, the wrong conclusions, right? Conclusions. How do?
+[00:28:03] Uh, well, we have full visibility of what people are asking. And in those early days, there was fear of queries that we could see everything. Um, but there's also a feedback within the tools. We could see when people gave negative feedback or often. If they, if they were excited Enough by it, they would reach out to us with the feedback they'd say, hey, this didn't quite give me the results. I was expecting, or the perspective. I was looking for. When I said new customers, I went, I meant this other metric, you know, can you help me?
+[00:28:30] That and over time, this type of feedback has just helped us improve it. So I'd say if people care enough, they will give the feedback and that will help you learn, okay? But that it was a manual learning, some kind of mentor.
+[00:28:45] No, but that is something that you guys are working on, right? It's kind of having Zoe also be able to add to the semantically ourselves. Yeah. So so, so the way the way I worked when we started the pilot and things move very quickly uh is and this was 3 months ago when we got started. Um, but the way it used to work is you would have this kind of yaml file that you would contribute information to. In the beginning, you could take all your semantics from your powerbi Dax files or wherever that context lives.
+[00:29:13] Put it in kind of manually. We had like
+[00:29:15] An AI assisted approach to add that yaml and then you know, Zoe would pull from that context when answering questions the challenge with that is oftentimes the people who know the context of the data are the people that don't write yaml that the people embedded in the business. And so 1 of the things we've been focused on building is a way for Zoe to harvest context as people tell her. Hey, this is what I'm looking for. This is what I meant by new customers and she'll actually go and add that into the data model itself. Um, so we're actually harvesting that yeah, without needing somebody to write all the emo any other questions.
+[00:29:47] When you buy you, refer to the outsourced code.
+[00:29:53] Of the thing. Yep.
+[00:29:56] That's the fun part. This is, this is a fast-moving space.
+[00:30:00] Got a lot of stake in this. I see how do you make sure that's a good synergy?
+[00:30:05] So, 1 thing, I liked about this model. Also, when we made the decision was that, uh, we still own a lot of the, the core, uh, uh, architecture of what's been built in terms of the whole context layer is ours. And if we decided, we wanted to use some different AI agent at some point, we'd still be able to plug that agent into our context layer. And also even the outputs are written in code. That is, you know, we have and it's kind of owned by us. So Zoe creates reports written in code and all this type of thing, we still have that code and we can it's not going anywhere. Um and we kind of have we also build our own, our agents within team blue and we're kind of keen to maybe try
+[00:30:45] Uh, utilizing that as well with Zen at some point. So 1 thing, I just love about this is that yes we're using Zoe but a lot of the architecture around it is is really unbiased still so that feels quite comfortable.
+[00:31:01] Totally, great answer. And I think to, to your point.
+[00:31:05] The reason most people tell us that they are buying and lytic in a time where the tectonic plates of Technology are shifting on a biweekly basis is if you were to spend 6 months, we've had customers that spent million dollars over the course of 9 months, to build an AI agent and then the next model gets released the next week and that is no longer relevant. They have to figure out how to connect to the new system and that becomes
+[00:31:30] is Obsolete and that maintenance of having a team that only focuses on just this, uh, I think is what, you know, folks like
+[00:31:39] Yeah.
+[00:31:43] Uh,
+[00:31:45] doing anything to optimize the cost. Yeah, we so we do a lot when when Zoe is going. So there's like cost of the compute on the warehouse. Uh, and then there's, you know, token token, uh, utilization. We do a lot on our end to make it, uh, efficient how Zoe searches across the context layer to surface, the right fields to then power, the, you know, sequel? She generates in the artifact, she builds and everything else.
+[00:32:11] There are 3 different things. Um, hoping you can help this
+[00:32:15] Layer, semantic, layer and context layer are 2. I think 2 of those 3 are the same thing. Maybe. Yeah. What's the, how how do they link together? Great question. So, uh, trust layer semantic, layer and context layer. How do those, how do they all kind of work? Together is a question. Uh, I forgot I was supposed to repeat for the video. Um, the way the
+[00:32:37] They are synonymous. Write the I like the semantic layer historically is, you have your kind of, like metric definitions? You have your metric metadata and you have a SQL compiler, that's deterministically generating. The SQL based on the yaml for the underlying Fields right with AI. There's really 3 things like you need
+[00:32:58] You need a way.
+[00:33:00] To kind of manage context. So all the fields and the metrics, that's kind of, you know, the the metrics layer. Then you need a way to manage all the the context which is okay. When Billy on the marketing team asks for his weekly report, he wants a PowerPoint that looks exactly like this and Zoe manages those with skills and so you can kind of teach her those behaviors. Um and then the trust layer and this is kind of what we're talking about is is a deterministic mechanism.
+[00:33:29] That happens after the sequel is generated? That says, hey, here's what the AI actually did when it generated that sequel.
+[00:33:37] AI is brilliant. It's only getting smarter but it is confidently wrong, especially if it has the wrong context and we believe it's necessary to have a deterministic layer.
+[00:33:45] After the query is generated that says here's what you're looking at. Not with the AI says you might be looking at, but actually what you're looking at.
+[00:33:52] I think we're out of time.
+[00:33:54] Times up. Well, thank you guys so much. Uh for taking the time, I hope you guys enjoyed Gartner and yeah, really appreciate it. Thank you.

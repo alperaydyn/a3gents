@@ -1,0 +1,321 @@
+[00:00:03] Good morning, everyone.
+[00:00:05] My name is Alan, Duncan I'm 1 of the research analysts in our data and analytics strategy. Practice supporting Chief data analytics, officers, other heads of data and analytics, um, looking at questions of business value, looking at questions of business change, looking at questions of defining and leading with a strategic view of where do we want to take data analytics? AI.
+[00:00:31] In this session, we're going to be looking at. How do I speed up?
+[00:00:35] The process of defining a strategy.
+[00:00:39] And then being able to start to set up ready to execute against that.
+[00:00:44] Um,
+[00:00:46] Anybody in the room who would say right now we don't have a strategy at all.
+[00:00:54] 1 or 2. Okay anybody saying we think our strategy needs refreshed particularly with a view to what's happening with artificial intelligence?
+[00:01:03] Everybody good.
+[00:01:05] The good news is that most of us were hired with a mandate to make bring change into our organization.
+[00:01:12] Are we prepared for that?
+[00:01:15] Maybe, maybe not.
+[00:01:19] But there's a Pathfinder element to that, right? That
+[00:01:22] we probably have to not only work out what we're going to deliver.
+[00:01:30] But in many cases, we have to educate the people around us to be able to engage with what we are going to deliver and be able to participate.
+[00:01:38] And actually in some situations our gentleman over here is probably in a situation where some of that has to be sold back into colleagues in the first place to even get them enthusiastic enthusiastic enough to want to participate in the first place.
+[00:01:51] So,
+[00:01:52] There is a thing here which is not just about setting up for delivery.
+[00:01:59] But it's about us preparing ourselves and our teams to be able to lead this change mandate.
+[00:02:07] Yeah.
+[00:02:08] And really, that's what?
+[00:02:11] A strategy is.
+[00:02:13] All it is.
+[00:02:15] Is the communication of what are we choosing to do and why?
+[00:02:26] And associated with that is for whom.
+[00:02:29] And how will we measure whether we've achieved it or not? But if we think of strategy as an articulation of what are we choosing to do, and why
+[00:02:41] the operating model, then tells us,
+[00:02:44] How are we going to execute against that?
+[00:02:47] And who is going to do the work?
+[00:02:51] Right now, I see a lot of confusion.
+[00:02:54] When we talk to Gartner clients about this, that people come and saying, I'm going to give you my techn.
+[00:03:00] Technology blueprint and that's my strategy.
+[00:03:02] Well, no technology blueprint is.
+[00:03:05] an part of the articulation of,
+[00:03:07] How are we going to deliver?
+[00:03:10] That's an operating model consideration or my strategy is. I'm going to have a team that's doing um, data transformation and data management. I'm going to have a team that's doing governance and a team that's doing analytics, know
+[00:03:24] That's part of our.
+[00:03:25] Data ecosystem in terms of who who is involved in doing the work. So you're going to be a little bit careful about definition of language and terminology if we stick to strategy being about
+[00:03:39] what are we trying to achieve and why? And for whom
+[00:03:42] Operating model defines.
+[00:03:45] How do we deliver and who is doing the work? Then we immediately don't go too far wrong because you can now see that those perspectives communicate to different audiences at different times for different purposes.
+[00:03:59] Yeah.
+[00:04:00] Now in the middle of all of that is, then this evaluation of. And are we ready?
+[00:04:08] Have we got the right capabilities, are the deficits gaps in capability, you know. Do our people have the right skills and knowledge and so on.
+[00:04:18] so,
+[00:04:20] as I bring my ambition of what I want to do, and why
+[00:04:25] together with
+[00:04:27] And how are we going to execute the bit in the middle? The
+[00:04:30] Conjoins it, the connecting tissue is. And are we ready?
+[00:04:37] So what we've just done, there is actually Define, not the documents of a strategy in operating model, but defined a strategic planning process.
+[00:04:48] And what I wanted you to start thinking about is strategy, not as a document.
+[00:04:53] Which probably never gets read once we've written it.
+[00:04:57] But rather, this is a an approach to taking people through strategic planning and then into phases of execution,
+[00:05:07] And doing that, then on an iterative and continuous basis.
+[00:05:11] Because our circumstances almost certainly are going to
+[00:05:15] Change over time.
+[00:05:17] So whether that's a phased approach, where we look at that, every
+[00:05:21] Quarter or 6 months.
+[00:05:23] Or whether it's trigger.
+[00:05:26] Uh, base that something has happened in our Market. Something has happened in our environment. Something has our competitors are doing.
+[00:05:35] there's another change in geopolitical conditions, whatever those trigger points are
+[00:05:42] There's my point in time that I am now going to re-evaluate, what are we doing and why? And I'm going to assess that against. How are we doing it? And who's doing the work?
+[00:05:55] Now.
+[00:05:56] some of you will be in environments where it's a bit like,
+[00:06:00] That's seen in Blazing Saddles you know strategy we don't need no stinking strategy right. There will be colleagues around you that says we just get on and do work. Yes.
+[00:06:08] Not a good idea.
+[00:06:11] Why? Because if we're doing a whole bunch of stuff and things without any grounding on and why does that matter?
+[00:06:19] We can never deliver value. We can never demonstrate that, we are delivering value. It probably means that the solutions that we put in place are um,
+[00:06:31] Only for a particular point in time or only for a particular use case rather than being flexible and and sustainable and interoperable.
+[00:06:41] we're almost certainly going to overrun, on our
+[00:06:45] Budget and actually everything is seen as a cost rather than as a benefit, you know, the the classic of working for a CFO, who knows the cost of everything and the value of nothing.
+[00:06:56] And how the heck do you deal with all of these different demands that are coming on? You different, departments with different requirements. None of those business functions actually talk to each other. So, good luck trying to get any form of reuse or, or interoperability, and so on. So getting on with delivery without having a contextualized view of why does all this matter, Etc, is a problem.
+[00:07:25] the alternative of saying, well we spend all our time working on strategy and never get
+[00:07:30] on with delivering thing is also a
+[00:07:32] false premise as well.
+[00:07:34] You know, we spend all our time working out and and being concerned with what should we do, and how does that happen? And so on
+[00:07:43] and we still never actually achieve any value because it's all
+[00:07:48] aspirational.
+[00:07:49] With new execution.
+[00:07:52] So, we don't want to fall into that trap either. So we need both of these expectations.
+[00:07:58] In concert.
+[00:08:01] Synchronized. What? Strategy informing operating model? Operating model informing strategy.
+[00:08:08] This session today, we're focusing on just the strategy aspects of this this afternoon. I'm actually doing a session on
+[00:08:15] Configuring the operating model so bear with me. So we maybe
+[00:08:21] Have a blank slate.
+[00:08:24] More often than not. We're actually in an environment where there's a bunch of stuff and things already going on, which we therefore need to make sense of and understand and communicate the context of
+[00:08:35] yeah.
+[00:08:36] so that we can then make productive process, uh, progress and be
+[00:08:42] seen to make productive pro programs so that we actually get recognized and rewarded for that.
+[00:08:48] None of this is in worth anything unless it translates into value business outcome.
+[00:08:55] So, we're going to look at 3 things. Now that we can do to
+[00:09:00] Do shortcut all of that because it sounds when you say all we're going to do strategic planning that sounds hard.
+[00:09:06] Right? It sounds like it's going to take a long time. People get bored waiting etc, etc. What's the point of all of this. Anyway, so 3 things that we're going to look at how to do the discovery more quickly and more effectively.
+[00:09:20] How to introduce a hypothesis based approach critical thinking based approach.
+[00:09:27] And then some aspects about why the document is slightly incidental.
+[00:09:34] And actually, what's more important in terms of what we communicate.
+[00:09:38] So,
+[00:09:40] Discovery is all about sense. Making what environment?
+[00:09:45] Am I in how?
+[00:09:47] does the work that we're doing currently translate into productive outcomes or
+[00:09:54] Maybe it doesn't. What are the business strategic priorities? What are the outcomes that our business colleagues are trying to achieve?
+[00:10:04] Do we actually have that engagement with our business stakeholders? Or does the current data and analytics? Team do a whole bunch of work, but never actually speak to, you know, the marketing function and the sales function and operations and so on.
+[00:10:19] Do we understand the drivers that are happening in our environment? What's H, what problems are we trying to solve for?
+[00:10:26] you know have we as a data and analytics function are we
+[00:10:30] We're looking at AI. What's?
+[00:10:32] Informing our choices.
+[00:10:37] And then the capability assessment piece, are we actually ready now? As we go through that process,
+[00:10:43] You can actually short circuit. A lot of that very tempting to go and say, oh, the first thing we have to do is run a bunch of stakeholder workshops.
+[00:10:52] Yes, anybody going through that stakeholder Workshop process right now.
+[00:10:57] Or has have done those kinds of things.
+[00:11:01] You some, maybe enthusiastic for that yet? I wanted to
+[00:11:05] Pour my heart out and tell you how awful it is around here. And these are all the things that I expect from you.
+[00:11:11] Others may be reluctant to participate and say, this is a waste of my time.
+[00:11:15] I'm far too busy.
+[00:11:16] We can short circuit a lot of that. By paying attention to what's already going on, around us, we can infer what the Strategic direction should be
+[00:11:28] From things that people are currently doing.
+[00:11:32] From existing business statements around, what's the overall corporate strategic plan?
+[00:11:39] from the coffee conversations that we had, when we were catching up with people in the morning, I don't necessarily always need to go through a formal
+[00:11:50] Function by function. Workshop, by Workshop. Tell me what your requirements are kind of process.
+[00:11:57] Right.
+[00:11:58] if we do our homework,
+[00:12:00] And in far from the information that's available to us.
+[00:12:05] What the direction should be.
+[00:12:09] Then we can bring a straw man and then socialize that.
+[00:12:13] Yeah.
+[00:12:15] Not only is that saving busy Executives time.
+[00:12:20] Moving it Forward also, it's showing leadership.
+[00:12:24] We're taking control of what's going on. We're not in a, um, order taking mentality.
+[00:12:32] we're setting a direction, and a trajectory saying, here's my idea about where we need to head and why,
+[00:12:38] Yes.
+[00:12:41] the other aspect of that, is making sure that we're clear about
+[00:12:45] What isn't?
+[00:12:46] Strategy.
+[00:12:48] So what are the metrics?
+[00:12:52] They tell us whether we're achieving.
+[00:12:55] The priorities.
+[00:12:58] But just having metrics is not a strategy.
+[00:13:02] You know, just having a statement of aspiration outcomes is not a strategy unless I can translate that into and how are we going to execute to achieve it for you?
+[00:13:11] All right.
+[00:13:13] Things that are in the market about how well or badly, our company is doing again. They might tell us a few things about what's going on.
+[00:13:22] But just because we have a position to the market is not a strategy.
+[00:13:27] And so on.
+[00:13:30] We need to synthesize all of this and turn it into our statement of what are we doing? And why are we doing those things? And who are we doing them for? And how would we know if they're being successful?
+[00:13:43] So, these are inputs.
+[00:13:45] They are not.
+[00:13:46] Strategy themselves.
+[00:13:51] And we mustn't, take things at face value.
+[00:13:56] Right. The old adage of the customer is always right.
+[00:14:01] We need to be better than that. I would start by saying the customer is always wrong, until proven otherwise
+[00:14:08] Our colleagues in stakeholders will probably ask for things. I want this report. I want this dashboard.
+[00:14:15] I want this model.
+[00:14:17] Because that's the best and closest approximation they can give you.
+[00:14:23] To what their requirements are.
+[00:14:27] But unless we probe a bit harder to, why do you want that? What are you trying to achieve?
+[00:14:34] Then we haven't validated whether what they're asking for is actually the right thing to do.
+[00:14:39] And that's a duty of care and attention. On our part is specially given all of the stuff that's going on with artificial intelligence. Our chief executive comes and says we need Ai and I want you to get on with it now.
+[00:14:53] What do you mean by that?
+[00:14:55] You know what is this AI of which you speak and in which areas are we going to?
+[00:15:00] Quiet.
+[00:15:01] Don't know, then you don't need AI.
+[00:15:05] Yeah, so there's a skeptical. Scrutiny and a critical thinking that applies here.
+[00:15:10] And that's on us.
+[00:15:12] Why? Because most of our business colleagues aren't curious and aren't critical thinkers.
+[00:15:18] They've been hired and they've been promoted based on what they do and how they do it.
+[00:15:24] Function task activity based.
+[00:15:27] Their job descriptions describe what they do and how to do it. These are your responsibilities.
+[00:15:34] So everybody is motivated by what I do and how I do it and we've actually either not hired for it or we've beaten it out of them to have any examination.
+[00:15:45] And scrutiny of, why do I do this? And why do I do it that way? And what else could I be doing instead?
+[00:15:52] So, we have to bring that in.
+[00:15:54] So don't take your stakeholders or at face value.
+[00:15:58] Probe question and orchestrate the conversation.
+[00:16:03] Brilliant opportunity. Also for transversal. Type scenarios Wicked problems.
+[00:16:08] Operations, never talked to sales sales have their kpis operations, have their kpi, and their income compatible.
+[00:16:15] well, instead of saying, who owns this, let's bring them together and say who can contribute
+[00:16:21] What are we actually trying to achieve?
+[00:16:23] You know, bring people together.
+[00:16:25] with common, cause
+[00:16:27] We're probably 1 of the only groups.
+[00:16:30] In the in the organization that has the ability to cut across different functions.
+[00:16:36] So, please don't take business silos as a constraint.
+[00:16:42] Bring them together to create opportunity.
+[00:16:47] Good.
+[00:16:50] Shortcut 2.
+[00:16:52] Hypothesis-based approach.
+[00:16:55] This is where we need to bring forward ideas. That people haven't even thought about yet and articulate them in a way that actually resonates and create.
+[00:17:05] An emotional.
+[00:17:06] Connection, as much as anything, but also keeps people honest. Are we doing the right things? Now, a lot of that is represented.
+[00:17:15] In your vision for data analytics AI.
+[00:17:21] It's that.
+[00:17:22] Northstar view of what does the future look like?
+[00:17:28] Giving us purpose giving us common, cause it also sets the boundaries of expectations.
+[00:17:35] This is how we do things. This is our modus operandi.
+[00:17:39] And these are the things that are not acceptable right now.
+[00:17:43] We need to synthesize that into a form. That is easily digestible, if we're going to keep people honest because they don't want to read 15 pages of procedures and and policy. They don't want to have to refer to
+[00:18:00] Your 10 data and analytics guiding principles.
+[00:18:04] Right? We want something that connects quickly and emotionally to say, are we doing the right things?
+[00:18:11] The way we frame that is by looking at a vision statement,
+[00:18:15] which has why are we doing this?
+[00:18:18] For whom.
+[00:18:20] And what are we trying to achieve, right? So we contribute to a strategic goal, whatever that strategic goal is.
+[00:18:27] For these stakeholders, by doing this stuff and things.
+[00:18:33] Yeah, so here's a comparison of a not very well established.
+[00:18:39] Vision.
+[00:18:41] Says nothing. We will be a data-driven organization with leading.
+[00:18:45] AI capabilities.
+[00:18:46] Yeah.
+[00:18:48] Really.
+[00:18:50] You know who you are. Who've got a current vision statement of that description. Must try harder. We provide Enterprise insights that enable our retail business to efficiently, grow ebit,
+[00:19:04] What we're trying to achieve. Who are we trying to achieve it for and how are we trying to achieve it?
+[00:19:09] Better.
+[00:19:10] Is another example.
+[00:19:13] Right.
+[00:19:14] Our mission is to provide access to high quality data to improve Enterprise decision-making. Well, what are these decisions of which you speak?
+[00:19:21] And what data are you referring to?
+[00:19:24] And what does high quality mean?
+[00:19:27] Patently nonsense.
+[00:19:29] Right.
+[00:19:31] we want to make these decisions on issues impacting, the people of Canada is my who for
+[00:19:38] Data sources bring together. And that will then be fed between different departments. So there's another stakeholder who
+[00:19:48] so that we can then support the decision-making, still doesn't necessarily tell me specifically measurably actionability realistic And Timely what we are trying to achieve but it's it's a lot closer to giving us a
+[00:20:01] Did we do that today?
+[00:20:03] Did we bring information together from different parts of the?
+[00:20:07] Agency in order to help the minister know what the hex going on. Yes, we did.
+[00:20:13] Good. Well done.
+[00:20:16] Did we spend our time?
+[00:20:18] Playing with metadata trying to resolve. Um, the reconciliation between 2 customer tables, but nobody asked us to
+[00:20:29] probably just wasted our time.
+[00:20:32] Yeah, you can see there that. A simple thing of how we frame this vision statement, and how the vision statement fits into
+[00:20:42] Keeping the rest of the strategic planning on us. Are we doing the right things?
+[00:20:52] Or not becomes actually very very quickly.
+[00:20:57] A sense, check.
+[00:20:59] On what we?
+[00:21:00] Choose to do. And actually also what we choose not to do. It's also a brilliant opportunity to guide our stakeholder colleagues.
+[00:21:11] Into asking for different things and asking for things in a different way.
+[00:21:19] How does what your requirements are, or what you think they are?
+[00:21:25] map, against
+[00:21:28] Why we're here?
+[00:21:31] Again, I'm negotiating a lot here around our sense of purpose, so that we're not just order takers, we're actually here to put shape and and Direction on it. Yeah.
+[00:21:42] So, the vision.
+[00:21:45] That's hypothesis that we can then test against.
+[00:21:52] Let's get the shortcut 3.
+[00:21:56] We put a lot of time and effort into writing the strategy document.
+[00:22:02] I've seen some which are literally hundreds of pages long.
+[00:22:07] Right. There's that Churchill quote, you know, this document, the length of this document defends well against it. Anybody ever reading it
+[00:22:14] So, we've got to think about this, not as a exercise in producing documentation.
+[00:22:21] but as an exercise in planning and an exercise in thinking leading to execution,
+[00:22:30] particularly given that even though most of us have been given a mandate for change,
+[00:22:36] then Reality Bites and other priorities arrived, which come and screw up our
+[00:22:42] Well, planned planned and well intended.
+[00:22:46] Strategy. Right.
+[00:22:48] So if we're in a relatively Dynamic environment, priorities are going to change.
+[00:22:55] Then the strategy document.
+[00:23:00] as a representation of our thinking, at any point in time is just that
+[00:23:06] and as our
+[00:23:09] Priorities have to change as the metrics that we're tracking to say whether we are being successful.
+[00:23:15] Successful or not shift as the solutions that we have to deliver and the value propositions that we deliver are changing, then we've got to be much, much more dynamic in the portfolio management.
+[00:23:29] It's agile program.
+[00:23:32] Yeah.
+[00:23:33] What are we working on? What are the new conditions?
+[00:23:37] What changes?
+[00:23:39] What do, what does these new conditions do to the things that are in the plan. So it's a continuous and ongoing updating of sequencing dependencies choices of what we are doing and what we aren't doing and the strategy document.
+[00:23:54] Is a representation of our shared consensus.
+[00:24:00] Standing of what are we choosing to do? And why?
+[00:24:04] Until the next set of events that require us to change that.
+[00:24:10] And we are getting right now.
+[00:24:13] Very strong signal around. What is changing? A lot of that is the influence of artificial intelligence.
+[00:24:21] Because everybody thinks they can do it.
+[00:24:24] Yeah, chat GPT or co-pilot or gemini or Claude really, really easy to get started.
+[00:24:33] Seductively. So,
+[00:24:35] Somebody's got to be the growing up in the room that says, you know what?
+[00:24:40] maybe there are things that you hadn't thought about before you actually,
+[00:24:45] Start putting those things on our Enterprise data.
+[00:24:48] right, the reason that these things,
+[00:24:52] Have been so successful.
+[00:24:54] Is not because they're simple to use. Yes they are simple to use. Even an idiot like Alan Duncan can use a smartphone
+[00:25:02] but it's because there's a huge amount of thought and Engineering has gone in to the managing the complexity.
+[00:25:08] so that it's
+[00:25:10] easy to consume at point of idiot.
+[00:25:14] Yeah. So
+[00:25:17] We've got to be the ones because there ain't nobody else that think all of that through. And if there are influencers and opportunities that are arising from Ai, and there will be
+[00:25:28] then, let's make sure that
+[00:25:30] That is done.
+[00:25:31] In a responsible way. Yes, accelerated and fast.
+[00:25:36] But also paying attention to the factors that could trip us up the risks, the, you know, um, skill factors of people that are using tools that they don't actually understand how they work.
+[00:25:48] The information Corpus that's been fed into that model. Hasn't been um validated. We're not going back to check on the gaps of what it's
+[00:25:58] Giving me when I put in a prompt, we're not being able to identify the hallucinations that it's giving me, or if it was a human being. We would say, the lies, it's telling me
+[00:26:09] Right.
+[00:26:10] We're not checking to see, did I ask a stupid question in the first place?
+[00:26:16] That's us.
+[00:26:19] we've got to be the responsible, thinking human beings until we can train our colleagues to also be responsible and thinking
+[00:26:26] And then finally, we got to think about the capabilities that we bring into that mix the Dynamics of the relationship that we want to have depending on the type of problem that I'm trying to solve.
+[00:26:40] And depending on the type of relationship that my stakeholders expect from me.
+[00:26:45] And my team means that we need to provide service in a number of potentially different ways.
+[00:26:52] Yeah, I am taking an order and delivering, what you want to tug the for lock is still a possibility. Of course it is.
+[00:26:59] but,
+[00:27:00] More often than not folks. Want support, they want guidance, they want help, they want insight,
+[00:27:07] which means we actually actually have to possibly understand more about the business than our business colleagues do.
+[00:27:12] We certainly have to understand more about how to ask the right sorts of questions.
+[00:27:17] And we have to be in a position to be able to interpret and guide based on.
+[00:27:22] the answers that we're able to give all of the information that's available and so on, so
+[00:27:28] As you go through your strategic planning exercise and as this starts to inform the operating model of, how are we going to deliver? You can see here, we're starting to get the expectations of the style of delivery, that is going to be required.
+[00:27:45] Which is then going to lead us into conversations around. Therefore what resources and skills do I need? And therefore what technologies and tools do I require and therefore what kind of methods and practices that I'm going to adopt and apply because each 1 of these engagement approaches,
+[00:28:00] Requires different capabilities.
+[00:28:03] and as we go through and again,
+[00:28:06] Trailing myself for this afternoon.
+[00:28:08] The process of going from the strategic planning view. What are we doing? Why are we doing it? What choices are we making? How are we going to engage then leads to the capability planning of, therefore what resources and skills and capabilities and Technologies and methods? And so on, do I need
+[00:28:26] so,
+[00:28:29] In summary.
+[00:28:31] 3 things that should make us faster.
+[00:28:35] More relevant.
+[00:28:38] Clearer in our ambitions.
+[00:28:41] And be able to start.
+[00:28:43] Helping our colleagues to engage in a strategic planning process.
+[00:28:48] Where the document?
+[00:28:50] Is a representation of our current agreement and understanding of what we're choosing to do. Why?
+[00:28:57] But is not the be all and end. All of the, of all of this far from it, the strategic planning process.
+[00:29:04] Is actually the value of what we're doing.
+[00:29:08] Good luck.
+[00:29:10] going apply those principles tools and
+[00:29:15] Accelerators and so on to help, you be able to adopt and apply some of those principles into your environments with your stakeholders and I wish you all success.
+[00:29:25] Thanks for your time.

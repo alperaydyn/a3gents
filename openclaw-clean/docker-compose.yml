@@ -1,0 +1,8 @@
+services:
+  openclaw:
+    image: ghcr.io/hostinger/hvps-openclaw:latest
+    ports:
+      - "46114:46113"
+    environment:
+      OPENCLAW_GATEWAY_TOKEN: "oc-test-clean-9b6e2f4d8c1a4b7fa6d3e1c0"
+    restart: unless-stopped

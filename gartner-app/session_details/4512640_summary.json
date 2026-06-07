@@ -1,0 +1,84 @@
+{
+  "summary": "The session discusses the blueprint for AI success in the energy sector, emphasizing the importance of people, orchestration, and governance in achieving effective AI implementation. It highlights the challenges organizations face in realizing AI's value and the need for a unified approach that integrates domain expertise with advanced data management practices. The speakers also introduce innovative roles like domain data scientists and the Lumi data and AI platform to enhance operational efficiency and decision-making.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to AI Success in Energy",
+      "key_points": [
+        "AI is pervasive in enterprises but often fails to deliver clear ROI.",
+        "Only 6% of companies are capturing real value from AI initiatives."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:04:19"
+    },
+    {
+      "order": 2,
+      "topic": "People, Orchestration, and Governance",
+      "key_points": [
+        "Success in AI requires expertise, effective orchestration, and strong governance.",
+        "AI should augment human capabilities rather than replace them."
+      ],
+      "start_time": "00:04:19",
+      "end_time": "00:10:00"
+    },
+    {
+      "order": 3,
+      "topic": "Value Creation through AI",
+      "key_points": [
+        "AI can significantly reduce non-productive time and enhance decision-making.",
+        "The integration of AI into workflows can transform operations in the oil and gas industry."
+      ],
+      "start_time": "00:10:00",
+      "end_time": "00:18:00"
+    },
+    {
+      "order": 4,
+      "topic": "Data Platforms and Orchestration",
+      "key_points": [
+        "A unified data platform is essential for effective AI implementation.",
+        "Collaboration and flexibility in data pipelines enhance AI capabilities."
+      ],
+      "start_time": "00:18:00",
+      "end_time": "00:24:00"
+    },
+    {
+      "order": 5,
+      "topic": "Future of Agentic AI",
+      "key_points": [
+        "Agentic AI will evolve to provide autonomous workflows in energy operations.",
+        "The focus will shift towards chat-based interfaces for easier data interaction."
+      ],
+      "start_time": "00:24:00",
+      "end_time": "00:30:00"
+    }
+  ],
+  "key_takeaways": [
+    "Align executive vision with end-user needs to ensure AI project success.",
+    "Invest in training domain data scientists to bridge the gap between technical and operational expertise.",
+    "Implement robust governance frameworks to maintain trust and accuracy in AI outputs."
+  ],
+  "entities": [
+    {
+      "ai academy": 2
+    },
+    {
+      "lumi data and ai platform": 3
+    },
+    {
+      "domain data scientist": 3
+    },
+    {
+      "agentic ai": 5
+    },
+    {
+      "data orchestration": 4
+    },
+    {
+      "non-productive time": 3
+    },
+    {
+      "dark data": 3
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

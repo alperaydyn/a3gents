@@ -1,0 +1,15 @@
+{
+  "session_id": "4508150",
+  "title": "Gartner Opening Keynote: Navigate AI on Your Data & Analytics Journey to Value",
+  "speakers": "Jorg Heizenberg, Sarah James",
+  "time": "9:30 - 10:15 AM",
+  "date": "Monday, May 11",
+  "location": "Auditorium, Level 0",
+  "session_url": "https://cn.gartner.com/BIE27I/sessiondetails/4508150",
+  "has_files_csv": true,
+  "media_fetched": false,
+  "documents": [],
+  "errors": [
+    "Media API HTTP 500: 500 Server Error: Internal Server Error for url: https://api.ct.aws.gartner.com/ConfAggService/agenda/GetAppointmentMedia/13225/4508150?LanguageCode=en"
+  ]
+}

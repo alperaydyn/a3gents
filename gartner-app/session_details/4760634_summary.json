@@ -1,0 +1,94 @@
+{
+  "summary": "The session discusses the evolution of Tokio Marine's data strategy, focusing on the integration of AI into their operations and the development of sustainable data products. The speaker emphasizes the importance of trust in data governance and the need for a robust data management platform to support AI initiatives. Key highlights include the introduction of automated data product creation and the significance of a semantic layer for contextual understanding.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction and Company Overview",
+      "key_points": [
+        "Tokio Marine's growth and diversity in insurance lines.",
+        "The role of the Chief Data Officer in evolving data strategy."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:03:33"
+    },
+    {
+      "order": 2,
+      "topic": "AI Strategy and Implementation",
+      "key_points": [
+        "The importance of understanding data for AI readiness.",
+        "Different types of AI: personal, operational, and differential."
+      ],
+      "start_time": "00:03:33",
+      "end_time": "00:10:30"
+    },
+    {
+      "order": 3,
+      "topic": "Data Products Development",
+      "key_points": [
+        "Focus on building sustainable data products.",
+        "Introduction of a data product factory using generative AI."
+      ],
+      "start_time": "00:10:30",
+      "end_time": "00:15:00"
+    },
+    {
+      "order": 4,
+      "topic": "Data Governance and Trust",
+      "key_points": [
+        "Building trust in data through governance and quality measures.",
+        "The role of Snowflake in data management."
+      ],
+      "start_time": "00:15:00",
+      "end_time": "00:20:30"
+    },
+    {
+      "order": 5,
+      "topic": "Semantic Layer and Contextual Data",
+      "key_points": [
+        "The importance of a semantic layer for AI models.",
+        "Trust by design in data management."
+      ],
+      "start_time": "00:20:30",
+      "end_time": "00:25:00"
+    },
+    {
+      "order": 6,
+      "topic": "Control Plane and Security",
+      "key_points": [
+        "The analogy of an airport control plane for data governance.",
+        "Reimagining security around Snowflake."
+      ],
+      "start_time": "00:25:00",
+      "end_time": "00:28:30"
+    }
+  ],
+  "key_takeaways": [
+    "Focus on building a robust data management platform to support AI initiatives.",
+    "Implement automated processes for creating sustainable data products.",
+    "Establish a semantic layer to enhance contextual understanding of data."
+  ],
+  "entities": [
+    {
+      "data products": 10
+    },
+    {
+      "snowflake": 5
+    },
+    {
+      "semantic layer": 4
+    },
+    {
+      "data governance": 6
+    },
+    {
+      "generative ai": 3
+    },
+    {
+      "trust": 8
+    },
+    {
+      "data management platform": 4
+    }
+  ],
+  "subject_area_id": "data_management"
+}

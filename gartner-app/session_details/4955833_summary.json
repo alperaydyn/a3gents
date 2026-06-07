@@ -1,0 +1,78 @@
+{
+  "summary": "The session focused on balancing speed, cost, and risk in the operationalization of AI within organizations. It highlighted the importance of governance and control frameworks while leveraging AI to enhance productivity and decision-making. Attendees were encouraged to adopt a collaborative approach to AI implementation, ensuring that all stakeholders are involved in the process.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction and Context",
+      "key_points": [
+        "The need for balancing speed, cost, and risk in AI implementation.",
+        "The evolution of customer needs and challenges in analytics."
+      ],
+      "start_time": "00:00:01",
+      "end_time": "00:05:00"
+    },
+    {
+      "order": 2,
+      "topic": "Challenges in Scaling AI",
+      "key_points": [
+        "AI scaling is an operational model problem, not just a technology issue.",
+        "Chaos in AI usage due to unregulated prompt building."
+      ],
+      "start_time": "00:05:00",
+      "end_time": "00:10:00"
+    },
+    {
+      "order": 3,
+      "topic": "Operating Model Principles",
+      "key_points": [
+        "Establishing guardrails for AI governance is crucial.",
+        "Decentralization and practical benefits enhance user satisfaction."
+      ],
+      "start_time": "00:10:00",
+      "end_time": "00:15:00"
+    },
+    {
+      "order": 4,
+      "topic": "Data Management and AI Integration",
+      "key_points": [
+        "Transforming unstructured data into structured formats is essential.",
+        "AI should be used selectively to enhance existing processes."
+      ],
+      "start_time": "00:15:00",
+      "end_time": "00:20:00"
+    },
+    {
+      "order": 5,
+      "topic": "Building Trust and Collaboration",
+      "key_points": [
+        "Trust is built through transparency and showcasing small successes.",
+        "Engaging stakeholders in the AI journey is vital for acceptance."
+      ],
+      "start_time": "00:20:00",
+      "end_time": "00:27:14"
+    }
+  ],
+  "key_takeaways": [
+    "Establish a governance framework that integrates AI into existing processes.",
+    "Encourage collaboration among teams to enhance AI adoption and effectiveness.",
+    "Focus on transforming unstructured data to improve decision-making efficiency."
+  ],
+  "entities": [
+    {
+      "ai governance": 5
+    },
+    {
+      "operational model": 4
+    },
+    {
+      "data transformation": 3
+    },
+    {
+      "stakeholder engagement": 3
+    },
+    {
+      "decentralization": 2
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

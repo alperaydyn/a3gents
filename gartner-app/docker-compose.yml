@@ -1,0 +1,12 @@
+services:
+  web:
+    build: .
+    ports:
+      - "3001:5001"
+    env_file:
+      - .env
+    volumes:
+      - ./session_details:/app/session_details
+      - ./notes.json:/app/notes.json
+      - ./visits.json:/app/visits.json
+    restart: unless-stopped

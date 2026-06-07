@@ -1,0 +1,105 @@
+{
+  "summary": "The session emphasizes the importance of connecting data and analytics initiatives to organizational purpose and value. It highlights the need for data leaders to understand stakeholder priorities and effectively communicate the impact of their work. By mapping value chains and building trust, data professionals can position themselves as indispensable partners in driving organizational success.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Understanding Organizational Purpose",
+      "key_points": [
+        "Organizations have varying purposes based on their sector.",
+        "Data and analytics are critical to achieving these purposes."
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:01:47"
+    },
+    {
+      "order": 2,
+      "topic": "Connecting Data to Value",
+      "key_points": [
+        "Executives seek connections between data initiatives and organizational success.",
+        "Value tracking is essential but currently underperformed."
+      ],
+      "start_time": "00:01:47",
+      "end_time": "00:04:49"
+    },
+    {
+      "order": 3,
+      "topic": "Stakeholder Engagement",
+      "key_points": [
+        "Identify and understand stakeholder priorities.",
+        "Speak the language of stakeholders to connect data initiatives to their goals."
+      ],
+      "start_time": "00:04:49",
+      "end_time": "00:08:40"
+    },
+    {
+      "order": 4,
+      "topic": "Value Chain Mapping",
+      "key_points": [
+        "Map value chains to understand how data initiatives drive business outcomes.",
+        "Use predictive analytics to connect operational metrics to business value."
+      ],
+      "start_time": "00:08:40",
+      "end_time": "00:15:00"
+    },
+    {
+      "order": 5,
+      "topic": "Building Trust and Influence",
+      "key_points": [
+        "Trust is essential for proving value in data initiatives.",
+        "Engage with champions to elevate the visibility of data successes."
+      ],
+      "start_time": "00:15:00",
+      "end_time": "00:21:45"
+    },
+    {
+      "order": 6,
+      "topic": "Creating Value Stories",
+      "key_points": [
+        "Develop concise value stories to communicate impact.",
+        "Monitor stakeholder priorities and adapt to changes."
+      ],
+      "start_time": "00:21:45",
+      "end_time": "00:26:15"
+    }
+  ],
+  "key_takeaways": [
+    "Understand and articulate the organizational purpose to align data initiatives.",
+    "Engage stakeholders by speaking their language and addressing their priorities.",
+    "Map value chains to demonstrate how data initiatives drive business success.",
+    "Build trust with stakeholders to facilitate the acceptance of data-driven insights.",
+    "Continuously monitor and adapt to changes in stakeholder priorities to maintain relevance."
+  ],
+  "entities": [
+    {
+      "data quality": 5
+    },
+    {
+      "master data management": 4
+    },
+    {
+      "predictive analytics": 4
+    },
+    {
+      "stakeholder engagement": 3
+    },
+    {
+      "value chain mapping": 3
+    },
+    {
+      "data initiatives": 3
+    },
+    {
+      "organizational purpose": 3
+    },
+    {
+      "trust": 3
+    },
+    {
+      "ai use cases": 2
+    },
+    {
+      "cfo": 2
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

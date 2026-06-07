@@ -1,0 +1,163 @@
+{
+  "summary": "The session discusses the rapid deployment of Generative AI and AI agents, highlighting ten blind spots organizations often encounter during this process. It emphasizes the importance of recognizing these blind spots, such as Shadow AI and technical debt, and offers actionable strategies to mitigate risks and enhance adoption. The speaker, Lena Ramos, encourages organizations to balance speed with thoughtful governance to ensure successful AI integration.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to AI Blind Spots",
+      "key_points": [
+        "Organizations face pressure to rapidly deploy AI tools.",
+        "The session will outline ten common blind spots and strategies to address them."
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:01:27"
+    },
+    {
+      "order": 2,
+      "topic": "Shadow AI",
+      "key_points": [
+        "Shadow AI arises from business units seeking faster AI implementation.",
+        "Clear enterprise-wide policies can help mitigate Shadow AI risks."
+      ],
+      "start_time": "00:01:27",
+      "end_time": "00:05:22"
+    },
+    {
+      "order": 3,
+      "topic": "Technical Debt",
+      "key_points": [
+        "AI can both reduce and exacerbate technical debt.",
+        "Incorporating AI technical debt metrics into dashboards is crucial."
+      ],
+      "start_time": "00:05:22",
+      "end_time": "00:07:57"
+    },
+    {
+      "order": 4,
+      "topic": "Deployment vs. Adoption",
+      "key_points": [
+        "Deployment does not guarantee adoption or value.",
+        "Tracking adoption KPIs and user feedback is essential."
+      ],
+      "start_time": "00:07:57",
+      "end_time": "00:11:03"
+    },
+    {
+      "order": 5,
+      "topic": "Vendor Lock-In",
+      "key_points": [
+        "Choosing a single vendor can lead to architectural rigidity.",
+        "Prioritize vendors that follow open standards."
+      ],
+      "start_time": "00:11:03",
+      "end_time": "00:13:30"
+    },
+    {
+      "order": 6,
+      "topic": "Cost Management",
+      "key_points": [
+        "Cost shocks can arise from unexpected expenses in AI projects.",
+        "Implementing cost observability is vital for managing AI expenses."
+      ],
+      "start_time": "00:13:30",
+      "end_time": "00:15:59"
+    },
+    {
+      "order": 7,
+      "topic": "AI Sovereignty",
+      "key_points": [
+        "AI sovereignty regulations can increase infrastructure costs.",
+        "Architecting for compliance from the start is essential."
+      ],
+      "start_time": "00:15:59",
+      "end_time": "00:18:00"
+    },
+    {
+      "order": 8,
+      "topic": "Ethical Liability",
+      "key_points": [
+        "Ethical issues can arise from AI deployments, affecting trust.",
+        "Establishing an AI ethics board can help address ethical dilemmas."
+      ],
+      "start_time": "00:18:00",
+      "end_time": "00:21:14"
+    },
+    {
+      "order": 9,
+      "topic": "Siloed Teams",
+      "key_points": [
+        "Siloed AI teams can hinder collaboration and innovation.",
+        "Fusion teams that combine diverse expertise can enhance agility."
+      ],
+      "start_time": "00:21:14",
+      "end_time": "00:23:11"
+    },
+    {
+      "order": 10,
+      "topic": "Skills Erosion",
+      "key_points": [
+        "Over-reliance on AI can lead to skills erosion among teams.",
+        "Investing in decision-capturing systems can help retain critical skills."
+      ],
+      "start_time": "00:23:11",
+      "end_time": "00:25:40"
+    },
+    {
+      "order": 11,
+      "topic": "AI Native Competitors",
+      "key_points": [
+        "AI native competitors can disrupt traditional businesses.",
+        "Organizations should adopt agile practices to compete effectively."
+      ],
+      "start_time": "00:25:40",
+      "end_time": "00:28:05"
+    },
+    {
+      "order": 12,
+      "topic": "Conclusion and Recommendations",
+      "key_points": [
+        "Immediate actions include establishing acceptable use policies.",
+        "Organizations should track AI technical debt metrics and avoid over-centralization."
+      ],
+      "start_time": "00:28:05",
+      "end_time": "00:29:20"
+    }
+  ],
+  "key_takeaways": [
+    "Recognize and address the ten blind spots in AI deployment to enhance success.",
+    "Establish clear policies and metrics to mitigate risks associated with Shadow AI.",
+    "Foster a culture of collaboration through fusion teams to break down silos."
+  ],
+  "entities": [
+    {
+      "shadow ai": 6
+    },
+    {
+      "technical debt": 5
+    },
+    {
+      "ai governance": 4
+    },
+    {
+      "ai ethics board": 3
+    },
+    {
+      "fusion teams": 3
+    },
+    {
+      "ai sovereignty": 3
+    },
+    {
+      "adoption kpis": 3
+    },
+    {
+      "cost observability": 2
+    },
+    {
+      "open standards": 2
+    },
+    {
+      "ethical dilemmas": 2
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

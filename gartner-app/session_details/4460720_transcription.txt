@@ -1,0 +1,169 @@
+[00:00:04] Welcome everyone.
+[00:00:06] Thank you for for joining me today. Um, I hope you're enjoying the event so far it's been quite busy on our side. So I am I I hope you're uh, you're having a good time as well. And so today, um, we're going to be discussing, um, the evolution of data engineering for AI.
+[00:00:26] My name is Rex, lolly, I'm part of our data management team. So I bet in this room we must have both data and AI folks.
+[00:00:35] And, uh, I've been working with some of my colleagues over the course of the past 3 years around, AI ready data. And what does it take?
+[00:00:45] To make your data. AI ready? What does it take?
+[00:00:48] For, um, from a data engineering discipline as a result to actually adapt to Ai. And how is that different from your regular data engineering discipline? And why are we seeing so much friction between the AI and data teams at times? So, we're going to talk about, you know, some of the evolution of the roles, the skills. Um, some of the organizational challenges and some of, you know, the changes in the technology and and, and what is actually required to deliver, uh, to, um, to those, uh, um, data to delivering this data.
+[00:01:30] For, for AI.
+[00:01:31] so,
+[00:01:32] I love to start with this slide, uh, because it's always very telling, I use it in my inquiries quite often especially when I speak to data people.
+[00:01:43] Because it's really interesting and we've been using this slide for a few years but it's really interesting because you need to understand fundamentally. Why is it that when you're building data for AI it is different than building data for humans. And the reason it is different is that if you look at those images,
+[00:02:05] And you look at the blueberry muffins and the chihuahuas, or the beagles and the dogs here. None of us have any
+[00:02:15] Challenge and identifying, which is which
+[00:02:18] right. And so if you are addressing humans,
+[00:02:22] This needs, no explanation.
+[00:02:24] It is obvious. What it is.
+[00:02:28] now the reason it is obvious to us is because we have a collective experience of what a dog is and what food looks like and what a muffin is like, even if we don't eat blueberry muffins every day or we're part of the world where, you know, we don't make those
+[00:02:46] but for an AI use case to actually distinguish
+[00:02:51] from a machine learning model to actually distinguish the blueberry muffins from the shiwas you need to give it a whole lot of more details.
+[00:03:00] You need to tell them to label all of the eyes, the nose, the dog, you know, the food, the fact that it's an animal, you need to do a whole lot of labeling.
+[00:03:11] For the machine learning model to be able to, then detect.
+[00:03:15] As accurately as possible, the difference between 1 and the other, when we don't really need that.
+[00:03:20] And you know, the reason we don't need that is, you know, you know, if you have kids like uh my kids are now uh grown up but when when they were young you know, it would kill me because they would ask me a zillion times. What is this? And what is this? And what is this and showing everything pointing their fingers and you kept answering? This is this and I wasn't even sure what they were pointing at. Well, eventually they were just building their own experience of
+[00:03:45] What is the blueberry muffin? And what is the Chihuahua?
+[00:03:48] And the AI use case, doesn't know any of that and the models, they don't know any of that. So you need to tell them, you need to give them all of the details. And that's the huge difference. We have experienced. Whether it is when we're speaking among ourselves, between colleagues, um, when we're looking at a dashboard, we're using it using our own understanding, whether we're using images, we have that experience, it's readily available. We never actually think about the fact that we have it, but AI doesn't have it. And so you need to give it all of the details so that it can build it up based on those details. And that's hugely different when you're thinking about, delivering,
+[00:04:30] Data for humans along a business process or for analytics uh, for operational uses uh, as compared to delivering it for AI.
+[00:04:42] And not surprisingly.
+[00:04:45] We've seen this over and over again ever, you know, through the multiple waves of AI that has happened throughout, you know, you know, the past.
+[00:04:56] 10 10 or plus years actually, um,
+[00:05:00] Data availability or quality of data continues to be the number 1 challenge when it comes to, you know, building new AI use cases. Do we even have the right data? Is it what we actually need that's 1 of
+[00:05:15] The major challenges that the AI teams keep facing and the data management teams you know, are struggling to understand what is it that they're actually exactly asking.
+[00:05:27] and so, in order to actually,
+[00:05:30] Get to an agreement and discuss, okay, how is data engineering evolving?
+[00:05:35] The first thing is we want to discuss. Well what is different when your engineering data for AI as compared to when you're doing just general data management.
+[00:05:47] Second we're discuss. We're going to discuss the evolution of the data engineering discipline and then third we're going to look at. Okay, what are the success criteria?
+[00:05:57] and, you know, and how
+[00:06:00] How is that going to be affecting your discipline? So,
+[00:06:04] Let's get started. Why is data engineering for AI different
+[00:06:09] Well, the first thing is, you know, again.
+[00:06:13] I'm coming from the data management side of the of the house and so 1 of the things that is really frustrating for, you know, a lot of the data management teams is they love to build stuff and they want to build stuff that is sharable. Reusable. You know, they want to things that are going to scale. They don't, you know, they're hoping not to have to repeat the work. But the challenge is when you're looking at AI, there are 5 essential questions that data scientists ask themselves, the first 1
+[00:06:45] Is of course, what is the use case. And that's where you start with your AI, use cases, your prioritize based on business value and objectives, and then, okay. That's the use case. What AI technique could we even use to address that use case? All right, so then you start to select an AI technique. And then the next question that comes immediately after is data available, what data do I have?
+[00:07:10] What can I use it for? Is it representative? Does it contain bias? Uh, is it sufficiently diverse? Does it meet the quality? Requirement of the use case?
+[00:07:22] Can I make up for the deficiencies of that data? Somehow maybe through synthetic data? Do I need to do any additional?
+[00:07:30] Will work like labeling? Do I need? You know, what does it take?
+[00:07:34] So is the data available.
+[00:07:37] Is the data accessible and fit for use, which is what I was just describing. What does it take to get it to make to actually use it? So we delivered to the use case.
+[00:07:48] And then do I have the roles and the skills that are required? Imagine you're trying to build, not uh, 1 of those machine learning models to detect the difference between shiwa and muffins, but you're trying to do, you know, uh, MRI image analysis for um, you know, for brain strokes which is what what my sister is doing, uh, as a university Professor well, guess what? You better.
+[00:08:15] At good, doctors to label your images if you're going to trust the outcome of the model, right? So now all of a sudden, not only do you need data skills. You also need a whole bunch of doctors that have labeled images.
+[00:08:29] Uh, and detecting, you know, anomalies and patterns and do you even have the right data? I mean, are you going to take healthy people on the street and ask them to get through an MRI? So do you have a baseline of what is actually healthy? Well, you know, all of those questions come up.
+[00:08:46] And what is the cost to make your data? I already. So if your data is not representative enough and you're like, okay, well now I need to go get get on the street, a whole lot of patience, you know, to make to get them to
+[00:09:00] To to do MRIs. This is going to be really costly. It might do I really want to do that. They actually don't do that. They actually use all of the images that they have that they have collected for other purposes. They repurpose, uh, for, you know, those kind of of use cases. So, when you start to look at the whole picture here, you realize that to actually get to the point where you feel like you have the data and that you start to build the use case in an iterative fashion to actually get to the level of accuracy and precision that you want. It takes quite a bit of effort and there are quite a number of use cases where this actually doesn't go through because the data is just not not available, right?
+[00:09:45] So imagine if you uh, want to do, I don't know. Um, even like legal document generation, do you have enough of those legal documents available so that you can build an llm implementation that is going to actually fulfill. Your needs that is going to be representative of the body of documents that you need.
+[00:10:04] uh, or um,
+[00:10:06] Uh, if you are trying to build a predictive maintenance model, do you have enough history?
+[00:10:13] uh, you know, all of the uh challenges that the equipment can have, you know, um, so that you can actually build that predictive maintenance model,
+[00:10:24] so,
+[00:10:26] when you're starting to do to look at this, uh,
+[00:10:30] The 1 thing that you do, right? Is pick the use case and then look at the AI technique. And obviously, as you can imagine the different AI techniques have very different expectations when it comes to the data. And so, this slide here is really interesting because it looks at the common, AI techniques, horizontally and family of use cases vertically. And the color coding says, okay, which AI technique is the most suitable for which kind of, you know, family of use case and that sets a baseline of what the requirements are for those use cases.
+[00:11:01] so,
+[00:11:03] We sat together with the data team and thei team and we're like, okay, let's try to create the same representation for the data Readiness, can we?
+[00:11:15] Create something of the same sort and guess what? We didn't really we weren't really able to do it. The reason is because they're when you start to add the data side of it, there were too many dimensions that could no longer be represented. And so instead what we did is we we we came up with um, you know, an example, a set of sample challenges by AI technique
+[00:11:39] So if you look at the different AI techniques, uh, from a data entity, we perspective from me from the, you know, medium to the highest intensity. If you look at, for example, recommendation systems, right? Like the example I was giving you or you know, typical traditional click stream analysis, from website to
+[00:12:00] Recommend the next best action or make suggestions. Well, lack of data is usually 1 of the major challenges. I mean, do you have enough data that is representative of the situation
+[00:12:11] um,
+[00:12:13] Do you have privacy issues? So whether it is for you know, a machine learning models or whether it is for recommendation engines for the next best action. You know, some of that data is private are you allowed to even use it? Um,
+[00:12:27] Lack of unstructured data like uh, the Imaging. Um, you know example I was giving do you have enough of that data that has the level of, uh, labeling that is required?
+[00:12:39] Um, and then, you know, you might need specifically to customize the data for those use cases. So if some
+[00:12:45] Sometimes you're going to use synthetic data instead of the real data, as a way to, you know, get around the privacy issues.
+[00:12:53] So um and then if we're going to all the way to the other end and you're seeing like generative AI use cases, well,
+[00:13:01] you know, 1 of the challenges is, you know, the the the you you actually need annotation, you do need labeling also for those documents because if you're going to use, you know, generate documents obviously, the Baseline of generating documents for legal or generating documents for marketing, are going to have very different set of expectations. And to do that, you actually do need to have some form of a knowledge graph, that represents the data and
+[00:13:30] The, you know, the domains that they're representing. So do you have actually all of the unstructured data processing? Do you have actually do you actually have it so that it is a representative of those different use cases. So you, you do see that we have a a whole set of requirements that are very much tied to the individual, use cases, and the Very individual, um, you know, AI techniques that are involved. So when you think about making your data, AI ready,
+[00:14:02] The AI teams are really focusing on aligning the data to the use case, they want to make sure that the data is as representative. And because they are also doing their job, right? They're going to hopefully talk to the data and they
+[00:14:15] Governance team, make sure that they build in the right governance, um, policies as part of, you know, the representativeness assessment. So they're aligning the data once they're happy and they get to the level of the AI, you know, precision and accuracy. They're like, we're done.
+[00:14:34] Now when they say we're done, they're done with the development. But that isn't that isn't being done with the data because you need to continuously qualify the data because you build the data in this particular context, right? And many things can happen, the situation can happen, you know, the situation can change, you could use the AI, use case in a different context.
+[00:15:00] Than the 1 that it was initially designed for.
+[00:15:02] so, if you're building a forecasting model,
+[00:15:06] You know, that is pretty straightforward and I had 1 of my clients, tell me that. Um, I was explaining that to him and he was saying, oh yeah we get it because we do a lot of traditional forecasting models and when I use the forecasting model I actually know that the situation evolved and that it drifted but I also know that directionally the forecast is accurate. So automatically in my head I'm adjusting
+[00:15:33] for the drift.
+[00:15:35] And so part of that ongoing qualification is, are you going to depend on the experts to decide whether they can trust or not? Trust the
+[00:15:45] Output or adjust for that change.
+[00:15:47] Or are you expecting that to be automated?
+[00:15:50] And you think about it when you're going to go to agents and you're going to package those AI use cases and agents. Are you going to expect the agent to be able to detect that something changed? Or are you going to expect that some human in the loop somewhere?
+[00:16:07] Is going to to do that. So same thing for the governance, governance change regulation, change the data, you use on the day, you created the use case.
+[00:16:19] Might no longer be available as this.
+[00:16:23] Can you actually continue to even use your AI? Use case that remains you know to be proven and need.
+[00:16:30] Needs to be verified on an ongoing basis. So, the data Readiness is this whole ongoing assessment
+[00:16:37] that the data that was used at the time that you build, the use case was representative and continues to be representative of the current situation as you're using the use case.
+[00:16:51] And that really forces CH the evolution of the data engineering practice.
+[00:16:58] Now.
+[00:17:00] Not surprisingly. This is from our AI ready data survey. So I'm going to show a few of those slides. So these
+[00:17:08] Um this survey actually, we interviewed around 250 organization across uh the globe.
+[00:17:15] Uh, all already, you know, doing AI. So these are only, you know, for across, you know, um, uh, uh, uh, teams and organizations that are already investing in Ai. And so we asked them, what are you using in terms of your data architecture? Um,
+[00:17:34] Uh, for in support of your AI. Use cases. Not surprisingly, you'll see data warehouses, like lake lake houses, Martz Etc, pretty much top of the list and that's not surprising.
+[00:17:47] because,
+[00:17:48] When you first question is, what data do I have you start with whatever you have?
+[00:17:54] And you're looking at, okay? I know, all of this data I've used it already. I know what what
+[00:18:00] It's coming from. I have the lineage. I know the quality Etc.
+[00:18:04] So, is it?
+[00:18:05] Fulfilling my AI use case requirement. If it is of course go and use it.
+[00:18:11] and not surprisingly because this is the data, you know, best
+[00:18:14] it is most likely that you're going to use it first.
+[00:18:18] But that as of itself is not enough. So you can't just data management teams stick to your traditional ways of doing things because that is just not going to be enough, right? Of course, you know, the foundational data management is going to be useful, you're going to need your warehouses, your Lake, your lake houses, your governance, principles your prep, your catalogs. Uh, you're going to also
+[00:18:45] Leverage the advanced data management and particular Knowledge. Graph. Data products data Ops metadata management is going to be immensely important. And then you are going to need to expand beyond that into what is really specific to Ai. And
+[00:19:02] Actually adopt those AI specific data techniques like labeling. We talked about that synthetic data data enrichment, feature engineering prompt engineering, chunking Vector embedding rag uh, graph rag, Etc. So all of those AI specific data techniques will be required to get the data to the point that it is actually meeting the AI use case requirements.
+[00:19:31] Now, this is where things start to get complicated.
+[00:19:35] When we start to discuss with the AI and the data teams and we asked them, you know, what is the data engineering team? And what is the AI and data science team doing, you can see that the data management teams are doing the traditional data management stuff. And the AI team is doing the AI, uh, stuff. And actually, you do see that the AI and data science, also does the data preparation for traditional AI.
+[00:20:01] Or the data preparation for generative Ai. And often times, AI teams are saying, just just give me the data, you know, just leave me alone. Give me the data. I I actually just need access to that data, you know, whatever. For
+[00:20:15] Permits, and don't worry.
+[00:20:17] And then everyone else that, you know, the governance team and the data management teams and everyone else is saying, oh, what are you going to do with it? Yeah.
+[00:20:25] And so that's where we're starting to see resistance. And actually, when we ask every team, like what are they actually responsible for, they don't even agree to what they're responsible for. So there's a lot of friction here and definitely better coordination, and, and collaboration between those teams are going to be important.
+[00:20:47] Now, the good news is that you can actually reuse the data across the different delivery paths. So if you have a data products approach to delivering data for um, you know, analytical
+[00:21:00] Use cases with the bi track or data products that are going to participate in operational processes. Um,
+[00:21:08] Or that you're going to building data products for the eye tracks. You can actually, uh, leverage all of those data products in combination to support new AI, use cases. So, and this is actually a case study from Toyota where you see that there is actually, um, you know, cross consumption of the data, different data products across those different tracks and shareability and reusability. That is being built across those different tracks.
+[00:21:34] Um the other part that becomes increasingly important is semantics and context and we've been you've probably heard a whole lot about that. And the challenge is that it is actually quite
+[00:21:45] Complicated to get to the level of semantics and context. That is required.
+[00:21:50] For AI and large language model implementation. And oftentimes I get the question of is there, you know? Um, if we were to build a knowledge graph, is there a unique way? We would build it. That would suit all of the different AI use cases.
+[00:22:05] Across structure and unstructured. And unfortunately, the answer is no.
+[00:22:10] That is not quite possible. There is no single unique way of even, you know, ensuring that, that, that you do that. Because of the, if you are doing a, a, a an llm implementation to chat to your data, and what you really need is the semantics of, uh, of the structure.
+[00:22:30] Data to so you in the end generate queries which is totally different than, you know, generating legal documents, totally different set of objectives. Both of them using their the large language models and many use cases actually using multiple llms
+[00:22:48] but that also doesn't mean that you don't that you have to repeat everything every single time, right? Data, management teams, you know, were come to me and say, well, so does it mean that we need to start everything all over again for every use case? Well, the reality is, when you're actually looking at your AI use cases, and you're going from the PC, which is based on your expert community,
+[00:23:15] building together that representative set and then you're bringing that AI use case all the way to production where you automate the Readiness assessment
+[00:23:26] The good news is as you add more use cases, that use the same data and you continue to build that automation.
+[00:23:35] Towards the, um, the right hand side of the graphic, you see the representativeness triangle grows, because you've used the data in so many different contexts that you have more and more metadata about it. So if a new use, case comes about the likelihood that you already know the answer about, is that data, representative of the use case,
+[00:23:56] is already, you know, uh the the answer
+[00:24:00] The question is already available through that representativeness assessment, that I, that has existed. So there is a scaling effect coming from using the same data over and over again, in multiple contexts because you are growing, its representativeness assessment
+[00:24:18] So that's the good news. Is that the more you do it, the better you get at it. The less work, it takes to reuse the same data whether it's structured or unstructured.
+[00:24:29] Now.
+[00:24:30] Because of all of these changes that are happening in the landscape.
+[00:24:35] The pressure to get a more data engineering skills.
+[00:24:41] Data engineering data scientists developers architects.
+[00:24:45] That's all growing. Because guess what, it's not because you added AI that all of the other data management requirements went away. You still need to do all of your operational, use cases your analytical use cases, um, you know, building your hubs and your master data management initiatives, delivering data for a bunch of of, uh, of projects and objectives. And now you're adding AI, which is adding a whole layer of complication to the picture now,
+[00:25:16] Those skills and requirements are being pressured but the good news is that the discipline itself is evolving and AI is infusing in the discipline itself.
+[00:25:28] and increasingly for,
+[00:25:30] For example, we are seeing teams using Code generation for data preparation, it always has existed to some extent, but now, the lines are blurring. The tools are actually allowing for a lot of a lot more of that. So, you know, so you can actually, uh, the routine, ET LT coding aspects, you know, become maybe less important if you're recruiting folks and instead maybe data architecture, uh, human skills, uh, and um, and business understanding becomes more more important. So the evolution and the technology itself is evolving such that. You know, it is creating new ways or uh, and new approaches.
+[00:26:15] Of actually delivering to those, um, data requirements for AI. And so, that's what we're saying yesterday, in the round table around, uh, agentic AI, which I was facilitating, you know, 2 of the companies around the tables were saying it's unbelievable on the business side, so many are Vibe, coding already.
+[00:26:36] Uh, and that's totally changing the ball game. And so, yeah, that is not yet quite happening to the same extent on the data side. But it, it is getting there. So, we are expecting to see a lot of transformation there.
+[00:26:50] so,
+[00:26:52] so data engineering, for AI is different, how is the engineering practice evolving is what we've been discussing, but okay,
+[00:27:00] If you were doing all of this, how do you know that you're being successful?
+[00:27:04] So from the same survey, the first thing I want to show you is the good news, 59% are operationalizing, uh, their data pipeline. So that's a really good sign which means that there is actually production optimization of the execution of those pipelines, which as a result, you know, offloads a lot of that ongoing Administration work from the data teams and the data engineering teams themselves.
+[00:27:30] the part that is concerning, is that
+[00:27:34] To the question. We have a certification process for assessing data Readiness in production. Only, 32% said they were doing it, which means that 68% are
+[00:27:45] Doing getting in a consistent fashion and that is worrisome.
+[00:27:49] Right? I wouldn't want to be in that place and imagine if it's agents, that's even worse. Because, you know, the agents should have embedded in them a go no-go saying, oh, I'm operating based on the conditions that I'm supposed to operate in.
+[00:28:05] And there should be at least some form of an alert. If something goes wrong, something changed, you need to make sure that the AI use case can detect.
+[00:28:15] Something has changed. I'm not operating in the normal circumstances.
+[00:28:21] The good news is, you can actually leverage the pipeline and think of your pipeline as the qualifying.
+[00:28:30] Engine.
+[00:28:33] 4 your AI Readiness throughout the different stages of aligning qualifying and governing. So you can put in observability and traceability to detect change.
+[00:28:46] In how the data is distributed. The governance rules that are being applied. The context is which in which it's being used, so you can leverage that
+[00:28:57] Similarly.
+[00:28:59] You can also put in place.
+[00:29:02] The operational, the operationalization of the data governance and using policy as code. So instead of relying on manual stewards data, or AI stewards to
+[00:29:15] Actually Define and apply those governance policies along the along the way when you're building the AI use case. You can actually automate
+[00:29:26] The policy application through the data gov Ops process, by defining the centers, that would still be the humans. But then codifying executing and observing could be automated as part of your process and the operationalization of your governance. Removing a lot of the ongoing responsibility from the shoulders of your stewards.
+[00:29:50] And once you start to infuse that in your data practice for AI,
+[00:29:55] That's where you're starting to get to the business outcomes. So we asked,
+[00:30:00] Those same organizations, Are you delivering business value with your AI use case. And we know that this is the hardest part. And among those who said, yes, we're delivering business value. We looked at what were the key drivers from their data engineering discipline questions, which we had already asked
+[00:30:18] So not surprisingly. Number 1 is, we involve the governance team from the beginning.
+[00:30:27] We have an an AI ready data assessment for all the it techniques. So and that we're starting to see we have this evaluation toolkit for AI Readiness. It's quite complex, but we're starting to see clients come back to us and say, you know what we're doing it, we were doing it before.
+[00:30:45] You told us among the most advanced organizations that have been speaking to they had something similar to what we were proposing and you know they they they are doing it so it's not easy.
+[00:30:55] But it is needed.
+[00:30:57] We have a certification process, so if you were in doubt, that, that was really important that those 32% that I was showing to, you are also those who are seeing business outcomes because they have that and we publish data products for shareability and reusability across our other AI use cases.
+[00:31:16] Those are the key drivers.
+[00:31:19] That we've inferred from that survey about the data engineering discipline and how it contributes to deliver to delivering to business outcomes.
+[00:31:30] So with that, a few, a handful of work of recommendations for you first. Make sure that you have your data Readiness assessment part of your AI program. You know, don't forget about that. It's really important. Make sure that you evolve your data engineering practice and bring together the AI and data science teams, make sure that they actually work together.
+[00:31:53] Start with what you have. That's always a good Baseline.
+[00:31:57] But include data products, and start building, you know, that, um, ongoing assessment of the Readiness so that you can leverage this across multiple use cases. And that was, that is what comes with Automation and operationalization of your day.
+[00:32:15] I read in this for AI. So with those 5 practices, I think you're going to get to those business outcome. Uh you know that I was telling you about that is actually going to help you with your data engineering discipline for AI. We've got plenty of research, this is only a subset. We've published more in particular around, um, the evolution of data engineering for agent Tech and also a code generation. And so this is going to be very much Central to everything that you guys do and to the way that you're thinking about the future of data and analytics. So we'd love to know about what you guys are doing and how that is, uh, affecting how you're seeing the future. So do answer our survey
+[00:33:00] So with that, I wanted to thank you all for staying with me. And uh, you know, I'll be around for answering a few more questions. If you have any thank you, everyone.

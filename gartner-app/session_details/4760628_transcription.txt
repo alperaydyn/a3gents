@@ -1,0 +1,119 @@
+[00:00:04] Hello everyone. Um, I'm Bruno me. I'm pleased to welcome you to that session. Uh so the topic is about um no more data Lake rebuilds the bnpp zero copy model. Uh and it's uh it's presented jointly with dodo.
+[00:00:23] Uh, so I'm working for the CEO of the group, BNP par I'll share with you some, uh, elements on BNP. Par of course, you probably know it. So it's a 1 of the major financial institution in in Europe. Uh, we are present in more than 64 countries and um we are
+[00:00:45] Operating, according to 3, uh, main divisions. Uh, the first 1 is the corporate and institutional banking, which is dedicated to Big corporates to institution, uh, and financials. Uh, and the other 1 is the commercial and personal banking and services, dedicated to the retail World presented in several countries in Europe and the world. Um, and the last 1 is the investment and Production Services, which deal with, um, other complementary products, like wealth management, like Asset Management insurance or even the, the real estate 1.
+[00:01:27] so, the main topic,
+[00:01:30] That I will talk about is related to third-party data, why? It's because those are, uh, the elements which are very core for our, uh, activities. Uh, it's because they are present, I would say anywhere in each processes of the bank. So that's why it's very key that we have a, a strong and trusted Vision about our third parties.
+[00:02:00] when we are seeing third parties, we are considering in fact, uh,
+[00:02:05] Whatever relationship that we can have with a generally speaking. A corporate from the small and medium Enterprises to a corporate
+[00:02:15] Rates financial institutions, whatever. It's to say that we need to have a unique vision of that third party, and the elements that we are dealing with are uh, the 1 on the left. Meaning, of course, there is all the financials which are used, uh, for plenty of evaluations and Regulatory elements. There is 1, other key elements related to your keys, meaning, uh, that we are not looking per se on on 1 dedicated Enterprise but we look at all the structure that exists either on capitalistic link or economic dependency. Plenty of elements that
+[00:03:00] Considering a group of legal entities, and not only 1.
+[00:03:05] Uh, of course, there is the identification data. So it's key because it's the way to identify it in a unique way, but also its, we will see that later. It's also the way that we can, uh,
+[00:03:19] access to several elements and be sure that we are talking about the same entity and the last point is related to extra Financial elements. Uh, that's because of course we are needed. Plenty of additional axis of Investigation of regulatory purposes. Uh like sectors like ESG elements, plenty of additional things which are required. It makes a
+[00:03:45] Full bench of data which is several, um, thousands of of data points that we need to access.
+[00:03:52] And on the right side, there is the different element. And you see there that in fact,
+[00:03:58] From any step of any processes of the bank. It's key for us and we need to have that shared vision from prospective elements to, uh, the client on boarding and the way that we are performing our kyc. Of course, when we Grant products, when we do, uh, also all the regulatory uh elements, we, we need to have that common and comprehensive view of our customers
+[00:04:27] however, this uh
+[00:04:30] Is quite a challenge. Because I mentioned that.
+[00:04:33] Um we are present in plenty of different countries. We have several business lines and this makes that uh our data is very uh fragmented.
+[00:04:45] Spread in plenty of processes systems functions and it makes it quite difficult to be fully trustable. Uh, and the sustainability is very a challenge that we are facing.
+[00:05:03] the issue, the main issues that we have, uh, are related to, um
+[00:05:11] But it's it's quite common, of course, but it's the the time.
+[00:05:15] That we are requiring on our side when we need to do, uh, some extension of new sources that we have to Encompass, because there is new regulatory needs. Because there is a new way that we wish to represent our our customers, we need to add perpetually new sources.
+[00:05:32] But it takes roughly more than 1 year to make it happen. So it's very long and in term of cost, uh, as it is something that we have to repeat several times. So we deal with bunch of new data that we add, but
+[00:05:48] Yet it's it's very costly because we have a long step of making those data from 1 Nation Point toward plenty of systems.
+[00:06:00] Attempts to go in business in functions and hence to Regulatory reportings and so we need definitely to to simplify that and to make it more efficient.
+[00:06:11] and,
+[00:06:12] the issue also, of course, is that we have plenty of sources, which means, of course, plenty of discrepancies issues of quality rework and cavity then trying to identify where is the the best uh, vision and then reconcile that
+[00:06:31] It's it's a lot. So this is why we have decided at BNP pariba to refund globally, the way that we are dealing with our
+[00:06:41] uh, support, is that
+[00:06:44] What we?
+[00:06:45] once did to achieve,
+[00:06:47] Uh so the first 1 is quite abused, everyone talks about it but it was key to make it real is having a 360 visa on our customers data and in eastern party data and have a common shared language to uh make it available group wide.
+[00:07:08] The second topic, uh, we want to achieve is to increase the trust, we have in the data meaning that we need to increase, uh, the data quality, we need also to reduce the effort that we have for, uh, collecting data for reconciling it. Uh, and that's key.
+[00:07:30] in terms of efficiency and of cost, of course, for the group,
+[00:07:34] And when we talk about cost, I mentioned it before. But also, to be able to, uh, really be faster. When we need to perform changes to add sources, uh, and reducing the global edit effort.
+[00:07:51] For that, we identified that there are 4 main requirements. The the first 1 uh is to set up a a common um Foundation. Meaning that we need definitely to have a common model to be shared uh locally and at group a wide level uh and shared the
+[00:08:15] Identification, the dictionary and so on related, to the data.
+[00:08:19] The other axis on which definitely, we need to to have actions is on duplication because we realized that the data were duplicate plenty of times, uh, with of course, uh, a cost in term of storage, but more than that a cost when we need to exploit it because it has to go through several layers uh and which at its time transformation because it's not exactly the way that we want it to be. And then we lose time to time uh the ownership the uh, acknowledgement of the data and we lose at the end where it come from features.
+[00:09:00] Get it.
+[00:09:02] The other point related to cost, of course, is automation how we could reduce the way and optimize how we can collect data.
+[00:09:13] And the last point of course uh it's traceability. Meaning how can we be sure that we are knowing where the data come from and build something that can be reusable meaning at scale providing a new way of dealing with third-party data.
+[00:09:33] Saying that we uh, of course, identify that it goes also with technology challenges.
+[00:09:39] The first 1 is uh related to the the Legacy States meaning that we have.
+[00:09:45] Of course, plenty of already existing system in different technology. Uh, yet we definitely need to
+[00:09:53] make the bridge between those 2 and to deal with that fragmentation.
+[00:10:00] The second 1, the duplication and the rebuild is the way that it has been done since years copying fetching, designing for 1, single purpose or 1 functions.
+[00:10:13] But not at scale level. And this is something that we need to change drastically.
+[00:10:20] Uh what it brings um on the new model is to say uh, that we need to gain inconsistency.
+[00:10:30] And traceability that was key and we see that later, it's also related to some regulatory constraints that we have. And the last point, of course, is we need to find a way a solution that could lead, uh, uh, something at scale that can be be reusable and not, uh, specifically designed but globally. Offering a standard way of accessing data group wide.
+[00:10:58] So the challenge at the end uh is not only uh, the integration topic, but it's really to recreate a new ecosystem of the S party data.
+[00:11:11] Let's uh, just see on on.
+[00:11:15] 1 specific case, um, to highlight a bit. What, what we are talking about. So I talked about that fragmented visibility, it's because information are uh,
+[00:11:27] Shared.
+[00:11:29] Don't worry on Plenty of sources and we need to have those small accesses to small bench of data for specific parties, but we need to provide a logical layer. And we are doing that, uh, at BNP pariba with denodo meaning that we are able to interconnect all those sources and make then data products, consistent and available for any kind of process.
+[00:12:00] Is related or using um, data element related to a third parties?
+[00:12:07] Um what it brings on top of that is that as we are in, in a way that we are not recreating something, right in the middle, we are reinforcing the local ownership of the data, which is key, because it has to be, where is the origination where is the knowledge, not at any groups on central vision, because it's not the way that the knowledge is. And so, that's key for us to push that.
+[00:12:37] On the sources with the appropriate responsibility and accountability in term of data quality.
+[00:12:45] And what brings of course, uh, is, uh, an efficiency because, uh, we are directly accessing to data elements. We easily uh, get access to it. We can uh, add new elements, we can complement change. And we estimating that it's almost uh,
+[00:13:09] Twice less costly than it was in the previous approach and also what it it is saving. It's time for the people which are gathering data. They are not losing any time in that, but they are focusing on exploiting the data instead of grabbing it.
+[00:13:26] Another case is I will not deeply go inside.
+[00:13:30] But, uh, just to mention 2 main aspects. Uh, the first 1 is related to the creativity of The Regulators, which are always asking us for more and more data. So this means that we have really to be efficient in the way that we can add new data elements almost on the on the floor, on a daily basis because it's it's huge. The increase of that data which are being required in in the last years.
+[00:13:59] Um the other elements we are facing is related to the the regulation of the BCBS 239. Uh it's also related to um
+[00:14:11] the uh, um, the lineage and that
+[00:14:15] Key is that using denodo and connecting directly to the sources? We are able to exactly know where the data comes from. What has been the transformation that has been performed from the source to the exposition within the data product and to serve it globally in a consistent way across any uh sources and for any usage and that's key.
+[00:14:41] Once uh, saying that, um, we have that use cases, we had the vision. And now, I will talk about the way that we have launched the initiative, and the way that, uh, it, we make it happen.
+[00:14:58] Um, so first
+[00:15:00] Uh, we have been through a phase in which we have tried to see on the market, what we're doing, our other competitors. So we go to consulting firm asking them.
+[00:15:11] What is the state of art here? Is what we are aiming at. Can you share with us some insights?
+[00:15:17] And at the end we are we discover that we seems not to be any uh um at scale approach as we are doing.
+[00:15:28] Uh yet it has confirmed us that there is 3 main attention on which we we need to focus. First is governance to to be sure that we have
+[00:15:39] a group wide governance, a strong governance to manage. Uh,
+[00:15:45] Uh, the the rules uh, the models and to push for something, which is definitely transversal from sources, local to group the second 1. Uh, we have been confirmed on efficiency that duplication is 1 of the key. Uh drawback and it's it's slowing and it cost a lot. So that was something that definitely we, we wish to stop.
+[00:16:12] and uh, the last point on which we confirm is that it seems that the only way that we can handle it is through a distributed approach, uh, meaning relying on all the sources and stop trying to physically
+[00:16:30] move them at 1 point, because at the end,
+[00:16:33] It's too huge and and we cannot succeed doing that.
+[00:16:39] So in fact, more than just uh, creating a new tool or a new access, we we need to definitely rethink and operating model for collecting fetching Distributing. Uh, the data
+[00:16:59] And so that's the journey that we had from uh, centralized uh, view with replication through a distributed approach with a zero copy model.
+[00:17:12] So, that was key. The the
+[00:17:15] Main pillars were the 1 on the left, meaning first pushing for the responsibility at source level and its key. And it's the only way that we can succeed in having good quality data elements.
+[00:17:30] The second 1 uh is related to governance. We need to establish something which goes end to end from origination to consumption and having accountability set up by subset of that data by domains of that data, and put them reliable at some specific sources.
+[00:17:51] Then we we go through architecture and data access. Uh,
+[00:17:57] This, this is where we are talking.
+[00:18:00] About building, uh, products, uh, on which we are relying on that logical access not anymore on the physical, uh, move of the data. But, uh, going with something very more agile and, uh, uh, in a way that it is built, uh, in a global approach reusable, meaning that we are not focused on a dedicated, the use case or need but just thinking about that are the data that anyone must share a common vision.
+[00:18:39] It's just a matter of illustration. I will not spend of course time but just to uh share.
+[00:18:45] What was more or less synthetic view of how it was working before with plenty of layers? With lot of exchanges in all the way, uh, with some uh, perimeter like the kyc that were in Silo not connected or using anything.
+[00:19:02] To the new approach.
+[00:19:04] From Legacy and big databases to something brand new with almost no more database. It has been a challenge to make it, uh, um, appropriate by anybody, because it's not that uh, common in fact. But that was the key Point meaning that having uh, with denodo that central vision with some fun.
+[00:19:30] Nationality with governance with security accesses since the early beginning Encompass in the way that we are building it and connecting all the sources that are related to third party data.
+[00:19:43] and then make them available for all the consumption in their own business side, functions, or or whatever need
+[00:19:52] 1 small topic on the left on the Violet is also having a dedicated team to steer the data quality and ensure data governance and and the quality supervision and Remediation action that we can perform each time at the source. So each time at the correct level,
+[00:20:14] Some.
+[00:20:15] Uh uh elements uh, on which we we had.
+[00:20:20] U, uh, some concerns. So, of course, it is a very important program within the group and it's, uh, it's created some tension in the way that we can trigger that, uh, at group wide level. Um, so first, uh, 1 of the complexity is that we were impacting all the group, any function, any division worldwide. Uh, so it has been very important for us, uh, to have the sponsorship first of the group zero, and then a validation from the
+[00:21:00] X to be sure that this initiative, uh, is something that must happen, because we have worked a lot in, um,
+[00:21:10] Assessing, what are the benefits with all the functions, with all the business lines and Gathering all that at once? And that was key is not trying to only solve 1 element, but just share that.
+[00:21:26] What brings value is to have that comprehensive approach.
+[00:21:31] So it was very a key point.
+[00:21:34] Um secondly uh of course, we were touching uh, as I mentioned on something, which is key in plenty of processes.
+[00:21:45] so, of course,
+[00:21:46] Uh, we need to make it are in a safe manner. Uh, and so, what the approach that we we chosen is to um,
+[00:21:55] Propose something with a step-by-step approach with a very modular, uh, way of thinking and providing value, meaning that we could slowly experiment validate and propose, new value on several Fields, uh and not, of course, uh thinking about having a huge, big bang revolution in all the data related to third party in all processes.
+[00:22:26] uh, the the the third 1, of course, uh,
+[00:22:30] Also, we 18 to the the 2 first. But is to say that as it was quite important investment to be sure, that it's something that brings value group wide. And this is something that will, uh, generating, uh, a new steady state, enabling plenty of new use cases to come.
+[00:22:54] Uh and the last point on which we we have some struggle also was on technology just to confirm that using denodo and virtualization could also apply on our side. We had already a successful implementation within BNP and it helps us a lot.
+[00:23:15] To make it also a globally. Speaking be accepted and delivered value group wide level.
+[00:23:25] so,
+[00:23:26] Now, uh, that we have have that, um, we have built something which has been considered as a game changer, by, by several actors within BNP pariba, uh, because uh, we have that Foundation of, uh, a distributed and well, governed data access for third parties. So we have, of course, our single point of Truth.
+[00:23:52] Usable by anybody with direct access freshness and reliability. Uh,
+[00:23:59] On.
+[00:24:00] The data.
+[00:24:01] The second point is also related to real time access because we, we have identified that some key elements must be accessible in real time, other than that, and that's also something which is very important to really identify the, the freshness and the refresh. We need, uh,
+[00:24:23] And related to that, there is the the third 1 on alignment. Uh, it's something which is key is that once we have managed to globalize our vision and to set up connection point between all our sources, we can also identify what are the correct value? What are the most likely value? And then
+[00:24:45] Spread it back to the different sources to be sure that they are all aligned systematically and creating a full synchronization. In fact of our systems,
+[00:24:57] The first 1 on control and quality. As we have an extended access uh we can easily manage and monitor the data quality. We have that in key point on lineage and of course, it's strengthened the truth, the trust, sorry we have on our data.
+[00:25:16] Um on The Fifth Element, of course on the regulatory side. Uh it's also a key benefits because now we have that comprehensive view on which we are
+[00:25:30] Are using kind of snapshots to make it also a very um a strong Reliance and shared Vision related to regulatory expectation.
+[00:25:42] And the last but not least is uh, we are continuing ourselves are ready for. Uh, AI. Why? Because we worked on having those data elements accessible, governed detail different. Uh, and so now, we are about to say, we can know provide that to, uh, llm platforms to agent, to whatever they will be able to rely on that comprehensive View.
+[00:26:15] And structured 1 globally speaking.
+[00:26:19] so, uh, I hope that uh,
+[00:26:25] You enjoy the session. I, um, en encourage you to, to come at the denodo Boost at 711. Uh, I will be there with the denodo team and for the few minutes that we are remaining, I can I'm open to questions, of course, and don't hesitate later to to come and see me.

@@ -1,0 +1,80 @@
+{
+  "summary": "The session discusses the challenges data leaders face despite investing in modern data platforms, highlighting issues with inconsistent metrics and slow data access. The speakers present a solution involving a universal semantic layer that centralizes trusted business definitions, significantly improving data accessibility and AI readiness. They share practical insights from their implementation of this approach at Dio, demonstrating its effectiveness in reducing complexity and enhancing operational efficiency.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Data Challenges",
+      "key_points": [
+        "Many organizations have invested in modern data platforms but still face significant data accessibility issues.",
+        "Inconsistent KPI definitions across departments lead to confusion and delays."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:04:03"
+    },
+    {
+      "order": 2,
+      "topic": "Understanding the Problem",
+      "key_points": [
+        "The architectural challenges create bottlenecks in data access and reporting.",
+        "Multiple handoffs and lack of shared definitions complicate the data workflow."
+      ],
+      "start_time": "00:04:03",
+      "end_time": "00:09:54"
+    },
+    {
+      "order": 3,
+      "topic": "Introducing the Semantic Layer Solution",
+      "key_points": [
+        "The semantic layer centralizes trusted business definitions, reducing the need for multiple layers.",
+        "This approach allows for faster data access and improved AI readiness."
+      ],
+      "start_time": "00:09:54",
+      "end_time": "00:15:12"
+    },
+    {
+      "order": 4,
+      "topic": "Operational Improvements and Lessons Learned",
+      "key_points": [
+        "The implementation led to significant reductions in engineering effort and consumption costs.",
+        "Key lessons include the importance of trusted access and the value of a semantic layer."
+      ],
+      "start_time": "00:15:12",
+      "end_time": "00:20:27"
+    }
+  ],
+  "key_takeaways": [
+    "Investing in a modern data platform alone does not guarantee effective data access.",
+    "A universal semantic layer can bridge gaps in data consistency and accessibility.",
+    "Reducing architectural complexity can significantly enhance operational efficiency and AI readiness."
+  ],
+  "entities": [
+    {
+      "data bricks": 5
+    },
+    {
+      "semantic layer": 6
+    },
+    {
+      "power bi": 5
+    },
+    {
+      "kpi": 6
+    },
+    {
+      "data hub": 4
+    },
+    {
+      "mosaic": 4
+    },
+    {
+      "data access": 4
+    },
+    {
+      "data products": 3
+    },
+    {
+      "data platform": 3
+    }
+  ],
+  "subject_area_id": "data_management"
+}

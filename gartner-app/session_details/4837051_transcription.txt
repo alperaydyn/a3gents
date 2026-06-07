@@ -1,0 +1,127 @@
+[00:00:04] Hi everyone.
+[00:00:05] You might have seen yesterday the uh, the, the the guest keynote. So it seems that uh by now today actually we have already touched our phones for like 1,000 time.
+[00:00:18] And uh that we have we are able to concentrate only for 3 minutes.
+[00:00:23] So I'm very afraid for my session here. I want your help. So please let's, uh, take a challenge together. We will put our phones for like, 30 minutes aside and try to concentrate. I know it will not be easy, but let's try together.
+[00:00:37] Um, so I'm allows I'm co-founder and CEO of agar data and AI solution and services provider with me.
+[00:00:45] He's the global digital operations system director at Loop. Today, we will explain to you how logo plus managed to transform. Its supply chain planning uh through uh AI.
+[00:00:59] so, if I tell you that uh manufacturing industry today is under pressure,
+[00:01:04] Would you be surprised anybody actually in the room is surprised.
+[00:01:09] No 1 and it's uh completely normal because this statement has been through forever and most probably will be true also in the future.
+[00:01:18] What's different currently is the type of challenges that manufacturing is facing but also a lot of other companies or Industries are facing.
+[00:01:27] We hear a lot for instance, about Supply.
+[00:01:30] Disruption demand moving, uh, very fast changing very fast. And uh, for instance, 90% of supply chain directors, stated that over the past 3 years, they have been through uh, major disruption in their uh, supply chain. 90%, that's really huge. There's also the impact or the, the big pressure on margins. Definitely also a big pressure on energy consumption.
+[00:01:56] Uh, efficiency and of course, uh, more and more demand for sustainability.
+[00:02:02] Consider all of this and let's now, look how the market is handling these challenges. So we see that uh, most of the markets is still with, very traditional Solutions, especially here, for instance, to do their
+[00:02:15] Production planning 35% are doing it through Excel and this is a conservative measurement. In some reports, I've seen 70% that's a very good for our business but so let's keep with the very conservative 1 35%. Another 60% is doing uh static MPS and only 5% are really leveraging AI in a in an efficient way.
+[00:02:40] somewhere between that 60 and the 5 5%, there is a 10% setting doing uh, Advanced planning systems
+[00:02:47] To that also is that those those systems are requiring, very specific skills to run them.
+[00:02:54] Human skills, definitely here. And so, this is also creating a dependency on
+[00:03:00] Resources and I guess at Google Plus Bernardo you have been facing some of these challenges. Yeah. So we we we touched the 3 so to give you an idea why people tend to use so much Excel. The the, the truth is that is very flexible. Everyone can fine-tune it, everyone knows how to work with Excel. So I consider my assumptions. I put my critical points there and I will be able to produce a line schedule. What we've seen and I believe common to all the companies is that the excels are a little bit biased. Let's put it this way because the output will be what the user or the planner make it to be and sometimes might not be the best 1. Another thing that is
+[00:03:45] very common is that very vulnerable to
+[00:03:48] Human error a typo. Uh, something like that, that will make that the solution of excel is not scalable at all. Sometimes, it's not even being possible to be used by a peer when the person goes on vacation. So, this Excel is very dependent. Like, all I mentioned in the resource that is doing.
+[00:04:07] The planning in the other hand, the mrps uh they are very demanding of the the human because they are very robust. They are scalable but they demand a lot, a lot of the constraints, the mrps put for example, like a safety stock. It's based on the demand. So every time the demand shifts or any time there is a change in the market.
+[00:04:30] It will have to be adjusted if not, it will become.
+[00:04:35] Let's put it this way obsolete. Not giving a proper output, and for this reason and we tested a couple of times for this reason. A lot of the times fail, it's it needs a lot of support and maintenance to keep the MRP running properly. So this brings us to the to the third uh, approach that is using Ai and to use AI. Let's give a little bit context.
+[00:04:58] First to, to logo plus. So we can explain a little bit where do we stand? And why did we think about AI to to move forward? So what is logo? Plus beyond the numbers? Uh, we were founded in 1976.
+[00:05:14] uh,
+[00:05:15] By Mr. Marcel bond in Portugal. Uh, with a unique line of thought. Why are their shipments and trucks of empty bottles being delivered every day to our clients? It's a lot of logistics costs. It's a lot of complexity, a lot of space taken, why wouldn't I be able to implement my Machinery? In-house the client and through the wall.
+[00:05:42] Feed those bottles to the filling lines. And this is how logo plus started with a unique business model that continues to be unique in the days of today, but comes with a plus that is we don't deliver only bottles, we don't sell packaging, we sell the sir,
+[00:06:00] Is how the bottle performing the line, how the bottle performs in our households, this business model, it's only possible.
+[00:06:07] For high volumes. Let's put it this way. So we are in fast consumer Market Goods. So we are in your all your households as a shampoo bottle, as uh,
+[00:06:18] Dish soap, as a fabric softener as the body wash. So these markets are demanding and, and this put us in a condition that, okay? If we are in this markets and you saw the numbers already as I was speaking, but just for you to have an idea 1 billion half a liter bottles,
+[00:06:38] Being shipped to a client. We are talking about 25,000 trucks of
+[00:06:45] Bottles empty bottles, moving around. So our business model is unique, uh, focusing a lot in the sustainability and focusing a lot in this demand. But bring some
+[00:06:54] Difficulties makes us dispersed. Okay, so uh, we have several sites all over uh, the place because we are inside of the clients. We are in different market, segments can be very in our milk bottles or yogurt, bottles can be personal care home care. So, have some specifics, uh, for example, so different Supply chains and and because we are so this person, sometimes we don't need the same structures everywhere. Perhaps the a plant is more complex with more sqs and all those things and I have a dedicated planner
+[00:07:30] Some other facilities might be less complex. And I have my production manager, executing my planning so
+[00:07:37] 1 of the things that we consider is we have a lot of data to be crunched. We want to scale because we are growing and we want to support the growth. And we know the planning specially in the Plastic. Industry is very demanding and you see the geopolitical situation that we are. Currently that makes us adapt very quickly. Uh, we also have to adapt to each 1 of us, going to the supermarket and buy something that someone didn't forecast properly. Uh, and so a lot of times we react, so how all of this, how can I make all of this possible with an idea? The plan is speak. Always about
+[00:08:15] The otif otif is on time in full the delivery, but we wanted to go further. We wanted to put efficiency in the equation. If I would make my production scheduling more efficient, meaning the sequence of products, I, if I would be able to reduce the raw materials, the energies that I'm spending, this would have a great impact, not only commercially speaking, but also sustainable, this is where we looked and said, okay, AI has a chance
+[00:08:43] Why not give it a a chance and see if he's able to, with all these constraints with all of these Dynamics? Would we be able? And that's no different than the rest of the market? We would be able to, to
+[00:08:55] Make front to these uh, challenge. So we invite the
+[00:09:00] Upguard to partner with us in order to fulfill these needs.
+[00:09:04] Thank you for that.
+[00:09:06] Um, so the approach was pretty, uh, agile. We didn't want to start with a big transformation of course. So we avoid to tackle a lot of complexities and parallel. Instead we were very focused. So we Define 1, business line, 1, uh, plant 1, uh, set of stakeholders to satisfy and definitely 1 specific business outcome, which is, uh, production planning at the same time. We wanted also to Define some limits for ourselves first. The the solution had to be non intrusive. Meaning it should not change anything in the existing systems and also it should not, uh, adapt anything on the physical assets.
+[00:09:45] And definitely no disruption also to operations.
+[00:09:49] We had to deliver very fast and less than 3 months.
+[00:09:53] And whatever value we are creating there had to be connected to real operations. So visible in day-to-day activities.
+[00:10:03] So and it was true was a good journey because first of all we were able to deliver on time. It's not very common with a digital demand that we are delivering on time. So the fact that we were able to deliver within the 30, the the 3 months was very well perceived by the organization and the organization also considered it's possible business case wise when we look to the to the results, the results.
+[00:10:29] Were good.
+[00:10:30] And the system was much faster than we was, we were used, you used to be. So what we have was is the output th trustworthy is the output something that I can rely on and consider as a good planning. So what we did during several days and we also did to the past so we have the opportunity to compare the AI agent planning towards against what was the real, uh, plan scheduled or what we run in the past and to also towards the future and when we identify gaps, the majority of the gaps have a human Miss either, the human was not able to detect that there were being too many changeovers in simultaneous and it was not possible or it was missing a raw material.
+[00:11:15] If there were no available, uh, space in the warehouse to run that way. So it was very positive. The results were consistency, so we were in condition to to move on.
+[00:11:26] So, I hope by now you're asking yourself, what is this magical solution? So uh we present to you agaria, so our AI powered engine to uh, to do production planning and resource uh, scheduling
+[00:11:39] It's, uh, composed of multiple technology layers. Optimization modeling machine, learning and G. And we have 4, uh, main uh, modules, uh, demand, intelligence Advanced production quality optimization and uh, and operations assistant which basically is a chatbot to support all the first uh, 3 modules.
+[00:12:00] If I focus now at the logo plus use case, uh, we we are using the advanced production planning and the operations, uh, assistant. So, uh, for production scheduling, it starts, of course, by collecting data from, uh, uh, operational systems. Uh, we collect also Master data, so, product, data assets, uh, uh, operation data such as the orders.
+[00:12:22] At the core of the production. Uh, scheduling sites, the optimization and scheduling. So, uh, uh, it's with the first layer, which is a constraint programming.
+[00:12:33] And this is to capture production rules, that's very important because whatever plan we come up with must be reliable.
+[00:12:40] So you capture production rules there. And uh so basically it's
+[00:12:45] Sequencing Logics, uh, could be, uh, resources limits for instance.
+[00:12:49] And for some uh, simple cases, uh the the constraint programming alone is a is is enough to come up with a good plan.
+[00:12:57] For more complex, use cases, you need, you need to have optimization uh models and also deep reinforcement uh learning.
+[00:13:06] Other functionality is the continuous learning. So there we are. Comparing the, uh, plan that the system is, uh, proposing versus what happened, really in production and the execution systems. And we compare these 2. So, uh, we get to see the, what, what happened, what was not taken into consideration, and we learn from that, and then we can get to refine.
+[00:13:30] Uh, the model.
+[00:13:31] The other 2 functionalities are focusing on human. So first explanation there, it's giving the ability for the human user to interact with the plan. So again, through this chatbot, ask questions, understand better the reasoning,
+[00:13:47] And also, put clear steps explained, clear steps about how the plan uh came to be.
+[00:13:55] When we started with the first versions of the, the tool, we didn't have that much explanation and we kept getting this feedback from users. We don't understand how the system came up with the plan.
+[00:14:07] Might be optimized but I'm not sure.
+[00:14:10] This is why we had to put a lot of explanation into it to gain Trust.
+[00:14:16] And you went in, the loop is uh, a different thing here. This is about letting the uh, the human play with the plan. So in a very graphical way, they would, uh, go and grab part of it, move it around and see in real time, how kpis are being impacted production kpis and also dependencies
+[00:14:37] This allows them to understand better how um finally the what is the the real reasons why the the system came up with the with the plan? They are changing the plan.
+[00:14:48] And here we are playing on the emotional side of things. So the plan becomes the really the the the plan of the planner.
+[00:14:57] So, on 1 hand, xplan is about trust.
+[00:15:00] A human in the in the loop is about making the plan their plan.
+[00:15:07] That's very nice, but the tool remains a tool. Now, we all agree on that, what's really key is how you are leveraging. It and this is where transformation becomes a reality. So, the the first good achievement, uh, we were able to, to accomplish is that with the find and we set
+[00:15:26] Uh 3 agents, each 1 capable of handling, its own technology within the Plastic industry. Uh in order to
+[00:15:36] Be set and to be scaled and the good news is yes, it was scalable. So we were able to grab an agent and use it the
+[00:15:45] It fast and use it in different geographies in different areas in different market segments, like I explained, we could be there. You could be personal care or home care, so the fact that this give us disability the leadership, bought it very fast. So the leadership was on board. This was a real business case. This would enable local plus to scale and grow, uh, with uh, in plants and business. In amount of plants, we have having these capabilities,
+[00:16:16] Available. So let me give you some concrete numbers. So to you to to have an idea, the ones that are not very familiar with planning. The way the planners work is that they take the demand. Consider if you
+[00:16:30] Assumptions. And then they start crunching the numbers.
+[00:16:33] A lot of the times the way this work is done is by iteration. I do some assumptions and then I have another set of assumptions and I have another set of assumptions if I would look and say with 3 sets of assumptions meaning 3 iterations, it could take up to a day of a person working. What about, if the, the raw material doesn't arrive at that time? What about if the person misses the shift and will not be able to to come to work and I will not be able to do the 2 change overs in parallel that I consider all of. This is time demanding and time. Consuming what the agent is capable, is crunch the numbers very fast and within less than an hour.
+[00:17:15] To give you the 3 scenarios outputs.
+[00:17:19] And that from that point, you are able to understand, okay, with scenario 1. These are where do I stand? Where where are the misses? I might have with scenario 2 and with scenario 3 and this gives you uh, a way that would be what the planner does. This is the 8 timeslot.
+[00:17:36] Sometimes it's a lot of effort to plan towards the future. Uh, do I know all the materials that I'm going to receive do? I know all the, it's too much data to Crunch so they would not look so far away. In this case, the agent gives us up to 10 days and up to 10 days. In some of our plants is sufficient to adjust the delivery of
+[00:18:00] For materials and make it more efficient.
+[00:18:02] The fact that consistently in different business segments in different, the data, the data, and the results of the line scheduling are reliable. The, the fact that a planner can now start touching several facilities, with several business case with several market segments, it's something that augments the planner meaning that I'm able, if in a facility I don't have a planer and I don't know, I don't have anyone that could do that work. Perhaps if they have more time available, I now able to have a planner doing several facilities at the same time without needing to have a deep knowledge of everything. Because the the AI is considering the majority of the
+[00:18:45] Constraints and don't forget what we mentioned in the beginning. That is the most relevant portion is we don't want only otif on time in full. We want to be efficient and the efficiency is key in our business model because we are not only in the other side of the wall of our clients. So we need to be fast, we need to execute properly, but we also need to be sustainable.
+[00:19:08] And if we look at the kpis, by the way, here we're looking at 8 times, uh, faster, uh, planning
+[00:19:15] those figures are definitely different from, uh, 1 customer to another and, uh, for another case, for instance, I've seen, uh, this, uh, being 36 times faster. So what's different of course, is the the setup, the complexity of the
+[00:19:30] The workshop. How they are organized around it? This is what definitely would give different result of of the optimization. I take also a very different example with an electrical manufacturing, uh, company there. We were looking at a very different kpi. This 1 was about throughputs
+[00:19:48] How are, how much are we able to increase? Uh, throughput. Basically, it's the really the capacity to, to produce more. And there we have reached at Peak, uh, uh, 30% increase, that's really huge.
+[00:20:02] So there we were working um specifically on the availability and the performance of equipment. This is inside a uh a broader uh kpi which is the overall equipment effectiveness.
+[00:20:15] That is I guess, well, known for for everyone in in manufacturing.
+[00:20:19] Now, if I look at the other functionalities other modules. So for instance, the quality optimization
+[00:20:25] this 1 is about predicting issues in production.
+[00:20:30] Before they occur.
+[00:20:32] So here, we're talking about the quality of products.
+[00:20:35] And for instance, with the, um, statement company we were able to reach an 80% rate of Errors detection before they occur.
+[00:20:45] That also, you can see how much impact it has, how much, uh, uh, impact it has on, on raw material, for instance, uh, saving role materials.
+[00:20:55] Demand sensing and demand intelligence. Sorry is about uh
+[00:21:00] New Generation, let's say of uh um forecast forecasting.
+[00:21:05] The previous demand forecasting or the traditional 1 was about looking at historical data, looking at repeatable patterns.
+[00:21:14] And try to come up with a plan based on that.
+[00:21:18] Okay. How what, how we demand with move in the future for me. Now, what we have done there is that we have added an additional layer, which is the demand sensing
+[00:21:27] So demand sensing is a deep research uh AI that is looking uh, through external sources for information that can impact customer demands could be, for instance, macroeconomics, uh, indicators could be promotions and um, uh competitors actions activities.
+[00:21:45] they would track this actually and
+[00:21:48] analyze it. See how this is? Impacting customer demand for my products when you combine it with the demand forecasting, the traditional 1. This is where you get a much more intelligent uh forecast.
+[00:22:03] You can imagine as if you're having here a team of Agents team of analysts working for you, 1 is specialized at analyzing. What are the dimensions that can impact my demand? Another 1 is uh, looking for information about it? Analyzing this uh this information and the third 1 is creating a nice report showing you how this is impacting. You
+[00:22:28] and here again, it was
+[00:22:30] Was very key to embed humans uh, in in the report. So what we've done.
+[00:22:36] We apply the chatbot definitely to to the reports. So the the user is able to question it understand how the system uh, came up with it. And by the way you can see here, the Asian reasoning logic. So if it's expanded here, you see every step about how the, uh, the Deep research AI worked on getting, uh, this plan this uh, this report.
+[00:22:57] So again, working on this trust side.
+[00:23:00] And also, of course, we let the human user challenge. It ask it to add New Dimensions or disregard some dimensions. And here again, we want the the human to be
+[00:23:13] owning the report.
+[00:23:15] I've seen in some, uh, uh, presentations, uh, during those days that, uh, you know, you you have the human in the loop and then you might reach a point where, uh, human is out of the loop.
+[00:23:25] What we have seen definitely is that to succeed and make it really happen in companies. We cannot be already looking at human out of the loop, a human in the loop is a very important functionality for adoption. And so back to, uh, the the use case of uh, logo plus uh, if you can share, please Bernardo about that option. Exactly. So I believe the million-dollar question is, can I be accountable for something that was done by AI? Uh,
+[00:23:55] And why does this question pops? And it will not be only for plan.
+[00:24:00] Planning. It will be for several things uh, within the the reality when we speak about leadership. That is not the 1 adopting is the 1 Thing.
+[00:24:11] If there is a business case, they tend to go, they see an opportunity, they tend to go.
+[00:24:18] So the change management on the leadership being adopted to new things, it was not an issue. When we look to to the user, I told you that I could have 2 profiles of user, a user that is
+[00:24:33] A planner, a professional planner and a user that is I'm doing other stuffs. And by the way, I also do the planning of the lines. I'm a production manager, but I need to do the planning of the lines for that.
+[00:24:45] person that profile, uh, that the
+[00:24:49] Planning is a side job. Let's put it this way. He found it very useful because someone is doing the work for me. So if the the things seem, okay, it's taking me work of my plate.
+[00:25:01] In the other hand, when I look to the professional planner and the reasons behind having a professional planner in our facilities has to do with complexity. A lot of times, a lot of skus uh clients very demanding and markets moving a lot. So there are constant a lot of meetings and these meetings. What they ask is, what about if we anticipate this production? Or what about if I would do this, or do that the planner when he would look?
+[00:25:30] An AI agent output.
+[00:25:32] He would not know what were the considerations. It took. He would not know to answer those questions so he felt that he was not in control.
+[00:25:41] So we have difficulties for the professional planner to engage with the tool. He would say, it's very accurate but when I go to a meeting it's not useful. And my days I have too many engagements with clients with suppliers and
+[00:25:58] it's difficult to use it. So when we challenge uh April with this and we saw that things were were an issue. The human in the loop came came to front and you saw Allah speaking, oh what about if you would be able to drag and drop and
+[00:26:15] Challenge, the planning that you have in front of you. So I don't need to Crunch all the numbers. I just go to a dashboard and I drag and drop the, the, the bar and see. Oh, is it more efficient? Do I avoid, do I have some gain or it's not possible to execute? This gives a sense of control. So if I go to a meeting, the problem that I was telling you a minute ago, instead of having to run a new scenario and see what would be the possibilities. I simply drag and drop. And within minutes, I will have the output saying that will not be possible. I would not have the raw material or so, so this change the paradigma. Uh, but the change management as you all know, in all the organizations is tough and and people
+[00:27:00] Need to adapt, and people need to learn to live in this new era.
+[00:27:05] So we have created this QR code for you. This is a quiz to test if you're paying attention. Now, I'm kidding. This is the Download Material about the use case. So feel free to do it. And there is much more actually to, uh, to share with you. So, feel free to come to our booth. Uh, uh, and uh, we can speak more about it. Thank you.

@@ -1,0 +1,61 @@
+{
+  "summary": "The session focuses on the critical importance of AI governance, emphasizing the need for structured approaches to manage AI effectively. It outlines three main components of AI governance: organizational structure, policies and controls, and scaling tools. The speaker highlights the significance of trust, AI literacy, and the necessity of iterative improvements in governance practices.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to AI Governance",
+      "key_points": [
+        "AI requires governance to ensure responsible use.",
+        "There are three main components of AI governance."
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:10:00"
+    },
+    {
+      "order": 2,
+      "topic": "Organizational Structure and Focus",
+      "key_points": [
+        "Focus on trust and AI literacy is crucial.",
+        "Different maturity levels require different governance approaches."
+      ],
+      "start_time": "00:10:00",
+      "end_time": "00:20:00"
+    },
+    {
+      "order": 3,
+      "topic": "Implementation and Monitoring",
+      "key_points": [
+        "Governance should support AI progress without becoming a bottleneck.",
+        "Establishing a code of conduct for AI agents is essential."
+      ],
+      "start_time": "00:20:00",
+      "end_time": "00:30:45"
+    }
+  ],
+  "key_takeaways": [
+    "Establish clear governance structures to manage AI effectively.",
+    "Focus on building trust and AI literacy within your organization.",
+    "Iterate on governance practices to adapt to changing AI technologies."
+  ],
+  "entities": [
+    {
+      "ai governance": 10
+    },
+    {
+      "trust": 5
+    },
+    {
+      "ai literacy": 4
+    },
+    {
+      "organizational structure": 3
+    },
+    {
+      "code of conduct": 3
+    },
+    {
+      "scaling tools": 2
+    }
+  ],
+  "subject_area_id": "governance"
+}

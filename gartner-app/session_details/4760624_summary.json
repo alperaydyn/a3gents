@@ -1,0 +1,103 @@
+{
+  "summary": "The session discusses Toyota's approach to data governance and AI implementation, emphasizing the importance of a robust data architecture and the role of data ownership within business domains. Terry Martin outlines the challenges faced in managing data silos and the transition to a centralized data platform that enhances data accessibility and quality. The presentation highlights the integration of data products and governance frameworks to support AI readiness and operational efficiency.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction and Overview of Toyota's Data Landscape",
+      "key_points": [
+        "Toyota operates in a complex environment with extensive data generation across its European operations.",
+        "The data and AI team is structured into four teams focusing on governance, product delivery, AI innovation, and engineering."
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:05:48"
+    },
+    {
+      "order": 2,
+      "topic": "Challenges in Data Management",
+      "key_points": [
+        "Data silos lead to duplication and governance issues, complicating access to reliable data.",
+        "Power BI has become a non-governed data warehouse, resulting in quality and trust issues."
+      ],
+      "start_time": "00:05:48",
+      "end_time": "00:10:30"
+    },
+    {
+      "order": 3,
+      "topic": "Data Governance and Strategy",
+      "key_points": [
+        "The strategy emphasizes 'Privacy by Design' and a single ingestion of data to avoid duplication.",
+        "Role-based access control is implemented to enhance data governance."
+      ],
+      "start_time": "00:10:30",
+      "end_time": "00:12:38"
+    },
+    {
+      "order": 4,
+      "topic": "Data Mesh and Product Development",
+      "key_points": [
+        "The data mesh concept allows business units to own their data domains and products.",
+        "A centralized data marketplace facilitates access to data products for all employees."
+      ],
+      "start_time": "00:12:38",
+      "end_time": "00:19:01"
+    },
+    {
+      "order": 5,
+      "topic": "Quality Control and Continuous Improvement",
+      "key_points": [
+        "Data quality is monitored continuously to prevent defects from reaching consumers.",
+        "The 5S methodology is applied to maintain data organization and quality."
+      ],
+      "start_time": "00:19:01",
+      "end_time": "00:24:52"
+    },
+    {
+      "order": 6,
+      "topic": "Future Directions and AI Integration",
+      "key_points": [
+        "Plans to scale AI readiness and connect all agents on a unified governance backbone.",
+        "Emphasis on human oversight in AI and data management processes."
+      ],
+      "start_time": "00:24:52",
+      "end_time": "00:32:21"
+    }
+  ],
+  "key_takeaways": [
+    "Establish a centralized data governance framework to enhance data quality and accessibility.",
+    "Encourage business ownership of data domains to foster accountability and effective data management.",
+    "Implement continuous monitoring of data quality to prevent issues from affecting operational processes."
+  ],
+  "entities": [
+    {
+      "data governance": 8
+    },
+    {
+      "data products": 6
+    },
+    {
+      "data mesh": 3
+    },
+    {
+      "role-based access control": 2
+    },
+    {
+      "data quality": 5
+    },
+    {
+      "data architecture": 4
+    },
+    {
+      "data marketplace": 3
+    },
+    {
+      "privacy by design": 2
+    },
+    {
+      "data silos": 3
+    },
+    {
+      "data engineering": 3
+    }
+  ],
+  "subject_area_id": "data_management"
+}

@@ -1,0 +1,85 @@
+{
+  "summary": "The session focuses on the challenges and opportunities associated with AI agents, particularly in quantifying their value and costs. It highlights the current state of organizations in adopting agentic AI and the importance of understanding the complexities involved in implementation. The speaker emphasizes the need for proper skill sets and investment strategies to successfully deploy AI solutions.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Current State of AI Agents",
+      "key_points": [
+        "87% of organizations have not put AI agents into production.",
+        "Investment posture remains conservative among organizations."
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:03:59"
+    },
+    {
+      "order": 2,
+      "topic": "Vendor Landscape and Challenges",
+      "key_points": [
+        "Vendors are not addressing the complexities of data architecture.",
+        "Monitoring tools for cost management are lacking."
+      ],
+      "start_time": "00:04:00",
+      "end_time": "00:09:00"
+    },
+    {
+      "order": 3,
+      "topic": "Case Study: Newton and AI in Debt Collection",
+      "key_points": [
+        "Newton developed an AI solution named Zoe to enhance debt collection.",
+        "Zoe aims to handle low complexity tasks while humans manage high complexity ones."
+      ],
+      "start_time": "00:09:00",
+      "end_time": "00:12:00"
+    }
+  ],
+  "key_takeaways": [
+    "Organizations are still in the early stages of adopting AI agents.",
+    "Understanding the cost and skill requirements is crucial for successful implementation.",
+    "Vendors need to provide more tailored solutions that address unique organizational challenges."
+  ],
+  "entities": [
+    {
+      "ai agents": 5
+    },
+    {
+      "agentic": 4
+    },
+    {
+      "investment": 3
+    },
+    {
+      "data architecture": 2
+    },
+    {
+      "debt collection": 2
+    },
+    {
+      "vendor": 3
+    },
+    {
+      "Zoe": 2
+    },
+    {
+      "Newton": 2
+    },
+    {
+      "cost": 5
+    },
+    {
+      "skill sets": 2
+    },
+    {
+      "financial services": 1
+    },
+    {
+      "real-time": 1
+    },
+    {
+      "modular approach": 1
+    },
+    {
+      "monitoring tools": 1
+    }
+  ],
+  "subject_area_id": "agentic_ai"
+}

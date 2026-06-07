@@ -1,0 +1,316 @@
+[00:00:05] Afternoon.
+[00:00:09] Space.
+[00:00:11] The final frontier.
+[00:00:15] Our mission to boldly go.
+[00:00:17] Where No 1 has gone before in this case, the AI Enterprise. And I appreciate the word Enterprises doing an awful lot of heavy lifting in that introduction just to get the star tech Trope in and
+[00:00:31] find more Scotty than Captain Kirk.
+[00:00:34] Um,
+[00:00:36] the whole session here for the next half hour is really looking at, how do we deal with
+[00:00:44] And navigate.
+[00:00:45] Some of these Brave New worlds that we are encountering.
+[00:00:51] There will be some definitional stuff of. What do we actually mean by AI first?
+[00:00:57] Um, and then I'm hoping to give you some ideas about how we can travel that new space.
+[00:01:06] And achieve.
+[00:01:08] some things that very few have actually been able to deliver, you know, the
+[00:01:14] No, 1 has gone before.
+[00:01:17] But I'm going to start with, oh, by the way, for those of you who don't know me, my name is Alan. Duncan I am 1 of the research analysts in our uh data analytics and AI strategy practice.
+[00:01:30] And all we are doing is supporting folks like yourselves, Chief, data analytics officers, uh, heads of data analytics AI to work out, what do we need to be doing? Why are we doing those things? How do we make them happen?
+[00:01:45] And we are in a very, very significant time of opportunity.
+[00:01:51] And uh I want to be able to give you some things to think about plan for and execute against, that will make sense of some of the the challenges that we're dealing with starting with.
+[00:02:05] This idea of being data driven.
+[00:02:10] if you go to your chief executive or your CFO chief,
+[00:02:15] Officer folks around you.
+[00:02:18] I'm sure the buzzwords of. Yeah, we want to be a data-driven Enterprise. We want to be a data-driven organization, right? We want to use information as an asset.
+[00:02:28] We want to make better decisions. We've all encountered people who say those kinds of things,
+[00:02:34] how many of them actually know what any of that means.
+[00:02:38] There we go. There's the nervous laughter that I'm looking for, right. The answer is they don't
+[00:02:46] it's nonsense until we make it meaningful.
+[00:02:51] In terms of what does being data driven mean? Now our research we did about 5 years ago. Now actually put real identif.
+[00:03:00] Viable characteristics on that.
+[00:03:02] Right.
+[00:03:04] Characteristic 1, we have a Workforce that is data and now ai literate, the understand and can interpret information in context, take action based on what they're understanding.
+[00:03:17] Do we have people who think and work and behave that way?
+[00:03:21] Not yet. Then what are we doing to get our Workforce to
+[00:03:26] that set of Expectations by hiring those skills, by training, our existing people by partnering with colleagues, and, and someone who can add
+[00:03:37] What are we doing with decision intelligence and decision making do we understand how the decisions that we take happen?
+[00:03:45] What are the conditions that we are dealing with?
+[00:03:49] What are the expected outcomes in the the possibly undesirable consequences? Very, very crucial to do that decision in engineering and decision intelligence. If I want to take that understanding
+[00:04:03] build into algorithms that then operate a semi-autonomously on our behalf.
+[00:04:10] The essence of AI, right?
+[00:04:13] Do we go back and check whether we got the results that we were anticipating.
+[00:04:18] That's accountability. Not to blame people and say, you're an idiot for making that decision. You're fired.
+[00:04:25] Maybe.
+[00:04:26] but rather being able to go and say, what did we learn from that and how
+[00:04:30] Does that inform the next set of choices that we make?
+[00:04:33] And so on.
+[00:04:35] if we haven't established that shared understanding of what being data, driven means,
+[00:04:41] How can we?
+[00:04:44] Validate. Whether we are actually achieving something or not. And how do we guide people through the change? That comes
+[00:04:53] To establish those capabilities and behaviors.
+[00:04:58] Some.
+[00:05:00] Of you will have been through this exercise in cultural norming and established a set of expectations and behaviors that then guide the choices that we make and allow us to evaluate whether or not we're doing.
+[00:05:15] Doing the right things.
+[00:05:17] Some of you, the folks with the nervous laughs are still having the conversations with people who don't understand the implications of what being data driven even really means.
+[00:05:29] Right.
+[00:05:30] Now, if that has been serving us, well, as a baselining of expectations, for those cultural behavioral Norms, this is what good looks like. Here's what we're aspiring to do. We meet those expectations in terms of the way we deliver and so on?
+[00:05:49] Then AI.
+[00:05:53] Makes it even more.
+[00:05:56] Complex.
+[00:05:57] because we have to Overlay, all of the
+[00:06:00] applications for artificial intelligence onto this data-driven View, and that actually gives us
+[00:06:07] 3, different postures that we need to pay attention to.
+[00:06:12] in terms of our
+[00:06:15] Aspirational appetite as an Enterprise as an organization. For how are we going to deal with these things?
+[00:06:22] Now, the work that we released in uh Symposium season, um just you know, October November last year, identified 3 postures for AI ambition.
+[00:06:38] AI cautious.
+[00:06:40] Don't really know much about this and we're not that interested. Anyway, our organ
+[00:06:45] Organization, whatever it is commercial or or or public sector is. We're anticipating that there's very little in the way of disruption. We can just keep doing whatever it is. We've been doing and everything will be fine.
+[00:06:58] In which case I probably don't need AI.
+[00:07:02] Except maybe some very, very minimal marginal gains here. And there.
+[00:07:09] Um, as 1 study in the um government in the UK, just put it recently.
+[00:07:16] Applying generative AI.
+[00:07:19] is gaining about 25 minutes per day of
+[00:07:24] Available time. Back for folks who are knowledgeable enough to
+[00:07:30] To use the generator V tools to which 1 of my colleagues said, well why don't they just move the coffee machine closer to the team?
+[00:07:39] Don't need AI to gain those. Get those productivity gains and just change the work environment and I get the same result.
+[00:07:47] Right? And everybody's happier along the way because they haven't got to mess around with these kind of new things.
+[00:07:53] Second possibility, the the posture of being AI opportunistic.
+[00:08:00] Where we have got some degree of aspiration.
+[00:08:06] We're still working on a Case by case scenario basis.
+[00:08:12] But there is more benefit.
+[00:08:15] Fit and value identified. We are probably clear about the use cases that we want to choose to pursue.
+[00:08:22] And a lot of those are about.
+[00:08:25] Tangible productivity gains not. Oh I've got 25 minutes back great I can have another cup of coffee but actually now I can help my sales. People spend more time actually talking to clients rather than having to do administrative stuff at which point, I think I would check whether the sales people are actually spending time with clients, right?
+[00:08:48] Good.
+[00:08:49] And then the
+[00:08:52] third posture.
+[00:08:54] Of AI first.
+[00:08:57] almost a philosophical expectation that says
+[00:09:00] That's where we're going to begin. There's an anticipation and an expectation.
+[00:09:06] That AI is going to be the solution in some way, shape or form.
+[00:09:13] What are the problems?
+[00:09:16] There are very very few. This is why we're saying final frontier that are very very few organizations that are at that stage of this is the posture, not only that they're adopting but they're successfully executing against that, that how they think and work and behave.
+[00:09:34] But you can see here, there's transitional.
+[00:09:37] View already. Even before we go into the detail that says I'm not stuck in a particular posture.
+[00:09:45] And the depending on what we choose to pursue, I can move from 1 to the next or at least if we're choosing to stay within a particular mindset and behaviors, then it's done more deliberately and mindfully.
+[00:10:00] Yes.
+[00:10:02] Which gives us the stimulus to say, so what do I do about that?
+[00:10:07] And I'm going to look at that in 3 different aspects. Firstly, what are the impacts of this AI first? Uh
+[00:10:14] View, particularly on us as data and analytic leaders and how does that translate into our uh, contribution to the organization to the Enterprise?
+[00:10:25] Secondly, how do I communicate that in a way?
+[00:10:30] That actually helps people understand why all of that matters anyway.
+[00:10:33] and then thirdly looking at some of the transitional stages that we need to go through if
+[00:10:38] that AI first posture.
+[00:10:42] Is a reasonable ambition.
+[00:10:46] To be heading for at some point.
+[00:10:51] And the impact star.
+[00:10:54] With the fact that we are all having to pay attention to this.
+[00:11:00] As far as at least, all of the research that we do is concerned the data and Analytics.
+[00:11:06] view is also now informed by the AI view to the point where
+[00:11:13] we shouldn't really be differentiated.
+[00:11:15] Data analytics capability versus AI capability. There's a integrated approach, right? And what that means is
+[00:11:23] that from a strategy and operating model perspective, I hope most of you are familiar with
+[00:11:30] the strategy and operating model framework that we've been guiding you with to help you do your strategic planning the strategy view, basically, answers the questions. What am I doing? Why am I doing that? And who am I doing it for?
+[00:11:47] And with the goals and metrics bit. How would I know if we've been successful?
+[00:11:52] Operating model view, more or less answers the questions, how are we going to do all of that and who's going to do the work?
+[00:12:01] Yeah.
+[00:12:03] In a nutshell.
+[00:12:04] If we have a clear and communicated and consensus view of what are we doing? Why, and who for and how are we going to do it and who does the work?
+[00:12:15] great, that allows us to make progress and we can differentiate
+[00:12:20] the things that we choose to pursue versus the things that we choose to leave alone.
+[00:12:25] Leave me alone and stop your moaning. We decided that that wasn't
+[00:12:31] Going to get.
+[00:12:32] Taken forward for a while.
+[00:12:34] All of that is now inflected by
+[00:12:39] AI almost every block.
+[00:12:42] On the model.
+[00:12:45] EI has an impact on our planning for it, whether it is in trigger and stimulus to. Well, there's no all of these new technologies. What could we do with them? Which is a strategic driver imperative all the way through to do. I apply agents on my metadata management, to help my data Architects, be more productive,
+[00:13:06] Or to help my business folks. Understand and interpret the information that we're providing through semantic layers, which can be self-generated and so on.
+[00:13:16] if you are not already thinking and planning for, how does AI inflect on my strategy and operating model
+[00:13:26] I mean, I'll go beyond your missing a trick.
+[00:13:30] It's a it's a necessary set of considerations.
+[00:13:34] Right.
+[00:13:36] Now.
+[00:13:37] What that means is.
+[00:13:40] I can take that strategy and operating model view with all of the elements of the Dome.
+[00:13:46] And I can map it.
+[00:13:49] Against my 3.
+[00:13:53] AI postures, right? If we are currently an AI cautious organization, then I would expect to see a set of characteristics about how we choose to configure our strategy and operating model,
+[00:14:09] That represents that.
+[00:14:12] Low adoption low participation posture.
+[00:14:15] Likewise I can see that in the ways that we are starting to approach things and the capabilities and capacity that I need to be able to fulfill a more opportunistic way of looking. Then these are the expectations that I'm Now setting.
+[00:14:32] And finally,
+[00:14:35] if I truly want to consider being an AI first Enterprise, that sets a whole bunch of expectations around how we approach things and what are we doing and why and so on which also from a day on point of view tells me the
+[00:14:51] Capabilities. That I need to be able to build and develop
+[00:14:56] now, you can see here, level 1, level 3 level 5,
+[00:15:00] You can see what I'm going with that. That is actually a maturity model here.
+[00:15:04] Yes.
+[00:15:06] I can take the maturity model view, where are we versus? Where do we want to go? What's my next steps map? It against all of the 18 characteristics of the
+[00:15:16] Strategy and operating model framework. And that basically now guides my delivery planning, as to what we're going to work on,
+[00:15:24] So there's my implications in terms of being able to engage a discussion and guide the choices that we make.
+[00:15:35] The posture that we are adopting and engaging.
+[00:15:39] In with respect to our AI ambition.
+[00:15:42] Basically tells me what I need to build into.
+[00:15:45] To my execution, with respect to the strategy.
+[00:15:48] And the operating model.
+[00:15:51] I've got to go through that exercise.
+[00:15:53] But I've now got Clarity with folks and I can almost both sell and educate at the same time to bring them all along with me.
+[00:16:02] Yeah.
+[00:16:03] we just go through that exercise together and out comes
+[00:16:07] Where are we going next?
+[00:16:12] So now we have to have the discussion about how do we turn that into. So what
+[00:16:21] Right.
+[00:16:22] We want to.
+[00:16:24] Live long and prosper given that the average 10 year of a cdao is 2 years.
+[00:16:30] At the moment.
+[00:16:31] Right? If we're going to prosper, we've got to live long enough, to be able to do so. So let's look at how do we parlay that strategic planning?
+[00:16:43] Process taking the AI postures into account.
+[00:16:47] So that it becomes something that actually turns into everybody is.
+[00:16:53] Recognizing.
+[00:16:55] What we've achieved?
+[00:16:59] The data ready for AI piece is therefore hugely important.
+[00:17:06] difficulty with foundational stuff is
+[00:17:09] nobody appreciates the hard work that you've put in.
+[00:17:13] They just want to see the results back.
+[00:17:15] So we as Leaders here, need to be able to build the connection between we've done, all of this hard work. We've created all of these uh abilities to govern our data so that it feeds into the algorithms and the algorithms are transparent and documented and they fed into usage. Adoption that the business processes have changed and so on.
+[00:17:38] And there's my justification for why I need another 15 resources and 6 months.
+[00:17:45] Right, our research is absolutely clear that doing the work on AI data readiness.
+[00:17:55] Translates into.
+[00:17:59] Measurable.
+[00:18:00] Business result miserable business, outcomes.
+[00:18:06] but the general patterns that that is so does not necessarily mean that we've got the narrative for our own environment with our own
+[00:18:15] business leadership colleagues, right?
+[00:18:19] This has always been hard.
+[00:18:21] or so, we think
+[00:18:23] Right? And I hear a lot of us, you know, decide amongst you who you might be. I hear a lot of people almost to a oh it's so terrible. They won't invest in data and analytics and AI.
+[00:18:34] Write my budgets being cut. Whoa is me
+[00:18:37] Rather than saying, okay, that's on me to tell the story better.
+[00:18:43] Right. And
+[00:18:45] If I've told the story better and made those connections than, if the business colleagues, still decide not to invest, then now that's on them.
+[00:18:53] But we made choices and that our consequences from those choices.
+[00:18:57] so, the way out of this,
+[00:18:59] in terms of being able to make those connections,
+[00:19:03] Is value stream mapping?
+[00:19:07] Quick. Sure hands.
+[00:19:10] hands up, if you have heard of value stream mapping as a set of techniques,
+[00:19:16] that's about how Keep Your Hands Up.
+[00:19:18] You know, a little bit of exercise before lunch.
+[00:19:21] Right. Keep your hands up. If you are actively applying value stream, mapping techniques to the work that all the hands disappear.
+[00:19:30] Mhm. Alright.
+[00:19:32] Secret superpower for us all.
+[00:19:35] Is being able to show the value streams and the connections between. Here's the work that we are doing and here is the business outcome that it supports.
+[00:19:45] And that's a many to many relationship because we can do some work on our
+[00:19:51] Data Lake upgrade or on our rolling out of AI governance to show that there is transparency in the algorithms that we've just coded.
+[00:20:03] Through to. And that gives us now, automated route scheduling for our drivers or that gives us the ability to do predictive maintenance schedule.
+[00:20:15] On which pieces of our uh, infrastructure and equipment. Do we uh
+[00:20:20] Take out of service and when or how do I reconfigure my customer contact center connect. Um,
+[00:20:28] resources to be able to provide better service to my citizens of of
+[00:20:35] our government services.
+[00:20:36] And it also allows me to be able to say, well, this is why the chat bot that we've built, as a allowed us to be able to deliver more.
+[00:20:44] To our clients or or citizens.
+[00:20:47] without having to add more staff and Workforce, blah, blah, blah, blah, blah, whatever the use case is whatever the scenario is
+[00:20:55] What resources does that? Consume what work needs to be done to deliver the outcome?
+[00:21:00] And then the other direction, what outcomes do we want to achieve?
+[00:21:04] Therefore, this is the work that needs to be done. Therefore these other resources that are required
+[00:21:09] All right, the whole value stream mapping hugely important and Brilliant opportunity to be able to build those narratives.
+[00:21:19] So that people understand, not just what we're doing because they don't care about what we're doing.
+[00:21:27] We should.
+[00:21:28] But it has to Parlay into, and why does that matter?
+[00:21:32] Right.
+[00:21:35] Get on with this, I want next year, when we're having this conversation, I want everybody's hand up saying. I've heard of value stream, mapping, well, there's no plausible deniability anymore. You just have
+[00:21:45] I want to be here saying.
+[00:21:48] We're all doing it.
+[00:21:50] good, which then leads us to and
+[00:21:53] What are the steps that we need to go to to make it? So and I said, a moment ago, level 1 level 3 level 5 with the 3 map postures well, it shouldn't be too much of a surprise to say that if I'm going from um, the
+[00:22:12] AI.
+[00:22:13] Cautious to the AI opportunistic.
+[00:22:17] Posture. Then I need to go through a transitional State. There's my level 2 in my operating model.
+[00:22:27] Right, my maturity model.
+[00:22:29] I have a.
+[00:22:30] Different set of conditions and capabilities that are required to help me go through that transition. By the way, the full mapping of
+[00:22:40] all 5 of these level states are in the appendix of the pack. So you can see there, what we've done to map out all the 18 characteristics of the day. So if you are an AI cautious organization,
+[00:22:53] What are the characteristics look like if we're in this? Transitional State towards opportunistic.
+[00:23:00] And so on, right and the same thing applies, if I'm already an opportunistic organization with some use cases that we're implementing and developing capability.
+[00:23:11] And becoming an AI first organization.
+[00:23:15] Is something that we are aspirational towards.
+[00:23:18] Then I can build out my understanding of the transitional capabilities that I need to work on.
+[00:23:25] And the scenarios and ways of thinking and working that we need to adopt and apply and the resources that are required to do that. That take me through.
+[00:23:36] That.
+[00:23:38] Phase of transition from opportunistic to AI first and into then. Okay, we are now at that level 5 maturity world class leading Enterprise that nobody currently is
+[00:23:54] Again, none of this is particularly challenging intellectually.
+[00:24:01] As long as we lay it out that way.
+[00:24:05] And it also means that anything that we choose to do is very, very clearly mapped out in terms of what we're doing, how it fits where the impact is
+[00:24:14] And I'm using this language of a change of ways of thinking, and working and behaving, because actually, that's all of this really represents.
+[00:24:24] Is Clarity of intention and purpose are about.
+[00:24:30] The ways we choose to think and work and behave individually and collectively.
+[00:24:36] Yeah, that's not rocket surgery.
+[00:24:39] but it is deliberate and with a plan and we're bringing folks with us with the clarity of
+[00:24:45] The show you're working as to, how did we work out?
+[00:24:49] Our expectations and and Road mapping.
+[00:24:54] Good.
+[00:24:56] So when I take all of those pieces of the puzzle and put them together,
+[00:25:01] And I go through that strategic planning exercise. Looking at my day job, looking at my expectations and postures looking at where we are at as a transitional state from 1 Post to another
+[00:25:14] What I end up with is a strategic planning approach.
+[00:25:19] which grounds Us in the
+[00:25:24] where we want to be.
+[00:25:28] takes into account, the
+[00:25:30] Capabilities that are required to get us there.
+[00:25:35] And whether we have them or not.
+[00:25:40] And then, we have not a Choose Your Own Adventure.
+[00:25:47] So much as a decision.
+[00:25:49] On how fast.
+[00:25:52] Do we make those transits from 1 state?
+[00:25:58] To the next.
+[00:26:00] When do we do it? How much do we invest in it? How do we track? Not just programs but outcome enabled by programs and so on.
+[00:26:11] Now, some of your organizations are wanting to go.
+[00:26:15] At warp factor 8.
+[00:26:18] Right.
+[00:26:19] Some of you may not necessarily even be
+[00:26:23] booting up the engines yet.
+[00:26:27] I don't care.
+[00:26:28] but what I want you to all do is be in conscious and mindful and deliberate about
+[00:26:36] The journey through the.
+[00:26:39] AI space time that we're going to meet.
+[00:26:42] Based on understanding where we are right now.
+[00:26:47] And what speed of?
+[00:26:50] Travel.
+[00:26:52] To the next.
+[00:26:54] Posture to the next.
+[00:26:57] AI planet in the ecosystem.
+[00:27:00] Yeah, not so hard. Not so difficult.
+[00:27:04] As long as we think it through and we are clear in that approach so that we can help other colleagues around us also participate in that clarity.
+[00:27:17] Good.
+[00:27:19] so,
+[00:27:21] I said at the start, I wasn't
+[00:27:23] Captain Kirk.
+[00:27:26] maybe I can be your jean look pickar here, though, in terms of, they make it so
+[00:27:33] because,
+[00:27:35] We've a outline now.
+[00:27:38] Some clear actions that we can take right now.
+[00:27:43] To be able to.
+[00:27:45] Take this forward. Firstly, we have to do the analysis.
+[00:27:48] The exact self-examination.
+[00:27:52] of understanding what planet we're currently on, you know, what posture are we currently at in terms of the
+[00:28:00] um, cautious or opportunistic or
+[00:28:04] Maybe there's somebody in the room who would say, yeah, I am in an organization that is already AI first, if you are, I would love to meet you after. Please come and shake my hand and now I know I will shake yours right but we can do that.
+[00:28:20] Secondly, we can map that posture against the strategy and operating model framework to see where AI impacts us.
+[00:28:29] And where?
+[00:28:30] We want AI to impact us.
+[00:28:34] Then we can look at the transitional stages. And what capability do we need to build to take us through from 1 currant?
+[00:28:43] State to the next.
+[00:28:47] and finally, we need to do that value management and value stream view as a fundamental behavior for us as data and analytics leaders, cdos and so on,
+[00:29:00] So that everything we're doing is Quantified and communicated, even if it's only directionally. So,
+[00:29:09] so that we are able to show that all of the hard work and effort that we're
+[00:29:15] In.
+[00:29:16] Is actually translating into results that our stakeholders.
+[00:29:23] Would care about.
+[00:29:27] Takes a takes time.
+[00:29:30] Takes deliberate and conscious activity to do these steps.
+[00:29:36] But if there's anybody in the room who
+[00:29:39] Consider themselves, not able to take these steps.
+[00:29:44] Then good luck. You may be going to be in 1 of those.
+[00:29:48] 2 year. 10 year. Roles, I hope.
+[00:29:51] Conversation we've had today means that that is not going to be so.
+[00:29:57] and I wish you all success and
+[00:30:00] You know, brilliant travels on your journey to becoming an AI first Enterprise.
+[00:30:09] Good luck.

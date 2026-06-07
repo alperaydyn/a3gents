@@ -1,0 +1,270 @@
+[00:00:03] Good afternoon. Welcome everyone. I'm really excited about this topic and I hope you still are after probably 3 quite exhausting days. So thank you for showing up.
+[00:00:13] Um, for the next, uh, by now 29 and a half minutes, we're going to talk about how you can tell great stories with data.
+[00:00:24] How these continue to be relevant in today's world?
+[00:00:28] How these will provide a return on intelligence and a continued return on intelligence. And of course what you're all waiting for how generative AI can play a positive role in this as well as the dangers. Uh for this my name is Yoon. I'm going.
+[00:00:45] To talk you through uh 3 sections 1 is where we're going to get grounded around. What data storytelling actually is going to give you an example and we're going through uh uh gray data story.
+[00:00:58] I hope. Uh, then we're going to look uh, we get grounded again about how uh generative AI can play an important role in data storytelling, but also about what some of the dangers are and the key message as you have already seen is is it really demands, AI, ready data, it reminds governs data.
+[00:01:19] And then finally, you know, uh, using generative AI for data storytelling is not something futuristic. It's something that's already embedded in a number of tools. So,
+[00:01:30] Let's quickly take the last few minutes to go through some of the building of the storytelling using Genai and what you can see in uh in different tools. We randomly selected some of the tools that already have these capabilities, right
+[00:01:43] So that's what we're going to get into. So what is data storytelling? Well,
+[00:01:49] I'm going to guide you and I'm going to give you the 5-step data storytelling framework. We use at Gartner.
+[00:01:58] And that you can use as well. And in order to explain how this work works, I want to tell you a data story.
+[00:02:06] Now, I've I've contemplated a bit about what, uh, what do I would do this? Because my story basically starts with the disaster, but I think
+[00:02:15] Think it will explain to you in 5 Steps. How The Story Goes from the disaster towards the role of data into the ultimate resolution.
+[00:02:26] I can imagine uh everybody remembers Katrina which is the hurricane in 2005 that created Rampage. I think most of you uh would still remember some of the images. It wasn't a great thing. But what we do know is that the data that was provided by NASA at the time transformed the crisis response.
+[00:02:50] Uh, across these kind of situations. It guided Rescue It, guided recovery and it enabled future resilience for a few.
+[00:03:00] Future storms and future, uh hurricanes and it proved in the end that watching the skies, truly protects lives.
+[00:03:07] So I'll I'll be telling you. These are the 5 parts, I'll be telling you the data story in 5 acts. Which each relate to 1 of the parts in the framework and 1. I've told those I'm going to go to the framework.
+[00:03:18] And I'll show you how the 1 was related to the other. So, you'll see how the story unfolds and how also your data stories could be set up in the same way using the same approach, right?
+[00:03:31] So we start with uh, act 1.
+[00:03:35] When the sky is turned ominous.
+[00:03:37] So, of course, what happened, Katrina came over nobody expected. It was going to be so bad, and what happens in the end, you know,
+[00:03:45] The local emergency services were overwhelmed by what has happened. Communication lines broke down.
+[00:03:51] Levies were breaking. And before we knew it before, they knew it, the whole, uh, uh, the whole, um,
+[00:04:00] New Orleans area basically disappeared on the water right with Chaos on the ground and visibility almost near zero.
+[00:04:09] They needed some kind of a solution some kind of a response to get a hold of the situation to get it under control, right? Okay that's act. 1 part, 1 of the story.
+[00:04:19] Which uh, looks at what basically the issue uh, has been now.
+[00:04:25] Next door. Next step Act 2. It's about NASA's disaster.
+[00:04:30] Response.
+[00:04:31] So without really this good visibility on the ground and they needed some kind of an eye in the sky which is where NASA, the activated, the earth science disaster program. It was originally built to monitor climate change.
+[00:04:47] And then they realized that maybe climate adaptation is something they should also cater for. So they collected the satellites above the area and they started to, uh, record, real live data. And to bring that to the local facilities, they generate the dynamic flood maps.
+[00:05:03] They identify the evacuation zones, they identified safe zones. For example, they use heat mapping and when they saw that, there was some heat spots. They knew that there were people who needed to be rescued
+[00:05:15] Because of course, human bodies create worms.
+[00:05:19] and this basically, um, gave
+[00:05:23] some visibility where before there was no, visibility visibility came with the data from NASA.
+[00:05:30] Act 3.
+[00:05:31] Recovery recovery here began with data. So, as I said, a lot was flooded over 80% of New Orleans, was was flooded with, uh, with water in the first 48 hours.
+[00:05:45] We had things like the flood water, mapping, flood water mapping, by the way, was important because, um, salinity intrusion came from the sea.
+[00:05:54] And people who are relying on the the rivers for drinking water. Of course they uh were
+[00:06:00] Confronted with sea water with salt water, which of course you know is not drinkable. So they could also determine where uh the solidity came in and where the drinking water was still safe for people. So ultimately using all of this, we had the system in place that starts with data, which can be used throughout the story to create, basically mitigation solutions for the future.
+[00:06:23] Act 4.
+[00:06:24] Brings us from data.
+[00:06:27] To Hope.
+[00:06:29] So, this is basically where we start transitioning away from the tragedy, uh, starting with the data and our analytic Solutions and basically move from the disaster itself toward hope.
+[00:06:40] so for survivors nasal, NASA satellite images became
+[00:06:45] More than technical data, they became really beacons of Hope.
+[00:06:49] We saw emerging emergence of New Greenland areas, which meant, of course, that there are the flooding was going away. And the restoration block by block started happening of the City of New Orleans.
+[00:07:01] And they offered reassurance that Discovery was on the way and that basically, for the people that were in this precarious situation, there was light at the end of the tunnel.
+[00:07:13] 1 New Orleans, citizen reflected. And I'm going to quote it. We felt abandoned on the ground but NASA's Eye in the Sky. Showed us that we were not alone, they met our pain.
+[00:07:24] But also, our path to Healing.
+[00:07:27] Okay, let's not make it too dramatic. And go to act 5.
+[00:07:30] Uh this is about conclusions we take from it, right? A smarter safer future.
+[00:07:36] So what happened there for the first time became something that became a monitoring system. So now there is an AI powered monitoring system of the whole Southwest Delta of the US and when hurricanes are coming in, they can still create Havoc, but rescue operations are coordinated.
+[00:07:53] And there is always visibility based on the data. Now, they can even predict, uh, flood days in advance and start evacuating some of the areas where they're thinking that data will be, uh, coming.
+[00:08:06] So in by 2026 by now, they have basically created some kind of a digital twin of the Mississippi Delta.
+[00:08:13] uh, and
+[00:08:15] Say a global model for resilience and for climate adaptation.
+[00:08:19] Okay, so that's the story.
+[00:08:21] That 5 Acts.
+[00:08:23] Those 5 acts relate, as I said, to the 5 are of the data of the data storytelling framework. First is visualization.
+[00:08:32] Well you would have guessed. Of course, this is about the satellite maps that made the invisible visible, right? Flat extends rescue spots Etc. The second part of the story is about narration, right? So, the story follows, a clear Arc from Hurricane to recovery from patterns to AI based prevention.
+[00:08:52] The third 1 is about context.
+[00:08:55] For those who still remember what was said at the keynote context, really becomes key.
+[00:09:00] Right.
+[00:09:01] It's also here context is important because this story is also on the background, about the urgency of climate adaptation. We saw emotional engagement
+[00:09:11] I gave you this quote, from the citizen, which is, of course, a true quote.
+[00:09:16] It's about the lift experience. It's about the natural trauma.
+[00:09:20] This is here to exacerbate, the story and humans. Sometimes need emotions in order to be persuaded about the strength of a data story. And finally, it's about the decision of options and the decision options. Here are, of course, about making sure that uh, policy actions were taken. And that now there is this prevention system to make sure that these things don't happen again.
+[00:09:42] Right.
+[00:09:43] 5 steps to create a.
+[00:09:45] Powerful story with data.
+[00:09:47] Okay, that this looks like a story very far from us, but maybe let's go into something that is a bit more concrete and let's try to, let's try to apply it uh, to, to the best possible way. So um,
+[00:10:00] let's imagine this Bank.
+[00:10:03] You know for banks trust is super important. So we have a bank, let's call Bank X and Bank X. They were trying to understand their customers trust and they wanted to see this and they sent out the survey in 1 year and the same survey and the next year's and they probed around 30 variables.
+[00:10:21] Let's let's stick to the 5 most important for now. Those are the ones that you have on the back of your screen. We go, we go into those, right? So what
+[00:10:30] Happened. As in most organizations, they asked the data scientists. Very good data. Scientists to conduct the surveys to do the analysis and to come out with the result. This is what the data scientists came up with.
+[00:10:45] Anybody any idea what the action is?
+[00:10:49] No me, neither me neither but we cannot say what, you know what? We see. We see some data, probably a copy paste from an Excel, right? But it's not that bad. It, it used color coding.
+[00:11:02] You see dark blue is like the first year. Green is the second year importance has different levels. We see from very strong to very weak. All the data is there, right?
+[00:11:12] But that is notoriously hard to read if I show that.
+[00:11:15] To an executive or if you shows showed this to an executive, it's basically not going to trigger any strong decisions.
+[00:11:25] And this is because of course storytelling principles were not, not really applied. We need to do something with the data, visualization agreed.
+[00:11:34] Okay, so for better visualization. And if you uh add is basically the data becomes consumable, it will start to resonate, it will start to drive actions and it will start to create impact.
+[00:11:51] So why do we put this? Why don't we put this on an access? This is a visualization option that uh that we show that we chose.
+[00:12:00] so what you see here is now that these 2 factors that we had before importance and performance, they have put into a 2-dimensional uh not saying as a Magic Water, 2 dimensional type of
+[00:12:10] Schedule. Where basically,
+[00:12:12] the more you go up, you have performance, the more you go to the
+[00:12:16] Right? The more the more important that you have, right? So this provides a bit more insight into what was in the data originally, right? So
+[00:12:28] Adding the script of differentiation will make these visualizations a little bit more consumable. We have the quadrants we have some of the data labels, we have some of the axis, we have some of the
+[00:12:39] color coding.
+[00:12:40] Right.
+[00:12:43] but of course the first question
+[00:12:45] Should not only be the visualization but it should be. What exactly are we looking for?
+[00:12:50] Right.
+[00:12:51] We need to develop a strong narrative part 2 of the story.
+[00:12:56] We start with, basically, what are we looking at?
+[00:12:59] And we follow the Golden Rule.
+[00:13:02] No visualization goes undescribed. If if it's not described then you know the the the data Savvy person may understand all the rest of us, wouldn't certainly not the business executive who wants to take decisions based on this this Insight on the survey, right?
+[00:13:17] So well, let's look at our picture again and here.
+[00:13:22] This is describing each of the quadrants, right? So what we basically have done is sustained is the block where, uh, perform
+[00:13:30] Is very high and importance is very low. Let's keep it that way, but it's not the most important thing and it drives us all the way to action where we see that, of course, performance is low.
+[00:13:40] And importance is seen as very high by the clients.
+[00:13:44] So this makes it a little bit more, relatable, a bit more consumable, right? People will need to look at the action quadrant, rather than they'll need to look at the sustained quadrant.
+[00:13:54] It will make it more relatable, more consumable, more impactful, and more understandable.
+[00:14:00] And uh, if it is described as I said, no narration goes undescribed, here is the description. So there has been some shifts between the measured kpis recommendable stays in the same quadrant while data security and protection is moving from sustained to action.
+[00:14:14] At least we
+[00:14:15] You know the what but we want to know why it is happening, right? If data moves from 1 part to the other part, there's probably a reason behind it.
+[00:14:25] If you don't know, the reason then, basically, you're navigating in a blind way, you don't want that. So we need to know why.
+[00:14:33] It is happening.
+[00:14:35] well, the condition, the general context, in this case is that they were quite difficult competitive circumstances and that leadership did not
+[00:14:45] So let's go at the visualization again.
+[00:14:48] Let's look at it again. What we could maybe do is do some kind of uplift analysis and maybe some of you are familiar with this. So basically we were saying that uh 1 that goes up when the performance goes up. It's basically
+[00:15:00] A good thing, right? And performance goes down as a bad thing.
+[00:15:03] At the same time, we can look at the other dimension and we can see that some of the issues have become more important, that customers are caring more about some of the issues that they're caring about others.
+[00:15:14] So if we do this, this kind of T Test analysis will all of a sudden start spotting what is happening, right?
+[00:15:21] So this is the explanation. So just in this specific case there was a security, a significant drop due to a security breach
+[00:15:29] And the customer support that dropped because they Implement some kind of an AI bot. And some people got a bit, uh, Fed Up by the quality of the AI Bots and didn't have the same, uh, Customer Center experience. So that happened in this case,
+[00:15:45] all right, so at least
+[00:15:46] We see what and we see why.
+[00:15:50] That doesn't mean that we are having all different solutions but we need to go towards the decision point. The idea is that what came out of these surveys is actionable.
+[00:16:02] And for that, of course we must go from inside to action, which is where both emotion and where decision options come to the front.
+[00:16:11] so, looking at this example here, well, we already know that the focus is probably on
+[00:16:18] What should the focus be on?
+[00:16:21] Customer support.
+[00:16:24] Yeah, that's probably the big thing, right? That's, that's where they, that's where they need to focus on the most. So, maybe,
+[00:16:30] We could just point that out, more Improvement is needed in the customer center and just to make it very clear for the lazy executive who had received 25 different of these slides with all kinds of data. We even put a little line around this
+[00:16:46] So, there you go.
+[00:16:48] Look how far we've be we've come.
+[00:16:51] It's quite a journey, right?
+[00:16:54] so,
+[00:16:55] We basically have the complete story now, including the what the why, as well as the decision of options.
+[00:17:02] And this, this is right at the levels where data is able to stand on its own, the data is here consumable.
+[00:17:09] By people who are not Bankers like me.
+[00:17:13] Huh. And by people who are
+[00:17:15] are not data scientists, like, I used to be
+[00:17:19] so,
+[00:17:20] We now have all the business knowledge and we have the same insights as everybody else in the room.
+[00:17:25] This journey is a journey. That should be done often and is not.
+[00:17:29] Very strange.
+[00:17:31] Bridging the Gap.
+[00:17:32] Between data experts.
+[00:17:35] and stakeholders is what data storytelling can do if done well,
+[00:17:40] A gardener survey showed.
+[00:17:42] that if we look at analytics performance,
+[00:17:47] And we compare this to the Investments and the attention that organizations give on data storytelling.
+[00:17:55] Then the difference can be huge. Look, we go from 51%.
+[00:18:00] 70%.
+[00:18:03] Can you imagine how much effort is taken into making sure that from all the different systems that you have in your organization? These data that the data scientists collected are, uh, how many time it cost to get to these data?
+[00:18:18] And then the data was not consumable just because people did not do the processing, people did not do some kind of a pre- digestion on the data.
+[00:18:27] And this happens in many organizations, it still happens today.
+[00:18:31] So as I said, data storytelling is a bridge.
+[00:18:35] Each of the 5 Steps, allow us to go from heavy code to notebooks to easy dashboards and all the way to go from things like equations and Tech.
+[00:18:45] Technical terms things that are self-evident to a good data scientist and make it easy and consumable in layman's terms.
+[00:18:53] And make it aligned with the audience. Write a data analyst will probably
+[00:18:59] Uh, need a bit, want a bit more data.
+[00:19:02] But if you present this to the board, you know, in 30 seconds people will understand what it is and what actions need to be taken.
+[00:19:09] So what did the bank do the bank launched of course in an initiative to see how they could increase customer satisfaction and what action they could take on their customer center with a more intelligent AI bot?
+[00:19:21] All right, so now we are grounded on what data storytelling is.
+[00:19:24] we will be talking about the
+[00:19:27] uh, the topic of
+[00:19:30] Every session of every conference which is of course G and we're going to see that data storytelling demands.
+[00:19:37] AI ready?
+[00:19:39] govern data and we'll see why
+[00:19:42] Okay, so I I started with an experiment. Okay.
+[00:19:45] Do you know that there is a lot of books and data storytelling?
+[00:19:51] I think it's 1 of the topics on which you find the most books because it's compelling and and visualizations are nice, Etc. And you can do a lot with data visualization, very nice books. So
+[00:20:01] I also uh internal Garner AI, you know? Just I want to create a book on data storytelling. Could you make me a cover?
+[00:20:10] This is the cover that was created.
+[00:20:14] Right.
+[00:20:15] I think you've seen those kind of things before.
+[00:20:19] Um, well.
+[00:20:21] Let's again.
+[00:20:22] Look at what we see.
+[00:20:24] We see a lot of
+[00:20:26] I think it's quite a cool cover to be honest.
+[00:20:28] There, there are, there is a lot of um, you know, visualization charts, lots of colors. It looks like there is a lot of insight into this book, however, you already spotted it. The data are basically
+[00:20:41] Not very compelling at the words are not very compelling and this will not be believable so I try to do it another time. Second time, maybe it works better here. I asked to develop a cover.
+[00:20:53] For, uh, what data storytelling would look like in the future?
+[00:20:57] and again it did it did it did a fairly good
+[00:21:00] Job. You know, it really looks futuristic. Does it look futuristic? Do you? I think it. I think it looks quite nice.
+[00:21:06] Like a man looking into the future seeing all kinds of advanced civilizations. Going to the Stars. Fantastic.
+[00:21:13] Uh, but in terms of text, it's even more gibberish uh, than than we saw before.
+[00:21:19] so, the point is here,
+[00:21:21] That, let's say, I'm pushing the book with the right cover, right?
+[00:21:26] I don't think I'll sell a lot.
+[00:21:29] We agree, right?
+[00:21:31] At the same time, I think that, um, the book will maybe have a bit of press.
+[00:21:36] But not the press that I was looking for.
+[00:21:39] so the point of all of this is, of course that just letting AI being used,
+[00:21:45] For whatever, uh, is maybe not always a good idea. So should we get completely rid of data storytelling as a use case for artificial intelligence for generative AI? Well, the answer to that is definitely no.
+[00:21:58] So Garden did an analysis. And uh we looked at what are some of the agenda AI capabilities for uh let's say for data science team for analytics and business intelligence.
+[00:22:08] And look here.
+[00:22:10] Data storytelling is 1 of the 3 balls here on the top left.
+[00:22:13] We really see that there is a lot of potential for data storytelling and for using Ai and AI agents uh, to help with data storytelling.
+[00:22:24] So, there must be something we can do. There must be something we can improve.
+[00:22:30] Well, let's make sure we see how we do this.
+[00:22:34] So organizations, love the idea of Storytelling and therefore uh, leaders are often tossed with purchasing visualization, tools or hiring experts Etc.
+[00:22:43] but visualization together with we governance,
+[00:22:47] With we control mechanisms without semantic. Consistency will lead to very pretty.
+[00:22:53] But very harmful mistakes such as the ones I showed. And of course, if we have narration without governance, it can be scrutinized immediately by humans. And by AIS.
+[00:23:05] And so setting up a story that in the end does go nowhere or gives the wrong Insight. It is super harmful.
+[00:23:12] So, if the data is not governed.
+[00:23:15] If it is not, uh, supplemented with sufficient context, I'm sorry you've been pushed to death about the word context and semantic layer I think in these days. So go look at it again. Um, then then basically there is more than a bit of a problem and this is in the narration quadrant in the context as I already said.
+[00:23:35] Uh, it requires the semantic consistency because people are going to ask the question once and they're going to ask the question a second time and if basically the advice is not the same, it doesn't make sense. So
+[00:23:46] things that have been ignored for years, things that have been sound, have been come across as boring such as ontologies
+[00:23:55] They become important. Now, again because these AI systems need to know.
+[00:24:00] What the mechanics are here?
+[00:24:03] And they need to know how they can uh use that in order to bring narrative building blocks.
+[00:24:10] For both consumption by humans and for consumption by AI agents that are consistent and that makes sense. It's not an easy Journey.
+[00:24:18] But data storytelling can be great if it requires that.
+[00:24:24] And then there is also emotional engagement, emotional triggers and this is something that's very important.
+[00:24:32] Data storytelling.
+[00:24:34] Without integrity.
+[00:24:36] Will create not persuasion using emotion.
+[00:24:40] But will create manipulation.
+[00:24:43] Let me let this sink in for a second.
+[00:24:46] So, you can imagine that an AI if there is no governance here. There is no, uh, no, no Integrity. There is no proper context management. Then the emotions will be used by the AI to manipulate you into whatever.
+[00:25:01] And we don't want to talk to a system in our conversational analytics experience. We don't want to talk to data where the data is basically, you know, manipulating us into thinking something about our company. If you want to grind all the credibility of your analytics practice to the ground, this is the easiest way to do it.
+[00:25:19] So it is a serious approach. So yes, it is possible and we have seen good examples of it.
+[00:25:25] But we need to go for looking at our context seeing where there are holes
+[00:25:30] Seeing where they're inconsistencies testing this and seeing whether things can survive, uh, scrutiny, uh uh more and more. And of course, data governance is what makes decisions credible.
+[00:25:43] Uh, makes them visible and makes them generated at the same time.
+[00:25:48] I think it's clear right? AI readiness.
+[00:25:51] It is about us making sure that the data is complete. The data is consistent. We know about what it is. It is tacked correctly.
+[00:25:58] All the different things you need. In order for that to be ready, check out our checklist, on our, our Readiness, in terms of data, and also on, uh, on on narration here,
+[00:26:08] Good. So
+[00:26:11] for the last section, I wanted to quickly show you some of the, uh,
+[00:26:15] Solutions that already have data storytelling which knee we selected those more or less randomly? There are other Solutions. Uh as you know there is no preference from Garner into 1 or the other but we wanted to show you something and this will be coming across as as gifts or gifs as our American colleagues are saying so you see a little bit of interaction. So the first 1 comes from powerbi.
+[00:26:36] Where you see that there is interaction. That is provided. Some of the words are underlined
+[00:26:41] Because the system is not sure. Uh what exactly the the definition is of this, what exactly dismantling interpretation is of some of these words Etc is highlighting. This and is saying okay, here probably, I need to have more definitions. I need to have more substance. I need to understand what the terminology is here.
+[00:27:00] You talk about the customer, how many customers that we have last week? How many participants were at the data analytics Summit? Well, it depends on a lot of things to know.
+[00:27:10] What value you can arrive at Etc.
+[00:27:14] And it can be maybe in some kind of a policy description it. It doesn't need to be like, in in rules, right? Um, but this kind of information needs to be there.
+[00:27:23] Like like standardized operating procedures in medical uh in medical companies, right? So this is another 1 going from our from Tableau. Um, this is where you see, uh, it going the other way around. So uh, Tableau is here uh proposing, a set of visualizations, instead of insights set of stories.
+[00:27:45] Uh, using data, um, based on what it sees based on what the things is remarkable.
+[00:27:52] Of course, if there is no, uh, semantic, consistency. If the visualization, uh, if there is no, uh, governance is there's no AI ready data here.
+[00:28:03] I, I don't want to imagine what is going to present to you.
+[00:28:06] Right.
+[00:28:07] Then it becomes dangerous. Uh let's uh get 1 more. This is with click as you probably know nowadays uh analytics. And bi is not always in its own platform. It also becoming out and being embedded. This is an example of this being set into Microsoft teams,
+[00:28:25] and uh,
+[00:28:26] here's another from thoughtspot that is giving let's say more.
+[00:28:30] Visualization and also getting up setting up collaborative dashboards. Um, and this 1, I I this 1 comes from uh strategy
+[00:28:38] For the people who don't know it yet, so it used to be micro strategy. Uh, They removed the word micro recently.
+[00:28:44] Um, so they're all having these kinds of capabilities, they're there.
+[00:28:48] As long as under the hood, things are saying, tooling is there you can start working on it and this is a very quick thing. I wanted to show from that IQ just to show you that. Also, AI platforms for data for machine learning and data science. They also make uh, use of these storytelling capabilities, so it's not only your analytics and bi platforms and it goes further than that.
+[00:29:10] Right.
+[00:29:11] so robot, at the end of the presentation, I'm going to explain
+[00:29:15] And you still have the recommendations that are really important for you to take away.
+[00:29:19] I have 6 recommendations for you.
+[00:29:24] First recommendation, is this is the beginning of a long journey.
+[00:29:29] if you have any questions, if you want to know how you can set up these kind of things,
+[00:29:35] Talk to us, talk to talk to your account, executive set up a call with myself, or what my colleague of 1 of my colleagues. Uh look into what relevant uh, material we have on this. Um, there is so much including, for example, a checklist that you can use to see to what extent your data storytelling, or your dashboard is aligned, with all the data storytelling rules that we have set that in the framework.
+[00:30:00] Right. And if you have questions again, we're there for you. I'll I'll be staying around here after the meeting, maybe if you have some more questions so use that with there for you, right?
+[00:30:11] The other recommendations. Well first and foremost evaluate that experiments with data storytelling capabilities, they're there. Sometimes you can just activate them or it's a bit of a extra license cost. I don't know. I'm not into these kind of things, but try them and keep them, of course, the rest of these keep a breast of these generative, AI advancements.
+[00:30:31] They're there and you can use them.
+[00:30:34] Secondly, make sure that when you do data stories, personalize them.
+[00:30:39] The story will not be the same for the CEO as it will be for. Um, let's say,
+[00:30:45] Uh, the head of your, uh, asset management department. Since we were in banking. Let's, let's stay there for a second.
+[00:30:52] Also, prepare programs to develop the capabilities on data storytelling.
+[00:30:56] if you want to go from 50 to 70,
+[00:31:02] And we see in general, that investment into people into soft skills. Like storytelling is just almost nothing compared to all the technical Investments you're doing, but the impact is significant, right?
+[00:31:15] Um, so you need to have that create this also, this immersive experience incorporating, emotional engagement.
+[00:31:24] And avoid emotional manipulation.
+[00:31:28] yeah, and then finally, of course
+[00:31:30] Uh, this will go towards human. AI interaction. It is, uh, it is more important and it creates uh, more resident, uh, more strong data stories.
+[00:31:41] 1 thing to go away with.
+[00:31:43] These things are going to be here to stay either with generative Ai and many of these especially if they are about very important company decisions. They will still be uh Crosman right for the years to come.
+[00:31:58] And it's important that we think of all of this, because even though everybody starts talking about Ai and AI agents and AI consumers in the end. If I look at this room,
+[00:32:11] we're all humans, right?
+[00:32:13] And we want a great day.
+[00:32:15] The storytelling, uh, great, great data story. And we want this great data story to Metaphor us now in the future rely on this use this. Thank you.

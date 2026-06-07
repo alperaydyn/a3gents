@@ -1,0 +1,87 @@
+{
+  "summary": "The session focuses on the importance of AI explainability as a pillar for building trust in AI systems. It discusses best practices for communicating AI concepts to various stakeholders, emphasizing the need for tailored storytelling and transparency. The speaker highlights the challenges of achieving both accuracy and explainability in AI models, particularly in the context of generative AI.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to AI Explainability",
+      "key_points": [
+        "AI explainability is crucial for building trust.",
+        "Many people trust AI systems without understanding them."
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:06:00"
+    },
+    {
+      "order": 2,
+      "topic": "Understanding Stakeholder Perspectives",
+      "key_points": [
+        "Different audiences require different explanations.",
+        "Storytelling is key to effective communication."
+      ],
+      "start_time": "00:06:00",
+      "end_time": "00:12:00"
+    },
+    {
+      "order": 3,
+      "topic": "Best Practices for AI Explainability",
+      "key_points": [
+        "Engage stakeholders effectively.",
+        "Leverage storytelling for different audiences."
+      ],
+      "start_time": "00:12:00",
+      "end_time": "00:19:00"
+    },
+    {
+      "order": 4,
+      "topic": "Balancing Accuracy and Explainability",
+      "key_points": [
+        "There is a trade-off between accuracy and explainability.",
+        "High accuracy may come at the cost of explainability."
+      ],
+      "start_time": "00:19:00",
+      "end_time": "00:25:00"
+    },
+    {
+      "order": 5,
+      "topic": "Generative AI and Its Challenges",
+      "key_points": [
+        "Generative AI models are often non-deterministic.",
+        "Establishing trust in generative AI requires additional measures."
+      ],
+      "start_time": "00:25:00",
+      "end_time": "00:29:32"
+    }
+  ],
+  "key_takeaways": [
+    "AI explainability is essential for fostering trust in AI systems.",
+    "Tailor your communication to the audience's level of understanding.",
+    "Be transparent about the limitations and expectations of AI models."
+  ],
+  "entities": [
+    {
+      "ai explainability": 5
+    },
+    {
+      "stakeholders": 4
+    },
+    {
+      "generative ai": 3
+    },
+    {
+      "accuracy": 6
+    },
+    {
+      "trust": 5
+    },
+    {
+      "storytelling": 4
+    },
+    {
+      "data models": 3
+    },
+    {
+      "use cases": 3
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

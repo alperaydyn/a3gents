@@ -1,0 +1,211 @@
+[00:00:05] Good morning everybody. Um, thank you for coming along and listening to us. Um, my name is Andy Bell. I head up data and geocoding uh product management at precisely. Um I'm joined today uh with Paul Bell. Uh he is no relation uh but he is the head of data trust and integrity at entain and, uh, what we're going to talk about today is around how, uh, leading gaming company, is looking to get and close the data Integrity Gap to deploy Ai and a gentic Ai. And what we mean by that Gap, is the gap between the desire to deploy a
+[00:00:45] I and a gentic Ai and the, um, Readiness of our data to, to be deployed in those types of systems. And there's a gap there about how we have ai, um, ready data,
+[00:00:59] and Paul's team at andain, um, are in the middle of that journey and he's going to take you through, um, the lessons, they've been learning, uh, the challenges they've had and the framework that they're deploying to be able to, uh, get, uh, trust in their data and trust, that means that they can deploy, uh, autonomous agents.
+[00:01:20] Now precisely as a um, leading data, Integrity business, we deliver data software and Consulting to help our customer.
+[00:01:30] Customers, Get Trust in the data to be able to, then make sure that they're making confidence decisions based on good quality data. And, uh, that's even more important as organizations deploy AI, um, across their businesses. And 1 of the great things that we have is we work with 95 of the Fortune 100, which means that we have a really good view on what is good, what's good deployment? The challenge is that our customers are having the lessons, they're learning and how we then iterate on our products, to help them improve, um, on their deployments.
+[00:02:08] But as we move from really, the pilot phase of organizations, looking at AI to trying to get that,
+[00:02:15] Into production.
+[00:02:16] First of all, we need to think is that of value? What's the value of actually deploying Ai and authentic AI within our businesses and McKenzie's recently, reported that that value is somewhere in the region of 4 trillion dollars a year.
+[00:02:34] So the clearly is value in doing this, or certainly McKenzie. See that value in doing this.
+[00:02:41] But there are challenges, and in our recent, survey with Drexel University's Lebow, uh, business school, we found nearly 70% of Business Leaders.
+[00:02:52] Are struggling to be able to connect AI performance to business outcomes.
+[00:02:58] What we also see from Gartner is
+[00:03:00] Um, during 2026.
+[00:03:02] 60% of AI projects will fail because the data is not AI ready.
+[00:03:11] And the things that they cite, we see again from our survey, 43% of the leaders are citing data Readiness skills. The infrastructure has been the blockers to be able to ensure that you've got AI ready data.
+[00:03:25] And we believe that it's those companies that have really good data, strategies are going to be the winners, the ones that are going to be able to exploit that value. And again Gartner, see that in their research with from 2025 to 29, there's going to be a 7 times increase in budget assigned.
+[00:03:45] Getting data.
+[00:03:46] AI ready?
+[00:03:48] and this is really, really important because
+[00:03:51] Obviously the rate of change pace of change. We've got is incredibly rapid a couple of years ago. We were looking at generative AI.
+[00:03:59] But this is very much human in the loop. We were sat there, we were guiding it. We were giving it, um, the questions. Guiding the results, getting the information back and iterating on that process.
+[00:04:11] Agentki is a very different proposition, it's autonomous.
+[00:04:15] That means it's going to go away and do something. And what we need to do is make sure it does the right thing.
+[00:04:21] And that means it needs to have the guard rails, the goals, to be able to do the right thing. And, uh, I think a number of us have seen the
+[00:04:30] uh, recent company that deployed um uh,
+[00:04:34] Agent and within 9 seconds, that agent discovered an error and deleted their entire database. Um, that's not a place. Any of those really want to be, I've pressed the delete button once a point in my career and regretted sincerely. Uh, what you don't want is an agent going away and doing it and also removing your backup as well. So you've got to have um, those guard rails.
+[00:04:57] So, as we think about, um, that agentic, AI data Integrity Gap. We see a number of um,
+[00:05:07] Areas that that's happening. First of all data is often trapped. It's in Legacy systems. It's tucked away in old.
+[00:05:15] Mainframes and it's difficult to access. It hasn't got the metadata and context that you need to use that data.
+[00:05:22] It's often incomplete outdated inconsistent. And I don't think those are things that are new.
+[00:05:28] But they make even more.
+[00:05:30] Of an issue. When you are doing autonomous processes, have you got all your customer records? Have you got attribution for every single 1 of those records. Do you know when it was last updated? Is it fresh and does it have consistency in the attribution that you've got on there? And that becomes even more important when you get into re regulated, uh, Industries, where that can mean that you're not compliant all of that.
+[00:05:59] Is a very expensive.
+[00:06:00] Process. Highly manual.
+[00:06:02] What we see is um, being able to deploy a framework to make sure your data is AI ready and really it's around how you first? Bring your data together, reunify it get that single customer record, Being able to, um, join different data from different systems together. But then being able to enrich it now that might be looking at third-party data to be able to give a broader Market context or fill in attribution or it might be
+[00:06:33] Getting the subject matter expertise from within your business applied uh, to that data as well. And when you're thinking about an autonomous agent, it needs to be running on the freshest.
+[00:06:45] Real time data. So operating in the now, but you need to know your use case and you need to make sure that your data is fit for that use case, and you can actually apply it to that use case. And as you'll see, as I'm about to hand over to Paul,
+[00:07:00] Consistently through his talk.
+[00:07:03] The focus is around governance.
+[00:07:06] Around traceability, transparency and control of those agents and the data.
+[00:07:13] And ultimately, this is going to give you a lower cost structure around how you're deploying, um, your data within an ai, ai environment.
+[00:07:21] With that, I'm going to hand over to Paul and he is going to talk to you about how entain our deploying a framework. And uh, processing
+[00:07:30] Towards a magentic future.
+[00:07:32] Thanks very much Andy. Uh, welcome thanks to precisely for inviting me to join them in a topic close to my heart.
+[00:07:40] Um,
+[00:07:41] So entain is a uh, portfolio of sports betting.
+[00:07:46] And gaming companies you'll know coral and labret from The High Street. If you UK Ireland based in America, you might have seen the adverts for betmgm which were a 50% joint joint venture owner with along with them MGM.
+[00:08:00] And we have a bunch more. It's about 35 Brands, we're in about 35 countries. The the industry has gone very heavily Consolidated in the past 20 years. So we're not the only 1, we're probably, you know, we're 1 of the biggest ones. Um, I'd like to think most successful ones but
+[00:08:15] Uh so yeah, decent sized company.
+[00:08:18] Uh, foot to 100 bass, PLC in the UK.
+[00:08:21] So this really sort of summarizes the way that we're approaching the strategy right now.
+[00:08:26] in what what I like to think of as 3 3 with
+[00:08:32] And I think it's where a lot of us are today.
+[00:08:34] Now, I'm going to talk about a few slightly technical things, but not not in depth as such
+[00:08:40] Um, so I want to get a sense of from from you guys Where You Are.
+[00:08:45] stick your hand up if you understand what semantic layer means and if you know what Medallion architecture means,
+[00:08:52] Okay, good, keep it up if you've heard of context layers.
+[00:08:57] All right, you're a you're a small audience. I'm going to have to
+[00:09:00] Be careful.
+[00:09:01] Uh, okay. So
+[00:09:02] This is where a lot of us find ourselves today.
+[00:09:05] We're doing data quality and data governance, um, pretty manually. Like we think it like 2 years ago, if you're using dashboards, you don't think it's manual. But we kind of know it is now, right? So it's, uh, reviews policies. It's human-led human, uh, assessment,
+[00:09:22] A lot of semantics are defined sometimes they're enforced. Well, sometimes they're not a little bit, consistent still day-to-day persists, and I'm really talking about my experience in the larger businesses. So I'm ex banking
+[00:09:35] global bank and now I'm in a very large, you know, business to Consumer digital and retail business. So when you have, you know, millions and millions of loans a day
+[00:09:45] And and tens or hundreds of millions of, of, of customers. The Sassy warehouses is pretty big. Also, the the pace of movement, the data is very, very fast. We create a half a billion to a billion data points a day.
+[00:09:57] Um, so in terms of of governing, it is process heavy.
+[00:10:02] It's reasonably slow and, and still a lot of it can be retrospective in these retrospective. We did pivot to data governance by Design over a year ago. And that's, that's clearly better than than than doing retrospective data governance. Um, but this, yeah. So this is what I think of, as where we, we're probably a lot of us are most of us are, and we need to figure out kind of like, where we'd like to go.
+[00:10:25] so the next day,
+[00:10:28] Each. So,
+[00:10:29] Would be.
+[00:10:30] The agent. Assisted and we've we've started on this.
+[00:10:33] So this is really how do we pivot and Target to making signals or or making everything that we think of as output to help assess data um really aent consumable.
+[00:10:48] so if humans are consuming data analysts Engineers reporters, Finance,
+[00:10:54] if that when they're consuming their data, they've got a hell of a lot of implied knowledge already. So that's a, that's a big advantage over agents. So agents are going to need that. So, this is where you start designing architecting and figuring out how you're going to make that switch to, to get in the data, uh, really machine readable to use a very, very old phrase.
+[00:11:15] um, while while humans stay in the loop,
+[00:11:18] Um so we want our agents to be able to assess the data confidence and limits. And we we have a few agents.
+[00:11:25] Already in operation. A lot of our product and Technology teams are being given uh, some some leeway to to use agents, and really experiment. And we're starting to see some really great looking kind of outputs and outcomes that can happen from that. But on a relatively, you know, experimental level in in most cases.
+[00:11:42] Um, but how how are we going to give them the ability to assess data confidence limits uh, and escalate when they need to?
+[00:11:50] Um, and then also how do we design the the uh the the the layers that will provide the context?
+[00:11:57] Um, how do we design? How we're going to?
+[00:12:00] Plug in, um, regulations plug-in statutory laws that affect data consumption and AI, um, affect uh, pii data. Uh, how do we plug all those in?
+[00:12:12] And then, of course, for us, we have safer gambling. We're a heavily regulated as a safer gambling entity, as all licensed betting, companies are super important. Uh, um, super low, uh, um, tolerance for, for, for mistakes in that as well. So,
+[00:12:27] um,
+[00:12:28] right at the base of it as well.
+[00:12:31] And very explicit. Complete
+[00:12:34] And reusable semantic layer that the agents can understand as well as we understand it. So that that's sort of the design area. Now, something we've started on the bottom there.
+[00:12:45] Kind of widescale. Proactive AI augmented issue detection. So, when I think about the day-to-day that persists,
+[00:12:51] Um, we have we have this year.
+[00:12:53] Designed and we now have a proof of Concepts on 2. Different AI. What? I like to call my my day-to-day detectives and we've deployed 1 into our warehouse snowflake we've deployed another 1
+[00:13:05] Into jira as well. And, um, we've started, it's looking quite good right now. There's still a lot of negative hits I guess, but we've been doing a couple of years of doing it manually. So we do have a lot of training for it and learning for it, so it, it looks quite promising. But again, it said a PC stage is not like Fully live, but I've got a lot of faith in that to work and I that'll really help us because I think I think in a large large data.
+[00:13:30] To real estate. There's still a lot of things.
+[00:13:34] A lot of day-to-day like even humans don't actually spot and see. Now you don't have to fix every single thing. You just have to fix the stuff that matters, right? Um but yeah, I'm quite quite excited to buy my day-to-day detectives uh and then there's a few, we've got a few of the proof Concepts going to help get uh this
+[00:13:50] Proved the design stage really that we're working on um as well as do the little poc's.
+[00:13:58] Good.
+[00:13:59] so,
+[00:14:00] The North Star really where we really want to get.
+[00:14:04] There's um, you know, an awful lot of pressure from the board down now.
+[00:14:07] There's an awful lot of, uh, uh, push and talk.
+[00:14:11] Um, about how do we really take advantage of agent AI?
+[00:14:15] And to take advantage of it in in a business like ours, it needs to be very scaled.
+[00:14:20] So we have an enormous customer service interface with our players, for example.
+[00:14:27] If we want to make that more accurate safer quicker, cut out the the the easy calls.
+[00:14:35] It's going to have to be at quite a scale.
+[00:14:37] To do that.
+[00:14:38] in addition for any digital b2c
+[00:14:43] you've got, um,
+[00:14:45] Very fast moving, perhaps bonus and offers a marketing things that you want to make to your players as well and your customers. So,
+[00:14:53] Personalization is huge. Uh, so again to do that in the kind of numbers of players, we've got
+[00:15:00] Um agentic AI is going to have to go very much at scale. And I, I don't know, like
+[00:15:06] what most companies are thinking of, but
+[00:15:08] I'm only imagining right now that we're going to be setting targets relatively soon to have hundreds or even thousands of Agents.
+[00:15:16] Like, haven't seen it yet. I think in 12 months time we'll probably hear a lot more about about that about corporate targeting making targets like that.
+[00:15:25] So this is this is where we think we're going to need to get to be able to help entertain, uh, really get into a scaled agentic, AI environment.
+[00:15:35] We want to aim for the agents to be able to independently act pause.
+[00:15:40] And degrade.
+[00:15:42] Uh, and then escalate on on data.
+[00:15:45] Understanding if it's fit for purpose and understanding if it's within policy on the things that needs to be.
+[00:15:52] We want humans to not be making routine decisions.
+[00:15:57] We want them to be overseen and monitoring the output and the outcomes from the agentic environment and the agentic teams and we want them to be able to spot you know the or they'll handle exceptions but also think about the risk and then
+[00:16:12] they'll need to think about also change, right? Data changes, our products, change our markets change. So all the big kind of scale changes that could potentially impact the architecture of the agents themselves or the architecture of the environment that we're putting the agents in.
+[00:16:30] um,
+[00:16:31] I should have probably put this third bullet point at the top because it really is going to be the foundation. And it really is probably the most important thing to get, right? First or at least we we believe that
+[00:16:40] and that's
+[00:16:42] the semantic layer being.
+[00:16:44] Not perfect. But
+[00:16:47] It's got to be good and afraid to understand it, if it can understand the semantic layer and the standardization of data and what it means, if it can connect that to the metadata flowing through on the data.
+[00:16:59] Um, it can do to some extent, it can do uh um, self standardization.
+[00:17:04] and then, if you're connecting a context layer and the context layer,
+[00:17:08] I'm trying to think in human terms, right? I think I think context layer it it is very best. We'll probably something like
+[00:17:15] The memory in the brain of the company, right? Like, where do we put all the things? The companies learned even the sectors. Learn right into somewhere that is accessible for agents. Now, it's not that all agents will need all corporate memory and knowledge.
+[00:17:29] but,
+[00:17:30] you know, they'll be, we'll have to figure out in that strategy how you slice and dice that but I think first it'll be like
+[00:17:38] What do we need to capture from our tribal Knowledge from our implied knowledge.
+[00:17:44] We look at a report and we'll be like, that's wrong.
+[00:17:47] Or what does that mean? Like the words? Well, a agents. You know, they're they're going to be kids, right? They're going to need, they're going to need the education intelligence and training that we either gain by
+[00:18:00] Hiring people or we give them when they arrive to some extent. Right, not not exactly. But we've got to figure out that relationship between what we currently fuel, the knowledge fuel. We have for our corporates today and how it works in our human teams to how we're going to translate that to a Gente Ki knowledge.
+[00:18:17] Um,
+[00:18:18] so yeah, those that that third 1 is, is is absolutely huge. I fully expect most of you or most of your companies.
+[00:18:26] Already thinking in similar terms on that, I would expect.
+[00:18:29] um, and then at the bottom,
+[00:18:32] the quality and governance police agents.
+[00:18:35] I um I think there's a few ways to do this. We're still we're still looking at a couple of design options on this 1.
+[00:18:42] um, but there could be literally, AI agents
+[00:18:45] That are just trained to do quality and governance. You could potentially insert them in certain parts of the other agent team's processes or at the beginning when they receive in the data that would be 1 way to do it. Another way to do, it would be to build that into every agent but I I personally don't see that. I don't think that's going to scale as well.
+[00:19:03] Um, obvious or be as agile either. Um, but, yeah, enforcement of, uh, pii enforcement of safer, gambling rules enforcement of of, um, class, uh, classification of data, uh, potentially enforcement of some of the, uh, other kind of info information, security, compliance, and rules that we need to follow. There needs to be a whole rethink on that layer. Because if agents are going to scale,
+[00:19:30] And that's, you know, they'll work 24 hours a day, right? Then you get, we're going to have to transform how we do that for agents. It's going to need to be in runtime.
+[00:19:38] I think for the most part it's going to need to be an extra layer that we haven't done before like that that's a whole new thing for me in many ways. I mean you can automate some things we've talked about that but this is a whole different scale for it.
+[00:19:51] So this is this is how we seen a a North star and when we really want to get
+[00:19:57] Front end. Um, so quickly, I'll take a breath.
+[00:20:02] and just
+[00:20:04] give you some key takeaways there.
+[00:20:07] That I've already talked about.
+[00:20:10] Got to get the semantic. Definitions done ready. Like it's no longer.
+[00:20:15] Long as something that you can kind of fix on on the on the go not, if you're going to scale, you can do small amounts of agentic work if you want on an individual use cases.
+[00:20:24] Both semantic layers, got to get done. So you need to take your data Architects out by them a beer, and make friends with them, because they're the ones who can do that properly. Write.
+[00:20:34] Making sure you integrate governance and quality and data debt detectives into your, into your workflow.
+[00:20:41] Into the actual flow that the agents are going to be working in and the data that they get, so it needs to be fully integrated. So I've always thought of governance as you know you've got your retrospective command down
+[00:20:52] Approach which was traditional and started in the 10s, really, particularly in banking. And then there was a switch to use case debt as a call to
+[00:21:00] Identified the, the the ones with the highest value or the ones with the most risk and you work on those.
+[00:21:05] Um, and then, you know, there's there's oh, we've certainly moved to then data, governance by Design, building it on the semantic layers, building it with the semantic layers. Um, and then the next step is going to be, how do we get that being active agents monitoring at the time?
+[00:21:25] Data lineage will become very important, if some of those other things are going to work properly, it's going to need to be automated and travel with the data.
+[00:21:36] And then making sure that everyone's clear on, you've got to do it safely. Responsibly
+[00:21:42] Although there will be some really big screw-ups, I think.
+[00:21:45] There already have been a couple of big scripts but you know it could be Enterprise threatening if you get it really wrong.
+[00:21:51] And then not forgetting what Andy reminded us earlier on.
+[00:21:55] Connected to Value wherever you can drive a measurable value. Um, I think I don't think that's as hard as as hard as it used to be, given our CEOs, given our CFOs given our boards and now driving for AI to become much faster. Right. I think I'll I'll speak to 1 or 2 challenges. I guess the big 1 is trying to switch resources. Currently doing things to do in new things with AI key for my team. For that has been just given them an amazing access to to free training and and really enabling them to spend a significant number of hours a week doing that a
+[00:22:30] Training and that has led to my day-to-day detectors. Coming very quickly and a few other things.
+[00:22:34] Um the pressure from the board is is hard now actually, because it doesn't necessarily come with like a free per string.
+[00:22:42] That's a big challenge.
+[00:22:43] Um, and then the other 1 is yet the it's designed in architecturally a context layer. That's relevant for your organization.
+[00:22:49] And relevant for your sectors and then and then finishing, the good work that the Architects are doing on the semantics. I, I think of those of my biggest challenges currently at, uh, at ending.
+[00:23:00] Right with that. Thank you for listening and I'm going to hand back to Andy.
+[00:23:05] Thank you very much Paul. Um great insights there from Paul and his team and the work that they're doing and entertained. So um, I'll just sort of um,
+[00:23:15] Goes out this with a few slides but really, it was going back to what I was talking about. A gentle ready, a AI data. And, you know, the things that Paul was talking around, being able to get easy access, being able to have um C current continuously updated data, the governance consistently all the way through talking about governance.
+[00:23:38] But there was 2 other themes.
+[00:23:41] Metadata and context. And if you're in the keynote yesterday, context is King.
+[00:23:48] Now, what do I mean? So, um, give you my, my context is a precisely I've been looking after data products, I built data products for over 30 years now, been doing it for
+[00:24:00] Years at precisely metadata is now becoming as important if not more important than the actual data itself. And that's what our customers are looking for. And it means not just file structures, or descriptions of what the attributes mean, it is, how that data is connected, how you use that data and, um, all the different elements of that and that then rolls into context around? How can you use that data in the business? As Paul said, they're in a regulated industry, you have to have really good rules.
+[00:24:36] And the Agents need to know those rules. It needs to know its guidelines and its borders what it should and should not do. And I think 1 of the interesting
+[00:24:45] Things is as we interact with that, I think we're going to have to be more knowledgeable and I think we're going to be more intellectually curious around how we manage those things. And I think that's quite an interesting part of it.
+[00:24:58] so, how
+[00:25:00] Are precisely helping their customers. Um,
+[00:25:03] Achieve uh, a genetic AI ready data. It's really through our data Integrity Suite. It's an agent LED um system orchestrated through our GMO uh AI assistant and those agents give access to a series of capabilities around governance, observability data, quality geocoding data products. Now an interesting layer within all of that. Now for all of us
+[00:25:30] Is the use of mcps that lay of where you as a user are coming up with questions in English. And the mCP is translating those into the code that those um,
+[00:25:46] Capabilities apis need to be able to run that question. So um, that layer is becoming very important. And then what underlines, all of that is our Ai and a genetic fabric, which is really ensuring that those processes are running on the data. In situ, you're not moving it around all over the place, it's where that data lives. Be it snowflake data bricks, wherever you've got that placed and having the catalog and
+[00:26:15] Metadata associated with that capability.
+[00:26:19] but what's interesting is,
+[00:26:23] 3 things were continuously, getting back from our customers.
+[00:26:27] First of all, they want choice.
+[00:26:29] We all know it's like flavor of the day on which model you're going to use via Gemini, claw, chat GPT some are good at 1 Thing added another and then the other 1's good at the bad thing that they're bad at and all sorts of things. So they want choice, they want to be able to deploy the model applicable to the use case.
+[00:26:47] So choice is really really important, but they also want control, they want control of who gets to use those processes to be able to enable and disable capabilities.
+[00:27:00] To ensure that they have the right governance and control of how those autonomous agents um are working.
+[00:27:09] And then finally it's ensuring that you've got trust trust in that data. And again, it goes through that scene theme of governance.
+[00:27:17] Around transparency explainability understanding why you're getting the results. You're getting an ensuring that you have that consistency. In those processes I think governance is just absolutely critical to what you're doing, isn't it Paul really
+[00:27:33] Cool. Um and that's how you bring together. This sort of connected AI ecosystem.
+[00:27:40] And we're seeing that happen across multiple customers. Be it BMW.
+[00:27:45] New Zealand, super fund orange, but just touch on a couple of examples. Uh, generally, um, they looked precisely to help them improve their machine learning, uh, capabilities where they were able to be able to deliver them data, quality address management. And in particular are places business data to be able to get them to um, a 95% uh, accuracy on their models. That ensures that they're then delivering significant value to their customers to understand, um, how City operates and understanding location Analytics.
+[00:28:22] Door Dash is another good example. Um,
+[00:28:26] Mr. Deliveries
+[00:28:28] are really expensive.
+[00:28:30] And what door Dash wanted to do, was to reduce the number of missed deliveries, um, and we were able to help them again with that sort of combination of data quality address management. Location data products, to be able to ensure they delivered to the right place first time.
+[00:28:51] As often as they possibly could and that ensured that they, then delivered a 65 million annual savings. That's a significant impact.
+[00:29:01] So just to close out and finish is
+[00:29:04] when you think about,
+[00:29:06] your deployment of AI and agentic Ai and ensuring that you've got um,
+[00:29:13] AI ready data.
+[00:29:15] Uh, ensure that you understand your use case, understand your data is aligned to. That use case.
+[00:29:21] Look at precisely understand the ca capabilities within the data Integrity suite and ensure that once you understand that you understand the gaps that you need to address within those processes. So you know that when you do employ Ai and a genti, it's going to do the right thing.
+[00:29:41] All the time.
+[00:29:42] With that. I thank you very much for coming along and thank you to Paul for, um, giving a great overview of round 10. Thank you, all for coming for Gartner, uh, allowing us to talk today. Uh, we'll both be at Stan 304 in the exhibition Hall, and with that. Thank.
+[00:30:00] Thank you very much.

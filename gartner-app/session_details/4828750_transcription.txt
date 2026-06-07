@@ -1,0 +1,169 @@
+[00:00:05] Thanks so much for coming. I've got the terrifying honor of presenting the pre-launch slot on the third day of the conference.
+[00:00:13] Third day of the conference energy, is very different to the first day. The first day, everybody sort of caffeinated attentive by the third day, I can see the faces saying
+[00:00:22] No more information, no more facts, please.
+[00:00:27] Now, unfortunately today we're going to give you a lot of information and a lot of facts and you are going to love it. I'm so excited about the talk that we have for you today. You'll find out why in, uh, in a moment but I guarantee you
+[00:00:38] hand on heart. This will be the best talk that you go to the whole Gartner, by the time you leave, you will all want to work.
+[00:00:45] In a Professional Services firm, I absolutely promise you.
+[00:00:48] Uh, would that incredibly huge claim? Let me introduce myself. My name is is Jane. I'm Chief data and AI officer at thoughtspot in a mere.
+[00:00:58] Thought of the world's number 1. Agentic analytics platform.
+[00:01:03] What does that mean? So glad you asked. It means you we um Supply analytics. That you talked, you talked to your data, you talked to a natural language in your words and it it talks back to you.
+[00:01:13] You just ask your question or with my chat. Why am I still slower? How should I think about my warehouse inventory and you get your answers back fully mCP enabled. So including your structured data, unstructured data web data.
+[00:01:25] but what makes us incredibly powerful and special is we are not
+[00:01:30] Text to SQL. We are a fully patented tokenized search.
+[00:01:35] Every question you answered is Tethered to the truth of your search Takens and your semantic. Dare. You semantic layer. It cannot hallucinate fully explainable. Everything can be looked
+[00:01:45] like through the trail of the questions you asked.
+[00:01:50] I'm going to very quickly. Share a slide with you.
+[00:01:54] Ah, it worked, it often doesn't. So let's go back to not that many years ago. And, you know, we the way that we found data was, um,
+[00:02:02] Very much, you know, we were in the dashboard ERA with, we we'd go to dashboards to answer our questions and it worked really well.
+[00:02:09] As long, of course, as our question, was exactly what that dashboard was configured to show you.
+[00:02:15] We then moved into the era of natural language analytics and now we're in this incredibly exciting world of agentic analytics and building for autonomous.
+[00:02:23] And where wherever you are in your data Journey, whether you're still in dashboards or whether you're building for this, autonomous amazing future thoughts. What are there for you? Whether you're in dashboards and bi or fully agentic?
+[00:02:34] We're there for you with our tokenized search.
+[00:02:38] Now we have what we call the wheel is the deal. And this is to uh to sort of essentially say to you that everything um from the user, the front end experience to the back end, the platform, the data prep, we we provide that that full that full Suite of analytics capability.
+[00:02:52] But I'm not going to talk to you too much about it. Now instead I'm going to say go to the thoughts about Booth after the session it is staffed by
+[00:03:00] Our team that are wearing these incredibly um, autoculture data purple jackets, Come at the front. There, would you stand up for us?
+[00:03:07] He will kill me for this. There we go. And um, I've been told that we have fluffy dogs and notebooks if you would like a fluffy dog or a notebook, if you'd like a demo or a chat. We'll see you down there.
+[00:03:17] Now you'll see there's a very um distinguished clever looking man in the middle of the wheel and this is my guest I'm going to chat to you in a moment. This is Graeme kaisley
+[00:03:28] Graham. I'm sure you know him already. If you don't he's the global head of product for Grant Thornton's ordered business. He formerly was the global head of data and analytics in order. So he uh he has a lot to share with us and he's going to talk to us today about Grant Thornton's Journey.
+[00:03:45] So Graeme, can I welcome you up on stage?
+[00:03:48] can we have some, uh, some
+[00:03:56] Thank you. Did I hype you enough? Am I enough of a hype woman? The man in the middle? The legend. I almost walked out so yeah, you did more than enough hype and thank you.
+[00:04:03] Please, please don't do that. That would be incredibly awkward.
+[00:04:06] so um, we are going to have a chat for
+[00:04:09] 30 minutes. I don't know if anybody told you that. Is that, is that cool? I heard rumors. Oh, you did okay? You can say whatever you like, it's a safe space. There's no secrets between the 200 or so of us is there.
+[00:04:19] No all good. Okay, it's open. Mic night up here. You can see whatever you like. Brilliant, but before we start with that, I'm going to say introduce yourself to us, and introduce Grant Thornton to us. Perfect, thank you. Jay
+[00:04:30] Hi everybody. Graeme kasley. And the the head of audit project within Grant Thornton advisors
+[00:04:36] In terms of Grant Thornton as a business, we sell audits advisory and tax services for our network of around, 120 plus firms.
+[00:04:44] As back in 2024 and private Equity, um, became a huge part of Grant Thornton. So
+[00:04:51] New Mountain, Capital acquired, the US firm start of 2024.
+[00:04:55] GT Island, which is where I'm based and based out of cork. And we were quiet start of 2025 and there's been 15 firms and 2 external businesses acquired since then. So we're a growing business. We're still a part of the grand Thornton network but, um, in terms of my role, I oversee those 17 countries, and the products that were put in the hands of orders, in terms of my own background spent 10 years in the big,
+[00:05:15] For um with 2 different firms in both, the UK and Ireland. And I've worked for 3, Fortune, 500 businesses, 1 of them in the UK and 2 of them in Ireland
+[00:05:24] Stevie and a half.
+[00:05:26] Are based in Ireland. But you're also an exiled Jordi and you are a Newcastle fan. So Graeme is familiar with long painful, uphill struggles kind of like working in data analytics who give you that joke.
+[00:05:39] Good. It's my best joke, too. Okay.
+[00:05:42] So, um,
+[00:05:44] You've worked in order for a really, really, really, really really long time. You've seen a lot of change. We took us through some of that. Yeah, of course. So um,
+[00:05:54] I worked in the industry for a couple of years and I moved into Professional Services in 2010, that's not when that photo was taken.
+[00:06:00] But is close to 2010 than it is to today. Um evidently so when I started off in in 2010, um, in the Big 4 in the data analytics team,
+[00:06:09] Serving the Assurance practice my role. Essentially at that point was to get out onto client sites, get data from their respective elps, bring it back to the office. Normalize it and load it into a proprietary products, as a result of that, our old teams were getting their products, put into their hands day 1 of the order.
+[00:06:27] So, that was a, it was a process that wasn't scalable. I was a bottleneck, um, in terms of analytical products that were used back then, nowhere near where you'd have today.
+[00:06:36] But what we did have is we had control. So we had control of what data we got.
+[00:06:41] How we got it. And when we got it and those 3 parts,
+[00:06:45] Absolutely critical to the success of an order engagement. It's all about timing.
+[00:06:49] if I fast forward, 10 years to, when I was exiting the Big 4
+[00:06:54] I think Automation and um analytics and technology in general, had Advanced significantly in 10 years so we had capabilities. We could have only dreamt of 10 years prior to that
+[00:07:04] However, when I look back, I'd say a process had actually diminished and what? Because we're back office very virtual and relying on clients and all teams to get the data over to us, we we'd lost control in terms of what data we got. There was a lot of back and forth with clients, a lot of data, um, which is incomplete in many ways.
+[00:07:24] And then, in terms of the timing, we we were getting it later on in the process. So we weren't taking control and we weren't given our clients that way.
+[00:07:30] The treatment. Because as we scaled, we just didn't have the capability to put out an army of Engineers and analysts on site to get that data out. So the process had gone back somewhat even though technology had Advanced and that capabilities had Advanced significantly in that time. And when I kind of look back at that now,
+[00:07:46] It wasn't a technology problem, it wasn't a data problem, it was purely down to process.
+[00:07:50] So I exited the Big 4 in 2020. Um, worked in.
+[00:07:54] For a Fortune, 500 businesses um, based out of cork. And I then came back into Professional Services with Grant Thornton in the back end of 2023, Grant Thornton Island at that point.
+[00:08:06] the role I was given was to set up a data analytics, practice with an audit and to develop a proprietary, um, automated analytics platform to
+[00:08:15] Of islands and then scale up the firm which are the huge ask. Um, and before we even dived into looking at structures recruitment even technology,
+[00:08:24] we step back and said, look what are we looking to achieve here? And what we're looking to achieve, is to put the best possible products in the hands of our orders for day, 1 of the audit. So we can make their experience, our clients experiences frictionless as possible.
+[00:08:37] So to do that, it went back to the initial question. I said earlier of what days do we need?
+[00:08:42] How would we want to get it off the client and when for
+[00:08:46] so we developed mechanisms around that where we think a print common data sources, we've developed a common data model and we were able to automate data from the point of in order to dropping it into our platform.
+[00:08:57] Getting it normalizing. The common data model and then
+[00:09:00] Making room and service with the products they want. So they have control, they can get going, they want of the audit and that's been transformational. So just by having to come and data model, we've gone from doing things fragmented, and separately client by client, to actually developing these data products for each data source. And then they've been teams to self serve.
+[00:09:18] And that's been trying to measure for our practice. Um, we've since scaled g-tap our platform from Ireland across the US, and there's another 15 countries to go with this year.
+[00:09:28] But the key enabler to this, we haven't even talked about AI. We haven't talked about agents. It's a Relentless and obsessive
+[00:09:36] Approach to data and process the, the key enablers.
+[00:09:41] And the key point from all of this is AI Readiness. It's, it's not a starting point.
+[00:09:45] It's an outcome and obviously it's an outcome that we're not there yet. We still need a scale further, but it's now. Come down. I, I believe we're heading towards. Yeah.
+[00:09:55] They want. Yeah. That's
+[00:09:57] So you, you start at this point where you physically had to go to, you had to physically Trek to client side, to get data, bring it back manual. Pull it to, you know, there's quite futuristic sounding world now where you can interrogate data sources across clients from your common data model. I mean, it sounds, it sounds amazing to me. What difference does that make to your auditors?
+[00:10:17] It's, there's been 2, 2, 2, fundamental, uh, 2 fundamental changes for them. Um,
+[00:10:22] And we try and Champion Evolution. But I think for this has been Revolution, it's had to be. So the first 1 is how we audit.
+[00:10:30] We don't just want to take the way that we want today and say, let's throw Ai and automation at it because the process is fragmented. It's basically for any orders in the room. Don't know if the sampling process is extremely painful. Um, so for example, if you're testing a balanced just Revenue
+[00:10:44] You pull a sample size of say 100 and each sample requires 4 documents from the client. It's a very, very bitty process. We've been able to start shifting away from that and testing full populations of data through data, extracted from the clients Erp, and as a result, we're not sampling anymore.
+[00:10:58] Well, looking at transactions that display and indicate risk, um, and and it's, and it's that approach there, which is really taken out orders away, from being inspectors of documents, and becoming analysts using Cutting Edge technology. Such as thoughtspot. So, that's the first shift. The second 1 is moving.
+[00:11:15] Away from a supported model. So if I go back to 2010 to 2020,
+[00:11:19] My team will support, you will support all of this. We're getting the data out. We're, we're a normalizing. It getting the into products and into their hands, and even if I look at our us firm now, today, 3 and a half thousand orders. They heavily rely on an offshore team to do that. It could be, we could end of week 1. It could be weak 2 by the time. They're getting products in their hands.
+[00:11:36] By building this platform with data products fingerprinted and a common data model.
+[00:11:42] We've enabled team to self serve. So if they follow the process, if they follow the process, in terms of how we get data from a client and educate our clients, and how they pull that data, that data goes straight to the platform. It's normalized. They have their products that they're able to self serve and they take a lot more accountability and control as a result.
+[00:11:56] So your Auditors, the work they do. They're kind of able to move up the value chain.
+[00:12:00] Because they're not as stuck in Emmanuel work. That's what I'm hearing. Exactly, exactly. Yeah, okay.
+[00:12:05] Okay. Um,
+[00:12:07] I was its
+[00:12:08] proof points for these.
+[00:12:10] Can you can you tell the room?
+[00:12:11] A busy season is.
+[00:12:14] Yeah, so what busy season is it's an annual event where Auditors put on about 2 St. Um,
+[00:12:20] So, and it comes just after Christmas, which is unfortunate. So, lots of the majority of client year ends will be 31st of December. So from January through to March or April and it's probably edging into may now.
+[00:12:32] all the their heads down and they're working and we might do 60 to 7 0 , 7 0,
+[00:12:38] So it's a critical time. Um, they don't have much time to learn new things or adapt. It's all about how quickly.
+[00:12:45] Can they get through the orders and obviously ensure that we cover every single day. So when we sign the opinion, we're comfortable with it.
+[00:12:51] So busy season, um, was the asset test for for, for gtap we, um we went live the back end of 2024.
+[00:13:00] And that didn't get much time. So our teams, they had to adapt pretty quickly. And the selling point we gave was
+[00:13:05] It's not going to save your time in your first year. Um it's not we have to be realistic here and our partners were comfortable with that. As we're our business, we said once you run that engagement the first time second time you run it you'll reap the rewards and
+[00:13:18] What we found was that there wasn't actually the second time to run that engagement, it was just a second engagement, they run in general. So our teams were able to take whatever they learned, the first engagement rather into the second and then the adoption was through the roof and it wasn't all about
+[00:13:30] Saving them them hours. That wasn't the biggest impact I had on them. It was those hours with concentrated. So it wasn't a biddy approach. They could get their head down and Tackle balances which would have taken 15 hours but over 2 weeks instead, they're doing it in 2 days and that's having the significant impact on the cycle time of noted. Um and then looking at adoption wise,
+[00:13:48] In Ireland, with 1100 orders. Um, we went live about 18 months ago, the platform and we've had over 150,000 outputs generated in that time. So, the scalability the adoptions there. Okay, you've got your your proof points. Um, I love the pragmatic approach, the first busy season, it'll probably be right.
+[00:14:06] On the second 1 is when it when it shines. Great. Okay. So you you built and you got a gap on the Grand Theft on AI platform. Um, your comment,
+[00:14:15] Data model and then thoughts about visualized on top and thank you for saying it was cutting edge. Would've been really awkward if you if you didn't like thoughtspot. Um tell us tell us about the impact that it has on on your clients. I don't know if anybody here enjoys being audited. Uh probably wouldn't be my favorite thing but tell us tell us about the service. You can now provide your clients know. I'd be on the client side. Definitely not enjoyable. Um so the big thing for clients is they're getting guidance in terms of what data we need, how we want it. And when
+[00:14:41] But it's also the lag between them given us the data. They go to the effort to get it to us and then there's a lag between that and us having it in a product and the inside, pull from it, to ask them the question. And that light could be a few days, it could be a week, it could be more.
+[00:14:53] We're saying the clients. If you give us our data for day, 1 of the order, we could be coming back to you with any exceptions any questions.
+[00:15:00] On the same day.
+[00:15:01] so, it's bringing all of that further upfront into the process and I think audit becomes
+[00:15:06] There's a lot of friction because clients are busy in your end. They're closing their books and they're having to add have an audit on site to their day-to-day so they they're friction is real.
+[00:15:16] The back end of the audit is when the friction really starts to increase. So we're starting to
+[00:15:22] Make Headway we're starting to really get into the data.
+[00:15:25] And the requests that come through thick and fast the back end of the order and that creates so much clients and the turnaround times are very minimal. Worst thing, we can pull all that up front. So, um, as a result, the burden is then kind of spread evenly, so the client impacted sizable. The point, then on our order is, going from being documented inspectors to analysts has been transformational for our clients. It's probably more so than our auditors.
+[00:15:45] because,
+[00:15:46] I give 1 example there was a multinational, um, chip account officer, um, for a us-based client that we, we, we, we do a large part of your out of Ireland.
+[00:15:54] And this feedback there always been audits as an industry is going backwards. Um, sample sizes are growing
+[00:16:00] Get that processes are becoming Slicker and Tighter, so your findings or diminishing as well. So sample size is going up. Your fingers are going down, what's going on? So we're able to show them the analytics platform that we've developed how the data ingested and the samples that would come out of that. And we showed that it's processed. So tight. That wasn't the finding that wasn't the sample. Everything tied through, we had no questions for him. He said that this is the future of order and this is what we need to be pushing. So
+[00:16:24] The client the client experiences significant. I think just being able to go from sampling where there's no
+[00:16:30] Mark your risk to when we are taking up their time. There's a reason for it. Yeah. Um. And there's relevance to what we're actually asking them and they're taking insights themselves and embedding it into the processes.
+[00:16:41] This is the future of audit.
+[00:16:43] Like that line. I told you I'd be a hype woman. Yeah, thanks, you know what I love about this is it's, um, you know, not just material to to you in to order every single business. Every 1 of us here are businesses, are audited.
+[00:16:54] Every year it's it's a huge part of what keeps business going. So this is, this is material.
+[00:16:59] I want to, I want to ask you about, um,
+[00:17:02] Realizing the value of this investment that you made, you made a huge investment in the data model and thoughts about how did you how did you realize that value?
+[00:17:10] Yeah, it's a great question. So I think ownership was a huge part for us and, um, haven't worked for 2 different.
+[00:17:15] Big 4 practices and digital teams in industry.
+[00:17:19] I've always been hurt at times by the, the kind of Us and Them culture of the digital teams and the consumers. And that's 1 thing that we look to kill as quickly as we possibly could. So
+[00:17:29] We want the business owners being the orders to feel their own, the product. We are just the custodians who are responsible for building it and helping develop the vision.
+[00:17:38] And the first thing we did was we set up a tech and Innovation Committee of Partners and directors. And we found that was actually too high up and we were getting The Cutting Edge ideas and the feedback we needed. So actually drop it down to those who be in the field more. So assistant managers managers something managers and that's where we really got thought leadership um and vision and were able to build around what we had as our kind of core product, which is the the possible we
+[00:18:00] We would know we wouldn't expect the business to know, we educate them on that, and they come back with what's going to transform their lives. So as a result, we've um, every single audit part is covered. Every single industry is covered and they all have a say, and they all have ownership, and they all take the product back to their pods themselves. They own it, um, where the back end of it. So we found out how the transformational effect and, um,
+[00:18:20] Yeah, and they're not being dragged Kicking and Screaming which is always nice.
+[00:18:23] Yeah, it's it's not great. When anything's The Hunger Games. Is it inside your office? No. Not ideal. Um, it it's, it's sounds great. Like, what's next? How do you make it bigger?
+[00:18:33] So, I think for us to scale. Um, so we've got Ireland on the platform. We've got us and we have another 15 countries to go. So, we've got 9 and a half thousand to 10,000 orders, we are still acquiring firms.
+[00:18:45] We expect that to to to increase that could be 20 or 25 but by the end of the year. So we would expect 10,000 plus orders. And the key part for us is
+[00:18:54] Is getting standardization across the platform. So in terms of how we approach getting data,
+[00:19:00] Approach work with our Global common data model, our technology stack and then approach and our process on top of it.
+[00:19:07] That gives us the foundation and once we have that Foundation, we can start to truly think about AI. But AI is probably more isolated agency here in there. You see lots of noise coming from the Big 4 about some of the agents they've released which we've, obviously couldn't Intelligence on, um, I think getting that Foundation, right. First is so important, that's where you're going to get the true impact and we hope that 20207 is probably the year.
+[00:19:30] Where we can start thinking about that. Yeah. Yeah. And you, you incubated, and you, you tested, and you piloted in in Ireland, Ireland, is kind of the Hub of your Innovation for, for your operation. You're going Going Global
+[00:19:41] We are we are yeah, still have 17 countries um about 10,000 orders covered. Yeah. And um, a lot of competing priorities.
+[00:19:50] Yeah. And I think, you know, this is a remarkable story to essentially change. The largest, the largest part of your business, right? Is ordered the GT business, the biggest chunk of your business to materially change that to be like your, um, your CFO said, the
+[00:20:03] The future of audit, I've seen the future of audit and for this huge change to be owned, driven Champions and realized by data analytics. I mean, that's why we all work in data, isn't it? This is this data leadership. Well done. Well done for that? Well thanks.
+[00:20:15] so, if I think, um,
+[00:20:19] It sounds really good. Is there anything you do differently anything?
+[00:20:23] I think the big thing for us even as a firm is how conservative we are. Um, we have some brilliant assets and we probably don't shout enough about them. Yeah, um, I'm not all about overhyping either but I think we are
+[00:20:36] We are in the position where we can be shouting louder. And obviously, sharing success stories, um,
+[00:20:41] Network more with our ideas and share more with other firms because we're all on the same Journey. So, yeah, so I said, that's a big 1 for us is is just how much we promote our own success and it's something we are we are working on with the communication and marketing teams,
+[00:20:53] You said, conservative. I think people generally value conservativism in in ordered firms. So
+[00:20:59] That is in.
+[00:21:00] Encouraging but and speaking of that you know as in Professional Services ordered accounting you literally like you are in the business of assurance.
+[00:21:08] Defensibility Precision. What's your approach to AI?
+[00:21:13] Yeah, great question. Um, so I happen to be very considered in terms of the AI products. The vendors, the platforms that we go with, I think, um,
+[00:21:22] yeah, the the the 2 ranges are there's 1, which is gung-ho where you're sprinting off straight after the LMS and throwing them whatever, process and maybe putting your team through change management too early. And then you've got paralysis at the other end where, um, I understand how that comes about. Because there are hundreds, if not thousands of vendors that do the same stuff and being able to pick the needle and Haystack is difficult. So, we're looking at the capabilities that we need.
+[00:21:45] The first 1 is if we're going with AI, we need it to be as deterministic as possible.
+[00:21:50] Probabilistic doesn't really work deterministic, is where we need to go. So we need to know that if you run this 100 times to get the same answer every single time. Yeah, that is critical.
+[00:21:58] I think having the reasoning and the audit Trail is critical as well. So the Black Box technology, it doesn't work in that industry um or it does. But you find yourself redoing the work, um, as you would if you're throwing co-pilot to GPT or something. So so I think I think having having the reasoning and the audit Trail, um I think there will critical where a highly regulated industry.
+[00:22:18] And I think once you do crack this, it's going to be transformational.
+[00:22:21] Yeah, okay, so you uh, you started the session, taking us back to the uh the olden days. The time's gone by of 202010 take
+[00:22:30] Us into into 202030. What's what are we going to be doing? What is going to? What's going to look like? Oh, I've got a new photo by then. Um, that's probably the big 1 for 2030 says, um, is that your priority? Well, I was just about hit 30 then and uh, I'm not just about hit 30 now. So yeah. So uh, 2030 I think. Um,
+[00:22:45] So we look at where we are now. We're moving from a supported model to a self-service AI model and that those transformation for our business.
+[00:22:53] That would evolve in the next 12 to 18 months. We get that Foundation, nailed and scaled globally to more of a coordinated AI model where we can see audit managers booking, say, all the seniors trainees, but also agents to do certain, you know, transactional rules based. We work with obviously retain the accountability, but there's lots of, there's lots of the other workflow that can be passed off to agents. Once we're
+[00:23:15] comes with the points I've listed earlier, so
+[00:23:18] We can see that coming in the next kind of 18, 24 months for us and then Utopia where it's by 2030 or not. We'll see. But it's that, it's, that orchestrated, autonomous. Or the order experience, I'm not saying a machine will ever do an audit. The accountability will always be with your team and the the response to individual who's signed that opinion, that that's what you're basically paying for.
+[00:23:37] But there's so much of that workflow is rules based its transactional, things like requesting data from clients, receiving the data, handling the data, loading, the data, having the first pop at the output, like, all of that can be orchestrated and that's what we're charging towards for for well, we'll say 2030 now. Okay. Well, you can miss it now. You have to do by 2000 on it. So,
+[00:24:00] Experience, I'm going to attempt to wrap us up. I always like to go away with 3 points 3 things I've remembered. So I think the 3 things that have stuck out for me, are I really liked what you said? Early on you before you even touched AI touched ml? It was about what data do we need? When do we need it? And
+[00:24:14] How how do we get, how do we get it? So, getting getting the basics right thinking about the the process, what you actually want to achieve. You also talked a lot about, um,
+[00:24:23] ownership of the product. It's your product will help you with it, but you are empowered to use this. And that was really powerful to get everybody on board and then thirdly to about security, the importance of, you know, Auditors, not
+[00:24:35] A a business to be trifled with. It's not you're not in the business of anything that could hallucinate Financial results. So those are my takeaways. I'm going to wrap us up. It's a little bit early but um,
+[00:24:44] Please, you can.
+[00:24:45] Come and speak to Graeme if you have questions, comments, anything we'd like to talk about, he'll be at the thoughtspot booth purple. Jackets, dogs, and books. Thank you so much for coming to see our talk.
+[00:24:54] We'll see you at the booth.

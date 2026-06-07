@@ -1,0 +1,84 @@
+{
+  "summary": "The session discusses the concept of analytical franchises and how generative AI is transforming analytics delivery. It emphasizes the need for a balanced organizational model that combines centralized governance with decentralized execution to enhance efficiency and responsiveness to business needs. The speaker advocates for co-ownership and collaboration between IT and business teams to foster a data-driven culture and improve analytics outcomes.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Analytical Franchises",
+      "key_points": [
+        "Generative AI is changing how analytics is delivered.",
+        "There is a need for new operating models to meet evolving business expectations."
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:07:09"
+    },
+    {
+      "order": 2,
+      "topic": "Balancing Centralization and Decentralization",
+      "key_points": [
+        "Finding a balance between centralized governance and decentralized execution is crucial.",
+        "Analytics should be treated as a team sport requiring diverse skills."
+      ],
+      "start_time": "00:07:09",
+      "end_time": "00:12:19"
+    },
+    {
+      "order": 3,
+      "topic": "Implementing the Franchise Model",
+      "key_points": [
+        "Start with a small central team to define standards and iterate.",
+        "Variable mandates allow franchises to operate at different levels of autonomy."
+      ],
+      "start_time": "00:12:19",
+      "end_time": "00:20:04"
+    },
+    {
+      "order": 4,
+      "topic": "Importance of Data Products",
+      "key_points": [
+        "Data products and analytics products provide structure and improve quality.",
+        "User experience is critical for effective data consumption."
+      ],
+      "start_time": "00:20:04",
+      "end_time": "00:28:15"
+    },
+    {
+      "order": 5,
+      "topic": "Recommendations and Conclusion",
+      "key_points": [
+        "Empower business teams as franchise owners of their data.",
+        "Foster collaboration and acknowledge varying capabilities among franchises."
+      ],
+      "start_time": "00:28:15",
+      "end_time": "00:29:32"
+    }
+  ],
+  "key_takeaways": [
+    "Adopt a franchise model to balance central governance with local autonomy.",
+    "Encourage collaboration between IT and business teams to enhance analytics effectiveness.",
+    "Implement data products to improve structure and quality in analytics delivery."
+  ],
+  "entities": [
+    {
+      "analytical franchises": 5
+    },
+    {
+      "generative ai": 4
+    },
+    {
+      "data products": 6
+    },
+    {
+      "centralized governance": 3
+    },
+    {
+      "decentralized execution": 3
+    },
+    {
+      "sandbox environment": 3
+    },
+    {
+      "variable mandates": 3
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

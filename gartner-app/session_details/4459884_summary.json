@@ -1,0 +1,81 @@
+{
+  "summary": "The session discusses the importance of data storytelling and how it can be enhanced through generative AI. It presents a five-step framework for effective data storytelling, illustrated with a case study on Hurricane Katrina and its aftermath. The speaker emphasizes the need for AI-ready and governed data to ensure impactful storytelling while avoiding manipulation.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Data Storytelling",
+      "key_points": [
+        "Importance of data storytelling in today's world",
+        "Generative AI's role in enhancing storytelling"
+      ],
+      "start_time": "00:00:03",
+      "end_time": "00:01:30"
+    },
+    {
+      "order": 2,
+      "topic": "Five-Step Data Storytelling Framework",
+      "key_points": [
+        "Framework consists of five acts",
+        "Illustrated through the Hurricane Katrina case study"
+      ],
+      "start_time": "00:01:30",
+      "end_time": "00:09:42"
+    },
+    {
+      "order": 3,
+      "topic": "Visualization and Narration",
+      "key_points": [
+        "Effective visualization makes data consumable",
+        "Narration is crucial for understanding data context"
+      ],
+      "start_time": "00:09:42",
+      "end_time": "00:17:09"
+    },
+    {
+      "order": 4,
+      "topic": "Generative AI and Data Governance",
+      "key_points": [
+        "AI readiness and governance are essential for effective storytelling",
+        "Risks of emotional manipulation without proper governance"
+      ],
+      "start_time": "00:17:09",
+      "end_time": "00:25:43"
+    },
+    {
+      "order": 5,
+      "topic": "Recommendations for Data Storytelling",
+      "key_points": [
+        "Personalize data stories for different audiences",
+        "Invest in developing storytelling capabilities"
+      ],
+      "start_time": "00:25:43",
+      "end_time": "00:32:15"
+    }
+  ],
+  "key_takeaways": [
+    "Data storytelling is essential for making data insights actionable.",
+    "Generative AI can enhance storytelling but requires governed and contextually rich data.",
+    "Personalization of data stories is crucial for effective communication with diverse audiences."
+  ],
+  "entities": [
+    {
+      "data storytelling": 10
+    },
+    {
+      "generative ai": 5
+    },
+    {
+      "hurricane katrina": 3
+    },
+    {
+      "data governance": 4
+    },
+    {
+      "visualization": 6
+    },
+    {
+      "ai readiness": 3
+    }
+  ],
+  "subject_area_id": "data_management"
+}

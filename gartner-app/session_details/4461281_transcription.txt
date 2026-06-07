@@ -1,0 +1,197 @@
+[00:00:04] Hello everyone. Welcome to my session uh to welcome AI agent with me.
+[00:00:12] In the 19th century.
+[00:00:14] 1 local motive, just emerged people, believe they were dangerous.
+[00:00:21] they saw these machines might lose control and a scare animals and people when they entering into the village,
+[00:00:31] In fact.
+[00:00:32] There was a law even requiring people to running ahead of a local motive and waving a red flag.
+[00:00:42] Today.
+[00:00:43] We're facing a similar moment.
+[00:00:45] We now have a new kind of local motive in AI era.
+[00:00:50] AI agent.
+[00:00:52] And we are also trying to release a lot of AI governance policy to narrow it and scope it.
+[00:01:02] Many DNA leader are still struggling to bring the AI into into production and sometimes rejecting them before they even get there.
+[00:01:13] In this session, I'm not going to discuss the latest or greatest agent technology, which you will hear a lot from the other sessions.
+[00:01:23] I'm here to introduce the just enough changes. You should make
+[00:01:30] On your operating model for existing data analytics team.
+[00:01:35] My name is Julian son. I come from China. And in this session, I also trying to introduce you some of the observation from The Real World cases to see how they can adopt AI agent in a real organization and how they adapt their existing model.
+[00:01:57] Well, I think everybody sitting here probably overwhelmed with a lot of news, from AI development.
+[00:02:06] However, if you review your operating model, this may become an organizational static constant. It hardly
+[00:02:16] So here, let's see, what's the real issue for your operating model at this moment?
+[00:02:23] In our imagination. We think the AI agent is helping us, they should put into the production environment and solving some Mission critical tasks.
+[00:02:33] However, in the real world, if you see on the left, the graphic, this is a picture taken from the first robot Olympics where you can see human naturally stepping to trying to get these robot out of the field.
+[00:02:49] Well, I would argue this is maybe not the uh technology issue. We are generally putting the old operating model to use
+[00:03:00] The new AI Agents come into our way.
+[00:03:03] I don't want to leave the impression.
+[00:03:06] That agent for DNA is not successful, they are actually very successful in many AI native companies.
+[00:03:15] If you can see Uber LinkedIn, these digital native company already using AI agent in various tasks and receive very good business benefits.
+[00:03:28] But here, I don't want to compare you to these digital. Native ones. I want to introduce you. Another 2 on the left side.
+[00:03:37] This minion 1 health and also. Hello, right?
+[00:03:41] They're coming from China and 1 interesting thing.
+[00:03:45] Is they are using a traditional DNA model before, but now achieve some kind of success.
+[00:03:55] Xiaomi, which is the 1 Health AI agent, they are using agent to automate 110 reports with very high accuracy rate.
+[00:04:05] But the key idea here is not really automating the reports, the key idea is they are putting the cost optimization at the beginning of the goal, then they achieve it.
+[00:04:18] Hello. Right. Is using a tool called cord Paul drill to really enable the front end product manager to highly utilize the data to
+[00:04:30] Developed the DNA strategy, which eventually, grew the monthly membership?
+[00:04:36] These 2 stories telling us.
+[00:04:38] AI agent should not use the old goal, which is like
+[00:04:44] Increased the reports dashboard. We should use our agents for business outcome or business value.
+[00:04:53] Well, different organization has different maturity.
+[00:04:57] We have a tool called the data analytics, strategy, and operating model to help you.
+[00:05:04] This is a, here's check tool which you can understand where you are and how you can, facilitate your next best step to adopt AI agent.
+[00:05:15] And the based on these 2, we getting a lot of feedback from our client as well. There are 3 major things or the just enough 3 steps I would suggest you to take.
+[00:05:28] Number 1. How you can facilitate a new delivery model which can really put in the business outcome at the beginning.
+[00:05:37] Second, how you can develop the new skill and talents to embrace AI agent. Last but not least.
+[00:05:47] Governance, how you can facilitate a better trust model while you people are using the new innovation.
+[00:05:55] This is also today agenda, I will go 1 by 1.
+[00:06:00] 1 and I give you some real example from the industry to see how they achieve it.
+[00:06:05] First is about delivery model.
+[00:06:08] Delivery model is DNA teams key tasks to give the DNA assets or output to the audience.
+[00:06:17] However, for a very, very long time, we will struggle to prove the value of our DNA delivery.
+[00:06:25] Well the the key idea or the key secret here may be, you hear a lot of time is we need to adopt an outcome based delivery model to effectively introduce AI agents this time.
+[00:06:38] It's basically cliche and you probably hear it in other sessions as well.
+[00:06:43] but why now, and
+[00:06:45] How it can really happen.
+[00:06:47] Well.
+[00:06:48] if we looking about 2026, the our agent keyword,
+[00:06:53] what is that? That should be context. Context is the king.
+[00:06:59] However, how do you get the context to get the DNA agent really work?
+[00:07:05] It is coming from the team. DNA is a team sport and a large language model, enable us a unique opportunity to bring the teams together with 1 only language.
+[00:07:18] Business language.
+[00:07:20] So for a very long time, you have your business team, always making the request always asking the new things for your DNA team.
+[00:07:30] And a for your application team, and your DNA team is using the data language. SQL python or the powerbi Dax language, these are their own language
+[00:07:42] And also, we want to achieve the last mile of DNA, we engage with the application development team, but they are using their software software engineer language. The coding language.
+[00:07:54] But now we have this unique opportunity to bring the team together. We're only focused on the business outcome to achieve the final value.
+[00:08:03] This is also the opportunity for you to bring all the context together which eventually feed the larger language model to get accurate answer.
+[00:08:14] How to do that.
+[00:08:15] I think if you are a longtime Ghana client, you might hear this hybrid optimal DNA model already.
+[00:08:23] So you have your centralized team and you have your decentralized team and we are trying to put the people in the decentralized team. These people become the data guy or the analytics guy just just sitting in different business in supply chain, in sales operation.
+[00:08:40] However,
+[00:08:41] If we were, you only using this Collective demand or using the collective way to collect the request?
+[00:08:48] This always end up with more dashboard and more more reports and DNA team is taking a lot of heavy lifting to generating these things but don't really getting a lot of recognition.
+[00:09:01] So with AI agent, we need to rethink how we should rebalance our team's effort, we need to align goal and matchable business outcome from dashboard to action.
+[00:09:14] So here's the idea. We need to reorganize our team to let every team. Only focus about the outcome, the business value.
+[00:09:24] This sounds still very conceptual level. Let me give you 1. Solid example, coming from Alibaba.
+[00:09:33] So Alibaba is a big company. Um, they are e-commerce company for many years so they are using a new framework called red.
+[00:09:45] I d e. The goal is to achieve result at a service. Let me break down start by step.
+[00:09:54] Or stands for reorganized. The first thing they do is trying to reorganize their existing DNA team application team. And also the business domain team to focus about 1 product 1 outcome. They want to achieve, you can think this team is really product Centric, which adopt a lot of product management discipline.
+[00:10:18] The second step is identify, they need to identify these repetitive label intensive work to really get, what is the true value?
+[00:10:30] Is the high priority task. They need to achieve with AI agent.
+[00:10:35] Well, this part can be very complex, I will elaborate later.
+[00:10:39] The third 1 is about defining.
+[00:10:42] Define is not about defining how many dashboard we need to build. They need to Define what good looks like for my our agent enabled DNA. What is the business outcome? We can achieve from my new agent enabled Analytics.
+[00:11:00] It also aligned with a very important Concept. In the AI World, AI evaluation, we should build our own evaluation framework to see what is the success criteria. Once, adopt my AI agent,
+[00:11:15] Finally ask you ask you in the Aging, word is easy, to be honest. Building something in the world of AI is just using the natural language. However, the key part is not about building an AI application.
+[00:11:31] The key part is to establish a feedback loop.
+[00:11:35] From the user feedback and also involve your AI application over time.
+[00:11:42] So Alibaba using this right model to really introduce the our agent to the team and not really overhaul the whole thing.
+[00:11:52] But, let's go back to this second step and then identify how they really achieve it.
+[00:11:58] Well, this is also go.
+[00:12:00] Back a very big debate in the world of AI agent.
+[00:12:05] What is the necessary to really build an AI agent and what do we Define ai agent in this world? Well, when we're looking about identify, we probably not knowing it at the beginning because we have no clue how AI agent can bring us to the table.
+[00:12:24] So everything was starting from this project based approach where you can see that the scope is very fixed and we have this predictable outcome and often it is driven by the non value. So this is something end up, probably not in our agent but an agentic workflow.
+[00:12:45] But the only other end we need to think about.
+[00:12:48] Over time, we need to develop the business complexity. We really want our agent to bring extra value, not just another dashboard with that. We see the scope, maybe become very involving and also the requirement can be changed. This is the time we need to think about AI agent and how we can shift the Project based approach to the product based approach. And here you can see it is often driven by discovered value and we need to measure it by business outcome and the user feedback. This is how we see how you shift from a genetic workflow to your AI agent as a
+[00:13:30] Product.
+[00:13:31] Well, this is only about the organization model. We also need to think about what is the task and what are the new skills your people working under this team?
+[00:13:43] This comes to our second night second topic, what are the new role and skills needed to work along with the our agent?
+[00:13:53] So, if we think about the steam engine era initially steam engine was only used in the existing workflow.
+[00:14:03] And nothing really changed fundamentally. And the people definitely worried about, they will lose their job.
+[00:14:10] however,
+[00:14:11] as the steam engine is replacing the
+[00:14:15] Can you an annual powered? Jobs to technical mechanical and operational roles. This start greatly increased efficiency and it changed the structure of trans Transportation related occupation. Eventually, people found their new job description and how they should do the job differently to generate new value.
+[00:14:38] We are entering to this our agent enabled DNA, as well.
+[00:14:43] It's very necessary for us to think how we should develop the new skills with our existing team.
+[00:14:50] We can see our agent will do a lot of work, but how human can actually help in here?
+[00:14:56] Let me just give you some idea relating the ex
+[00:15:00] Visiting industry trend.
+[00:15:02] If I ask you what are the most success AI agent currently?
+[00:15:08] Well, arguably, these coding agent are pretty successful cursor, Cloud code because coding is already being very well documented. We have the success code, we have failure code. They all well recognized, and, and recorded in the GitHub.
+[00:15:29] However, if you look at at your DNA, probably know 1 really document. The relationship between data analytics and business outcome.
+[00:15:40] If you want to do 1 thing after today, session with your team,
+[00:15:45] Is to really think about how you can document your existing DNA workflow to the business outcome.
+[00:15:52] Because the future about AI agent success is really determining how you can Define what good looks like. What is the good outcome you want to achieve?
+[00:16:02] With that there are 2 things majorly. You need to develop with your team. Number 1, decision making process. We need to map your decision model and how it relates to the DNA. Fundamentally DNA is to facilitate the decision making process. However, if you don't have a good clue to see how you can map your capability with the outcome, it's very hard for you.
+[00:16:30] Aging to learn.
+[00:16:31] Second part is about evaluation. If you're looking in all the AI agent, in the DNA World snowflake data breaks, they all bring their evaluation framework.
+[00:16:42] But this is not being well learned from your existing DNA team. We need to let your DNA team. Also understand how to develop these agent framework with a good evaluation, what good looks like for your DNA and how it relates to the final outcome.
+[00:17:01] And 1 important role. I think we need to really develop
+[00:17:06] is the AI product manager or AI product management.
+[00:17:12] The product Centric thinking is so important.
+[00:17:15] Because not like traditional application. Our agent is just the beginning.
+[00:17:22] The day 1, you ship, your our agent is not trying to achieve the success at early stage.
+[00:17:29] It is really Target to collecting more feedback data.
+[00:17:33] And also more usage. So your AI product manager need to play a little bit like a cheerleader to really become an evangelist in evangelist to attract more usage and to guide your user to using the AI agent and led them to accept some mistakes.
+[00:17:50] With that.
+[00:17:52] It is become very fast to getting a next iteration and also improving the product over time.
+[00:18:00] And also, we need to think about a fundamental change in the DNA because our agent are not supposed to replace your people, they should work with your people and we need to think about how human aging relationship is changed over time.
+[00:18:16] Let me give you this framework and you can just map your existing DNA.
+[00:18:21] Tasks, with this new idea.
+[00:18:25] So, there are 2 ways.
+[00:18:27] 1 Dimension is whether the work is transformed or not?
+[00:18:32] Maybe the work will be the same, but it will be largely facilitated by AI.
+[00:18:38] and another angle is really about motivation, whether your DNA people your DNA,
+[00:18:45] Experts want AI to do their work.
+[00:18:49] So let's look at the bottom left here, which is very interesting and you can imagine no matter how AI agent is strong in today's organization. You as a human will still want to do the data storytelling or to design your data analytic strategy, you will always putting the people at a driver's seat and to drive and recommend the next step of the DNA.
+[00:19:15] However, if you look at the top left, you can see a lot of our agents can do the first round of Dirty Work especially for data quality data preparation. A lot of agentic tooling is already helping here. You
+[00:19:30] Can really depend on them to do the first try or the first draft and then the human jumping to The Loop to make sure they do it correctly.
+[00:19:39] Well, I think the tricky part is about all this work is fundamentally transformed. If you're looking at the top right, deep research scenario planning. And simulation is already highly automated by AI agent. However, human here can only take the nether reference
+[00:19:58] The most difficult part I would say is the bottom right part. Which you can see for all the financial reports analytics operation management. All the in general business analytics will always be will always need people and AI agent to work together.
+[00:20:15] And there will be a lot of back and forth relating, what is the right scope of context. We should use
+[00:20:22] So with that, I think fundamentally we need to think how we can foster the trust, how we can develop trust between people and AI agent.
+[00:20:33] This bring us to the final topic. I want to discuss. It is a big topic, how to govern the our agent from your existing DNA model
+[00:20:45] This is a trust issue.
+[00:20:47] I can tell you, I do a similar debate session 2 months ago in Orlando, so the debate is called will AI qbi.
+[00:20:58] Well, all the
+[00:21:00] audience, I would say 80% of the audience telling me,
+[00:21:03] they will not think AI will qbi. They think bi will still exist.
+[00:21:09] Because fundamentally DNA is a serious business. You cannot get the number wrong, there is a trust concern over time because of AI hallucination.
+[00:21:19] And we have to say, hallucination will always exist. It? Really depend on how good evaluation how much pressure test you can make to make it correct eventually?
+[00:21:31] So here I want to say you need to really make some trade-off.
+[00:21:35] but the trade-off by the right Matrix, you should look into
+[00:21:39] so, here are 6, different competing Matrix you as DNA
+[00:21:45] Leader and also your AI product manager need to go. Let me just give you some example here.
+[00:21:52] If you want to build a very scalable AI agent, probably, you cannot really have a very high complexity.
+[00:22:00] And also, if you're using a very expensive AI model,
+[00:22:05] And your user probably cannot accept it because number 1 cost number 2. It is always bring a lot of latency will your transactional analytics activity. Cannot bear with.
+[00:22:17] And also, if you want our agent to achieve a lot of innovation, probably it will do quite a bit too Innovative work in the safety, become an issue with your it environment.
+[00:22:29] so, this
+[00:22:30] Type of garage and trade-off will always become the Topline thinking you need to think out of the box.
+[00:22:37] So, we need to using the big picture thinking, rather than just looking for the little tiny detail. Once you design, your AI agent workflow.
+[00:22:47] How to achieve it, let me just give you 1 another example.
+[00:22:52] This company is called inker. They have this Wing High agent to work as a Guardian Management practice.
+[00:23:02] What do I mean by that? So on the left side it's I think many organizations already trying to do is to enable or onboarding the our agent in the digital workplace application.
+[00:23:15] So they treat our agent as a new employee and they can just manage them and organize them with a systematic way.
+[00:23:25] And also the interesting part is on the right side. Sorry on the left left side. As you can see each of the our agent also has a supervisor or a guardian. What they do is to really adopt their own AI agent, but only focus on the business outcome.
+[00:23:45] And the just like many organization would like to do. Maybe they want to Benchmark everything, but here,
+[00:23:52] Is trying to Benchmark only on the business performance, not how many dashboard they built?
+[00:24:00] Not about how accuracy the number is, it's really about how they really help for the operation, how they helping with the recruiting, how they help with the procurement eventually, they are putting the the they are putting this monthly performance ranking and to incentive the guardian.
+[00:24:19] so, every Guardian
+[00:24:22] having a kpi, but it's kpi is highly associated with how the AI agent performing under their Guardian
+[00:24:30] in 1, interesting thing is
+[00:24:33] They only looking for these younger or Junior member in the team.
+[00:24:38] because these young people will always have the motivation to try the new things and don't
+[00:24:45] Worry about too much of the it burden over there.
+[00:24:48] So, as you can see here, the key idea is not really utilizing digital. Workplace, the key idea is only focused about the business outcome. Only focused about the bigger picture thinking, not really jump into the workflow and try to fix everything.
+[00:25:05] Otherwise, you will end up with a very sophisticated AI agent.
+[00:25:10] but with narrowed value,
+[00:25:13] this is the last idea I want to share with you, which I think fundamentally many organization is trying to fix
+[00:25:22] So, if you are in this conference, you probably hear a lot about explainable, AI or you need to put human in the loop.
+[00:25:30] But I think this is a fundamental wrong thinking. Once you're designing, your AI agent,
+[00:25:36] Agent is an autonomous software entity.
+[00:25:40] so, you want to using our agent to achieve the business value, all the business outcome
+[00:25:47] You don't really want your AI agent to build another dashboard which is, which is already free. You can build by the free bi to
+[00:25:55] what do you want to achieve? Is how much this new DNA application. The new DNA agent to bring the extra value for your organization. So we need to use this human on the loop process. So that means we need to build in environment for your our agent to make the mistake.
+[00:26:15] to build a new thinking for your people to say, if I don't jump into this Loop, whether the our agent can fix by themselves,
+[00:26:25] and 1 thing, I think everybody is confident is with the large language model involved. This model is becoming more and more powerful, and will be more easier and more obvious for your AI agent to find a solution by themselves.
+[00:26:40] So it's not really build a lot of agentic workflow with scope requirement. It's really let your our agent to bring the extra value to the table.
+[00:26:51] So with that, let me summarize here a bit
+[00:26:54] first, we need to rethink or data analytics, operating model from the
+[00:27:00] Logic based approach to the product based approach. We need to apply the product syncing to shape the product and keep getting the feedback. The feedback loop will determine how far or how much value you can achieve with our agent in your DNA team.
+[00:27:18] Second, we need to think about the new skills decision making and evaluation.
+[00:27:26] AI evaluation is a missing piece for DNA task for many agent, enabled DNA task. We need to think what good looks like for your AI agent and how it can define a good value case. Once you want to report or demonstrating the value of the DNA,
+[00:27:45] Last but not least. We need to put the human not in the loop. But on the loop to use the bigger picture, thinking to focus about a bigger goal, not jump into the detailed workflow and fix everything.
+[00:27:58] Here are all the things I want to share with you. Because I think for many organization here they already have a very strong or a very sophisticated operating model. If you only want to adjust 3 things here are the 3 really. The 3 things I want to recommend.
+[00:28:16] Fundamentally. I think I want to flip this picture here where you will see your AI agent is going to make a lot of mistake in the beginning and your people is going to fix it. You know trying to help them out of the loop.
+[00:28:30] But eventually, if you have this good AI environment to develop the AI agent, it will just give you the more value. The real business outcome, your AI agent can give to you.
+[00:28:42] With that, I want to say these are some some of the recommended reading. And we have detailed research about how to design your evaluation, how to map your organization model with your existing DNA capability.
+[00:28:55] And I want to say thank you and enjoy the rest of conference.

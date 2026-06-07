@@ -1,0 +1,103 @@
+{
+  "summary": "The session provides a practical guide for measuring the cost, risk, and value of Generative AI (GenAI) initiatives, emphasizing the importance of selecting the right use cases and aligning them with business strategies. It discusses the challenges organizations face in demonstrating financial value from AI investments and introduces a structured approach to evaluate and prioritize AI projects. Key insights include the necessity of cross-functional collaboration and the use of a funding funnel to ensure effective resource allocation.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to GenAI Business Cases",
+      "key_points": [
+        "Importance of measuring financial value in AI investments",
+        "Challenges in demonstrating ROI for GenAI projects"
+      ],
+      "start_time": "00:00:06",
+      "end_time": "00:05:40"
+    },
+    {
+      "order": 2,
+      "topic": "Selecting Use Cases and Business Alignment",
+      "key_points": [
+        "Need for careful selection of use cases to demonstrate value",
+        "Aligning AI initiatives with business strategy and risk appetite"
+      ],
+      "start_time": "00:05:42",
+      "end_time": "00:10:30"
+    },
+    {
+      "order": 3,
+      "topic": "Feasibility and Business Value Calculations",
+      "key_points": [
+        "Using a litmus test to evaluate project feasibility",
+        "Collaboration between business and technical teams for value assessment"
+      ],
+      "start_time": "00:10:30",
+      "end_time": "00:17:15"
+    },
+    {
+      "order": 4,
+      "topic": "Understanding Financial Metrics",
+      "key_points": [
+        "Differentiating between monetary and non-monetary value",
+        "Identifying KPIs relevant to AI initiatives"
+      ],
+      "start_time": "00:17:15",
+      "end_time": "00:23:15"
+    },
+    {
+      "order": 5,
+      "topic": "Case Studies and Practical Examples",
+      "key_points": [
+        "Real-world examples of successful AI initiatives",
+        "Importance of transparency in project evaluations"
+      ],
+      "start_time": "00:23:15",
+      "end_time": "00:30:00"
+    },
+    {
+      "order": 6,
+      "topic": "Conclusion and Next Steps",
+      "key_points": [
+        "Encouragement to apply structured frameworks for AI projects",
+        "Importance of ongoing collaboration and learning"
+      ],
+      "start_time": "00:30:00",
+      "end_time": "00:32:33"
+    }
+  ],
+  "key_takeaways": [
+    "Select AI use cases that align with business strategies to ensure measurable value.",
+    "Utilize a structured funding funnel to prioritize and evaluate AI initiatives effectively.",
+    "Foster collaboration between business and technical teams to enhance the feasibility and value assessment of AI projects."
+  ],
+  "entities": [
+    {
+      "generative ai": 10
+    },
+    {
+      "business strategy": 8
+    },
+    {
+      "kpis": 6
+    },
+    {
+      "funding funnel": 5
+    },
+    {
+      "value calculation": 4
+    },
+    {
+      "use cases": 4
+    },
+    {
+      "financial value": 4
+    },
+    {
+      "business alignment": 3
+    },
+    {
+      "cross-functional collaboration": 3
+    },
+    {
+      "roi": 3
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

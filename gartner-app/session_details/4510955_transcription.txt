@@ -1,0 +1,454 @@
+[00:00:06] Hello, and welcome to our closing keynote for day 2.
+[00:00:09] Like you to please join me in welcoming Dr. Paul Redmond to the stage today Dr. Redmond joins us from the University of Liverpool where he served as director of student experience and enhancement and has spent a career translating human centered, insight into measurable outcomes.
+[00:00:25] Today, he brings some practical experience that a challenge of every cdao and data lead that data leaders face.
+[00:00:32] Leading High performing teams in an era of Rapid digital change and unprecedented demographic, diversity.
+[00:00:39] And Dr. Redmond's Keynote
+[00:00:41] He will show us how to get the best from teams made up of 4.
+[00:00:45] Generations by blending digital intelligence with emotional intelligence.
+[00:00:50] To drive collaboration, Innovation and results.
+[00:00:53] Please join me in welcoming Dr. Paul Redmond.
+[00:01:06] Good afternoon, everyone. Thank. Thank you. Good afternoon, thank you, Jason, for that. It's great to be here. Thank you so much for the invitation. I'm going to tell you about 3 things this afternoon, I'm going to share with you the research. I've been doing over the last 20 years about the rise of the multi-generational organization as Leaders working in this field. You need to understand how each generation in your team views the world of world.
+[00:01:30] I'm going to share that with you this afternoon, so I'm going to look at the 5 Generations that are now in the world of work.
+[00:01:37] I'm then going to look at the forces of change the forces that are driving generational differences quicker than ever before 3 forces that you need to understand as leaders in the data and analytics field. You need to understand these 3 forces of change. If you don't understand them, the next few years,
+[00:01:55] Are going to be slightly different for you or as Millennials will call them hashtag Orcs.
+[00:02:02] So that's what I'm going to do over there. I'm going to focus this. And then finally, I'm going to finish with some practical insights, some actionable, insights that you can take away and work on with your teams.
+[00:02:15] Now to do this, I'm afraid I'm going to have to get slightly personal with you because I'm going to have to tell you things about your generation that you may wish I kept to myself.
+[00:02:25] So I'm going to talk about what motivates all of us and this is useful information because not only the most of us work in multigenerational organizations, many of us live in them, they're called families.
+[00:02:37] So This research I'm going to share with. You has wider usage today. If you've got teenagers, you're going to thank me for this presentation.
+[00:02:46] If you're thinking of having 1 or 2 children, don't do anything to you've heard. What I've got to say.
+[00:02:53] So that's what I'm going to look at as this as we go along. Um, what I would say to you though,
+[00:02:59] if I'm
+[00:03:00] Successful this afternoon. You will never look at your mobile phone in the same way. Again, that's my promise to you. Does anyone have a mobile phone by the way?
+[00:03:10] Right. Okay, so if I'm successful, you will never look at this in the same way again.
+[00:03:17] So Generations, it's the oldest business idea in the world. The idea of generations being different is, at least, 4,000 years old. It goes right back to the Old Testament, the Homer. This idea has been around a long time, but the key message is this every generation is a new people, every generation views, the world of work through the lens of its own generation. But here's the thing, you can't see your generation. It's just other people who seem strange.
+[00:03:45] Every 1 of us is a member of a generation, I'm going to reveal what those Generations are and how they behave now, you might be thinking as a leader, I manage a whole series of different generations and they all get on really, really well. Unfortunately, that is not quite the case.
+[00:04:01] Today's world of work has more Generations than ever before. And there's a major challenge to you as Leaders, because look at this in generationally inclusive teams. Of course, the benefits are there. They're enormous. The benefits are fantastic.
+[00:04:16] But there's a challenge people of different Generations. Don't talk to each other in the world of work. We tend to hang out with people of our own generation. We tend to talk to people from our own generation. We
+[00:04:30] Reference ourselves.
+[00:04:31] By talking to people from our own generation.
+[00:04:34] 4 out of 5 under 27 year olds. Haven't spoken to an over 50s.
+[00:04:40] In the last year, they've somehow swerved them in the world of work. Not only that people of who were younger avoid people over 50s. They think. Well, what's the point of talking to them?
+[00:04:52] I can't believe they're still here.
+[00:04:56] So there's a huge challenge that you've got in your teams.
+[00:05:00] But think about it. There's also an enormous opportunity. If you can build a thriving, multigenerational team in your field of data analytics, the benefits are
+[00:05:10] enormous, not only financially, but in terms of getting through to customer,
+[00:05:15] And clients, transforming, your relationship with the sea Suite. Building the thriving team that is future, proofed,
+[00:05:22] no 1's perfect but a team can be
+[00:05:26] and the issue is, how do we build the thriving multi-generational Team, all of whom see the world very, very differently. So that's what I'm going to focus on Generations.
+[00:05:36] The question is not how old you are but what's happening while you're growing up, it's the culture, the music that Politics the technology or conspire to create in an Outlook, which you embody your generation is something you embody, you walk around viewing, the world, through the lens of your generation, your generation defines how you work, how you manage.
+[00:05:57] how you even how you spell and
+[00:06:00] And punctuate.
+[00:06:01] I discovered this the hard way. I sent my students a text message last year, I put a full stop at the end of the message for my generation. That's the Law. You could be arrested for not putting a full stop. Students came in and said to me. Why are you so annoyed?
+[00:06:17] Why are you being sorry? That's what they said. Why you being sorry for their generation Punctuation is a microaggression
+[00:06:26] I discovered this the hard way, your generation also defines how you dress. You might notice that I'm the last person in the world now, wearing a tie.
+[00:06:33] I've tried, I've tried when I give a lecture, taking my time off my, my brain keeps saying, why you dress like this, it's either weaken or you're unemployed. Why you dress. That is the worst thing at University.
+[00:06:45] I I introduced a dress down Friday policy. I thought it'd be really cool, dressed down Friday policy. It was a disaster and I'll tell you why, because people of my generation stopped buying casual clothes sometime in the late 1980s.
+[00:06:59] I had these middle-aged professors coming in dressed like Duran Duran and banana armor.
+[00:07:04] They were saying to me. It's all I've got, this is all. I've got its like this on a garden clothes.
+[00:07:08] For me dress down Friday, is that that's just our Friday. So and I'm going to button that up that I I apologize for that. So it shows is a member of a generation but your generation as I said,
+[00:07:20] we can't see your generation, your generation defines how you view the world.
+[00:07:25] Here's the thing. I'm not suggesting that you don't have agency. You do have agency, you have.
+[00:07:30] Have to make decisions as leaders every single day of your lives and they're your decisions. However, those decisions, take place within a framework and that is your generation. It defines what you consider to be just common sense. How we behave, how we dress, how we work?
+[00:07:48] So I'm going to reveal to you, the main Generations that you need to understand as Leaders. I've been studying these Generations. Now, as I said for almost 20 years, I've been all around the world, doing this research, and these are the main Generations. I'm going to focus on today. Now I've got to say, first of all, there is an older generation than the Baby Boomers. Can you believe it? There's an older generation and they're still showing up to work, we call them in the UK, we call them the silent Jenner.
+[00:08:15] Generation. Why the silent generation because they would never ever complain to a doctor.
+[00:08:20] You can leave them in a corridor of a hospital for weeks months. They won't complain. If you're in a white coat and a stethoscope, you're safe with them. They'll say thank you. Doctor don't call an ambulance. I'll walk home, they're they're tough Hardy historical. Don't complain. Don't explain. That's their motto and they're still showing up to work in minuscule numbers, of course,
+[00:08:42] The main Generations are these. I've also got to say there is a younger generation now than generation Alpha. Children, born last year, are beta generation beta. Does anyone own 1 or 2 bettas?
+[00:08:57] Yes, you're happy to be away from them for, for
+[00:09:00] A couple of days.
+[00:09:01] So we have all these Generations. I'm going to focus on these major Generations though. Now, just in terms of,
+[00:09:08] The spread of these Generations. According to your field, have a look at this according to the distribution across across data and analytics. Look at these stats here.
+[00:09:19] Baby Boomers. Now, just 3 to 8% in your field Boomers were the largest generation in history. Gradually moving our Center Stage, which they can do. So because they have these things called pensions
+[00:09:31] If your gen Z, you won't need that word.
+[00:09:34] You might want to Google it just out of Interest.
+[00:09:36] But Boomers boomers are doing this. Boomers are also as I'm going to re re reveal to you, they, they can do because they own more or less everything
+[00:09:45] They've bought virtually all the property in this country.
+[00:09:49] 1 of my students said to me, you know I've realized
+[00:09:51] I'm not worried that I can't afford a house because it won't be long before I inherit my mom and dad's house. And I said, all right, how old are your parents? And she said, 42
+[00:10:00] 42. She was I thinking, how long can they go on?
+[00:10:03] So so these are the main Generations. The key message though in your field, is this the largest generation of the Millennials? Millennials are the largest generation now in data analytics, and that's incredibly significant as I'm going to reveal. Millennials are now the middle managers, they manage teams of on 1 level people who are their parents age and on another level people with Gen Z soon Alpha age
+[00:10:30] They are the bridge generation, they're a great generation.
+[00:10:34] But there's 1 thing. They avoid at all costs that you have to help them with. I'm going to reveal what that is as we go along. Do we have any Millennials here, by the way?
+[00:10:45] Thanks for popping in.
+[00:10:47] Thanks for getting your parents to drop you off. I know they're waiting, anxiously
+[00:10:52] They've got you on. Find my friends.
+[00:10:54] So they're great generation but there's 1 Thing Millennials avoid at all costs.
+[00:10:59] So these are the great Generations. I'm going to start off by looking at the Boomers. We have to understand the Boomers. Before we can understand today's world of work. Do we have any Boomers here today?
+[00:11:11] Any Boomers a few people that's good Comfort break.
+[00:11:15] Soon, sir.
+[00:11:17] Boomers largest generation in history until recently sit up straight. Do your homework invest in property, as I said, Boomers on about 80% of all property and they've got they've got the resources that no other generation has ever possessed. They started working the analog age, the, the age before digitization.
+[00:11:40] The Boomers.
+[00:11:41] You've got to go to work at a certain time 9 to 5 the concept of office hours is a baby boomer invention. What do you mean you're coming in? After 9:00? You 5 minutes late, you're in trouble.
+[00:11:52] Doesn't matter what you do. Just get that early key message for the Boomers office hours, created there, you've got to come into the office. Why? Because all the
+[00:12:00] Tech is in the office. What do you mean? You're working from home? Have you got a TX machine at home? I don't think so get into the office. If everyone's coming to the office, what are you going to wear? Well, you've got to have office clothes. You've got to have business clothes. Everyone has to wear. If you're the boss, how do you denote status in an office? Well, you get the biggest office. Not only that, but you have a member of Staff whose role it is.
+[00:12:23] To intercept normal people from going into your office. That's what their job entails stopping people saying. Have you got an appointment?
+[00:12:31] Then you have to wait in line that's their role Boomers. It was very, very formal. The the role of Boomer office was very formal, if you have information, you have data, what are you going to do? You got to fight it away? You have these things called filing cabinets.
+[00:12:45] You have hundreds of them all around the building.
+[00:12:48] The Boomers you had to show up, you had to if you wanted to communicate put P, pick up the phone.
+[00:12:55] Boomers the last generation that know how to answer the phone formally.
+[00:13:00] They answer the phone.
+[00:13:02] In a way, which actually makes them sound 2 degrees posher than their normal speech. They have a special phone accent that they use that no 1 else uses anymore. They answer in a correct way boomers are very important generation.
+[00:13:16] Also, if you note boomers are the last generation where it was almost compulsory to smoke.
+[00:13:22] What do you mean you don't smoke? What do you do with your hands?
+[00:13:26] How do you get a job? How do you meet people smoking?
+[00:13:30] The Boomers was an opt out. You heard to take steps, not to smoke. You had to take physical steps to say. I don't smoke and you would risk. The fact that everyone would look at you as if you were really strange.
+[00:13:42] Smoking was an opt out for the Boomers. My grandfather in Liverpool started smoking when he was 7 years old. He was a late starter.
+[00:13:51] Everyone smoked, it was an opt out as a result.
+[00:13:55] Ashtrays were compulsory on every desk.
+[00:13:58] If we were all in the Boomer area, now, there would be a blue cloud of smoke all over this room. I'd be smoking.
+[00:14:05] Everyone would be smoking.
+[00:14:07] Up, smoking was an opt out. I'm going to argue in today's world of work. There's something even more addictive than nicotine that you need to.
+[00:14:15] Be aware of.
+[00:14:16] Boomers are an important generation. They're an important generation because they have this old-fashioned thing called wisdom.
+[00:14:22] You only get wisdom through experience, through trying things out failing having another go. They're really important in the workplace.
+[00:14:31] If anything Boomers often say to me that they feel that they're not quite wanted anymore in organizations. They feel that they're being overlooked left out, but boomers are absolutely essential. Of course, in your industry, there the, the The Architects, they built the systems that AI is now training on boomers are absolutely essential. They're the people who can remember the backstory, how we got here.
+[00:14:57] They're a great generation and crucially.
+[00:15:00] They're the parents of millennials.
+[00:15:03] And fascinated by Boomer parents because they even though their Millennial sons and daughters are now in the late 20s. Early 30s. Boomer parents are still hovering over them like personal swap teams.
+[00:15:14] Intervening whenever life gets difficult.
+[00:15:17] I wrote an article about Boomer parents a few years ago because I noticed them sort of hovering over their sons and daughters, even though they were at work and I called them helicopter parents to my amazement. This term went viral. The idea of these parents, hovering over their Millennial Sons and Daughters, my research shows that parents still phone in sick on behalf of their millennial.
+[00:15:39] Sons and Daughters, they phone in sick. You know? Hello, my my daughter the chief executive.
+[00:15:45] Isn't going to be, she's got a bit of a temperature. I've given her some calpol.
+[00:15:50] They're incredibly efficient and effective as parents.
+[00:15:55] And that's why they're still hovering over their their kids even though they're in the 20s and 30s.
+[00:16:00] Boomers are gradually moving our Center Stage as you saw. According to the data 5 to 8% in your field, leaving the world to the second generation. That is now calling the shots running the show. It is, of course,
+[00:16:13] Generation X.
+[00:16:14] Do we have any Generation X is here?
+[00:16:17] Today. Oh, dear.
+[00:16:21] Angry cynical cross disillusioned.
+[00:16:25] Haunted, with a sense of disappointment, a sense that it should have been so much better.
+[00:16:30] If only the Boomers hadn't screwed everything up.
+[00:16:34] Generation X are the are the lead generation. They're running the show. They're an important generation. They started work at the end of the analog age and the start of the digital age.
+[00:16:45] Generation X had to go on courses to learn how to use things like Microsoft Office, they want on a course.
+[00:16:52] They had to read a manual, to use this technology.
+[00:16:56] and even though they've adapted brilliantly to this new technology,
+[00:17:00] they still use certain words which show that they're not native with this technology. They've had to learn it as they go along. They're not quite native with this technology. What I found is Generation X. If your Generation X, the chances are
+[00:17:15] The last generation of people that call this a mobile phone.
+[00:17:19] Is that your mobile phone?
+[00:17:21] Has anyone got a new mobile phone? Has anyone seen my mobile phone? It's just a phone.
+[00:17:29] It's just a phone.
+[00:17:31] Get over the mobility bit. Okay.
+[00:17:35] Apple no longer Market this on the basis that you can walk and talk with the new.
+[00:17:40] Mobile. It's just a phone, get over the mobility. Bit. I was talking about this about phones with my students because 1 student said to me I don't get why old people
+[00:17:51] Keep saying mobile phone. I just don't get it and she said, was there ever a time in history, when phones weren't mobile? And I said,
+[00:18:00] I said, yes, I was actually my childhood. I grew up with in a family that had just 1 phone. Did anyone else grow up in a, in poverty, like me, what? We had, we had 1 phone looking back. My parents were so proud of our 1 phone. They put it in the hall.
+[00:18:18] Okay, so you come in you. Oh my God, you've got a phone.
+[00:18:20] they even bought a special piece of furniture on which
+[00:18:24] to show the phone to its best advantage.
+[00:18:27] It's called a telephone table.
+[00:18:30] Ours was dead. Posh Gold Leaf.
+[00:18:32] Uh, black glass top. It looked like it was from the Palace of Versailles. My mom got it from Argos but it it looked great. And if you were super Posh you would have 1 of those that had a micro seat underneath. Do you remember those? And you would have your
+[00:18:45] Phone directories all stacked up underneath and I was explaining this to students. And I said, you know, when I was going to every phone conversation
+[00:18:53] Was a public event.
+[00:18:55] There was no privacy, it was impossible. In fact, the more private and personal the better it was for your family.
+[00:19:01] Because they would all be listening. They'd turn the TV down. This is fantastic.
+[00:19:06] It was a form of entertainment, the neighbors would come in everyone would be there. It was a form of a form of Britain entertainment and I was I was reflecting on this and 1 student said to me, oh my God. If you only had 1 phone who got to choose the ringtone?
+[00:19:18] That's what she said.
+[00:19:21] So I said BT, there was no choice.
+[00:19:25] So Generation X have had to go through this transformation. This start of digital.
+[00:19:30] Organization which they required but they're not native, they know things that after them, no 1 will know anymore. They know the link between an audio cassette.
+[00:19:39] And a pencil.
+[00:19:40] Now, now, you either know that or you don't don't you I haven't got time to go through this.
+[00:19:47] But you either know it or you don't.
+[00:19:49] So every year fresh is weak. We're always looking ways to fill students time. So I say to students, I want you to speculate on the possible connection between an audio cassette and an HB pencil. You've got 45 minutes
+[00:20:04] Flip chart, paper pens are becoming round, they never get it, they never ever get it. So Generation X, a key generation, a generation that started work again at the end of the anal.
+[00:20:15] Luggage, the start of the digital age, most of people in your profession, of course, are now Generation X as Leaders, their leaders, they're running the show, um, Generation X, of course, built the data warehouses that you've grown up with. They remember Y2K, all these things. They're the bridge generation between the analog systems and the AI transformation. A generation that started work at the start of the digital era, a great generation, yours is a great generation but again a generation that started at the end of a period.
+[00:20:50] I'm convinced Generation X are the last generation that can remember boredom.
+[00:20:57] Do you remember boredom?
+[00:20:59] Do you remember?
+[00:21:00] Has been so bored. When you were growing up, you thought you might die.
+[00:21:05] You thought I might actually die, my heart might stop beating just out of sheer boredom.
+[00:21:11] Having literally nothing.
+[00:21:14] To do nothing.
+[00:21:16] To do for Acres of time. Nothing whatsoever.
+[00:21:21] To do.
+[00:21:22] I'm convinced we've lost the ability to be bored.
+[00:21:26] We've lost the capacity from now on to be bored as a species. In fact, I've even pinpointed when we lost the ability to be bored, it was then that was the day when we lost the ability to be bored. If you want to be precise, 9:15 a.m. in the morning, what happened? Then? On that date.
+[00:21:44] To mean.
+[00:21:45] It's impossible for me and you to be bored from now on.
+[00:21:48] It was of course a launch of this. Think about it. Say, later on today. You've got 20 minutes to yourself. What are you going to do? Oh, I'll read some improving literature.
+[00:21:58] Oh, I'll invest in my skills development.
+[00:22:01] I will start networking. I will learn a new language know you won't. I'll tell you what you'll do before you even know it.
+[00:22:09] You'll be scrolling through your phone.
+[00:22:11] You'll be scrolling through your phone. You won't even know you're doing this. The problem is in losing the ability to be bored.
+[00:22:18] We're losing the ability to be creative imaginative to think of great, new ways of working great, new ways of building our teams of meeting the needs of our customers, and clients in losing the ability to be bored.
+[00:22:30] Losing a major part of what it is.
+[00:22:33] Human.
+[00:22:34] If you want to really help your kids develop the skills needed for the future, make them bored.
+[00:22:41] They'll thank you for it eventually.
+[00:22:44] Generation X running the show The Middle. Managers are, of course. As I said Millennials, who are the Millennials again?
+[00:22:53] On character if he quiet today, millennials.
+[00:22:57] are usually,
+[00:22:59] Oh, very, very happy to cheer themselves whenever they appear. Can we do it again? Millennials come in a cheer yourself. I know you
+[00:23:06] Yeah, that feels better. Hey, I know you, you wanted to that's what you've been used to all your life.
+[00:23:12] We can't believe you're here. Thank you so much for being here.
+[00:23:15] Uh, it's great, Millennials are a great generation, they've got more academic qualifications than any generation in history. They can't spell, but they've got the qualification so, so back off. Okay, back off. They're a great generation.
+[00:23:28] A generation that is acting serious. Questions about the world of work, Millennials are coming to the office and saying uh, why do I have to come in?
+[00:23:38] why do I even have to come in and what I found is Boomers and Generation X are saying
+[00:23:43] I don't know, actually.
+[00:23:45] I don't know. Why do I have to come in at 9:00? That's random.
+[00:23:49] And they're saying yeah, good point. I don't know. We've always done it.
+[00:23:52] Why do I have to come into the office? When I've got better technology at home.
+[00:23:56] Good question.
+[00:23:58] They're asking these big dumb questions.
+[00:24:00] S, which are challenging managers in ways, we've never had before, they're a great generation as I said, they're the quiet power generation, there's a generation managing all different generations and they're right in the middle.
+[00:24:14] And they are very good managers but there's 1 Thing Millennials will avoid at all costs. What I've discovered is Millennials avoid having difficult conversations
+[00:24:25] Like Orcs conversations, they will avoid them at all costs. If someone comes into their office looking crossed they will say stop.
+[00:24:33] before you can any further go and see my boss, the Gen X
+[00:24:37] They love having a row.
+[00:24:40] They've no friends. Anyway.
+[00:24:42] Go and see, go and see them. And they avoid having
+[00:24:45] These authentic conversations when they're needed. The problem is if gen Z who reports to Millennials, if they're not having those open and honest conversations there and then guess what they do
+[00:24:58] They quit.
+[00:25:00] If you're losing gen Z employees, I would put money on it being that interface with the millennial middle manager. We've got to help the Millennials, develop the skills and tools to have real conversations in real time with real people.
+[00:25:17] So Millennials are great generation middle managers, who need your support to help them develop the backbone to have these tough conversations.
+[00:25:28] I'm now going to focus finally on.
+[00:25:30] Jensen.
+[00:25:31] And Alpha, I'm going to look at these both at the same time.
+[00:25:35] Think about these Generations, they grew up, they didn't go on a course to learn this.
+[00:25:40] This this new technology, they grew up playing with it, they grew up playing with more technology than NASA, used to go to the Moon and back.
+[00:25:48] Not that they believe NASA went to the moon and back.
+[00:25:52] They grew up playing with this. We don't know what they're doing with this technology by the way, because they say they can't even speak.
+[00:25:59] They could be buying Bitcoin. They they could be destabilizing the economies. Uh, they could be buying cars. No 1 know what they're doing because they have this extraordinary. They have these extraordinary skills.
+[00:26:15] In the workplace. Of course, they've grown up with this technology. Jenzie have always had this technology. They are native for this technology. The rule is, if it's been around before. You're born, it's not technology, it's just stuff. Okay, so get over the technology bit, it's just stuff. Okay. Technology said is anything that comes with the manual,
+[00:26:37] They don't read manuals, they've just grown up playing with this. Think about it, gen Z and Alpha were born into a world of ubiquitous Computing in which intelligence is everywhere everywhere from now on answers are on demand machines are co-workers. How does that work? Um, reality is
+[00:27:00] Curated.
+[00:27:02] Everyone is always reachable. No matter where they are in the world. Everyone is constantly reachable. Identity is fluid and self-authored.
+[00:27:11] And Authority must be earned.
+[00:27:13] Not assumed. That's a major difference from older Generations. All of which this makes it ridiculously easy for these generations to do this to automate to model to visualize to generate the distribute.
+[00:27:29] And to work together when I was going up, only IBM, could do this.
+[00:27:33] Now, everyone can do it from the technology that they have in their own pocket, but there's a catch while, it's ridiculously easy to do this. It's ridiculously difficult.
+[00:27:43] For them to do this.
+[00:27:45] in G, it's interrogate data to validate information to
+[00:27:51] challenge.
+[00:27:52] To contextualize information to question and believe it or not.
+[00:27:58] To read.
+[00:28:00] We could be entering the first post literate generation in the last 4,000 years. A generation in which No 1 has to read.
+[00:28:09] Anything.
+[00:28:10] According to the LSC by voice by 2028 voice, AI will be the default way of working. No 1 read anything.
+[00:28:19] The world of work isn't prepared for this.
+[00:28:22] So what's driving these changes? What is driving this generational shift, I'm going to reveal to you. The 3 forces of change the 3
+[00:28:30] Drivers have changed Richard changing Generations. Faster than ever, before 3 forces that you need to understand. The first is, of course Humanity rewired
+[00:28:41] Technology is changing us as a species faster than ever before.
+[00:28:47] Think about it, we shape our tools and thereafter our tools shape us the technology that we use isn't neutral. It changes Us in ways which we never imagined in ways, which we never saw coming. Let me give you some examples of this.
+[00:29:02] Here's a question for you.
+[00:29:04] What percentage of 3 roles in this country?
+[00:29:07] Has a smartphone.
+[00:29:10] What is does that sound like a ridiculous question, does that sound like a Preposterous? What percent?
+[00:29:15] Of toddlers.
+[00:29:17] Has a mobile phone. If that makes you feel better.
+[00:29:22] What percentage of of toddlers. What do you think?
+[00:29:26] 1%, shouldn't it be zero?
+[00:29:28] Um, 21%.
+[00:29:30] 21%, according to ofcom. So I said to students, who are they phoning?
+[00:29:36] Who are they, who are they phoning? And students said to me, what are you doing with your hand, Paul?
+[00:29:41] 1 of them said to me? Is that a gang symbol? The gangs?
+[00:29:45] That's a phone from my generation. Thank you very much. Question is, who are they phoning question for all of you a real question for all of you here, what percentage of people check their phone within 15 minutes of waking up in the morning?
+[00:30:00] Whoops, you all look a bit sheepish at this. Can I ask you a question? How many of you speak with your phone by your bed?
+[00:30:09] Yeah, look at this. Okay.
+[00:30:11] Thank you for putting the house lights up, Peter. Um, so how many of you let's say you wake up in the morning? You think, hmm? I wonder what the weather's like
+[00:30:19] Do you a?
+[00:30:23] Open the curtains.
+[00:30:25] Or do you be check your phone?
+[00:30:28] So come on, let's be honest. How many of you check your phone before? You say good morning to another living person every morning. You know, all the married people
+[00:30:38] Everyone. Look at this. So this technology isn't neutral percentage of people who check their phones 80% of people. This
+[00:30:45] Is not neutral this technology, ladies and gentlemen, it's changing all of us, regardless of Our Generation. Here's another question. Here's a new word for you nomophobia. What percentage of people suffer from nomophobia? Heightened levels of anxiety caused by your phone battery falling.
+[00:31:02] Beneath 20%.
+[00:31:04] Nomophobia, if anyone feels a bit homophobic, we've got some plug sockets at the front of you. Want to come in homophobia, 48% of people suffer from a clinical phase called nomophobia. Here's another question for you. How many times did they do? You touch just touch your phone?
+[00:31:20] How many times a day do you just touch your phone?
+[00:31:25] You see I'm convinced we don't even know we're doing it now.
+[00:31:29] In Mac.
+[00:31:30] Death might be Beth says, is this a dagger? I see before me now it's it's this my phone. I see before me, we don't even know.
+[00:31:37] We're doing it now. How many times a day do you just touch your phone? Is anyone thinking? Oh my God, how many phone get there?
+[00:31:46] You might be surprised.
+[00:31:48] This is what we discover on average.
+[00:31:51] You see touching your phone, having your phone in, your hand has become an acceptable form of social punctuation.
+[00:31:57] If you find yourself in an awkward situation a hashtag or situation. Let's say you get into an elevator you're by yourself fantastic, someone else gets in. Oh God.
+[00:32:07] What do you do? Get my phone out.
+[00:32:09] Look at that. They get in the elevator that someone in. Oh no. What do they do? Get their phone out.
+[00:32:15] You're in a steel box. There is no signal.
+[00:32:18] What are you looking at, who cares? Just looking at the screen because the alternative is too awful to contemplate. I might have to say good morning to another person,
+[00:32:29] Touching our phones, becoming a, a major part of social behavior today. Even when we're not even aware that we're doing getting unfortunately, it's transforming itself in the workplace.
+[00:32:40] Look at this. It's now acceptable.
+[00:32:43] In the workplace to be in a meeting. Not only to have your phone in front of you.
+[00:32:47] But to have your laptop in front of you.
+[00:32:50] It's even acceptable now, you would have noticed to send messages while you're in the middle of the meeting, to send emails to receive emails to make calls. This is all sudden, it becomes
+[00:33:00] Socially acceptable. And you'll see this percentage of Executives who admit to checking their phones during the meeting.
+[00:33:08] 60% of executives.
+[00:33:11] And what I get from gen Z is they say to me you know I go to meetings with my senior managers they're all on the phones.
+[00:33:18] they're on their phones, more than
+[00:33:20] I am.
+[00:33:22] and we're behaving as if we have human massive interplanetary sized brains
+[00:33:29] Unfortunately though, we don't.
+[00:33:31] so, my second driver,
+[00:33:34] Is what's happening with our obsession with this technology?
+[00:33:38] We have becoming very easily distracted. Incredibly distracted. In fact,
+[00:33:45] The more information we have the harder it is for me and you to pay attention, we think we can pay attention, then I can multitask. Unfortunately we can't, we can't multitask. We've got human brain 1.0 our brain is at least 200,000 years old. It's the same brain that humans have always possessed in a stone age. They had the same brain that we've had. Our brain has never been upgraded, it's like the iPhone 1. It's like trying to run apps on the iPhone 1. In fact, it's a Nokia brick 1. Am I doing our brain has never been upgraded. Our brain can't multitask. It can only focus on 1 thing at a time.
+[00:34:25] The more information we have the harder it is for us to pay attention.
+[00:34:30] And you and I are losing our attention at the worst time in human history. The time when AI is saying I'll do your job.
+[00:34:38] We're losing the ability to pay attention. I'm sure you've seen this everywhere. You go people together.
+[00:34:45] But all alone, we're all together, but we're all alone. There's a sociologist called Linda Stone. She says we're all suffering from continuous partial attention syndrome. So, I'm with you all.
+[00:34:56] But I'm on my phone, I'm reading the kids a bedtime story. They're on their phone. I'm on my phone.
+[00:35:02] I don't even know what the story is.
+[00:35:05] And she said, the problem is it? It's paying partial attention continuously. So, I'm, I'm partially involved with you all the time. All of, which she says leads to an
+[00:35:15] Artificial sense of constant crisis. I convinced myself that I'm in the BBC news desk, breaking news, Paul
+[00:35:22] Stop what you're doing. Look at this, this is more important than the people. You're with
+[00:35:27] we're all suffering from CPA and in particular As Leaders you need to understand how this is affecting your team.
+[00:35:35] How much time the people in offices?
+[00:35:38] How much time can they concentrate before they lose their attention?
+[00:35:43] What do you think it is? About? This said to me last week, I can concentrate for at least 45 minutes.
+[00:35:49] I think he was billing, someone.
+[00:35:51] That's what she said.
+[00:35:53] On average people at work today, can concentrate.
+[00:35:57] For 3 minutes.
+[00:35:59] 3 minutes.
+[00:36:00] Before they lose their attention.
+[00:36:03] Problem is once you've lost your attention, it takes you 23 minutes to get your attention back.
+[00:36:08] Which explains why you get to the end of the week. You think I've been really busy this week, but I don't know why I've achieved
+[00:36:14] I'm not done anything.
+[00:36:16] It's because you've been constantly losing your attention and struggling to get your attention back.
+[00:36:21] In data analytics.
+[00:36:23] It's not knowledge and information which are power anymore. It's a tension.
+[00:36:29] And you're fighting a rear guard against people who are losing their attention. We're not losing this attention accidentally. It's because it's been engineered that way. This technology has been an engineered to distract you. It's now possible to spend your entire life.
+[00:36:45] Almost permanently distracted.
+[00:36:48] And my final driving force which you need to understand. I call expectations reset
+[00:36:54] Today's generations are growing up at far more fragile than previous generations.
+[00:37:00] In today's world, we're far more risk averse. Particularly when younger Generations are growing up. Older Generations, grew up in a world in which risk and danger was a normal part of everyday life.
+[00:37:13] Simply going to the Past you would take your life in your hands. You would take your life in your hand. You know what? It's like on those things you would exit them at the speed of sound.
+[00:37:24] They would be hot cuz they've been in the sun all day.
+[00:37:27] you would be injured, you'd come back from accident and
+[00:37:30] Emergency and you go again.
+[00:37:33] Childhood itself was full of risks. Look at this. She's even being chased by an Alsatian in this.
+[00:37:40] There is no health and safety, you just had to hold on.
+[00:37:43] Just hope you don't fall off. If you fall off, it'll be fine. You'll be dead but you'll be you'll be fine.
+[00:37:49] All the generations, grew up, taking risk. It was part of becoming antifragile, you would take a risk, you get hurt but from that you get stronger, you'll become anti
+[00:38:01] Today's generation, you can't even go into a park, unless you're a company by an adult. Probably 1, who's got knee? Bosch qualifications.
+[00:38:08] Even going into a park is a risk. People say you should wear safety items and you'd be amazed at how many people
+[00:38:15] But I speak to parents who say, you know what, it's just too dangerous to let them play outside, so I give them a computer and send them to their bedroom.
+[00:38:23] Where's the real risk? Whereas the real danger, it's probably not playing outside in the park.
+[00:38:30] All of which is affecting how people behave in work, today's generation, like the younger Generations have a completely different psychological contract with the world of work, a different psychological contract than the Boomers and Generation X. I've tried to summarize it like this.
+[00:38:47] Previous generations.
+[00:38:49] Grew up accepting the rules of work, they accepted.
+[00:38:54] The bosses in charge and this is the world of work. Today's generations, of course, it's a different environment.
+[00:39:00] It's a different psychological contract than previous generations.
+[00:39:04] They were told, this is a data told what to do today. It's it's about working much more in a team environment. Today's world of work is far different than previous generations. Follow standards and rules challenge assumptions. This is a generation that will challenge you as leaders in ways which previous generations wouldn't do. The psychological contract has changed.
+[00:39:27] In previous generations, you would only ever leave a job. If you had another job to go to
+[00:39:33] Probably 1 paying more money.
+[00:39:35] Today, people leave jobs.
+[00:39:38] Not because they have another job to go to but because there's no compelling reason to stay.
+[00:39:43] The psychological.
+[00:39:45] Contract in the workplace has shifted rapidly, and it's because of these different environments in which people have grown up the expectations about work.
+[00:39:54] Have been reset.
+[00:39:57] So, let me give you my 3 actionable. Insights.
+[00:40:01] That I think you need to understand that could transform how you build this multi-generational team.
+[00:40:07] First thing I'm going to say is, we need all generations today.
+[00:40:12] To build a strong thriving, team working in a data analytics. You need all your Generations working together. No 1's. Perfect. But a team can be and for that, you need all your Generations.
+[00:40:25] I'm convinced thinking about the AI age.
+[00:40:28] from now on humans are
+[00:40:30] Going to be valued for 5. Things, 5 things.
+[00:40:34] The AI can't do. First of all, attention, being able to harness attention is going to be a key.
+[00:40:41] Skill from now on second judgment, AI can't judge. You can judge, you have to judge the value of this data, this analysis that you produce. It needs a human to judge it.
+[00:40:55] Third Trust.
+[00:40:57] Being trustworthy having governance in place is absolutely essential from. Now on AI, can't do this. We need people to do this.
+[00:41:05] Curiosity. That's going to be a major skill. Curiosity is a major skill that we often have downgraded. Only humans can do this having the Curiosity.
+[00:41:15] To learn from new data, new analysis, new technology.
+[00:41:20] And finally, courage.
+[00:41:22] This is a key skill for only weak and possess. These are my 5 areas.
+[00:41:27] If you can develop these skills, you will not be replaced by AI.
+[00:41:31] This will future proof you and your teams from now on.
+[00:41:34] We also have to understand how to work with different Generations. Think about it like this. You can't treat every generation anymore as if they're all the same, as if they're like, you mini versions of you younger versions of you, older versions of you, you have to adapt your engagement Styles, your communication Styles, your management styles for each generation, think about what the key drivers are for each generation.
+[00:41:58] And how you?
+[00:42:00] Going to work with each generation.
+[00:42:02] Again, you need all your Generations.
+[00:42:06] And 1 approaches.
+[00:42:11] For each generation.
+[00:42:14] So, how do you build a culture that welcomes?
+[00:42:17] And values each of your Generations very quickly 3 steps, 3 steps that you need to understand first going to make it safe for every generation. Every generation is wanted every generation is needed. We value every single generation
+[00:42:33] Make everyone feel valued and wanted particularly the Boomers who often don't feel that? They really wanted second. If you're a leader vulnerability is now a strength.
+[00:42:45] Saying, I don't know. What do you think is a key leadership skill? When I started working in 1840? My boss would never say, I don't know the answer to this, he would rather invent a wrong answer than say, I don't know, the idea of asking someone particularly someone younger than him, what they thought would be impossible for him to contemplate.
+[00:43:06] In today's work, the opposite is true. Vulnerability, is now your strengths and finally your role in today's workplace is to constantly say why, why are we here? Why are we having this meeting?
+[00:43:21] Why are we doing this in a way, which it benefits certain Generations over others?
+[00:43:27] In meetings, in the today's workplace, 1 Jenner.
+[00:43:30] Tends to dominate meetings and speak the most, you know, which generation loves meetings more than any other generation.
+[00:43:36] Generation X.
+[00:43:37] They love a meeting particularly if it's got conflict in the meeting, Generation X love Arrow.
+[00:43:44] Generation X. Be the most in about 67% of all meetings.
+[00:43:49] Gen Z, on the other hand, speak the most in just 3% of meetings.
+[00:43:53] so, if you're Gen X,
+[00:43:55] The next meeting you go to never miss an opportunity to shut up.
+[00:44:02] so my tip, my first tip,
+[00:44:05] Stop asking for feedback.
+[00:44:07] If you're like me, We collect lots and lots of feedback. It's all we do is gather feedback, education thrives with feedback. Most feedback is
+[00:44:15] Pointless, you never use it. It's retrospective, it's irrelevant. I'm going to suggest if you really want to build a thriving, multigenerational team stop asking for feedback do something radical.
+[00:44:27] For advice.
+[00:44:28] if you ask for advice people give you future focused information information, you can actually use
+[00:44:34] Stop asking for feedback start asking for advice. HR will hate it when you say this because it's what they do.
+[00:44:42] But see the difference and I promise you won't regret it. My second insight.
+[00:44:47] Your greatest risk isn't disruption. It's in attention from now on in attention is your biggest career. Danger. Your biggest risk from now on.
+[00:44:58] Is losing.
+[00:45:00] Attention.
+[00:45:02] And the problem is the workplace, the Boomer workplace that we all inhabit.
+[00:45:06] Is designed to accidentally take away your focus. AI is a major risk, particularly for the younger Generations. Why? Because look at this, the younger Generations. Use AI
+[00:45:20] but rarely do they stop to challenge it or question it or to think it through
+[00:45:26] your task as leaders and data analytics is to challenge constantly, particularly
+[00:45:33] Gen Z and to make sure that they understand the information that they're producing.
+[00:45:40] So, my second tip is this try no Tech meetings.
+[00:45:45] Once a week, no Tech meetings even better remove the chairs from the room. So everyone has to stand up. No Tech meetings and see the difference in how the meetings take place. If gen Zed are there gen Z if they're using AI monthly, explain the output sessions. If you can't explain it, it means you don't understand it. Challenged them all the time and data analytics, they've got to be able to explain the information that they're producing.
+[00:46:14] Kind of explained.
+[00:46:16] Means you don't understand it.
+[00:46:19] My third and final takeaway.
+[00:46:21] Your data strategy is only as good.
+[00:46:24] As your talent pipeline.
+[00:46:26] And we know from Gartner's surveys.
+[00:46:30] From the major challenge. Facing people in your area is, is is adoption of people who have got the right skills.
+[00:46:38] Talent and organization adoption. They're the major challenges getting a talent pipeline is absolutely critical. So what is it that the younger Generations want?
+[00:46:46] Very quickly.
+[00:46:48] Gen Z.
+[00:46:50] Want to make a purpose, they want a job that gives them a sense of purpose, being able to make a difference, it appeals for both gen Z.
+[00:46:58] and Millennials, they want to feel
+[00:47:01] That they're making a difference and I think this is where you've got a major advantage A major advantage that you can play on like hardly anyone else in the world of work. So what I'm going to suggest in my tip is when talking to gen Z about
+[00:47:15] Data analytics, you show the mission not the Machinery, you show the great things that come from the work that you're doing all the time. The transformation the data analytics leads to in people's lives. So focus on how your team makes a difference how trustworthy data.
+[00:47:33] Has real world life-changing benefits.
+[00:47:38] Show the mission, not the Machinery, when engaging generations and see the difference. That will happen very very quickly.
+[00:47:47] I thought I'd finish with.
+[00:47:49] A final point, a bonus point.
+[00:47:51] Because I'm the final speaker of the afternoon. I'm fascinated. Now in terms of leadership in the main just skill that we all know that leaders need is
+[00:48:00] Been able to listen.
+[00:48:01] Listening is absolutely critical often a listening to different Generations. Not just things they say but things they don't say. Listening is a major leadership skill. I'd be fascinated by listening skills.
+[00:48:14] For for a number of years. Because I've what I've discovered is the older you get, the more successful you are in your career, the harder it is for you to listen
+[00:48:23] You think you're listening but what you're really doing, is waiting to interrupt.
+[00:48:28] Everyone else is waiting for you.
+[00:48:31] To interrupt, it's what you do because you're the boss.
+[00:48:34] So I thought, right, I need to find some time with the greatest listeners in the world, who are the best listeners that I can learn from. So I thought it's obvious hashtag ovs.
+[00:48:43] It must be doctors.
+[00:48:45] It must be GPS.
+[00:48:47] So, I spent some time with the NHS.
+[00:48:49] Talking to doctors, following doctors around observing, how they listen?
+[00:48:54] what I discovered might shock you
+[00:48:57] Doctors are not very good listeners.
+[00:49:00] I was shocked. I see you don't. You're not that shocked.
+[00:49:02] In fact, they're clever, they're experienced, they've they've met a million different people every day.
+[00:49:08] Doctors.
+[00:49:09] Ask a question 1. Question that only they ask patients. They say even though they know they've got to listen to patients because if you listen to a patient they'll tell you what's wrong with their body.
+[00:49:19] Doctors say to patients, what seems to be the problem.
+[00:49:23] In other words, what in your amateurish way?
+[00:49:27] What in your non-medical hopelessly?
+[00:49:30] Still, informed way.
+[00:49:31] Go on. Have a go. Have a go, have a go.
+[00:49:34] And then they think to themselves. I can't listen to this nonsense anymore. I can't. Listen, I can't bear this.
+[00:49:39] I've got I've got I've got more patience to see, it's lunchtime soon and they think for God's sake stop talking. Well will you stop talking and they end up patient? Do you know how quickly a doctor interrupts a patient when they've said what seems to be the problem with your body?
+[00:49:54] 18 seconds, 18 seconds on average, they stop you.
+[00:50:00] However, research shows if a doctor listened to a patient for 40 seconds, the patient starts to feel better.
+[00:50:08] They start to feel more optimistic, more hopeful, maybe I'm going to be okay. Maybe I'll pull through 40 seconds.
+[00:50:15] Your homework.
+[00:50:17] That I've just set you when you go home.
+[00:50:20] Listen to your family for 40 seconds.
+[00:50:23] It's physically painful.
+[00:50:26] It's it's physically painful set set a timer on your phone.
+[00:50:33] But I promise you, they will come away and they'll say, hey, you've changed.
+[00:50:37] You're a different person. What did you do on this Gartner course? You'll come back. I like this new you.
+[00:50:43] 40 seconds to listen to all your Generations in the workplace. 40 seconds. In fact try this ask yourself who are the 5 people. You listen to the most 5 people that you listen to the most next what Generations are they because
+[00:51:00] The chances are they your generation? They're your generation.
+[00:51:06] Listen to them or for 40 seconds and do something radical. Get yourself a mentor from a younger generation.
+[00:51:14] And listen to them. It's called reverse mentoring, get yourself a reverse mentor and listen to them. I get mentored every year by students. It's really difficult because most of what they say is wrong.
+[00:51:26] But if you listen to them, you'll get to see your organization through the lens of a different generation. And in today's multi-generational data, and the analytics World, there is nothing more powerful as a leader than being able to listen to all your Generations.
+[00:51:43] Thank you very much.

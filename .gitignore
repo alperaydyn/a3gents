@@ -2,6 +2,11 @@
 **/.env
 *.env
 
+# Credentials and secrets
+acpln.md
+**/client_secret*.json
+**/*credentials*.json
+
 # Node modules
 **/node_modules/
 
@@ -16,3 +21,12 @@
 
 # Docker volumes / data
 **/data/
+
+# Large binary files (exceed GitHub's 100MB limit)
+**/*.mp4
+**/*.m4a
+**/*.zip
+**/*.db
+**/*.db-shm
+**/*.db-wal
+gartner-app/session_details/*.pdf

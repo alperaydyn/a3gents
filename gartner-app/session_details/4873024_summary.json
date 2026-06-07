@@ -1,0 +1,105 @@
+{
+  "summary": "The session discusses the evolution and implementation of agentic analytics platforms, emphasizing the importance of trust in AI-driven decision-making. Speakers Drew Goulart and James Elmore share insights from their experiences, highlighting how AI can democratize data access and improve organizational efficiency. They stress that successful adoption hinges on building trust with users and ensuring reliable outputs from AI systems.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Agentic Analytics",
+      "key_points": [
+        "Agentic analytics platforms connect structured data with AI for quick analysis.",
+        "The session highlights the shift in perception towards AI in analytics."
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:05:00"
+    },
+    {
+      "order": 2,
+      "topic": "Challenges in Data Utilization",
+      "key_points": [
+        "Only 2% to 5% of data in organizations is meaningfully analyzed.",
+        "The challenge lies in building trust and changing decision-making processes."
+      ],
+      "start_time": "00:05:00",
+      "end_time": "00:10:00"
+    },
+    {
+      "order": 3,
+      "topic": "Building Trust in AI Analytics",
+      "key_points": [
+        "Trust is essential for the adoption of AI analytics.",
+        "A verification layer is needed to ensure accuracy and reliability."
+      ],
+      "start_time": "00:10:00",
+      "end_time": "00:15:00"
+    },
+    {
+      "order": 4,
+      "topic": "Pilot Implementation of Agentic Analytics",
+      "key_points": [
+        "A three-week pilot was conducted to test the agentic analytics platform.",
+        "Initial skepticism was overcome by demonstrating the platform's capabilities."
+      ],
+      "start_time": "00:15:00",
+      "end_time": "00:20:00"
+    },
+    {
+      "order": 5,
+      "topic": "Real-World Use Cases",
+      "key_points": [
+        "Users reported significant productivity gains and enhanced decision-making.",
+        "AI analytics transformed data consumers into insight builders."
+      ],
+      "start_time": "00:20:00",
+      "end_time": "00:25:00"
+    },
+    {
+      "order": 6,
+      "topic": "Future of AI in Analytics",
+      "key_points": [
+        "The technology will change how organizations work with data.",
+        "Adoption depends on building user trust and demonstrating value."
+      ],
+      "start_time": "00:25:00",
+      "end_time": "00:33:54"
+    }
+  ],
+  "key_takeaways": [
+    "AI can democratize data access, but trust is crucial for its adoption.",
+    "Implementing a verification layer enhances the reliability of AI outputs.",
+    "Real-time analytics can significantly improve decision-making processes.",
+    "Organizations should focus on building adaptive learning systems for AI.",
+    "Successful AI integration transforms data consumers into proactive insight builders."
+  ],
+  "entities": [
+    {
+      "agentic analytics": 5
+    },
+    {
+      "trust layer": 4
+    },
+    {
+      "ai analyst": 3
+    },
+    {
+      "semantic layer": 3
+    },
+    {
+      "data democratization": 2
+    },
+    {
+      "explainable ai": 2
+    },
+    {
+      "productivity gains": 2
+    },
+    {
+      "context layer": 2
+    },
+    {
+      "data team": 5
+    },
+    {
+      "decision-making": 4
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

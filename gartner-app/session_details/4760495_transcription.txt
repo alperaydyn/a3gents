@@ -1,0 +1,113 @@
+[00:00:04] Warm. Welcome to this presentation. I'm very happy to be together with elude fasia today product and strategy leader from Dio.
+[00:00:15] Who has been driving transformation initiatives around data and AI?
+[00:00:21] Inside 1 of the yeah world's leading consumer Brands. Thank you Mariam. And joining me today is Marian Plum. The VP sales Engineering in international strategy, working with Enterprises globally, and semantic layer and AI enablement strategies.
+[00:00:38] And together we would like to discuss a problem. What may owe you have experienced and recognized to
+[00:00:45] Day.
+[00:00:45] And this talk is about a problem, every data leader in this room.
+[00:00:50] Has already invested in.
+[00:00:52] Solving.
+[00:00:54] And why the solutions that you in this room?
+[00:00:59] Bought often still don't.
+[00:01:01] Solve the problem, still weren't enough. So let me start with a question for this room.
+[00:01:12] please raise your hand, everyone if you have invested in a modern data platform in the last 3 years, I guess there are many, many of you
+[00:01:23] Okay, keep it up. Keep it up. Please keep it up.
+[00:01:27] um, so we see maybe I would say
+[00:01:30] 75%, 80 percent.
+[00:01:33] keep your hand up if
+[00:01:35] Business teams. Get the data they need in hours and not in weeks.
+[00:01:43] I would say, maybe we land at another 20%.
+[00:01:47] And please keep it up, if finance and sales agree on the same number every months.
+[00:01:57] Wow, there is okay.
+[00:02:00] Good. And that Gap that we all highlighted here is exactly what we are here about to talk.
+[00:02:08] And this is not a new problem, we face.
+[00:02:12] Every company has invested.
+[00:02:16] That's what we saw. Most of you, they have a data breaks, a snowflake, maybe a Google bigquery. So in the end you modernize your Lakehouse.
+[00:02:26] But your business still struggle, they're still waiting days sometimes weeks.
+[00:02:32] And finance and other departments, finance and sales teams.
+[00:02:36] They basically work from different kpi definitions the same Revenue, figure has different answers depending on who you are asking.
+[00:02:46] And last but not least, every AI initiative, you're trying to launch is blocked because llms can't query a consistent, governed data layer,
+[00:02:58] So, the investment worked in the end.
+[00:03:00] The platform is modern.
+[00:03:02] But the problem is, what comes next.
+[00:03:05] And this pattern that we see here, Gartner tells us is a universal pattern.
+[00:03:12] And this is not a Dio problem. We are talking about. This is not a cpg problem.
+[00:03:18] Gartner sees exact this progression across every industry. They cover
+[00:03:24] First of all, the lake horses life. Yeah. So that battle is 1.
+[00:03:29] But then we have bi tool proliferated power bi here, click there, Lucas somewhere else. So no single truth.
+[00:03:39] And nobody built a shared semantic layer. Every team defines their own metrics, that's for sure.
+[00:03:45] So in the end, AI Readiness is blocked llms. They need governed consistent data context to reason reliably and that Missing Link.
+[00:03:55] A universal semantic layer.
+[00:03:58] is what we are here to show you today, not Theory but in practice
+[00:04:03] And the Aereo experienced every single of these stages we see on this screen so elute over to you to talk about it. Thank you.
+[00:04:13] To make this real. Let me describe the situation. What we have experienced in our finance and analytics world before leveraging. Uh the latest features in strategy. First of all, the data access leg new data products at the ago, took around 2 weeks
+[00:04:30] From uh, requirements setting to delivery. Not because the team was slow, actually. They were brilliant. Because the architecture required, it incon, inconsistent metrics is the the second 1. Let's take an example of the nsv. That says value our key commercial uh metric was calculated differently by Finance sales and each Regional team. We are not lucky as you uh their the same question. Got 3. Different answers number 3, 3 the scale of operation. As we probably know we operate in, in over 180 markets, we are proud to our 200 Brands, thousands of business users. All dependent are all dependent on data,
+[00:05:15] Bricks and all building their own workaround forth and that the breaking point. Uh, I can share you an example that we we walked into a senior level level planning meeting Finance showed, uh, uh, their own Revenue. Number Commercial, uh, show the different, 1, same period, same data, different answer. And then suddenly someone in the room said that, why does it take 10 weeks to get a number? Everyone agrees on that question is why we are here today? And before I show you what we are trying as we speak, I'm going to explain why this problem exists, structurally in house
+[00:05:57] So why does it take weeks to get a number?
+[00:06:00] Everyone trusts, they are basically 3 causes. Everyone of them are. Structural not a people problem. It's basically an architectural uh challenge, not a problem. Sorry, first of all too many handoffs every metric, request process at least 3 teams before it reaches. Uh the the business data Engineers bi Architects, uh, business analysts each 1, adds a que a meeting and a delay, second logic, uh, in the wrong place business rules. For example, how you calculate nsv margin volume Etc, are buried in pipeline codes, then re uh, then recreated in powerbi strategy, or name the platform what
+[00:06:45] You are using.
+[00:06:46] Nobody shares a definition, everyone maintains their own.
+[00:06:51] Then third everything Tangles together, security, performance and Metric, definition are all mixed in the same pipeline. Uh, layers. If you change anything Upstream, you risk, breaking everything Downstream. The Medallion architecture. Architecture wasn't designed to cause this, but these 3 causes what we all, uh, faced turned into a button neck. Let me show you the next slide. How exactly?
+[00:07:18] so every layer I'm sure you are also familiar with it and most of you use uh this uh, uh uh, layer construction, a medallion architecture, you know, every layer
+[00:07:30] Credit Control every handoff at a time. And the business weighted at the end, like you saw the late that lady over there. This is what that button that looked like in practice most, uh, Enterprise Enterprises today operate, as I, I mentioned to you in the same way. So first, uh, data first moves through the bronze layer how we call it for ingestion and mapping, second then we moved uh, to the silver for cleansing and standardization. Then the third 1 is the gold where business Logics and transformation are added. And finally, we get to the Platinum layer layer where bi specific, uh, models and Report reporting structures are created. Of course, each layer has a purpose, but each layer introduces dependent.
+[00:08:15] Coordinate coordination and endless uh meetings of course. And every layer depends on different expertise.
+[00:08:23] As you can see on the slide data Engineers, bi Architects, governance teams. And of course, the domain, uh, specialist
+[00:08:31] This means every transaction transition becomes uh another handoff another key, another meeting another waiting Point by the time, a new metric or data product reaches the business teams days. And even there are some cases where even weeks have already passed, and, of course, and and every new request a new waterfall starts again and again,
+[00:08:57] Of course. But that question, you know, why does it
+[00:09:00] Take weeks to get a number, uh, at every 1 is what set us looking for a different approach. And we, of course, I just wanted to call out. We didn't want to repent replace. We didn't want another platform that would bring, uh, more complexity in the world, but, uh, luckily, we have a long, uh, standing partnership with the strategy. And we started rethinking how business users and most importantly, AI could access the trusted data faster, without re rebuilding the entire architecture, wanted to away, uh, to make the data half. We already paid, we call it the Au data Hub to, uh, uh, uh, that actually, you know, we paid that we want to make sure that it works for the business and then this
+[00:09:45] Uh let us to Mosaic and Marion is going to walk you through exactly how it changes. Our life. Maybe
+[00:09:54] Maybe, thank you, allude and you're about to see the solution in a few minutes. And it's not Theory. I have to highlight this approach that we going to show is basically being run, uh, rolled out right now to the aio's production environment, and is instead of pushing yeah, the business logic sudo 4 layers. If we have seen it mosaic,
+[00:10:17] It's our solution brings trusted semantics closer to the end user to the consumer.
+[00:10:23] And let me show you how that changes the equation in the end.
+[00:10:27] So 1, I once again, here's the shift.
+[00:10:30] Was like introduced at Dio before, the kpi logic was recreated across multiple layers 4 layers. We have seen that and of course, multiple bi tools,
+[00:10:41] Teams maintain different metric. Definitions delivery Cycles were slow.
+[00:10:46] An AI agents. We don't even have to talk about that. Um, the electric trusted business context.
+[00:10:52] Changes exactly those 3 aspects.
+[00:10:57] So instead of rebuilding logic everywhere, mozaik first centralizes trusted business, definitions into a 1 single shared and open layer.
+[00:11:08] instead of
+[00:11:10] rebuilding it, we can directly connect to Silver layer. So that means
+[00:11:15] We were able to reduce a reduction of 2 layers. That took us a lot of efforts that took the actually a lot of time and expertise.
+[00:11:23] 1 kpi definitions serves every bi tool. Consistently. So that's the openness aspect no matter if it's a powerbi or tomorrow it might be a click or even a strategy
+[00:11:35] We are open so delivery Cycles move from weeks to hours. I'm going to show you how this looks like in practice later on. And finally, AI agents can finally operate on trusted business context.
+[00:11:49] Importantly, and that's very important to highlight. This was not a rip and replace
+[00:11:55] it's an opened semantic layer between data bricks, and every consumption of
+[00:12:00] Data.
+[00:12:03] What used to take days? Yeah. Sometimes we now takes minutes and I would like to show you that by um highlighting a quick video that I have recorded prior to the session that shows you how we can connect to data bricks silver layer.
+[00:12:21] And you see the interface of strategy Mosaic as we use it right now at the autio, this is using the Aereo data we have used for a initial test, phase.
+[00:12:33] We have basically on this video, um, used data brick. Silver layer tables. You see, more than 400 tables on the left hand side,
+[00:12:42] and most important I talked about this,
+[00:12:45] From days to or weeks to to to minutes in the end or hours. You can see that the model that has been created. Here is automatically generated by the by the use of AI. Meaning you don't have to manually, make yourself aware of the structures of the data structures behind from data bricks, silver layer, it will detect structures. It will detect relationships among tables and it will form and build a model that also contains
+[00:13:14] Preparation of the data, a cleaning of the data as you can see it from here.
+[00:13:19] so meaning in the end just to recap, we have created 223 objects
+[00:13:26] and 129 metrics in a meaty.
+[00:13:30] Matter of. Yeah, minutes or seconds as you saw it from here?
+[00:13:34] So that's the first aspect speed I would say yeah speed and the opportunity to get get rid of layer complexity and dependency in data bricks.
+[00:13:44] But most important speed alone.
+[00:13:48] Is not enough.
+[00:13:49] It doesn't help you. If you can speed up your process and then in the end, it doesn't lend at the end user the consumer.
+[00:13:56] And a semantic layer. Only creates value. If people and also agents as we learned yesterday at the Keynote,
+[00:14:04] People and agents, they need to be able to consume it in the tools. They already use every day.
+[00:14:11] Who of you is using Excel?
+[00:14:15] Wow.
+[00:14:17] I would say to the 70% and of course some of you already use agents, they use bi tools.
+[00:14:25] Yeah, and important to highlight is that Mosaic is built based on an open semantic, layer connecting to powerbi.
+[00:14:33] Excel strategy. Every bi tool via native connectors. And then, of course, we have an mCP integration to open it up.
+[00:14:42] and um, basically use agents can be residing in clawed in shed gbt wherever you would like to have them and at the Rio
+[00:14:51] Users keep working in their familiar environments in their interfaces. That's very important to drive adoption.
+[00:15:00] to then centralizes trusted business logic, underneath
+[00:15:06] The same kpi, the same business logic across every consumer without friction.
+[00:15:12] And now elude will show you what that looks like in practice showing his use of powerbi using the same semantic model that we just created in my 1 minute video. Um allude back to you, thank you. And it's key that of course, we are in a strategic conference now and and but I wanted to make sure that, you know, the message that not only strategy can work and the semantic layer of Mosaic, but also power, bi has its capabilities key. Uh, and I think it is
+[00:15:45] A key um information for you all as well. So what are you seeing here is exactly the same semantic model from the previous, uh, video now. Consumed directly in powerbi kpi definitions erasable business objects and inherited security which is key are all centrally managed uh through Mosaic teams, continue using the front end, they already prefer while operating against the same trusted. Semantic Foundation Mosaic also adds intelligent caching between power, bi and data bricks. You will see, uh, the benefits of this, uh, later, this will improve, this is improving the performance. While reducing the recurring Warehouse queries and compute costs, which are quite key for us as well.
+[00:16:31] So you will see in these slides. Uh, these are the operational improvements, uh, the a job serve during the Mosaic POC, and we are already in the early rollout phase processes. That previously took weeks can now be completed in hours, by reducing the layer dependency, what I showed earlier and removing the duplicate modeling effort. We observed up to 10x acceleration in data access workflows, and establish. Um, and you know, this managed to us that, you know, we established 1 government kpi definition across. As I mentioned, the power, bi strategy, Excel or in some cases in in Click as well or even the AI agents don't
+[00:17:15] The roll out. We also observed up to 40% reduction in pipeline, engineering effort, and up to 41% lower consumption costs through intelligent caching between powerbi and, uh, data bricks. And most importantly, that is not a theoretical architecture. We see this in our POC and POV, what we have been building, I think in in only few weeks times, which is also a key, uh, Factor here. And I believe it is that direction, what do should be heading to? And we want to make sure that we roll out this at a broader scale as well.
+[00:17:54] So elude after going through this journey with us, what do you think? Was the biggest less?
+[00:18:00] Learned Dio and you yourself took away from that. So basically we are, uh, we see 4 key lessons. Uh, first, the data was never the real problem modern data hubs.
+[00:18:12] Basically, in data bricks or so snowflake are already powerful. The challenge is always the trusted access and consistency. Second every additional layer. What we have introduced, you know, means, uh, costs, dependency And Delay, special when the business wants something. Uh, for yesterday, third, the semantic layer becomes the bridge between the the data Hub or The Lakehouse and every consumer where where it be power, bi strategy, Excel click uh, or
+[00:18:45] Whatever. Uh, the third, uh, you know, uh, powerbi does not get replaced that, it was a key uh, uh, moment for us actually it get it, got much better because of the security, the performance and kpi definitions which are governed and reused everywhere in the ecosystem. And maybe the biggest lesson was this that we didn't replace what was already working. We simply added semantic layer powered by AI that unlocked more value. Uh, from the Investments, what we already had
+[00:19:19] so in the end, we can say the same data Hub, the same power bi
+[00:19:26] Same teams but different outcomes in the end.
+[00:19:32] I want to thank you everyone in this room for attending for your time today, and I want to give a special thank you to elute for joining me on stage and sharing the Aereo Mosaic Journey with us today. And if you and we still have time, I guess if you would still, um, continue the discussion. Yeah, see the Demo's live look back. Yeah. Um, look beyond what you've seen in this presentation or talk through your own architecture challenges. Please come and visit us at our booth.
+[00:20:07] Um yeah, we would be happy. Yeah. To show you how much I can simplify data access. We learned that today, reduce engineering,
+[00:20:15] efforts, we also learned that by reducing layers,
+[00:20:18] Improve AI Readiness and help save compute costs. So thank you. Thank you very much and we are happy to see you at the boo.
+[00:20:27] Thank you.

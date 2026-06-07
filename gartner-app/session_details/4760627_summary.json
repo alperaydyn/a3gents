@@ -1,0 +1,81 @@
+{
+  "summary": "The session discusses AstraZeneca's transformation in data analytics, focusing on making data accessible to non-technical users through a new Enterprise analytics platform built on Snowflake technology. It highlights the importance of consistent data products, simplification of metrics, and the integration of AI as a digital co-worker to enhance decision-making. The speakers share insights on the challenges and successes of democratizing data access across the organization.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to AstraZeneca and Data Challenges",
+      "key_points": [
+        "AstraZeneca's growth and complexity in data management",
+        "Importance of making data accessible to non-technical users"
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:08:33"
+    },
+    {
+      "order": 2,
+      "topic": "Enterprise Analytics Transformation",
+      "key_points": [
+        "Introduction of the Aspire program for analytics",
+        "Creation of a unified platform for insights"
+      ],
+      "start_time": "00:08:33",
+      "end_time": "00:14:32"
+    },
+    {
+      "order": 3,
+      "topic": "AI Integration and User Feedback",
+      "key_points": [
+        "AI as a digital co-worker to assist decision-making",
+        "User feedback on the new platform and its simplicity"
+      ],
+      "start_time": "00:14:32",
+      "end_time": "00:20:15"
+    },
+    {
+      "order": 4,
+      "topic": "Data Foundation and Semantic Layers",
+      "key_points": [
+        "Importance of a trusted data foundation",
+        "Training the semantic layer for better insights"
+      ],
+      "start_time": "00:20:15",
+      "end_time": "00:27:00"
+    },
+    {
+      "order": 5,
+      "topic": "Conclusion and Key Takeaways",
+      "key_points": [
+        "Embracing AI for innovative insights",
+        "The necessity of a solid data foundation for effective decision-making"
+      ],
+      "start_time": "00:27:00",
+      "end_time": "00:31:05"
+    }
+  ],
+  "key_takeaways": [
+    "Establish a trusted data foundation to ensure accurate insights.",
+    "Leverage generative AI to enhance decision-making and uncover new insights.",
+    "Simplify data access for non-technical users to democratize analytics across the organization."
+  ],
+  "entities": [
+    {
+      "enterprise analytics platform": 5
+    },
+    {
+      "snowflake": 5
+    },
+    {
+      "data products": 4
+    },
+    {
+      "semantic layer": 4
+    },
+    {
+      "astrazeneca": 8
+    },
+    {
+      "aspire program": 3
+    }
+  ],
+  "subject_area_id": "data_management"
+}

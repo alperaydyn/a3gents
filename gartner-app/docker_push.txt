@@ -1,0 +1,14 @@
+# İlk seferinde builder oluştur
+docker buildx create --use
+
+# Her iki platform için build et ve direkt push et
+docker buildx build --platform linux/amd64,linux/arm64 \
+  -t alperaydyn/gartner-app:latest \
+  --push .
+
+
+# VPS'de deploy et:
+rsync -avz --exclude '__pycache__' --exclude '.venv' --exclude '.git' \
+  ./ root@76.13.60.86:/docker/gartner-app/
+
+docker compose up -d --build --force-recreate

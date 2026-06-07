@@ -1,0 +1,78 @@
+{
+  "summary": "The session discusses the evolution of data engineering for AI, highlighting the differences between traditional data management and AI-specific data engineering practices. It emphasizes the importance of data readiness, governance, and collaboration between data and AI teams to ensure successful AI use cases. The speaker shares insights from a survey of organizations already investing in AI, outlining key practices for achieving business outcomes.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Data Engineering for AI",
+      "key_points": [
+        "Understanding the differences between data for AI and data for humans",
+        "Challenges in data availability and quality for AI use cases"
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:06:04"
+    },
+    {
+      "order": 2,
+      "topic": "Key Questions in AI Data Engineering",
+      "key_points": [
+        "Identifying use cases and AI techniques",
+        "Assessing data availability and quality requirements"
+      ],
+      "start_time": "00:06:04",
+      "end_time": "00:12:30"
+    },
+    {
+      "order": 3,
+      "topic": "Data Readiness and Governance",
+      "key_points": [
+        "Importance of continuous data qualification",
+        "Governance policies and their role in data representativeness"
+      ],
+      "start_time": "00:12:30",
+      "end_time": "00:19:00"
+    },
+    {
+      "order": 4,
+      "topic": "Collaboration Between Data and AI Teams",
+      "key_points": [
+        "Challenges in coordination between teams",
+        "Reuse of data across different AI use cases"
+      ],
+      "start_time": "00:19:00",
+      "end_time": "00:25:30"
+    },
+    {
+      "order": 5,
+      "topic": "Success Metrics and Recommendations",
+      "key_points": [
+        "Operationalizing data pipelines and governance",
+        "Key drivers for delivering business value with AI"
+      ],
+      "start_time": "00:25:30",
+      "end_time": "00:33:00"
+    }
+  ],
+  "key_takeaways": [
+    "Ensure data readiness assessments are integral to your AI program.",
+    "Foster collaboration between data management and AI teams to enhance data quality.",
+    "Leverage existing data products to support multiple AI use cases efficiently."
+  ],
+  "entities": [
+    {
+      "data readiness assessment": 5
+    },
+    {
+      "ai use cases": 8
+    },
+    {
+      "data engineering": 10
+    },
+    {
+      "data governance": 6
+    },
+    {
+      "data quality": 7
+    }
+  ],
+  "subject_area_id": "data_management"
+}

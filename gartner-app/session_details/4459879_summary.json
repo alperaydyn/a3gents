@@ -1,0 +1,104 @@
+{
+  "summary": "The session focuses on developing a resilient and agile AI strategy amidst the rapidly changing landscape of artificial intelligence. It emphasizes the importance of understanding current AI maturity levels, adapting strategies based on organizational growth, and preparing for future trends such as agentic AI. The speaker introduces a Rover framework to guide organizations in structuring their AI strategies effectively.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to AI Strategy",
+      "key_points": [
+        "AI strategy must be resilient and agile.",
+        "Setting goals is crucial for success."
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:02:09"
+    },
+    {
+      "order": 2,
+      "topic": "Current State of AI Adoption",
+      "key_points": [
+        "Only 17% of organizations have agents in production.",
+        "Investment in AI remains strong despite concerns."
+      ],
+      "start_time": "00:02:09",
+      "end_time": "00:05:55"
+    },
+    {
+      "order": 3,
+      "topic": "AI Maturity Levels",
+      "key_points": [
+        "Organizations range from low to high maturity in AI adoption.",
+        "Strategies must evolve with maturity levels."
+      ],
+      "start_time": "00:05:55",
+      "end_time": "00:11:14"
+    },
+    {
+      "order": 4,
+      "topic": "Rover Framework for AI Strategy",
+      "key_points": [
+        "The Rover metaphor illustrates a flexible AI strategy.",
+        "Governance and value are central components."
+      ],
+      "start_time": "00:11:14",
+      "end_time": "00:15:00"
+    },
+    {
+      "order": 5,
+      "topic": "Types of AI Strategies",
+      "key_points": [
+        "Four types of AI strategies identified: armored car, just drive, catalyst for change, and middle of the road.",
+        "Each strategy has different focuses and risks."
+      ],
+      "start_time": "00:15:00",
+      "end_time": "00:21:25"
+    },
+    {
+      "order": 6,
+      "topic": "Future Trends in AI",
+      "key_points": [
+        "Agentic AI is emerging but still in early stages.",
+        "Organizations should prepare for future AI developments."
+      ],
+      "start_time": "00:21:25",
+      "end_time": "00:30:12"
+    },
+    {
+      "order": 7,
+      "topic": "Conclusion and Recommendations",
+      "key_points": [
+        "Recalibrate AI strategies frequently.",
+        "Monitor progress and adapt to changes."
+      ],
+      "start_time": "00:30:12",
+      "end_time": "00:31:55"
+    }
+  ],
+  "key_takeaways": [
+    "Establish a flexible AI strategy that can adapt to rapid changes in technology.",
+    "Regularly assess AI maturity levels to inform strategic adjustments.",
+    "Utilize the Rover framework to structure and communicate your AI strategy effectively."
+  ],
+  "entities": [
+    {
+      "agentic ai": 8
+    },
+    {
+      "ai strategy": 10
+    },
+    {
+      "ai maturity": 5
+    },
+    {
+      "rover framework": 4
+    },
+    {
+      "organizational maturity": 3
+    },
+    {
+      "ai adoption": 4
+    },
+    {
+      "investment": 6
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

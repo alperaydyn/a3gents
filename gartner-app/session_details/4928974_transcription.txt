@@ -1,0 +1,143 @@
+[00:00:05] So, hello together.
+[00:00:07] Oh, thank you for showing up.
+[00:00:09] Still, some people remaining, that's good. So we are on the third day of an exciting conference
+[00:00:17] Let's have a look back. What did we learn within the last 3 days?
+[00:00:21] It's all about AI.
+[00:00:24] So what does it mean? It means that we have to take care about data Foundation.
+[00:00:31] About bringing a return on invest bringing business value into the organizations.
+[00:00:37] We have to take care about enablement, people culture.
+[00:00:42] These are the things we learned.
+[00:00:45] in a time where data comes more and more, a critical part of your value change,
+[00:00:51] you should have self control.
+[00:00:53] Especially we as European organizations should think about data sovereignity.
+[00:01:00] My name is last times, I'm from open Consulting and I'm here together with Peter Walker from permit service now and Bernie Vagner from Schwartz digits and we are proud to announce that we launched a partnership and we bought permit analytics as a complete fully managed. Southern stack on stacked Southern cloud.
+[00:01:21] So it's time to take back the control.
+[00:01:24] I'm proud to um, announced that Bernie is here. And um, we are
+[00:01:30] About to have him here and I'm really interested and looking forward. What's your
+[00:01:36] Opinion of the need of sovereign data in Europe.
+[00:01:42] Thank you very much last.
+[00:01:45] But, uh, also 1 may come from my side. Um, I'm Bernie, uh, I'm heading the stack cloud and also responsible for go to market as a CSO for Schwarz digits. And uh, I will talk about uh, first of all, who is Schwarz group most likely, some of you might know it and many others will not know uh who is dishwasher and why do we oh why did we take the Endeavor with with the Sovereign cloud?
+[00:02:14] and,
+[00:02:15] What can we do already today? Um, well our our Endeavor started about 8 years ago, once we uh,
+[00:02:25] Had forms scratch the idea to build a sovereign cloud.
+[00:02:31] Uh, Southern Cloud on openstack. Um, Southern Cloud on full open source technology. So we have not used any single line of code. Um, everything is based on open source. Let's quite important when we started, people were laughing at us today. It's a big Advantage because we are more or less the only 1 who can provide a complete back door analysis for the banking for the public sector. Uh, do all the compliance.
+[00:03:00] Reviews and things like this. Um and for sure we can guarantee there's no kill switch as well uh and uh let me uh start real quick.
+[00:03:10] With the European data volume everybody's talking about AI but uh, all of you know that uh data fueled Ai. And that is so important uh that we have a sovereign solution. Why is that for us? So important, so is number 4 retailer uh, on this planet. And number 1 in Europe and they said we started 8 years ago. Um, we have about in the meanwhile the data this from 2024. Uh, we have a
+[00:03:45] About 14,500 stores right now.
+[00:03:48] Um, most likely 185 billion in turnover, uh, with 610,000 people working for us, and a little bit more than 150 million loyalty. Customer those loyalty customers, of course, that comes with a huge amount of data and we have the responsibility to protect this data uh, for our own interests. But also in the interest of those customers uh, customer can pay with them. Customer can redeem money or points. Uh with this in legal connect or in uh, caland connect as an example. Um, but the group is very more than the legal
+[00:04:30] In the coffin, the coupe exists. Also, out of p 0
+[00:04:34] We zero is the number for in recycling, and we are producing, for example, 4 billion bottles of water. Every year 4 billion and the the, uh, the granoly we need for those bottles, uh, they all come, uh, from the recycling of, uh, the prezero guys and therat production. We are also the largest producer of food in Germany and nobody is producing more pasta than we in the north of, of the Alps, uh, 600,000 tons of coffee. Um, 120,000 tons of uh of um,
+[00:05:14] um,
+[00:05:15] Nuts and uh why? Um vegetables and so on. So let's uh quite impressive that means we are feeding about 25% of Germany and a huge portion of Europe. That is why we are also seen as a kritis infrastructure.
+[00:05:31] and that means with kritis, we have everything in common with the critical infrastructures, being at utilities being a banking uh being also public sector defense and so on
+[00:05:43] and as you know, um there has been quite a wake-up call um in the in the recent let's say 1415 months and um and so so vanity is uh coming up to uh the
+[00:06:00] Mind of many people, especially in Europe. Yeah, so he saw what happens.
+[00:06:05] Um,
+[00:06:07] this slides, they stand for itself. The the important thing is that Europe as the largest economy
+[00:06:15] Is governed by, uh, a governance and legal, infrastructures elsewhere. Yeah, uh, being at the US Cloud at Chinese and so on, so forth. And that is why we believe we need to work on eye level. You know, before this role here I was managing director of Google cloud and I'm not talking about protectionism at all. Yeah, uh, we are open. We are working.
+[00:06:45] Associate together with, uh, the other Cloud providers, but we need to have a solvent answer. That is our true belief that ended up with the ICC.
+[00:06:55] With the ICC, the international criminal court, and the highest prosecutor was taking out of business because he was not able to access his office environment anymore. Um, fortunately enough after uh, Easter this year. Those guys are now working on the Sovereign, uh, office 3 on a sovereign Cloud. Yeah, and also, with the Sovereign, um, messenger, I like a short and crisp. This is the National Security strategy. I knew that some of you might rather pick the table other seats. Uh, out there.
+[00:07:30] Service and everything we do, we are putting America First in the years ahead we will continue develop every dimension of national strength, and we will make America safer, which are free are greater and more powerful than ever before. That's not the bashing that's just a perfect. I didn't write this that was written by anybody else. Full stop. And what this what does that result in? And there's 1 important thing here. Um, on using us might Trump says he's constrained by his morality not international law.
+[00:08:04] And that was at least uh the the bell ringing when it when we uh was told right? That we started uh with this Sovereign cloud.
+[00:08:15] Already 8 years ago.
+[00:08:18] So now having said that, um, Everybody agrees that, uh, that the data is, uh, quite important. Imagine, um, our largest competitor, uh, in the United States. Um,
+[00:08:32] Uh, started to do business in in Europe already. And um, fortunately, they didn't take out or they didn't work out. Uh, but imagine if, if you have all the data with 20,000, uh, 25,000 Logistics operations, every day of the 150 million loyalty customers, that's a different story. And if this is then also equipped in a most modern AI, you can disrupt us from 1 day to the other
+[00:09:00] I speed up a little bit with the sitter bites. Everybody knows about the the scale and the economies of scale uh by this. Um and here.
+[00:09:11] I want to share.
+[00:09:13] Uh, 1 important thing. So,
+[00:09:16] Why I why do I show you this slide? This slide shows more or less 4 items.
+[00:09:23] Generative Ai and the steam machine. I hope you agree that both of them are Game Changer. Yeah.
+[00:09:31] Steam machine had really been a game changer and AI is a game changer as well. And why did I pick the clock?
+[00:09:40] The clock is the time to Market.
+[00:09:44] imagine, when you
+[00:09:45] When you bought a steam machine, it took you about 2 to 4 years until you had the first outcome of it.
+[00:09:53] Yeah.
+[00:09:54] With AI, if you and you, most of you are data Specialists, if you have your data at hand and wide organized, you can disrupt from 1 day to the other.
+[00:10:05] So, at the 1 hand side, it's a, it's a democratic, um, procedure. Uh, very good. But on the other hand side, if you cannot protect, and make sure that you can protect your data,
+[00:10:18] Then maybe you see yourself in front of the US teacher as well, but most likely it's not the big success. So that is why we believe we need to have the opportunity.
+[00:10:30] To get off the negotiation table whenever it is suitable.
+[00:10:36] But for doing this, you need to have an option.
+[00:10:41] And most people did not have the option. We took the option for example, to get off. Uh, the Microsoft Office by the end of this, uh, months, we will not use Microsoft Office anymore in 9 months. We migrated more than 100,000 users out of the 3207 thousand office. Users already away from the Microsoft Office in less than 9 months. Yeah, so that shows it showcases we can do it.
+[00:11:13] We built a stack.
+[00:11:15] Loud and distracted. Cloud is a newly admit. Also with FS FS NFD, which is
+[00:11:21] uh,
+[00:11:22] Uh restricted data or 1 level behind below uh NATO secret as an example and with the with the 3 other versions the sticker distributed Cloud Core fog and Edge. We have also air gap Solutions um in place we use them.
+[00:11:42] On the on the lower side is a military case on the upper inside um is our own cases. We use them in our 670, Logistics centers. It's a multi-tenant and multi-location, the second 1, the focus only single 10 Single location and we had been the first
+[00:12:00] Southern hyperscaler and will be also in the in the US. And with the edge Cloud, we can do things like this. As an example, you see the the outage in Berlin, but also the big outage, we faced last year in Spain, we were able to operate our stores including the cash registers, local payment, uh, electronic payment. Um and electronic shelf labels and everything Associated. Yeah including local AI.
+[00:12:36] That is why we creating a uh a Level Playing Field here with the 11 billion investment in liban. Now in
+[00:12:45] Germany, it's close to Berlin. It's the largest data center currently in build, uh, uh, in Germany and it will host up to 100, um, maybe 200,000 gpus, depending on the consumption, we start with 200 megawatt and we have the option to go to 300 megabyte and Beyond. Yeah, so, um, this is the new 1 today. We operate 7, data centers in Germany and in Austria. At the end of this year, hopefully, as well in Benelux and Switzerland. And then we are going after Romania. Bulgaria and, uh, Italy and Spain. Yeah.
+[00:13:23] Okay.
+[00:13:25] so, this is uh, the scalable data center or the data, scalable cloud, and with the
+[00:13:30] Uh, different data centers.
+[00:13:32] To also equip this because we need, of course, a lot of people skilled people. Uh, we have the buildings campus. It's a university. So you can do, uh, uh, studies in Tomb Technical University of Munich or the the surik university in ha, and you can finalize your studies as well in Hawn in this building's campus. And on the right hand side, you see, the Epi that the build has started already groundbreaking, was last year, and there, that will be the home of about 5,000 AI jobs, collaborating. Um, and you heard about, um, Alf Alpha, you heard about the coher story where we will merge,
+[00:14:15] Do we also significant investment? Uh in providing Sovereign AI solutions for Germany and uh for Europe and but also for Canada. And uh, having said that uh, quad strike also committed to move on to the second Cloud. Um, already.
+[00:14:33] Uh, by the end of this year. So to provide also some ecosystem,
+[00:14:38] And why are we here together? The 3 of us?
+[00:14:42] Because permit had been acquired by service now, and we are operating service now already fully. So, with our own staff with our own people, on the uh, stacked uh, um Cloud. Um, and that means no.
+[00:15:00] Us Cloud nor data act will kick in here. And once we will not be supported with any updates, we at least can protect the status quo for our customers. Yeah. And that so far, uh, was enough, uh, for them to say yes, especially in the public sector in the banking Arena. Very big time in the banking Arena. Uh, we have, uh, some great success here and, uh, having that that with the the operation, of course, now permanent, uh, is a required, but we had been a little bit faster together with our partner Opitz Consulting with last and the team. Uh, we already on boarded a permit already onto the St, Cloud, and it's available in in the isv market.
+[00:15:45] Place, so we can do.
+[00:15:48] Fully solvent Solutions on the stackit, we can do hybrid scenarios where you also, uh, operated partly locally on your premises, or we can do multi, Cloud scenarios. Yeah. So we are interconnecting with Microsoft AWS and and Google where I come from. Uh, that's, that's not a problem at all. For sure. Not. Um, but uh, this is, of course, our future and this is the ability. Also to get off the negotiation table whenever we believe it is necessary. So thank you very much for your attention and I will hand over to you to talk a little bit more about. Yeah. Yeah.
+[00:16:30] Wake up to talk a little bit more about. Um, how that works also on the second Cloud together with opiates. Perfect. Thank you, much appreciated. Um so yeah, as uh, as Bernie highlighted um pyramids. Now part of service now um bringing Enterprise grade analytics to The Sovereign infrastructure of of Stack it and um
+[00:16:57] Prior to.
+[00:16:59] Uh, engaging with uh the stackit team pyramid and opiate developed a partnership uh focused obviously on data management and analytics and to bring the best propositions to the market in that respect. Um, we ident
+[00:17:15] Identify stack it as a key infrastructure partner and when's about embarking on ensuring that we could deliver a range of our solution offerings. Uh to the whole market across the uh, the EU uh where the sovereignty question, the sovereignty requirement is absolutely key. Whether that be a mission critical workload, whether it be a strategic workload, whether it be Enterprise wide. Uh, but at the same time offering Choice sovereignty sovereignty alone sovereignty in a hybrid environment, uh, combined with other requirements, that that organization, those organizations might have, and also applicable, not just to large Enterprises, but also to the mid-market
+[00:18:00] And that's absolutely key. Uh, we see, huge opportunity there. Ranging from small medium and large sides organizations with challenges around analytics driving Insight across their organization in order to derive the appropriate value from their data.
+[00:18:20] Okay, so well thought through proposition um and also backed by Garner. Hence why you know 1 of the reasons we're here today um pyramid is is very much regarding and has been for a number of years as uh the number 1 uh from a critical use case perspective. Uh the accompanying document to the Gartner magic quadrant is a critical case uh critical use case study and uh pyramid
+[00:18:45] And number 1, consistently over the last few years. Uh, we're also 1 of the most Visionary analytics vendors in this market again, supported and backed by
+[00:18:55] Garner.
+[00:18:57] so together with Opitz Consulting, what were effectively doing is enabling organizations to modernize Analytics
+[00:19:04] and AI whilst
+[00:19:07] maintaining governance trust and of course, sovereignty.
+[00:19:12] So it's not just traditional bi. This is very much about
+[00:19:17] ensuring that governance and AI ready. Analytics is delivered in a regulated uh, for a regulated uh, environment for a mission. Critical environment, trusted data trusted metrics.
+[00:19:30] And trusted, decisions delivered in a self-service manner across every Enterprise.
+[00:19:43] so, as I said, Gartner ranked number 1 bark, ranked number 1, um,
+[00:19:50] Significant accolades and only viable uh and relevant if uh determined in my opinion, by end user customers. And in particular the use case capabilities study where we ranked number 1 um is very specific to that that point but also as we're driving now towards the pyramid analytics with service now proposition we're very
+[00:20:15] Getting to into a more autonomous nature. And I think most of you will be aware as you've been here over the last 3 days. The day a AI is at the Forefront of our, uh, of our workload and our consideration and in particular our, our Innovation. And so we're very much focused in that respect as part of service. Now we're extending analytics directly
+[00:20:35] Across the Enterprise to deliver real-time operational. Intelligence, not just traditional bi and on stackit, Sovereign, Cloud infrastructure. The customers have gained in a trusted environment for that AE, AI driven experience. And so we're very excited to be working in Partnership together.
+[00:20:56] Super conscious of time. There's lots to come. There's lots of uh in
+[00:21:00] Ation that we've got planned in collaboration with service now, in particular, around autonomous data apps and you'll be hearing a lot more about that in the uh, in the near future where we're going to be equipping and enabling, um, pre-delivery specific applications. That uh, you'll be able to leverage off of the platform on The Sovereign Cloud, delivered by stackit, and supported by Opitz, our delivery partner.
+[00:21:31] Okay.
+[00:21:32] Without further Ado, I think I'm just conscious of time here. We've got 8 minutes left so I'm going to roll through
+[00:21:39] And go, I think straight to questions that give us enough time for questions.
+[00:21:45] We know we've got some that came in online. Um, but uh, Chris would you mind, uh, taking the, uh, the floor?
+[00:21:52] Is this on? Yeah, uh, I do mind and I'm not going to ask you anything.
+[00:21:56] I'm kidding you. Hello everybody. We got time for some questions. I'm going to T1 off for the 3 of you. I'm going to put you on the spot because I like to do stuff like that.
+[00:22:08] I saw 1 of the slides was about future proofing, right? And everybody's always interested about your analytical investment and where am I going to see your return on the investment? And make sure that there is a future proofing going out there. So in the next 3 to 5 years, how would each of you and I'll start with Bernie. But how would you define a future proof?
+[00:22:30] Data and analytic strategy in Europe as it pertains to sovereignty platform and Partnerships. Bernie Hugo first, oh, that's a complex question. But I, I tried to, to make it, uh, uh, quit. Um,
+[00:22:48] first of all,
+[00:22:49] I think you see this here on this, uh, on this event.
+[00:22:53] This train has left the station. Yeah. So there is no way back. The drain has left the station and also with us. Uh, we are operating about 1.8 billion AI decisions every day in our infrastructure. Some on our Sovereign infrastructure, some to get
+[00:23:15] Other ways, our partnership with Google for coming from Gemini, as an example.
+[00:23:19] And um, and we have, of course, plans that we will still grow in the market and uh, that we are, um, growing with the knowledge of our data. This is this is heavily, uh, important for us 150 million. Loyalty customers is something, which is Champions League, or world class level. Yeah, if you look and compare this with more mod, um, this is certainly champions league. And, um, and hence data and I will will play a more uh, important role for us, but
+[00:23:56] Also, for our customers, for example, the term government.
+[00:24:00] We are not, we are well known from most likely, not the most modern uh processes in administration.
+[00:24:08] Um but we have been selected um for an AI platform um and we are part of the uh eodi wallet and um this will be equipped completely with AI. Um and I said um this will be more important than ever before. When you come to the banking um, Arena when I was managing director of Google. There was only 1 question, are we started with Microsoft? So now is the option going with Google or with AWS, because you need to have an alternative by law.
+[00:24:40] The day they need to have a sovereign alternative. Yeah.
+[00:24:44] and,
+[00:24:45] This is, of course, heavily, what we are going for. We are investing like hell, uh, to do this, we are doing co-development with the guys, with the folks there to meet everything. What is necessary for this for Dora BSI? The 1 and 2 and so on and and that is why it is so important to have also those Partnerships which are understanding the need of the Europeans uh and willing to pay into this.
+[00:25:14] Excellent. Peter. Yeah, from a platform standpoint what would be your answer for that? Yeah. So
+[00:25:20] I think, uh, from a platform perspective, if you can consider the biggest challenge over the last, well, let's say 25 years, which is, as which is the the time frame. I've been in.
+[00:25:30] Involved in, in data management and analytics, the biggest challenge has been adoption.
+[00:25:35] and,
+[00:25:37] The challenge that you're often you'd often speak to Enterprise organizations and they'd say, I've got X number of licenses of, of such and such a, a product, um, delivering insights to our business. It was always ranging from between 15 to 30% of the total employee population within that organization and didn't also consider, what about outside the firewall. What about our customers, our partners, our suppliers. How am I delivering insights to them? How could I deliver insight to them? And therefore, I think over the next few years, there's a huge opportunity to leverage a fully integrated embedded, analytics Insight orientation.
+[00:26:15] Proposition. That means that that Insight is delivered in the flow of work.
+[00:26:21] Fully integrated autonomously delivered. Where you are in your role acting in in your uh, Organization for that particular role and ultimately leveraging that insight to make the next best decision.
+[00:26:36] Leveraging AI, of course, to do so. And I think this is where the combination of human intelligence and artificial intelligence meets quite neatly from a point of view of not just are architecting, orchestrating and conducting the, uh, the agentic workflows and the AI Specialists. But also able to Leverage, The the context, the business Logic, the
+[00:27:00] Metadata the semantic layer and the governance of an analytics platform. That means it makes sense. It's relevant to me in the flow of work that I'm involved in. I can get scale from it across my organization, not just internally facing, but also externally facing and I in effect, extend the value of that Insight across the whole Enterprise and the whole ecosystem as an organization that I'm responsible for. And I, I believe we'll see that shift quite quickly as AI hits us. We, we had the uh, the steam engine, uh, scenario described by Bernie, uh, where we would wait for that tech. Technology to deliver, it's here. Now, it's available. Now. It can be governed, managed supported and, uh, and leveraged.
+[00:27:45] For every Enterprise uh tomorrow. So as soon as you believe today, there's a high expectation that you're going to be delivering on all of this and uh and certainly seeing that grow and develop over the next 3 to 5 years, very good. And lastly, Lars from a Partnerships standpoint. I would like to bring in another perspective, um, more from the mid-market level. So if you look at the German economy, uh it's about 80% driven by mid-market companies, all this hidden Champions quarter Germany. A lot of production companies and what we see is actually at our customers
+[00:28:20] A lot of them are still with Legacy data Stacks. Uh still on Prem
+[00:28:26] But they need to transform. So first of all, my vision and Hope
+[00:28:30] Is evolution would be they accept that they have the pressure to transform the accept the need to transform to a data-driven organization.
+[00:28:38] So they need scalable infrastructure. They need scalable platforms.
+[00:28:43] And hopefully they will accept that. It makes sense to bring at least critical data to a sovereign um environment.
+[00:28:54] So that's that's my thing. Very good. We've got 1 minute left. Does anybody have a question that they would like to ask Bernie or Peter or Lars?
+[00:29:05] Don't be shy. Don't be shy, just raise your hand. I'll come running over fantastic. Hold on a second. We're going to give you the microphone. We're going to make you famous
+[00:29:14] this is,
+[00:29:15] Fantastic.
+[00:29:17] Thank you sir. Um, I I just wanted to confirm something that I think I heard you say which is where infrastructure is critical, you've got to have an alternative Cloud. So, did I understand that correctly? Yes. And and the the therefore you've got to presumably confirm that you can deploy to that cloud as well. Is that is that also true? That's part of what you're, what you're testing in your, in your business. Absolutely. So this, this, this cloud is up and running. Thank you for this question. This cloud is up and running this Cloud already scales significantly. Uh, we onboarded tons of customers. We have, we have been awarded by the European commission amongst 3 other soen players, uh, with a 100 million 180 million.
+[00:30:00] Budget, uh, recently 2 weeks ago. Um, uh, 2 weeks ago, I signed another deal in, uh, in the Netherlands with 1,420 public sector customers, which now can, uh, consume uh, the services from St. Cloud exclusively from Secret Cloud. The Sven part. Um, and, uh, so this is, this is up and running. So everything you saw already here, um, is available right now and of course it needs to scale. Uh, if it works for 600,000 people, for almost 15,000 stores for 150 million, loyalty customers and 180 million turnover.
+[00:30:41] This will also scale for you. Yeah.
+[00:30:45] I'm sure.
+[00:30:46] This will scale for you.
+[00:30:49] All right, we're out of time. Thank you. Bernie, how about a big round of applause for these 3 gentlemen?

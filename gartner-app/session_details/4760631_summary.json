@@ -1,0 +1,87 @@
+{
+  "summary": "The session discusses the journey of Old Mutual in implementing Master Data Management (MDM) with Tamar, emphasizing the importance of aligning MDM initiatives with business strategy and user engagement. Key challenges included managing complexity and building trust in new processes, while the focus was on improving data quality and operational efficiency. The presentation highlights the transformative impact of MDM on customer identity and organizational agility.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to MDM and Business Strategy",
+      "key_points": [
+        "MDM projects should start with understanding the business strategy.",
+        "Incomplete and siloed data disrupt business processes."
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:02:57"
+    },
+    {
+      "order": 2,
+      "topic": "Old Mutual's MDM Journey",
+      "key_points": [
+        "Old Mutual has a complex data landscape with almost 200 source systems.",
+        "The MDM initiative is foundational for operational efficiency."
+      ],
+      "start_time": "00:02:57",
+      "end_time": "00:10:55"
+    },
+    {
+      "order": 3,
+      "topic": "Implementation Phases",
+      "key_points": [
+        "The journey consists of three phases, starting with advisor data.",
+        "The transition from on-premise to cloud was crucial for scalability."
+      ],
+      "start_time": "00:10:55",
+      "end_time": "00:19:30"
+    },
+    {
+      "order": 4,
+      "topic": "Challenges and Lessons Learned",
+      "key_points": [
+        "Stakeholder engagement is critical for MDM success.",
+        "Trust in AI and new processes was a significant challenge."
+      ],
+      "start_time": "00:19:30",
+      "end_time": "00:25:08"
+    },
+    {
+      "order": 5,
+      "topic": "Future of MDM at Old Mutual",
+      "key_points": [
+        "MDM is an ongoing capability, not just a project.",
+        "Future initiatives will focus on product mastering and AI integration."
+      ],
+      "start_time": "00:25:08",
+      "end_time": "00:30:00"
+    }
+  ],
+  "key_takeaways": [
+    "Align MDM initiatives with business strategy to ensure relevance and support.",
+    "Engage users early in the MDM process to improve data quality and trust.",
+    "MDM should be viewed as a continuous capability that evolves with the organization."
+  ],
+  "entities": [
+    {
+      "mdm": 8
+    },
+    {
+      "tamar": 6
+    },
+    {
+      "old mutual": 7
+    },
+    {
+      "customer identity": 4
+    },
+    {
+      "data quality": 5
+    },
+    {
+      "cloud": 4
+    },
+    {
+      "stakeholder engagement": 3
+    },
+    {
+      "operational efficiency": 3
+    }
+  ],
+  "subject_area_id": "data_management"
+}

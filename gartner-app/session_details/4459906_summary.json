@@ -1,0 +1,115 @@
+{
+  "summary": "The session discusses the evolving role of data and analytics leaders in managing AI responsibilities within their organizations. It emphasizes the importance of aligning organizational structure with AI maturity and establishing a solid foundation for AI readiness. Key challenges include funding, governance, and educating the workforce about data and AI.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to AI Responsibilities",
+      "key_points": [
+        "Data leaders are increasingly responsible for AI initiatives.",
+        "Understanding AI readiness is crucial for organizational success."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:02:44"
+    },
+    {
+      "order": 2,
+      "topic": "Building AI Readiness",
+      "key_points": [
+        "Establishing foundational elements is key to AI readiness.",
+        "Funding and governance are critical components."
+      ],
+      "start_time": "00:02:44",
+      "end_time": "00:07:12"
+    },
+    {
+      "order": 3,
+      "topic": "Centralization vs. Decentralization",
+      "key_points": [
+        "Centralization aids in consistency and control.",
+        "Decentralization allows for agility and local initiative."
+      ],
+      "start_time": "00:07:12",
+      "end_time": "00:11:21"
+    },
+    {
+      "order": 4,
+      "topic": "Aligning Strategy and Operating Model",
+      "key_points": [
+        "Align AI strategy with overall business strategy.",
+        "Engage stakeholders in the operating model."
+      ],
+      "start_time": "00:11:21",
+      "end_time": "00:13:57"
+    },
+    {
+      "order": 5,
+      "topic": "Maturity and Organizational Structure",
+      "key_points": [
+        "Maturity dictates the organizational model.",
+        "Avoid skipping phases in AI maturity."
+      ],
+      "start_time": "00:13:57",
+      "end_time": "00:18:03"
+    },
+    {
+      "order": 6,
+      "topic": "Center of Excellence and Collaboration",
+      "key_points": [
+        "Establish a Center of Excellence for AI and data.",
+        "Collaboration across functions is essential."
+      ],
+      "start_time": "00:18:03",
+      "end_time": "00:22:49"
+    },
+    {
+      "order": 7,
+      "topic": "Emerging Roles and Skills",
+      "key_points": [
+        "Roles are evolving towards a skill-based model.",
+        "Automation is changing traditional job functions."
+      ],
+      "start_time": "00:22:49",
+      "end_time": "00:30:00"
+    }
+  ],
+  "key_takeaways": [
+    "Align your organizational structure with the maturity of AI in your organization.",
+    "Establish a solid foundation by focusing on funding, governance, and education.",
+    "Balance centralization and decentralization to maintain control while fostering agility.",
+    "Engage stakeholders to ensure alignment between AI strategy and business objectives.",
+    "Adapt to a skill-based model as roles evolve with the integration of AI."
+  ],
+  "entities": [
+    {
+      "ai readiness": 5
+    },
+    {
+      "center of excellence": 3
+    },
+    {
+      "centralization": 4
+    },
+    {
+      "decentralization": 3
+    },
+    {
+      "organizational structure": 4
+    },
+    {
+      "governance": 6
+    },
+    {
+      "funding": 5
+    },
+    {
+      "maturity": 5
+    },
+    {
+      "stakeholders": 4
+    },
+    {
+      "skills": 5
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

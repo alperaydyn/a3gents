@@ -1,0 +1,146 @@
+[00:00:05] Welcome. Welcome everyone. Hope you're having a good time today.
+[00:00:09] so,
+[00:00:10] let's get started for the session. So the session is about data leaks warehouses and leek houses.
+[00:00:18] How many of you have currently the warehouses and lakes?
+[00:00:24] Okay, so let's do a poll. Maybe maybe you can open up your conference app and go to the session and let's see the live. How many of you have lakes and warehouses?
+[00:00:37] Okay, so let's see the live course.
+[00:00:44] So we can see.
+[00:00:45] Basically you know warehouses is still like leading 1 leader leagues.
+[00:00:49] 53% League houses.
+[00:00:52] 12, maybe 13.
+[00:00:55] So this is about the current cohort sitting here.
+[00:00:59] But we will get the other numbers, which Gartner observed in last year. So,
+[00:01:05] Let's get started. So before we start, let's first, look at the hype cycle most of you might know, Gartner's hype cycle.
+[00:01:13] Every Innovation or technology go through different phases.
+[00:01:18] The Innovation happens.
+[00:01:19] People make it public people start using it initially, there is a lot of hype about it, lot of expectations and then comes the part where you know, disappoint
+[00:01:30] Ments illus disillusionment, right? And then we realize that some technologies are good for certain jobs so we become more enlightened what are the limitations of certain Innovation or what are the real benefits? And then we reach to the plateau of productivity where people start actually getting the value from that technology and later becomes mainstream.
+[00:01:53] so, in this,
+[00:01:55] Diagram, if you look at 3 main Innovations, open table format Lakehouse and leagues.
+[00:02:01] This this research was published last year.
+[00:02:04] Some of these Technologies might move in high cycle much faster than we expect.
+[00:02:10] so last year, Open Table format was
+[00:02:13] hyped. A lot of people were
+[00:02:15] Talking about Open Table format. Lot of vendors started supporting open, table format.
+[00:02:19] In fact, not just the data management vendor but also streaming vendor started supporting open table format.
+[00:02:26] So within a couple of months, we will publish the refreshed version. So we will see what is the current status. So, today, Open Table format is like a backbone of Lakehouse
+[00:02:36] And it has traveled much faster than we expected.
+[00:02:40] And you can see the lake house last year. It was at the bottom, but this year it might be at the extreme, right? Of the slope of Enlightenment and in couple of years, it will be ultimately the mainstream.
+[00:02:52] Data leaks, we have been using for last 10 years, at least, Hadoop data leaks.
+[00:02:58] So, that reached to the product.
+[00:03:00] Plateau of productivity. That means people realize that what
+[00:03:04] Uh use cases are good fit for the data leaks. There are limitations to the data leaks as well. So data leak reached to this level but that doesn't guarantee that it became a mainstream. Some Innovation, never reached to the mainstream adoption after the plateau.
+[00:03:19] Once the benefits are realized people understand its importance and start uh I will say wide adoption some technologies don't reach to that level. Same thing thing with the data leaks data leak may not reach to that level.
+[00:03:34] so in couple of slides, we'll know why
+[00:03:39] so there was Data Warehouse, missing so data warehouse house was the good example where
+[00:03:45] It was the mainstream adoption.
+[00:03:47] We see in the today's survey also due to Warehouse was the main 1 that leading 1, it is still relatable people have been using long time and right now lake house is catching up with the data warehouse because lake house combines the capabilities of warehouse and leaks.
+[00:04:04] So today we will discuss. First of all, what is Warehouse Lake and lake houses? What is the impact of lake house? And what are the trends we should watch out for next couple of years or maybe 5 years
+[00:04:17] so, before we understand Lake,
+[00:04:18] Warehouse, let's understand from a conceptual point of view, how they relate first of all, for this quadrant, explain data and questions. So there are 2 types of data known data and unknown.
+[00:04:30] Data, what is no data?
+[00:04:31] No data is something that we have been using it for a long time. We know our data,
+[00:04:37] And what is unknown data? The data that we might don't have in our organization, we never capture or maybe we have it, but we never used it. So that is a known data and then comes the known questions and unknown questions, right? So known questions are okay, what are my sales for last 6 months right? What are unknown questions? Okay, what is my customer behavior? That is unknown. So if we go 1 by 1 in this quadrant, so known questions and known data is all about our traditional bi reporting. We know our data, we know our question then. Second top quadrant left hand side is basically your known data. But
+[00:05:15] Unknown questions like customer Behavior.
+[00:05:17] Then.
+[00:05:18] Unknown data and the known questions. That means what people talk about, my product, what is the sentiment about my product?
+[00:05:26] So that is something fits in that category and the last quadrant top, right? Is about unknown data and unknown questions. It's all about Innovation and exploration. Some of us have been doing data science and machine learning predictive modeling all that comes under this quadrant
+[00:05:43] Data. Where house exactly fits into that left side.
+[00:05:47] and de League fits into this kind of diagonal, uh, quadrant
+[00:05:53] And then there is overlap, that means some use cases might be fit for both of the Technologies warehouse and leaks as well.
+[00:06:00] We'll see a little bit in couple of minutes. So this is the overlapping Zone that clearly shows, there might be redundancy if we are using both these Technologies.
+[00:06:09] So this is our traditional warehouses. Let's go back to maybe 20 years or 25 years. Initially people, build data warehouses using traditional relational databases.
+[00:06:21] That time we never had an alternative. So we use traditional databases like Oracle SQL Server to build something like Warehouse
+[00:06:29] How it was different, the modeling.
+[00:06:32] the modeling for data warehousing was
+[00:06:34] Star schema the denormalized modeling in contrast to third normal for modeling for the oltp databases, but the underlying technology was still the relational database. That means
+[00:06:45] Every data row is stored. Row by row basically data source row by row.
+[00:06:50] So that time we had no alternatives for that and we use the same technology typical pattern. We have all the CRM system Erp systems, oltp databases we extracted, transformed and loaded into the warehouse into star schema. Maybe some people might have implemented Inman approach, Enterprise data warehouse data Mars. So in Kimball are the traditional, you know, data warehousing patterns, people followed
+[00:07:16] now, this is data league around 20, 20 2005,
+[00:07:20] people realize there is a big boom of Big Data.
+[00:07:23] Lot of big companies started harvesting the data, unstructured data, Same by structured data, all types of data.
+[00:07:30] Traditional data warehouses were limited in terms of scalability. They cannot scale horizontally.
+[00:07:36] And they cannot do data science machine learning. They cannot store unstructured data and that's where people started. Building something like Hadoop, based data leaks.
+[00:07:45] And the pattern was a little different from the warehousing, which is we ingested data into raw format as it is, I received a Json file. I just put that into landing Zone, put process it and then do some machine learning around it.
+[00:07:59] And make it ready for the consumption.
+[00:08:04] So Standalone data links have become absolute right now because there is again Trend about leak house and we have seen pretty good numbers. I will show you in. You know what?
+[00:08:15] Right? Some of the problems with the traditional data leaks, they were really good for data science, machine learning, but ultimately a lot of organizations ended up in data swamps.
+[00:08:25] There was issues with the data quality, the governance, the lineage, all these challenges created, you know uh big problem for the organization.
+[00:08:33] and that's where, you know, people were looking for a new Solutions and
+[00:08:38] If you look at the typical data progression from left to right, some of you might have heard about bronze, silver gold. This is new name for traditional rock created aggregated or raw refined optimized layout.
+[00:08:52] And you can see on the quadrant as well on the right hand side. You see the raw data in the middle you have this refined data and on the
+[00:09:00] Left side, you'll see the structured optimized data warehouse, kind of schemas, right?
+[00:09:06] And that's where the overlap.
+[00:09:10] When we combine the capabilities of data warehouse and a league league house, emerges,
+[00:09:15] It provides the capabilities of I mean structured of a data warehouse as well as support for unstructured data. So for batch and streaming support for reporting and machine learning.
+[00:09:27] So it's a converged architecture. It is not something new. It is combined existing architectures modeling into single platform.
+[00:09:37] So we just saw the overlap, right? And this is what
+[00:09:41] Happens when you know 2 Technologies sit together. There is of course overlap.
+[00:09:45] Lot of organizations, still have data leaks and data warehouse.
+[00:09:49] It has been there long time and they are still there.
+[00:09:53] And that's where the accumulated technical debt.
+[00:09:57] And you see the from left to right, there is a lot of redundancy. We are landing the data processing staging transferring again. Landing reprocessing in uh making it available for the consumption.
+[00:10:10] So now League house combines all this reduce a lot of redundancy.
+[00:10:15] And create that, you know, simplified architecture.
+[00:10:20] This is the example of redundancy.
+[00:10:22] Traditionally, especially financial industry. They used to have ODS for operational reporting. They had data.
+[00:10:30] House, Enterprise data warehouse and they had data leaks as well.
+[00:10:33] And imagine the factors in the platform, the infrastructure development and delivery data metadata management data Ops cost time and human efforts.
+[00:10:43] Too much redundancy, every Tech stack needs some sort of different skill investment efforts, time, and everything, right?
+[00:10:51] And imagine if you have multiple domains.
+[00:10:54] Imagine the complexity.
+[00:10:58] Then leak house. Come for Rescue all these. Now Consolidated on a single platform it reduces the redundancy. Now you have 1 platform, you need limited. I will say uh less number of skills. You are harmonizing all your data assets, ETL processes govern
+[00:11:15] Maintenance and management.
+[00:11:18] and now inside lake house, you can create
+[00:11:21] Domain-driven architecture. Some companies have built data. Mesh architecture, using this Lakehouse platform because Lakehouse platform act as a 1. Pillar of data mesh architecture, which is self-serve data platform. So you can build logical domain inside this centralized platform. And this is a typical
+[00:11:40] I will say component diagram of lake house at the bottom. It's objects to it.
+[00:11:46] Is very important to understand object storage is now becoming standard for lake house.
+[00:11:51] That is the commodity storage. Cheaper storage.
+[00:11:54] Inbuilt disaster recovery and high, availability mechanism, right?
+[00:11:59] Under the hood.
+[00:12:00] Of Open, Table format data is still stored in the park file, but we get the abstraction on top of that, which is our Open Table format, like Apache, Iceberg, Delta lake or hoodie.
+[00:12:10] On top of that, we have the catalog layer where, you know, we can now Implement fine grain access control and then we have different engines. The good thing about open for table format is, you can now replace the engines
+[00:12:24] You have multiple choice for engine. So today you are using XY, Z, vendor, and tomorrow, you feel like this vendor is not right fit for us. You don't need to change anything about data. Your data layout data in architecture, will be still the same. You will bring in new to technology and put that on top of that. As long as that Technology support
+[00:12:45] Open Table format. And the good thing is right now, most of the vendors are supporting open table format. Open Table format is a game changer for clients, as well as vendors. And that's why vendors are supporting open, table format and all types, of vendor, not just the data management vendors but also streaming vendors. The data science machine learning vendors. It has really uh, added value to data analytics, uh, ecosystem.
+[00:13:10] And of course, on top of that typical orchestration mechanism that we use airflows and all those orchestration tools.
+[00:13:17] As I said, like lake house is now becoming foundational anal. Store Gartner has seen. Widespread adoption of Lakehouse concert by vendors as well as clients.
+[00:13:27] And it.
+[00:13:28] Is basically.
+[00:13:29] 5.
+[00:13:30] %. This is the survey conducted last year and we will publish the latest 1 in a couple of months which will be much higher. So this 65% adoption happened, just within 1 year before that the percentage was 45%
+[00:13:44] So the speed of lake house adoption is way faster than any other traditional Technologies and looking at the future landscape of AI lake. House is becoming a foundational technology.
+[00:13:56] And Gartner's inferring that statistically, it is more likely. The organization will Implement Lakehouse to become Eid.
+[00:14:07] And some of the trends that you need to watch out for.
+[00:14:11] So here we can see again revisit this hype cycle so there are 3 important.
+[00:14:15] Trend, you should watch out for the first is data management platforms, which are converging.
+[00:14:20] There is a lot of convergence happening traditional data warehouse vendors. Like snowflake, we are supporting open table format and now getting into Lakehouse space.
+[00:14:29] Uh, vendors like streaming vendors like country, and Kafka is now supporting Apache Iceberg, so that you can offload your data from Kafka to, uh, let's say bronze layer of your lake house, right? So the there's a lot of convergence happening. Lot of vendors are even bringing oltp kind of databases inside their ecosystem. Take an example of data bricks league base, league base, is something is I will say, uh, it's a postgres variant, uh, for near breaks. So there is a huge convergence happening, uh, in the vendor space.
+[00:15:00] Then there is a data ecosystem. So Gardner is envisioning in couple of years that data will be at the center of the organization, and you will build. Use cases around the data. Whether it's a data science, machine learning use case reporting, use case, or any other use case.
+[00:15:17] Data is the center and that leads to the multimodality of the platform. That means platform will be the vendor platforms, will multimodal, right? And then the data fabric, right? So couple of years ago, come up with this data fabric, it is a conceptual idea that pan out for certain companies but it was hard to implement.
+[00:15:39] That is still in the pipeline, but the point here is we need to watch out for this, that some vendors are working.
+[00:15:45] Looking towards.
+[00:15:46] At least 1 of these technological trends.
+[00:15:49] And this is something.
+[00:15:52] Happening right now as a evolution.
+[00:15:54] On the left hand side, you can see till the 2025, we have this. All modern stack, we use different stacks for different use cases, right? We had a freedom of choice, but there were limitation in terms of, you know, multiple tools with the overlapping capabilities. That means we accumulated technical Tech.
+[00:16:11] then, of course pure uh, poor integration between them
+[00:16:16] around 2025, as I said like fabric was uh I would say come up into market and then
+[00:16:23] It was like, futuristic architecture but it was hard to implement for some of the organization. In fact, a lot of people are
+[00:16:30] Are still kind of understanding what is fabric.
+[00:16:33] fabric is basically, I will say Advanced integration driven by metadata and the ER
+[00:16:39] and which will pan out in a couple of years as well because already some of the vendors like take an example of Google duplex which has AI capabilities inbuilt now
+[00:16:48] What is the importance here is the AI will help us to manage our data to govern our data. So that is something uh enabled by fabric.
+[00:16:57] And as I said like the conversion data management platform so the tools will come together to give you a unified data data platform. So you don't need to yourself build something out of it so it is like packaged offering for you. But again this is still less mature like every
+[00:17:15] When right now trying to provide you that kind of converge platform. Whether it's the Microsoft fabric, whether its AWS League house, or whether it's a Google uh bigquery ecosystem, right?
+[00:17:26] There is still some sort of vendor lock in with each of these vendors.
+[00:17:30] And as I said, data, ecosystem is the desired future state where we are envisioning that, you know, data is the heart of the organization and we will build around all the use cases, right? So, this is what a few look like.
+[00:17:45] And as I said, like,
+[00:17:47] We come, uh we get lot of inquiries from the client, right? All these sounds really good.
+[00:17:53] but cloud is a consumption, based cost model and people face lot of challenges to control the cost in the
+[00:18:00] Beginning the adopt this platforms, the promises uh, given by the vendors, but at certain point of time, in fact, within a few months or quarters, they start facing challenges around the call. So you have to be very careful about, you know, uh, using the right vendors tools and also start implementing phop around it.
+[00:18:21] So, this is all about lake houses.
+[00:18:24] You know, warehouses and lakes.
+[00:18:26] And these are some of our researchers that my colleagues published and you can definitely have a call with them. If you have gotten a clients, you can set up inquiry with them.
+[00:18:36] And this is our ongoing survey. You can you know conduct this uh participate in the survey and register your opinion. You can get to know what are the reason.
+[00:18:45] And of course, Gartner will be published This research very soon.
+[00:18:49] So I think these were the, you know, topics that I wanted to cover today. Hope it was helpful and thank you for your time.

@@ -1,0 +1,82 @@
+{
+  "summary": "The session focuses on the importance of data quality and governance in wealth management, highlighting the proactive measures Rathbones is taking to enhance data integrity. Brad Novak, CTO of Rathbones, discusses the integration of AI and partnerships with Experian to improve data quality and operational efficiency. The conversation emphasizes the need for a skilled workforce and the role of human oversight in managing data quality amidst technological advancements.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction and Importance of Data Quality",
+      "key_points": [
+        "Data quality is crucial for operational processes and regulatory compliance.",
+        "Proactive data management is essential for effective customer service."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:06:00"
+    },
+    {
+      "order": 2,
+      "topic": "AI and Data Quality Integration",
+      "key_points": [
+        "AI readiness is dependent on high-quality data.",
+        "Investing in data quality is a foundational step for AI success."
+      ],
+      "start_time": "00:06:00",
+      "end_time": "00:12:00"
+    },
+    {
+      "order": 3,
+      "topic": "Skill Development and Team Dynamics",
+      "key_points": [
+        "A full-stack skill set is necessary for data professionals.",
+        "Interns bring a fresh AI-native mindset to the team."
+      ],
+      "start_time": "00:12:00",
+      "end_time": "00:20:00"
+    },
+    {
+      "order": 4,
+      "topic": "Measuring Data Quality Success",
+      "key_points": [
+        "Defining what good data quality looks like is essential.",
+        "AI can be leveraged to improve and measure data quality."
+      ],
+      "start_time": "00:20:00",
+      "end_time": "00:28:30"
+    }
+  ],
+  "key_takeaways": [
+    "Proactive data quality management is critical for enhancing customer service and regulatory compliance.",
+    "Investing in data quality is a prerequisite for successful AI implementation.",
+    "Developing a full-stack skill set among data professionals can significantly reduce time to value.",
+    "Defining clear metrics for data quality is essential for measuring success.",
+    "Leveraging AI technologies can improve data quality and operational efficiency."
+  ],
+  "entities": [
+    {
+      "data quality": 10
+    },
+    {
+      "experian": 5
+    },
+    {
+      "data governance": 4
+    },
+    {
+      "data management": 3
+    },
+    {
+      "rathbones": 3
+    },
+    {
+      "data integration": 2
+    },
+    {
+      "data environment": 2
+    },
+    {
+      "customer service": 2
+    },
+    {
+      "data professionals": 2
+    }
+  ],
+  "subject_area_id": "data_quality"
+}

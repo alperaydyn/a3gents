@@ -1,0 +1,227 @@
+[00:00:03] Welcome everyone. Good morning.
+[00:00:06] Hopefully, all of you are well caffeinated to digest this 1, right? Um,
+[00:00:11] Amin rag, Raj, uh, I'm 1 of the Gartner analysts covering data governance, covered it since the traditional version the changing of it. And now we're talking about future.
+[00:00:22] Now.
+[00:00:24] I'm not a fortune teller. I can set that expectation straight, right? Um, but
+[00:00:31] 1 of the things that I can possibly assume about this audience.
+[00:00:37] Is that the governance that you currently have formally and formally?
+[00:00:42] Might not be the 1 that you're very happy with.
+[00:00:45] So let's test it out. Uh how many of you with a quick show of hands? Feel that your current data governance program assuming it exists?
+[00:00:56] Is delivering value the way it is intended.
+[00:00:59] To your stakeholders.
+[00:01:01] Quick show of hands.
+[00:01:06] I will have to talk to you sir. Uh after this. Uh, okay.
+[00:01:10] so as predicted right, it's very hard to talk about future of data governance when the current is almost bleak
+[00:01:19] While it comes across in my conversations with you, as I was going through my 1-on-1s, it also comes across in multiple surveys that we do to better understand what?
+[00:01:30] The current state looks like. So let me pull this up over here. This is the recent survey that I did just to understand. Whether all the operating model elements of the current best practices from a DNA governance perspective,
+[00:01:44] That is in place, right? I guess a very
+[00:01:49] brilliant understanding of how things are. So if you look at the roughly the line where which demarcates the dark blue and the light blue, the things on the dark blue side are the ones.
+[00:02:00] Which are adopted relatively more frequently though, the numbers still aren't great 50%, right? So we are good at trust. We are good at creating principles and policies. We are good at somewhat applying Technologies to it.
+[00:02:15] We have got some governance processes workflows in place data, sharing requests access requests, Etc.
+[00:02:21] On the other side, what gets worse? Are the light blue Elements which in my opinion, are the more important element of a DNA governance program. So things like, do we have the cultural and communication in place? Even the basic things like do we have a defined mandate and scope of what we are governing and why we are governing
+[00:02:39] Those are the things which makes the DNA governance, programs, sustained. Lot more and takes it from being a technical activity to a business capability. That itself is not available.
+[00:02:51] So the bottom line is, yes, we are going to talk about future but we also will have to accept the fact that the current is in that great, right?
+[00:03:00] And that is also reflected in in the position that only 1, third of the folks that who were surveyed in this have got the responsibility of AI ready data.
+[00:03:09] That's a very, very Bleak prediction.
+[00:03:13] Talking about Bleak prediction. Here is 1 from my end, right?
+[00:03:17] Data governance will be the single point of failure for organizations AI ambition.
+[00:03:23] it got a very prominent, uh,
+[00:03:26] Sort of talk track in the keynote and this is a reason for it. And I'm not saying this for hyperbolic because this is a governance track. This is a governance session
+[00:03:36] I definitely see that happening in all the clients, your peers that I talked to.
+[00:03:42] Folks who are setting up AI expectations.
+[00:03:45] S. It is being stymied because the foundations are not in place. And when we talk about foundations, 1 of the critical pillar for that is governance.
+[00:03:54] Now how do we get there when the current is Bleak? Um,
+[00:03:58] This is where I would think about jellyfish.
+[00:04:02] Now that's interesting. 1 of the things that I read this year was a book on the history of artificial, the history of intelligence, not even artificial intelligence.
+[00:04:12] and 1 of the things that they mentioned was jellyfish, is
+[00:04:17] 1 of the primary organism to start showing nervous system.
+[00:04:22] And the nervous system is primitive. It is reactive but it works in their simple environment, right?
+[00:04:30] As opposed to us human who arguably has a well-developed nervous systems, but what is common between a jellyfish and a human.
+[00:04:38] Is the basic unit of neuron. They are structurally and functionally the same.
+[00:04:44] The only difference is a neuron in jellyfish. Those neurons are not that specialized
+[00:04:51] not that centralized.
+[00:04:53] But in, as we move towards complex environment, where human has to respond to, that's where things start to get a little bit more. Specialized centralized. Well orchestrated, keep that in mind, because that is the fundamental way to make sure that we are preparing ourselves from for future. Not thinking about a disruptive innovation in governance, but making sure,
+[00:05:15] So what works for today?
+[00:05:17] That structural unit is kept intact and we build on that. So majority of our uh our talk that we will have today will focus on how do we take the fundamentals that work today and prepare it for the future?
+[00:05:32] So as we will go through it. The first bit I want to talk about are what are the drivers of course you know that AI is going to be the driver. Um and then we will go into what are the action steps that we have to take will unpack it a little bit more, right?
+[00:05:47] Now we sat together a security people compliance people. Privacy people data people governance people and we work through all the drivers that we hear. We think about as something that is going to disrupt the governance program that
+[00:06:00] Demand on it and as well as the nature of it. And basically, it came down to 3 broad buckets.
+[00:06:06] The what we are governing is going to change, it will expand, we'll govern many things.
+[00:06:12] How we will govern, it will also change because execution of the policies will become much more technology enabled and who we are governing with is also going to change the stakeholders.
+[00:06:23] Let me bring up each 1 of them the what is going to expand that comes down to the amount of derived assets from the data.
+[00:06:32] That we have to potentially govern for that is going to definitely change. We used to govern structured data. Now we have to go an unstructured data because well Genai,
+[00:06:41] We used to govern data products. Now we have to govern AI agents. We might
+[00:06:45] Have to govern, even the decisions that are coming out of AI agent.
+[00:06:49] the why of governance doesn't change the in the pyramid we are still governing for explicit business outcomes but the mediation layer of how we deliver value that is going to
+[00:06:59] Diversify quite a bit that means our model has to adapt for it.
+[00:07:03] Now if the scope is expanding, that just means that people who are going, we going to come in conflict with that is also going to change. So if you will recognize multiple governance mechanisms that exist in your environment, there is Corporate governance. There's potentially information governance, the cyber security people.
+[00:07:21] AI is forcing.
+[00:07:24] Singularity in governance to a multi to to an extent, I get more people from cisos comp.
+[00:07:30] Signs and risk who want to understand data governance. Now then I have ever had before right? Which is telling from a fact that data governance is going to cross boundaries with other governance mechanisms as well.
+[00:07:43] Now, as these 2 are more disruption.
+[00:07:47] The third 1 is a little bit of a lift that AI is giving us, which is where it is helping us from a technical control perspective.
+[00:07:55] while our Focus has largely been from behavioral control point of view,
+[00:08:00] Technology has definitely helped us to make change checkpoints and do much, more embedded guard rails. So that it allows us to modify the behavior without putting the overload of trying to change them.
+[00:08:15] Behavior. Which is basically me saying that are certain things, certain policies that will get so embedded in the workflow that we might not have to think about changing the behaviors or having a much more overload in time to observe whether those policies are being followed or not, that is an uplift which comes from AI, right?
+[00:08:34] So those are the drivers.
+[00:08:37] So, let's talk about how you can think about future proofing for DNA governance.
+[00:08:43] These are the things that we talked about is common today, refer remind yourself of the bubble chart that we had.
+[00:08:51] We are still very much reactive, we are still data issue LED, we have some degree of stewardship. We talk about it but we don't really know what it is.
+[00:09:00] Uh, we are still focused on documenting the policies. Many of you might be on this side and that's completely, okay? What we have been talking about for past
+[00:09:10] 3 to 5 years is what you see in this column. These are the best practices, I would tell today. Like, even in my 1-on ones, these are the things I will focus.
+[00:09:18] Think about explicit business outcome. Don't think about the data. Focus on business outcome focused on. What is the least set of the data for which you can show value from governance?
+[00:09:28] Think about how you will develop a common language for what governance is, right?
+[00:09:34] Start to formalize your stewardship model, right?
+[00:09:37] Think about Behavior, but help support it through technology enablement.
+[00:09:42] What will be a natural extension for the future?
+[00:09:45] For all the 3 drivers that we talked about.
+[00:09:48] Follows the same path.
+[00:09:50] Adds a little bit of more nuanced and layer to it. So while it was about business, we have to start thinking about risk as well while it was about uh thinking about minimal effective governance. You might have to think about scaled governance for different types of asset. What we have as common governance model, we have to actually intentionally integrate it
+[00:10:10] what we had as stewardship that is going to change and you will have much more technology in Focus. Now, you don't have to digest this whole slide as we will unpack this 1 by 1. But the point I was trying to make here is even if you are very much on the left side, it is an opportunity for you to start thinking about where you
+[00:10:30] Need to move the dial because it is under your direct influence.
+[00:10:34] Versus where you need to collaborate a little bit more.
+[00:10:37] Right? So as we go through each 1 of them,
+[00:10:40] Think through, uh, where you are? Are you in the current place? Are you in the, uh, best practice place? Or you are already poised towards the future?
+[00:10:50] So, let's bring the first 1.
+[00:10:55] Since I started talking about data governance looking at it, um, my common return would be and it's a good rhetoric.
+[00:11:03] Think about business outcome.
+[00:11:05] Most of the Gartner analysts.
+[00:11:08] from a data governance perspective would have said and reinforced governance outcomes, so many times that we
+[00:11:15] Unintentionally might have deemphasized, the idea of risk and we created this dichotomy of there's an offensive governance which is valued and there is a defensive governance which is from a risk mitigation standpoint.
+[00:11:27] AI flips, that narrative.
+[00:11:30] if we are governing for AI,
+[00:11:33] it comes from a very much from a risk perspective.
+[00:11:36] If you look at the right side, that's your third line of defense, these are the audit people.
+[00:11:42] Every person in the audience.
+[00:11:44] is going to look into Data governance and AI governance practices and their language around the risk is something that we are not aware of
+[00:11:52] This is not something that we talk, it's not part of our vocabulary.
+[00:11:56] And how can we collaborate with them? How can we actually help them under?
+[00:12:00] Understand what we are doing and why we are doing it. If we don't have the common language,
+[00:12:04] we haven't defined the risk metrics at the second line of defense and first line of defense because value matrices are very much embedded in the business processes, but the risks are not defined. So, to the point if things go bad, No, 1 know who is getting going to get fired.
+[00:12:18] Right. And the confusion.
+[00:12:20] Is what is terrifying at this point of time? So what do you do at this point?
+[00:12:25] the first thing I would say is,
+[00:12:27] Look at, who are the people who care about risk. If there are certain people who exist in your organization and there's likely going to be, there's always an Enterprise risk person, compliance person, legal person, security person, privacy person. These are the people who look at different aspect of organizational risk.
+[00:12:43] Understand their language.
+[00:12:45] And 1 of the things that I would suggest.
+[00:12:47] Is to build a risk register where data analytics related as well as AI related risk, are very well defined so that as I talked about, there's a common vocabulary to describe the risk prioritize the risk, right? Then the things that will help us, sort of adopt, those risks related practices through matrices, being able to identify what we are prioritizing our governance program for
+[00:13:13] right.
+[00:13:15] Now as we as we think about, yes, we are learning from risk. You have to teach other people other stuff as well which we are good at and 1 of the things that we have been good at.
+[00:13:26] Arguably is trust. We have been talking about
+[00:13:30] Trust in data for a long time, we talk. Hey if we do not want to talk about data in another binary that our data is governed and ungoverned, we need to talk about data. In terms of a sliding scale of trust, there is some data which is completely assured. It's a golden record, it's a master data and I can give you any time. Everyone is has the access to it, right? But there is some data I have not a very good idea of what the lineage and curation looks like I can give it to you but I will give it to you for a certain context. So my usage access policies are determined by how much trust we have put in that particular data and the how we Define the data.
+[00:14:11] typically it ends up being about linear quality metrices right that
+[00:14:15] Is a good.
+[00:14:16] Proxy for defining, what the trust level is, and what is the expected? Trust level. That helps us rationalize the governance work that we are doing so that we are not just focusing on all the data. We have a good idea about where I need to maintain the trust. More significantly worse is where I can be a little bit relaxed about how I put in the governance control. So that's the Adaptive nature of governance. Not every data being treated equally. This is the best practice today, right? This is what you would see in a modern catalog, this is very much looks like a catalog. We have a good understanding of what data is, what is the trust level in it? And what is the expected? Trust deficit that exists?
+[00:14:57] How does that change in future in future?
+[00:15:00] We will have to scale that not just for the data that we have internal data.
+[00:15:06] But also for the derived assets.
+[00:15:10] So when we were talking about trust in terms of lineage and curation New Dimensions might come into picture, right? So if you're talking about, let's say, for AI agent, what is the trust Dimension? What is the equivalent of lineage? And curation that I can use as a way of defining? What is the trust scale?
+[00:15:29] So that I can assign access and usage policy, as well as being able to rationalize my governance effort for the different derived asset, right?
+[00:15:39] For AI agent, it could be about time to trust metrics. How much time it took for the people who are
+[00:15:45] Are supposed to be using it to get out from the loop of the decision making. They were good enough to trust in the critical decision-making. That's a good metric to have for trust Dimension, right? Similarly, you would do it for data product. Similarly, you will do it for analytics report. So the 2 things that changes in future, is you start to apply this trust model, not just for data, but also, for the derived asset,
+[00:16:09] And second thing that changes is you start to use lot more technology in helping maintain this trust model.
+[00:16:16] Because most of the people currently who are doing this, trust model are doing it on the back of an Excel sheet, which is fine, which is a good practice to have.
+[00:16:24] It's just that it wouldn't scale.
+[00:16:27] so, when you go to the shop floor and you are talking to the vendor,
+[00:16:30] Was uh, governance platform.
+[00:16:32] Talk about how do they help you maintain the trust model?
+[00:16:36] So that you can define an Adaptive approach to governance, rather than trying to govern all the data in the same fashion, right?
+[00:16:47] This brings us to the third theme, and the third theme is all about what was stressed in the Keynote.
+[00:16:54] Connected right now.
+[00:16:57] We all know governance since it has been there, it has always been a little bit siloed. Even within data governance, there is supply chain running, their own governance program. There is someone who runs an MDM program where someone who's running a data quality program? All of that is nothing but governance.
+[00:17:15] Right? Those are siloed effort, duplicated effort and then there are governance outside of data governance. As we talked about earlier.
+[00:17:24] The challenges, anything and everything can be pushed under the term governance. If your executive doesn't like something wants something to be taken care of, that's within the Mandate of governance, right? We'll talk about context governance. We'll go talk about uh, people governance Etc. So
+[00:17:42] I think 5 6 years ago we got different people from different areas HR Etc, who use the term governance. And we came down to if we are talking about we govern something. What is common?
+[00:17:55] As an operating model, right? These are the things irrespective of what.
+[00:18:00] Whatever we are governing, we are governing data people City. These are the things that will make sure that it is actually a governance model. You need to have an outcome, you need to have explicit decision rights, you would have culture communication attached to it.
+[00:18:14] This is a good blueprint to start having the conversation of reconciliation from different folks, right? Having that as a result of stone to interpret what other people are doing is the first step towards moving towards integrated governance operating model.
+[00:18:31] Which is what the future holds.
+[00:18:33] Having a common governance. Operating model is not enough. You will have to drive intentional collaboration using that.
+[00:18:42] You have to sit down if you're talking about AI, usage.
+[00:18:45] policy, which perhaps your information governance is also taking care of thinking about you have to break it down in these operating model components and try to understand in a structured manner,
+[00:18:56] What is the conflict?
+[00:18:58] Where are the overlaps?
+[00:19:00] Are there any policy gaps and where actually we have synergies. Does the cyber security resources that the technology platform there are investing. It are is going to is going to work with our governance platform.
+[00:19:12] So having that structured conversation. Definitely helps to start integrating the governance mechanism. Now, when I say integrated governance operating model,
+[00:19:22] I'm not talking about a monolithic governance, operating model, that governs. Everything that's not the intention. I think that
+[00:19:30] Will break because it will be inflexible.
+[00:19:32] What I'm talking about, very much like the neuron analogy that I used that you. Yes, you would have specialized neurons. You would have specialized governance operating model. You might have a specialized AI governance mechanism as well.
+[00:19:45] But you need to have commonality for you to actually collaborate with and the common language to collaborate with. So as long as you are driving intentional collaboration, your shared metrics are clear.
+[00:19:58] You can still run discrete governance initiatives, but you are not being duplicative in effort and you're not leaving yourself to certain risk, exposures?
+[00:20:08] What's the intention?
+[00:20:09] Right.
+[00:20:10] Now, this is where we come to the fourth team.
+[00:20:14] steuart,
+[00:20:16] Stewardship doesn't work but where it works. It is the primary ingredient in making sure governance sticks not as just a policy document, but actually operationalized element, within the business practices,
+[00:20:32] Stewardship, if you're not aware are the business subject matter experts who are responsible for operationalizing, the policy where business process change and behavior change can help with that policy operationalization.
+[00:20:47] Currently.
+[00:20:48] These practices almost seems like a reluctant data janitor, right? Uh, you need to clean up the data, you need a business input, I'll do it, right? You will have to reframe that in
+[00:21:00] Future as a valued gig worker.
+[00:21:02] Because of the diversification of the scope of work you are doing, you would require much more specialized competencies, and specialized group of people to run the same stewardship elements in the organization. I've given some example that I have already started seeing so you required stewardship and operational, plane your subject matter, experts were closer to the business processes where the data is being created.
+[00:21:27] But you need separate stewardship in the analytics plan for the people who are working on the analytics pipeline, right? You do need people for semantic, ontology, stewardship as well particularly, if unstructured data is more important for you and you want to build that context layer.
+[00:21:43] You do need decisions steward.
+[00:21:45] Ship. If you are providing AI, agentic application, in the most critical.
+[00:21:50] Enterprise decisions. You need someone to be able to Steward those decisions, right? So the terms stewardship will definitely get much more Diversified in nature as well as the tempo of it will change because as we'll talk about in the last 1, it will be definitely something that will be agent. Assisted.
+[00:22:11] But that comes with a certain degree of caution which we'll talk about as well.
+[00:22:15] so,
+[00:22:17] The Baseline as of now, having stewardship defined and not just putting out a job description and a responsibility. I don't think that's enough. But actually intentionally thinking thinking about what are the incentives.
+[00:22:30] What is the decision rights for them? That's the Baseline as of now in the future, you might have to think about what is the job to be done from a stewardship. Make sure you have specific Persona stewardship, attached to it as we talked about earlier and that's just representative in nature.
+[00:22:46] You will have to think about what is the training support they need. Do they need to learn more about prompt engineering? Do they need to learn more about culture. Change management.
+[00:22:54] Those competencies will have to be evolved.
+[00:22:58] From a agentic point of view because they will directly start to interact with agentic applications within the governance workflows. You do, want to make sure that there is not of agent washing or governance workflows.
+[00:23:11] Because there is not much of a data on.
+[00:23:15] Which action.
+[00:23:17] Currently, I wouldn't say that agentic stewardship would exist.
+[00:23:22] As much as it can. But as we start to gather more small language model specific to stewardship, actions to specific to governance data
+[00:23:33] Then it can be trained to do a lot more activities, end to end, right? So think about the human in the loop to make sure that the agents are doing is happening. How do you move from human in the loop to human on the loop? Those are the considerations to keep in mind.
+[00:23:49] Now, this is where I want to set you up for 1 of the case study examples from firstand Campania. This is uh, multi multinational daily Cooperative, I particularly
+[00:24:00] Like their approach for a couple of reasons. 1, it's easy it mixes the current with the future. The current is
+[00:24:08] yes, they created a global data governance Council everyone does that but what they did well was
+[00:24:14] They mapped out the business value Stream. So that making sure that every data that we are governing, that is explicitly tied to specific business kpis and then we can start to see which data in the business value stream like order to Cache sales Finance to manage. They are common in nature so that they can focus their effort only on on that on that specific set of the data.
+[00:24:37] Which ended up being about a customer Master data.
+[00:24:41] Right.
+[00:24:42] but what they did from a very
+[00:24:45] Futuristic perspective is they understood that data is transversing, the operational landscape and the analytical landscape as well, and they need different degree of stewardship in those different, uh, life cycle of the data.
+[00:24:58] So in the operational side, they had Steward from the salespeople who were much more responsible for stewarding the data, making sure that the data is fit for purpose for operational. Use case as well as the minimum Downstream required, right?
+[00:25:15] The focus was much more on quality lineage, Etc.
+[00:25:18] but when we came down to Downstream governance which came from the group of community of light data analysts, data product manager there, the focus changed to privacy ethics because you're
+[00:25:30] Combining aggregating the data.
+[00:25:32] So their focus area their responsibilities is much more differentiated from a stewardship that you see on the left side.
+[00:25:40] Now the challenge here would be about the trust and the handoff which they mediated through a data contract, right? Everyone has heard about data contract.
+[00:25:50] But this is not a data contract in a digital policy as a code sense, but an analog way of making sure that the Handover is streamlined. People know what they're getting from Upstream stewardship to the downstream stewardship.
+[00:26:06] This sets us up.
+[00:26:08] Really well for what I have as the fifth 1.
+[00:26:12] Which is developing policy as a core.
+[00:26:16] If our people in processes are in place.
+[00:26:19] I can unambiguously Define what the policy is. I can programmatically enforce it.
+[00:26:27] At the operations of the data itself, right? This is what policy has a code is, you can embed it in data Ops practices.
+[00:26:35] These are just an example of the common policies.
+[00:26:39] That lend themselves well for codification, right?
+[00:26:43] as an action step for you to think about,
+[00:26:46] think about all the data Management Solutions and data governance solution that you have.
+[00:26:52] They are.
+[00:26:54] overlapping quite significantly in the past 2 years, which is a good thing because that means
+[00:27:00] Enforcement that happens from data. Governance is actually being executed. So that cycle between enforcement and execution. That is getting compressed, which is a good thing. That means governance is not a barrier. It is not being reactively, enforced.
+[00:27:16] Active. Metadata has always been there to automate governance for past couple of years.
+[00:27:21] We had data Ops.
+[00:27:23] practices where governance is being, put in place through policy as code consistently programmatically, every time
+[00:27:30] You have geni, which is allowing data stewards to use. Natural language have conversational governance, so bringing them in the governance from a business capability. Standpoint, not as a technical language, right? And the fourth is
+[00:27:45] Agente, right? It has the potential to get you there in terms of operationalizing the policy at scale.
+[00:27:54] These are the 5 themes to keep that in mind and I do think that if you rationalize which of the 5 themes, you would want to move forward with
+[00:28:07] I think you can future proof to a certain extent, your governance program. This is a blueprint that I do think will help you get there where you are. Proactively making sure that you are not leaving yourself from risk exposure standpoint as well as you're governing for AI. With AI.
+[00:28:26] Going back to the theme that this is too much to do.
+[00:28:30] I would recommend to think about,
+[00:28:34] The 3 architecture you had in the Keynote.
+[00:28:37] Right? Because that can help you sort of prioritize which of the themes you want to work on personally because that's the AI ambition for your organization. If you are going to be AI cautious
+[00:28:49] You still will have to think about the fifth theme technology enforced behavioral controls. But you also will have to think about building both risk and outcomes scope outcome, Focus scope, because you have a higher risk type. So you will have to start thinking about it proactively.
+[00:29:03] If you are AI is happening much more decentralized Manner, and you are trying to connect the dots, you will have to think about what are the different types of stewardship? You need to
+[00:29:14] Create the persona.
+[00:29:15] That you have to create, you will have to think about integrating the governance operating model. This is an addition to what you have on the left.
+[00:29:22] but if you are on the AI first side,
+[00:29:25] Apart from all these 4 that you have to do. The focus should be developing that trust model not just for data, but ai agentic ai, right? This is a good way to start prioritizing which of the focus areas that you need to go back to and start testing with your stakeholders.
+[00:29:46] I've also provided you. The blueprint of what you can take back from today's session thinking about where you currently stand, how far away are you from the current best practices and where you want to move the dial?
+[00:29:59] and,
+[00:30:00] To help you with some of the research that we have been doing from security side, risk side data, governance side are putting some of the recommended resources that covers the people processes as well as the technology Evolution for governance.
+[00:30:15] All right.
+[00:30:16] Hopefully, that gives a good sense of what future holds as I said not a fortune teller, but if you hear enough
+[00:30:23] And you get to talk to so many people, you start to develop, at least, with my different colleagues. A good idea of where we potentially are going to learn go, maybe 2 years down the line, the slides May completely change. But this is what I would suggest for future. Thank you so much. You have a very patient audience even though I've been 30 seconds over. Thank you.

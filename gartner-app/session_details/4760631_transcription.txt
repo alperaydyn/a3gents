@@ -1,0 +1,170 @@
+[00:00:05] Good morning everyone. Uh thank you for joining. We have a packed agenda. A lot of content to get through. I'm Anthony Dayton. I'm the CEO here at Tamar and in a moment. And for the bulk of this presentation, you will be hearing from Glenn Hall, uh, who is the program director for a very large, uh, and very successful deployment. Uh, at Old Mutual, uh, large insurance company in South Africa, but I will not ruin the surprise. You can go through all of that in a moment and the bulk of the presentation will be uh, from him. I just wanted to frame, uh, 1 slide to to kick us off and then turn it over to Glenn to
+[00:00:45] To walk through the work that he's been leading at Old Mutual.
+[00:00:49] So, 1 of the best sessions.
+[00:00:52] That I attended.
+[00:00:54] At this conference over the last few days, was building the business case for MDM. And I don't know if anyone else had the pleasure of attending the session but I'll ruin it for you by just giving you the punch line. Uh, which is that every MDM implementation.
+[00:01:10] should start with you reading the annual report if you're a public company or the Strategic framework for your company, understand your business strategy and use that as the jumping off point for building an MDM case, think about the metrics that your business is trying to drive where
+[00:01:30] Incomplete unorganized messy data, Silo data is interrupting that business process and resulting in uh, poor performance on those metrics. And I think that's probably a really useful piece of advice. Certainly something I found useful out of the last um, 2 days. Uh, I want to connect that to this idea of the MDM Journey, which is something we talk a lot about at Tamar and I think 1 of the biggest challenges and something you'll hear as a theme through the old Mutual journey is where MDM projects get into trouble is that they want to start at the end of The Journey. We want to make this an IT project.
+[00:02:08] around operationalizing improvements in your data, um, and or to say it in a
+[00:02:15] A little bit more of a practical sense.
+[00:02:17] You want to interrupt the user in the process of creating data and, uh, say, actually we have a, a version of that entity already. Let's inject that. And, and the 1 Thing users don't like, is to, you know, to be interrupted in their Journey, right? They just want to kind of do their work.
+[00:02:32] Where I think we've seen much more success is thinking through the MDM process by starting with analytical, use cases and again, connecting it to that business value. And really thinking about this process of assessing, the quality of the data, connecting it to the business case.
+[00:02:49] Working to improve the quality of that data. So that the result for the user isn't an interruption in their process, but is actually better data.
+[00:02:57] Involving users early in that process.
+[00:03:00] Letting them review the results confirming that the data in fact is better and only then connecting it into operational systems. Um, we'll talk at the end, but there's some really nice, um, thought leadership work we've done on this and we're happy to share, but this has been a very much more successful process from our perspective and seeing MDM be successful in the real world.
+[00:03:22] So with that, as a context, Setter uh let me turn it over to Glenn and share the journey that he's been on an old Mutual has been on and hopefully put some of these ideas and to practical uh perspectives. So Glenn,
+[00:03:39] Uh, thank you Anthony. Um,
+[00:03:42] And thank you everybody for coming out.
+[00:03:45] Uh, pleasantly surprised, uh, very pleasantly surprised. There's so many of you here normally by this stage on day. 3, everybody's uh hitting Summit fatigue, uh, and finding coffee shops or maybe the local pub around the corner. Sorry at, um,
+[00:04:00] When I was born I was blessed with probably the world's worst memory um so just so that I don't forget anything uh that's uh potentially valuable to you in your own journey. I do have my crib notes so apologies, if I just glance at that screen that's got really big writing on it. Um,
+[00:04:19] So I'm um, I need to use this 1, sorry.
+[00:04:27] I'm going to jump straight in. Um,
+[00:04:31] So what am I going to tell you about today? Uh a little bit about old Mutual um the history, the MDM history and just the journey um that we've been on.
+[00:04:40] Importantly, um, how we are, uh, making Tamar foundational, uh, and operational fabric for the whole organization.
+[00:04:52] This is a question. I get asked quite often why we partnered with Tamar.
+[00:04:56] and then I do want to share um some of the challenges um the value that that's been realized and some of the Lessons Learned um
+[00:05:04] I've
+[00:05:05] tried to take out some of the key learnings and, uh, you know, things from from our journey that I thought might be useful to anybody sitting here that's either on this journey. Um, you know,
+[00:05:15] a lot of it, you can apply whether it's whether it's tame or not, um, or if you're considering the journey,
+[00:05:22] So, whose old Mutual old, Mutual old Mutual is 180 year old financial services company. Um, they operate across multiple countries regions, um,
+[00:05:34] they um,
+[00:05:36] I need to.
+[00:05:37] Move that forward.
+[00:05:40] All right.
+[00:05:43] um, number of business units and
+[00:05:48] Almost 200, uh, Source systems that carry customer data talking to MDM.
+[00:05:55] Um, for years customer and advisor data. Um, that's pretty much.
+[00:06:00] What my project has been focused on for the last several years. Um, as as, you know, existed in in fragments, you know multiple systems different truths, different processes across the organization
+[00:06:12] um, we
+[00:06:14] to Anthony's point, um, when he opened up is that we realized early on that a project like, this isn't just about technology, right? I was actually did start out as a technology. Uh, sponsored. Um,
+[00:06:28] Uh, you know project, um, but it's it it's become a foundational infrastructure that, um, you know, fundamentally underpins uh, clients electricity.
+[00:06:42] I remember to click both.
+[00:06:44] I'm not going to spend.
+[00:06:45] too much time on this slide, um,
+[00:06:48] is there a pointer on here?
+[00:06:50] No. Um, because I'm going to talk a little bit about the the, you know, the journey, the phases Etc. But a couple of things that I do want to just point out um, sorry my father taught me to always be prepared. So
+[00:07:05] If this is works. Ah, can you see that? Very small um at the bottom here uh group. Sorry, the bottom 3, the Grays. That's of mutual's Legacy MDM uh capability today. Uh so at the bottom you can see there there's over 20 years worth of uh
+[00:07:24] Tech and capability. That's being, uh, being built. Uh, it's the crown jewels of the organization.
+[00:07:30] Uh, there's little to nothing that happens within the organization that doesn't touch uh, this this system. So you may hear me uh just for Simplicity referred to GCS. Uh, it's group Client Services. It's a homegrown uh, system. It runs on the Mainframe lots of cobalt don't get scared. I know it's very ugly. Um, but yeah, um, and lots of complexity that comes with that uh, 2 systems up above that deal with advisor data, uh, oh, I picked up the typo.
+[00:07:58] um,
+[00:08:00] Advisor data also critical to um, the the business operations.
+[00:08:05] But you can see the link of time. Um, you know, a lot of Legacy in there, the top is our Tamar Journey, so we started in 2021.
+[00:08:14] just,
+[00:08:15] Looking at uh, what the what the options were we started with the proof of Technology, we didn't need to convince ourselves that there were, you know, that the concept worked or that there was value in this, um, you know, old Mutual, their their data management. Capability is very well, uh, established and mature. But we wanted to understand in our board wanted to understand, does the tech work? And how often do you hear, uh, almost every day now? Can you trust the AI? Um, so that was just to, to, to prove that the, the tech works, the AI Works. Um,
+[00:08:45] There were a number of specific, uh, business problems that we, uh, set out to solve and I, I will go through those a bit later, which we did. And so we, um, embarked on the journey. I'll just, I'll talk a little bit about this. I know the world's moved on since then.
+[00:09:00] But we started our journey on Tamar core, which was an on-prem deployment in our um AWS Landing Zone um and we moved our advisor data you know, small you know, sub 200,000 records in there. And then uh, quite a big milestone, which I will talk about a little bit more at the end of 2023. Is the move from core entertainment, cloud.
+[00:09:23] Okay.
+[00:09:27] Um,
+[00:09:28] So like many um Enterprises that have grown over decades. Uh decades we found um ourselves in a situation uh much like the picture, right? Um
+[00:09:40] and I did show the this to to someone else uh previously and they said but is that like
+[00:09:45] Uniquely South African spaghetti or whatever. So sorry I should have said at the beginning I've tried to or mutuals are an African company, right? Um,
+[00:09:55] So, I've I've now lost a thread because I should have said this way up front. Um, their main Market is in Africa, and, um, they have a presence in Asia and in Europe, what I've tried to do in this presentation, you would have noticed is just try and pick out some graphics, um, that are specific to sort of Africa. So you'll see this is the joy book, Skyline home to 1 of old mutuals 2 hqs. Um, this picture doesn't fit in with that theme, but it tells a story, right? We all know what's spaghetti means in Tech, um, and that's what we believed.
+[00:10:27] that we have, um, you know, fragmentation,
+[00:10:30] Uh, huge complexity and lack of trust, right? So when you don't have good data, when you have all of this complexity, the trust, um, the trust wanes, I've spoken about the 200 Source systems uh, feeding those 3 Des uh, you know, platforms at the bottom.
+[00:10:46] Um,
+[00:10:48] The high cost lower lower agility um and also very lethargic scalability to the needs of the business.
+[00:10:55] Um, these real world problems, I'm going to talk about on a on a a a slide. These were specific things that um you know, aside from the core
+[00:11:04] Master data management. These are things that the the organization wants to solve, so I'll go through those specific because it, it kind of makes it real.
+[00:11:11] Uh, and human capital, right? Um, I read years ago.
+[00:11:15] So that the average age of a Kobalt developer is was between 52 and 58 which means that in today's terms most of those guys and girls are either nearing retirement or they're already setting on a beach sipping pina, coladas and probably avoiding all of our phone calls because they know exactly what we want.
+[00:11:33] um,
+[00:11:34] am I going the wrong way?
+[00:11:37] Sorry.
+[00:11:40] Yep.
+[00:11:42] I'm not.
+[00:11:46] There we go.
+[00:11:48] Okay. So, um
+[00:11:51] with a project of this scale, I do need a sip of water, sorry,
+[00:12:01] With the project of this scale. We realized, we, you know, we would not get sponsorship and support for this. Um, if we positioned it as a simple MDM replacement, uh, program, um, what we had to do to get traction and sponsorship and my project is a a board level, uh, approved project. Uh, just given the scale of it.
+[00:12:23] Is, we had to connect, you know, customer centricity and customer identity directly into, um, old mutuals, uh, strategic intention.
+[00:12:32] So, if we talk about product, uh, expansion as an example,
+[00:12:36] um,
+[00:12:39] you know, the the the ability to consistently recognized number 1,
+[00:12:45] And understand your, your customers across products is vitally important for most businesses today, right? Large business. It it it is vital. Um, example is
+[00:12:56] Old Mutual Bank. It's very simple example. But an important 1, all Mutual Bank is the youngest Bank in South Africa. It launched to the general public in 2025 last year.
+[00:13:06] And they came to us because they, their challenge, you know, the, the integration was all fine. Their challenge was connecting to a client's Rewards program. Um, so a client has Life policies, may be wealth uh products maybe uh, investment products with an existing Rewards program. How do they tie his banking rewards, um, into that? So,
+[00:13:30] um, I mean fundamentally
+[00:13:32] If you can't join uh, if you can identify the customer and then join him to all these other products. You, you you, you miss that boat.
+[00:13:41] um,
+[00:13:43] you know, cross-selling and upselling.
+[00:13:45] And what I've called in my notes, our customer Centric engagement. Okay? Becomes very, very difficult. If you've got, uh, fragmented customer data, uh, you know, across, uh, you know, systems, uh, processes and different channels.
+[00:14:00] Um, another point.
+[00:14:02] So yeah, I think, um, what we, what, what we trying, what we are doing through this program is really putting, uh, you know, MDM and this customer identity, um, really at the center of every
+[00:14:15] Thing, we do around our customer and our advisor Journeys.
+[00:14:23] Remember to click both.
+[00:14:27] Um, so why Tamar for old Mutual? This is another uh, question that I get asked quite quite often.
+[00:14:34] Um, you know Legacy environments, that accumulated years of uh you know, deterministic rules hard-coded rules in software um tribal knowledge and and many, many operational workarounds, right? Um, so we needed a model that could that could learn that could adapt and then could scale. And, and I'll show you how we looked at that from a, from a program, uh, timeline point of view. Start small and then
+[00:15:00] Scaled up to the big numbers. But um, from a program point of view, the, the Big Challenge we had was this 20 years of these coded rules. I did an estimate. Um, be you know, when we were business casing this um, of what it would, what it would take to to re-engineer that. Um, and we came out, we had, you know, a couple of the big, uh, you know, tech companies that got products to re re reverse engineer code but that came out at a 6-year journey. Um and our board was just not not happy with the 6-year project. Um,
+[00:15:31] So, I mean entertainment, right? Um
+[00:15:35] So what a Tamer, uh, what a Tamer do? Well, I mean, firstly, tamer's a native approach fundamentally changed. Um, you know, the the agility, um,
+[00:15:45] And the economics of of our project. But so there's lots of sexy stuff that Tamar does, right? And, you know, the time of guys can talk a lot about that for us as a, as an organization. Um, you know, some of these things. Some of these uh transformation. Uh, things programs can come at high cost, but there were 4, uh, fundamentals and the 1 was that Tamar removed that need for understanding in your coded rules, right? Um, number 2, it allowed me to use the 1 thing that the organization had and that's really, really great knowledge of the data.
+[00:16:20] Um, and if you put those 2 together, a good model and people that understand the data, that's when your human assisted machine learning really becomes Magic,
+[00:16:30] Right. Um, the third thing was the agility, you know, bringing a 6-year project down to 3 years.
+[00:16:36] Um if you know all our Executives and board members were very happy about that and then um obviously the cost, right? You don't need to be a an accountant to work that 1 out. So those were the the sort of 4 things that uh swung old Mutual on.
+[00:16:51] T.
+[00:16:54] Okay, a little bit about our journey. I'm not going to go into too too much detail, but just that you've got an idea of how we tackle. This uh, we started off with uh you know sort of lower lower risk. Um phases. We did 3 phases, you'll see. And there was no science behind that. 3 systems 3 3, 3 phases, seem to make make sense. First 1, we took advisor data, it's still business.
+[00:17:15] Critical but less so than our customer data. Um, and we just took 1 system, so we had um IBM infosphere was 1 of the 3 systems. Um, and we started with that migration there were. I mean, 2 fundamental things. We achieved 3 actually in this ways that we achieved in this phase, number 1 was, we established Tamar, right? So, that's that's step. Number 1. I get Tamar in, um, get it implemented, wire it into your organization. Um, however, that that, that needs to be, you might be on a batch Journey. You might be on a real time Journey, ours was very much real time. Um the second thing was we got data migrated, we got the mastering working. Um and then the third thing was we had started building uh, modern capability to manage and run this thing going.
+[00:18:00] Forward.
+[00:18:02] Um, I don't need to do that.
+[00:18:05] Uh, Phase 2, this was quite a critical phase because it, it was the second part of our advisor data obviously. Um, but within if you, if you think back to the timeline in 2023, uh, we started looking at tamer's Cloud offering.
+[00:18:21] Now, when we started on the journey, the cloud offering was not, uh, not mature enough for what we needed.
+[00:18:30] Uh, which is why we went on to call.
+[00:18:32] By early 2023. The cloud offering had come uh, in a in a come Leaps and Bounds. I would say from from where it was, um, and we started looking at it more more detail and
+[00:18:43] I mean, ultimately we made
+[00:18:45] The decision to move from court to Cloud. Um the feature coverage was uh way broader and the agility in what we were trying to do in Phase 3 was just why improved with Tamar Cloud. I thought I'd just add that uh but in
+[00:19:00] And then phase 3. That's the big 1. Um, so that's all of the customer. Records are 22 million records, uh, almost 200 systems integrating into that. Um, and this point about um, zero business, disruption is 2 things 1 to say on that. The 1 is just that was a mandate uh, from the business. You cannot disrupt the, the the organization, um,
+[00:19:24] I will just elaborate on that a bit later. The asterisk is just there to be honest, that we're not through.
+[00:19:30] The journey yet, right? Uh, we're in this phase. We're now lining up for uh production Cuts over of all those 200 systems. Um, we it's a it's a it's a high impact. Well it's potentially high impact change if we get this wrong, uh but we're busy doing dry runs etc. Etc, at the moment, but just so that, you know, we've been through a long journey, but there's still The Last Mile that we've got to get through.
+[00:20:00] um,
+[00:20:03] so, I think 1 of the big take Arts, um, for me and I I, I found myself saying this, you know, quite a
+[00:20:10] quite a few times is, you know, we we, we shifting
+[00:20:15] Customer identity to being just a data domain. Another data domain, right? It's very easy. And I see this all the time, people think of MDM as something that happens in the back end, you know, there's some tech people that do MDM and we just get the the outcome and we use it. Um, but we're shifting that um to to to proper Enterprise infrastructure that supports
+[00:20:36] Everything to do with customer advisor. So, from onboarding,
+[00:20:41] To servicing to compliance. You think of all your kyc stuff, you have to do, um Etc to risk management to um all of the digital Journeys.
+[00:20:53] To the analytics we do internally um and to other AI processes. Um and and that's a massive show.
+[00:21:00] And and I think it's a shift, we need to see coming uh in in a lot of organizations that still think that mdm's just Tech.
+[00:21:07] Um, simplification and Agility were were big for us. I mean, we simplified massively through this journey. Um, so we've we've brought our Integrations down into MDM, uh, with some to fly that that whole, um, that whole, um, technical environment, but also simplified the processes. So, we now now able to onboard, uh, new systems with, um, you know, far more, um,
+[00:21:31] Far more agility, you know, far quicker. But as an MDM capability, we're able to respond to to, to business change. And we've got, uh, General business and we've got regulatory demand. So as those come up, we can respond to those.
+[00:21:45] There's a lot quicker.
+[00:21:50] Um, I did see how we're going for time. I'm going to skip that last point.
+[00:21:56] Um,
+[00:21:58] keep forgetting to click that 1.
+[00:22:00] Um, I'm going to go through these quite quickly, so some of the challenges and Lessons Learned, um,
+[00:22:06] Our biggest challenge when we started out, wasn't a technical 1. Um, it was more, uh, it was more a trust issue, right? Um, from the business AI at that stage, it's all fairly new, uh, Ai. And mastering was very new. Can we trust the AI? Can we trust the automation? Can we trust the? Um,
+[00:22:22] Uh, the new processes that we're building. Uh, the point I wanted to make on this is um, your stakeholder, engage your stake.
+[00:22:30] Older engagement from top level, whether that's board or your Exo, whoever write down through the, through the value chain. Um, get them on the journey early and keep them on the journey.
+[00:22:41] Programmatic, I think, um, you know, the biggest challenge on this side, we had early on that. We had to work through, uh, between us was, it's very difficult to, um, to, to sort of marry or aligned, uh, corporate roadmap and everything that goes around that, right, all the rigor, and the reporting and that around that with um, with, with a, with Agile development. I'll call it, you know, um,
+[00:23:03] Enterprise plans in years and quarters, uh, AI native platforms evolve in, in, in weeks. So, we found there was an alignment we had to do. How do I keep, uh, you know, how do I
+[00:23:15] Keep my board.
+[00:23:16] Um, sort of happy and on the journey that we, we, we're going to realize this value. Um, with a company that had that, that that operates very, very agile and this wasn't just us becoming more flexible. We had to do that. Um, I defined those ways of keeping our board happy Tamar had to find ways of um, aligning their very agile planning processes to our more rigorous planning, um, and even more rigor, in in in things like reporting. So that that, um, that collaboration and so on, um, was was there. Um, I think there's 1 more
+[00:23:50] Yeah, I mean, you know, technical I'm not going to I don't want to go into the technical stuff too much. This was massively complex program. I think the key thing. Uh, the key takeout for me is this is largely
+[00:24:00] Around a program of the scale is from a technical side is largely around managing, uh, complexity and risk. So like, you know, um,
+[00:24:10] um,
+[00:24:12] I just want to see what my notes. I made apologies. Um, but yeah, it it's, it's, it's complexity of things, like, you know, how we couple this into the into the, the business, but reducing, um, you know, that risk as, as as we could,
+[00:24:29] So these are just some, uh, things I've Got 5 minutes, which is great. Um,
+[00:24:35] because I did want to spend a little bit of time on this. Um, I've said it a few times I'm going to say it again that um, MDM is not some back office thing that you um, that
+[00:24:45] Someone. Does someone else does right? There are those people that do it, but there's very real business problems. And, and as I when I put this slide together, I thought for a lot of you, these may seem, uh, you know, like, quite Elementary problems. But the point is they real, they real problems and if they're not dealt with that, cause frustration and even pain in the business. Um, and that pain often comes with, um,
+[00:25:08] With real bottom line cost, right? So I just want to take 1 or 2 examples. So this uh in Richmond and this is my mistake, there shouldn't be funeral policies, this is all Life policies. Um, so old Mutual cannot pay out a life policy. Um, if they do not have a beneficiary's ID number in South Africa, ID number similar to your ni number. Um,
+[00:25:32] Uh, sorry. Um
+[00:25:36] Oh, and the challenge they have is is its policy. It's their internal policy to pay out on a policy, um, within 24 hours.
+[00:25:46] So once a claim has gone through the process and it's ready for payment, they cannot make that payment if they don't have the ID. Number now in African markets, some African markets, certainly in South Africa. Um, people often wouldn't have the ID number of their, you know, relatives or whoever they they they the benefit is in a lot of cases. There's a lack of trust. They don't want to give that information across. Um, so the question there is, how do we how do we use? Tamar to enrich?
+[00:26:15] Um, ID numbers from our own external um sources that we have um or with timers internal enrichment, you know, services that that they have and the idea is simply you enriched in. Tamar, we publish that back and we've got all of the integration built, we publish that back into the organization, but it takes that problem away. Um, another interesting, um,
+[00:26:40] Challenge, they have is customer contact recency. So their target is to have, um,
+[00:26:47] Contact recency to within 3 months across 75% plus of their customer base. Now another um anomaly that's prevalent in South Africa, is you you, you you
+[00:27:00] Battle to find someone who has a mobile number for life, right? I have 1 and I am an anomaly but, uh, in that market and there's various reasons why a person will have multiple mobile numbers through their life, uh, you know, as their life as a, as a client. Um, so it's, it's near impossible to keep up with that, um, unless we can enrich, right? So, if we can enrich, we can find those those, um, mobile numbers. Same goes for addresses, Etc, um, bring them into table and then we publish them out to the organization to consume,
+[00:27:34] um,
+[00:27:36] My my last slide. Um, just talks about uh, the journey in terms of
+[00:27:44] if you think,
+[00:27:45] Of MDM.
+[00:27:46] Uh in terms of a project Journey, it starts here and it ends there. Um I will be bold enough to say. I think you're thinking of a incorrectly um MDM doesn't end when your project ends your project uh implements and establishes.
+[00:28:04] A capability that you need but the real value uh, intrinsically builds up after that, right? Um,
+[00:28:12] So, as an example, we're, we're doing customer advisor because that's the most critical for our business right now, uh, when my project ends, um, soon hopefully, um, we'll move on to these things, right? So onboarding, uh, other regions that we haven't onboarded already
+[00:28:30] Uh, we haven't started looking at what value product, mastering brings or Finance, mastering, um, and then tying it into other AI processes, Etc. But my point is, um,
+[00:28:42] And it comes down again, to what Anthony said. This is, this is tech at the back end, but it's not a tech. It's not a tech project. Um, it you're putting Tech in, but it's something that lives. I think I made a
+[00:28:53] Um, oh I want to talk about the SK. I don't know how is anybody know about the ska, right? So it's a square kilometer and 10 array, uh, which spans South Africa and Australia. If you don't know it, 1 day when you're bored and you can't you can't sleep and go go and Google it. It's quite interesting. Um but you know the way that the skaa continually collects and refines these
+[00:29:15] Signals from across like vast sources. Um, modern MDM becomes this continually evolving, like intelligence layer across your whole Enterprise. Um, linking all the bits that you need.
+[00:29:29] Together.
+[00:29:31] Hope that made sense. Anyway, that's my story. I'm not going to bore you anymore and we're right on
+[00:29:37] 12:00.
+[00:29:43] Thank you Glenn. So I know we're uh right in time. I just want to leave you with uh 2 quick calls to action. Uh this uh is not a complete Gartner presentation unless we include a slide about AI, but I do think it's fair to say that the idea of using Ai and
+[00:30:00] Models to finally take a crack at solving, the MDM problem is really, what tamer's centered and focused on. And we do think that while we can do a lot with the model, when the model doesn't get it right, we want to include and engage the human as part of that process. And that's something that we believe we've uniquely solved. If this is interesting to you, we have a booth downstairs Booth 308. Uh, and, uh, we'd love to Glenn, and I are going to go down there now and we'd love to spend some time with you show you a demo and engage in a conversation about your organization. So thank you, everyone, for your attention. There's also some eBooks here, you can talk, uh, you can uh, grab a screen. Grab you can download those there. We also have copies of those down at the booth. Thank you.

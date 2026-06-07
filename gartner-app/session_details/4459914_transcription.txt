@@ -1,0 +1,149 @@
+[00:00:05] I'm very
+[00:00:07] um,
+[00:00:08] glad that I have the opportunity to present to you this topic because this is 1 of the topics that is probably, uh, 1 of the dearest and closest to, uh, to my heart. This is my bread and butter. This is what I talk about, almost every day, uh, to our clients.
+[00:00:26] Uh, which is really about balance, right? How can I provide the right balance in my organization? How can I balance the consistency that I need in order to deliver on my initiatives? And then at the same time, be able to provide the agility.
+[00:00:45] Uh enough agility to meet the demands of, you know, the stakeholders in my organization and when I talk to clients they often tell me, uh, it's so complex. Uh, there's so much going on. Uh, write the rules are really difficult to understand and there's so many moving pieces, etc, etc. It almost feels like I'm playing a game of chess.
+[00:01:11] And I tell them, no, no, no, you're not playing a game of chess because a game of chess is easy. Uh, write a game of chess has set a board. You have set rules. You know what, every piece can do. And what every piece cannot do. Etc. Etc, may sound complicated. But chess isn't that difficult? What is difficult?
+[00:01:30] As a children's game.
+[00:01:31] Because children make up the rules as they go along, right? And they change the rule to their advantage and their benefit.
+[00:01:38] So what you're actually playing is a children's game where things change all the time and therefore you need to adapt and change as well as you progress your initiatives and that's the whole balance thing, right? Making sure that you can be adaptive enough to meet that constantly shifting way of
+[00:02:01] Playing the game, let's say of data and analytics. So that's typically what I wanted to discuss today and when I
+[00:02:10] Talk about this topic. I often find.
+[00:02:13] That there are 2 Main.
+[00:02:15] Major questions that almost always come up in conversations that I have. And as you can imagine this is a this is the first 1.
+[00:02:23] Uh, it's all about finding the balance between centralization and decentralization because, of course both have their benefits, right? People really want to centralize their efforts mostly to bring more consistency to the way they work. So it could be more consistency to their data by applying, you know, data governance or more scalability to their platforms by creating a single platform. And so on. So centralization is really helpful when you want to bring more consistent,
+[00:03:00] Consistency to the way you work.
+[00:03:03] Fortunately as you bring that more consistency, it also means more control. Let's say and consistency and control are a little bit, the enemy of, you know, agility quickly doing things that maybe is not for the benefit of the entire Enterprise. But certainly for the benefit of me within my specific context, whether it's my business unit or my department or even the role that I have within the organization. So balancing the work between centralized and decentralized is 1 of the major questions that I often get. And sometimes it's asked almost like it's a binary
+[00:03:45] Great question, right? Do I do 1
+[00:03:47] or the other while the reality is that you probably need both, right? You need 1 and the other, you need consistency and Agility. And therefore in order to meet that you almost always end up with a hybrid organizational model with the center.
+[00:04:08] Being more about consistency and a decentralized parts more about agility. So a hybrid organizational model and I guess the Hub and spoke is the most common 1 that you most. Most of you would probably recognize is where you sort of end up automatically because you need both.
+[00:04:27] related to that is the second question that I
+[00:04:30] I always get, which is
+[00:04:32] data and it thing or a business thing.
+[00:04:35] And that's a hard question to answer because again it is a little bit of both right? At the end of the day, you use data and Analytics.
+[00:04:45] Because you want to solve business problems, right? You want to solve get to a certain decision, optimize a process and so on. And the data is being owned by the business as well, so if they own the data and they use it to get to a certain outcome, it's certainly is a business thing.
+[00:05:05] But at the same time, we also know that you need a lot of it stuff in order to get that going right. So I would never ask a
+[00:05:15] Business person to size a server or maybe to develop ETL but still we know that we need that in order to have successful data and analytics initiatives. So just like you need centralized and decentralized. You also need business and it
+[00:05:33] So, even if you position it in the business, you know, you will need to work with it. If you position it in it, you know, you need to work with the business and therefore again, the best practice is to actually bring teams together of business and it people
+[00:05:50] Which is what we call Fusion teams, uh, but you can give it, of course, a very different name.
+[00:05:56] and then,
+[00:05:58] if you put those 2 together,
+[00:06:00] So centralized decentralized business, it you sort of end up with, you know, 4 quadrants, and then you can think about, okay, do I want to balance it more towards consistency, given where I am today, the maturity of my organization, the industry that I aim in the complexity of my environment or do I want to balance it more towards agility.
+[00:06:26] Same thing, do I want to work more on the enabling capabilities or do? I want to focus more on driving a change within the organization?
+[00:06:35] And if you then put that together in that 2 by 2, you can start thinking about. Okay, where do I align my initiatives? Where do I bring my resources.
+[00:06:45] Where do I put most of my efforts on Etc and that can change in time, right? And this is just an example. So I don't immediately copy that for your own environment, but it is a way to think about it that while in a centralized it effort, I start building a scalable production environment at the same time. I'm bringing consistency to the data in a centralized business initiative, bringing more the stewardship and the domain analytics, or self-service, analytics to a decentralized business initiative and maybe set up.
+[00:07:20] A Sandbox or a prototyping environment so they can play around and do cool new stuff. So that's the way you need to think about it. Not 1 or the other but 1.
+[00:07:30] and the other, and that is sort of drives them the whole
+[00:07:34] conversation on what to do, where we did an analysis, where we looked at
+[00:07:42] Self evaluated. So self evaluated uh results. So uh how successful were your initiatives?
+[00:07:51] And where are you doing the work? And we were looking for a correlation between the 2 and this is more or less. What we saw is that centralization is mostly done uh for data management in analytics, so think of a single data repository, right? Like it's a data warehouse or a data Lake, that's often more centralized initiative.
+[00:08:15] Same thing applies for uh AI as well but all the other stuff is more or less hybrid. So in order to be successful
+[00:08:25] It turns out that a hybrid organizational model. So collaborating, maybe in a hub and spoke model with Fusion teams is the best practice when it comes to the success of our initiatives.
+[00:08:39] We also asked, who are you reporting into?
+[00:08:43] and uh, maybe as no surprise, uh, the number 1 position is the it leader, the CIO
+[00:08:50] But if you combine all the technology roles and all the business roles, you will find out that actually the majority already reports into a business.
+[00:09:00] Function and the minority reports in the technology function.
+[00:09:04] Again we try to see are the ones that are in it, more successful than the ones that are in the business, or the other way around, funny enough, no correlation. So, it didn't really matter where that, you sit in the organization, but we did find something else that the ones that were in it, they focused more on governance and platforms.
+[00:09:28] And the ones that sit set in the business, they focus more on analytics for example, and the ones that were really successful were the ones that sort of compensated for that. So the ones that set in it and focused on platforms and governance,
+[00:09:45] But works a lot with Business Leaders and even had business facing kpis, were the ones that are really were successful.
+[00:09:54] And the other ones are around the ones that set in the business, but established a very good working relationship with the ICU organization were also successful. So it's not so much about where you sit but what you do and what you engage with
+[00:10:11] And that also sort of manifests in, for example, how do we Define the tasks? Right? Of course, you can split the work between what data does and what it does. And yes, maybe some capabilities are better for the it organizations while other capabilities are
+[00:10:30] May be better for the data organization and yes, you can agree on you. That's what you do. That's what I do.
+[00:10:37] But again, if you're able to find some way of collaborating together on that even better, right? It's not so much. Ideally, it's not about dividing the work right? Which we often do. For example, by setting up a raci
+[00:10:52] Uh, but instead, it's maybe more about collaborating on things. So collaboration over Division, I would say, but this is the most common way. Uh, we have found that people split the work for example, if the data is more, operational in nature. So if data is moving into business systems for
+[00:11:15] Example, then often that data engineering pit goes to the CIO.
+[00:11:20] But if the data is going into a centralized data repository, like a data warehouse, or a data Lake, being used for Analytics.
+[00:11:28] Then for example, it goes more often to the CDO. And again this is the most common, right? This is not necessarily the way you should organize it unless you want to follow.
+[00:11:40] The rest of, you know, the world more or less.
+[00:11:44] Which brings me to the next uh bit. We now sort of know what is driving that work design, right? So consistency versus agility business. It centralized decentralized etc. Etc. Now we need to apply that to the
+[00:12:00] Real world of data and analytics in our organization.
+[00:12:04] And this is where for many organizations, the word single version or uh 1 version. For example often comes into the conversation.
+[00:12:15] And don't get me wrong, I do believe in a single version or a 1 version when it comes to data.
+[00:12:22] But it's not the only version.
+[00:12:25] There are multiple versions, uh, in organization that exists.
+[00:12:30] And the single version is what we call the global version here. So, in some cases you have data that is being shared across, multiple silos or domains in your organization.
+[00:12:45] 4 is of strategic importance or is maybe used to report external that could be all kinds of use cases where you sort of want to bring that into the center under your control to make sure that it is super consistent. Same thing, right? Enterprise, bi Regulatory and compliance that all fits in that left 1 the global version. But it's fair to say that in almost every organization within a specific domain. Whether that is a country or a business unit or whatever way you are, organized, people will have their own Regional data sources and even their own analytical needs. So you already have an
+[00:13:30] Analytical needs and a data need, that is more Regional and doesn't always have to go through that Global version.
+[00:13:39] So they can stay within their Silo. Same thing. Local version. Everybody has local version. Everybody has a spreadsheet somewhere. Uh, let's say right within the organization again, you cannot bring that all through that Center because that will never work. You will become the bottleneck.
+[00:13:55] So it's fair to recognize that there are multiple versions in your organization, even in the next version, which is not so much about supporting what is happening today. But also thinking about what will happen
+[00:14:10] Next, right? So this is where we experiment maybe with new data.
+[00:14:15] Or even make up data, right? Synthetic data. Uh, we play around with new tools and Technologies where we prototype new use cases and so on. So this is, you know, an innovation area. So instead of a single version you end up with multiple versions, uh, across your organization. And as you can imagine, they are all somewhat different, right? For example, in that Global version, you really need to be mindful of the fact that everything needs to be consistent while in the regional version. It is contextualized for that specific environment in the local version. It's probably about doing the work in a relatively autonomous way and the next
+[00:15:00] Version is about Innovation and once you realize that the focus of those areas are different, then you can say, okay, so that means when it comes to governance and I want to bring consistency, I probably need to apply a more control style of governance. Making sure that everybody follows the rules, the policies, the standards, the guidelines, Etc.
+[00:15:22] But when I move into a more contextual version, I can be a little bit more lenient, I can give them a little bit more room to operate as long as they stay within certain guardrails, right? So I can balance a little bit the risk return for example,
+[00:15:39] If it is in the local version, I probably don't even know what they're doing.
+[00:15:45] So from a governance perspective the best thing I can do is probably educate them so give them a lot of literacy and training and I sort of hope and pray that they will do the right thing in my uh my organization and in the next version.
+[00:15:59] I can even go as far and say, as long as you stay within the 4 guard, rails of the laboratory,
+[00:16:06] Go crazy, right? Do whatever you want. If you move it out of the laboratory in production, sure. Then we make it consistent. Etc. Etc. So applying a different governance level across the different parts of your organization. Makes a lot of sense.
+[00:16:20] And now it's also makes more clear. I hope that if you bring that control style type of governance that makes a lot of sense for the global version.
+[00:16:30] If you bring that to your Innovation area, for example, where you're just experimenting new AI technology or use cases, doesn't really work, right? You smother Innovation and you kill it. So think about adaptive type of governance more across all those areas.
+[00:16:46] And then if you want to bring consistency and control to the work, what do you do? You keep it close to you?
+[00:16:53] Right? So often that ends up more centralized, while the other 2 are more decentralized of the nature and The Innovation area is more hybrid.
+[00:17:03] And that means that you then can think about, okay? Now I understand why the Hub. The central team is more responsible for bringing consistency.
+[00:17:15] Why and control in a centralized way and then working with the rest of the organization, the spokes.
+[00:17:22] To enable that they do, the work themselves with some bandwidth, some, with some enablement uh, and even working with the lab in order to make that work for the organization.
+[00:17:34] So you can then think about sketching that and going like, okay, so this is my office of the cdao. I have a global version. I have a next version, I have a local version and so on and then you can sort of start painting in little by little okay, then this role probably is much more concerned about making sure that the data is consistent going into our Central data.
+[00:18:00] Repository. So probably the lead data engineer needs to go into the center, but if we have somebody who sort of combined, Central data with regional data for their own outcomes and analytics engineer, okay. Maybe that will all goes then more towards the spokes. So you can sort of divide the work.
+[00:18:21] Same thing with governance, right? So for example, you can say, okay,
+[00:18:26] We want to set control and consistency in the center, so we establish a governance board but we want to do it with them rather than to them.
+[00:18:35] So we bring in the data owners from the decentralized parts into the central governance board.
+[00:18:43] We enable them with
+[00:18:45] The right. Uh, um.
+[00:18:48] Uh, resources for example, with a lead data Steward that sits in the hub, that sort of translates, all the standards policies, guidelines, Etc, that you define centrally translated into Frameworks. And so on that are then being implemented more decentralized within the spokes. And if they disagree with something either, they go through the data stewardship Community to clarify. Or if they really want to change the rules, they go to the data owner and say go to the governance board and make sure that you you know, get an exception for us. So again the whole Hub and spoke thinking translates into almost every
+[00:19:30] Every part of what you touch as a data and analytics person.
+[00:19:35] Uh, bringing more consistency in the center, more agility in the decentralized part, but also always collaborating together. So those are the underpinning design principles. If you will hybrid organizational, model, Fusion teams control in the center, agility in a decentralized etc.
+[00:19:59] And then you can even start thinking about, okay? But you told me it was about balance and that's true and maybe that balance starts out to be more decent or more centralized.
+[00:20:11] Lots of organizations. Say okay, that's great. But we
+[00:20:15] Honest. I don't trust the decentralized parts of my business, just yet to really do it themselves.
+[00:20:22] Or I do trust them but they don't have the money or the resources Etc. So let's start more centralized. Let's start with a center of excellence. For example, where we bring together resources, that do the consistency and the agility part, the centralized and decentralized, so you bring it all uh together, let's say, right? So you make sure that you enable them with the right Support Services, you bring consistency to the data with the right governance and engineering, and you bring consistency to the analytics across business unit, but also for the specific business domain. So basically you become a factory
+[00:21:00] Agree that thus the work.
+[00:21:02] For everybody.
+[00:21:05] But as we said in the beginning, that's great for consistency but not for agility, right? So what you sort of end up with
+[00:21:12] is that you could potentially become a bottleneck, right? And they have to wait for months because you need to add a data source, or, you know, some kind of new dashboard or and so on and so forth. So what many organizations do is that they then shift into a more Federated model and they say, okay, maybe we have to
+[00:21:35] Keep on doing that for business unit 3 because they still are not mature enough. They still don't have the resources so we'll still do all the work for them.
+[00:21:45] but maybe there's a business unit, where we say, okay,
+[00:21:49] you can do the work a little bit more yourself. We'll still, you know, work a little bit with you. All right. We'll we'll be part of that, uh, cross functional, uh, Team, uh, but we give you more autonomy to operate yourself. So, you give the spokes more freedom, uh, to operate. It's almost like getting your driver's license, right? You sort of certify them so they can uh do the work uh more. But maybe you're still sitting next to them in their car, uh, just to make sure that they don't make any mistakes.
+[00:22:20] and then, then maybe there's 1 final business unit where you say, okay, great, you pass your exam, you have your driver's license,
+[00:22:27] good luck, right? Driving to the world.
+[00:22:30] And maybe every now and then I'll check in with you just to make sure that things are going well.
+[00:22:36] And that is often what is referred to as thick thin spokes. So and again, that is about the balance, right? In a hub and spoke model, you can treat the spokes differently by saying you're a thick spoke, you're a thin spoke, you get a lot of support, you get less support, or maybe in some cases, you can even say
+[00:22:58] You're able to do this on your own right just like McDonald's have franchises all over the world but every restaurant yoga go in whether it's in Tokyo or in Frankfort you'll probably get more or less the same Big Mac because they all work in a consistent.
+[00:23:15] Way, right? But there's nobody from the head office in America uh checking in with them constantly, what they're doing and how they're doing it. That same franchise model applies. Doesn't mean you all need to move to franchise models, of course not, but it's more to give you
+[00:23:31] The idea in your back of your head that even in a hub and spoke model, you can balance the Hub and the spokes differently and even move to more autonomy, even for some parts of your business.
+[00:23:45] And then, you sort of shift, the nature of your central of Excellence, right? Instead of being the factory, that does all the work for everybody, you become the center of enablement which still spells Coe. So there's
+[00:24:00] Nicely. You don't have to change any documents.
+[00:24:02] Uh but you sort of shift into that model where you can say, hey I will support you in doing the work. I will still do some of the work that needs to be done for everybody so I'll bring a central data repository. I will set the strategy, I will enable you with best practices. I will develop training and skills and so on. But where you can you can do the work yourself supported by us. So we bring consistency to some of the work that needs to be done centralized.
+[00:24:32] And we make sure that you do the work yourself also in a consistent way and this will allow you to move into a model where you can balance consistency and Agility across your organization.
+[00:24:46] so final part of the presentation,
+[00:24:49] that impacts roles and skills, right? Because it's not just the orc structure. It's also the people in the orc structure and what we often say is that means that if you want to bring consistency, uh, and best practices and training and skills and so on in the center, that is often done by leads roles.
+[00:25:09] And then the ones that sit more in the spokes, we call domain roles and the ones that sort of sit all over the place and might not even be data analytics people, right? But they do data analytics work, those are more citizen roles. And what I've tried to do in this very, very, very busy graphic. I know this, uh, don't worry, uh, uh,
+[00:25:30] Try to paint in some of the walls, uh, that exists within an organization and mind you, this is roles, right? Not FTE. So if you're a small organization say, oh, I cannot afford all those roles, or you can combine multiple roles in a single person, right data. Engineer can also be a data scientist, for example, and maybe, if you are a large organization, right? You can have multiple data Engineers, but the thinking here is on the left, you will find more back-end roles, I would say, right? So like ETL developers on the right, you will see more uh, front-end facing roles and user facing roles like analytics developers, and the middle, you will find more supporting roles.
+[00:26:12] then the ones that sit closer to the
+[00:26:15] Center are the ones that you often find more centralized. So in the hub or the Coe,
+[00:26:20] And the more you go up, they are either more client facing.
+[00:26:24] Or even maybe sit across the spokes in the rest of the uh, the organization.
+[00:26:31] And they collaborate together as well, right? So the data engineer in the hub,
+[00:26:36] Set standards and policies and guidelines for, how do we do data Engineering in our organization? And if then somebody sits in a specific domain, I don't know, supply chain marketing finance and wants to do some data engineering themselves to get into a dashboard or a report fine.
+[00:26:53] Work with the data Engineers so you can do it yourself. But follow, you know, the best practice that are being established. So the idea is
+[00:27:00] For you to pair up with them, with the lead roles and the domain roles. Then there are some some orange dots there. Those are the ones that, uh, are often the roles that you need in order to get started. So, somebody to get the data in the data engineer, The Architects for the platform, uh, the governance to make sure that uh, you have the right proper uh, uh, and consistent data. The CDO as the leader.
+[00:27:26] Uh, the data scientist for the more advanced, uh, work and AI developers, because, you know, cannot Escape AI, I would say, I skipped on the data analytics translator. I did that on purpose, uh, because I wanted to highlight that role because I think it's most of the 1 of the most important roles that we have.
+[00:27:45] uh, if you look at the success of data and analytics that often comes from the fact that people really see the value of data and Analytics,
+[00:27:56] And change the way they work into a more data-driven way of working.
+[00:28:01] If you look at roles on teams and ask, what roles do you have on your team? They, this is coming of The Benchmark. These are all kinds of roles that we see. If you look at the translator, you see like 3% has a translator
+[00:28:15] What is it that a translator? Does they address that whole understanding bit? So, data literacy AI literacy? Uh, they, uh, uh, work on the value measurement and so on. So are we really delivering value to this organ?
+[00:28:30] Organization. So, the most important part, the 1 that really drives more or less the success. Not just enables the success, but really drives. The success is a role that is often missing across organizations. So that's why I put an orange dot on it. To, hopefully, you know, help you remind you of the fact that it's also important, not just to develop things, but that those things also need to be understood and adopted across the organization.
+[00:28:59] Any role is built.
+[00:29:01] From different skills.
+[00:29:03] Right? So every role has different categories of skills, you need data skills. You need business skills, you need soft skills, and so on and at different levels as well. So, when you start,
+[00:29:15] Developing these skills. Think about the different categories, across your organization that you need. And maybe a data engineer needs to be a bit higher on the data and it skills. While the translator role that I just talked about, probably needs to be a bit higher on the business and soft skills and juniors have a lower proficiency level than seniors Etc. So this will help you build a portfolio of skills across your roles and then you can build something like this which will allow you to say when I want to deliver the work. These are probably the roles and skills that I need to Cross by organization or this is where I'm missing those skills and I need to elevate
+[00:30:00] Those, uh, or maybe show some of the people in my organization, what the next step for their career. Even, uh, can be
+[00:30:10] And then bring those roles together into these cross-functional. And multi-disciplinary delivery teams that I talked about earlier because functional business, it multi-disciplinary data analytics Ai and you sort of work together, let hopefully by that translator. So you develop something together that is actually understood and well adopted and brings value to your organization and that means you need to collaborate more and more across your organization. Right. It's less about staying within your Silo and it's more
+[00:30:45] More about expanding that into other areas of the it business AI or even shared resources uh as well.
+[00:30:55] 1 final thing, maybe because I know I'm a little bit over and I probably had too much to share today, unfortunately. But
+[00:31:02] Uh, um.
+[00:31:05] Good to recognize and we said that in the in the keynote as well, that things are changing a little bit. Uh especially I would say when it comes to roles they are less.
+[00:31:16] Well-defined. Yes. We still probably have job descriptions but some of the tasks that people perform are either supported or in some cases even maybe taking over by uh by AI agent.
+[00:31:30] Which means that instead of very deep skills, we're seeing the profile start more become more t-shaped, let's say right where they still might have some areas where they go deep but other areas where they go broader.
+[00:31:43] So move towards broad skills where you are able to augment and automate the work done by humans with the support of of AI as you work, your way, from more role based teams probably to more skill based teams.
+[00:32:01] And then a quick summary so make sure that you know who you need and where you need them and what you need them for.
+[00:32:10] and then find the right size in your organization, but make sure that you
+[00:32:15] Wise deliver cross functional multi-disciplinary, make sure you have all the skills and proficiency levels. And of course, you know, as we're all being swept by the Wild River, that is called AI. Make sure that you already think about the impact, AI has on your data analytics roles and skills. If you have not already, there's a lot of additional research on uh garden.com uh for people that have access uh, to it. And I'm still around for a few questions, but that's all I have for you today. Thank you so much and thanks for coming.

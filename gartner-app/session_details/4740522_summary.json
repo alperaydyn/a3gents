@@ -1,0 +1,78 @@
+{
+  "summary": "The session discusses the need to treat AI as a controlled substance, emphasizing the importance of prioritization and governance in its use. It explores the societal and legal risks associated with careless AI consumption and advocates for a structured approach to AI regulation. The speaker argues for a balance between innovation and ethical considerations to ensure AI benefits humanity rather than just creating wealth for a few.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to AI as a Controlled Substance",
+      "key_points": [
+        "AI should be governed to prioritize its use.",
+        "The conventional wisdom of unregulated AI equating to more value is challenged."
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:03:56"
+    },
+    {
+      "order": 2,
+      "topic": "The Importance of AI Regulation",
+      "key_points": [
+        "AI consumption can lead to societal and legal risks.",
+        "There is a need for prioritization of AI use cases."
+      ],
+      "start_time": "00:03:56",
+      "end_time": "00:12:05"
+    },
+    {
+      "order": 3,
+      "topic": "AI Governance and Compliance",
+      "key_points": [
+        "Only 42% of companies have consistent AI governance.",
+        "AI FinOps tools are necessary for tracking AI usage."
+      ],
+      "start_time": "00:12:05",
+      "end_time": "00:15:22"
+    },
+    {
+      "order": 4,
+      "topic": "AI Risk Classification",
+      "key_points": [
+        "Establish classes for AI use cases based on risk.",
+        "High-risk AI applications require strict governance."
+      ],
+      "start_time": "00:15:22",
+      "end_time": "00:23:38"
+    },
+    {
+      "order": 5,
+      "topic": "Future of AI Regulation",
+      "key_points": [
+        "The AI landscape will evolve towards stricter regulations by 2040.",
+        "Physical AI poses new regulatory challenges."
+      ],
+      "start_time": "00:23:38",
+      "end_time": "00:34:55"
+    }
+  ],
+  "key_takeaways": [
+    "AI should be treated as a controlled substance to ensure responsible use.",
+    "Companies must prioritize high-risk AI applications and establish governance frameworks.",
+    "The future of AI will require a balance between innovation and ethical considerations."
+  ],
+  "entities": [
+    {
+      "ai governance": 8
+    },
+    {
+      "ai finops": 3
+    },
+    {
+      "controlled substance": 5
+    },
+    {
+      "risk classification": 4
+    },
+    {
+      "societal risks": 3
+    }
+  ],
+  "subject_area_id": "governance"
+}

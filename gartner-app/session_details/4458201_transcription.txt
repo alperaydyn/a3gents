@@ -1,0 +1,148 @@
+[00:00:03] Welcome everyone. I see a few of the folks are filling in.
+[00:00:09] Well, it's an exhausting day, right? We are almost at the end of the first day.
+[00:00:14] I'm sure few of you have been exhausted.
+[00:00:17] But I'm hoping that this session perks you up a little bit because it's not your conventional presentation.
+[00:00:24] If you haven't had an experience with a debate before,
+[00:00:28] uh, it's slightly different. We haven't dotted. All the eyes crossed all the t's in this 1. This is
+[00:00:35] Mainly because we can't do it because the topic doesn't lend itself well for a precise.
+[00:00:42] Authoritative single voice.
+[00:00:45] At least from a Gartner perspective uh and the topic being DNA governance versus AI governance. Something that we hear a lot.
+[00:00:53] There is less understanding about what the final position should be. So we are going to debate this contentious matter and I couldn't have asked for a better sparring partner there. A lot of over here who other people have said, has equally passionate and dramatic Flair as I do. So that would be interesting. Uh,
+[00:01:13] We have few slides to guide our arguments over here.
+[00:01:18] But as I said, we haven't Force fitted a final precise conclusion around.
+[00:01:24] what the resolution should be but hopefully
+[00:01:28] by the end of it, we are able to
+[00:01:30] Come to some common ground.
+[00:01:32] I I don't know that we're going to be able to come to an agreement because as anoro said when he opened data and analytics governance, um, I come from privacy compliance background and I talk a lot about AI.
+[00:01:46] Analytics is part of AI from a governance perspective.
+[00:01:51] Okay.
+[00:01:52] Fed argument when I say data analytics governance.
+[00:01:56] We have traditionally been clubbing that together because traditional analytics still exists, Lauren, um, we do still have to govern it and so far, it hadn't required a special treatment, right, the Frameworks for data governance, would be able to extend to analytics governance. Traditional analytics governance as well. But having said,
+[00:02:17] Maybe a quick understanding of how many support I have in the room, right? So a quick show of hand, right. Intuitively what you feel like
+[00:02:28] if you think data governance the way as it is today,
+[00:02:34] The evolution of it can help govern AI as well. It's an organic evolution of what data governance does.
+[00:02:44] See a few spattering over there. Hey, I'm I think I have a decent support in here in the audience. Lauren, that's interesting. So now show her hands.
+[00:02:55] Who in the audience thinks that AI governance.
+[00:03:00] Is different than de data governance. Because AI is closer to traditional technology or privacy governance.
+[00:03:09] Well, looks like about equal. What do you think? Listen, I come from the data background. My data says, I was a little bit ahead of you so but okay, I think that's a good split and that gives us an idea that this is a good thing to debate about because there is no common position over here, right? And that is reflected in the data points as well. So, when we talked about, who is having the Mandate for AI governance, be it when it comes to AI development be, it comes to AI deployment, or AI ready data. It is a spattering of different type of governance mechanism.
+[00:03:45] With data governance leading charge more on the AI ready data portion.
+[00:03:50] Lauren. How does that look like for you? I don't know. I see a mess up there with no accountability. Um, again, coming from a compliance background. I'm, I want to challenge you and say, what's not important is how you build the rules, but how you execute the rules to drive the the outcomes to keep the organization secure, safe and trustworthy. Okay, let's not get ahead of ourselves. Let's let's wait it to introduce ourselves a little bit. Okay? So if it isn't already very clear who is on which Camp just to introduce myself, I'm an RA Raj, I'm a data governance analyst spent most of my career.
+[00:04:28] talking, and Advising people, and
+[00:04:30] How to drive governance from a business perspective. Uh, think about value and my sparring partner over here. So I'm Lauren cornete, I'm an analyst and I primarily cover AI governance risk management and compliance. And I work with our CS cdars uh cdrs gc's Caesars on how to bring the mesh together to make sure the organization is secure safe and trustworthy. All right, I mean, 1 of the common I would make before as just looking at the picture earlier and I just realized how reflective it is of our stand, you are getting all the spotlight happy sunshine sunshine. I am feeling like I'm having an existential crisis over there but which
+[00:05:15] Is the, which is the current state. Okay? So let me put forward my argument. Um, first
+[00:05:21] My argument being the data governance as it is today.
+[00:05:25] It can and must evolve and adapt to govern AI.
+[00:05:31] and there are reasons for it, my reasons primarily being
+[00:05:35] We have governed the data with certain best practices in mind. We talk about being explicitly business, outcome driven, we do decision rights and accountability. Precise accountability, we talk about stewardship. All of these practices are focused on making sure that the governance is seen less as a compliance activity and more as a value and Innovation driven Act.
+[00:06:00] Activity.
+[00:06:01] And the other part, is every governance that we do for operational. Use case for traditional analytics, use cases for advanced, AI use cases as well. I'll look at you. Uh, data is a common theme so it's a closed loop. So if we try to create separate parallel mechanisms for governing, for AI, it might hamper. Other business scenarios who are not brought into the policy making uh scenarios within the governance context.
+[00:06:31] So, I don't know how I feel about.
+[00:06:35] Of course, um, a lot of the clients that I work with.
+[00:06:38] Telling me they're unable to deploy. Advanced AI use cases.
+[00:06:43] Due to the lack of data.
+[00:06:45] Governance around unstructured data.
+[00:06:48] so, the teams that I am working with even in enclosed environments, like a Microsoft co-pilot as an example, they're running into significant issues,
+[00:06:59] Regarding data, security and inadvertent information leakage. Because the technical controls run on the metadata.
+[00:07:07] Okay. Okay, fair point.
+[00:07:09] If you have run the data governance program, you would partially agree with Lauren that yes, we haven't focused on unstructured data, though. My argument would be
+[00:07:19] That because we are. So explicitly business outcome driven. Our focus on governance is based on what carries the biggest business outcome. We focus on structured data
+[00:07:30] Because it was tangibly linked to business, outcome and value. As the landscape changes. We think about agentic, AI Genai, unlocking value, through unstructured data, unstructured data is immediately becoming part of our governance Frameworks as well. We are extending those best practices to include even unstructured data and that will continue to include for other derives asset as well.
+[00:07:51] I hear your point and I can see you're trying.
+[00:07:55] I can see it.
+[00:07:57] But I I think we're at the stage where I mean, this is not the first iteration of of Technology, right? 1 of the challenges that I hear from our clients. And that I've candidly personally experienced, is that data governance has been as is
+[00:08:15] For 20 years. Yeah, at least. Yeah. And, and it has not enabled. The type of decision, intelligence, and business value that the Enterprise is expecting.
+[00:08:28] Most having few have, but this is a waking call. For many of the folks who have not
+[00:08:35] intentionally made effort to be data governance to be aligned to best practices to actually not conform to what Lauren is saying and she's absolutely right. We have not innovated as much as analytics has with their fancy stuff or data management has with their fabric stuff. And that's 1 of the reasons that we have not been able to deliver as much value.
+[00:08:58] At scale as perhaps.
+[00:09:00] You would like to do, but my point would still stand that creating new bureaucracy is not going to solve for that problem bypassing, what we need to do now from a best practice standpoint is, what is going to get us into more of compliance, and risk issues and duplication of effort. So, as my mom says,
+[00:09:21] 2 wrongs are not going to make, right?
+[00:09:24] I don't know about that anarch because 1 of the things that I've seen in organizations and maybe if you'll Jump Ahead to the next
+[00:09:34] is that we're observe we're predicting that more than half of AI, projects will fail because of the lack of data foundation and data governance wrapped around it.
+[00:09:45] Just goes to prove my point that data will be the most critical aspect for AI. So let us have the AI governance as but you've not been able to successfully execute it and while I can give you stewardship is a great thing, I want to talk a little bit about what the AI teams need.
+[00:10:02] Um, for my perspective and my understanding from working with Gartner's clients.
+[00:10:09] Is that data governance for requirements trip. Typically translate into a set of static binary? Yes or no rules?
+[00:10:17] That's great for dashboards. That's great for, you know, some machine learning models. I'll even give you machine learning models, they were data, governance is adequate.
+[00:10:29] but when you
+[00:10:30] Start working with generative AI or composite AI.
+[00:10:34] AI becomes context dependent, right? So we can no longer rely on those binary rules.
+[00:10:41] And then the next big thing is,
+[00:10:44] Laws and regulations are looking at AI risk.
+[00:10:49] That means we have new stakeholders at the table that are very interested in the success of the type of AI we're deploying.
+[00:10:57] Uh, we surveyed our general councils and our legal leaders. And more than half of them said they wanted to assume responsibility for data governance.
+[00:11:09] They also wanted to assume responsibility for AI governance. It was both and I know
+[00:11:15] I don't want them building technical guardrails, right? I'm sure you don't want them building, right?
+[00:11:23] So just to counter the point agree, with the fact that there are new risk ethical issues that need to be accounted for.
+[00:11:31] My point would be if data governance is in place, it should be able to extend new stakeholders, and be able to get awareness about new risk so that they can start building those policies. And the reason for that is context changes and the policy needs to evolve. So not every policy needs to be codify or can't be codified as a code, but behavioral changes which we are good at supposedly with stewardship Etc and part of culture.
+[00:12:00] That would still take care of the pieces, which cannot be codified.
+[00:12:05] I'm going to push on that a little bit, because our legal and compliance leaders lead corporate ethics and compliance programs.
+[00:12:14] And they're not working through as code. They're working through decision-making Frameworks and they have
+[00:12:21] incentives and consequences built in to their programs. So for example, our clients will work with HR
+[00:12:30] and they will go back to HR and say, how do we put the data governance, requirements tied to our organization's goals.
+[00:12:38] so that way everybody is doing the things that they need to do from a data governance perspective to ensure
+[00:12:45] Sure. That the data is of sufficient quality to guard the AI decision.
+[00:12:50] Okay.
+[00:12:51] And so, I'm going to finish my thought here. 1 second, um,
+[00:12:56] You're coming at this from the bottom up data, requirement and the business rules.
+[00:13:01] The AI the business rules, don't Define the our requirements and the AI governance requirements. It's how the AI use is going to translate in the organization that defines the governance for partners. It is that risk profile
+[00:13:18] And to be fair, we are not very good from a data governance perspective and risk ownership. However,
+[00:13:24] the typical culture change, requirement does say if some rules and policies are imposed without
+[00:13:30] Co-creation of it. It's very difficult for them to enforce those policies specially if we can't technically execute it, um, in an an ambiguous manner. So we do want business stakeholders to be more proactively involved in understanding those policies.
+[00:13:48] And the gap of why we are creating that policies. From even from AI governance, perspective needs to be handled from an AI literacy standpoint and bring them into the governance. Mandate in schools as well.
+[00:14:01] but that literacy standpoint is not something that either you or I can execute on our own absolutely without our HR and without our compliance Partners who have that mandate and scope to
+[00:14:15] Make sure that everybody does what the organization needs them to do, and I think this becomes even more critical for AI. Because data, as far as I'm aware, has never actually harmed anyone, right? And and we can't afford to have a failed operating model.
+[00:14:33] We've predicted that.
+[00:14:35] Death by AI claims will exceed more than 2,000 by the end of next year, or this year, excuse me. Um,
+[00:14:44] There are real significant consequences for the wrong. Type of AI decision being made. Yeah, I can't think of a scenario where bad data led to death. It could create reputational damage but sure, that's
+[00:15:00] A very different thing. So I I'll give you that the, that the risk does get compounded the or, and it elevates to organizational risk level and not just data risk level. So you do need to involve certain people. So with, with that in mind, let me unpack a certain things where I think my focus is and let's see in the name, whether we can keep the distinction, right? So if you're talking about data governance,
+[00:15:25] I'm talking about making data fit for purpose, for operational. Use case analysis, Advanced, AI business Le explicit business outcome LED. We're thinking about creating rules and policies, but giving business the enablement to make those rules enforce, those policies with data management, technical people.
+[00:15:45] Helping in execution, wherever they can from a technology feasibility standpoint.
+[00:15:50] We also look at regulatory standard, okay? We have done gdpr. We we we know where, where we stand and yes, we are context. Sensitive to a certain extent, not every data we govern from a very context, standpoint, like Master data management, what is pretty much context free? But some of the transactional data Etc. We the business rules are dependent on the business context and we are creating, would you agree with my focus area over here and it serves your purpose?
+[00:16:18] Some of it, not all of it because your context sensitive AI is context dependent. You may have heard I don't know if follow the news back in November or December.
+[00:16:30] Number of last year a large tech companies. AI guard, rails were leaked, 1 of the guard rails, said don't be creepy if you leave the business to write a rule like don't be creepy. The AI is still not going to drive the right outcome, because the engineer who's bring it right in the policy is code.
+[00:16:49] Simply cannot execute it. It, it doesn't matter, right?
+[00:16:54] So what we have to think about from an AI governance perspective is, how do we build trust?
+[00:17:00] In the outcome of the ai's decision. Now trust is the word. I'm very familiar with because we have been talking about it for ages. Okay. But let me finish my thought here. Yep, that trust is tied to organizational corporate
+[00:17:15] Governance, risks your board of directors are probably telling you to deploy. More AI, your CEO is interested in deploying more AI.
+[00:17:25] But your CFO and your GC they're looking at. Well, are we deploying? It safely.
+[00:17:33] That's true. Yeah.
+[00:17:35] so, if I see a point because compliance and risk, people are so focused on it,
+[00:17:41] if I can help you in providing
+[00:17:44] The compliance reporting with better lineage of the data better. Curation of the data would that meet your requirement for doing AI governance? And would we be invited to the party of AI governance? That's a start, okay? But I don't know that you'd be invited to lead AI governance.
+[00:18:00] That's fine. And I'm going to tell you why you might not be invited to lead AI governance the scope of AI deployments and organizations far exceeds the current scope and Mandate of data teams in, in my observation. Anyway, um, many of the clients that I talk to on a daily basis are responsible for all of Enterprise AI. That means third-party AI solutions that are being onboarded. That means navigating Shadow AI
+[00:18:29] And that means, working with legal and procurement on contracts.
+[00:18:33] A lot of stakeholders which traditionally data governance folks have not engaged with as much.
+[00:18:39] Uh but we do see the common pieces, right? We do talk about accountability to the right.
+[00:18:45] People Trust.
+[00:18:47] I think I think we're getting there. I think I think we might be able to agree and some places but disagree in other places, okay? Yeah.
+[00:18:56] See I I see your point. Hopefully you see a little bit of my point as well? A little, I think the rough delineation that we can come to reach to a certain point is yes, there are certain specific risk and ethical consideration.
+[00:19:15] Especially in the current time when things are yet evolving and Business Leaders are not very aware of those risk. It might require a specialized intervention, it might require specialized skills, and that's why I propose if I'm doing data governance,
+[00:19:30] What could be potentially within the scope of it. I provide you the AI, ready data. I make sure my foundations are correct because that's the biggest Grudge of Lauren from me.
+[00:19:39] But I also govern the output of the AI, so I'll have to work with you to make sure uh, the output of the AI is also governed uh, within my program. What are potentially will leave out of scope specially. If I don't have the specialization and skills is AI, use case prioritization because that is something that is happening from a very technology perspective as well as the technology selection as well, till those risks are not very clear for me to codify. Would that work?
+[00:20:05] Well, I don't want to govern data anyway. Let's let's be serious here. Uh, what what are the things that I have learned from working with our clients?
+[00:20:15] Is that as they mature?
+[00:20:17] They start centralizing the AI, use case prioritization because it's no longer just about the technology. So, so AI governance becomes much more similar to your Enterprise architecture Review Board of, should we do
+[00:20:33] AI for this purpose, right? And it also becomes a little bit more similar to privacy, where you may be responsible for some activities, like a fundamental rights impact assessment under the EU, AI Act
+[00:20:49] So I think we can get to a place where maybe we're working through some form of hybrid model because all an AI all AI does is make decisions based.
+[00:21:00] On data, right? So you're clearly part of the picture anarch.
+[00:21:05] But what is common between us is some of the regulations that we both will be fired for if we don't comply with. So we got to collaborate on that. I I don't I don't know that the AI lead would be fired. But oh that remains to be seen. We'll see what future holds uh, but 1 of the things that perhaps we can collaborate a little bit more on is is on the culture change, right? Because adoption of AI is the biggest problem. And if we see AI governance, as a new initiative, a technology-led initiative, at least in medium to long term, it might create an intervention, it might create a roadblock and bar barrier in being able to see it as
+[00:21:45] Is just a natural extension of how we are using data. So asked you what ship program, our data literacy program, can coordinate to make sure that the folks who are supposed to be enforcing the policy and understanding the policy. They are brought into the journey as well and it is not always very much driven, topped out at least in medium to long term.
+[00:22:06] I'm going to have to disagree with that and I thought we almost reached the resolution and I and I think that 1 of the reasons why this becomes so important is the top-down journey is not necessarily on what use case needs to be approved. But what are the considerations for the organization of should we do this? And that's that's not
+[00:22:30] Something that should be delegated to the business to make a decision. So for example, you want to give folks a stoplight, green light, the business can make a decision from that Central repository of of AI. Use yellow light, you might already have processes in place.
+[00:22:48] So that might be the breaks with privacy. Let's say, let's say you're using AI for a decision related to anything Pi great. That might be on boarding a new application. You're going to bring your car, you're already have those processes.
+[00:23:02] but the business cannot make decisions at the red light without escalating it to the committee to ensure that we have the right guardrails in place and whether the risk
+[00:23:15] Meets the value. Okay. So we have to deal inate based on the business scenario and the business context, which mandate should be taken care of certain decision rights and accountability. So it's, I would say it's almost a natural evolution of DNA governance and where it has to work with other AI governance, at least for the time being and for all, we know things might change. We might be looking at something different from AI, 2 years down the line. But
+[00:23:41] The bottom line, the key takeaway. I would suggest to keep in mind or at least hopefully you agree with it is, it doesn't really matter whether there are separate mandates because it might depend on your organizational context. Your maturity. What? Your appetite is your organization size as well.
+[00:24:00] But it does require different treatment because there are certain considerations which are very unique from AI perspective. Am I quoting you correctly
+[00:24:10] Mostly okay. I mean I I think the thing that you need to keep in mind with the AI use is again, you are relying too much on the business to make decisions within their own authority.
+[00:24:23] AI decisions need to be tied to a risk. Appetite statement of how much risk is the organization willing to bear and not all risk is downside risk.
+[00:24:34] Some risk is upside risk, and if you're senior leadership, team, and let's face, it board of directors have not agreed to take that risk.
+[00:24:45] The business shouldn't be taking it and and that's where I think that we're different. You have a little bit more faith in the outcome. But I've observed firsthand that organizations are not always making decisions with what that board of directors has in mind.
+[00:25:00] That's fair. Uh,
+[00:25:02] But you will also have to give me the fact that DNA governance will always continue. Be to be a critical part of AI governance. Not just from a mandate and scope perspective, but from the overall organizational setup and the decision-making process,
+[00:25:18] You cannot do AI governance, without DNA governance in place without data governance because because analytics governance is AI governance. You need to have the
+[00:25:30] Same criteria for your machine learning models.
+[00:25:33] As for your composite AI.
+[00:25:36] Another debate that is going to happen which is, Will AI kill bi. I would say there is something left for traditional, analytics to stay around here, and we still need to govern that as a DNA leader. But that's, that's outside the scope of our, at least the debate overall. But, uh,
+[00:25:54] Hopefully, when you go back to your organization with the new stakeholder, your risk and compliance leader. This provides at least a rough delineation of how you should be thinking about. Whether you do AI governance as a specialized session within the DNA governance. But you bring in the new set of people or you are doing it as a separate delineated activity. The
+[00:26:15] These 2 points are very critical to keep in mind, right? Um, there is a lot of research that has been written out as I said not a precise position but a rough idea of how things are going to shape and evolve as DNA governance and AI governance are going to be inevitably coming into confrontation as well as collaboration with each other.
+[00:26:38] Well, thank you for your time. Thank you, hope you enjoy your session.

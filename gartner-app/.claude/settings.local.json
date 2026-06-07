@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l /Users/alperaydin/Projects/Gartner/gartnercom/templates/*.html)",
+      "Bash(python3 -c \"import json; data = json.load\\(open\\('/Users/alperaydin/Projects/Gartner/gartnercom/entity_index.json'\\)\\); print\\('Entity index structure:'\\); print\\(f'Number of topics: {len\\(data\\)}'\\); print\\(f'First 5 topics: {list\\(data.keys\\(\\)\\)[:5]}'\\); print\\(f'Example \\(ai topic\\): {dict\\(list\\(data[\\\\\"ai\\\\\"].items\\(\\)\\)[:5]\\)}'\\)\")",
+      "Bash(ls -lh /Users/alperaydin/Projects/Gartner/gartnercom/*.json)",
+      "Bash(python3)",
+      "Bash(python3 -c ':*)",
+      "Bash(python3 -c \"import app; print\\('OK'\\)\")",
+      "Bash(pip install *)",
+      "Bash(pip show *)",
+      "Bash(python -c \"import app\")",
+      "Bash(python3 -c \"import flask, flask_login, authlib; print\\('all imports OK'\\)\")",
+      "Bash(pkill -f \"python3 app.py\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5001/login)",
+      "Read(//private/tmp/**)",
+      "Bash(pkill -f \"python3 app.py\" 2>/dev/null; sleep 1; python3 /Users/alperaydin/Projects/Gartner/gartnercom/app.py &>/tmp/gartner_app.log & *)",
+      "Bash(python3 -c ' *)",
+      "Bash(cat /Users/alperaydin/.claude/projects/-Users-alperaydin-Projects-Gartner-gartnercom/80b13b70-2d58-4cba-a77e-b16336df2e47/tool-results/bss16u10b.txt)",
+      "Read(//tmp/**)"
+    ]
+  }
+}

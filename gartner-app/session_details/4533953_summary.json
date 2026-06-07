@@ -1,0 +1,94 @@
+{
+  "summary": "The session discusses emerging solutions for decision intelligence, highlighting the new magic quadrant for decision intelligence platforms. It emphasizes the importance of decision intelligence as a practical discipline that enhances decision-making processes through improved transparency, governance, and collaboration. The speaker also outlines the various types of decision-making, including support, augmentation, and automation, and the critical capabilities needed for effective decision intelligence platforms.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Decision Intelligence",
+      "key_points": [
+        "Introduction of the magic quadrant for decision intelligence platforms.",
+        "40% of executives expect improved decision outcomes from formalized processes."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:02:53"
+    },
+    {
+      "order": 2,
+      "topic": "Importance and Emergence of Decision Intelligence",
+      "key_points": [
+        "Decision intelligence is a practical discipline that enhances decision-making.",
+        "The need for decision intelligence has grown due to increased complexity and data availability."
+      ],
+      "start_time": "00:02:53",
+      "end_time": "00:06:19"
+    },
+    {
+      "order": 3,
+      "topic": "Types of Decision-Making",
+      "key_points": [
+        "Three forms of decision-making: support, augmentation, and automation.",
+        "Decision augmentation combines human expertise with AI recommendations."
+      ],
+      "start_time": "00:06:19",
+      "end_time": "00:12:57"
+    },
+    {
+      "order": 4,
+      "topic": "Decision Intelligence Platforms",
+      "key_points": [
+        "Decision intelligence platforms provide transparency and collaboration for decision-making.",
+        "The importance of aligning decision intelligence with organizational goals."
+      ],
+      "start_time": "00:12:57",
+      "end_time": "00:17:21"
+    },
+    {
+      "order": 5,
+      "topic": "Magic Quadrant for Decision Intelligence",
+      "key_points": [
+        "Introduction to the magic quadrant and its significance in evaluating vendors.",
+        "The quadrant reflects the maturity of the decision intelligence market."
+      ],
+      "start_time": "00:17:21",
+      "end_time": "00:28:06"
+    },
+    {
+      "order": 6,
+      "topic": "Recommendations and Conclusion",
+      "key_points": [
+        "Start with understanding organizational needs before evaluating technology.",
+        "Consider decision intelligence platforms for improved decision-making capabilities."
+      ],
+      "start_time": "00:28:06",
+      "end_time": "00:33:45"
+    }
+  ],
+  "key_takeaways": [
+    "Decision intelligence is essential for improving decision-making processes in organizations.",
+    "Organizations should align their decision intelligence efforts with their strategic goals.",
+    "The magic quadrant serves as a valuable tool for evaluating decision intelligence platforms."
+  ],
+  "entities": [
+    {
+      "decision intelligence": 12
+    },
+    {
+      "magic quadrant": 6
+    },
+    {
+      "decision support": 4
+    },
+    {
+      "decision automation": 4
+    },
+    {
+      "decision augmentation": 4
+    },
+    {
+      "governance": 3
+    },
+    {
+      "transparency": 3
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

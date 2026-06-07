@@ -1,0 +1,58 @@
+{
+  "summary": "The session focused on the importance of data sovereignty in Europe, emphasizing the need for organizations to take control of their data infrastructure to ensure compliance and security. Speakers discussed the evolution of sovereign cloud solutions and the role of AI in transforming data management practices. They highlighted the partnership between various organizations to deliver trusted analytics and governance in a regulated environment.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction and Importance of Data Sovereignty",
+      "key_points": [
+        "Data sovereignty is crucial for European organizations to maintain control over their data.",
+        "Self-service capabilities and a strong data foundation are essential for business value."
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:10:30"
+    },
+    {
+      "order": 2,
+      "topic": "Sovereign Cloud Solutions",
+      "key_points": [
+        "The development of a sovereign cloud on open-source technology ensures compliance and security.",
+        "Investment in scalable data centers is necessary to support AI-driven operations."
+      ],
+      "start_time": "00:10:30",
+      "end_time": "00:20:00"
+    },
+    {
+      "order": 3,
+      "topic": "Partnerships and Future Outlook",
+      "key_points": [
+        "Collaboration between organizations is key to modernizing analytics and maintaining governance.",
+        "The focus is on delivering real-time operational intelligence in a trusted environment."
+      ],
+      "start_time": "00:20:00",
+      "end_time": "00:30:49"
+    }
+  ],
+  "key_takeaways": [
+    "Organizations must prioritize data sovereignty to protect their data and comply with regulations.",
+    "Investing in sovereign cloud solutions can enhance data management and analytics capabilities.",
+    "Partnerships are essential for delivering trusted analytics and ensuring governance in a rapidly evolving landscape."
+  ],
+  "entities": [
+    {
+      "sovereign cloud": 5
+    },
+    {
+      "data sovereignty": 4
+    },
+    {
+      "open-source technology": 2
+    },
+    {
+      "data centers": 3
+    },
+    {
+      "governance": 5
+    }
+  ],
+  "subject_area_id": "governance"
+}

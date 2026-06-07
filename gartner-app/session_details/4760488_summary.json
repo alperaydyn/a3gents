@@ -1,0 +1,97 @@
+{
+  "summary": "The session discusses the concept of dependable AI agents and the importance of context in their operation. It highlights the challenges faced by generative AI, particularly the high failure rate in delivering value due to inadequate data. The speaker emphasizes the need for a multi-layered approach using graphs to enhance the capabilities of AI agents.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Dependable Agents",
+      "key_points": [
+        "Dependable agents must provide accurate answers and tolerate faults.",
+        "The focus has shifted from traditional databases to AI agents."
+      ],
+      "start_time": "00:00:03",
+      "end_time": "00:01:35"
+    },
+    {
+      "order": 2,
+      "topic": "Challenges with Generative AI",
+      "key_points": [
+        "95% of generative AI efforts fail to deliver value.",
+        "The quality of data fed into models is crucial for their success."
+      ],
+      "start_time": "00:01:35",
+      "end_time": "00:09:05"
+    },
+    {
+      "order": 3,
+      "topic": "The Role of Graphs in AI",
+      "key_points": [
+        "Graphs provide context and improve the quality of AI responses.",
+        "Knowledge graphs capture dynamic and historical data."
+      ],
+      "start_time": "00:09:05",
+      "end_time": "00:12:57"
+    },
+    {
+      "order": 4,
+      "topic": "Architecture for AI Agents",
+      "key_points": [
+        "A layered architecture can enhance AI decision-making.",
+        "Combining different types of graphs can improve agent performance."
+      ],
+      "start_time": "00:12:57",
+      "end_time": "00:18:21"
+    },
+    {
+      "order": 5,
+      "topic": "Implementing Contextual Graphs",
+      "key_points": [
+        "Contextual graphs help in curating data from various sources.",
+        "Agents can learn and improve from historical decisions."
+      ],
+      "start_time": "00:18:21",
+      "end_time": "00:26:08"
+    },
+    {
+      "order": 6,
+      "topic": "Conclusion and Resources",
+      "key_points": [
+        "Bootstrapping agents with existing business knowledge can mitigate cold start problems.",
+        "Engagement with the audience for further discussion is encouraged."
+      ],
+      "start_time": "00:26:08",
+      "end_time": "00:29:23"
+    }
+  ],
+  "key_takeaways": [
+    "Dependable AI agents require a robust data foundation to provide accurate insights.",
+    "The integration of graphs into AI systems can significantly enhance their performance.",
+    "Organizations should focus on curating data from multiple sources to improve AI decision-making."
+  ],
+  "entities": [
+    {
+      "dependable agents": 5
+    },
+    {
+      "generative ai": 4
+    },
+    {
+      "knowledge graphs": 6
+    },
+    {
+      "contextual graphs": 3
+    },
+    {
+      "decision graphs": 3
+    },
+    {
+      "ai agents": 7
+    },
+    {
+      "data quality": 5
+    },
+    {
+      "graph databases": 4
+    }
+  ],
+  "subject_area_id": "agentic_ai"
+}

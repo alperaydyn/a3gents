@@ -1,0 +1,87 @@
+{
+  "summary": "The session focuses on enhancing the governance of self-service analytics to increase user adoption and mitigate risks. It emphasizes the importance of providing users with trustworthy data, comprehensive training, and effective monitoring to ensure successful implementation. The speaker outlines strategies for building a robust data governance framework that supports self-service analytics while maintaining control and quality.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Self-Service Analytics Governance",
+      "key_points": [
+        "Importance of governance in self-service analytics",
+        "Challenges faced due to lack of guardrails"
+      ],
+      "start_time": "00:00:03",
+      "end_time": "00:04:06"
+    },
+    {
+      "order": 2,
+      "topic": "Building Trust in Data",
+      "key_points": [
+        "Focus on data quality pillars",
+        "Need for standardized and reusable data"
+      ],
+      "start_time": "00:04:06",
+      "end_time": "00:10:11"
+    },
+    {
+      "order": 3,
+      "topic": "Semantic Layer and Data Accessibility",
+      "key_points": [
+        "Importance of semantic layers for data consistency",
+        "Role of data catalogs in ensuring trust"
+      ],
+      "start_time": "00:10:11",
+      "end_time": "00:14:21"
+    },
+    {
+      "order": 4,
+      "topic": "Risk Management and User Training",
+      "key_points": [
+        "Need for identity and access management policies",
+        "Importance of comprehensive user training"
+      ],
+      "start_time": "00:14:21",
+      "end_time": "00:20:48"
+    },
+    {
+      "order": 5,
+      "topic": "Monitoring and Feedback Loops",
+      "key_points": [
+        "Establishing monitoring for user behavior",
+        "Creating feedback mechanisms for continuous improvement"
+      ],
+      "start_time": "00:20:48",
+      "end_time": "00:28:17"
+    }
+  ],
+  "key_takeaways": [
+    "Implement a robust governance framework to support self-service analytics.",
+    "Focus on building high-quality, reusable data to enhance user trust.",
+    "Provide comprehensive training that includes data and AI literacy for users."
+  ],
+  "entities": [
+    {
+      "self-service analytics": 5
+    },
+    {
+      "data quality": 4
+    },
+    {
+      "semantic layer": 3
+    },
+    {
+      "data governance": 6
+    },
+    {
+      "data catalog": 3
+    },
+    {
+      "identity and access management": 2
+    },
+    {
+      "user training": 4
+    },
+    {
+      "monitoring": 4
+    }
+  ],
+  "subject_area_id": "governance"
+}

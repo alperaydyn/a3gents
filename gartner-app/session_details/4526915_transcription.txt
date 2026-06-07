@@ -1,0 +1,471 @@
+[00:00:04] Good afternoon. Hello everyone.
+[00:00:07] My name is Aaron Rosen Bal.
+[00:00:10] I'm senior director of analysts Within
+[00:00:13] Gartner's data management practice.
+[00:00:16] It is clear that the pressure.
+[00:00:20] On delivery.
+[00:00:24] and within the data department is greater than ever,
+[00:00:30] Organizations are really struggling to deliver fit for purpose.
+[00:00:35] data at scale across analytics operations, real-time use cases and AI
+[00:00:45] just because an explosion of Demands today, I'm going to talk about
+[00:00:51] practical data Ops operating model.
+[00:00:55] And 10 best practices that help.
+[00:00:59] keep pipeline stable, while enabling
+[00:01:03] Continuous innovation.
+[00:01:06] Without compromising your delivery.
+[00:01:09] So, if you're responsible for data, reliability and Innovation at the same time, you've come to the right session.
+[00:01:20] We're seeing an increase.
+[00:01:23] In just a cross, the surface area of data across every industry.
+[00:01:30] It's not just about.
+[00:01:33] Delivery and ETL velocity. Those are table Stakes, right?
+[00:01:38] Every new initiative assumes we've got data fluency, new real-time requirements.
+[00:01:45] Responsiveness ability to Pivot really quickly.
+[00:01:49] and,
+[00:01:50] We're not just getting these requests sequentially.
+[00:01:55] they're coming from every part of the business, and they compound people looking to, for a new types of data delivered in new ways, for new use cases,
+[00:02:07] And our processes become significantly strained.
+[00:02:11] And it's not.
+[00:02:13] That we lack the expertise.
+[00:02:15] So the processes to manage our pipelines the manager, our data quality, but the operating conditions.
+[00:02:23] Have so fundamentally changed and they've changed and outgrown the operating model.
+[00:02:29] That we've been operating in the past.
+[00:02:34] So,
+[00:02:35] Despite that surging complexity.
+[00:02:38] We still have the Mandate deliver data without disruption.
+[00:02:42] No downtime.
+[00:02:44] No incidents.
+[00:02:46] Right? And the business expects those capabilities to come online without slowing down.
+[00:02:53] All the existing deliverables.
+[00:02:55] They've given them in the past.
+[00:02:57] Right. But we're already loaded.
+[00:03:00] With critical high-traffic work quotes.
+[00:03:04] Right. So
+[00:03:06] adding new Lanes to that Highway.
+[00:03:09] Well, the system is running. It is an optional.
+[00:03:12] It is the job.
+[00:03:14] So this is the tension point.
+[00:03:16] How do we?
+[00:03:17] Deliver on that innovation.
+[00:03:19] And preserve the stability or liability compliance.
+[00:03:25] Part of that is an architectural challenge.
+[00:03:28] But it's also an operational 1.
+[00:03:30] This is where data Ops becomes essential in operating discipline designed for continuous change.
+[00:03:41] What we see in our research.
+[00:03:44] Is that?
+[00:03:45] Data Ops is not a tooling problem.
+[00:03:50] Right, we did a survey back a couple years ago.
+[00:03:53] We saw that more than half organizations.
+[00:03:57] Had already deployed data Ops tooling.
+[00:04:00] But cdao.
+[00:04:02] Was showing.
+[00:04:05] That only 12% of their Works were actually.
+[00:04:09] Effective at delivering engineering excellence.
+[00:04:14] The Gap is about operationalizing. It, the tools don't create the capability.
+[00:04:20] They can accelerate mature organization.
+[00:04:23] But they don't.
+[00:04:25] Actually substitute for the practices in the engineering.
+[00:04:29] So,
+[00:04:30] We see this expectation Gap. People have adopted tooling. They believe they're doing data Ops.
+[00:04:37] But they still have lots of engineering framework.
+[00:04:42] That isn't repeatable.
+[00:04:43] That they can't observe.
+[00:04:45] They can't deploy agile because of manual processes.
+[00:04:49] The data ops isn't a product you can buy.
+[00:04:53] Right, we are tools.
+[00:04:55] But the discipline.
+[00:04:57] And the operating model is what really defines it.
+[00:05:00] So we we've got to bring together.
+[00:05:04] 2 complimentary elements, right? We have
+[00:05:09] a discipline operating model.
+[00:05:11] Linked to platform capabilities, that support it.
+[00:05:16] So, you can see.
+[00:05:18] On the left.
+[00:05:20] Right. We have
+[00:05:22] 6, practice. Domains.
+[00:05:24] Agile. Collaboration platform engineering.
+[00:05:28] Automation and orchestration governance automation.
+[00:05:32] Hey, I already data and data products these practices, create the structure for consistent delivery.
+[00:05:40] And managing change.
+[00:05:42] On the right are the capabilities, right? These devops cap.
+[00:05:48] Data capabilities, orchestration, observability, deployment, operation automation, test automation.
+[00:05:56] And the environment management, that's the underlying machinery.
+[00:06:00] It lets us.
+[00:06:02] Keep pipelines. Predictable verifiable.
+[00:06:05] Scalable.
+[00:06:07] so, data Ops requires that, the 2 sides operate, as 1 System, the practices shape, the behavior, the capabilities, reinforce it at runtime,
+[00:06:19] And together, they establish the conditions for operational. Excellence scale, velocity Trust.
+[00:06:27] And we're going to break that down, step by step.
+[00:06:30] In the rest of the day session.
+[00:06:33] So,
+[00:06:35] What are the core questions? We're going to answer right first. What does operational. Excellence mean today?
+[00:06:43] And how do you sustain?
+[00:06:46] Existing data delivery operations and innovate at the same time.
+[00:06:53] So, let's anchor.
+[00:06:56] On a definition of operational excellence.
+[00:06:59] Right.
+[00:07:01] We've thought about this a lot and it's where Gartner's landed.
+[00:07:07] We Define operational excellence in terms of these 5 attributes.
+[00:07:12] Reliable delivery fit for purpose, right? Quality reusable, trusted insecure.
+[00:07:18] Let's break that down.
+[00:07:20] By reliable delivery. We mean, we have defined and respected.
+[00:07:25] Service levels. Freshness, availability latency.
+[00:07:30] Fit for purpose means the requirements are gathered upfront. We have acceptance criteria, that's tied directly to the business case.
+[00:07:40] The right, quality means that we've automated our tests across schema compliance timeliness.
+[00:07:49] Semantic, consistency. And that's executed in the pipelines. Not after the fact.
+[00:07:56] Reusable means version data products with metadata lineage stable interface. So teams don't have to build the same integration twice.
+[00:08:07] And Trust in insecure.
+[00:08:09] Means we have policy as code. We have data contracts in place.
+[00:08:15] Data govops practices for classification, access retention.
+[00:08:20] and usage controls and it's continually
+[00:08:24] Enforced and evidence and audit.
+[00:08:28] Through that pipeline. So that's the target.
+[00:08:32] Now, let's look at the capability foundations, we need to get there.
+[00:08:40] This.
+[00:08:42] Operational pathway follows.
+[00:08:44] 4.
+[00:08:46] Overarching stages, right? We start with
+[00:08:50] foundation and planning.
+[00:08:53] Forming the cross functional teams using prototypes to line priority before we commit significant.
+[00:09:00] Engineering.
+[00:09:02] From there, we moved to standards and Trust establishing the rules of the road.
+[00:09:08] We need to operationalize. The governance with data, gov Ops standardized on data, contracts templates, so compliant fit for purpose.
+[00:09:18] Delivery becomes.
+[00:09:20] Consistent and predictable.
+[00:09:23] Next is execution and engineering.
+[00:09:27] That's where automation orchestration the evolution towards data. AI. Ready, pipelines? Give the teams the ability to deliver reliably at scale.
+[00:09:37] And finally optimization and Assurance, right? This is where observability and AI assisted data Ops
+[00:09:45] Platform Services, reduce friction accelerate self-service.
+[00:09:50] Right together.
+[00:09:52] These 4 layers, create the operating structure for data Ops driven excellence.
+[00:09:58] I'm going to walk through each 1 of these in more depth.
+[00:10:02] now, that we've defined
+[00:10:04] What? That operational excellence look like, really the issue is how?
+[00:10:08] Right. And that
+[00:10:10] How do we keep that traditional data, delivery going and Innovation, and this is sort of the key balance.
+[00:10:16] In data Ops operating model.
+[00:10:22] So we're going to go this is we're going to run through that 10 processes Now, 1 by 1.
+[00:10:29] You have no.
+[00:10:30] In your, uh, in the app. So there's a lot to cover here.
+[00:10:36] First, we see this over and over again. Um,
+[00:10:41] and data and data Ops across many aspects of data delivery agile, coordination through Fusion teams,
+[00:10:51] Creates better delivery liability and faster velocity.
+[00:10:56] We see this over and over again. We bring the data technology and business roles together in a team.
+[00:11:03] 1 stable, unit.
+[00:11:05] We have.
+[00:11:07] all the expertise we need plus a product manager to keep things, aligned
+[00:11:13] We involve the business.
+[00:11:16] We might even locate this team within a business unit.
+[00:11:20] This reduces the handoffs.
+[00:11:22] Between team to team. It reduces the disconnect from it to the business.
+[00:11:29] And make sure that we actually are delivering on what's expected and we get the clear expectations.
+[00:11:36] We can get fast iteration.
+[00:11:39] Better quality alignment.
+[00:11:42] Better development flexibility.
+[00:11:45] Through to enable this continuous delivery when we co-locate these skills together.
+[00:11:55] We find.
+[00:11:56] Everyone's backlog.
+[00:11:59] Grow.
+[00:12:00] Goes faster than their capacity.
+[00:12:04] Fix is we have to separate out ideas from commitments.
+[00:12:10] Right? We know that only for research only 1 in 5, proposals actually makes it into production.
+[00:12:17] With AI efforts, we're seeing that rise quite a bit more.
+[00:12:22] More rapid abandonment.
+[00:12:26] So,
+[00:12:28] we need to treat those that backlog as our idea is Repository.
+[00:12:35] And run very focused proof of value Cycles. Over that.
+[00:12:40] If we can prove that measurable value.
+[00:12:44] Prove that.
+[00:12:45] Basic readiness.
+[00:12:47] Then we can advance.
+[00:12:49] Onto actual commitment of engineering time. If not, we discard, it reframe, it
+[00:12:56] Before we create technical debt.
+[00:12:59] Before we or deploy some fragile.
+[00:13:03] Deployment pattern that we can't sustain.
+[00:13:08] Teams that use those Dev data, Ops practices.
+[00:13:11] Acquire the agility and ability to do.
+[00:13:15] Fast prototypes.
+[00:13:17] And this really reduces projects, engineering time.
+[00:13:21] Um, reduces costs and it gives product owners.
+[00:13:25] Early outcomes criteria for go no-go decisions.
+[00:13:30] now, earlier I said,
+[00:13:33] you know, tools aren't the full answer and they aren't
+[00:13:37] they are they are necessary, but insufficient
+[00:13:41] but you need,
+[00:13:43] To invest in tools.
+[00:13:45] Because the commitment to build your own tools is far.
+[00:13:50] Bigger, and most very few organizations, actually have the ability to stain their own tooling.
+[00:13:55] So, but you've got online.
+[00:13:59] Your goals.
+[00:14:01] To the capability fit is, right?
+[00:14:04] Start with how your pipelines actually run today.
+[00:14:08] Where is your orchestration brittle?
+[00:14:11] Where are the quality checks mostly manual?
+[00:14:14] Where's the?
+[00:14:15] Employment or roll backs.
+[00:14:17] you know, take too long or where's costs unclear,
+[00:14:21] Right, that lets you guide towards the different.
+[00:14:25] Variety of tools that are out there.
+[00:14:28] We've got the orchestrators right who coordinate mixed workloads and environments. Orchestration is is a key part.
+[00:14:36] Of.
+[00:14:38] Data Ops.
+[00:14:39] We have then some generalist platforms.
+[00:14:42] That span end to end.
+[00:14:45] Um, from design test deploy and operate.
+[00:14:49] We're seeing the emergence of some of the lake houses in that area too.
+[00:14:53] And then you've got Specialists who go deep into, you know, 1 particular aspect of test.
+[00:15:00] Ing or drift or thin Ops optimization?
+[00:15:05] Don't.
+[00:15:06] Accumulate.
+[00:15:08] Excess tools, try to avoid that. You really
+[00:15:11] Options are not great here. We need well paved paths.
+[00:15:16] For the team to follow.
+[00:15:18] Where we can get deep integration depth into our environment.
+[00:15:23] We can have clear governance over those tools from day 1.
+[00:15:28] Clear observability. So we definitely want to focus on places where you can express policy as code.
+[00:15:36] That is reusable by multiple platforms.
+[00:15:40] We need to expose reliable metadata.
+[00:15:43] And plug that into observable.
+[00:15:45] Ability without custom code.
+[00:15:47] Right? So the goal but you got to have a platform. You can operate not a toolbox that you're going to constantly Assemble.
+[00:15:55] Tools are key, but they're not governance.
+[00:15:58] The governance.
+[00:15:59] Is only made real when we execute it inside of the Pipelines.
+[00:16:05] So, how do we operationalize that?
+[00:16:09] We have a 5 step framework for how.
+[00:16:13] We operationalize.
+[00:16:17] Data Ops.
+[00:16:19] Right. So the first we start with Define what are our standards?
+[00:16:25] What are our quality thresholds?
+[00:16:27] What are slas? What are we committing to?
+[00:16:30] What are your privacy?
+[00:16:33] And then we need to codify those expectations as data contracts and policy as code.
+[00:16:39] that is structured and machine readable, not in a set of
+[00:16:44] meeting minutes.
+[00:16:47] We execute on those contracts.
+[00:16:51] Right? So that they're enforced at runtime and we're validating against them.
+[00:16:57] in Flight, not after the fact is a test
+[00:17:01] Then we're going to observe.
+[00:17:03] We're going to observe lineage drift quality. Anomalies policy violations.
+[00:17:08] So we can Surface and contain those impacts.
+[00:17:11] And finally, and definitely not the least important.
+[00:17:15] We're going to iterate.
+[00:17:16] We're going to take the operational insights.
+[00:17:19] Back into our standards and tests as data.
+[00:17:24] As our regulatory needs improve, as the business needs change. So governance moves from a static document into a repeatable audible control cycle that scales
+[00:17:39] with our whole Pipelines.
+[00:17:45] We're seeing machine readable data, contracts, more, and more.
+[00:17:50] As the handshake between data, producers and consumers.
+[00:17:54] this is both because of,
+[00:17:57] Both um, agentic coding.
+[00:18:00] Is changing this as well as.
+[00:18:04] Automation um, in deployment.
+[00:18:07] Standard templates.
+[00:18:10] Make this scalable.
+[00:18:12] right, we need
+[00:18:14] repeatable.
+[00:18:17] Effective ways to standardize the expectations on both sides. And that's a data contract. It's a formal promise from the producers to the consumers.
+[00:18:28] On the standards for the structure timeliness, quality of that data.
+[00:18:35] These contracts need to be in an open machine. Readable format yaml Json.
+[00:18:42] so, they can be validated, but also
+[00:18:45] Integrated across your platform. Without a lot of custom translation.
+[00:18:50] Right.
+[00:18:51] A pipeline cannot move forward.
+[00:18:54] Until the contract checks pass.
+[00:18:57] Right. Consumers, then gain Clarity. I want to expect
+[00:19:01] Engineers can clarity.
+[00:19:03] On what they're to deliver.
+[00:19:06] The net effect is fewer surprises.
+[00:19:10] And a lot more Trust.
+[00:19:14] This makes also reuse.
+[00:19:17] Explicit. We know what?
+[00:19:20] Promises. What the status was to deliver.
+[00:19:24] And so when we have specially in this day and age, we have lots of distributed and varied use cases.
+[00:19:30] We're going to see.
+[00:19:31] And be able to validate is this data appropriate.
+[00:19:35] Templates to find the rules Automation and orchestration ensure those rules are applied continuously end to end.
+[00:19:46] Right.
+[00:19:47] so,
+[00:19:48] a lot of folks out there are still running monolithic Data Systems and processes right architecturally operationally but also culturally
+[00:19:59] Monoliths, slow, everything down. They really limit how quickly the teams can move deliver new data products,
+[00:20:09] And it makes a simple pipeline changes, really difficult?
+[00:20:15] Moving to the cloud doesn't solve that.
+[00:20:17] right, you can have
+[00:20:19] Monolithic processes.
+[00:20:22] In pipelines in Snowflake. I've seen it
+[00:20:27] It's getting rid of the manual steps.
+[00:20:30] Getting rid of the runbooks and wikis, the ad hoc scripts tribal knowledge.
+[00:20:35] Right. So orchestration.
+[00:20:38] Replaces that fragility with repeatable workflows across environments.
+[00:20:45] Automation.
+[00:20:47] Replaces removes.
+[00:20:50] You know, error-prone manual processes at every step provisioning test execution promotion, roll back.
+[00:20:58] We have to treat.
+[00:21:01] Code and data are facts.
+[00:21:03] With the same discipline.
+[00:21:06] Commit, merge tag.
+[00:21:10] Promote roll back, right?
+[00:21:13] So pipeline, schemas models can all move more quickly. We've learned this practice
+[00:21:20] In software Dev most software engineering practices the same works. We talk to have adopted this data lags and we're still active,
+[00:21:33] Automation orchestration though, really matter.
+[00:21:37] because,
+[00:21:38] It is at the core of being able to standardize.
+[00:21:42] These delivery vehicles that let us create.
+[00:21:45] The consistency and reliability.
+[00:21:48] Of data delivery across all our environment and our teams.
+[00:21:52] Right? And if we get that workflow stabilized, we can address the new needs. Right? Ready data. And that alongside of
+[00:22:01] our old needs because we can align
+[00:22:03] new qualification governance.
+[00:22:07] To fit into our framework.
+[00:22:11] AI really is raising the bar.
+[00:22:13] On what fit for purpose means, right? Models and agents depend
+[00:22:19] On data that's semantically of mind.
+[00:22:22] It's validated continuously its content rich.
+[00:22:27] Traditional ETL platforms.
+[00:22:31] Aren't really well architected.
+[00:22:34] For those pipelines. There's
+[00:22:36] 3 ways, we need to evolve pipeline execution is supported.
+[00:22:41] the first is,
+[00:22:44] Is alignment.
+[00:22:46] And that's the core of this, this contracts.
+[00:22:50] We need to enrich the metadata and graphs and profile volumes. So Upstream changes are validated before they break down stream Behavior.
+[00:22:59] It also creates machine readable data.
+[00:23:03] for the agents themselves, that helps
+[00:23:06] Quality has moved Beyond just structural checks and transformations to validate the semantics.
+[00:23:13] we see some particular in terms of,
+[00:23:15] Capturing and monitoring the embeddings.
+[00:23:17] Detecting drift and features and chunks.
+[00:23:21] So, we need to continually train this.
+[00:23:26] For what matters to.
+[00:23:28] The AI engineers and the model Ops processes, right? So they know that this data is going to behave, predictably,
+[00:23:36] When their models retrain went on autonomous agents are working with it. And the second third
+[00:23:43] is policy as code.
+[00:23:46] Right. We've got to put the Privacy access retention, fairness, regulatory tracks in the code.
+[00:23:54] Not only for the pipeline.
+[00:23:56] But also for the enforcement of governance Downstream.
+[00:24:00] Within the agents.
+[00:24:02] And Underneath It. All why is the observability lineage freshness Health metrics?
+[00:24:08] So, every time we're using that data, we see that lineage
+[00:24:13] And we can actually have certified AI ready, data, product delivery.
+[00:24:20] Once.
+[00:24:22] We can have.
+[00:24:24] That data fit for purpose. We package it as products, we make a discoverable
+[00:24:29] And governable its scale.
+[00:24:34] We see a clear shift.
+[00:24:36] In how?
+[00:24:38] Everyone is delivering data.
+[00:24:42] Instead of just handing off data sets.
+[00:24:45] We are delivering curated data products.
+[00:24:49] We've shown nearly half of cdao.
+[00:24:53] Have data products is 1 of their top priorities.
+[00:24:57] It's become very significant.
+[00:24:59] right, this is a data product, turns data into composable, reusable assets,
+[00:25:05] Where each product is versioned.
+[00:25:08] Documented Bound by a contract.
+[00:25:13] Around its quality freshness structure.
+[00:25:17] And and where you can use it.
+[00:25:19] The marketplace allows the sharing.
+[00:25:23] Of that content, right? Producers publish with clear metadata.
+[00:25:27] Consumers, discover they have confidence.
+[00:25:31] and we can see,
+[00:25:33] The usage data for stewardship cost management.
+[00:25:38] And share that this reduces duplication.
+[00:25:41] Shortens time to value and it really clarifies ownership, right? We know who's responsible for the data product. We know who the consumers and customers are for the data product.
+[00:25:53] When we integrate this in to the data Ops practice, it's not just a reference catalog.
+[00:26:00] It is actually the distribution platform for the consumption.
+[00:26:05] Right? And that relies on fit for purpose data and very much on the contracts and living up to those contracts.
+[00:26:13] So to keep
+[00:26:14] that.
+[00:26:15] Moving smoothly.
+[00:26:17] We need observability that spans.
+[00:26:20] The pipelines, lineage and cost.
+[00:26:26] Observability is your early morning system.
+[00:26:31] And your ongoing surveillance.
+[00:26:35] With, there's so many areas of coverage.
+[00:26:38] Right? We often get asked, you know, where do I start?
+[00:26:41] So first you got to start where the consumers feel it? Most
+[00:26:45] Data quality.
+[00:26:47] Pipeline Health, right?
+[00:26:50] Monitor completeness validity, timeliness.
+[00:26:54] Semantic consistency.
+[00:26:56] Right.
+[00:26:59] They?
+[00:27:00] Act data products to show up reliably. If it's late or incorrect disappointed. You need to build that trust.
+[00:27:09] Then extend to metadata and lineage.
+[00:27:12] Right? So you can do impact analysis as your sources change.
+[00:27:16] Then add on costs.
+[00:27:18] And usage Telemetry. So you can manage performance and budget.
+[00:27:22] And as those signals and quality improve and you integrate more, the platform into the observability. You can add in AI, assisted detection for root cause analysis and drift detection. That really reduce your noise but accelerate triage. So you're not just throwing a ticket or throwing a ticket with the solution.
+[00:27:43] And moving towards.
+[00:27:45] Self-healing pipelines, right? When when we can actually fix
+[00:27:50] Find and fix problems before they even visible. We gain a lot more, Trust,
+[00:27:55] Um, in the delivery.
+[00:28:03] We want to bring this into a platform.
+[00:28:07] Most people are operating in a patchwork environment.
+[00:28:12] But a really successful pattern we see is the shift to a self-service data Ops platform.
+[00:28:20] That delivers services as a platform to the data engineers.
+[00:28:25] So platform engineering.
+[00:28:28] Delivers.
+[00:28:30] All the tooling.
+[00:28:32] The templated patterns.
+[00:28:34] The basic tools.
+[00:28:37] Through an internal developer portal.
+[00:28:41] You can add in AI, assisted capabilities on a broad basis, experiment them.
+[00:28:47] With.
+[00:28:48] Pilots reduce your cycle time. Keep it isolated from the engineers
+[00:28:54] so that the engineers
+[00:28:56] can focus on.
+[00:28:59] Constructing the data pipelines. Close to the business.
+[00:29:03] Delivering the data but not actually spending their time maintaining the tools.
+[00:29:09] This really improves accountability.
+[00:29:12] And reliability and clarifies ownership.
+[00:29:16] We can validate particularly, you know, as we look at AI assists, being able to validate this separate from the project pipeline is very important.
+[00:29:28] So we've covered a lot of ground. These 10 practices.
+[00:29:33] let's,
+[00:29:35] look at, you know, how do we actually make this real and
+[00:29:40] Check our success.
+[00:29:42] Right.
+[00:29:43] On the left of the 10 practices across the top.
+[00:29:47] Are the 5 attributes of Excellence. We defined
+[00:29:51] this map is your grid.
+[00:29:54] To your road map and your your report card.
+[00:29:59] Everyone.
+[00:30:00] Liability is your top issue.
+[00:30:02] You know, which practices to Define.
+[00:30:05] Prioritize first, if reuse is weak and contract.
+[00:30:10] Then product and contracts rise to the top.
+[00:30:13] If trust is fragile, we're going to lean to data gov office practices and enforcement at runtime.
+[00:30:20] This also will form your operating review, right? You can use it to set, quarterly targets.
+[00:30:26] Choose improvement work report progress in turns that the all your stakeholders can recognize, right? So it turns it from a set of activities into a program with measurable business outcome.
+[00:30:41] Right. This is the end-to-end blueprint.
+[00:30:44] From.
+[00:30:45] Intake. And just all the way to observe.
+[00:30:51] We've covered a lot today.
+[00:30:54] I want you to take away.
+[00:30:56] These is sort of the top level anchors.
+[00:31:01] Fusion teams work.
+[00:31:03] They work better.
+[00:31:05] There's very little downside.
+[00:31:08] Standard data. Contracts is a challenge but a necessary 1. Um we need it is not possible to automate without
+[00:31:17] sizing that.
+[00:31:19] Similarly.
+[00:31:20] Operationalizing, governance requires policy as code.
+[00:31:25] Not humans in the loop.
+[00:31:28] You need to apply the 10 data.
+[00:31:30] Practices across the life cycle.
+[00:31:33] Automation observability.
+[00:31:35] Are not optional.
+[00:31:37] Right. Our focus and software engineering.
+[00:31:40] Learn this 5 6 years ago.
+[00:31:43] And we haven't fully adopted it and lastly, we know.
+[00:31:48] AI assisted platform services will reduce friction.
+[00:31:52] Um,
+[00:31:53] reduce tool complexity and improve delivery.
+[00:31:57] Um, and I just published a note last week on that subject. Um,
+[00:32:03] Covering. Uh,
+[00:32:05] Generative, AI encoding for data groups. Um,
+[00:32:09] um, in terms of where to start,
+[00:32:12] So with that, I'm 2 minutes over.
+[00:32:15] Um, thank you so much. Enjoy the rest of your conference. There are some additional reading and please please, please thought the survey
+[00:32:25] boy, as my management.
+[00:32:27] Carol. What about those numbers?
+[00:32:31] Thank you so much.

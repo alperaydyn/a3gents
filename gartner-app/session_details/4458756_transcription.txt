@@ -1,0 +1,476 @@
+[00:00:05] Good afternoon.
+[00:00:07] Thank you very much for joining.
+[00:00:10] There's a large audience here.
+[00:00:13] Uh, I hope not everybody of you has sleepless nights.
+[00:00:18] And is in charge of data management.
+[00:00:21] But for those of you who are this is your session, how do you get your sleep back? Um,
+[00:00:27] I'm sure you all have been in the keynote this morning.
+[00:00:30] And there are 2 main things that stick out for me. That is everything has a 2-letter acronym. Now it's AI.
+[00:00:39] Whatever you do.
+[00:00:41] And the challenge is what we say the navigation of the now.
+[00:00:45] The things you do. You have to deliver?
+[00:00:48] And the next that is the promise of AI.
+[00:00:52] So, this session stands between the keynote theme,
+[00:00:56] And a big number of sessions that talk about the details. This is the aggregated session.
+[00:01:03] the key things that keeps data management leaders up at night,
+[00:01:07] I'm too much. I'm a manager in bti business in technology insights
+[00:01:13] I manage a team that thinks about data management platform Solutions architecture,
+[00:01:19] And I'm the role Champion for data management leaders.
+[00:01:23] So the way I look at things is what is it at the leadership level that we need to think about that? We need to do.
+[00:01:30] To be ready for the.
+[00:01:33] Now, and the next that is coming.
+[00:01:36] So, to get started.
+[00:01:38] Um, I wanted to highlight a result from a survey we did.
+[00:01:43] We asked sea or CEOs.
+[00:01:46] About how AI cevey.
+[00:01:50] They think their sea levels are.
+[00:01:53] And overall you can see not that much.
+[00:01:56] At the very moment. But if there are roles that are more likely to be seen as AI Savvy, it is technical roles.
+[00:02:06] the security officer, the CIO, and the chief data officer,
+[00:02:10] so, if you manage data, the data management practice,
+[00:02:15] You'll see you very likely looks at you to say, I hope you get it right, please make it for me.
+[00:02:21] so, now the question is,
+[00:02:23] What do we see at Gartner in our service? How ready you are?
+[00:02:28] And here on a few examples from our surveys.
+[00:02:32] The number 1 barrier.
+[00:02:36] For AI leaders to get their AI. Use case done.
+[00:02:40] Is the availability of data, the quality of data, it is still the number 1 barrier for people.
+[00:02:47] It gets a little bit worse when you look at governance.
+[00:02:51] Only 1 out of 7.
+[00:02:55] Leaders in DNA. Think their governance is ready.
+[00:03:00] For the governance that is necessary to run AI in particular. Now the agentic AI use cases
+[00:03:07] roughly half of you.
+[00:03:09] If your DNA leader.
+[00:03:11] think about in your architecture and enhancements of your architecture, you think about building a data fabric design,
+[00:03:18] Which means you start building it.
+[00:03:22] Which represents?
+[00:03:24] The bottom left that says, 1 out of 4.
+[00:03:27] survey respondents tell us, I think our data engineering practice is actually ready to do so
+[00:03:33] so, there's a little bit of a gap between the
+[00:03:36] If I may say hyped, expectations of everything, can be done with AI versus, are we ready to deliver? Can we do that?
+[00:03:45] so I think there are 5 things to consider to get yourself ready and build the foundation for the now and the next
+[00:03:53] These are the 5 topics.
+[00:03:56] You need to build your AI data. Ready Foundation.
+[00:04:00] You need to establish a future proof architecture.
+[00:04:04] And platform.
+[00:04:07] You need to think a new way of operating.
+[00:04:10] No longer call a shadow. It think about Federated.
+[00:04:14] Data management practice.
+[00:04:17] And Federated governance. We talk about that.
+[00:04:20] You need to think about operational, excellence of your data management your data Pipelines.
+[00:04:26] In a different way to be able to scale.
+[00:04:29] And find.
+[00:04:30] Finally, we'll talk a little bit about operationalization.
+[00:04:34] Of data governance governance as code.
+[00:04:37] These are the 5 key things that we are hearing.
+[00:04:41] Our clients who lead data management are struggling with and I think we have a few responses for you.
+[00:04:48] Let's start with AI, ready data? Sorry.
+[00:04:52] The number 1, fastest, growing topic.
+[00:04:55] In our client interactions.
+[00:04:58] Uh, and to give you a little bit dimension of ski scale, my team runs.
+[00:05:03] About 10,000 even more.
+[00:05:06] Client conversations every single year.
+[00:05:09] And on top of the list is a ready data.
+[00:05:12] and it's even evolving, because
+[00:05:15] In the early days of feeding large language models, the requirements.
+[00:05:19] Were new now, come new requirements. If you think about agents around agentic,
+[00:05:24] Um, you think about context layers in semantic layers in a way that you haven't done before.
+[00:05:30] So, The Learning Experience for our data is it's not a 1-off exercise.
+[00:05:37] Um, as you can see, I'm around for a while.
+[00:05:40] I I was part of the early days of a data warehouse where we said all we ever need
+[00:05:45] Is 1 big exercise built in Enterprise data warehouse and we have all answers that may come in the next 25 years.
+[00:05:54] Partly. We solved that problem? Yes.
+[00:05:57] But it's not how AI ready, data works.
+[00:06:01] whether your data is ready for a particular AI use case,
+[00:06:05] Is depending on the context.
+[00:06:07] And it's very likely different from use case to use case.
+[00:06:11] So if you think about how do I get my data AI ready? Think about the continuous process?
+[00:06:18] The ability to evaluate and any at any given time.
+[00:06:21] Is this data set ready or not?
+[00:06:24] It's an exercise that you will do continuously with the idea to automate as much as you can.
+[00:06:31] So, metadata management. Now, turns into the idea of alignment.
+[00:06:37] How can I align the data? I need to prepare to the use case, that is ahead of me.
+[00:06:44] Data.
+[00:06:45] Of ability data, validation becomes a continuous exercise.
+[00:06:49] And so does governance.
+[00:06:52] All 3 need to happen all the time.
+[00:06:55] There's no way around it.
+[00:06:59] And to make things a little bit worse, none worse. But the reality is the new requirements for data management to support AI use cases in your organization.
+[00:07:11] Is an enhancement sits on top of all the things you already do.
+[00:07:17] So you can look here and ask yourself where are you in this spectrum of things you're already doing.
+[00:07:24] I'm pretty sure you all have a data warehouse. You have a data Lake.
+[00:07:27] Um, you have some data quality initiative.
+[00:07:31] Many of you in the meantime. Now have a data catalog. That's just the basis to get started.
+[00:07:37] You need to automate data observability, you need to work towards the data fabric architecture and create a platform for that.
+[00:07:45] You need to think about data products. And another topic that's very prominent nowadays, wasn't really debated 5 years ago, but it's an important 1. I will talk a little bit about it. Now comes all the other requirements
+[00:07:57] Building semantic layers labeling.
+[00:08:00] Synthetic data. We name it.
+[00:08:03] Your data Engineers become prompt engineers at some point in time.
+[00:08:07] These are all additional requirements.
+[00:08:10] and I,
+[00:08:12] Keep my fingers crossed.
+[00:08:13] Your sea levels, understand.
+[00:08:15] It and give you the new resources, you need.
+[00:08:17] when you tell them,
+[00:08:19] this is on top of what we're doing. This is not substituting anything.
+[00:08:23] You want us to do more, give us more so that slide could be a good reason to argue for a higher budget for you guys.
+[00:08:31] Uh, which I think you all deserve.
+[00:08:35] Then comes the next relatively new thing.
+[00:08:38] And that is unstructured data.
+[00:08:41] In particular, llms need to read pretty much everything.
+[00:08:46] And all the wonderful metadata that you have in your lake house or in your data, warehouse is no longer there.
+[00:08:53] And you need to do that at scale.
+[00:08:56] And pretty soon, we will see standardization on even audio.
+[00:09:00] Files and video files.
+[00:09:01] That you want to use for your agents.
+[00:09:05] And the reality is you.
+[00:09:08] You create a new feedback loop.
+[00:09:11] You need AI.
+[00:09:13] To manage your unstructured data.
+[00:09:16] So AI does it. You cannot do that manually.
+[00:09:18] Therefore, in return.
+[00:09:20] The data gets better for AI.
+[00:09:23] That's kind of the feedback loop.
+[00:09:27] But the traditional ways of managing data does not really always help for the unstructured or semi structured world. But this is coming anything that is and has any form of data.
+[00:09:38] Will be used in the future. So think of this feedback loop and how we can do with it,
+[00:09:45] Now, comes the question. Can we help you?
+[00:09:48] To get around this. And yes, we have
+[00:09:51] a checklist available.
+[00:09:54] For are ready data. It's that's just a snapshot of it. It's a bit longer.
+[00:09:59] But this can actually help you to go through and say we need to get get the answers for all these questions.
+[00:10:07] And then we know how ready we are.
+[00:10:10] What is still open? What's still needs to happen and helps you to prioritize?
+[00:10:15] so, I encourage you to think about using,
+[00:10:18] This checklist, to establish the practice.
+[00:10:22] Within your organization.
+[00:10:24] To go about AI data readiness.
+[00:10:27] Assume there will be a learning curve. This is not
+[00:10:30] Go coming overnight, and it's not done in the same day, but this should help you.
+[00:10:35] To get over it.
+[00:10:38] So you're now thinking about your AI ready data is not going away. Agentic ready? Is the next thing? We are preparing research on that already.
+[00:10:45] We need to do this.
+[00:10:47] in order to, to do this,
+[00:10:50] We need a new platform. You may remember when I said earlier about 50% of you.
+[00:10:55] Considering upgrading your architecture and platform going about fabric design architecture.
+[00:11:01] And yes, the answer is that is what you want.
+[00:11:05] That is the fabric design outlining, the different layers that you need.
+[00:11:10] From the persistence layer at the bottom all the way through your knowledge.
+[00:11:15] Your data integration layer, your governance layer.
+[00:11:18] It's very difficult in today's world and degree of automation to see governance as as something separate to data management.
+[00:11:27] That turns into 1 thing and we'll talk a little bit about that.
+[00:11:30] And obviously, at the end.
+[00:11:32] Data marketplaces. I'm not the biggest fan of the naming, but what it's meant is
+[00:11:37] more and more of the data products, you develop will be shared or sharable within your organization.
+[00:11:44] People go to a place to find things they need.
+[00:11:48] And all of that, you want to bake.
+[00:11:50] Into your architecture.
+[00:11:54] Can you buy it?
+[00:11:57] Can you go somewhere and say, give me a data fabric? No.
+[00:12:00] But we're getting there.
+[00:12:02] so, the next thing that you should look at is a trend that we have seen for quite some time now, a few years,
+[00:12:11] Robert tarash leads, the research on converge data management platforms.
+[00:12:16] So what we have seen is that more and more different types of vendors, by the way,
+[00:12:22] start building out these platforms.
+[00:12:26] And you can look at some of the traditional Cloud, database management vendors, who now, offer governance capabilities, all of a sudden they have a data catalog.
+[00:12:37] More and more, the capabilities are enhanced data, quality, data integration, all these different aspects that we knew as separate.
+[00:12:45] Market.
+[00:12:45] Converge into 1 platform.
+[00:12:49] And it's not just the typical vendors that you will see in our world.
+[00:12:55] You can see that the application vendors also started building out converge data management platforms.
+[00:13:02] By the way, of example, you can get the business data cloud from sap.
+[00:13:07] You get the Salesforce data cloud.
+[00:13:09] In for has 1.
+[00:13:11] Workday has 1.
+[00:13:13] Service now has 1.
+[00:13:15] They all build data management platforms for you to build your sales force in for sap, whatever your name, it data ecosystem.
+[00:13:26] So your future data ecosystem is a system of ecosystem.
+[00:13:31] Very unlikely. You will only have 1
+[00:13:34] So interoperability between them becomes a challenge.
+[00:13:37] But there are good reasons to, to the 1 or choose the other.
+[00:13:41] um,
+[00:13:43] Wednesday morning is a panel debate.
+[00:13:46] With roxan and Robert and Danielle Coda. I encourage you go there, there's a debate about these different types of data management platforms.
+[00:13:54] Um, and what is the good and the bad about them? So if you're interested, go there. So but the idea that we have is
+[00:14:02] Both together, build the foundation, the architecture and the platform you need.
+[00:14:08] To have the control panels.
+[00:14:11] You need to scale and to automate.
+[00:14:15] To make sure your are ready, or you have are ready data.
+[00:14:19] Self-service means business users are able to manage data.
+[00:14:24] You also want to do that.
+[00:14:27] And you need to have the flexibility.
+[00:14:30] To have access to any type of data.
+[00:14:34] So this is the world that I we see next, 3 to 5 years. Going to
+[00:14:40] The the market that is split in many, many bits and pieces right now will convert.
+[00:14:46] As we said in our strategic planning assumption by 2028, there will be 1 liter 1 market left.
+[00:14:54] and the requirements that we already talked about kind of outline that putting together, many, many bits
+[00:15:00] And pieces won't be the right solution to scale in the way you need to scale.
+[00:15:06] So then the next aspect is to talk a little bit about
+[00:15:10] data Federation.
+[00:15:13] Um,
+[00:15:14] also known data as data mesh as an approach was pretty popular.
+[00:15:20] And, um, I want to give you 2 Reasons from our surveys. Why you should think about it?
+[00:15:26] um,
+[00:15:27] companies that have a Federated model and Federated governance.
+[00:15:32] Are more than 3 times more likely.
+[00:15:35] To show real business value from the solutions they built.
+[00:15:40] Organizations that established self-service data prep.
+[00:15:45] Means the business users help preparing the data.
+[00:15:48] 2. 2.2 times.
+[00:15:51] More likely to be successful.
+[00:15:54] but the the overall idea is, if we need to scale
+[00:15:59] We need to.
+[00:16:01] Make sure.
+[00:16:02] We are agile enough.
+[00:16:06] That means we have many different data management teams who can quickly work on the solutions that need to work on.
+[00:16:13] you want to scale that means
+[00:16:16] Your team, no matter if you have 10 people in your data management, practice or you have 100 or 1,000, you are the bottleneck.
+[00:16:25] The more you get others to work on it, the more you're able to scale.
+[00:16:31] And ultimately, you want to give them autonomy.
+[00:16:34] They need to become experts. They need to understand what they are doing.
+[00:16:38] all 3 together will help you to scale data, the use of data,
+[00:16:43] In your organization.
+[00:16:46] and yes, I know there are
+[00:16:47] Some of you may think there are a lot of risks Associated to it. They will most likely get it wrong.
+[00:16:54] But there are ways to think about it including governance, that will talk about it in a minute.
+[00:16:59] so, the data mesh concept and the data measure idea,
+[00:17:02] is something that we have seen from several clients. I don't have an exact number and percentages, several clients, having established
+[00:17:10] and there are 4 principles.
+[00:17:13] The 1 that is the most.
+[00:17:15] Activated.
+[00:17:16] Is domain ownership.
+[00:17:20] if you enable,
+[00:17:22] Your business functions, your departments.
+[00:17:26] To build their own data products, you need to put them in charge.
+[00:17:30] They need to understand.
+[00:17:32] That they are in charge.
+[00:17:35] That they need to invest in the skills and the knowledge and the capabilities to actually do it.
+[00:17:42] And I know,
+[00:17:44] How many of you would?
+[00:17:46] Buy by show of hands, how many of you would think?
+[00:17:49] if we give the business,
+[00:17:51] The right to do that on their own. It's very likely to fail. How many of you think?
+[00:17:58] Maybe I should rephrase my question.
+[00:18:01] I would think this is 80% of you.
+[00:18:04] I want to encourage you to think about it in a way that it works, because there are companies who actually make that and it works.
+[00:18:10] But, it works in the form that you cannot go out and say, okay, I've built a nice platform, let's call it a Marketplace, we have 55 data products on there. These guys can now come and take it.
+[00:18:24] It's not working.
+[00:18:27] What you need to do is step by step, take 1 after the other.
+[00:18:33] Start with sales, maybe Finance, maybe marketing production, supply chain.
+[00:18:38] Find the leaders of these departments who understand what this means.
+[00:18:43] And who sign up for?
+[00:18:45] Investing.
+[00:18:46] They need to invest.
+[00:18:49] It's not sitting there getting the menu.
+[00:18:52] And selecting it's doing.
+[00:18:54] If they understand it, it really works.
+[00:18:58] And they are in charge of understanding. This is the cost associated with building. All of this. This is how much effort I put into that. Is it worth doing?
+[00:19:09] That's a question. We need to ask in the future.
+[00:19:13] We haven't always asked that in the past.
+[00:19:16] if I recall and Enterprise data warehouses,
+[00:19:20] Everyone has 1 now so we could claim success.
+[00:19:25] Let me ask another question.
+[00:19:27] How many of you that have?
+[00:19:30] Enterprise data warehouse.
+[00:19:32] In the company.
+[00:19:33] Know which percentage of the Enterprise data warehouse.
+[00:19:38] Hasn't been touched or queried in 12 months, by show of hand.
+[00:19:45] Okay, this is not 80%.
+[00:19:49] But we should have done that.
+[00:19:52] We've built huge Enterprise data warehouses. I'm personally guilty of that as well.
+[00:19:57] Proud of, we can answer any question that will ever come and we created a mess of data that nobody touches.
+[00:20:04] And the real numbers I've seen from companies, go all the way up to 80%.
+[00:20:09] Unused data warehouse.
+[00:20:12] That makes no sense. So I I don't put you on the
+[00:20:15] Asked for your percentage but would you agree? It's a significant percentage. It is
+[00:20:21] so if you you spent money on building something that nobody uses
+[00:20:25] shouldn't happen in this concept, it will not happen.
+[00:20:29] No, 1 will own a data product. They don't need
+[00:20:31] They have better things to do, but the good thing is, now you become part of the value chain.
+[00:20:38] You're not a shared service that puts stuff somewhere.
+[00:20:41] You're part of the value chain.
+[00:20:45] The product that you deliver and support.
+[00:20:48] Makes money.
+[00:20:50] Drives the business.
+[00:20:52] That's where we want to be.
+[00:20:54] But it's a cultural change.
+[00:20:57] That it takes time.
+[00:21:00] You need to find the right people who are excited enough to go with you.
+[00:21:04] And then hope that success breeds success in the others will follow.
+[00:21:09] Not everything we do in data management is worse. Building a data product.
+[00:21:15] Not everything.
+[00:21:17] It's not 100%.
+[00:21:20] Many of you will do what most data management departments. Do you get ad hoc requests?
+[00:21:26] You never know when they come.
+[00:21:29] It's typically less than 2 weeks time.
+[00:21:31] To deliver and it's a 1 time exercise.
+[00:21:35] That's a service. You will continue to deliver. It makes no sense to build data products around it.
+[00:21:40] And you cannot just say, oh no, I'm not doing it.
+[00:21:43] The more you build out.
+[00:21:45] Data management capabilities to the business, the less you will get these questions.
+[00:21:50] But it will always be there.
+[00:21:52] You develop data sets, and data assets that are fed into other systems on a regular basis. All you need is a service level agreement. You don't need to build a data product, but there are a lot of things that require to be built as a proper data product, and getting the business side on board is crucial to make it successful.
+[00:22:13] Same for the self-service.
+[00:22:16] And the the safety, net.
+[00:22:19] For the concerns, you have, for good reasons. You have concerns is how you Federate governance.
+[00:22:27] Because that is the main concern.
+[00:22:29] These.
+[00:22:30] People don't know what they're doing and partly, you're right.
+[00:22:33] They're just trying to find answers.
+[00:22:37] So think about data mesh as the way of
+[00:22:40] changing the way how you run in your organization.
+[00:22:44] And give yourself time. This is not coming overnight. There's no big bang by next quarter. This is the way we operate 1, after the other.
+[00:22:54] Another way of um thinking about making this safe, is the standardization of data product management.
+[00:23:02] This need to be defined.
+[00:23:04] This need to be clarified.
+[00:23:07] At the roles need to be clear the response. Responsibilities need to be clear.
+[00:23:12] And you will need a data contract.
+[00:23:16] Contract is not a service level agreement. It's a contract.
+[00:23:21] That you do.
+[00:23:22] And I Michael Simone in my team published about that 2 years ago.
+[00:23:28] At the beginning, hardly anybody wanted to read it.
+[00:23:31] Now, it's a top.
+[00:23:33] Read document and we are about to update the next version on it.
+[00:23:38] More and more organizations have realized. This is the way how we need to operate.
+[00:23:44] And this is the way how we stabilize it and make it a real value change. I'll talk about that tomorrow morning a little bit.
+[00:23:51] So data product management.
+[00:23:53] The negotiation.
+[00:23:56] That needs to happen is who does what?
+[00:23:59] Who.
+[00:24:00] In charge for what?
+[00:24:03] Your key role is to enable the business. Make sure they can actually do that, you will still own the data architecture.
+[00:24:11] You will create the blueprint that they need to use.
+[00:24:15] You will have them with the best practices, you know how to manage data. You've done that forever.
+[00:24:22] But the ownership of the business.
+[00:24:24] Is to make sure it's actually used or consumed if you like.
+[00:24:30] The delivery runs.
+[00:24:32] The certification processes run.
+[00:24:34] I think certification become the real thing in data operations nowadays that you have an automated way to say this is certified trusted can be used.
+[00:24:45] And you need the users consumers of the data product.
+[00:24:50] To be the ones to decide. How do we need to change it? Do we need to enhance it? What kind of changes should we do? Make it proper with release cycles and documentation? All these wonderful things?
+[00:25:01] But that model has proven can work.
+[00:25:06] For that part of what you're doing in your organization that is worth being a data product. Then, you know, that's the way we should go.
+[00:25:14] And that's the way how you scale.
+[00:25:17] Um, we need to talk a little bit about operational excellence what that means?
+[00:25:23] and um,
+[00:25:24] the foundation if you like for operational, excellence can be described in these 6 things.
+[00:25:30] Data products. I talked already about our data. I talked about governance automation, I will talk about in a minute.
+[00:25:38] Agile collaboration, Innovation stands for. We see that many best practices.
+[00:25:44] From software engineering now make it into Data engineering.
+[00:25:50] We hear data management teams talking about sprints.
+[00:25:53] And scrum.
+[00:25:55] So, finally, that's moving over. And that means that is a consequence of building products.
+[00:26:03] This is no longer a project.
+[00:26:06] This is building a product and the software Engineers have 100 years of experience of building that so we can learn from them. We see that coming.
+[00:26:15] platform engineering, uh, a little oh,
+[00:26:19] I'm I'm I'm very I'm German. I like to be in time. I do predict. I will go a little bit over time, so please forgive me. Um, I'll try to get to platform engineering.
+[00:26:31] What we've seen successful companies doing is separating.
+[00:26:35] Data engineering from platform engineering.
+[00:26:39] There is a team of platform you're knocking.
+[00:26:43] There's a team of platform Engineers who make sure the infrastructure is there.
+[00:26:49] And they know it, they know the stuff inside out. And then there's data Engineers, who manage data Pipelines
+[00:26:56] that has proven to be successful.
+[00:26:59] That's the
+[00:27:00] Direction of travel don't have data Engineers that can do everything.
+[00:27:05] They may be able to.
+[00:27:08] It's not necessarily the most efficient way of operating.
+[00:27:11] Automation orchestration, observability. We'll talk about
+[00:27:14] um,
+[00:27:16] In today's world. And at the scale, that is required.
+[00:27:20] To remain relevant and successful.
+[00:27:23] Data Ops is no option anymore.
+[00:27:26] That's what you need to do.
+[00:27:28] And here's 6 examples of anything around your data Pipelines.
+[00:27:33] That you need to think about how you organize it.
+[00:27:36] For I think 2 years now, we have a market guide for data Ops tools.
+[00:27:41] Encourage you to read it. Um, next version will come out soon.
+[00:27:45] Because we have seen that there are more and more, there's more and more demand any of these steps.
+[00:27:52] Test automation, orchestration of your pipelines control, observability of your pipelines. All of these are opportunities for automation.
+[00:28:01] And that is what you should think about.
+[00:28:04] In a not too distant future. This will be managed by agents.
+[00:28:08] And observed by human beings.
+[00:28:11] That's the opportunity and that is the requirement to scale.
+[00:28:18] Now we bring everything together, are ready data.
+[00:28:22] And data Ops and data engineering. This is
+[00:28:26] how your data pipeline management will look like in the future.
+[00:28:30] And maybe to some extent already us today. All the aspects of data Readiness for AI the alignment, to the use, case the qualification, the validation processes. The governance is now part part of your pipeline.
+[00:28:47] I learned ETL extract, transform load.
+[00:28:51] Or elt.
+[00:28:52] That's just the raw basics of today's requirements from how you think about managing a data pipeline at the end of that.
+[00:29:01] You want to have to certification?
+[00:29:03] You need to say, this is certified for use.
+[00:29:07] And in Ideal World. It's automated this process.
+[00:29:10] Of certification.
+[00:29:13] The change in.
+[00:29:15] How AI will impact your organization?
+[00:29:18] Will be so fundamental that hardly any of this can be managed manually any more in a few years. So I'm not talking about next year. This is the trajectory where things are going.
+[00:29:32] so,
+[00:29:34] Final word on.
+[00:29:36] Data governance.
+[00:29:38] The way of.
+[00:29:40] Rethinking.
+[00:29:42] In this new world and velocity, we are in is to move from guidelines to guard rails.
+[00:29:50] Um, like the guard rails, we have on the German Autobon.
+[00:29:54] And no speed limit.
+[00:29:57] If you enjoy that, I do.
+[00:29:59] Every once in a while.
+[00:30:00] But the idea is to say everything that happens within the guardrails is safe and good.
+[00:30:07] Gone are the days where a 20 Page.
+[00:30:11] Governance policy framework and policy.
+[00:30:15] Instances.
+[00:30:16] Are in a shelf in someone's office.
+[00:30:20] And hopefully he or she knows what they are doing and checks it eventually. It's a very moment.
+[00:30:25] You need to think about radical automation of that.
+[00:30:29] To make the people safe of dealing with data, it's all for good reasons.
+[00:30:35] So to think about how this all comes together, you do have your governance policies. You have your governance controls, all of this exists,
+[00:30:45] The difficulty we see very often is on the policy execution side.
+[00:30:49] but with your new way of thinking, about data, Ops and automation, you have the opportunity to automate
+[00:30:56] Data governance.
+[00:30:58] Policies as code.
+[00:31:01] That is where things will go to.
+[00:31:04] And we call it data, devops.
+[00:31:07] Um, well, you know us, we love acronyms.
+[00:31:10] And even 10 letter acronyms is something we enjoy.
+[00:31:14] So that's the longest acronym, I know that we actually built. Um, but the idea is to automate it.
+[00:31:20] And now I'm coming back to data contracts.
+[00:31:25] Think of a program code.
+[00:31:28] As coded.
+[00:31:30] Policy.
+[00:31:33] you don't need humans anymore, you need humans to build this but then it runs
+[00:31:39] and that is the way of thinking your data contract.
+[00:31:43] Will take care.
+[00:31:45] To enforce the policies that need to be put in place.
+[00:31:50] And it will do it as code.
+[00:31:53] You may recall a few years ago, we started talking about data analytics governance platforms.
+[00:31:58] Now, we even have a magic quote on this. This will just go on
+[00:32:03] And the converge data management platforms. If you recall the data fabric, governance layer will have that as part of the platform.
+[00:32:12] Policy as code.
+[00:32:14] The only way.
+[00:32:15] Scale.
+[00:32:17] Wherever it works. So
+[00:32:20] In summary.
+[00:32:22] You are in the driver's seat for a ready data. No, 1 will do it for you.
+[00:32:27] And yes, it's work. On top of all the things you do already.
+[00:32:32] Sorry. So but think about how do I get a bigger budget? Maybe I use this presentation.
+[00:32:40] Future Pro probe.
+[00:32:43] Your architecture.
+[00:32:44] Data fabric design is The Logical design of how it should look like.
+[00:32:49] Data management platforms, or converge data management platforms, that are ever more powerful will be the technology. You will put in place to do so.
+[00:32:59] um,
+[00:33:00] Oh, there's a typo in there. Anyways. Um,
+[00:33:04] Data Ops is a must do exercise.
+[00:33:09] Pipelines have to be managed, increasingly automated.
+[00:33:14] That is the foundation for you to scale.
+[00:33:19] Data Federation or Federated data management.
+[00:33:23] like the measure approach is,
+[00:33:25] Is your way to scale within your organization.
+[00:33:28] It's not easy, will take time, but it's worth doing.
+[00:33:33] that gives you free resources while you increase the use of data and the building of data products in your organization,
+[00:33:40] and don't think of governance as a manual exercise and a 20 Page.
+[00:33:45] Uh, doctrine of how to treat with it deal with it. Think of it of automation.
+[00:33:50] Policy as code.
+[00:33:52] All this together in our opinion.
+[00:33:56] Are the key things that we're hearing from clients.
+[00:33:58] And we hope we have some ideas to help you.
+[00:34:01] To be ready for the now and the next.
+[00:34:04] And AI coming.
+[00:34:06] Thank you very much for your attention. Thank you.

@@ -1,0 +1,155 @@
+[00:00:00] Um, a product manager at IBM.
+[00:00:02] Um, and I'm working at the booth just over there.
+[00:00:06] And that was going to be the case until Friday evening, when I found out that my colleague couldn't make it here. So I'm picking this up a little bit short notice. Um, so it might not be as smooth as your colleague, Scott would have would have um, presented to you, but let's see how we get on.
+[00:00:20] It's only a 20 minutes slot, so we don't have a lot of time for questions. If you've got a really, really pressing question, stick your hand up or shout. If not, I'm at the booth just behind Google with all my colleagues here today, tomorrow Wednesday, I think come back, see us. Um, and there is
+[00:00:36] a reception afterwards if you'd be interested in that. Um, I can give you a ticket and then may or may not be free drinks there. So, um, come say hi. So. Yes, today we are
+[00:00:45] Are talking about empowering, authenticate High.
+[00:00:48] With real-time context, sounds fairly straightforward. And it kind of is uh, there's a number of aspects to this. I work in an area, we call data intelligence which sits Within
+[00:00:59] Our lead offering in IBM in the space called, what's the next dot data?
+[00:01:03] It covers governance quality uh lineage integration consumption. It's a really kind of broad package of which you can choose the bits that you need for your organization to meet the bit that you need. So, um, that's the kind of backstory from where I come from. Uh, so let's dive into it.
+[00:01:20] I don't think it's a secret that AI is pretty much everywhere.
+[00:01:25] uh, or at least people want AI to be everywhere but equally I think
+[00:01:31] No smaller a secret that often AI applications fail. A huge amount of of effort goes into building out, AI apps.
+[00:01:39] Um but still and this has been the case for the last few years and still is today, a very large percentage of those never really get off the ground.
+[00:01:48] those that do, maybe don't have a particularly long shelf life, uh, and those that do not
+[00:01:55] be wasted effort.
+[00:01:56] And there's many reasons for that. Um, but there is a degree of commonality within a lot of those reasons. And we're going to talk about 1 of the key, kind of foundational pieces. That underpins all of that here today.
+[00:02:09] And that is context.
+[00:02:11] So I'm going to start off with a simple example.
+[00:02:15] Uh, an example of a simple ordering process, so you're the end user, you're sitting at home. Uh, you browse the catalog and you've looked at something online, you found the product that you want and you've ordered it.
+[00:02:29] uh the sale goes through its disappears off into the tin and
+[00:02:36] you sit back and wait for the thing that you you've ordered to to arrive next morning. The Fulfillment person comes in and starts their job now.
+[00:02:47] They know that what you've ordered for whatever reason is not available.
+[00:02:50] Not a great situation.
+[00:02:52] so, they step in
+[00:02:54] They update the inventory. Make sure it doesn't happen again and either they or their colleague Reach Out.
+[00:03:00] Use the consumer and and apologize. Maybe if you're lucky if our conversation more likely by email to say that the thing that you ordered is not a day
+[00:03:10] It's happened to me recently, but the good thing is, is that person in the middle of the process, caught it fairly early on and they contained it. They updated the any necessary to relate systems, they made sure that it didn't happen anymore.
+[00:03:22] And while they disappointed you hopefully they gave you an option to to purchase something else or at least reassure you that you know it was a nice isolated case and they'd love to have your customer again.
+[00:03:33] The person based approach and that's common and it's still common today.
+[00:03:38] so, if you look at exactly the same thing,
+[00:03:41] but this time we insert an agent in place of that fulfillment person,
+[00:03:45] It starts exactly the same. You're sitting at home, you found your dream purchase. You pull out a credit card or you use your Apple pay or whatever it might be and you order it.
+[00:03:56] Exactly the same up to that point.
+[00:03:59] Then, instead of the knowledgeable person, who knows the network, who knows the inventory systems, who knows all the Fulfillment processes. You know, all of the related Solutions, the agent looks at what's been ordered
+[00:04:12] passes it on to the next part of the chain.
+[00:04:14] And is none the wiser. It doesn't have the the network. It doesn't have the inbuilt knowledge.
+[00:04:20] It does what? It's been trained to do. Nothing more, nothing less, that's what agents do.
+[00:04:25] So the process carries on, and somebody else orders the same thing and the same thing, and the same.
+[00:04:30] Thing and exactly the same process as mirrored all the way through.
+[00:04:35] It becomes a much bigger exposure because the agent doesn't have that knowledge of Dave or Susan, who's been working in that job for years and who knows that? Actually that item is really hot so it's now out of stock.
+[00:04:48] Much bigger exposure for the country company. Much bigger exposure for, uh, maybe publicity and things like that. Much, made much bigger issue and far more dissatisfied clients. The Edge hasn't done anything wrong. It just doesn't know
+[00:05:02] that's what we're talking about. Addressing key.
+[00:05:05] Key the help that agent get to the point of Competency at the same level at the as as the person would have it needs various things.
+[00:05:15] It needs real-time information, so obviously stay in the office. It needs to know that the item's not in stock.
+[00:05:22] But before it does that, it needs to understand the broader context of the whole process.
+[00:05:27] So it's not just doing its job. It needs to understand what other systems are related to it.
+[00:05:32] So how does it understand whether something is in stock or not, is it going to be coming back into stock? Does it need to let the, uh, the order system know? Does it need to let Logistics know how can it linked everything together. That's what it really needs to know. So, big part of that is real time. The second big part of that is an understanding.
+[00:05:51] and that is,
+[00:05:52] Rich and it is a broad.
+[00:05:55] Think back to the person who sits in that position again, they're not just doing their job. The companies
+[00:06:00] Actually getting a bit more out of that because they have the experience.
+[00:06:03] That level of understanding is something that the agent didn't currently have, but that's where we need to get it.
+[00:06:11] And then the last piece is Trust.
+[00:06:13] Trust essentially, I think of it simple terms as feeding something quality information, so it is the kind of classic data quality piece.
+[00:06:21] And without that, neither the agent, nor the individual could operate. We know the, the individual did because they have that years of experience.
+[00:06:30] The agent is only going to act on the data that it's served. And in the example, we showed here,
+[00:06:36] that was information in isolation.
+[00:06:39] but whether it was in isolation or whether it was in the hole with which a wider context,
+[00:06:45] It needs to know or perhaps rather than the people who own and drive the agent need to know that whatever information you fit in.
+[00:06:52] Is trustworthy. It's good quality. It's accurate and that's really, really key. So we're going to take a look at all of these things and show you how uh, in IBM but in the broader context, as well, you can make sure that your agents have all of that and
+[00:07:07] Seamlessly return. The results that your customers, and then users need
+[00:07:12] So we're talking about 2 pieces here. Um, is if you saw the new recently, you'll see that IBM has, uh, acquired confluent. We've worked with confluent for for many years. Um, and we have brought them into the IBM fold, and they are forming part of this kind of broad ecosystem in this whole area a lot.
+[00:07:30] Alongside what we call what's next, stop data. Now what's the next dot data is our data management platform that serves up this kind of quality information and data to both Ai and human consumers within that. You have a consumption layer. You have Advanced Data integration capabilities for both static and streaming data. So get to whatever data you want, wherever it may sit and you have advanced governance quality lineage and product sharing capabilities as well. It's a flexible kind of family of capabilities that you can pull on, whichever elements you need. So that's where we're framing it with regards to the IBM. And now, IBM and confidence story.
+[00:08:12] I shouldn't joke but I will but it's not an IBM.
+[00:08:15] presentation, if you don't have a architecture slide,
+[00:08:18] And there it is.
+[00:08:19] Um, but there is there is a a very important point to this. There's an awful lot in there, but if you distill it down really, you're talking about a few very, very important layers.
+[00:08:30] The layer that I operate in and the the the area that I work in is the context layer and that's what we're talking about here today. That's what's feeding the valid real time. Trustworthy information to everything else.
+[00:08:44] Below that.
+[00:08:45] We've got the composable layer, then you're talking about, you know, your streaming systems, your Flink, your Kasa, your Iceberg tables, a wide variety of different types of data sitting in and running through a whole host of different Technologies. So
+[00:09:00] A whole host of different systems.
+[00:09:02] And what's the next updated support to all of that?
+[00:09:05] Now.
+[00:09:06] As well as supporting it, there's a question around.
+[00:09:09] How does it do it? Where does it do it? And the answer is it can do.
+[00:09:13] Much anywhere. So you can deploy this architecture on premise. You could have pull it on pretty much any Cloud. Uh, you can run it as self-managed software you could run it as fully managed software. You can subscribe to it as fully managed SAS, so you can make it what you want to be and of all of the different bits that you see, within that diagram, you can, you can choose the pieces that satisfy your Enterprise speed. We're going to take a look at some examples of exactly what it can deliver on.
+[00:09:41] okay, so next up, I'm going to show you a couple of screenshots
+[00:09:45] I'm not really a fan of doing this because on a screen like this, it doesn't mean an awful lot, but just kind of showing you already the sort of integration. You have between those 2 key components. Remember what's next data? And
+[00:09:57] So initially we're looking at, uh, table flow screen, which is um, very, very quickly and easy getting you into a cache of the topic, uh, and showing you how that that data or information is streamed into an iceberg team.
+[00:10:11] In a second. I think I hope it will switch skip to um, what's next data? Here they go. And that's, uh, allowing you to explore those Iceberg tables or the S3 objects, or whatever it may be, uh, as you would any data source. And, and it's important to point out. Well, it's not every day Source, the range of different
+[00:10:30] The types of data that you can get to is uh is very significant. A huge range of different types of data. So very quickly you can see the flow through cafta with with confluent and the landed data or the iceberg tables through. What's next data?
+[00:10:45] Going to come back to another example now. So, uh, we have a an analytics manager for mayor. She's got a, a major event coming on with a with a sale in our organization and she wants to understand exactly what's going on. What's popular? What's, um, what's selling, what's not? Uh, what's in, demand in certain geographies? She just wants to really, really kind of get down to a very detailed level to understand exactly what's happening in this sale event so that she can shape and improve.
+[00:11:15] As we move forward.
+[00:11:17] Now, the traditional way she would do this is by talking to a colleague, Dave, Dave's in the data department and she knows what she needs to get out of the data but she doesn't know how to get it. So she's just a simple interaction with Dave. She's explaining what she needs to get. Uh, the information about the sale. Uh any anomalies, anything strange, anything that varies across different geographies and it's a conversation that happens in these kind of organizations over and over again.
+[00:11:45] And ultimately she gets to where she needs to get.
+[00:11:48] Actually, I think day 6 is a bit of an exaggeration, but it's not a 5 minute conversation. It's something that you'd have to iterate because you take, you take it for a stab, you get some information, you'd realize it's not everything.
+[00:12:00] You.
+[00:12:01] Would you would iterate? You would improve you'd enhance and ultimately, you'd get to the point where she has got the information that she needs. And it would take, let's just say some time, maybe a day, maybe 2.
+[00:12:12] But but it's a, it's an involved conversation.
+[00:12:17] What we did with what's the next data and all of the components in it. Um, the last speaker I forget his name, it was really good touched on mCP.
+[00:12:24] We have an mCP server in. What's next data? And it allows you to do things like this. So, Maya has just asked the solution. She doesn't know what it is for what she needs with regards to that information.
+[00:12:35] She's using in Claude because that's a Enterprise standard or any other organization and it goes away. It connects to dot data which she doesn't even know exists and it searches for
+[00:12:45] Exactly the kind of information that she needs. It's looking in flows, it's looking in static data and its understanding
+[00:12:53] Exactly what she means because it's not just connected to a single data source. So it's not just looking at the sales Ledger. It's not just looking at fulfillment systems. It's looking at all of these things and building a picture of exactly what she wants.
+[00:13:06] She's not technical, but she understands flow. So she asks it to show her the flow. That's being used to produce the information that she needs from that simple View and a slightly more granular 1, she can see that it is accessing the information that she needs. It's doing it in real time. It's doing it in detail. It's getting history and it's getting the live view as well and and very, very quickly. If you can see that it understands what she
+[00:13:30] What she needs and it's able to serve that up to a in a very very easy to consume fashion.
+[00:13:35] So what she did with Dave over, let's say a day or 2, this is real time. So this has happened in minutes. It's got to the point where she it's fully understandable. What? She's asking it's going across all of the systems. The erps, the The Ledger, the Fulfillment system. And it's giving a a package or a data product that not only, she can consume, but the agents could consume or her colleagues could consume as well. And that is just for, I think a single prompt with the follow up, question as well. And there you see the product being shown or details about the date product. Um, so that she can validate, it has all the information that she needs in it and then through the date platform, she can share that product with. Like I say, either colleagues,
+[00:14:15] Or agents that may want to consume that as well.
+[00:14:18] See how when you give an agent, the context that it needs access to all of the systems access to real-time information and they couple it up with something like mCP.
+[00:14:30] You don't need to be deeply technical to to very very quickly gain an awful lot of information.
+[00:14:38] The isn't just quick because that's what agents are agent. Get you quick answers, but it's valid and it's trustworthy. And so,
+[00:14:46] okay.
+[00:14:48] And this kind of underlines that point. So,
+[00:14:50] I'm going to come to another example.
+[00:14:53] Um, people will talk to you a lot about needing to access data and you absolutely do. It's no good. Just pointing in
+[00:15:00] Single Source data sits everywhere. When I started out on Old Mumble a bit 20 years ago I kind of used to be data governance for our clients.
+[00:15:09] Clients would call me up and they wanted to get to data.
+[00:15:13] And because their data mistake was pretty small, I knew where it was. They had 1 2 or maybe at most 3 days databases and very very quickly and easily I could I could get to where where they needed to or the data that they needed and help them get to it. It was easy. It's not like that anymore. Okay, um, wish it was so it's not just giving access.
+[00:15:35] To understand what's in those data sets and with the best of all in the world, I probably couldn't do that. That's a lie. I couldn't do that now
+[00:15:44] um,
+[00:15:45] But that's what we need to try and help agents. Do not just give them access to data, and not just give the users of the agents access but provide those agents with the meaning so that they understand exactly what they're 1 being asked. And 2 what they're serving up to fulfill the request.
+[00:16:02] Take a look at another example here. This is a uh, a system we've put together.
+[00:16:08] It's not a real system, but but 1 of 1 of the teams in the project built it, it's a tax filing system. So in the example we have here uh the team has created completed a paper to uh to report on the on the tax tax for the division and they're going to use the tool just to see if everything's in order and they're able to file that report.
+[00:16:30] off we go uh the tool turns away it looks at the the paper it's doing all the analysis, it can see all of the information within the report
+[00:16:41] Checking it.
+[00:16:42] Looking for anomalies. No anomalies found.
+[00:16:45] And as far as it's concerned, everything is good.
+[00:16:48] Why wouldn't it? Alright, the team spent an awful lot of time working on this. They're convinced that everything they've done is valid. It's all good.
+[00:16:55] And the agent has backed that up and that's something that I think you have to be really careful with AI enki in particular.
+[00:17:03] When something gets in production, there's an assumption that it is good. It is valid. You can trust it. Um,
+[00:17:10] Because, why wouldn't somebody surely put in all of the effort to make sure that what it's doing?
+[00:17:15] Is above board and and correct.
+[00:17:18] And that is a dangerous thing.
+[00:17:20] Trusting something blind. Whether it's AI or a person can get you into trouble.
+[00:17:25] Okay, so now second time around, we're going to look at exactly the same scenario, but this time in addition to the reports that's being being processed, we've connected it to what's next stop data. It's using the Govern data through the data intelligence capability, and it has access to a whole range of other systems as well. So it's looking at Erp, it's looking
+[00:17:45] At historic tax filings, it's looking at, um, a broad range of information to give it that rich context might not initially feel like it's related to the report that you're filing. But again, it goes through and does exactly the same thing.
+[00:18:00] So it's processing the the report it's looking at Erp, it's using the research database, it's going back through historical tax information and it's finding out an awful lot more than it did in the previous example.
+[00:18:12] We keep processing.
+[00:18:14] It's got a lot of information in there.
+[00:18:18] No violations as yet but then hang on a second.
+[00:18:22] So it's looked within a certain area here and it can see
+[00:18:26] Actually, there's a million dollars of Revenue that's not accounted for in the report.
+[00:18:31] So, should you refile the report? Probably not right. You need to go away. You need to do a little bit more work. You need to understand why that's been missed.
+[00:18:39] Is it really important? I don't know. I'm not a tax expert but to me that suggests that it's probably not complete.
+[00:18:45] So you probably shouldn't be filing.
+[00:18:47] And again, that's a really, really good example, of of what context is, it's not just the information that you want the system to work with. It's the supporting information that validates all of that. It, it makes sure that your data is good. Your data is trustworthy compliant. All of that kind of good stuff, but it reinforces and underpins the key decisions that you're providing that little nugget of information for your agent to base, its decision.
+[00:19:14] It's easy to overlook that but it's probably the most important thing with regards to letting your agents out into the wild to do what you want them to do to accelerate your business.
+[00:19:25] The fundamental building blocks, often seem a little bit boring.
+[00:19:29] But they're not.
+[00:19:30] Boring. When they stop you getting into litigation or stop you, issuing results that may result in reputational damage.
+[00:19:38] The foundational steps are the most important piece. They allow the agents to really kind of Thrive and drive your business and make that difference.
+[00:19:47] so,
+[00:19:49] In summary.
+[00:19:51] I've seen a few examples from the early kind of
+[00:19:53] piece.
+[00:19:54] through to the slack conversation where
+[00:19:58] you can hopefully see the importance of not just the data that you're working with, but the piece of that, that that works around that, that serves up that trust that gives
+[00:20:09] remember our initial example that gives that almost like years of experience and knowledge to the
+[00:20:15] That allows it to to do more than it's just programmed to do to have a full understanding to have a network to have context, and that's the kind of key phrase.
+[00:20:27] An easy step to overlook. But thankfully, it's a really, really easy step to implement. Um, I could talk about this all day, but they won't let me to. I've just had a away from the back saying I nearly done, um, but my name's Rob. I work in the UK.
+[00:20:44] Some of the time they'd like to send me all over the place, but a lot of the time I'm here, if you'd like any more information, please pop around to the IBM Booth myself and my colleagues will be happy to talk to you about this and also Beyond this what you can do with the agents, how you can move.
+[00:21:00] From the context piece into the whole logic World, governing that area and so on. Um,
+[00:21:06] And I'd be happy to help you anytime give you any more information in this.
+[00:21:10] um,
+[00:21:12] thank you for stopping by, thank you for staying, and thank you for listening. Hope you found it interesting. Thank you very much.

@@ -1,0 +1,285 @@
+[00:00:03] Good afternoon, everyone.
+[00:00:07] so,
+[00:00:08] This afternoon.
+[00:00:11] We're going to have 1 of those great discussions about governing, self-service, Analytics.
+[00:00:16] Well, as everybody's favorite topics.
+[00:00:19] And what I want to pre predominantly focus on today is how we can help increase adoption and improve those uh, governance aspects.
+[00:00:28] Within our analytics platforms and our use of the organization.
+[00:00:33] Now.
+[00:00:35] This idea with a hypothetical scenario.
+[00:00:39] where,
+[00:00:40] What we have are 2 people that need to go on a journey across the sea.
+[00:00:44] and,
+[00:00:45] None of them have sailed before, but somehow they've convinced us to give them ships.
+[00:00:52] And in Bode.
+[00:00:53] We're going to give them all their equipment.
+[00:00:56] I'll send them out on their way.
+[00:00:58] Hope they make it there safely.
+[00:01:00] and luckily, alive,
+[00:01:02] And boat B.
+[00:01:04] We're going to teach them how to sale.
+[00:01:06] How to read a map, how to deal with adverse weather?
+[00:01:10] How to use their GPS and satellite phones.
+[00:01:13] And of course, we're going to then track them from the land.
+[00:01:17] So that we can reach them in case they need help.
+[00:01:20] Which 1 of these? Do you want to go on?
+[00:01:25] The connection here is that often our organizations approach self-service.
+[00:01:30] Analytics.
+[00:01:31] Quite like we do with boat a
+[00:01:33] It's simply not enough to just give people access to tools.
+[00:01:39] So in our presentation, today we're going to talk about the kind of guide rails that we need to put into place so that we can maintain the agility that our business units, demand.
+[00:01:49] But maximize value and maintain some level of control.
+[00:01:54] Now, the intention is overall to increase that agility and democratizing analytics. We talk about these things all the time.
+[00:02:02] And usually, this is through the implementation of common analytics and bi platforms.
+[00:02:07] And our current research shows that probably 50% of you have implemented self-service analytics in some form or fashion.
+[00:02:15] Another 36% of you anticipate implementing it within the next year.
+[00:02:20] However,
+[00:02:22] self-service analytics. Consistently fails to deliver on its expected value to the organization.
+[00:02:30] And 1 of the top challenges experienced with self-service.
+[00:02:35] According to our research again.
+[00:02:38] Are risk and governance concerns.
+[00:02:41] And this is repeated across hundreds of our clients. Where we see this consistency consistent message of this lack of guardrails,
+[00:02:51] Because what it leads to is chaos.
+[00:02:55] And a whole host of Quality Security and performance problems.
+[00:03:00] This includes things like dashboard and Reporting sprawl inconsistencies findings across reports duplication of efforts.
+[00:03:08] Suboptimal use of our resources, which also then create performance bottlenecks.
+[00:03:14] And this places a different kind of burden on our, it groups 1 that goes beyond the typical maintaining and managing of data and tools and our environments.
+[00:03:24] and this is driven Often by a lack of experience in our self-service users and if inefficient use of those bi tools and
+[00:03:34] An absence of control Frameworks to govern how self-service content creation is built and deployed.
+[00:03:43] Governance. However, tends
+[00:03:45] To be a scary word, we equate it with hurdles and bureaucratic burdens.
+[00:03:49] But it doesn't have to be seen that way.
+[00:03:52] You see?
+[00:03:53] Regardless of how we view it about 89% of survey. Respondents agree, that effective governance is essential to enabling our business users and our Technology Innovation.
+[00:04:06] So what do we then need to help govern? Those analytics Pro uh practices.
+[00:04:12] And how can we then use that governance to minimize risk and enable users?
+[00:04:18] We're going to take a little journey ourselves today down this River path where I want to talk about building. End-user trust in our data and making that accessible.
+[00:04:28] And proactively.
+[00:04:30] Governing our data and our analytics assets through security features and comprehensive end-user training.
+[00:04:36] And of course, we then need to monitor that adoption and detect issues and detect them early.
+[00:04:45] So we're going to start at the beginning here and you know, I said that 1 of the big problems with self-service analytics is des uh I'm sorry, inconsistencies across reporting.
+[00:04:57] And again, some of our research suggests that 70% of organizations regularly argue about whose data is correct.
+[00:05:06] My personal experience suggests that that's actually much higher.
+[00:05:09] because I'm sure that many if not, all of us have been in that meeting where we have sat,
+[00:05:15] For the majority of the meeting discussing, whose report has the correct data. Living leaving us, maybe minutes only a little bit of time to actually figure out what to do about it.
+[00:05:27] so, 1 of the first things we need to do about this is to focus on the data layer, we provide to those analytics uh users
+[00:05:35] By building them standardized, consistent, reusable, and high quality data.
+[00:05:41] Now to have good quality data and trustworthy metrics. Downstream this isn't just necessarily about accuracy.
+[00:05:51] In fact, there are 4 pillars to data quality that we should consider.
+[00:05:55] And those are accessibility and timeliness relevance. And of course,
+[00:06:00] Accuracy.
+[00:06:01] And we need to work on improving these elements. Upstream either in our data sources or in our data engineering Pipelines.
+[00:06:10] But even when that data lands into our data warehouses our Lakes, our data Marts, wherever that happens to be. It doesn't necessarily mean our data is ready for those analytics, use cases.
+[00:06:21] There's likely still more work to be done to cure at the curate that data for their needs.
+[00:06:28] So we focus then on ensuring that these pipelines become relevant whether or not they are fit for purpose. Simple data is not enough making sure that it meets their needs their expectations for completeness and accuracy.
+[00:06:42] We want to ensure that it is kept up to date.
+[00:06:45] And use this opportunity to validate and certify that data. And of course secure it.
+[00:06:51] But most importantly is we organize these patterns we want to ensure that they are reusable.
+[00:06:56] Too often we are built on fragmented, 1-off data pipelines. And we want to move to a position where we're architecting pipelines that support a multitude of use cases.
+[00:07:07] So they become scalable.
+[00:07:10] There's multiple ways of doing this.
+[00:07:13] And as you can see here, there's a lot of them popping up.
+[00:07:16] None of these are mutually exclusive.
+[00:07:19] In fact, most of you or many organizations will use a combination of these different techniques possible Technologies.
+[00:07:28] They offer different layers of curation.
+[00:07:30] And some are more agile than others and others, provide more centralization and standardization.
+[00:07:36] Each have their distinct advantages and disadvantages.
+[00:07:40] There's no perfect solution, but among these will be an optimal solution for your organization.
+[00:07:48] And while we don't have enough time in today's session to drill down on each 1 of them, I do want to take a moment to highlight the idea of the semantic layer.
+[00:07:57] These have become increasingly more important. As we focus on AI and agentic platforms, basically, autonomous, and the decisions that we have on consistent data.
+[00:08:08] so if we consider this prediction that by the, by 2028 60% of our existing,
+[00:08:15] Dashboards will get replaced by generative AI powered, narratives and visualizations.
+[00:08:21] These narrative experiences will become favored by those self-service analytics users.
+[00:08:26] Who can use them to ask their ad hoc questions, create visualizations and even automate reports.
+[00:08:32] Now, this doesn't Eclipse dashboard and traditional reporting.
+[00:08:36] These will remain critical for production grade use cases.
+[00:08:42] but in order for these generative AI capabilities to become a reality,
+[00:08:49] we need a way to understand what users are asking for.
+[00:08:54] And translate those prompts into executable SQL with the right context.
+[00:09:00] Because when it comes to business users making decisions based on insights and recommendations from generative, AI systems.
+[00:09:07] Hallucinations are not an option.
+[00:09:11] This is where semantic capabilities come into play.
+[00:09:14] And semantic. Layers were uh uh standard components from traditional reporting Solutions like saps business objects.
+[00:09:25] And many modern platforms. Have actually largely favored these more agile, self-service techniques for data preparation and semantic modeling.
+[00:09:34] But that has, then contributed to the many issues we see today with data duplication and inconsistencies in metric definitions.
+[00:09:44] so,
+[00:09:45] Seen largely across the board is this architectural focus on semantic layer capabilities. Across these platforms that can enable dashboarding reporting and conversational analytics together.
+[00:09:58] And in this space, we also we also see data management platforms, enabling semantic layer capabilities, typically, to support their generative, AI interfaces.
+[00:10:11] But of course, we have to consider the fact that semantic modeling and natural language optimization techniques and capabilities. They still vary a lot across our different platforms.
+[00:10:25] Now to build that curated layer of data for self-service Analytics.
+[00:10:30] And increasingly into that natural language query capability.
+[00:10:34] We need to start by understanding our business.
+[00:10:37] We need to identify what are the opportunities, where self-service actually has impact?
+[00:10:43] And then, from that identify, what is the data needed to support those needs?
+[00:10:49] And what are the requirements of that data? How critical is it? Where is it? What state is it in?
+[00:10:55] How will it be consumed? Does it need to be in a particular format?
+[00:10:59] And as we go through this exercise, we want to consolidate that information identify the overlaps and those common use cases. So that what we build again, are those data pipelines and semantic, layers. Semantic models that are reusable across
+[00:11:15] Multiple reports or tool platforms?
+[00:11:17] That helps provide this consistency, ensure quality and enable users. So what they don't have to do is find the data and remodel it themselves each time.
+[00:11:29] And as we move into that build phase, we want to often think about this from the traditional 8020 rule. 80% of our effort is going to be put into these reusable data artifacts.
+[00:11:41] 20% of this is going to be at Hawk and there will always be an ad hoc nature to Analytics.
+[00:11:47] But as we've aligned those high priority use cases, we can start then building this data layer in an incremental way using some of the ca uh, ideas from the previous.
+[00:12:00] Slide.
+[00:12:01] Such as the semantic layer.
+[00:12:04] and this the approach that you take again, will depend on the architectural, paradigms you work on, what platforms you have and what
+[00:12:13] Financial labor, resources, that you might have to put at this.
+[00:12:20] All of this effort, though.
+[00:12:22] Can be utterly useless.
+[00:12:25] If the data is not searchable accessible and understandable.
+[00:12:31] Think of this cargo ship full of these containers?
+[00:12:34] How would we find the specific contents within this ship that we're looking for?
+[00:12:39] Well, it's a computer system, isn't it?
+[00:12:42] We have the items that are listed in a manifest.
+[00:12:45] Somewhere and we can search for that and we can use that system to then have a set of coordinates that allow us to locate the physical container within this ship.
+[00:12:53] Apply this, similarly to our analytics and our data.
+[00:12:57] How will users find identify query? Access that data.
+[00:13:02] We need a semantic mapping.
+[00:13:04] To connect the data to our business terms.
+[00:13:09] This.
+[00:13:10] Is usually the purview of a data catalog or the cataloging facilities within our incumbent bi tools or semantic layer tools.
+[00:13:20] So in addition to being discoverable, the catalog, then helps us make this data trustworthy because Within These features we document lineage transformation.
+[00:13:30] Definitions calculations, and we're able to often use these to certify data sets so that people can know they trust that process.
+[00:13:41] This provides the consistency our users need and helps promote further, adoption in self-service Analytics.
+[00:13:51] So just briefly The Story So Far if we're creating trustworthy data for our self-service analysts.
+[00:13:57] We need to uh, gather requirements from our businesses.
+[00:14:01] Focus on how we build and what techniques we use to deliver that reusable data layer.
+[00:14:08] And establish the data quality foundations that we need, but also how we will address them.
+[00:14:15] And then of course, catalog those assets in some way, so they are discoverable.
+[00:14:21] Now.
+[00:14:22] as we move down further,
+[00:14:24] I'm reminded of Uncle Ben talking to Peter Parker.
+[00:14:28] Because with great power comes great responsibility.
+[00:14:33] If we consider that 15% of data breaches are due to the misuse of privileges.
+[00:14:40] We have to realize in this that this is somewhat the risk. We take when we open up that data for non-technical or non data, engineering focused users
+[00:14:50] They may access data.
+[00:14:52] Either deliberately or unintentionally beyond their entitlements.
+[00:14:57] and more often, it's been my experience that this is
+[00:15:00] Unintentional.
+[00:15:01] And it's often due to a lack of clear access, or usage policies, and of course enforcement on those policies.
+[00:15:09] So there are several actions. We need to then take to mitigate that risk.
+[00:15:14] We need comprehensive identity, access management policies.
+[00:15:18] For who should have access and to what data and use the proper technology to enforce them.
+[00:15:25] We also then need to consider the idea of creating views that filter out, roads and obscure columns.
+[00:15:32] So, that users only see that data, which they are entitled to.
+[00:15:37] Again, the specific techniques may depend on the actual tools that you're using.
+[00:15:42] And this becomes easier with a unified data link.
+[00:15:45] As compared to trying to implement this across numerous disparate systems.
+[00:15:52] And you might be tempted to stop here.
+[00:15:55] But implementing these controls is simply not enough by itself.
+[00:16:00] Because these controls can be meaningless.
+[00:16:03] depending on how that data then gets shared within our analytics platforms and what people do with it, once they have access,
+[00:16:13] So, we need to think about what else we need to do.
+[00:16:16] Self users, self-service users need to further understand what they should and should not do with the data that they are provided access to. And not only do they need to understand that they have to have the skills to follow our best practices.
+[00:16:30] In accordance with our governance policies.
+[00:16:34] so,
+[00:16:35] obviously, if we're going to enable self-service users, they need to be given some sort of training in the particular tools that we are using
+[00:16:43] but in a case study that we ran,
+[00:16:46] We provided 1 group of analytics users with just tool training.
+[00:16:51] And then a secondary group with tool training along with other Advanced Training on Tech, you know, analytical techniques the use of internal data sources and proper sharing and deployment.
+[00:17:02] Kind of unsurprisingly we found out that they it. Well,
+[00:17:08] That went uh, a little wonky.
+[00:17:13] Did I get too far away?
+[00:17:16] I think I did.
+[00:17:21] Wow, where I apologize for that. What happened here?
+[00:17:27] Okay, there we go.
+[00:17:30] Unremarked this did uh, create some benefit for our users. Uh, we saw greater adoption in self-service analytics, higher quality use of the tools and a clearer ability to derive insights, from that data.
+[00:17:43] So it's clear here that it's not only tool training that we need to provide users. We need to provide them Elder, elements of data literacy.
+[00:17:52] Which we all understand is critical for data-driven decision-making.
+[00:17:59] Basic.
+[00:18:00] Low levels of data literacy and other skills, consistently emerge in our conversations with clients as barriers to the success of their data and analytics initiatives.
+[00:18:12] And over half of cdao, surveyed.
+[00:18:15] Still have improving data literacy as 1 of their primary responsibilities.
+[00:18:21] And along with this, we see a lot of organizations with data literacy initiatives, expanding them to include AI literacy training.
+[00:18:29] This is to increase the awareness of those AI capabilities in their incumbent tools.
+[00:18:34] And further understand the limits.
+[00:18:37] Of those Technologies and how to spot errors or hallucinations.
+[00:18:45] What else do we think? We need because I think that there's a little bit more here.
+[00:18:50] Well, we can document.
+[00:18:53] Classic idea.
+[00:18:55] Document our best practices and our governance policies.
+[00:19:00] But more important than that, is actually training users on how to follow them.
+[00:19:04] Because it's not simply enough to create a policy document. We've all done that. Let's put it on a shared Drive.
+[00:19:09] And nobody reads it.
+[00:19:12] Users need to understand. Not only what those policies are.
+[00:19:16] And what they should and should not do that with data. But how to implement those best practices they need to understand what is the preferred method of Distributing analytical content and who should have access to it how to actually apply effectively roll.
+[00:19:30] Level an object level security.
+[00:19:32] and,
+[00:19:33] What they can and cannot do with the generative AI features of their bi tools.
+[00:19:40] And why might that matter in particular?
+[00:19:43] Well, again, in the not too distant future, we're expecting that more than 40% of AI related data. Breaches will be caused by the improper use of generative AI across borders.
+[00:19:55] So it's critical for us as Architects and uh, providers of these uh, solutions to evaluate the security methodologies of those generative, AI capabilities.
+[00:20:07] Where is that data? Processed understanding, what data if any is it just metadata that's sent to them and is it stored for training?
+[00:20:15] Or just cashed for use in that, uh, application at that moment in time.
+[00:20:19] Because the methodology does vary a lot across platforms.
+[00:20:25] So we need to do that Security review, which might ultimately lead us to not using generative, AI either in its entirety or under some particular use cases where we might be dealing with sensitive or personally confidential information.
+[00:20:41] So here's where we need to provide that guidance and then put necessary controls into place.
+[00:20:48] Now.
+[00:20:49] To bring that all together. What we're really talking about is a comprehensive training program.
+[00:20:55] And this includes data and AI literacy foundations along with those.
+[00:21:00] More Advanced Analytical techniques.
+[00:21:03] and of course how to use the incumbent tools that we have and that doesn't necessarily lend itself to just the bi tool, they're using the other tools in our self-service portfolio, which might include data preparation tools, or the catalogs that we talked about
+[00:21:16] And of course how to effectively create.
+[00:21:19] Data, analytical data models, and curate those semantics to support, not only our dashboards and reports but natural language interfaces.
+[00:21:28] And then of course, those business users need to understand how to connect with data use it, share it.
+[00:21:35] Those elements including what happens and when it's appropriate to use generative AI with the data that we've provisioned for them.
+[00:21:45] And I think, overall, as we look at this, we got to keep in mind that training is number 1. Not a once and done practice, this is something that continues to go through our organizations and it is also not 1 size, fits all
+[00:22:01] This must be tailored to certain user groups and different maturities.
+[00:22:08] so, to recap a little bit so far,
+[00:22:12] To promote, self-service analytics. We need to furnish our users with trustworthy fit for purpose data.
+[00:22:19] We need to secure it so that we can mitigate some certain risks.
+[00:22:23] And of course, educate our users on what they should and should not do with self-service.
+[00:22:31] Now, this brings us to our third Point here about trusting those users.
+[00:22:36] But verification.
+[00:22:39] We want to then monitor our platforms actively and Moni and watch for particular behaviors.
+[00:22:45] Now, we may see an increase number of users, and this could in uh, therefore indicate further adoption looks like success.
+[00:22:54] We've promoted, self-service analytics, we've given them access to data. Those users are increasing, we're on the right road to gaining self-service adoption.
+[00:23:05] But with more and more users, are we going to have problem scaling?
+[00:23:10] Can we manage more workloads and avoid congestion?
+[00:23:15] And with this increased activity, can we detect when something goes wrong? Like sharing with the wrong user groups.
+[00:23:23] Further supporting natural language query capabilities. Do we have a way to audit the prompts, the generative, AI responses, and look at that for accuracy and hallucination.
+[00:23:34] So monitoring becomes increasingly important for detecting performance bottlenecks and exposure to risk.
+[00:23:43] Exam example, here is that we have a study showing 50% of data breaches.
+[00:23:49] Involve Insider threats to the organization.
+[00:23:54] So with more and more users, we have more and more activity. We need comprehensive monitoring
+[00:24:00] this is kind of a new Insider threat that we have to be prepared for
+[00:24:06] As business users are increasingly uploading, documents and data to third-party generative, AI sites.
+[00:24:12] And to have that information summarized or analyzed.
+[00:24:16] And this is a very easy way for sensitive and confidential data data to be accidentally, shared outside of the organization.
+[00:24:24] It's growing more and more common across organizations.
+[00:24:30] So to do this, we first need to establish, what? Behaviors and activities we need to monitor for.
+[00:24:37] There are some positive ones we want to see.
+[00:24:39] user adoption and increase number of users and content in particular pieces of content that are
+[00:24:45] Actively being used.
+[00:24:46] We want to monitor for performance and look at the number and speed of queries CPU usage. Data time refreshes to see where the trends are going in those particular metrics. And of course, look for governance policy breaches excessive exporting of data, sharing sensitive, uh, information, that sort of thing.
+[00:25:06] And then we need to understand how we're going to monitor that.
+[00:25:10] Most bi platforms, have audit, log capabilities, and some also have out of the box monitoring uh dashboarding reporting capabilities.
+[00:25:19] The question is, are those individual enough? Do they have uh, retention policies that keep the data as long as you need? Do you need to export that information?
+[00:25:28] And some had do have.
+[00:25:30] capabilities built in to monitor those generative, AI interactions so that we can watch for the prompts the response and those hallucinations
+[00:25:42] And if that's not enough, do we need to implement casbs to offer real-time monitoring and potential blocking?
+[00:25:49] and if none of these are enough,
+[00:25:51] we might lead to consider custom-built solutions to aggregate logging capabilities and analyze them on our terms.
+[00:26:00] and if we monitor something and see that something has gone wrong,
+[00:26:05] we need feedback loops.
+[00:26:07] To resolve issues and prevent reoccurrence. So we need a formalized process to investigate identify follow up.
+[00:26:15] And resolve.
+[00:26:17] This could include adjusting training programs data, quality fixes, adding new assets to our data layer or even individualized, refresher trainings and Report tuning.
+[00:26:29] Because true intuitive expertise is learned from prolonged experience with good feedback on mistakes.
+[00:26:39] And I should also remind you at this point.
+[00:26:42] That managing self-service analytics is not simply about control. It is about further. Enablement, adoption and building trust in our data.
+[00:26:53] So as part of our monitoring and feedback loops, it's important to also highlight those positive behaviors.
+[00:27:00] reward Innovation and valuable Solutions because this can then influence others and promote further adoption
+[00:27:09] so,
+[00:27:10] To be successful with self-service analytics governance.
+[00:27:14] There's pretty simple formula.
+[00:27:17] We need to provide good quality fit for purpose data.
+[00:27:21] Secure it and give them access to it.
+[00:27:24] Educate our users on how to use it.
+[00:27:29] And monitor it so we can see what they're doing. Provide the appropriate feedback to encourage adoption improve performance and reduce organizational risks.
+[00:27:43] and with that, I
+[00:27:45] I also want you to consider the following action plan for what you should be achieving with your self-service analytics programs.
+[00:27:52] Within the next few weeks months and over the course of the next year.
+[00:27:57] And I'll stay on here because I'd I think you that you should take a picture of this or at least remember to download this presentation from the conference Navigator, so that you can review it later.
+[00:28:08] And with that, I would like to thank you for your time this afternoon.
+[00:28:12] I appreciate you and I hope you enjoy the rest of the conference.
+[00:28:17] Thank you.

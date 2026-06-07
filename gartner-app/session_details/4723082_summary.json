@@ -1,0 +1,90 @@
+{
+  "summary": "The session focuses on building a context layer for reliable AI agents, emphasizing the need for engineered knowledge rather than off-the-shelf solutions. It discusses the importance of connectivity, understanding meaning through semantics, and achieving business outcomes with AI. The speaker encourages organizations to leverage ontologies and knowledge graphs to enhance agent performance and decision-making.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Context Layer",
+      "key_points": [
+        "Context layer cannot be bought; it must be engineered.",
+        "Trust in AI requires reliable knowledge access."
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:03:14"
+    },
+    {
+      "order": 2,
+      "topic": "Understanding Agent Connectivity",
+      "key_points": [
+        "Agents need to connect to data sources effectively.",
+        "mCP serves as a gateway but is not the core solution."
+      ],
+      "start_time": "00:03:14",
+      "end_time": "00:09:03"
+    },
+    {
+      "order": 3,
+      "topic": "Importance of Semantics",
+      "key_points": [
+        "Semantic definitions are crucial for accurate data retrieval.",
+        "Knowledge graphs and ontologies enhance agent understanding."
+      ],
+      "start_time": "00:09:03",
+      "end_time": "00:19:05"
+    },
+    {
+      "order": 4,
+      "topic": "Operational State and Provenance",
+      "key_points": [
+        "Agents need situational awareness for effective decision-making.",
+        "Provenance helps track decisions and outcomes."
+      ],
+      "start_time": "00:19:05",
+      "end_time": "00:26:14"
+    },
+    {
+      "order": 5,
+      "topic": "Actionable Steps for Organizations",
+      "key_points": [
+        "Focus on use cases to improve agent performance.",
+        "Implement knowledge engineering as a practice."
+      ],
+      "start_time": "00:26:14",
+      "end_time": "00:29:33"
+    }
+  ],
+  "key_takeaways": [
+    "Build a context layer that is tailored to your organization's needs.",
+    "Leverage knowledge graphs and ontologies to improve AI agent performance.",
+    "Focus on delivering business outcomes through effective use case implementation."
+  ],
+  "entities": [
+    {
+      "context layer": 5
+    },
+    {
+      "knowledge graphs": 6
+    },
+    {
+      "ontologies": 5
+    },
+    {
+      "mcp": 4
+    },
+    {
+      "ai agents": 7
+    },
+    {
+      "semantic layer": 4
+    },
+    {
+      "situational awareness": 3
+    },
+    {
+      "provenance": 3
+    },
+    {
+      "data products": 3
+    }
+  ],
+  "subject_area_id": "agentic_ai"
+}

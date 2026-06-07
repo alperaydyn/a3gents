@@ -1,0 +1,94 @@
+{
+  "summary": "The session discusses how Logo Plus transformed its supply chain planning using AI to address challenges in the manufacturing industry, such as supply disruptions and the need for sustainability. The presenters highlight the limitations of traditional methods like Excel and MRP systems, and introduce Agaria, an AI-powered engine designed for advanced production planning. Key outcomes include significant improvements in planning speed and efficiency, alongside enhanced human interaction with the AI system.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction and Industry Challenges",
+      "key_points": [
+        "Manufacturing faces significant challenges including supply disruptions and sustainability demands.",
+        "Traditional production planning methods are still prevalent, with many relying on Excel."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:03:00"
+    },
+    {
+      "order": 2,
+      "topic": "Limitations of Traditional Methods",
+      "key_points": [
+        "Excel is flexible but prone to human error and not scalable.",
+        "MRP systems require specific skills and are complex to maintain."
+      ],
+      "start_time": "00:03:00",
+      "end_time": "00:06:00"
+    },
+    {
+      "order": 3,
+      "topic": "Introduction of Agaria",
+      "key_points": [
+        "Agaria is an AI-powered engine for production planning and scheduling.",
+        "It integrates multiple technology layers for optimization and learning."
+      ],
+      "start_time": "00:06:00",
+      "end_time": "00:12:00"
+    },
+    {
+      "order": 4,
+      "topic": "Functionality and Human Interaction",
+      "key_points": [
+        "The system allows for continuous learning and human interaction through a chatbot.",
+        "Users can modify plans and understand the reasoning behind AI outputs."
+      ],
+      "start_time": "00:12:00",
+      "end_time": "00:19:00"
+    },
+    {
+      "order": 5,
+      "topic": "Results and Impact",
+      "key_points": [
+        "Planning speed improved significantly, achieving up to 36 times faster results.",
+        "Quality optimization and demand sensing features enhance production efficiency."
+      ],
+      "start_time": "00:19:00",
+      "end_time": "00:26:00"
+    },
+    {
+      "order": 6,
+      "topic": "Change Management and Future Outlook",
+      "key_points": [
+        "Human involvement is crucial for successful AI adoption in planning.",
+        "Organizations must adapt to new technologies and workflows."
+      ],
+      "start_time": "00:26:00",
+      "end_time": "00:27:05"
+    }
+  ],
+  "key_takeaways": [
+    "AI can significantly enhance production planning efficiency and speed.",
+    "Human interaction with AI systems is essential for trust and effective decision-making.",
+    "Organizations must embrace change management to successfully integrate AI into their operations."
+  ],
+  "entities": [
+    {
+      "excel": 5
+    },
+    {
+      "mrp": 4
+    },
+    {
+      "agaria": 5
+    },
+    {
+      "production planning": 8
+    },
+    {
+      "demand sensing": 3
+    },
+    {
+      "quality optimization": 3
+    },
+    {
+      "supply chain": 6
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

@@ -1,0 +1,192 @@
+[00:00:04] Hello, welcome to this session on emerging solutions for decision intelligence and this will feature the magic quadrant for decision, intelligence platforms.
+[00:00:20] The quadrant. Well, it's new. It's come out in January, it was new this year.
+[00:00:26] And to have a brand new magic quadrant that's never existed before in a new market it's like a baby elephant.
+[00:00:34] It takes a really long time and it's really special.
+[00:00:39] So,
+[00:00:40] Decision intelligence and the solutions that underpin it.
+[00:00:44] Um,
+[00:00:45] so,
+[00:00:46] 40%.
+[00:00:48] What could 40% be?
+[00:00:50] We surveyed, uh, some executive leaders involved in data and Analytics.
+[00:00:55] And we asked them, what are the expected benefits? They would get from making their decision making processes more formal, more governed and more transparent.
+[00:01:08] and 40% of them said,
+[00:01:11] We will get improved decision, outcomes.
+[00:01:17] And that surprised us.
+[00:01:18] because really 40%, we've always assumed that
+[00:01:24] everyone wants Better Business outcomes. That's why we're bothering with decision.
+[00:01:30] Intelligence and decision intelligence Platforms in the first place. But no, only 40%. It was the sixth, most popular response in the survey. So, there are a lot of other things that people expect will be bigger benefits than improved outcomes for decision-making.
+[00:01:47] But we'll get to that later.
+[00:01:50] So I'm going to talk about what is decision intelligence, why it's important and then get through onto the capabilities and I think of decision intelligence as a practice as something we do.
+[00:02:07] Decision intelligence platforms is a unique technology that sits beneath that. You may
+[00:02:15] Need to support your decision. Intelligence.
+[00:02:18] so,
+[00:02:19] What is decision intelligence itself?
+[00:02:22] Well, it is a practical discipline. It is something you do. It is not a a framework.
+[00:02:29] as such, it's something you do practically
+[00:02:33] It advances decision making by explicitly, understanding and Engineering. How decisions are made? Because currently we have a challenge with that, in many, many business decisions. We don't know how they were made. We can't repeat them. We look to the past. We we just don't know anything.
+[00:02:53] And we also want to.
+[00:02:55] Evaluate manage and improve the outcomes of decisions by.
+[00:03:00] Feedback, you know, data and analytics. We're all about looking at what we did, how can we do it? Better looking at what's coming in the future with much of business decision making? We just can't do that. So that is what decision intelligence is.
+[00:03:15] Going to get us to.
+[00:03:16] So, whether or not you end up adopting a decision intelligence platform.
+[00:03:21] Everyone should consider decision intelligence as a practice improving decision, making in terms of doing it. Better and doing it in a more repeatable and a transparent and an understandable way.
+[00:03:36] So, why do we?
+[00:03:38] I'm so sorry. I'm a clicker is going backwards.
+[00:03:41] Yeah, I know where I am now. Apologies.
+[00:03:44] Decision in.
+[00:03:45] Intelligence practical, discipline, improving understanding. Thank you. Okay.
+[00:03:49] So, why is decision intelligence emerging now? And to be fair, it's not really emerging. Now, it's been emerging over the last few years, um, probably 8 or so, years ago, we started identifying decision intelligence and actually, where it came from. Is from data and analytics teams, who had ended up with many reports, a lot of analysis, a lot of great data science, and yet the value was not quite there. There weren't really being recognized by the business for how valuable all of this was. And really, it turned out that what we needed to do is align with decision, making more closely,
+[00:04:29] Now.
+[00:04:30] None of you look as old as me.
+[00:04:32] But I was in data and analytics at the start and it was actually called decision support. We had operational systems. We had a lot less, uh, automation than we have now. And then early reporting systems were called decision support because there were different decisions that needed to be taken across the business that needed data to flow between different systems. You could take all the product decisions you wanted based on reporting from the products system, but what if you needed to look at products and customers? So data? And analytics has always been focused on improving decisions and yet we're still failing a little bit, we need to have a decision intelligence approach. So why do we
+[00:05:15] Need it now well.
+[00:05:17] Obviously the environment is more challenging than ever before. In terms of volatility uncertainty complexity and ambiguity, but I think we coined the term vuka a couple of years ago and then we stopped using it because it just was almost too scary. We're in a very challenging time and also importantly, we have a lot more regulation than we used to have. So transparency is becoming much more critically important
+[00:05:42] On the other hand, of course, we also have more opportunities, we have more data, we have more AI, we have more digitalization, so data and processes are accessible to us. So we have we have opportunities alongside the challenges.
+[00:06:00] And they really meet at this Nexus of the urgency to take Better Business decisions. We need to take them more quickly, we need to take them at scale, we need to take them accurately. Um we need to take them dependent on individual circumstances and this is where we get to decision intelligence.
+[00:06:19] and there are
+[00:06:21] 3 ways in which people and it work together.
+[00:06:26] To take decisions.
+[00:06:29] Now, I haven't got a thing. Okay, um, decision, support decision, augmentation and decision automation.
+[00:06:38] But before I get to those, let's go back to our survey data. So, you recall, 40%
+[00:06:43] of our
+[00:06:45] Business Leaders involved in data and analytics. Thought that a continuous Improvement of the decision outcomes would be a really important benefit of decision. Intelligence, but it was only the sixth most popular response.
+[00:06:59] So, some other responses that were kind of even less popular are uh ensuring compliance with required processes and regulations. Now why is
+[00:07:13] Compliance so low because where you've got a compliance reason for decision. Intelligence, of course, it's going to be critically important. I think it's possibly just showing as 39% because that's very industry specific. So in financial services for
+[00:07:30] Example, Consumer Financial Services. Um, transparency is more critical than perhaps in other areas. So that is my theory. All of these are important potentially in different contexts and that is also something to consider when you look at Research into decision intelligence platform technology, it's covering a very wide range of industries of use cases of types of decision. So drilling into what is important to your organization is really critical. You don't, it's not like an analytics and bi tool where probably any of the good ones will be fine and you can have a look and play and put in front of the business. Users decision intelligence platforms are the opposite of that. You really need to be careful to match to your requirements.
+[00:08:15] Moments. So we've got compliance accountability 37% mitigate bias, 28%, almost like a relatively minor consideration. The important considerations are to ensure alignment of organizational goals and objectives and to reduce inconsistencies in decision-making. Those are actually the biggest problems that we have with decision. Making not that. Well, we'd like to do decisions better, but actually you've got different parts of the business taking decisions in ways that conflict each other or go against goals. We've got goals for functions that don't align with each other or don't align with the organization.
+[00:09:00] As a whole. So we're really trying to get everyone in the organization on the same page and that is what a more formal approach to decision making.
+[00:09:13] But let's look at flavors of decision making, so we've got decision intelligence, we want to improve the transparency and accuracy and scale, and speed of our decisions. But of course, we're not coming into a green field. The world did not wait for us to invent decision, intelligence platforms.
+[00:09:32] To start taking decision. It would have been
+[00:09:35] So good. If it had, if all the technology became decision intelligence platforms, anyway, it's not realistic. You could say that about many things. So,
+[00:09:45] Ways in which people and Technology work together, there are 3 forms of this really. So on the left, you've got decision support. A person makes a decision. We give them information. We can give them very rich information. In this example, it's traffic management where you've got an expert human setting.
+[00:10:05] Uh, customized and time-specific speed limits on the motorway.
+[00:10:12] Very complex decision taken by a human with reference to Analytics.
+[00:10:18] On the other side, we've got decision automation.
+[00:10:21] And the example, here is financial trading, but mortgage agreements in retail banking would be another fantastic example.
+[00:10:30] A lot of analytics from about the property about the individual about history about future, all sorts of analytics goes into the mortgage agreement. But ultimately it's a decision that banks have to take quickly repeatably and transparently and then if things change in the market then they perhaps have to change and evolve that business model.
+[00:10:53] Now.
+[00:10:55] For decision automation.
+[00:10:57] Actually, we already have automation. So where do we need a decision? Intelligence platform as something different. We need it where the decision model may change over time.
+[00:11:09] because we've got analytics systems that give us analytics for humans to look at
+[00:11:13] We've got operational.
+[00:11:15] systems that give us process that will ultimately automate but it's where we need this additional level of
+[00:11:24] Agility collaboration ability for business, experts to get in and change the decision. Model, not just thresholds in a decision, but actually how a decision is taken. Add an extra layer of authorization, add a different piece of Analytics.
+[00:11:40] Cut some Loop out and Route decisions to to another person or another entity and that's coming into decision, augmentation. And the decision augmentation is where we have a gap in the current technologies that we have. So decision, augmentation is when a person and it worked
+[00:12:00] Together to take the decision. And the example here is medical diagnosis in the form of a recommendation.
+[00:12:08] So AI in diagnosis is really hugely. Powerful can look across many, many individuals can find all sorts of parallels. Someone with the same condition, the same General Health, the same history of treatments.
+[00:12:25] And they can present that information to the clinician. Now would you want an automated diagnosis? Well not for anything, that's very complex and also the clinician
+[00:12:35] Mostly has the legal obligation to get the diagnosis, right?
+[00:12:39] so the human expertise and knowledge of the person in front of them, combines with the
+[00:12:45] Information from the AI and you've got decision, augmentation, and that is where we have a technology Gap. We've already got plenty of technology for decision, support, and decision automation.
+[00:12:57] Let's drill into those types of decisions in a little more detail.
+[00:13:02] So decision support could have 2 flavors. You could have a human with a a pure decision support is when a human decides what analysis to use.
+[00:13:13] Or you could have an advisory where a system is giving the human the analysis to use.
+[00:13:20] Based on some form of a trigger.
+[00:13:23] In decision automation, you've got a recommendation, AI suggests the human either uses or ignores.
+[00:13:30] You've got approval, AI Act and the human explicitly approves. First retail price optimization, I believe often Works in that way. The machine has has the suggestions but the human takes the specific approval just to make sure there's not a unique situation where you need to do something more with price optimization than just, you know, supply and demand and reversible, perhaps you've got AI acting and in some cases, a human will reverse a decision. Perhaps, you've got a 24-hour window for example,
+[00:14:03] And finally decision automation you've got the audit style where AI acts and the human reviews the decisions in bulk. Remember ultimately we're looking to improve decision, making and scan.
+[00:14:15] And speed and accuracy are part of that in some forms of decision, we'll get to Automation and then we'll review them afterwards. As they do with with mortgage loans. Did we agree the right number of loans is our risk profile, where we want it to be, do we need to change those decisions? And finally, autonomous AI acts. No human review unless needed. Um, of course, there's a huge amount of hype around autonomous, use of AI. But of course, we are very long way away from that. We've got all these other levels to to get through first. So as you look at re-engineering decisions in your organization, think about what's realistic in terms of the level of automation sometimes
+[00:15:00] The interim levels are kind of steps to ultimately get to autonomous.
+[00:15:06] Other times, some decisions will never become autonomous. They will always have some form of human interaction.
+[00:15:16] now, not only so, just
+[00:15:19] Keeping talking on the technologies that we already have for decision making. If we look at the stages of a decision that a business user of an analytics platform would go through
+[00:15:31] They they need to decide to decide like at, they need to know that a decision is going to be taken.
+[00:15:37] They need to understand the scope and the context of that decision.
+[00:15:42] Look at options and outcomes.
+[00:15:45] Balance, you know what, what they might do? What the outcomes might be.
+[00:15:49] Select the best course of action.
+[00:15:51] Take the action and then track and analyze the results of the action, which is where we go back, round the feedback loop. How, when, next time we decide to decide? How did we decide last time?
+[00:16:04] And of course, we have a huge amount of data and analytics technology. That's already available to underpin these areas. So for decide to decide you've got a alerts, you've got anomaly detection. Perhaps if we're looking in a very retail real time environment, we've got complex event processing to tell us when something is needed, we've got all sorts of Technology already available to help us.
+[00:16:30] decide, but what a decision intelligence and a decision, an approach and a decision intelligence platform are going to give us are
+[00:16:39] More transparency into what the actual decision model itself is going to be. If you need a platform that will allow you to collaborate with business users on a decision. Model view that decision model understand how it's evolved over time be able to audit decisions as the decision model has
+[00:17:00] Has worked over time and then it passes actions through. It's a middleware layer, it passes actions through to your operational system and to your analytics system. Then you may need a decision intelligence platform but do not
+[00:17:15] Assume that decision support means you now need to have a decision intelligence platform.
+[00:17:21] Now, 1 of the challenges with the term decision intelligence,
+[00:17:26] Is it's too cool. You know it sounds like business intelligence but better. Yay, let's reinvent decision intelligence.
+[00:17:35] Whoever in an organization. Here's the term decision, intelligence and thinks now
+[00:17:41] No, I don't want that know, my decisions are fine, their intelligent, nobody ever thinks that and we have a little challenge with this in the market. There's a lot of what we call Di washing. People calling something decision. Intelligence as a fancy name for business intelligence. It's not, it's not.
+[00:18:00] Helpful, um Gartner has deliberately a fairly specific. Um, decision intelligence platform definition, other uses of the term are still a little bit broader.
+[00:18:11] But yeah, do not be confused. So what this is talking about is
+[00:18:17] capabilities for decision intelligence and Improvement of decisions that exists in other forms of technology. And you can see down the side, we've got support, augmentation Automation. And then across the side, we've got the decision types. We've got the pre-owned, well, structured decisions. And we've got the situational and adaptive decisions where we need more agents and simulations and decision intelligence Platforms in.
+[00:18:45] Includes these. But then at the heart has a decision model.
+[00:18:49] Interestingly.
+[00:18:51] Certainly to me.
+[00:18:53] At the top left, you've got business intelligence.
+[00:18:56] But you've also got that aligns with pre-owned. Well, structured decisions.
+[00:19:02] And I think I've always known that that's how business intelligence works. But actually
+[00:19:06] Now, in the days of AI agents, it looks pretty old-fashioned. You know, we've got the most human Centric.
+[00:19:14] Way of humans and Technology to interact with decisions.
+[00:19:18] And yet, we're applying that to the most
+[00:19:21] standardized repeatable decisions that is an opportunity for some level of automation or augmentation.
+[00:19:30] So decisions. Come in many flavors, each have their own benefits. We've got strategic operational and tactical decisions all can potentially be supported by decision intelligence platform, or by other technology.
+[00:19:47] so,
+[00:19:48] What are the capabilities and who are the providers? Is it time for the quadrant?
+[00:19:54] No, sorry, not yet because if you've ever chosen a technology platform through Gartner research.
+[00:20:04] You may very well start with a magic quadrant. Um, you know, it's a great graphic. It looks good.
+[00:20:11] The graphic, the graphics get available everywhere because I think we push them out to people.
+[00:20:15] But the full report of, like, 80 pages is really full of useful information about the market about the vendors, um, strengths and weaknesses of each vendor that come from our detailed research, really powerful. Um, but actually every magic quadrant has a sister report called the critical capabilities and that is the 1 where we would recommend that you start when you're evaluating technology for your own use,
+[00:20:43] So, you go to the quadrant, you click on critical capabilities, which is, they're always linked together. And what you'll see is for what we call a little unhelpful use cases and critical capability, use cases are technology. Use cases ways that that technology is used.
+[00:21:00] And these are the 4 use cases for decision intelligence platforms.
+[00:21:05] now, with analytics and bi the use cases are often
+[00:21:11] That is quite clear. What you might want to do? Like do you want to do, self-service analytics, or do you want to do govern, centralized analytics, or do you want to do decentralized? And you would probably just choose 1 of the use cases in that critical capabilities for decision, intelligence platforms.
+[00:21:28] You will probably need to do a bit of all of these. So the use cases are helping you focus. And then what you do is you look at the use case and the use case actually gives you a set of aggregated scores and then it gives you the vendors and the, the scores in those categories. So it gives you
+[00:21:45] A lot more specific information. So, in terms of these decision intelligence platform, technical use cases, decision analysis is where you have a low, a no code or low code interface to collaborate with business users on building a decision model and that is the key thing, that makes the decision intelligence platform, something different and unique.
+[00:22:05] Decision engineering can also be like low code, no code, but that's about the operationalizing of decisions. Running them at scale, IP API connectors through to your operational systems for actions.
+[00:22:19] Decision science is data science. Simulation the ability to look ahead and say okay how should we take these decisions and then analyze them?
+[00:22:30] Once they've been taken and decision stewardship is about governance for some particular types of decision. The repeatability, the transparency, the compliance is really important. So look at where you want to start focusing. As you start to bring together your short list or long list of vendors.
+[00:22:49] In terms of scores for the use cases, these are our quartile ranges. So the line is everyone top and bottom, and then the box is the 25th and the 75th percentile in score terms. And you can see actually scores don't vary enormously across across the use cases.
+[00:23:12] Now, these are what we call. The critical C.
+[00:23:15] Capabilities themselves. So, when you go into any of the use cases, you'll see these
+[00:23:21] Uh, capabilities listed with a description of each and you will also. And you will see a waiting for each because the model has all the lower level scores these aggregated.
+[00:23:33] And then we wait them differently depending on the use cases. So for example, decision governance would have a higher weighting in all of the governance related capabilities, transparency checking with policies, Etc. So in terms and how the title was it decision, modeling decision, collaboration, decision service composition so we can see where the ranges of the scores. Are you see the biggest range of the scores is in
+[00:24:00] Governance. So this shows that generally, some platforms are very good at this and others are just really not good at it. And part of the reason for this is because of the industry context is quite varied for decision, intelligence platforms. So if you've worked in a lot of financial services, you may likely have better governance capabilities. If you've worked in a lot of marketing use cases, it just won't be quite so important. So again, it's always about matching to what your, what your own context is and what you're trying to buy. We also can see that. Collaboration isn't very good really generally somewhat low scores collaboration again is a really important point of decision. Intelligence platforms, anyone use or remember rules?
+[00:24:45] Engines.
+[00:24:46] Rules engines were supposed to be for business users to be able to build the rules and run the rules engine.
+[00:24:55] No, we had to train up a whole new type of person to edit the rules engines because they lacked they lacked agility, not their fault, that was how technology was but now collaboration. So that all the right stakeholders can view and edit the decision model is really important.
+[00:25:12] In terms of techniques, these are the more
+[00:25:17] They're not it's not compulsory for a decision intelligence platform to have these individual techniques. These are things, you may like to have that may be useful like perhaps you are particularly Keen to
+[00:25:30] Do optimization and simulation for example, for what if analysis to uh to Future proof decisions and something you can see scores are fairly low on these which kind of shows the diversity. You've got some that score reasonably well on natural language, for example, and others that just aren't interested in it because it's not related particularly to their customer segments.
+[00:25:55] How to read a magic quadrant? Gosh I can't wait for it to come and uh this is my stuff. How to, how to read a magic quadrant?
+[00:26:04] The vertical axis ability to execute focus on today. How are they doing right now? And we give a high weight to the product and services the overall viability.
+[00:26:15] The market responsiveness and the marketing execution, because actually marketing execution shows, you know, how to tell your story and to get in front of people and then we give a medium weight to customer experience and to sales execution and pricing.
+[00:26:31] The horizontal axis, the vision is the focus on tomorrow, of course, viability of vendors is really important, so we want to look at who may not be doing so well. Now but as got a strong vision and there you can see the weightings of the capabilities there. And remember we're trying to compare and contrast Global vendors for our Global customer base. So making it a like for like comparison is really important.
+[00:27:00] Okay.
+[00:27:02] Here it is. The magic quadrant. And yes, I know you can have clicked on gartner.com, um, but here we go. So
+[00:27:11] You will notice I mentioned, this is uh perhaps I didn't, it's an this is something of an immature Market. It's a new quadrant and you can see that it's an immature Market because you've got so many vendors kind of clustered around the bottom left in a mature Market, you get far more leaders and in a diverse Market you can get a kind of equal spreading between all the 4 but we've got vendors represented in each.
+[00:27:39] Quadrant, which you don't always get. And yeah, the sign of an emerging market and please can.
+[00:27:45] Look at your requirements, look at the critical capabilities and the critical capabilities, by the way, evaluate the product, only the magic quadrant itself looks broader at sales and marketing execution. How well they, tell their story, which will help you tell your story internally, viability of the vendor. The critical capabilities is just product.
+[00:28:06] so,
+[00:28:07] Who are in our quadrants. I'm not going to read everyone out. I'm just going to talk about the, you know, when to look in which quadrant.
+[00:28:15] So from a leader perspective, evaluate these for comprehensive capabilities, you're in a complex business. Um, I spoke to someone today, we were talking about supply chain and adaptive.
+[00:28:26] Products and they can make their products in all sorts of different.
+[00:28:30] once of their plants hugely complex, look at a major
+[00:28:34] A major vendor and these would be your Manchester City your Paris Sanja man.
+[00:28:40] Your Bayern Munich, these are your leaders, you know.
+[00:28:46] Leading now, and with a strong vision for the future.
+[00:28:51] Okay, challenges.
+[00:28:53] Challenges are reliable and mature and have a good history. Could have a rules engine history. A lot of the vendors have, um, they don't have a dramatic Vision but they are reliable. So if you're organization is low risk and aligns with these capabilities, then these are great ones to consider. And these would be
+[00:29:15] Your Atletico Madrid, your Juventus, your Spurs reliable. We've known them for a while. It's all good.
+[00:29:25] Visionaries and we have 2 vendors Envision faculty. AI actually got acquired by Accenture.
+[00:29:32] so,
+[00:29:33] You may well see them being remarketed via, um, the Accenture services and these have more Innovative Concepts. They're not executing the best currently, but their vision is very strong in terms of future Concepts. Agentic, AI gen AI, driven, modeling decision, Centric organization. And this is where the football gets controversial because this is bright and Hope, albian from Sussex by the Sea, my local team.
+[00:30:00] not my, uh, Eternal team and apparently essay longs
+[00:30:04] Would also be in this category. Don't know if you've got any fans in who Could validate that.
+[00:30:09] And finally Niche players. Um,
+[00:30:13] focus could have a focus on a specific industry or region. And by the way, a magic quadrant has to be horizontal for all Industries unless it's specifically defined for 1 industry. We specifically said, we evaluated vendors who were included in, they had to have customers in 2 or more Industries. They could not be a single industry focused vendor. So they all have at least 2 Industries. So, do consider the niche players because they could very well aligned with what you're trying to do.
+[00:30:45] And this are Brentford FC and sieburg.
+[00:30:51] So honorable mentions, um, we do get asked why our Microsoft and pallante, not in the quadrant, and the reason is, to be in the quadrant, they have to have a decision intelligence platform offering that sold as a product rather than having individual capabilities, that could be combined for decision intelligence because actually anyone in analytics has got a lot of capabilities, you could combine for decision intelligence. So, that is why those 2 were not included. Um, we have 17 vendors in the quadrant we, um, we evaluated 80.
+[00:31:25] So we really look broadly at the market to whittle it down to these
+[00:31:30] so, finally recommendations
+[00:31:34] Please don't start with technology. It's kind of the fun part to evaluate technology and consider. And also of course vendors that explain things really well can really help with with your understanding of the market but please start with your own organization identify what you're trying to do which of the decisions that are going to best benefit from being improved. I opened by talking about how many mature data and analytics teams don't get the credit for the value that they bring
+[00:32:05] Because there's kind of an execution. Gap decision, intelligence closest, the execution Gap. Where are the important decisions that you will show value from?
+[00:32:15] Improving.
+[00:32:16] Add decision modeling skills, think about the model of the decision whether you're going to be extracting that from a legacy Erp or from a current operational system or from somebody's mind as they retire.
+[00:32:30] Think about modeling decisions and mapping those decisions so that we can gain this better transparency.
+[00:32:37] Consider a decision intelligence platform, if you need the additional capabilities. I spoke to somebody yesterday who was talking about using some reports using some way of documenting a decision model. Decision, intelligence platforms are fantastic but they are, they can be intense, large purchase technology if you need 1.
+[00:33:00] If you question, whether you need 1, you may or not need 1.
+[00:33:03] But do consider them in terms of uh, forward-looking and yet, determine the use cases and the potential for decision Improvement.
+[00:33:12] Look, look into the future. Look over the next few years. Now, we have got some research on decision governance. Um,
+[00:33:20] What decision intelligence can bring to a gentic AI is actually some decision governance in terms of understanding the decisions we're taking making them transparent. So there's a role that decision intelligence can help you. As we move forward into agentic AI.
+[00:33:39] And with that, I will point you to our research that we have available and just say thank you.
+[00:33:45] Very much for attending the session. Thanks for being at the conference.

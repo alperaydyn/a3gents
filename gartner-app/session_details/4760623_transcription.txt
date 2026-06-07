@@ -1,0 +1,177 @@
+[00:00:07] 1.
+[00:00:15] Today. Physicians. Spend their lives caring for others, but endless hours spent typing up. Patient. Notes means they hardly get time for themselves. It's time to give doctors their time back into systems, in
+[00:00:45] Care, takes notes, places, orders and more. So doctors can focus on their patients, not their paperwork. A Next Generation EHR built to save time, relieve burnout and restore balance for health care. Providers 1, family dinner at a time.
+[00:01:07] Good afternoon, everyone. Thank you for joining us today or good morning, depending on where you came from. I'm from the other side of the Atlantic. Um, together in this session, we will dive into the Fantastic world of uh, AI agents. Agentic first Solutions, AI first Solutions and uh, we'll see how AI agents operating on a data fabric can really revolutionize our data.
+[00:01:30] Today experiences, our daily experiences. So, what we'll do today is, we'll start with, uh, the demonstration of a real product, uh, that is built with an AI first, uh, agents first mindset. And then we'll actually show you a real scenario. Uh, that is, uh, our doctor patient conversations and how AI is impacting that conversation and last but not the least, we're double. Click on the technology and the architecture uh that made it possible.
+[00:02:00] My name is Gohan you, I'm the head of product for inter systems data platforms. Uh and today joining me are uh Laura MacArthur our clinical executive and Carmen log. Um that's the she's the product leader for data.
+[00:02:15] AI analytics on our team. Um,
+[00:02:20] we talked a lot about AI machine learning, but you all know that these are not necessarily new technologies. Uh, what happened in the last couple of years is with the Advent of generative, AI chat, GPT coming up. It. You know, the conversation became democratized part of our daily conversations.
+[00:02:35] Um, generative, ai, ai in general uh can be very transformative and Powerful used for personalization automation decision making. Um and um the reality is uh a lot of the generative AI projects today, uh, tend to actually fail.
+[00:02:54] Uh and there are reasons for that. Uh, they don't return, they don't deal the return on investment.
+[00:03:00] Expected. They don't deliver the expected results. Um and um creating a demo seems to be very easy because we all are doing that, obviously, right? I think you are doing that too, but getting a real solution working end to end in production at the trust level that you want turns out to be very difficult.
+[00:03:21] Key challenges that we all need to overcome.
+[00:03:23] AI first Solutions, agentic Solutions. Need AI ready data.
+[00:03:27] And it is just simply hard to get.
+[00:03:30] Even if we have the most intelligent system, if we feed in low quality data, low quality input, the system will simply not yield the results that you're expecting.
+[00:03:41] well, in a real business setting and you all are
+[00:03:45] In a real business setting I'm sure uh that could be a significant problem. There are systems are applications need to deliver trusted and accurate results at all times.
+[00:03:56] And now we've got llms in the mix building and working Enterprise solution. Even without a AI was not that easy. You all know that, but now with LMS in the picture, it became even harder. We're now communicating with external third-party services that make non-deterministic things happen, right? And the cost is a factor as well because we pay by the token and they're not necessarily cheap. We worry about it for both ourselves from a financial perspective as a company. But most importantly, for our customers.
+[00:04:30] And I am sure you heard about it in this conference and in your own circles that, you know, generative AI projects. Okay, tend to not go to production. It might take a very long time and even more surprisingly, a lot of them seem to be failing or not. Moving forward at the POC stage.
+[00:04:50] Really shocking, surprising right?
+[00:04:54] So um, before we dive into the details, what I'd like to do is actually start with a real example. Uh, that I think will resonate. All of us are doctor patient conversations. We all have been patients. Our loved ones have been patients, so we can relate to it. And Carmen, and Laura are going to walk us through an experience.
+[00:05:15] In a in a real product, a lead, a leading uh, EHR solution, electronic health record solution, intersystems intellicare, the experience of a real product and will show us how AI agents are really fundamentally changing. The doctor patient interaction. Uh Laura if you don't mind, could you tell us and show us how agents running in a fabric can transform even an industry? Like healthcare, which everybody knows that it's a little more conservative than the other Industries I suppose. So please tell us what's happening.
+[00:05:46] 22. So as Goen said, my name's Lauren and MacArthur. I'm delighted to be here today with you.
+[00:05:51] As a little bit of background and you can use your adding up to see how old I am. I worked in the NHS across Scotland for 30 years as a nurse so health.
+[00:06:00] Here is something that remains, um, really core and something that I'm completely passionate about delivering and improving patient care. I was lucky enough to join inter systems 10 years ago and I now manage our clinical team within the UK and Ireland. So let's look, and let's start talking about how we can reimagine our Healthcare and how we can deliver that.
+[00:06:20] Unusually. I'm going to start with 2 questions, just to get you thinking and get you a little bit more involved in this.
+[00:06:26] So what if our biggest opportunity today was not about giving us more people, IE putting more clinicians on the floor, or putting more funding into the NHS or our Healthcare organizations but actually can be used the data that we already have in a better way.
+[00:06:44] And the second.
+[00:06:45] Anyone will be?
+[00:06:46] AI isn't about replacing our clinicians.
+[00:06:49] It's about giving them the tools to support them to make better decisions. Thus improving our patient care.
+[00:06:57] I believe at inter systems, we are doing that and we'll give you a demonstration. As we said about intellicare is 1 of our products.
+[00:07:05] The reality today within the health care is we're not short of expertise but we are short of those connections and information.
+[00:07:13] The information that clinicians have at their fingertips, Still Remains complex. It means fragmented.
+[00:07:19] And staff are spending far too much time. Looking at a PC trying to search complex, um, pieces of functionality to be able to find the information that they need at their finger.
+[00:07:30] Ship to be able to treat us as patients and our relatives.
+[00:07:35] Without platforms such as intellicare. AI is being used to bring all that information together.
+[00:07:40] As you'll see in the demonstration, later on, we're going to be able to summarize complex histories at a point of contact.
+[00:07:48] And it will also allow us to support the next steps. Such as completing that documentation, which we know is heavy for a burden.
+[00:07:56] And also being able to do the coding and also suggesting actions in follow-up that we need to complete.
+[00:08:04] For me the reality really matters and how this is being done.
+[00:08:07] This isn't about the AI making the decisions. It's about supporting better decision making for the clinicians.
+[00:08:16] Is also really important.
+[00:08:18] The AI is not an afterthought but it's something that's already built and is it the core of the solution?
+[00:08:23] So that it then supports the patient workflow and it's not something that's sitting at the side.
+[00:08:29] For me, the real value has got to be when AI is embedded at the core. It works seamlessly with the data
+[00:08:35] and within that clinical context, when you're in seeing the doctor,
+[00:08:41] this shouldn't be something that staff have to then look and log on to a different system and make it more complex for them. It should be working seamlessly with them to improve the patient's care.
+[00:08:52] How many people in the organ in the audience today? Work in healthcare.
+[00:08:57] Show our hands.
+[00:08:58] Future hands, which is really nice.
+[00:09:00] To be able to see that, I'm pretty sure that the vast majority of why understand that Health Care is 1 of the most complex and highly governed, governed areas that we work in no matter where you are within the globe.
+[00:09:13] So that means that every decision that we make affects patient safety.
+[00:09:19] We have to ensure that the governance is there. The audibility the compliance and the regulation are all contained, within the solution?
+[00:09:27] Because if any mistakes are made that will impact what, we are delivering to our patient care, it'll impact the trust, and also possibly impact, patient outcomes. So it must be built in the core within the solution and not sitting at the side of it.
+[00:09:42] We always want to make sure and I'm sure everybody.
+[00:09:45] To the terminology of keeping the human in the loop. So what we'll do is we'll surface that information. We'll allow it still to be editable.
+[00:09:52] They can approve it and they can amend it before. Any information is then saved and actioned.
+[00:09:59] We want to be looking at how do we replace digital filing systems with information and systems that will actually work. And enhance our, how we treat our patients, we want to move from being proactive to reactive, sorry from being reactive to proactive and predictive
+[00:10:18] I'm sure everybody in the audience here has either been a patient at some time or has been a relative.
+[00:10:24] We have many, many use cases, where, the AI and ambient voice technology can support us in our
+[00:10:30] Decision making.
+[00:10:31] But 1 of the most complex ones I used to work in an ICU and you would have extremely difficult emotionally and highly sensitive conversations with patients and relatives.
+[00:10:44] Quite often.
+[00:10:45] He didn't take any information.
+[00:10:48] He didn't understand it. And before you know, it, 2 or 3, other relatives would come in and the story had been changed.
+[00:10:55] 1 of the greatest things that I think we can do with this is using that technology to be able to support these conversations. Can you imagine having the ability to be able to record that conversation?
+[00:11:07] Allowing you to be able to summarize that put it into what we're now calling easy read. So that's in understandable language.
+[00:11:15] Joe public can understand and we can actually give them that to take away with them.
+[00:11:20] What it will do is they'll reduce the miscommunications that we have and make sure we all have a common understanding.
+[00:11:27] There's also multiple other ways that you could do this with patient handovers, you can do it in Ward rounds. You can do it as part of a cardiac arrest. I'm sure you've all watched casualty, so there's lots of different ways and uses that we can use this technology to be able to save time. And accurately, um, document, what's happened to the patient?
+[00:11:46] What we're going to do just now is just do a we bit of a run through so I need you to put your imagination on. I want you to think that we're in an outpatient department and I'm going to be doing an outpatient consultation and we're going to show you on the screen. Some of the actions are how intelligent
+[00:12:00] Currently works with us just now. So as I say, if you put your imagination on that, we're sitting down and we're in an environment where we're having a conversation,
+[00:12:09] I can ask you. Come on, man.
+[00:12:16] Hi Melanie. How are you doing today?
+[00:12:20] Well I'm I'm pretty good but I am here so I'm not perfect. Yeah absolutely. If it's all right with you, what I'm going to do is I'm going to start recording our conversation. I want to spend time listening to you and giving you my full concentration, so I'll record this and it will summarize it. At the end. Is that all right with you? Yes, that'd be fine. Fantastic. So I can see from your referral that you've been referred because you've got shortness of breath. Can you tell me a little around that? Yeah.
+[00:12:45] Yeah, that's right. So sometimes when I'm walking upstairs or moving very quickly, I start to feel a little tightness and I I I'm just short of breath. That's what I've been noticing. Oh, that's interesting. What I'm going to do is I'm just going to bring a summary of your um, past history within the solution so that I can see any structured or unstructured data and it can return that to me, okay? I can see from that, you've got a history of diabetes and also high blood pressure. Yes, that's right. And it says that you're taking some medication. Can I just check? Are you still taking that medication? Yes. Yeah I still take that medication. Okay. And you haven't forgotten to take any and have not changed any Doses and anything? No, nothing. I've been. I've been great about that. That's really good. I'm glad to hear it.
+[00:13:26] Can I ask you a couple of other questions as well? Then if that's all right.
+[00:13:30] Sure. So, during your shortness of breath, do you ever get any tightness or pain in your chest or any pain in your arm or your neck? I I don't notice very much. It's really mostly about the shortness of breath.
+[00:13:41] And have you had any palpitations? So, a quickening or a feeling in, in your central chest.
+[00:13:47] I don't but you know I just remembered I did I brought this with me. I um was visiting Italy, a couple of weeks ago and I had 1 of those episodes and so I brought along my um the the information from that visit fantastic, we'll just take a picture of that so that I can upload that into your record if that's all right, as well. Yeah, I'll give you that back so that you go to it but I've now got a record of it as well if that's okay. Mhm.
+[00:14:12] Next thing I want to just double check. Again is
+[00:14:15] We've got do some trains of your blood pressure. So just to see how stable that's been over the last 5 years or so. Mhm. So what we can do here within the solution is we can ask it to give us the trends, it gives that information and a really succinct manner so that it's easy for me to be able to read and understand.
+[00:14:34] I can also see from the letter from Italy here that um, they've suggested they did an ECG mhm. And they also did an echocardiogram. So a scan of your heart, they both looked really well really good. However, they are suggesting. You get what we call a cardiac MRI. And also a CT scan. Did they explain that to you at the time? Yes, they did. Fantastic.
+[00:14:56] So what I'd like to then do is also do some additional tests for you. I'd like
+[00:15:00] To run a full blood count. Because sometimes when you've got a low hemoglobin that can make you short of breath,
+[00:15:04] and I was also like to do a chest x-ray because the chest x-ray can show if they're training infection there.
+[00:15:10] Is that all right with you if we can get these tests organized in the next few weeks? Yes, that'd be great.
+[00:15:17] What you can see here, what's happening within the solution as well is we can capture that information during that recording. We can also upload that letter so that the letter is there within the solution as well?
+[00:15:28] And what we're actually going to be seeing next on this screen is how that will then summarize that information for us. So again, it's reducing the burden for the clinician doesn't need to then type that information in
+[00:15:39] It actually captures everything so that you then get a trace for, allow you to be able to go back to that.
+[00:15:45] Oh, doctor. I also, um, I'm in the middle of making a move to Paris. Oh, pretty nice. Yeah, I'm wondering if you could, if you could provide that information to me in French in case I need it once I arrived there. Absolutely. Not a problem. We'll do a bit of a summary for you. We'll get that transferred over into your patient portal. We can put it into English and we can also give you a copy and French if that would help you. Okay. That would be great. Thank you, fantastic. So, what we can now see on the screen here is we are reducing the documentation. It's automatically capturing that conversation and giving us a structured feedback,
+[00:16:19] There is a way for you to be able to look at the source text and also to listen to the recording just so that you can double check. Everything was correct.
+[00:16:28] It's also giving us suggested proper.
+[00:16:30] Problems and it can give suggested diagnosis. I didn't make a diagnosis within that consultation, but had I, it would also give us that suggestion, we can then add it and keep it and store it within the record.
+[00:16:42] And you'll also see that it gives us an ability to record those additional actions. So it's taking it that 1 step forward further. It heard me saying that I wanted to do a full blood count and also the chest x-ray and also the MRI. And it's automatically take me and the same screen to have the ability to place those orders.
+[00:16:59] So, overall, what it's doing is saving that manual interaction with a PC, it's allowing me to interact face to face with the patient to ensure that we can deliver the best care possible.
+[00:17:11] You'll also see we now have a summarization here in French.
+[00:17:15] We've tried this multiple languages, um, and it works really well.
+[00:17:19] This can be sent to the patient portal. So the patient has immediate access before they actually leave the consultation.
+[00:17:26] It's all right. Melanie, I'm going to let you go just now. We'll organize those tests and we'll have you back in in the next week or 2 if that's okay, that's great. Thank you, Doctor fantastic. Thank you.
+[00:17:37] What we've really shown here is how AI natively within the solution.
+[00:17:43] It's not a separate, it sets off on the side.
+[00:17:46] Allows us to bring our data and for it to work closely together.
+[00:17:52] It improves our patient Journey. Reduces the burden with the clinicians and allows us to be able to succinctly capture that information.
+[00:18:00] When we bring unified structured and non-structured data together using things, such as ambient voice, technology and AI, we can transform how we deliver our care to our patients.
+[00:18:14] We're already using this in a number of sites across the world and we are seeing fantastic results which really excite me.
+[00:18:22] We've got customers who are already reporting that. They're seen an increase.
+[00:18:26] In 50% faster, documentation.
+[00:18:29] And they're also seeing a 90%.
+[00:18:32] Faster ability to be able to summarize and access that information. So that means giving us at our fingertips within a few seconds. The right information at the right time and in the right.
+[00:18:45] Pleased to be able to treat our patients.
+[00:18:50] Lastly, for me, I think this is not
+[00:18:52] No longer something AI is something that we're just going to be using.
+[00:18:56] but AI is something that the system will then become
+[00:19:01] when you hand you back over to Google can now
+[00:19:06] Thank you so much. Uh Carmen Lorna, this was a great demo, I really appreciate it. Um and um
+[00:19:14] this really kind of highlighted how um AI can help us reimagine the experiences that we're having today on a day-to-day basis. Uh although we gave you a specific example and specific industry, I think you can all very easily, see how the solutions or the patterns apply
+[00:19:30] Here can actually be used in all sorts of other Industries for a wide range of scenarios. Uh, a few years ago, we were thinking about um ambient listening, being kind of an exception for a specific doctor that we're doing under the desk but now it's mainstream, right? So it's really changing the way we're thinking about some of the solutions in uh in all Industries.
+[00:19:51] So what I'd like to talk about is some of the key design considerations that we had to keep in mind as we were building the solution. Uh, number 1, the agents that were used in this demonstration needed a complete view of the subject. In this case, the subject was our patient, but it could be your customer. It could be your business, it could be your devices. But AI agents for them to operate in a trusted, reliable way. And make
+[00:20:15] The right decisions. They need the context and a comprehensive view of the data.
+[00:20:19] Uh, and we had to use private data in a trusted govern secure way.
+[00:20:24] In an ethical way.
+[00:20:26] Uh that's kind of part of the requirement of of the specific industry that uh we're operating and last but not the least, since the decisions are life-changing and can be life-changing in a lot of places, we have to make sure that humans are in the loop and in this specific case humans are in control all the time.
+[00:20:46] The accuracy of the decisions was of Paramount importance, llms do hallucinate and they will continue to hallucinate. Uh, so we have to make sure that we minimize the inaccuracies and the hallucinations and the system.
+[00:20:59] even we
+[00:21:00] Integrating with third-party Solutions now llms uh and other AI uh, Services. Uh, we had to make sure that everything that's going across the wire is observable, traceable, auditable, and more importantly explainable.
+[00:21:16] And last but not the least, we're paying a lot of money for the tokens. You all know that and they you know you run out of them once in a while cost management is a very important consideration in in at least today's implementation of the agentic solutions.
+[00:21:33] Now, let's double-click and actually talk about the architecture or the technology said that made this solution possible.
+[00:21:40] More like a blueprint.
+[00:21:42] At the heart of the solution was actually.
+[00:21:45] Very powerful Advanced agentic Network.
+[00:21:48] We had to orchestrate a bunch of agents and make them work together to build. What you just saw agents that did ambient listening that did speech to text, um, extracted, medical information and insights from the sound bites.
+[00:22:05] Agents that took that information and fed it into external llm services that in return, uh, created.
+[00:22:13] Visits some patients summaries referrals, right? All of that.
+[00:22:20] For the agents for any decider to make the right decision and agents are deciders. Now in our systems, uh you need a comprehensive view of the world.
+[00:22:30] So, inter systems data platform acting. As a data fabric enabled us to build that comprehensive view, build that comprehensive context by bringing structured unstructured. Semi-structured data together
+[00:22:44] Um, this is the beauty of a multimodal data platform. You can bring all data together and it was also the common security control and governance play.
+[00:22:54] So, we're not only managing data but getting governance and last but not the least. This is also the semantic fabric. The context is at the heart of the solutions and data fabric patterns, help you manage the context as well.
+[00:23:11] we said that decisions we made in this specific case could be
+[00:23:15] Life-changing. We had to ensure that humans are in control. So we built real-time guard rails. Real-time feedback loops from humans to the agentic network.
+[00:23:26] And of course, we did prompt management making sure the prompts are structured correctly and people are not giving instructions to the agents that they're not supposed to give
+[00:23:36] When we're interacting with third-party external Services, we build API, Gateway, and AI Gateway patterns that basically Trace all the communication between this agents and the external services.
+[00:23:50] Put guardrails around them, uh, and also uh, applied.
+[00:23:55] Sorry, I should go forward, uh, applied Advanced Model Management.
+[00:24:00] Techniques to make sure that we're choosing the right model at the right time.
+[00:24:06] And when we were done with the solution, the overall B blueprint looked something like this, right? Agentic Network operating on a smart data fabric.
+[00:24:16] Surrounded by guard through guard rails, and Gateway patterns to manage Communications interfacing with a lot of external services in the mix.
+[00:24:29] Well, this was just an example of how a smart data fabric can really form that AI backbone digital backbone, for solving a complex problem, like the 1 we just showed, right? But you can easily see how this pattern can be applied in a lot of Enterprise. This is economic
+[00:24:45] Data and AI problem, at the end of the day, in any industry, in any world, we have a lot of data producers transactional, operational Data Systems that create data that is useful. We need to bring that data together. Harmonize it and give it context, so that it makes business sense. And there's a lot of consumers that would like to benefit from that Data Insights and context. A lot of consumers,
+[00:25:08] So, this pattern could be applied.
+[00:25:10] In almost any place. So I talked a lot about data Fabrics. I'd like to invite Carmen back so that he she can give us a view as to what data fabric patterns are and how our data platform enables implementation of these patterns. Yes, I would love to do that. Thank you.
+[00:25:26] So, I played the patient in the opening demo.
+[00:25:30] Segment there. So I want to assure you. First of all that I am fine. I'm going to be okay. I know a few of you in the front row, looked a little worried um but in real life I'm a I'm a product manager and so I love nothing better than to be able to share an example of a real life in Market product to illustrate what we're talking about today.
+[00:25:49] And in that example that we saw, um, there were a lot of examples of AI and these are I think, as Gohan said, becoming more and more commonplace, we're getting used to the idea of ambient listening, we're getting used to the idea of automatic summarization happening. So I'm not going to talk so much about that. I am going to talk about how data Centric. All of that activity is that's I think the the important part here we've got all of those.
+[00:26:15] Sources on the left hand side. So everything from patient records, to recorded data to that picture. That image that was included in there. Lots of different types of data that are coming in and lots of sources on the other side that are recipients of that data. So not only Dr. Lorna in what she was looking at but the the um Clinic where I'm going to go get my testing. Also needs that information um other practitioners might need that information. So all of that activity is happening in the 1 thing, you do not want to have to do is to create a point-to-point connection between all those sources and all those destinations. So what you want is actually a what we call a data fabric architecture.
+[00:27:00] It's where the consumer doesn't have to figure out what the shape of the data is on the other side, whether it's real time or aggregated data, whether it's images or you know, other types of data, it wants a a data fabric to help consumers, get that data on their terms rather than on the terms of how the data is structured.
+[00:27:23] And at inner systems, we help our customers build a data fabric that ensures a simple and unified experience for all the data. So whether you're a business owner user and analysts a doctor, an application, or an AI agent, we want to be able to consolidate that data and get it to you. And we do that in a couple of
+[00:27:45] Of ways we Implement centralized metadata management.
+[00:27:49] And we build in indexing, so that we can do fast vector and hybrid searching on that data. And we can collect that data in any format that it's in. You saw an example there of structured data in the beginning as well as as a file as image data as well. That's important in Industries like healthcare and other other areas where we work.
+[00:28:11] And all of these Platt, all of these platform capabilities are not only available to the developers who build applications on our platform.
+[00:28:21] There are also available through a low code interface in our systems data studio. Um, so that other types of users can interact with that data as well.
+[00:28:30] And that includes AI assistance as part of that, who are helping you to peruse that data as well.
+[00:28:37] There's really 3 primary benefits that I want to focus on with this kind of approach 1 is common governance and that may be 1 of the more important things in a lot of the regulated and other industries that we work in and by having that single um that layer in the middle, that is a way to control that governance. The second thing is we take an approach that we call connect or collect in many cases. Our customers have data in locations that they can't phys. They can't move into our platform, it needs to stay there. For whatever reason either it's data that doesn't get used that frequently or it's um, it's older data Maybe.
+[00:29:15] But what we do is we capture metadata about that data, so we can incorporate that into into our overall structure so that we know where that data is and could get access to it when we need it. And then the second part of that is collect, which is like an ETL where we bring that data in manage it, um, inside the platform as well. So what that means is you don't have to take an awl virtualization approach. You also don't have to take an awl ETL approach, you can mix and match that if you want.
+[00:29:43] And the third thing is that the single source of Truth, which, of course everyone wants. Um, the only reason I mentioned that is because I I mentioned the, the indexing that we do in a lot of cases. We saw that for AI data, a lot of people were creating, uh, Vector databases that sort of stood alongside their other data source.
+[00:30:00] Versus. And so what we do is because that's all Incorporated in 1 place, we can do that fast, Vector search on our existing data platform.
+[00:30:09] So, we saw an example with Healthcare at the beginning, but in our systems has a long history of working, um, with lots of Industries, primarily Financial Services, um, supply chain and Logistics, government and Healthcare many industries that are that are regulated. And all of these, have the have 1 thing in common, which is that they all have critically important data to their organization that they need to be able to manage and get get access to, um, all of their consumers.
+[00:30:38] And with that, I'm going to turn it back to gokan to give us a few key takeaways.
+[00:30:44] Thank you so much.
+[00:30:45] So, what we try to show here is basically agentic workflows running inside the data fabric, not over not around. Inside the data fabric can really give us that cost effective trusted, AI solutions that we're all Desiring. So when you look at the things that we talked about as interest in data Technologies, providing number 1, this data fabric, pattern supported natively, from the data platform. Enables us to build AI ready data that we can, not only just construct it, but serve consumers in real time with interoperability orchestration integration. Part of the data fabric itself within the same architecture. We were able to reduce cost and complexity for building complex, agent networks. I'm sure you're hearing a lot about context management and orchestration.
+[00:31:30] Uh, if you've got it inside the fabric, not an afterthought as a, as a sidecar and last, but most importantly, being that common governance, security, and control plane, we're able to manage all these complexity in a trusted way that allows us to build applications. Um, agentic AI, first applications that we and our customers want.
+[00:31:51] Uh, so with all that said, I'll I'll spend a minute or so on, uh, talking about our company. I hope we earned it with all the things we showed today. Uh, our company has been in, uh, building Innovative data Technologies for more than 45 years in, uh, in many Industries. Uh, we operate globally, uh, in more than 38 offices worldwide. Um, and we're actually the back,
+[00:32:15] Born the AI and digital backbone for a lot of the mission critical uh applications in the world. Some of the, the most important ones, I would say selfishly, uh, a lot of electronic health record management systems are running on our platform. We manage more than a billion unique patient records globally. You can imagine the scale. Um, some of the most prominent EHR Solutions use our platform uh our financial services, customers 1 of our uh, larger customers is, um, processing more than 2 billion real-time Equity trades in 1 of the largest, um, stock exchanges in the US and a customer of ours. Again, a very large, um, Logistics and uh, supply chain company is managing, uh, 20 million.
+[00:33:00] Million plus shipping containers uh on any given day that's estimated to be 1/3 of all the shipping containers that are available that are roaming across the world. So just to kind of give you a sense of the scale and the mission criticality of the kind of solutions and applications. We build
+[00:33:16] And with all that said, before I say thank you, I would love to actually have a conversation with you about your experiences and your concerns, and how you're thinking about data, AI energetic Solutions. Uh, we are in the engagement zone, right? Uh, across the exhibit showcase at level zero. Please do stop by, and share your thoughts. We would love to hear you, and also feel free to connect with us on LinkedIn. Uh, we try to post our thoughts, there, uh, would be very interesting to hear your experiences and your thoughts. Uh, again, thank you.
+[00:33:45] Thank you so much for uh, taking your time today. I really appreciate it. See you around.

@@ -1,0 +1,307 @@
+[00:00:05] My name is Andres. I'm going to talk about, uh, how to build the context layer for Reliable agents.
+[00:00:12] And you have been hearing a lot about context so I will try to elaborate a little bit more and go a little bit more deep uh about this topic.
+[00:00:21] Uh, spoiler alert.
+[00:00:24] The context layer is something that
+[00:00:28] You cannot buy on its own. It's not something that uh, is something that you need to engineer. And we, I will speak about that now.
+[00:00:36] But before starting, I want to share with you a story that happened a few weeks ago, and this went viral.
+[00:00:43] Why are we talking about this kind of thing?
+[00:00:45] Things.
+[00:00:46] If you see here, this tweet about this guy.
+[00:00:49] He used.
+[00:00:51] A llm, a chat, a chat to try to get some insights for an Excel file.
+[00:00:56] And the results were as you can expect completely wrong.
+[00:00:59] What happened? There was that
+[00:01:02] the llm didn't even open the file.
+[00:01:06] So now that that may be fun.
+[00:01:08] We might be smiling now, but what happens if this is something that happens to the some data that we are presented to the board?
+[00:01:16] Or if we are making some decisions.
+[00:01:18] That can affect the bottom line of our business.
+[00:01:21] That's not.
+[00:01:23] Fun. Any longer.
+[00:01:25] So we want to have more trust in the agents. We need to have
+[00:01:30] trust in AI, we need to move from
+[00:01:32] PCS to production.
+[00:01:34] And let me ask you a question now and be honest with yourself. Please, would you hire in your teams? Someone
+[00:01:43] if you knew that they were going to be wrong 70% of time,
+[00:01:47] No, you won't even 30%.
+[00:01:51] But that's what we are trying to move into production many times.
+[00:01:54] moving agents pulled by an LM that is has lots of knowledge, but the LM is not
+[00:02:00] Has it's not it doesn't have the knowledge about our specific way of working in our business.
+[00:02:06] So instead of being something that's going to automate improve the outcomes, this kind of new capability that's going to change the world.
+[00:02:15] Make our organizations, much more profitable.
+[00:02:18] They are becoming a liability.
+[00:02:20] We are spending custom tokens.
+[00:02:22] And we are not getting the results that we expect.
+[00:02:25] So I don't want to be negative. There's a there's a way forward and the way forward is thinking about what the LM needs,
+[00:02:35] To.
+[00:02:36] Act in a more meaningful way and it needs to access knowledge.
+[00:02:41] The knowledge is provided by the context and the context needs to come from somewhere. That somewhere is the context layer.
+[00:02:51] And knowledge layer that you cannot buy. You need to engineer to, to fit your specific needs. The context layer is
+[00:03:00] something that
+[00:03:01] You can you need to combine uh modeling engineering different kind of services in order to translate and deliver the tested knowledge in your organizations?
+[00:03:14] To the agents through an explicit knowledge representation. That's what we're going to talk about today.
+[00:03:21] So here is the question that I asked just to read the room a little bit to know. Where are we? Where is our level of knowledge about this kind of topics. So the idea is which of these knowledge engineering approaches, are you using in your AA projects? Maybe you are using ontologies and knowledge. Graphs,
+[00:03:40] probably, you are using a semantic layer for V to translate business terms into physical schemas
+[00:03:45] maybe a graph database, Maybe
+[00:03:48] none of the above questions. So let's see the results. We have more than 100 answers and
+[00:03:55] Well, not surprisingly.
+[00:03:57] We are using semantic layers for bi.
+[00:04:00] But as you can see, only 24% only 1 out of 4 people here in the room, you are leveraging knowledge, graphs and ontologies.
+[00:04:09] What does that mean? This means that we still does not are not providing the information. The knowledge that the agent needs in order to
+[00:04:18] Behave in the way that we expect.
+[00:04:21] And this justifies, this correlates very well and justifies.
+[00:04:25] the date that the data point that we know about the difficulty to move from,
+[00:04:30] Production from PC.
+[00:04:31] And from test and demos to production.
+[00:04:34] Because the agent is not acting on our specific knowledge.
+[00:04:40] Is acting only on General Behavior, but that doesn't fit with what we do in each of our own organizations.
+[00:04:47] so, today I'm going to talk about
+[00:04:50] 3, key issues.
+[00:04:51] The first 1, we need to understand how agents retrieve data, how they connect to the data.
+[00:04:57] Because if they need knowledge, they need to get it from somewhere. So let's let's talk about that a little bit.
+[00:05:03] But connecting to data is not enough.
+[00:05:06] We need to have an understanding of the meaning as well so that would be the second point that we will talk about.
+[00:05:13] And last but not least, the third thing that we
+[00:05:15] Need to talk today about is we don't need more PCS, we don't want only technical activity we want outcomes, we need business results. So how can context and context layers enable us to deliver this business results.
+[00:05:31] So, let's start with connectivity.
+[00:05:33] And if I talk about connectivity, maybe an acronym is going to come to your mind. How do I does an agent? Connect to a resource and a tool? So we are going to think about mCP,
+[00:05:45] And then CP is needed because an LM by itself, cannot Act.
+[00:05:51] And cannot understand what's going on uh in in organizations. So the agent needs to access resources, maybe a rag, maybe an AP
+[00:06:00] I maybe a database and we don't want to develop a specific um solution specific integration for each of the resources that the agent is going to to use. And you may know a lot about the C CP already because this is not longer emerging. This is something that is well established.
+[00:06:17] The what I would like to make it clear here and the knowledge that I usually, uh, make is that the mCP is like the door to your house.
+[00:06:26] So it you need the door in your house to let people come in, you don't want to smash a hole in the wall to allow people to enter. That's what it would be to the defying and deliver and develop a specific integration for each resource or tool that you want to use.
+[00:06:42] But in your house, the door is important.
+[00:06:45] But what's more important is, what is inside your house?
+[00:06:48] So, 1 mistake that, I see with many of the, uh, users that I speak with, is that okay? I have an mCP server, so everything is sorted out. Know you have a way to connect and to access your information, you have a way to enter your house, but if you enter your house, if you and your house is empty and if you enter your house and your house is,
+[00:07:08] Untidy.
+[00:07:10] You won't be able to leave comfortably in your house. And that's what happened. We, we need as well to take care about what is inside our house. We need to take care about your data and we need to provide
+[00:07:21] something.
+[00:07:23] Beyond the mCP server.
+[00:07:26] Uh, and a couple of things that that are concerned.
+[00:07:30] learning is the the
+[00:07:32] there are sometimes that we see PCS that are using directives and prompts in mCP, servers to guide the agents to some Behavior. This reminds me and some bad practices and anti-patterns that I saw years ago about implementing business logic in front ends of applications.
+[00:07:50] That's something that fortunately we have uh overcome this kind of challenges, but we are doing the same thing. Now with AI, we making the same mistakes. Putting business logic in the place that doesn't belong. We are doing this kind of mistakes again with AI. We need to put the business Logic. The meaning, in somewhere in some place that we can manage it, we can maintain it, we can govern it, we can own it.
+[00:08:15] So, an mCP survey is not the place to Define business logic in the same way that the front end of an application is not the place to define the business logic.
+[00:08:24] Okay.
+[00:08:25] And well Technologies change. So if we rely everything in nmcp,
+[00:08:30] Uh, we might get surprises. And sometimes for some use cases, we need to access directly apis. We cannot, uh, uh, we cannot accept the lack that, some calls will will have, uh, if we have an additional layer in the middle, so sometimes we need to access directly an API. So, mCP is great. It's a door to our house but it's not the core foundation, for what we need to build.
+[00:08:55] We can't rely.
+[00:08:57] in many of the artifacts that
+[00:09:00] We have been building for a long time in our data architectures.
+[00:09:03] If you are building data products, you are in a good track.
+[00:09:07] data products are great for organizing your information for providing it, to, to your agents and data, produced can and should have or must have
+[00:09:18] As Symantec endpoint on them.
+[00:09:21] That's what I call here as semantic data object. So if you are semantic data objects to your data products,
+[00:09:27] your data could be understandable in an easier way by your agents.
+[00:09:34] But this data products can be siloed data product is good for answering. A question about a single
+[00:09:39] A single domain, a single business process. Uh,
+[00:09:44] But what?
+[00:09:45] About more complex actions. More complex questions that we want to raise to be able to do it to answer. We need something else.
+[00:09:53] If, if we need a cross-domain analysis, how will the agent know which data products need to be used?
+[00:10:02] This afternoon, I need to fly home through hero. How do I get from here to Hero?
+[00:10:09] I'm not going to wander around by Brute Force, Wonder on London and I will eventually arrive in hyro after consuming, a lot of tokens of some AI that will help me. The first thing that I do is I check in, Google Maps. What's the best route to get to hyro?
+[00:10:26] So I'm guided there. There might happen, some things.
+[00:10:30] Maybe a train will not come. Maybe that will be disrupted and I can
+[00:10:35] maybe I will not be uh arriving to his room in the way that I expected but I will arrive in a guided way.
+[00:10:42] So, for doing that, our agents need guidance for these similar situations.
+[00:10:47] How do we guide them? We guide them with
+[00:10:50] ontologies and knowledge graphs onto is a knowledge, graphs provide
+[00:10:56] This semantic map that the agent needs to succeed in the task that is trying to perform.
+[00:11:03] This is going to provide the meaning.
+[00:11:06] That we are lacking now.
+[00:11:08] so, for this initial
+[00:11:10] He issue of of this presentation.
+[00:11:13] The key inside.
+[00:11:15] Is that knowledge graphs? Ontologies, they are no longer needs technologies that come from, the Academia, or for an each domain. They are must have capability in our in our agentic radio architecture. This is something that we need to plan for if we want to really Leverage
+[00:11:33] and really achieve all the expectations that we have in Ai and die and make an impact in our organizations.
+[00:11:41] so, as we saw,
+[00:11:43] In the poll that I shared with you now.
+[00:11:47] I expect this 25% to grow. And next year, maybe when we join again here, maybe we will see that that will
+[00:11:56] grow.
+[00:11:58] And I'm sure that.
+[00:12:00] By seeing that growing.
+[00:12:02] The number of successful production, deployments of AI agents.
+[00:12:06] and the outcomes that we are getting with this successful deployment,
+[00:12:09] Will grow as well. So I strongly encourage you to start exploring this additional capabilities that need to be included in architectures for agentic readiness.
+[00:12:21] So,
+[00:12:22] we use the door.
+[00:12:24] We came into our home.
+[00:12:28] But connecting connecting on shelves, connecting only by itself is not uh enough we need to have meaning we need to understand what's going on.
+[00:12:37] and I'm going to talk now about, uh,
+[00:12:41] Why do we need this kind of semantic definitions? And first of all,
+[00:12:45] Let me share some data about the survey that we share with you data analytics leaders and we we were asking the adoption of different use cases with Genai.
+[00:12:55] If you see here in the screen, you, you see you can see that the most adopted use case is code assistant, and that's something understandable and normal because
+[00:13:08] Generating code is technical deliverable. We are technical people. We are using a technical Innovation, like, knee. So we are like in our comfort zone.
+[00:13:19] We know what to expect. We feel comfortable with this kind of things.
+[00:13:24] but uh,
+[00:13:26] look at the second 1, the second 1 is conversational or natural language.
+[00:13:30] Which interfaces?
+[00:13:31] That's what's really catalyzing the change, because a conversational interface.
+[00:13:36] Is intended to be used by business users.
+[00:13:39] And business users are not talking about tokens about prompts, they're talking about Revenue. They are talking about attrition, they are talking about churn, they are talking about active users, they are talking about business terms,
+[00:13:52] And they are talking about business terms.
+[00:13:55] In the jargon of our own organization, maybe sales for me.
+[00:14:00] Doesn't mean exactly the same as sales for any of you because there are nuances in each organization and Industry that needs to be considered. So we need something else.
+[00:14:11] And when we talk about context,
+[00:14:15] Has to clarify uh a little bit. The concept context is the information that you put into the context window when you call an LM.
+[00:14:23] And context should not behave like a gas that fills the whole room.
+[00:14:28] But sometimes it does and sometimes we are encouraged.
+[00:14:32] To put as much information as we can into the contest window and that has 2 negative effects, the first 1. And this the obvious 1, the cost will rise. So if we put more tokens, we will more. We we put more information, we will consume more tokens and the bill will go up. The budget will go down.
+[00:14:53] And there is no necessary, a better answer by an AA agent. If we put more information there,
+[00:15:01] Information.
+[00:15:04] That is needed for the task at hand, but more information could be considered noise. So the law of diminishing returns is going to apply. So we need to
+[00:15:14] um,
+[00:15:16] We we need to have the right amount of information and that is was Context. Engineering is going to come to help us.
+[00:15:23] but it's very easy to, um,
+[00:15:27] Saturate, this funnel of Context. Engineering and there are some specific uh, data sources that come into the Context Engineering funnel that are really challenging to manage and to maintain
+[00:15:39] and if we want to have all this information of our previous actions,
+[00:15:45] We want to understand what we did in in the past we want to understand learn from the past, all these long-term memory, this is this could be huge.
+[00:15:54] And we need as well to have situational awareness. We need to know what is happening in our business right now. So all that information that comes in real time, that is relevant for the task that the agent is trying to execute. Now could also have a huge volume. So retrieval of this information becomes really critical to avoid
+[00:16:15] Saturating this Context Engineering, uh, funnel.
+[00:16:19] So this is where semantics and the context layer comes in to action.
+[00:16:24] Because they are going to uh help us being more focused in what we really need.
+[00:16:30] And you can say now. Hey, Andreas. But
+[00:16:33] We have been using semantic layers for more than 25 years and and that's true. That's true. We having, uh, using semantic layers for a while. They are the metadata the artifacts that translate the business terms.
+[00:16:47] Into sequels that can query the data, the physical data models that we have in our data Lake data warehouse or whatever but we have been using them only for acting as the back end of a dashboard only for visualization and dissemination of information purposes.
+[00:17:05] Now, we have a new stakeholder, the AI agent, and we can leverage this kind of structures. Maybe we need to refactor them to be more reusable more.
+[00:17:15] Uh, have a better representation of what we really want. Sometimes we think that we we have data sets in powerbi that might be enough
+[00:17:23] depending on how they have them, they have been modeling model it
+[00:17:27] But we can expose them through an mCP server.
+[00:17:29] And enable identic AI Behavior as well. So this is a way to
+[00:17:34] improve the accuracy of data retrieval.
+[00:17:37] because if you have heard,
+[00:17:40] That angle LM can generate a SQL.
+[00:17:44] That statement is true or false.
+[00:17:48] It can generate SQL. The LM has been trained with the SQL syntax.
+[00:17:52] But it has not been trained with your data models.
+[00:17:55] So most likely it will end up with a syntactically. Correct.
+[00:18:00] SQL, but not the SQL that you need for retrieving the information that you want. So the result will be wrong and that's what we're seeing for the last 2 years. If you use an llm directly to generate SQL by only, providing your physical schemas in the prompt. The accuracy is very, very low under 50%.
+[00:18:18] And probably under 25% of accuracy, as well.
+[00:18:21] So what do we need to do? We need to provide semantics, maybe add a semantic map in the prompt, or even better.
+[00:18:29] We can use the LM to translate the natural language query.
+[00:18:35] into a call to a Symantec endpoint and let the semantic engine like you have in fabric with semantic semantic layer in Snowflake with
+[00:18:45] Semantic views in data bricks with the semantic layer on top of unity catalog.
+[00:18:50] Use that to deterministically generate SQL.
+[00:18:53] So use the right tools for the right problems. Don't try to solve everything with with an LM.
+[00:18:59] I'm a probabilistic engine, so there are better ways to leverage semantics to have more accurate results.
+[00:19:05] So leveraging semantics is really important component of the context layer and I will stop here for for a moment because I think it's a very important um, concept to to have it really clear. I said at the beginning that the context layer cannot be built, the context layer is
+[00:19:25] Uh, we need to compose different Services, models capabilities that we have in the organization.
+[00:19:30] To retrieve and generate the right context. And there are like 3, big sets of information that we need to have in mind.
+[00:19:37] The first 1 I have been talking about now. Those are semantics, the meaning, the semantic, layer knowledge, graphs ontologies.
+[00:19:46] But we have to, we need to have the ability to access the real-time information that describes the current situation of our business.
+[00:19:56] Now, I'm in this room now, I'm in delivering a presentation.
+[00:20:00] but I need to have my eyes open because I can
+[00:20:04] fold down.
+[00:20:06] If I don't be, if I'm not careful. So I need to be processing information in real time that comes through my eyes, that's the operational state that I have in this specific situation.
+[00:20:15] If an agent doesn't know the current inventory levels.
+[00:20:19] Is not going to make a good decision about the replenishment of some product.
+[00:20:24] So the situational awareness of a specific kpi, the agent might need to know it for a specific task. So operational state is really needed and this is something that you cannot buy.
+[00:20:36] What you can buy is something that facilitates the access to your data products, the access to your real time fields.
+[00:20:44] But not really.
+[00:20:46] The information is yours. You're not going to bring it from from our side.
+[00:20:51] And there's a third component that is provenance.
+[00:20:54] Provenance is the ability to.
+[00:20:58] Trace.
+[00:21:00] What happened after you made a decision?
+[00:21:04] You can deliver an insight to an agent. You can have decision intelligence to model how a decision needs to be made.
+[00:21:11] But after a decision, something needs to happen.
+[00:21:14] After a decision, you need to execute an action.
+[00:21:17] And you can track that relatively easily.
+[00:21:21] With the logs of your applications. But there's a fourth component that you need to include here is what happened after
+[00:21:29] Did that action?
+[00:21:31] Drive a positive.
+[00:21:33] Business outcome.
+[00:21:35] Or it was not what we expected.
+[00:21:37] So, by bringing in this,
+[00:21:40] Experience. That becomes part of this so-called long-term memory.
+[00:21:45] Available to the agent, we will enable continuous learning from our AI. We will be able to speed up the learning process.
+[00:21:53] So remember the context layer that provides that helps us to bring all the information that we need.
+[00:22:02] To generate the context that the agents need.
+[00:22:04] needs to be combined of meaning access to real-time data, that provides
+[00:22:10] Operational State and situational awareness.
+[00:22:13] And learning from the past and learning from the business outcomes that we did get or did not get as well.
+[00:22:22] So,
+[00:22:23] For wrapping up this section.
+[00:22:26] Remember that sometimes the LM is not the right.
+[00:22:30] Tool for solving a problem. Sometimes it is we don't have a magic hammer that is going to solve everything for us.
+[00:22:36] Maybe it cannot and maybe it can, but a much lower price much higher price. Sorry,
+[00:22:41] Try to ask gemini or chgb to come from 1 to 100. Let's see what happens. It's going to miss.
+[00:22:47] So, use the semantic layer to generate deterministically the sequel and use the LM to understand the intent of a prompt.
+[00:22:57] so, if you want High reliability and Trust,
+[00:23:01] you need to think a little bit carefully, uh, about what is needed for each, uh, step of a workflow.
+[00:23:09] So, we solve context, sorry, we solve connectivity.
+[00:23:14] we now,
+[00:23:15] Understand. Meaning thanks to ontologies Knowledge, Graph and semantics.
+[00:23:18] Let's be meaningful. Let's be useful. Let's generate outcomes for organization.
+[00:23:24] because not always we are succeeding in generate outcomes and here we have another data point for another survey that uh we we
+[00:23:34] We did a while ago and we see that only 1 out of 8 organizations are really getting value from the AI and authentic AI.
+[00:23:43] Most of the organization are still in the state that I'm in a PC that might work. Looks promising, but I'm not still there. So how can we move forward?
+[00:23:52] So, for moving forward. Remember what I talked about getting into hero?
+[00:23:56] We need to have a semantic map, but this is not a static map.
+[00:24:00] With turn by turn directions.
+[00:24:02] We need something. Something that orients our agents to understand how our business work.
+[00:24:09] And then we need the agent to.
+[00:24:12] Query this kind of semantic map so it can reach.
+[00:24:17] The goal that it wants to reach and the goal is a business outcome, might be reducing cost might be.
+[00:24:24] Growing or sales reducing or controlling better risk.
+[00:24:28] So we need this kind of situational awareness.
+[00:24:31] But this is, as I said, not a turn by turn direction. This is not something that is static. This is something that enabled the agent to be aware of what's Happening, orientate, and decide to act. And I would like to introduce here.
+[00:24:45] The concept of perceptive Analytics.
+[00:24:47] perceptive analytics, is the next step of analytics in which
+[00:24:51] We can decide and execute automatically actions in our operational processes.
+[00:24:57] so, for example,
+[00:24:59] uh,
+[00:25:00] if I try to get the train and the train is not coming.
+[00:25:04] I might want to ask for an Uber.
+[00:25:08] but if there's a big traffic jam,
+[00:25:10] I might want to wait, and until the next train comes,
+[00:25:14] and if the next train is not coming, I might want to book a hotel because I might need to wait until tomorrow because I will miss my plane.
+[00:25:21] so, in a book environment, we need to adapt
+[00:25:25] So the intended plan for a business process, might not work as we expected.
+[00:25:30] But we need to have these situational awareness.
+[00:25:34] And we need to have these policies, definitions guidance in order to make sure that the agent is not doing anything crazy. For example, I don't know, trying to get a plane to the United States instead of to Spain. That's where I need to go.
+[00:25:48] Okay, so
+[00:25:50] look at this graphic and it's something really really important. After we get an Insight, we make a decision, then an action and we get out outcome. But look at this feedback. Look at the feedback. Look at the bottom.
+[00:26:01] That generates the data that we need.
+[00:26:04] To learn from the past experience.
+[00:26:08] That's what is going to become the provenance, component of the context layer that I shared before.
+[00:26:14] so, that's a very
+[00:26:15] Critical capability.
+[00:26:17] So how does the ontology and the knowledge graph looks like?
+[00:26:21] This is an example. You can take a look at that, but what we are modeling here is relations between different assets. Different concepts, different policies. We have goals, we have business processes. We have, we have actions if we model this and we store the information about this, we would be able to then provide this information to the agent.
+[00:26:43] And generate the context that the agent needs.
+[00:26:46] And how do we build this?
+[00:26:49] So, the first advice that I would like to share here is don't try to model your organization at once. Don't try to boil the ocean,
+[00:26:57] that could be very frustrating, so focus on the delivery in value.
+[00:27:00] How do you focus on delivering value? Think about use cases.
+[00:27:03] Think about the use case in which your agents are not really achieving the level of accuracy that you expect.
+[00:27:09] And Define a minimum viable, ontology.
+[00:27:12] And test how this minimum of viable onto is going to help you improve the behavior of the agent improve the outcomes that you're getting.
+[00:27:21] So that's the idea.
+[00:27:23] So defining this use case oriented approach is going to really, really help.
+[00:27:27] so, for graphing up this last session this last section
+[00:27:32] Remember that knowledge engineering.
+[00:27:35] Defining, these goals generated this.
+[00:27:37] Generating, this ontologies is a critical capability to achieve the value that you are.
+[00:27:45] looking for,
+[00:27:47] so,
+[00:27:48] When you get home tomorrow after this exciting. Um, conference
+[00:27:53] The first thing that you should do.
+[00:27:55] Is assess what you already have in your organization. So most of you answered that you already have semantic layers for bi. So what information is there, do you already have a common vocabulary? Can you provide this information to your agents?
+[00:28:10] So leverage that use that understand which skills you have now.
+[00:28:15] Talked to your business. Identify, this use case,
+[00:28:18] that you can leverage to test this hypothesis and then for the next quarter,
+[00:28:23] Build a solution and test that solution for the use case that you have selected, bring a fusion team.
+[00:28:30] Bring a knowledge engineer.
+[00:28:31] A data engineer, an AI engineer.
+[00:28:35] Work with the business.
+[00:28:38] Bring the technologies that you need for implementing this. Maybe you already have something in your organization. Maybe you have uh, label property graph for a triple store that you can leverage for for achieving these goals and start delivering it.
+[00:28:51] And then measure the impact that you are.
+[00:28:55] Getting from this initiative, measure the outcomes that you are getting, uh, and then iterate improve.
+[00:29:03] And Define solutions for more use cases. Grow your ontology and Implement knowledge engineering as a practice in your organization.
+[00:29:14] So I leave you here.
+[00:29:15] With some recommended readings, if you want to.
+[00:29:18] Explore a little bit more about this topic. We are publishing a lot more, we are working on that, but if you
+[00:29:25] Have a key. Takeaway for today's conversation, let it be that
+[00:29:30] forgetting the business outcomes that we expect with authentic AI.
+[00:29:33] You need to work in ontologies Knowledge Graph and this context layer to provide access to the information to your agents. This is a critical capability of duration. So enjoy the rest of the show. Have a safe travel back home and thank you very much.

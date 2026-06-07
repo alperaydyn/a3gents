@@ -1,0 +1,61 @@
+{
+  "summary": "The session focuses on navigating the complexities of becoming an AI-first enterprise, emphasizing the need for a data-driven culture and decision intelligence. It outlines three postures of AI ambition: cautious, opportunistic, and AI-first, and discusses how organizations can transition between these states. Key strategies include understanding AI's impact on organizational structures and utilizing value stream mapping to demonstrate the connection between data initiatives and business outcomes.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to AI First",
+      "key_points": [
+        "Defining AI first and its implications",
+        "Understanding the importance of a data-driven culture"
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:10:00"
+    },
+    {
+      "order": 2,
+      "topic": "AI Ambition Postures",
+      "key_points": [
+        "Three postures: AI cautious, opportunistic, and AI first",
+        "Characteristics of each posture and their implications"
+      ],
+      "start_time": "00:10:00",
+      "end_time": "00:20:00"
+    },
+    {
+      "order": 3,
+      "topic": "Strategic Planning and Value Stream Mapping",
+      "key_points": [
+        "Mapping AI postures against strategy and operating models",
+        "Using value stream mapping to connect data work to business outcomes"
+      ],
+      "start_time": "00:20:00",
+      "end_time": "00:30:09"
+    }
+  ],
+  "key_takeaways": [
+    "Organizations must establish a clear understanding of what being data-driven means to guide their AI initiatives.",
+    "Value stream mapping is essential for demonstrating the impact of data initiatives on business outcomes.",
+    "Leaders should actively assess their current AI posture and plan for transitions to achieve an AI-first enterprise."
+  ],
+  "entities": [
+    {
+      "ai first": 5
+    },
+    {
+      "data-driven culture": 4
+    },
+    {
+      "value stream mapping": 6
+    },
+    {
+      "decision intelligence": 3
+    },
+    {
+      "ai cautious": 3
+    },
+    {
+      "ai opportunistic": 3
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

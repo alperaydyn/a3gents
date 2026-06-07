@@ -1,0 +1,144 @@
+[00:00:05] Hi, everyone. My name is Daya. I know the last 2 days have been really pumped up and I'm very happy that you still chose to join this session because I'm sure there's been so much that has come your way and this and you must be happy to take some of it back and then talk with your colleagues and those who couldn't join us the last 2 days, right? So yeah, thank you. And welcome to the session.
+[00:00:32] When you see the title, I'm sure your bottled by some of those heavy words out there optimize rationalize.
+[00:00:40] Data and analytics governance program, technology stack.
+[00:00:45] I'm here to kind of simplify it for you. I'm here to break it down.
+[00:00:50] Essentially, what we want to help you to. At the end of this session, is when you go back and when you look at your technology stack, you should be able to look at. Am I am I having the right Technology support to deliver my governance outcomes?
+[00:01:06] Am I able to demonstrate the impacts? Can I showcase Roi to the leadership? When they ask me?
+[00:01:12] And these are the answers that we are going to help uh get to at the end of this session.
+[00:01:18] Now, a little bit of backstory. So when I was in school, uh, my parents would shift me off to my grandfather's house for the summer vacation.
+[00:01:28] I loved it because it meant.
+[00:01:30] A lot of freedom for those who, you know, have grown up with grandparents, uh, and they really spoil you.
+[00:01:36] It would be really hot during the day. But during the evening to really cool us off, we'd go to the Terrace, right? And as a 7 or 8 year old, I would really look up and those were the days where you could really see the stars twinkling because yeah, pollution was still not a thing.
+[00:01:53] So you could see the stars twinkling and I would wonder. Right wonder what's out there and I would have so many questions right? And not that I have the answers now. But for a 7 or 8 year old, it meant that you know you could just think a lot and just wonder what's out there.
+[00:02:11] Now that I'm analyst, right? And I help.
+[00:02:15] Signs on that, similar journey of uncovering. What technology can they adopt to help them on their governance Journey?
+[00:02:23] I have that similar sense of uh, feeling when they asked me these questions, where do we start? We have so many fragmented Technologies to help us in our governance initiatives. How do we really make sense of it?
+[00:02:37] And finally, as our latest CDO survey, the 2026 1 says that for 45% of data and analytics leaders have the responsibility for architecture and Tech optimization.
+[00:02:52] So that's an overwhelming number of data and analytics leaders who feel that they need to do something about their Tech stack.
+[00:03:00] However, the survey also tells us that it's only a minuscule only 10% of the leaders who've managed to scale and optimize their governance. That
+[00:03:10] And that is a discrepancy, and that is something that we hope to address.
+[00:03:15] Now, the first part of the presentation in the next 10 minutes or so I want to lay down some of the challenges, right? It's only by understanding the challenges that we can effectively think about how do we overcome that.
+[00:03:29] and the next part of the session, what I want to really give you is some of those thoughts tools, which you can take back, and if this is a relatable scenario or you, if you are on those shoes, or if you can help someone who's kind of undergoing that journey to simp,
+[00:03:45] Simplify it, I want to leave you with a couple of thoughts tips and tricks to take back.
+[00:03:51] Now, the first 1 where we talk about the challenges, right?
+[00:03:55] When you, when you're trying to procure your data and analytics governance technology,
+[00:04:00] 1 of the 1 of the fundamental issues is that we still don't have an understanding of where governance fits in and where management comes into play.
+[00:04:12] So that has been a tradition that has been there for the last 15, 20 years.
+[00:04:19] And then there is complexity of the decisions which need to be managed while you're in the process of procurement.
+[00:04:26] This is an image which has been brought together by 2 of
+[00:04:30] My dear colleagues Mark bio and anurag Raj because we had increasing number of client inquiries coming in because we were not able to really capture where governance kind of comes in where management kind of comes in and where that overlap happens.
+[00:04:48] If you look at what is meant by governance again, you will see keywords like decision rights.
+[00:04:55] Um, uh, via creation creation of appropriate behavior.
+[00:05:01] uh, what needs to go into consumer when you think about your
+[00:05:06] Uh, fine-tuning your data ecosystem and so on and so forth. So these are the things that your data governance tries to answer. So your data governance is
+[00:05:15] Just about ensuring that there's appropriate behavior that the data is available at the right time for the right to the right stakeholders to help them, make the right decisions. So that is it it's a business focused discipline and it has nothing to do with what it means to talk about about your data, your data ecosystem, your architecture. So then what you see is what is involved in your policy setting, when it means your compliance your security and so on and so forth.
+[00:05:43] And on the other hand, you have data management again. When we think about data management, it's basically your tools, your practices, your technology, which comes into how you access and enable data for your business needs and requirements.
+[00:05:57] there, you talked about your data ecosystem, your
+[00:06:00] Architecture your lake houses your warehouses and so on and so forth.
+[00:06:04] So that is pretty much where uh, governance and management come together. But then there's a small set of small area where that overlap happens.
+[00:06:14] some areas such as your
+[00:06:16] Say, for instance, your master data management, your quality.
+[00:06:21] So, it starts off as a governance initiative where you try and understand where you Scope, uh, where you trying to understand, who should you whom should you involve as part of your next steps? But the minute it moves into remediation data cleansing, uh, understanding the root cause of your data issues, it moves into the management. So that's where you have that overlap. Now, you might ask why we need to understand.
+[00:06:45] it and the reason it is because when you look at the different Technologies out there, when we talk about data and analytics governance technology,
+[00:06:54] We are we come across data, quality Solutions, Master Data Solutions.
+[00:06:59] Governance Solutions, observability Solutions, integration solutions, they all cater to in some way or the other their ability to manage the different aspects of how you manage your data varies.
+[00:07:13] What I mean by is that the ability to support how you curate data, how you integrate data, how you discover data, how you do policy setting, how you do policy execution? It varies. So when you often think about just selecting a tool,
+[00:07:30] Without identifying, how it supports your needs and requirements. That's where there is a mismatch here. Again, you will see that if you look at your governance or your metadata solutions, for instance, they are better suited for the governance aspect so they help you discover data to some extent. They help you with policy setting. But you will see that integration is something which is not, which is not something they are meant to do.
+[00:07:56] On the other hand.
+[00:07:58] Where you see that shared focus in the previous, slide, your master data and data quality solutions. They help you across the data or all the life cycles that we discussed, right? Right from discovering until your execution.
+[00:08:15] so, what I'm trying to say is that we need to have this understanding because when we look at the market and the rate at which the vendors are positioning their products,
+[00:08:24] We can see that rapid increase and that rapid Market size and often when organizations tend to procure tools because you know it's 1 of the best tools out there or if it's because it's a tool that you come across very often in your conversations there is a mismatch between what you expect from the tool and what that tool is going to support you with.
+[00:08:46] If that is not enough.
+[00:08:48] Next comes the conversation of converged data management platforms.
+[00:08:52] There are vendors who are expanding their capabilities from just the supporting 1 of those areas to being
+[00:09:00] More, uh, broader in terms of the ability to support safe management and governance.
+[00:09:07] And what this happen when, when this happens, 1 must remember, is that you may have vendors, who can support multiple areas and multiple capabilities, but they will never have the same level of maturity, or same ability to cater, to all those areas. And that's where when you, adopt a tool based on the fact that this solution is going to solve a lot of your problems with our accounting for your key problems. Again, you tend to have those similar issues.
+[00:09:36] that is why I say that there, it's not easy to navigate your decisioning right when you want to select a tool when you're
+[00:09:45] Bought with all these decision factors at the very bare minimum. Should you go for a single tool or multiple tool best of breed versus broad spectrum? Should you go for platform specific? Um, such as what, the cloud providers today, enable within their ecosystem, or should you go for platform agnostic, where the tools can help you resolve your quality and governance across your data ecosystem? So, these are some of the questions, of course, and when you don't have the right answers,
+[00:10:15] There are implications which happen when you adopt Technologies, which are not helping, right?
+[00:10:20] Um, some of them are listed for instance, you you have the where you have redundant, functionalities where you adopt tools and you don't end up using it.
+[00:10:30] Um, then you have cost overruns where you spend on your licensing. Then you have the fact that your stakeholders don't adopt, its, uh, successfully. And hence you have your policies where policy management which goes for a toss and you have technical debt which comes into play because you're dealing with a legacy aspects of the data stack that you have now built from scratch. So what we want to kind of Ensure in the next half of the presentation is
+[00:11:01] What are some of the tips and tricks, right? How do we really manage this particular scenario that we don't want to have a technology stack, which is non-supportive, which is not resulting in the right outcomes, which is just eating into our cost.
+[00:11:15] Which is not helping us the leadership, or the organization be on that road to the next steps or be on the maturity ladder that we aspire to be. So that is what we want to really look at.
+[00:11:29] And also right now, I think 1 of the more important criterias is how are we focusing on the on our budgets, which come our way? And that's where if you want to look at reprioritizing your overall budget, 1 of the ways that you can do is by rationalizing, your technology stack and data, and analytics leaders.
+[00:11:50] um, can really meet that data and analytics cost Target if you focus on consolidating or rationalizing, their underutilized Technologies,
+[00:12:00] This is a framework that I present to you on how you can go about it. The first step focuses on the different cost aspects.
+[00:12:09] How can you really eliminate cost? Which are because of your software licensing. Cost your integration cost your operating expenses as the first layer. The second layer is, of course, once you decide that, yes, these are technology Stacks which are not helpful. It's not a switch, which you can just turn off.
+[00:12:29] It's a journey to get to that optimized state. So of course, we need to think about those focused steps that we can take to get to the level of optimization that we aspire to have.
+[00:12:42] And then it doesn't stop there because so far,
+[00:12:45] We've been talking about demonstrating values aligning with the Strategic outcomes. We need to also bring that into force and see how we can make that possible.
+[00:12:55] So this is a structured approach that ideally will help you take your technology stack which is not supportive. Now,
+[00:13:04] To, to a stack which is the 1 which will help you get and aspire to get what you aspire to get to.
+[00:13:13] Step 1 is breaking the cycle, right, break the cycle in terms of how you look at evaluating and, um, evaluating your technology and selecting your technology.
+[00:13:27] now, if you look at the different,
+[00:13:30] Parameter different cost factors that you have the software software licensing, cost the integration and maintenance cost the operational expenses.
+[00:13:39] You can see that each of them can be tackled in a very systematic, systemic way.
+[00:13:46] First, let's start with the software licensing cost.
+[00:13:50] now, when you have redundant functionality and cost overruns, what that really inflates is your software licensing cost,
+[00:13:58] 1 way to overcome that is if you really focus on what what do I mean by? Sorry. Why what do I mean by that, right?
+[00:14:08] What why are we getting our data and Analytics tool? Which is the first question that you should be asking.
+[00:14:15] What is the key problem statement that you're trying to solve and who are your stakeholders that you that you are wanting to help?
+[00:14:23] So for instance, for organizations who might be more into regulatory requirements, they might want to show their regular compliance to various regulations 1 way to do that is to sort of understand what data they hold. Um understand how the data, how they can, um have uh how can they, they sure of what data they are using to draw their critical decisions, their business, their business insights. And so on so forth,
+[00:14:48] if that is your use case, you might be looking at data and analytics governance platform.
+[00:14:54] If your issue is that you don't really trust your data, right? And you you and you really want to have
+[00:15:00] A structured step or a tool to help you analyze your data across your ecosystem, uh from your source to your transformation layer, to your consumption layer. And you want to look at how your quality is looking. Uh, then it is obviously a data Quality Tool that you will want to look at.
+[00:15:18] And then if it is about that unification layer where you want to unify your critical uh, entities and facilitate that those entities create, uh, provide a consistent view to your different stakeholders for your different needs. Then it's a master data tool that you might want to look at.
+[00:15:37] So, that should be your starting exercise. Think about, why do you need a tool? What is your requirement? And then look at the market.
+[00:15:45] To see what tool would be best suited to help you at the very least.
+[00:15:49] But do not stop there, right? Because you might start with a data quality as your core requirement, but who's to say that you will not be also considering your master data program.
+[00:16:01] Or the other way around. You might start with Master data to kind of ensure that you have oversight of those critical data elements or entities. But you would want to also extend it across
+[00:16:12] So have that have that, uh, exercise done in advance if you want to start in terms of how you want to plan your road map because that would also help you to assess vendors to say, okay, do they have those supporting capabilities? If I need to expand expand or extend,
+[00:16:30] End in terms of my next steps.
+[00:16:33] Fair enough. Now comes the next step, which is, uh, if you look at optimizing your integration and Technical debt, then what you can do in which feeds into your integration and maintenance cost, how do you really work that out, that is by focusing on the what?
+[00:16:54] Very simply put what capabilities do I want? I need a data Quality Tool fair enough. But what capabilities am I using in a data Quality Tool? Is it mostly for profiling?
+[00:17:05] Am I going to use the tool for remediation as well? Or is that something which I choose to do outside the tool, will I be using the tool for workflows as well? Or do I have a separate workflow?
+[00:17:15] Management system which is going to help me in my workflow. Do I need to have that happening in 1 tool or do I need to have separate tools for that?
+[00:17:23] So sometimes you tend to have multiple stacks of tool doing those different sets of activities, right? And then you think about having those complex ecosystem where you're dealing with Integrations when you're dealing with complexity where you're trying to just make sense of how you how you get value out of it.
+[00:17:43] So what the first. So 1 of the things that you should be doing is inventing your different uh Stacks that you have the different tools that you have to identify what, what what are some of the use cases, where I'm leveraging this technology, who are some of my key stakeholders.
+[00:18:00] Am I happy with the rate of adoption? Am I happy with the ROI? And the TCO, which is, uh, which is which, uh, which is part of it.
+[00:18:10] so, at the very least, I think you should have this captured to get a sense of which tools are being helpful and which tools are not
+[00:18:19] Once you do that then you can think about applying strategies to say how can I eliminate some of those functionalities? Maybe how can I eliminate some of these tools because say for instance you are having a tool which is very complex, not giving you the right outcomes and is and almost no business impact and trust me. These are tools that organizations tend to have and that is leading to a Cause
+[00:18:45] So that is 1 of the steps, you can take to eliminate the technology.
+[00:18:50] I can take you through a working example, right? Let's have this example going on, say for data cataloging, you have the functionality in tool a and Tool B.
+[00:19:00] in tool a, what you see is that
+[00:19:03] The cost is heavy. The rate of adoption is low. There's not much of business impact, for instance, and you have the same capability in another tool, which is more
+[00:19:14] Priced better has better. Adoption medium utility. What you can do is obviously eliminate tool a and ensure that your cataloging is based out of tulle B.
+[00:19:25] similarly, when you feel uh, that 1 tool has been,
+[00:19:30] The functionality is over other. You can consolidate under under just 1 tool. And when you feel 1 tool is to, you know, the functionalities are, are not supportive. Um, it's a standalone functionality, you're duplicating, your efforts, feel free to consolidate it, or migrate your functionalities, for instance.
+[00:19:50] so doing this analysis, will help you understand where you can, probably consolidate migrate eliminate and just make 1 tool, maybe, uh, where you want to focus your efforts around
+[00:20:05] but as part of this exercise,
+[00:20:08] What should not be missed? Is the fact that we need to still ensure that in that
+[00:20:15] Uh sense of assessment that we are doing, we don't forget that we still cater to the how the how the tools will integrate how the tools will enable workflows. Um and how the tools will help you integrate with the existing security and compliance Frameworks for instance, because governance does not end with just have with the tools but then also it caters to the larger ecosystem of how those tools come together and how it will support your larger outcome. So these are of course some of the other fundamental pillars that you will also need to consider as part of the rationalization exercise.
+[00:20:53] Then we come to the last pillar.
+[00:20:56] The most important pillar and of course sometimes the difficult.
+[00:21:00] pillow, which is the who
+[00:21:01] Who are the stakeholders, who will be helping you put this technology together. Help you leverage this technology together and when you rationalize your technology, what it means for your ways of working.
+[00:21:15] It it fundamentally shifts how your different stakeholders come and for their for you to do that. There are some aspects that you must account for, in advance, for example, your stakeholder Readiness, how you set your policies, how your workflows need to be, realigned, how maybe you will have to train some of your stakeholders to leverage the new platform or technology that you have as part of your rationalization exercise. So, it means that the people
+[00:21:45] Readiness the user Readiness. And how the how that is managed is important to drive adoption. Of course, at the end of the day, we all want to ensure that our Stacks are adopted and our Stacks are utilized, right? So that is where this becomes a very, very critical step uh, in ensuring that we account for it and over a period of time when you feel that the right stakeholders are leveraging, the platform to do their activities in a more synchronized way. You, of course, tackle already reduce your operating expense
+[00:22:18] Now.
+[00:22:19] It's not a, it's not an easy plug, which you just pull off, and you say everything is sorted, right? It's a step-by-step approach that we must have in place for us to understand.
+[00:22:30] how we actually get to, where we are to, where we want to be, and that's where having this consolidation and rationalization roadmap in advance preparing for it really helps us
+[00:22:43] It starts off by building a business case, in which we prioritize. What our inputs are, we prioritize our investments, what our return should be and so on and so forth. What is it that we want to do to leverage or what we aspire to do by having this technology stack for governance?
+[00:23:01] Step 2 is where you assess your current stack.
+[00:23:05] Use the 3 uh focus on the what why? And who to say, okay how can we pull out some of those Technologies or maybe rational
+[00:23:15] Analyze, the technology stack such that we are not really bleeding our cost per se.
+[00:23:20] Step 3 is to have that road map in place to say, once you identify how those changes need to be made, you have a road map, a supportive road map to take you to where it should be. So do you plan to eliminate a tool? What are some of the repercussions? And those repercussions might be very simple. Those repercussions might be something in which your contractually obligated, but at least having a process in place, helps you to understand what those implications are.
+[00:23:50] and then taking a stepwise process and implementation in phases, to get to ensure that you move towards a more Consolidated, a more rational
+[00:24:00] Stack. And the last and most important is to ensure that while you're doing this exercise while you complete this exercise, you align with strategic outcomes, right?
+[00:24:12] Which is the key because how else will you be able to show? How successful or what you drive as an outcome of this rationalization exercise?
+[00:24:22] Having metrics in place is very essential.
+[00:24:25] Of course, you can choose to have met different kinds of metrics to Showcase those impacts to different sets of stakeholders.
+[00:24:32] You can have metrics to show the impact of your policy enforcement now that you have this technology which is most supportive, which has better capabilities, which are more uh which are more fun.
+[00:24:45] Fundamental to helping you achieve your outcomes. So, of course, look at how effectively you are able to, uh, Implement your or execute on your Technologies as part of it enforce your Technologies and policies. For instance, the second is
+[00:25:01] Of course, the monetary benefits, the reduction in licensing cost, the LI the reduction in your maintenance cost, for instance or your reduction in your integration expenses. These are expenses that you should be able to track and uh and kind of bucket in terms of how your rationalization exercise progressed. And the last 1 is, of course, the Improvement in your quality, your process Improvement, and your overall ability to use that platform to drive your business outcomes.
+[00:25:30] When you started, you probably had some gaps in how this platform was helping you.
+[00:25:37] There were gaps in where this plat the your fragmented technology was kind of leading into more of a cost.
+[00:25:45] Overrun rather than giving you benefits.
+[00:25:48] That's where you take these Focus steps to ensure that how can you really move away from that fragmented Technologies landscape to more of a Consolidated? Prioritized supportive technology stack.
+[00:26:02] As, as moving into it, what you also need to look at? Is that what are some of the benefits? How is the TCO now? Looking like, what is the ROI that I'm driving out of it, through the business impact?
+[00:26:15] That the platform is helping you drive.
+[00:26:17] And that is the that will help you to demonstrate the business outcomes. So you start with the gaps, think about how you can take an approach towards filling those gaps and then it goes back to demonstrating that. Once you fill the voids, which you had what benefits and what outcomes that you can draw that you can get for your stakeholders and business.
+[00:26:40] This is where I will leave you. This is a session which has come because of the conversations that I've had with my clients.
+[00:26:48] Uh when you think about data and analytics, governance technology, if you are 1 of them, or if you're facing such constraints, when you think about, okay? How do I evaluate and how do I sell
+[00:27:00] And how do I really consolidate and rationalize my technology stack. These are some of the steps or recommendations. I'll leave with you at this point.
+[00:27:08] There are also, um, recommended readings, which I will also leave you with where, uh, all this is there. I'm going to be here for a minute or 2, or maybe for 5 minutes. So if anybody has any questions, I'm more than happy to take up, but that said and done. It's almost the end of our uh Summit. I hope you've had fun with the last 2 3 days. I hope you have conversations and thoughts to take back. Um and until we meet again, thank you so much and good day. Bye.

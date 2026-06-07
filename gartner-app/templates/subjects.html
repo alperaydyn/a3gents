@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% block title %}Subject Areas — Gartner Sessions{% endblock %}
+
+{% block content %}
+<div class="subjects-layout">
+
+  <div class="subjects-header">
+    <h1 class="subjects-title">Conference Subject Areas</h1>
+    <p class="subjects-subtitle" id="subjects-subtitle">
+      {{ total_sessions }} sessions across {{ areas | length }} subject areas —
+      Gartner Data &amp; Analytics Summit 2026
+    </p>
+  </div>
+
+  <div class="subjects-grid">
+    {% for area in areas %}
+    <a href="/?subject={{ area.id }}" class="subject-card" style="--area-color: {{ area.color }}; --area-bg: {{ area.bg }}"
+       data-area-id="{{ area.id }}">
+      <div class="subject-card-top">
+        <div class="subject-pill" style="background: {{ area.bg }}; color: {{ area.color }}">
+          {{ area.short }}
+        </div>
+        <span class="subject-count" id="count-{{ area.id }}">{{ area.session_count }} session{{ 's' if area.session_count != 1 }}</span>
+      </div>
+      <h2 class="subject-card-title">{{ area.title }}</h2>
+      <p class="subject-card-desc">{{ area.description }}</p>
+      <div class="subject-card-footer">
+        <span class="subject-card-link">View sessions →</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function () {
+  // Sessions grouped by area — passed from server
+  const sessionsByArea = {{ sessions_by_area | tojson }};
+
+  // Read hidden session IDs from localStorage (same key as index.html)
+  const HIDDEN_KEY = 'gartner_hidden_sessions';
+  const hiddenIds  = new Set(JSON.parse(localStorage.getItem(HIDDEN_KEY) || '[]'));
+
+  if (!hiddenIds.size) return;  // nothing hidden — counts are already correct
+
+  let grandTotal = 0;
+
+  Object.entries(sessionsByArea).forEach(([areaId, sids]) => {
+    const visible = sids.filter(sid => !hiddenIds.has(sid)).length;
+    grandTotal += visible;
+    const el = document.getElementById(`count-${areaId}`);
+    if (el) el.textContent = `${visible} session${visible !== 1 ? 's' : ''}`;
+  });
+
+  const subtitle = document.getElementById('subjects-subtitle');
+  if (subtitle) {
+    subtitle.textContent = subtitle.textContent.replace(
+      /^\d+ sessions?/, `${grandTotal} session${grandTotal !== 1 ? 's' : ''}`
+    );
+  }
+})();
+</script>
+{% endblock %}

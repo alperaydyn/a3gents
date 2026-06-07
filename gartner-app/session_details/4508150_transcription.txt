@@ -1,0 +1,282 @@
+[00:00:11] Good morning.
+[00:00:13] Who wants to come white water rafting with with us right now?
+[00:00:17] Come on. Yeah, exactly. I'm sure some of you have done it before, maybe we leave the conference behind and we head up to North Wales, or the Pete District. How about you York? Absolutely 100%. I love white water. Rafting look, this is me and my family last year, Wildwater rafting in Costa Rica.
+[00:00:36] And I can already tell by the cheeky Smiles on their faces. They're actually planning to throw me overboard.
+[00:00:45] Dave join us and Dive Right In look at Mary here. She is loving it. But John on the other hands, I think the most fun he had was when he got back on the bus to go home.
+[00:00:57] So when it comes to AI, we're all in the same boat. Where do we like it or not? We're all riding the AI rabbits. It's like a raging River and we are in the water.
+[00:01:08] Are you 1 of those people who finds this exciting or terrifying?
+[00:01:13] Either way, you're probably here this week because you want to be this person,
+[00:01:18] This is the Navigator guiding your organization's raft through uncertain Waters.
+[00:01:23] By the time you leave this conference on Wednesday, you will feel confident to be that Navigator.
+[00:01:30] Calm presence. In turbulent times, the expert, the collaborator and the Pioneer, the hero of your organization's, AI Journey.
+[00:01:40] Welcome to Gartner's. 2026 data and analytics Summit is a pleasure to have you here. I'm Sarah. And I'm York, and welcome aboard. Our raft. It's so great to see. So many of you here this morning,
+[00:01:55] This community has always understood how essential data is and now thanks to AI. Everyone else sees it, too, which is great in many ways, isn't it? We have everyone's attention.
+[00:02:10] but the downside is,
+[00:02:12] We have everyone's attention.
+[00:02:15] Most companies are accelerating their AI initiatives. Our survey showed that technology funding in 2026 is growing fast, but the faster we move, the more difficult, it is to steer our raft.
+[00:02:30] So, do you feel in control?
+[00:02:33] Or does it feel more like you are capsizing?
+[00:02:37] To improve control. It's not just speed that matters. This is also about Direction.
+[00:02:43] Which means you need to navigate somewhere valuable. We see from our conversations with you every single day. How much pressure you are under to deliver real value from AI, amongst all the hype and fear of a bubble. That might burst
+[00:03:00] Settings of value is often measured using Roi or return on investment.
+[00:03:04] Roi matters, but to achieve it, we need to think of it as more than just a financial measure, value isn't always just money.
+[00:03:12] Absolutely. So today we are going to share 3, different ways to approach value. This will steer your organization safely and effectively through turbulent Waters.
+[00:03:25] First, we're going to look at how you can set your AI and ambition to maximize value from the insights that your data provides together with the knowledge and intuition of your team, which gets you to a return on intelligence.
+[00:03:38] Second, we will help you maximize value from well-governed and context Rich Foundation.
+[00:03:45] That's what we call return on integrity and third, you need to empower your people for this transformation to maximize value from human skills or a return on individual.
+[00:03:59] Looking at Roi in these 3, different ways will help you turn uncertainty into opportunity. It will allow you to guide your organization on their data and analytics journey to cut through the AI hype and maximize the value of AI.
+[00:04:18] So let's get started and talk about your AI ambition.
+[00:04:22] You might be thinking right now is AI, all we care about or you might also be thinking, you're steering your raft through an Uncharted.
+[00:04:30] River. The waters are constantly shifting and you have no clue where you might end up or even how much you want to ride.
+[00:04:37] We're moving from the digital age where computers and the internet became the new Norm to the age of intelligence. Where AI helps us to automate data, to make decisions to automate tasks, using our own natural language.
+[00:04:52] And there still might be Skeptics who think that AI is just the latest in a long line of hype Technologies but make no mistake, it's not just a technology shift, it's also a cultural or even a personal shift. It's a change that could be just as profound as the arrival of the internet.
+[00:05:13] Remember, didn't we all feel so?
+[00:05:15] While cutting edge back then. Oh my gosh. I remember the first time I used the internet properly, I was 18 years old. I just arrived at University. It was the first time I got onto the internet and I I can still remember those strings beeps and static noises, right? So I was trying to connect
+[00:05:31] and exploring those early web pages felt like you know, stepping into the future and I can still feel the rush of getting my first email from a Nigerian prince, no less
+[00:05:44] So back then it was so hard to imagine just how much the internet would change our lives.
+[00:05:51] In the same way, we can't imagine the shift that AI will ultimately bring our connection with AI will become just as complex and varied. As the ones we have with the human
+[00:06:00] Around us. I have a friend now who doesn't do anything really without asking AI on her phone as if it's 1 of our friendship group and then we ask each other and then we make a decision what to do. And I know that some people have already started, developing a deeply emotional relationship with AI
+[00:06:17] And some of these relationships have even become romantic.
+[00:06:21] So is anyone here writing? Love Letters to an AI model? I hope not. But all joking aside, maybe you are prototyping. AI use cases and learning a lot.
+[00:06:33] But if that's all you're doing, you do risk falling behind because everyone is experimenting all the time.
+[00:06:40] What really matters is, is it in production?
+[00:06:43] We tend to think that innovation.
+[00:06:45] Is having ideas but actually Innovation is production ideas.
+[00:06:50] In 2024 just under 2 out of 5, European organizations deployed, IE production AI which increased to just under 3 out of 5 in 2025.
+[00:07:01] And right now 4 out of 5 organizations are increasing their Investments, but you can't just continue to increase your investments in AI without also getting Clarity on the goals and the ambition of your organization because the future is going to be radically different from where we are today.
+[00:07:18] So let's take dashboards for example.
+[00:07:21] Who here loves dashboards?
+[00:07:24] Uh, not so many. What if you never had to look at another dashboard?
+[00:07:30] Again, there may be people joining your organization today, who may never see, or use a dashboard. We're already seeing organizations, replacing dashboards completely with chat functionality, so people can talk to their data, but if you want to make a radical change like that, you need to break your old Vision. Not just shift it.
+[00:07:49] So what is your bold New Vision for data and analytics in the age of intelligence? Well in Gardiner 2030 data and analytics Vision, every bit of data, every piece of information, every form of expertise will be captured organized and turned into decision, ready, knowledge accessible for all humans and agents alike.
+[00:08:11] And this Vision will guide your organization to Maxim.
+[00:08:15] Ize. The value of AI.
+[00:08:17] And it will get you a return on intelligence where you leverage both human and artificial intelligence to enhance decision-making solve problems or drive innovation.
+[00:08:28] We understand that moving towards this Vision can feel overwhelming and it's not something that you should do alone, that's why it's so important to spend time with your stakeholders and teams redefining your ambition.
+[00:08:41] And everyone's Journey happens at its own pace. When you talk to your stakeholders, focus on the speed and tolerance for AI disruption.
+[00:08:51] Those with a low tolerance for AI, disruption can choose a cautious approach using their expertise to carefully assess.
+[00:09:00] Risk and following the safest passage, but if you have more appetite for disruption, you will select a more opportunistic approach, skillfully, aligning the team around, the best moments to act to follow an uncertain stream. And those of you with organizations who have a high tolerance for disruption, may dare to be the Pioneers, hoping to be the first to arrive by taking the biggest risks.
+[00:09:27] And some of you might already be leading the way but wherever you are, we hope you will find inspiration in this Keynotes. But also look out for sessions this week where we will dig deeper into the ideas that we are introducing here this morning,
+[00:09:43] if I were you, now I might
+[00:09:45] Might be thinking, what part do I play in all of this?
+[00:09:48] Last year, we spoke about how the cdao is uniquely positioned to support data analytics and AI initiatives that is still true. It's time to put the eye into the cdao, creating the chief data analytics and AI officer.
+[00:10:04] Now, if you hopped on a tube or a bus and tapped your phone or card to get here today, you've already experienced the magic of data in action.
+[00:10:13] Every tap, let's Transport for London, understand how people move.
+[00:10:17] Signals from over 8,000 buses 4,000 kilometers of tube Network and 6,000 sets of traffic lights. Allows them to plan better routes to predict busy times, like this morning towards the Excel.
+[00:10:30] Or in Sega Weinstein. She's the chief data officer at Transport for London. She stands out as a leader who's effectively LED data and AI adoption within her organization.
+[00:10:39] For Lauren AI isn't a shiny new tool or innovation. It's business as usual.
+[00:10:46] She and her team recognized early that data, and AI transforms organizations, and together with their stakeholders, she promotes the importance of a value-led and risk balanced approach, for example, under her Direction, she is established in AI Direction, group ensuring that technical, ethical legal, and policy considerations were addressed.
+[00:11:07] She delivered initiatives, such as piloting, Genai tools, delivering bespoke algorithms, and she launched an AI lab for experimentation. And
+[00:11:15] Innovation this move transport for London Beyond isolated pilot projects to impactful outcomes and value.
+[00:11:23] So next time you ride the tube, remember it's not just transport its data-driven travel.
+[00:11:29] So, maybe by now, you are starting to wonder if it is your responsibility to shape your AI ambition.
+[00:11:37] Maybe you are not a cdao and you don't think this is relevant.
+[00:11:41] However, in a world where AI is transforming every day. If you don't lead, ai ai will lead you
+[00:11:51] And I'm not just talking about the cdao or heads of AI or any other AI leader. This applies to everyone here in this.
+[00:12:00] Audience. Whether you are the head of data management or a head of analytics or whether you develop ETL pipelines or government Master data, regardless of your role, your title, or even if you own AI, you need to take AI leadership.
+[00:12:16] This conference is an opportunity for you to think about your own level of AI ambition. Just consider how you want to show up when you're having those important stakeholder conversations.
+[00:12:29] What is the first thing? Those stakeholders always ask. I bet for many of you. It's something like, what is this going to cost us? Well, you know, that's a hard question to answer mostly, because AI costs are often not only highly unpredictable, but they can also be hidden, like, rocks in a river.
+[00:12:45] You may only notice them when you smash into them.
+[00:12:48] But to calculate the ROI and avoid butchered overruns, you really need to understand the cost.
+[00:12:54] The problem is vendors, often use pricing models with difficult to understand metrics, like GPU hours or tokens consumed.
+[00:13:04] And our research shows something super interesting.
+[00:13:08] 6 out of 10, it leaders are worried about AI agents running up an expected costs.
+[00:13:15] But when we look at data and AI leaders, it is a different story. Only 1 out of 10 are concerned that unpredictable cost might limit the value they get from Ai and that Gap should be wake up call for all of
+[00:13:30] Of us.
+[00:13:31] Because this is already happening and in some cases the cost of tokens for coding assistance is already higher than the cost of software Developers.
+[00:13:41] So we already know that it's hard to predict the cost of a single agent. They alone can end up burning through a lot of money, which you're going to have to answer for. Now, imagine more complex workflows with multiple agents working together as we know the Financial Risk, only grows. It's like giving my teenager. This is my teenage daughter Grace, it's like giving her, and her friends, a credit card to go shopping with all her friends. Now I'm sure I'm going to learn a lot but mostly that's going to be from the bill.
+[00:14:08] AI can be an expensive lesson but right now less than half of organizations in Europe and managing and Optum.
+[00:14:15] Izing AI related spending.
+[00:14:17] So, how can we improve that?
+[00:14:19] The unpredictable and hidden costs of AI, make it essential to track expenses early on especially during prototyping.
+[00:14:26] Focus on cost driven design so that you can understand their impact before, scaling up to production, which means you need to measure earlier. But also in a different way, for example, look at the cost of an individual, AI agent per completed tasks. It will help you to evaluate different llms or help you to decide to make go with a more affordable slm instead.
+[00:14:49] absolutely, but if we really want to have a meaningful conversation with our stakeholders about our AI ambition we need to shift the focus from just
+[00:15:00] To value.
+[00:15:02] To make this happen, it's important to link our initiatives to real business outcomes.
+[00:15:07] I think you're doing a session on that on Wednesday, right? Absolutely, I am. Come along, fantastic. So when it comes to Value outcomes, can be Financial such as Revenue, but they can also be non-financial like citizen experience.
+[00:15:21] Take for example, Nord Yorkshire Council a government agency right here in England, they shifted how they measured data, success focusing Less on technical metrics and more on real value, especially what matters to the people. They serve to do this. They created a digital citizen, they named Dotty.
+[00:15:41] And by following Dotty on her journey, through public service.
+[00:15:45] Is they brought the real world impact of data to life making it more tangible and relatable for all employees?
+[00:15:52] Just imagine how a small mistake like swapping 2 numbers in a home. Address can have a big ripple effect.
+[00:16:00] At first, it might just delay and handrail installation for an elderly person and that is frustrating enough. But what if that missing handrail leads to a fall and a serious injury, a simple data error can have human cost.
+[00:16:16] Dotty helps measure. Success, not just by number, but by better services and outcomes for Citizens. And this lets the council prioritize data quality Investments, where they have the biggest thing.
+[00:16:30] So Dotty really became a practical tool to emotionally connect with the data. And by making data personal and relatable staff became emotionally invested in the results, it helped them. See the real human consequences of their decisions and that is what we mean by return on intelligence.
+[00:16:53] If you don't lead, ai ai will lead you.
+[00:16:57] So it's time to radically rethink the impact of AI on data and analytics. It's not just a new technology. It's a transformation.
+[00:17:06] Start the conversation with your stakeholders and with your teams and understand how and where you need to Pivot.
+[00:17:12] take AI leadership and determine
+[00:17:15] Your level of ambition, cautious, opportunistic, or first.
+[00:17:19] And begin to manage the unpredictable and hidden costs of AI early.
+[00:17:25] Set Financial guard rails, using new course metrics and focus on value, both financial and non-financial.
+[00:17:35] During this Summit, we want you to think about your AI ambition and your organizations. That is a crucial step towards achieving return on intelligence by combining human and machine capabilities, you will be better prepared to adapt and stay ahead in a rapidly changing landscape.
+[00:17:58] It's great to have big.
+[00:18:00] Ambitions. But how confident are you about getting there?
+[00:18:03] It's time now to think about your foundations.
+[00:18:07] The data is clear in 2025 the odds of an AI initiative achieving return on investment were only 1 in 5.
+[00:18:15] Our research shows that the most common roadblocks are lack of understanding of costs failure to scale. And insufficient data quality which means that without these strong foundations AI will remain what it is for most organizations today and expensive experiment.
+[00:18:31] 2026 is the year where we need to double down on our foundations and eliminate risk from our AI initiatives if we're going to be the trusted guides for our organization. This is the time that we need to secure our gear. Tighten our
+[00:18:45] Life Fest and make sure that everyone has a paddle in their hands. I think nobody wants to be up a creek without a paddle, right? Absolutely not.
+[00:18:53] This will help you to get to a return on integrity.
+[00:18:58] According to our 2025 Gartner survey the most satisfying group spends about 30% more on foundational activities, like data management, governance and talent than the least satisfied group.
+[00:19:10] Despite the clear benefits. Many organizations still struggle to build a solid foundation.
+[00:19:16] So, why is it so hard to start with the basics York?
+[00:19:20] Because we're all feeling the pressure from the AI hype. I mean it was artist C Clarke that said any sufficiently advanced technology is
+[00:19:30] Indistinguishable from Magic.
+[00:19:33] So does that remind anyone here of how your sea Suite, approaches the AI as it is Magic?
+[00:19:40] And where does that leave you? Because you are the 1 who needs to make it real.
+[00:19:46] Perhaps, you are among the 54% of it leaders, the feel that they are being pushed before. They are AI ready, or maybe you belong to the 52% of AI leaders or feeling the pressure from their stakeholders to move forward with AI.
+[00:20:02] And it's true. Every new technology goes through a phase of first hype and excitement.
+[00:20:09] but then comes the law when things don't go as planned and reality sinks in and that is probably
+[00:20:15] Where most of us are today.
+[00:20:17] But over time the technology matures and we start to see more stable, lasting value.
+[00:20:24] This is the gardener Hive cycle and it tracks where different Trends are on this maturity curve. And you can use it in your conversations about how much risk you are willing to take.
+[00:20:37] 1 conversation can be about what you're going to invest in and when
+[00:20:42] The AI cautious wants to wait for the plateau when things are a bit more mature.
+[00:20:46] The AI first wants to embrace the hype early and jump in. At the peak accepting, the highest risk for the potential for higher reward. And the AI opportunistic will wait for what emerges after lessons have been learned and early adopters.
+[00:21:00] And common pitfalls have been solved.
+[00:21:02] I think we're all feeling the pressure of AI but whether you want to jump in early or wait until things mature the foundations you build now will enable everyone.
+[00:21:15] And everything.
+[00:21:17] More people but also more systems, including agents all interact with analyze and act on data.
+[00:21:24] Which means we have opened up our data and our systems to a much wider audience and that creates risk.
+[00:21:33] Meanwhile our survey showed that only 12% of respondents say, they feel very confident that the data and content are secure and governed.
+[00:21:45] Enough. And that's why it is so important that we focus on 2 key ways to reduce risk.
+[00:21:51] We need to prevent the exposure of the wrong data to the wrong people applications or llms with AI governance and avoid inaccuracies, and misunderstandings and hallucinations with a well-designed context layer.
+[00:22:04] This will help you to ensure that our data is AI ready? Trusted. And aligned to all our use cases
+[00:22:10] It's time to reposition governance from being a risk, regulator to evaluate it.
+[00:22:16] Shifting the governance culture from being mostly compliance focused to a type of governance that helps drive real business value. You may think that's a realistic but hear us out.
+[00:22:26] Well tradition. Traditional data governance focuses.
+[00:22:30] On providing trusted data.
+[00:22:32] While governance in the age of AI focuses on enabling trusted decisions. So if data governance asks, is this data fit for purpose AI governance, as should we use AI for this?
+[00:22:48] Okay, so we know we need governance but guess what? We already have governance. We have corporate risk, governance data, governance, information, governance, cyber security governance so much governance.
+[00:22:59] All these governance teams have different scopes with different processes and decision rights and tools. And as AI, uh as Governor Stakes on AI, it faces new challenges. We just cannot have competing governance policies. And priorities anymore, we need to connect.
+[00:23:15] Rationalize and embed governance, let me explain.
+[00:23:19] First Connect governance, bring together colleagues from all these different governance, bodies and create a unified AI governance team.
+[00:23:27] Getting people together with all different personalities and different ways of working and getting them to agree. On things is hard but work on this will really pay off.
+[00:23:37] In fact, we predict that organizations that connect different governance bodies in this way will have a 10% greater business impact than those that don't.
+[00:23:46] And while 10% might not sound like that much, tell that to an athlete who just missed out on a gold medal by a fraction of a second, 10% makes a huge difference. It does. So, next rationalized governance with that new AI governance,
+[00:24:00] Team, you can review and consolidate scattered policies to reconcile inconsistencies and remove overlaps. That will help you develop a clear consistent framework, that reflects your organization's risk tolerance and cultural values around the use of responsible Ai. And this becomes your Enterprise level AI governance model.
+[00:24:24] Third. Embed governance your connected team and rationalized AI policies need to be embedded about across both your culture and the technology of your organization.
+[00:24:34] To embed this into your culture shift. The mindset from 1 of compliance to Value where everyone is clear on how to use data F AI responsibly and ethically to their
+[00:24:45] The benefit.
+[00:24:46] Take, for example, Schneider Electric, there are Global manufacturing company. They agreed on these 4, simple, golden rules of trusted data.
+[00:24:55] and while these look neat and tidy now get into this point, took a lot of time and effort
+[00:25:00] una short. She's the group Chief data officer at Schneider Electric, and she helped to develop a concise set of principles that simplified what appropriate data governance look like and enabling the delivery of trusted data at scale.
+[00:25:13] Governance for them is no longer seen as a constraint but rather as a key enabler of trusted insights and faster. Consistent execution,
+[00:25:22] But what's important is, these rules are not just policies on paper, they've become an embedded part of everyday work and culture.
+[00:25:29] Everyone.
+[00:25:30] At Schneider now follows the same standards allowing the company to move faster with data.
+[00:25:35] Embedding governance in your culture is important but it's also important to embed governance into your technology.
+[00:25:43] That way your policies are not just guidelines, they are actually enforced throughout your Tech stack.
+[00:25:50] And this approach is called policy as a code. It lets you set consistent rules and integrate governance directly into your decision and workflows. And you might use automation, AI capabilities or even specialized AI governance tools to make this happen. In fact, Gardner predicts that by 2028 organizations, that use these specialized governance tools,
+[00:26:15] Will decrease the cost of Regulatory Compliance by up to 20%.
+[00:26:21] Let's look at an example of automation policies using data governance tooling at Cisco, there are large Food Distribution Company. They already had a strong approach to data governance, which was embedded within their culture, which engaged with data owners and stewards, which helped to create data policies. But Laura Rhinehart whose Cisco's CDO, she found that they had a gap when it came to execution of these policies. So Laura and her team had been getting their data AI ready by all automating data, quality checks and controls within their data platform.
+[00:26:51] They use metadata to accelerate their data classification. Process data stewards are available for labeling data as highly confidential or public.
+[00:27:00] And now if classifications are updated their data platform automatically reads these tags, the data and masks it as is needed. They're now confident that they only expose the right data to the right agents and people, this is a great example of embedding governance into your technology or policy as code.
+[00:27:19] So as you can see, it is possible to make governance a value accelerator, not just a risk. Regulator this happens when you connect rationalize NBS.
+[00:27:31] But you also need to know where the data comes from and how it will be used. In other words, context is King.
+[00:27:40] For example, when asked how many active customers do we have?
+[00:27:45] You answer depends on the context, right? How do we Define customers? When you say, active? Do you mean they bought something recently? Or they have a subscription, or they visited our website?
+[00:28:00] I don't know without clear context llms are guessing and their probabilistic systems, which means they can easily misunderstand your data and then they will rapidly amplify that misunderstanding. That's why we need a translator to connect business language to data language.
+[00:28:17] Now you might be thinking about now how to manage your information that is scattered across databases and spreadsheets and applications. Making sense of it all is like playing a giant game of connect the dots, except now the dots are not only scatter
+[00:28:30] That everywhere but some of them are also hidden.
+[00:28:32] And with AI and large language models, everybody expects instant and accurate answers. But to deliver these results, we need a business logic that allows AI solutions to navigate a sea of data.
+[00:28:47] Right now fragmented context leads to inaccuracies and people making the wrong decisions so it's time to build an integrated contextualization layer a layer that connects every piece of information so everyone and everything people and agents alike can see the bigger picture.
+[00:29:07] And make better decisions.
+[00:29:10] And to achieve this 44% of data and analytics leaders already.
+[00:29:15] Say that they have implemented semantic layers in 2025.
+[00:29:19] And a further, 47% plan to implement them by 2027.
+[00:29:24] And while these semantic layers are becoming more common, they are not enough.
+[00:29:29] And that is why organizations are also experimenting with ontologies knowledge graphs and more.
+[00:29:37] And all of those different solutions have their own strength, but combining these Technologies can make results even more accurate.
+[00:29:46] A single context layer can help you organize information. By meaning, it helps you track where data comes from
+[00:29:55] and how it's used.
+[00:29:57] And this context layer can, unfortunately, not.
+[00:30:00] Not be bored of the Shelf. It must be engineered as a collection of capabilities to fit your needs, but it will Empower agents to make contextually relevant decisions.
+[00:30:12] Governance at trust context. Adds meaning without strong foundations, AI might as well stand for Amplified ignorance.
+[00:30:22] So that means you should align initiatives with your level of AI and vision and use the hype cycle to help you decide when it is the right time to jump into these new technologies.
+[00:30:35] Make governance of value accelerator by shifting from compliance to enablement.
+[00:30:40] set up shared governance bodies, rationalize your policies and
+[00:30:45] Bad governance into your culture and your technology.
+[00:30:48] Understand your data by creating a single unified context. Layer allowing you to connect the dots.
+[00:30:56] Strengthen your foundations to make sure that data analytics and AI deliver, real sustainable value.
+[00:31:03] This will give you a return on integrity.
+[00:31:06] To maintain that Integrity. You need more than just foundations, you also need to manage the people part of this transformation.
+[00:31:16] martech law says that technology changes exponentially while organizations change logarithmically
+[00:31:25] what this really means is that, while technology keeps changing faster and faster,
+[00:31:30] People can only handle so much change at once.
+[00:31:33] Even if you move really fast on technology, it often takes up to 2 years for people to adopt it.
+[00:31:41] So, please raise your hand if your organization has rolled out a new AI technology, for example, a large language model.
+[00:31:52] So don't put your hands down yet.
+[00:31:55] If you're not completely comfortable using this technology,
+[00:32:00] then you can lower your hand.
+[00:32:03] Oh it's a confident bunch. I think, well, according to our most recent cdao, survey the failure to accept and anticipate A disruption in speed at which
+[00:32:15] AI is developing is seen as a major roadblock. In other words, AI Readiness grows, much faster than human Readiness and the Gap only widens. Well, it's time to manage that Gap so we can help people stay safe and happy on board the raft.
+[00:32:32] Our cdao survey shows that shortage of skills and limited data and AI literacy are top challenges, the success of your teams.
+[00:32:40] Focusing on skills, alongside mindset and behavior. Change will increase, Employee Engagement, and productivity.
+[00:32:47] This will help you to get to a return on individuals where you get value from your Investments by developing your Workforce.
+[00:32:54] But how much money and attention are you investing in skills and managing change right now?
+[00:33:00] Specially compared to what you're supposed to be on software and services.
+[00:33:03] If you just roll out a Genai productivity tool to check a box, to say you're doing AI without providing training. Also, it's like giving a paddle to all of your employees and expecting them just to become magically white water, rafting experts,
+[00:33:18] Only 6% of data and AI leaders consider their organization to be fully ready for AI when it comes to people skills and change management 6%.
+[00:33:30] And some might say, this is about fixing soft skills.
+[00:33:35] But it's not. This is about fixing a hard reality that will impact your bottom line.
+[00:33:42] The change management and training effort, for AI tools.
+[00:33:45] Takes nearly twice. As long as implementing, the area solution itself, which means planning for longer timelines and higher costs, more than for any other technology implementation that you may well have managed before, and I know how much work this sounds like, it sounds like a lot of work. But honestly, if you're investing in AI without also, investing in your people, you are throwing money away.
+[00:34:07] If you want an AI ready organization, you need AI ready. Employees.
+[00:34:14] So be before we work on artificial intelligence, we actually need to address the opposite natural ignorance.
+[00:34:24] I love this quote. It is said that we are going to live in a world.
+[00:34:30] Where machines will be more articulate.
+[00:34:33] While we humans have resorted to short tweets emojis memes and even stickers to communicate, we should invest like a 100 times more in human intelligence.
+[00:34:46] Can you guess who said that? Is that Malcolm Gladwell maybe Simon sic?
+[00:34:51] You Ferrari.
+[00:34:53] Actually, it was, Will I Am from the Black Eyed piece.
+[00:34:58] And, you know, I got a feeling he might not be wrong. The more we invest in AI, the more we should invest in humans, using AI.
+[00:35:11] So now you might be thinking, okay, how do I bring my team forward on this journey?
+[00:35:15] We have a good example. I want you to ask yourself 3, questions that were inspired by a framework, that was implemented at Lee Health, which was 1 of the largest nonprofit healthcare providers in Florida.
+[00:35:26] What mindset obstacles exist in our organization and how can we shift them?
+[00:35:30] What skill set gaps are there and how can we close that Gap? And finally what tool set challenges remain and how many, how can people apply those skills to the tools? We give them
+[00:35:42] My cellos aurello, is the VP of data and analytics at Lee Health. He implemented this exact framework as part of their transformation towards becoming data driven. He wanted to shift his team's mindset from a technical Focus to a business outcome oriented Focus. He emphasized business fluency and people skills.
+[00:36:00] Within his team and then these skills empowered them to become more relevant for their business partners.
+[00:36:06] This is my favorite bit the CEO cited DNA support as critical to the hospital's journey to from going from a 1-star to a 5-star industry rating. The CEO isn't that incredible. Absolutely, it is but another great example of prioritizing mindset and skills comes from Clifford chance, a global Law Firm. They invest in AI literacy and change Readiness at all levels. Tracking, not only tool adoption, but also employee experience. Or should I say employee frustration?
+[00:36:41] Yes, you heard that, right? What is really interesting that they
+[00:36:45] Actually tracked their employees tone and language when interacting with AI tools and I think we all have moments where we started to yell at AI. That is not what I mean. I mean, I needed summarized this way and really clever chance identifies as these patterns of irritation or negative forms Flex them, to either improve the model or better understand their employee needs.
+[00:37:12] Now I'm sure you've seen the announcements of big job cuts and people losing their role to Ai. And our research does show that 29% of cios are expecting to reduce their Workforce over the next 3 years.
+[00:37:23] But you're in the right place because investments in DNA, remain high, according to our cdao service.
+[00:37:30] Only 9% of data leaders have decreased their team size in the last year and 43% have actually increased it. So currently we're not seeing much reduction in DNA team size. But of course, it does have a broader impact across our organizations. However, the threat that AI will replace, everyone is a misconception, just a story being told to justify throwing some people overboard.
+[00:37:53] Gartner estimates that only 1 to 2% of announced job cuts are actually attributable to AI even Sam almond who's the CEO of open AI? Of course, he recently said there's some AI washing where people are blaming AI for layoffs that they would otherwise do.
+[00:38:08] We need to recognize that AI. First does not mean people last
+[00:38:13] Technology has destroyed jobs.
+[00:38:15] And created new ones for centuries.
+[00:38:18] Let's stop seeing AI as a way to just cut jobs and move towards more curiosity about how AI can support our work.
+[00:38:25] For example, the arrival of AI agents is changing Team Dynamics, but maybe in a different way than you think. In a surprising turn of events, a new platform called rent. A human.ai has emerged, allowing autonomous AI agents to hire you humans for tasks require a physical presence.
+[00:38:48] So we may think we need agents, but it turns out, they need us too. And while some say, the platform is just a marketing Ploy, it could happen.
+[00:38:59] and,
+[00:39:00] That is, why continuous Learning and Development will become your basic survival skills. Every employee will be valued by the skills. They have to contribute rather than the description of their job or even their title, which means you need to stop thinking in roles and start focusing on your skills.
+[00:39:23] Even back in the 60s Marshall, mcluhan already predicted the future of work. In the age of automation will consist of learning for a living
+[00:39:35] So it's no wonder. So many of us, have Phobos, the fear of becoming obsolete.
+[00:39:42] Key is to keep learning and adapt.
+[00:39:45] Things. So we stay relevant. No matter how fast things change.
+[00:39:49] As AI gets used more, it actually creates new opportunities, which means we might need more people, not fewer, but maybe in a different way.
+[00:40:00] Delivery teams will still be organized around humans, but your role May shift, perhaps, from being a developer to acting more as a validator where you review and adjust work from other humans and agents.
+[00:40:11] People often describe this as having humans in the loop, but this is really about humans in the lead.
+[00:40:18] The value of human talent and skills will still sit at the core of delivery teams. But these teams will. Now combine human expertise with AI agents to make more productive. AI powered Fusion teams
+[00:40:30] Just imagine no longer having 4 people on a single raft, but 2 people, in an agent in 2 raft, which allows you to get twice the work done with the same amount of people.
+[00:40:40] It offers you an opportunity to scale and it highlights the importance of learning adaptability and collaboration.
+[00:40:47] To deal with these changing roles and skills, you should have urgent conversations with your HR Partners. If you've not started this now, please do it soon.
+[00:40:54] We know that technology changes fast but people change slowly, if you don't invest in change, you will be left behind no matter how good your tools are.
+[00:41:03] And that is why it's time to allocate a substantially larger part of your budget to change management than you're doing now and to prioritize mindset and ski.
+[00:41:15] Skill set over tool set address, employee concerns with the skills development roadmap. The end of roles. At least as we know them is near map. Your current roles to Future required skills and partner with HR to identify opportunities for skills development.
+[00:41:31] Build your first AI, powered Fusion team, where you blend human expertise and AI capabilities. All of this will give you a return on individuals a new way to get failure from your people.
+[00:41:47] So here we are all in the water. The Roar of the river in our ears, the current is strong and the rapid is real.
+[00:41:55] sometimes success is about moving quickly, but more often than not it
+[00:42:00] Just means navigating around the next band with your, or still in your hand and preparing. For a fork in the river, remember, every organization will move at its own pace. So, as you see your raft, will you be a cautious Navigator? Who uses their Keen, expertise to carefully, assess risk, before they go or an opportunistic Navigator, who skillfully aligns your team around the best moments to act.
+[00:42:24] Or a Pioneer who wants to be the first to arrive by taking the biggest risks?
+[00:42:29] Your raft is ready, maximize the value of your efforts, by measuring your return.
+[00:42:37] Set the pace of your adoption by deciding your AI ambition. Where value comes from, trusted human decisions, enabled by data and
+[00:42:45] Technology built the capabilities you need. Where value comes from a well-governed context, Rich Foundation.
+[00:42:53] Grow human skills and behaviors and lead the transformation where value comes from people's skills and their engagement.
+[00:43:01] This raft will help you set the right speed and direction so you can become the trusted guide, your organization needs on this Wild iei River.
+[00:43:14] Now remember our friend John he is now at the hotel bar, all confident that he might go pro and run his own rafting company.
+[00:43:22] Turns out once you have the right, the right raft in place, it doesn't have to be so scary.
+[00:43:27] So grab your pedal face.
+[00:43:30] The wide water and let's make waves. That will be remembered. Thank you. Thank you.

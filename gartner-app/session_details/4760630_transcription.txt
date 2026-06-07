@@ -1,0 +1,156 @@
+[00:00:05] Good morning. I'm Mahesh Kumar. I run marketing at Excel data.
+[00:00:10] And my objective today is the next half an hour, give you some Concepts and thoughts around.
+[00:00:16] Why data management has to be rethought in the AI, especially in the agentic, AI era.
+[00:00:23] And hopefully when you leave the room, you know you go back to your organizations and spur some very interesting discussions.
+[00:00:31] A little bit about our company. We've been uh, since um, in business, since 2018, uh, founded our Founders are from cloud era and hortonworks.
+[00:00:40] So, very strong pedigree of high-scale data processing, right?
+[00:00:45] That's in the DNA of the company.
+[00:00:47] Our customers are all large Enterprise customers. Um, as you can see here,
+[00:00:51] And uh, you know, the key point is we are, you know, very large scale data processing kind of our DNA in the company and mostly, you know, top Banks, Life Sciences, Telos cpg, companies, highly regulated environment. So, whatever we do has been vetted through a very strong sense of security and compliance and things of that nature.
+[00:01:15] Our genius has really been around data observability. We started this concept. Um, 8 years ago, we coined the term
+[00:01:23] And why data observability fundamentally defers from more classic ways of looking at your data or measuring it?
+[00:01:30] Data quality and other things is you do that at every point in your data, life cycle from when the data lands in your estate to the consumption point.
+[00:01:40] And you have to do this real time at scale. That's the key Innovation that data observability brings to the table.
+[00:01:49] And as I continue the presentation, you will see why this becomes a very important baseline or a foundation.
+[00:01:57] For managing data in your agentic, AI environments. It becomes absolutely critical for us to actually do this.
+[00:02:05] Why do we have to rethink?
+[00:02:08] Data management. It's been around for so many years.
+[00:02:11] Um, why do we have to think about it differently?
+[00:02:15] This picture here, tells the story.
+[00:02:17] On the left, you have ai demands.
+[00:02:21] Just notice the blue dots. I mean blue bars, there very short durations.
+[00:02:26] in terms of how often the models are built,
+[00:02:30] how often you tune the models and how often you run the predictions.
+[00:02:34] On the right hand side is the data delivery reality. In Enterprises today,
+[00:02:40] This is data from actual customers, the before and after scenario.
+[00:02:45] Some customers would take 16 days to run a full QA cycle.
+[00:02:50] but if you're building your models every day,
+[00:02:53] 15 days, you're going without your model being potentially accurate, right? So you've got bad data, which you haven't caught.
+[00:03:00] Likewise, you can keep going through this list.
+[00:03:04] This is for AI. Now, can you imagine what happens when agentic AI is introduced in your Enterprise?
+[00:03:10] The time demands on the left hand, in the left hand side, the AI demands, that shrinks even more.
+[00:03:16] Azenta experiences are customer or user asks for something. The agent goes out and in minutes it's supposed to bring back the insight.
+[00:03:26] There's no time, there's no time for anything else.
+[00:03:29] especially if you're doing real time, sort of data processing or data uh, insights
+[00:03:35] Lot of other use cases, right, where you want. The, you know, sort of the freshness of the data is accurate. I mean, Paramount for you, and you end up sort of wanting those,
+[00:03:45] Answer is immediately.
+[00:03:46] So that becomes this problem that you see here, gets Amplified manifold in agentic Ai and that's a big problem for us.
+[00:03:55] So what's the approach? Why have we landed here in this first place?
+[00:03:59] That's because we have a very fragmented environment.
+[00:04:02] We have a fragmented system, we have a system for quality.
+[00:04:06] We have a system for governance, you got a system for a data, lineage 1 more product, you have catalogs.
+[00:04:13] Multiple integration points with so many different personas using it.
+[00:04:18] The actual uh, you would call it like the time lag between when some data gets into 1 system and it manifests, as another system is too long, it's too long for AI. Essentially, it's
+[00:04:30] an order of magnitude longer when you put agentic AI,
+[00:04:35] So this thing on the left hand side, you know you really have to kind of start thinking about how do we rationalize these things?
+[00:04:41] Earlier um this last year actually um Gartner talked about converged data management platforms, right? Where they're saying data management has to converge, they have to come together.
+[00:04:52] I think there is a common misconception that we are mistaking integration for convergence.
+[00:04:59] Because you know, to kind of say you have to convert oh by the way we'll integrate it and now we call it converged is not going to do the trick for us.
+[00:05:08] There has to be true convergence.
+[00:05:10] Some products or categories. Honestly, have to disappear or have to come together.
+[00:05:15] Together, it's not that the function is not important, they just have to come together in a much more unified and cohesive way. And that was the vision that we had, when we launched ejected, agentic data management. Last February, February 2025.
+[00:05:29] And earlier this year, in February 2026 Gartner identified, that as the number 1 Trend in data management.
+[00:05:37] So we've been obviously thinking about this problem for long and put together a nice solution and architecture.
+[00:05:43] So I'll go back and forth between Concepts and little bit of the product. So you kind of get a full sense for not just what we do, but also the con context within which it fits. Yeah.
+[00:05:55] On the right hand side, is really where the world is going. You can see that already play out in a lot of
+[00:06:00] For the domains, you take software development, you know, you don't have a UI developer anymore, you don't have this person, you got people lot of functions are starting to converge or collapse.
+[00:06:10] Because AI is able to pick up a lot of the load that would have otherwise been done by another function. Yeah, that doesn't mean those functions disappear. They have a slightly different purpose
+[00:06:23] So, we believe that a unified platform that really does not rely on point-to-point Integrations. Actually reduces the latency of information between say, for example, your catalog, some information. And then you have to observe data, you can't have a catalog and observability in 2 different systems.
+[00:06:45] They are fundamentally not like working well together, especially if the AI demands are on the order of minutes seconds. Agentic, AI a minute or 2 things of that nature. So you have to think about these things in a very different way. So we actually did a bit of a deep analysis on some of these functionalities on some products that have a lot of overlap with each other. And here's a picture.
+[00:07:06] Uh, there is more detail, it's on our website, you can check it out, but if you just look at say data, lineage metadata management data, quality governance and compliance and such.
+[00:07:18] You will all of these various capabilities. You'll find the manifested in different forms in different kinds of products. You know, you'll have lineage
+[00:07:26] And, you know, catalog will say I'll do a linear, there'll be a governance product. That's
+[00:07:30] I do lineages some other products, so there's a lot of overlap and so this redundancy unless you eliminate it and bring it together in a single platform getting to convergence becomes very hard. It's, it's actually, we are sort of lulling ourselves into false sense of uh, comfort, you know, around convergence.
+[00:07:49] So that piece I think is very critical for us to actually remember that convergence has to happen. Through functionality, convergence into smaller set of products in order to be able to deliver on agentic AI.
+[00:08:00] Just pure integrating and calling it convergence is not doing Justice or doesn't meet the requirement for what you need to be successful. In, agentic AI.
+[00:08:09] now, given that situation, there are 2 Concepts like 1 is
+[00:08:13] Design Time products.
+[00:08:15] Governance and catalogs. I would call them design Time products.
+[00:08:18] Observability is more on the runtime.
+[00:08:21] It's actually observing data as it flows through your pipeline. So there are like 2 camps of products there in this space where everybody is trying to do different, you know, functionality
+[00:08:32] and all talking about data management, agentic data management and so on. So there have to be some sort of test as to how you really kind of parse this out. Where do you put your um, you know, uh future sort of in terms of architectures, what functionality belongs in which product and so on.
+[00:08:49] so here is just a, you know, conceptual sort of
+[00:08:53] Graph here. Uh, on the x-axis is speed with which information changes in these systems and the why
+[00:09:00] Access is a scale.
+[00:09:01] So you can see the 2 design Time products kind of clustering and 1 corner where the rate of change of information getting into it. You're not changing governance policies every day.
+[00:09:11] You're not it. The pace of change is slower. You're not catalogs, are not fundamentally, like changing every minute, every second, right? But all the other hand, when you talk about data observability, when you're in the pipeline, watching the data flow and watching the changes to it literally examining the data row by row across billions of rows of data.
+[00:09:30] That becomes a completely different um Dimension around both speed of change and also scale with which you have to observe the data. So fundamentally, when you're trying to put these products together or thinking of a more holistic solution, you have to
+[00:09:45] Think about the architecture and is it capable of actually sustaining that load. You know, it's very hard to say. I did data quality or I did a catalog and now I'm doing data quality on top of it. Well, the architecture is not exactly suited for it, alright, for scale, and so on.
+[00:10:04] So, I think that's 1 aspect to kind of keep in mind.
+[00:10:07] The second piece really is, you know, just in terms of what you are able to observe, you know, we at Excel data cover, all The 5 Elements, uh, data Gartner talks about Phi elements of data observability. We look at the data, the pipelines infrastructure users and costs. So this allows you to then kind of optimize your system in the best way possible because there is an inter
+[00:10:30] Relationship between them when the amount of data load suddenly increases or spikes up, guess what? Your costs go up. Obviously, it also has a big change and the infrastructure that needed to support that sudden infusion of data that comes in on a Sunday night or whatever, right. So there is obviously a connection between these things. So, unless you have a system that observes all of this in a very holistic manner, it's not easy to kind of, you know, balance the demands that are put on your on your data operations teams.
+[00:11:01] I think I should probably change this slide a little bit. It's a little outdated. Catalog is now context now, right? So, I have to change the name there, but the next time, I think that's kind of go where those products are going, but context is everywhere, right? Context. There is design time.
+[00:11:15] Context, which is what lies in catalogs. And then there is runtime context which is found in systems such as observability, right? Because data is a context. If you think about it, for AI,
+[00:11:28] and that is the that data is what we live in, you know, kind of, you know, actually thrive on
+[00:11:34] So context, has to be much more real-time, runtime context is very important.
+[00:11:41] Design time context. Certainly there is some important to it, but increasingly in agent, take everything is moving more towards runtime, right? So that there's this big, uh, sort of a bifurcation between design time and runtime products. And I think in the agentic era the runtime products are going to win out over time. Um and that
+[00:12:00] That's what's going to, you know, what we think is going to pan out. Now, I'm going to switch back to our product here a little bit. We did some scalability is like, well, you're talking about this.
+[00:12:09] Tell us a little bit about Excel data, right? Is it scalable, you know, does it, does it scale, you know, to my Enterprise Road? So we use the TPC, uh, DS data set and Ransom benchmarks are on both validation and profiling. It's too simple tests. And what you find in the architecture, typically is that, as long as the load scale, the performance scales linearly with load, you're in good shape because you can throw more compute at it, you know, it's a kubernetes based architecture. So it scales with the load. So, you know, son, that's why you're able to suddenly accommodate like a, you know, a huge
+[00:12:45] Lord on a Sunday night like parubiy of load coming in and you process it. So, that's 1 thing that I wanted to highlight. In terms of benchmarks, you have to look at all of these products and go. What kind of performance are they giving me? Are they scaling linearly by and large with my load? And is there a limitation on it, right? And once you're in a kubernetes based architecture and you're able to absorb all this data, it becomes a lot easier to scale 1 of our uh, banking customers, actually processes, 3 trillion checks,
+[00:13:17] A month.
+[00:13:19] On a small portion of their data estate.
+[00:13:22] Because they have Perabo of data going through their pipeline. Imagine every single credit card transaction Bank transaction, you know,
+[00:13:30] Going through your pipelines and you have to observe it because you want a 100% sort of uh, quality in it, right? You don't want bad data in that particular situation and so they process 3 trillion checks a month. You know, you can do the math around what it you know, comes to in a day. But that's a significant amount of activity and our platform can support it and that's because we have the scalable, you know, sort of the platform to actually support it.
+[00:13:56] Now coming to, you know, agents and agentic. The reason we go to agents is it actually cuts through a lot of the complexity, right? You're able to plan a certain action, um, reason on it and kind of figure out, oh, you know, this is, uh, you know, sales product or sales table or a finance table.
+[00:14:15] As a result, I have to apply these kinds of policies in this table. So you're able to reason through it, apply those policies, check the data and then flag for issues. But the more important part of is also reflecting right when things happen, things go wrong, you're able to reflect on it and then keep a note of it. So the next time something happens, you know what the likely remediation is you know what, the likely escalation paths are so it gives you the flexibility of not having to encode every last action into the product. And so you have more flexibility in how the system operates that if something's changed the system is resilient enough to actually take action on it and still be pretty. Alright. Alright, so I'm going to talk to you a little bit about later on. Um,
+[00:15:00] in, you know, just in terms of agentic
+[00:15:03] Is it safe? You know, how can I rely on? What's the architecture that will help me be successful in a genetic and so on?
+[00:15:09] Uh, the core of it really why we're able to do is our reasoning engine. The Cross Lake reasoning engine and we say Cross Lake, because we support all the hyperscalers and uh, data bricks, Snowflake, and on-prem. So, regardless of where your data is your able to observe it in a very consistent manner. We have a data plane control, plane architecture. This is part of the data plane that compute engine which is the reasoning engine sits in your data plane. None of the data ever leaves the promises. So it's highly secure which is the reason Banks and Life Sciences companies and Telos and others are our customers because they're
+[00:15:45] Very, very regulated environments and very strict rules on security. And so this architecture helps and, and then on this, there are some capabilities around semantic Discovery, how do I discover the data?
+[00:15:58] I, I have to look at the table and say, this is a financial table.
+[00:16:02] This column is pii.
+[00:16:04] You know, that's the power of AI and agentic AI that a lot of that insights can be automatically inferred without a human having to encode every last thing which is what you had previously with catalogs and that generation of products where you had to do a lot of hand and coding into, what this data means who it serves Etc. So if you can imagine having this knowledge, having an Insight of all the pipelines knowing exactly which
+[00:16:30] Reports this data kind of lands in. Now, you have a much bigger, um, estate to kind of look at your, uh, ability to identify root cause just goes up orders of magnitude, your ability to prevent problems goes up, very in a very significant way. In addition to these core capabilities, you need a broad context window, right? You can't just look at the data and go. This is what I have. You have to be able to link to knowledge bases, you know, Legacy governance systems, or data catalogs, or even alerts and tickets, because once you study a ticket and understand a ticket, you understand the escalation the next time, a similar situation happens, the system can now respond in a more, um, you know, confident
+[00:17:15] Manner to say, hey, this is what happened. Last time, I suggest you do the following, right? So you don't have to have a human sort of, you know, wheat through every little uh, ticket that comes in your environment. And on top of this run a bunch of agents for 1 for observability Quality governance and so on. So this is what we mean by agentic data management where you're actually able to bring a lot of these disciplines together in a single scalable platform.
+[00:17:43] Goes back to my earliest statement integration is not convergence, right? True convergence is when the latency between these various, uh, sort of categories. The information, the latency is like the zero latency. Because the moment some
+[00:18:00] Update happens in your catalog. You enter a business purpose, every bit of every pipeline, every row of data, that passes through it Etc. Has that context instantaneously
+[00:18:12] You can't do that, just through Integrations for a lot of practical reasons.
+[00:18:17] And the 1 other point. Now, when we're talking about agents, there's always this concern. Hey,
+[00:18:23] Uh, this is going to be predictable, right? Like it's it's going to do things that I'm not very comfortable with and so on and so forth.
+[00:18:31] So our philosophy on agents and agentic management, is that it's a journey, you're not going to get there on day 1.
+[00:18:39] There is 3 big phases that we call it. 1 is the human in the loop where
+[00:18:44] The human.
+[00:18:45] Is in, you know, literally kind of observing alongside the agent, agent is doing the work, but a lot of the things kind of go back to the human for validation, the human, on the loop, and then human out of the loop.
+[00:18:56] At any point in time, an Enterprise will have some actions where things are in the loop.
+[00:19:02] Some are out of the loop and the out of the loop State happens. After you've gained sufficient confidence in it that has been sufficient, I would say, um, you know, retraining through agent through humans, giving feedback, you know, there's a human in the loop giving human feedback and then that makes the AI much more smart and better over time to the point where you get a confidence that okay, this particular process and decisioning
+[00:19:25] I can just put it out and let it automatically make that call right?
+[00:19:30] Whereas there will be others where you absolutely want and there'll be some that you will never be automating. You'll always say, I've always want a human in the loop in this particular situation.
+[00:19:38] So we our product supports all of these 3 modes, right? So you don't have to choose this or that it's like move at your own pace. And at any time it'll be sort of Rich enough to accommodate all these different models of how you work with agents. And this is what gives, you know, a large bank, it's using our product uh agentic data management. You can imagine that. Um, you know, a large, a life sciences company using our product because they feel like this gives them superpowers to do things that they never thought they could do before. And then it actually opens the door to doing more
+[00:20:15] With the resources that they have, right? Uh, and there's some more detail here, like in terms of like what it means, the role of agent and human kind of keeps changing right over uh, in the loop on the loop and out of the loop. Because it's not exactly the same, right? It's like, it's like, you know, in some cases it's a very directed approval. In other case, it's monitoring and the other last case you're just looking at overall Trends and you know, it wasn't any escalation that happened due to this agent's decision. Etc. So the the role's are shifting their shift over time and they all coexist at the same time so you'll never have, you know, probably you know, in the future, you know, everything goes autonomous but that will be a journey and even in the full autonomous State, there is
+[00:21:00] Going to be human in the loop at some point for certain decisions. So you're not going to get rid of that. But when we say autonomous, it means most of the things are autonomous as opposed to. Most of the things today, require more human intervention. Yeah.
+[00:21:14] Um, the next concept I want to really talk about is mCP servers and, uh, you know how you access information from various systems.
+[00:21:22] Uh I'm going to close with a demo of our product on mcps and how we are able to Leverage The Power of that. Um,
+[00:21:28] But why are we able to do that? There is something architectural in it.
+[00:21:33] In a normal software. Say, for example, you had an mCP server for Salesforce or whatever they have apis the mCP server like goes interrogates, the apis gets you.
+[00:21:45] Information that's already been prepackaged and laid out very neatly. If you think about it, right? There is a structure. Everything went into that object called account, or lead or whatever it is. It's all organized for you. Well,
+[00:21:59] And it's fully finite.
+[00:22:01] in the case of observability and the data management kind of products especially like what we have where you're observing the entire data estate,
+[00:22:09] When you ask a question, you're literally touching petabytes of data on the other hand, right?
+[00:22:15] It's like if you ask a question, I want you to get me, the TA data, from these 2 tables and piece it together the following way and build a rapport.
+[00:22:23] That query could hit parubiy of data. So you have to have an architecture that accommodates that
+[00:22:30] So what we've done at Excel data is built an innovation on mCP servers, we call it mCP, DC DC for distributed computing.
+[00:22:38] That when you ask that question on the back, end for the mCP server, there is a distributed compute architecture that understands based on the question. It has the context of the data, it has. The metadata it knows based on this question. I'm going to hit this much volume of data on the other end because that has been profiled. And so, it's now able to scale the infrastructure in order to accommodate what it needs to do to deliver back. So, what that means is the slas on these kinds of mCP usage as much higher with an architecture like this versus an architecture where it's just really a front end.
+[00:23:15] For the API, right? And so, and that works in SAS products and things of that nature. But when you're talking about data products, like ours, where you're actually hitting these tables, and getting information through that, it becomes very challenging to actually rely, you know, on a normal architecture. And that's where the mcpd really helps us a lot.
+[00:23:34] So and finally I'm going to close with a short demo of. Uh what is the art of the possible? You think about it when you have
+[00:23:42] A feel knowledge of the entire data estate.
+[00:23:46] You have the context of what that data is a lot of that has been built by AI.
+[00:23:52] And why that approach Works a little bit better than humans is a lot of times humans. Miss things or they're just a sheer volume of what you have to catalog, or
+[00:24:00] Understand. It's really hard and then and and you know just it's very very difficult to actually get that together and keep up with it because things are changing and new columns added. You can't wait for people to kind of come and understand that and
+[00:24:14] Document it and put all the context around. So that's where our agents are very smart in doing it. And so this demo you will see that we are basically using our mCP server.
+[00:24:24] And then asking it to look at the data estate, this is not like the entire data estate and come back and say, um, you know, tell me, give me a gdpr report, right? So you're kind of talking about some basic questions and all the way down to a very business problem that gets solved by, you know, I would say, tens of millions of dollars,
+[00:24:45] In the Enterprises these days.
+[00:24:46] So,
+[00:24:48] The core of it is, as you say, you go into the mCP server, it's set up. You ask the question, you know, I want you to look at my assets.
+[00:24:56] And score them for gdpr compliance, right? Which assets are compliant which assets are not compliant, the product goes in hits our mCP server now. It's asking the tables all kinds of questions.
+[00:25:08] What is pii, right? It understands pii based on the data. So you didn't have to go in and encode and say, this is pi, this is a social security, this is date of birth so on and so forth.
+[00:25:18] you're able to automatically say that the second part of it, this video actually has been sped up twice, so it plays for about 2 and a half minutes but took about 5 minutes total
+[00:25:27] And just like that.
+[00:25:30] You get a full-fledged dashboard.
+[00:25:33] Of your data estate.
+[00:25:36] All kinds of customer data. You have employee data, it has marketing data and it tells you exactly what is the compliance situation with that data set.
+[00:25:45] And you can actually that's the power of not just mCP servers but really A converged platform like what we've built and agentic data management platform that there is no latency here. It didn't have to query like 10 different systems.
+[00:26:00] And it's querying directly to the data. That means that it is current, whatever Insight you are getting is based on actual data. It's a runtime system. That's actually querying and getting you information so that I wanted to kind of just share this demo with you to see.
+[00:26:15] The art of the possible. When you have a converge platform and agentic interface on top,
+[00:26:21] And finally, I want to leave you with this thought.
+[00:26:23] Next week, uh, we have our customer conference uh, autonomous uh, 26. Uh, our, we had that last year, similar theme this year, agentic are for the Enterprise uh, please. Uh, you can use the QR code to register, it's it's available. Both in person in San Francisco. If any of you from there, um, or you can dial in remotely, uh, but please go ahead and do that. And, uh, I I want to say you to say hi to my colleague here, Chief product officer, Raman Chan, and he myself and other colleague. Colin and Duncan will be there at our booth. We are at Booth 3111. So if you found this
+[00:27:00] Really interesting and more intrigued to get a demo or learn more. Please visit us at our booth. Thank you so much.

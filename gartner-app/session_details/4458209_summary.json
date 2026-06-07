@@ -1,0 +1,130 @@
+{
+  "summary": "The session provides a comprehensive negotiation cheat sheet for data and analytics leaders, outlining ten essential tips and techniques to enhance bargaining power with technology and AI vendors. Each tip emphasizes the importance of asking the right questions and leveraging competitive environments to secure better deals. Attendees are encouraged to utilize these strategies effectively in their negotiations.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Negotiation Cheat Sheet",
+      "key_points": [
+        "Overview of the negotiation cheat sheet",
+        "Importance of negotiation leverage"
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:02:00"
+    },
+    {
+      "order": 2,
+      "topic": "Creating a Competitive Environment",
+      "key_points": [
+        "Use RFPs to create competition",
+        "Importance of operational feasibility in switching vendors"
+      ],
+      "start_time": "00:02:00",
+      "end_time": "00:04:11"
+    },
+    {
+      "order": 3,
+      "topic": "Asking for All Options",
+      "key_points": [
+        "Insist on receiving all pricing options",
+        "Analyze vendor proposals critically"
+      ],
+      "start_time": "00:04:11",
+      "end_time": "00:07:07"
+    },
+    {
+      "order": 4,
+      "topic": "Understanding Vendor Motivations",
+      "key_points": [
+        "Ask vendors about their compensation structure",
+        "Build rapport to gather information"
+      ],
+      "start_time": "00:07:07",
+      "end_time": "00:10:46"
+    },
+    {
+      "order": 5,
+      "topic": "Utilizing Vendor Financial Information",
+      "key_points": [
+        "Leverage vendor financial results for negotiation",
+        "Keep track of fiscal year-end dates"
+      ],
+      "start_time": "00:10:46",
+      "end_time": "00:15:29"
+    },
+    {
+      "order": 6,
+      "topic": "Negotiation Timing and Strategy",
+      "key_points": [
+        "Avoid contract end dates coinciding with fiscal year ends",
+        "Plan negotiations well in advance"
+      ],
+      "start_time": "00:15:29",
+      "end_time": "00:20:51"
+    },
+    {
+      "order": 7,
+      "topic": "Everything is Negotiable",
+      "key_points": [
+        "Regularly review contracts for renegotiation opportunities",
+        "Calculate value of unused products"
+      ],
+      "start_time": "00:20:51",
+      "end_time": "00:24:38"
+    },
+    {
+      "order": 8,
+      "topic": "Gathering Information from Vendor Websites",
+      "key_points": [
+        "Use vendor websites for negotiation insights",
+        "Delegate research tasks to vendor management teams"
+      ],
+      "start_time": "00:24:38",
+      "end_time": "00:25:52"
+    },
+    {
+      "order": 9,
+      "topic": "Identifying Key Decision Makers",
+      "key_points": [
+        "Know the dealmaker and their influence",
+        "Involve C-level executives in negotiations"
+      ],
+      "start_time": "00:25:52",
+      "end_time": "00:29:46"
+    },
+    {
+      "order": 10,
+      "topic": "Final Negotiation Phase",
+      "key_points": [
+        "Allocate sufficient time for negotiations",
+        "Prepare for potential escalations"
+      ],
+      "start_time": "00:29:46",
+      "end_time": "00:34:02"
+    }
+  ],
+  "key_takeaways": [
+    "Utilize RFPs to create a competitive environment for better pricing.",
+    "Always ask for all options and analyze vendor proposals critically.",
+    "Understand vendor motivations to enhance negotiation outcomes.",
+    "Leverage vendor financial information to strengthen your bargaining position.",
+    "Regularly review contracts and be proactive in renegotiation opportunities."
+  ],
+  "entities": [
+    {
+      "rfp": 5
+    },
+    {
+      "ai pricing models": 3
+    },
+    {
+      "vendor management team": 3
+    },
+    {
+      "fiscal year-end": 4
+    },
+    {
+      "negotiation": 10
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

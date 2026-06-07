@@ -1,0 +1,276 @@
+[00:00:01] Good morning, everyone.
+[00:00:02] Welcome, thank you for joining us today. My name is
+[00:00:15] We have been known for in the market for the last 25 years. So helping people business teams and
+[00:00:27] Build analytics processes while our customers tell us that this is still very much relevant today. You are telling us that your needs and challenges have also evolved
+[00:00:39] So many of you must have invested.
+[00:00:45] Google.
+[00:00:47] Fi and he wants the office to be operationalized inside this platforms without compromising governance control and risk.
+[00:00:57] And this is an area that we have been investing in a lot over the last
+[00:01:02] today is less about conflicts and more about the experience and also experience to our customers and joined by. And
+[00:01:10] Opportunity.
+[00:01:12] To work with offerings really um elegantly challenges that were too complex, too many or too costly to solve, which traditional approaches, we all Trace.
+[00:01:25] And is now seeing a bit of a bigger opportunity to go fix plus AI. So,
+[00:01:30] Today is going to be about.
+[00:01:31] Balance.
+[00:01:33] Required today with a controlling organization.
+[00:01:42] The key point today is
+[00:01:44] How do you find the middle ground? How do you balance between
+[00:01:48] Speed. And
+[00:01:49] Cost and risk.
+[00:01:52] Andy, I'm going to ask you a couple questions.
+[00:01:54] Then share your journey with us and then I will be trying for you.
+[00:02:06] Yes.
+[00:02:09] About some of the challenges.
+[00:02:16] Certainly, um, my name is Andrew's College. I'm the global head of the office in the US, with a couple of other titles. I also hold. Um, and I've kind of been us for for 25 years.
+[00:02:29] so in, in the middle of this, we we're stuck between that classic
+[00:02:33] big tooling within the Investment Bank, that needs to go and operate controls. How in the data, how do you get that data around? You need to improve those technology gaps. Um there aren't necessarily the biggest gaps to solve therefore we don't really get at that funding list and get prioritized very quickly the obviously doing time but it's not thick enough for me today. So we we look to alternatives to tools and opportunities and
+[00:03:00] So obviously, we've got people that are very familiar with the product.
+[00:03:06] Very familiar with the process. What should be happening? What the expected outcomes are um but stuck in this environment where it takes them 80 80% of their time to to get through the data to get to the answer, or what they need to look at to get the answer. And we're looking for those opportunities to flip that on its head. We need to we need to spend 27 last time getting to the answer
+[00:03:29] Perfect. Thank you. That's great. Thank you. Um, we're talking about delivering value with with the AI specifically today.
+[00:03:39] The in preparation for this meeting.
+[00:03:42] Scaling AI being in.
+[00:03:45] And operating model problem as opposed to just the technology problem. Can you tell us what scaling AI
+[00:03:52] Yeah, sure.
+[00:03:53] so,
+[00:03:54] hopefully, hopefully seeing these situations but when the are joining start,
+[00:04:00] Training managed to trade really really goes from the trade where we set up all this trade. We learned a lot, very very quick and you get to the end of that.
+[00:04:09] What comes next. When how do I now start practically applying why
+[00:04:15] I do on a day to day job, um, and when would you come across at the moment is, is that we we sat with these inboxes,
+[00:04:23] To think to.
+[00:04:25] They're not going to be here for for some time. Um, when they do.
+[00:04:31] so, we stuck somewhere between
+[00:04:33] Waiting for those things to happen.
+[00:04:36] Kind of a, a little bit of a ad hoc
+[00:04:39] Chaos. If you like like prompting chaos.
+[00:04:43] Everyone's using.
+[00:04:44] Chat GPT, or or co-pilot to build prompts. And that's kind of outside of the, the control framework that I talked with, and it keeps
+[00:04:52] so, you know, we've got to think about ways of
+[00:04:54] putting those things.
+[00:04:56] Into that control framework. So they're all comfortable with what those are.
+[00:04:59] so,
+[00:05:00] you know, I think we started the the sort of 3 Seasons side.
+[00:05:11] System.
+[00:05:13] Which really tried?
+[00:05:16] Checking.
+[00:05:24] Quite tightly controlled lockdown Ai and a lot of cases, as well. When you put start seeing the replication of that key skill set in in core technology, transferred into key skill set in, in some of these big block AI builds as well. So that's something I'm looking at. How do I work around work with
+[00:05:44] and then, obviously,
+[00:05:46] Everybody. My team has got lists of prompts. Inconsistency is an outcomes. Ask a question, a different way to get a slightly different answer. So how do we bring all that together?
+[00:05:57] It's a nice.
+[00:06:01] so what I'm hearing is,
+[00:06:02] you have complexity, you have chaos and
+[00:06:06] around.
+[00:06:08] Um, we'll double click into the actual operating model that you put in.
+[00:06:13] What I'd like to start with is the key principles. So what guided you, what principles guide you from the definition of building of this?
+[00:06:22] Operating model.
+[00:06:25] So, 3 sort of cool principles, right? So first of all goes important and then a lot of these conversations are based
+[00:06:35] On something that you that hasn't had a negative outcome yet, but it might at some point it's very difficult.
+[00:06:45] Tend to over.
+[00:06:46] Um, so putting those white guard rails in place, to make sure that you can actually operate is, is very important. I think we'd be particularly good at that.
+[00:06:55] And then obviously decentralized.
+[00:06:59] you've got to try and make sure that um,
+[00:07:02] Governing the AI.
+[00:07:04] How it's working is allowed to use it?
+[00:07:07] Secondarily it is the Practical benefits, right? We've got loads of people satisfied with it.
+[00:07:16] And then with 2 sets, we enhancing the 2 sets. They've already got
+[00:07:23] Solve these problems to themselves, is the most efficient way to make that next.
+[00:07:28] For me now.
+[00:07:36] To give us.
+[00:07:44] Quickly.
+[00:08:01] Yeah, so I mean, it's very common, it's unstructured. Data is unstructured data representation. It's how we get the answer.
+[00:08:10] So first, what would be unstructured to structured? So
+[00:08:14] Reading something.
+[00:08:16] Receiving that tabular in it.
+[00:08:19] Doing some sort of reconciliation against another data set to make sure it's correct. Um, often complex documents, the calculations were written into the word into the document.
+[00:08:30] Being able to extract that um and then look up into the content analytics and then also then validate calculations and things like that. So that typically is a somebody reading a dog on 1 page. Someone checking a system on another and doing for
+[00:08:45] um,
+[00:08:46] what it would be able to build that scale back. Um, so it would be a 20 minute to 30 minute job is now.
+[00:08:53] Reset.
+[00:08:54] 9C job depending on the size.
+[00:08:57] So that gets us to expect.
+[00:09:02] Um, that they would consume the data but what we still use is the standard ones and zeros the standard or to expose the standard lodging to get to the rectangle. And then what we use is or hoping to use the General on the other side.
+[00:09:14] So let's say does that look like a good outcome? So what we're trying to do is Elevate what we do. We're not trying to do an end-to-end solution with nobody's touching it. We're trying to elevate what is being done.
+[00:09:27] Away with the things that are taking the tool.
+[00:09:29] We're using.
+[00:09:33] The.
+[00:09:35] And what I'm hearing is, you're not like forcing AI at all costs you're using, they don't stick calculations when you need them and use in.
+[00:09:46] When?
+[00:09:48] That's great. Um, and uh, you know, you mentioned that the, the body that you get 20 minutes to 3 seconds and if you, if you want to play that what the number of transactions that you run
+[00:09:59] Yeah.
+[00:10:02] Just another use case actually, where we we can read.
+[00:10:05] Transactions 30 into 3 days and that was a 6.
+[00:10:10] Significant savings.
+[00:10:12] Just from just from the using all the other and I do agree with you. The third thing you want to do, trust me, you know, I think putting the team in the loop right, knowing knowing where you're going to place the AI, what the AI is trying to do, what those outcomes are is critical.
+[00:10:27] so making sure that
+[00:10:29] any of
+[00:10:30] The key decision points are being governed to manage.
+[00:10:32] Control of the Union.
+[00:10:35] break it down into
+[00:10:40] the the key thing I like about the key.
+[00:10:44] operating model that you put in place is
+[00:10:47] not considering governance is something that you can build and hold on the process by you, you, you design the process with governance competing into it. So
+[00:10:56] yes, exactly.
+[00:11:00] You have this strong condition you want to empower people to be part of the solution.
+[00:11:13] What people you want to do?
+[00:11:16] And that sounds.
+[00:11:21] So I think there's many different types of use. So that's why everybody is is is an AI was a little bit like and if you need to do is just make sure where
+[00:11:30] So, the other day user.
+[00:11:36] You're not necessarily running, all the AI engineer, but you're using your prompts.
+[00:11:42] you're chatting with teams to, um,
+[00:11:50] Things like that. Can you get to this build?
+[00:11:53] Which is where I like to upgrade.
+[00:11:57] Which is incrementally taken before you go.
+[00:12:00] Elevates me.
+[00:12:02] You control framework and outside it within it, to make sure that you're kind of the right solution.
+[00:12:07] This is where you're getting low code opportunities.
+[00:12:10] This is where you get. Some people really want to invest their time in the AI.
+[00:12:13] And see how it can enhance, what they're doing on a daily basis.
+[00:12:16] Elevate their knowledge.
+[00:12:18] So, we've got people writing.
+[00:12:21] The code.
+[00:12:26] Processes.
+[00:12:28] Works.
+[00:12:30] For the process of going.
+[00:12:39] Control. And then we still have to check in the end.
+[00:12:43] The team traditionally, we're able to do that.
+[00:12:50] And then you put more advanced users. Obviously we start to get to the bigger bill.
+[00:12:55] The agentic side to start with.
+[00:13:00] That's it. The agent will sit to operate.
+[00:13:03] we have different classes of users, and you have
+[00:13:11] A lot of leaders in.
+[00:13:13] so,
+[00:13:15] You as a leader while giving your stakeholders.
+[00:13:25] Confidence, that this will not grow. How can people
+[00:13:28] Well, a topic also, the Keynote.
+[00:13:30] and I was very good at and that that leveraged exactly what we're trying to do, which is
+[00:13:35] performing for people that really don't understand why is going to
+[00:13:39] impact their job. So it's going to enhance what they do today.
+[00:13:43] Bringing them on that journey and introducing it in this way which is relatively slow slow. And I would like to
+[00:13:49] But what it does is it gets me to work with it and hence, what they're doing, what they're doing is they're they're building their knowledge and they're actually elevating themselves to the job that they used to do yesterday.
+[00:13:57] And I think that's important like its people's ability to to get involved to come on. That journey is going to elevate them to to the position that they're going to do tomorrow. Um and that will be more complicated than the job that
+[00:14:10] For today, because they're going to need to understand.
+[00:14:12] How the AI Works how it needs to be controlled.
+[00:14:15] I think for several extra step on what they're doing today.
+[00:14:19] And that's what we're finding. We're finding that we've got 2 more groups of people and we've got those that are just jumping in and can't do enough, really excited by it and those are still nervous.
+[00:14:29] If I want to do those sort of things in time, starting to see the outcomes.
+[00:14:33] We're sharing what we're doing. Because again, because
+[00:14:37] To share. My problem is your problem is how it could work. Time to Market is a lot quicker. So then what we get is we get this community.
+[00:14:44] Fed.
+[00:14:46] Up.
+[00:14:49] so, seeing an exponential effect that people are upgrading and people walking together,
+[00:14:55] but then in respect of the skill,
+[00:15:07] Thank you for that. Uh, it's um, it's interesting to call once again, I
+[00:15:13] want to go back to the operating model, right?
+[00:15:17] you said technology, not the technology problems here in Ai and operating problem any
+[00:15:22] Flavor.
+[00:15:26] Yeah, so it's, it's really some sort of unexpected table for this presentation. So policies. So what are you approving?
+[00:15:39] What do they do today as well? I think that must be again and that was to be accepted for the green line, which was
+[00:15:45] I I use.
+[00:15:47] Capability.
+[00:15:52] What we intend to do is we use deep.
+[00:16:01] With the tools.
+[00:16:04] And then there is bringing the usability of those AI tools so you can, you know, tools like audit with the tools.
+[00:16:13] We use them.
+[00:16:15] Um, and that brings us to the beginning. Um,
+[00:16:23] we're not changing the plot to change the outcome.
+[00:16:27] Agentic. How we're looking at the overload of the data?
+[00:16:32] Open solving.
+[00:16:33] So that it's not fully information that is, is working counter to all your what Your outcome should be.
+[00:16:40] And then we've got the Federated business.
+[00:16:43] so,
+[00:16:44] Who's going to be able who's going to deploy, who's going to operate? Making sure that that is that speed element.
+[00:16:51] How how are these things going to roll out quickly again? We're going to try and make sure that where we need to be in a big Tech Team.
+[00:16:58] Is with a big Technique. We can help ourselves quite quickly.
+[00:17:03] Okay. That's why I'm telling you those sort of things because in that period of
+[00:17:07] we don't put the model we know what's coming. We just going to be waiting a little bit.
+[00:17:12] Obviously business costs.
+[00:17:23] and,
+[00:17:26] How how?
+[00:17:43] Recently.
+[00:18:01] Don't necessarily live with the big Tech. It's okay to have a government solution in government framework, outside of the tech, building stick on techlist to get done eventually. But, you know, today in council with now,
+[00:18:15] Okay, we've sold it now.
+[00:18:17] That's good enough because it's got
+[00:18:18] The right control, like governance around it.
+[00:18:22] and that then really unblocks our ability to deliver
+[00:18:27] Is that, you know, we're turn again, the government from a good and make sure that the government is not blocking it. Um and that is by, you know, betting models.
+[00:18:38] Rather than every specific.
+[00:18:41] Controlled Bill. Going to governance if the control is this model.
+[00:18:45] You know, kids improve.
+[00:18:46] Discovered in the same way.
+[00:18:50] And different angle here. So you're, you're expected.
+[00:19:00] So um, so the, the element of trust, right? So how, how do you convey the message? How do you build the trust inside the organization?
+[00:19:13] That's where it comes naturally. As a result.
+[00:19:16] And I think, I think this everyone's everyone's cautious about it.
+[00:19:20] But I think what we're doing is we're building a lot of PC.
+[00:19:24] Okay.
+[00:19:31] Similar problems.
+[00:19:32] And we're showcasing.
+[00:19:34] Every small scale to a larger scale across quite a senior audience, that is generating quite a lot of interest rather significant amount of Interest.
+[00:19:44] And especially when we can use it more. So people are, people are getting more and more interested in
+[00:19:50] We've always had to sort of operate in this middle ground, but obviously coming with this type of tool set toolkit available to us. Now is really transformative because the speed of which we have to adapt,
+[00:20:01] To this stuff now that I'm getting from my business leads to say anything.
+[00:20:06] These 10 things.
+[00:20:07] 10 things on Friday, it's 20 people on Monday. So I think just
+[00:20:11] Seeing an output seeing how its controls getting the visibility.
+[00:20:17] Decision making.
+[00:20:19] Option to think my business gets up to a quick so we can talk about it. So it might be time, might be 100%, but they've got it in front of them. They can make a decision in the impact.
+[00:20:30] Has been in which we were able to.
+[00:20:34] then think of that, uh, moving
+[00:20:38] on and also bringing us home again, on on any advice, we have
+[00:20:45] Someone.
+[00:20:46] Say very, very, very interesting like to replicate what we've done. So, what advice would you have for them? And what should they prioritize?
+[00:20:56] so I think just to get into my tools for the team,
+[00:21:00] How is that?
+[00:21:03] A common individuals, everyone's more capable of using this technology. Have you worked?
+[00:21:10] How exactly?
+[00:21:11] Help them.
+[00:21:12] To get better, help them to improve what they're doing, help them to actually do the value, add part of their job.
+[00:21:18] Interrogation on the out.
+[00:21:20] on the
+[00:21:21] to do it.
+[00:21:23] So currently that, um, making sure that they, they, um,
+[00:21:28] Got access to these tools. Thinking the education really? I think putting a big pause between that and actually stepping off.
+[00:21:38] The start of the journey.
+[00:21:41] your timeline between that is,
+[00:21:42] Very small.
+[00:21:44] And that.
+[00:21:46] Higher high degrees of productivity.
+[00:21:49] again, solutioning quickly and can then be socialized and discussed and then everybody
+[00:22:00] a few teams that are going from PC to actually providing these controls with the
+[00:22:10] We've got some kind of questions while you the audience, uh, time again to think about questions about 1 last question for you, which is related to AI, right? So when you think about that,
+[00:22:23] How do you think about is that risk reduction? Is that timing Etc, productivity gains except all of the involved?
+[00:22:30] it's definitely that, I mean,
+[00:22:33] It's also business needs. That's those are the 3 Powers as well cost time efficient?
+[00:22:39] but I think the other, what we call
+[00:22:45] Okay, get them on the journey. So, incrementally. Seeing what AI is doing? How is this doing? Well, the nervousness around, this is still of nervousness, you know?
+[00:22:56] Around. It's going to take my job away. You can start looking at that journey of how this is going to change what I can do for you. And again, my daughter I think is is probably where the biggest
+[00:23:18] Appreciate that. Especially the human element.
+[00:23:31] Good time for questions from the audience.
+[00:23:43] Mentioned that you've been sorry?
+[00:23:56] It's all capabilities.
+[00:24:00] Regional standards that we unify. The timeline is for that more money for us. What? Yeah, I wish I bought the option to set thing if you're having this conversation this morning. So the stuff I'm trying to get a bit to use and actually having to work around it. So where I want to use
+[00:24:18] Kind of capabilities that way. What we're using is we're having to use some of the highs and functionality.
+[00:24:23] In terms, we used to be led to create private code.
+[00:24:27] Obviously your ability so you can't you know the other more things in a in a smaller area. So I want to read a term sheet for example.
+[00:24:48] um, then the
+[00:24:51] The stats tools, there's a very, very good speed tools. I'd love to get my hands on it so introduce the data sets as they come up.
+[00:25:00] Doing that straight up fun.
+[00:25:02] It's going to be sort of enablers to the next step is going to just the agents, right? We know what the problem is. We've seen this problem 10 times before.
+[00:25:09] Send it to this team.
+[00:25:11] Build all of that into my flow. So some of those tools that's the front and back of our code.
+[00:25:23] We have a question in the back.
+[00:25:31] Uh, I was just wondering how you bought the compliance department on complying with your strategy.
+[00:25:42] Potentially, I'm quite familiar with this price Department saying that, but we work with them pretty basic, right? So combining governance, like I said, it's it's
+[00:25:50] there for a reason.
+[00:25:52] Super cautious, right? So you don't want to be the first 1 with
+[00:25:56] The AI it goes away. It doesn't, it shouldn't. So the thing with compliance is that they get
+[00:26:04] Boundaries used to operate the hardware.
+[00:26:07] So as long as they're sticking with those and if I am going to cross those, we have a discussion up front. What that means what the output is on where the human
+[00:26:15] Do.
+[00:26:16] Things kind of control for that. Do we need to get back into the governance of it? So we we're controlling those things all the time. I think it's an open dialogue.
+[00:26:23] Sticking within the the models and the agreed flows that you've got. And when you're going to touch against those it's about understanding
+[00:26:32] That have the area of dialogue going all the time.
+[00:26:39] We've got a few minutes left.
+[00:26:53] Sounds like we don't have 1, but we
+[00:26:56] You might have questions in your head. You don't want to share it out loud.
+[00:27:00] The Andy and I will be at Booth 712.
+[00:27:14] Thank you for joining.

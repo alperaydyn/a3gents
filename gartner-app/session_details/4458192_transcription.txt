@@ -1,0 +1,178 @@
+[00:00:04] Good morning. Welcome to Gartner's data and analytics Summit 2026.
+[00:00:09] I hope you enjoyed the Keynote.
+[00:00:12] And I'm going to start by saying something, I've never been able to say before.
+[00:00:15] Data governance is hot.
+[00:00:19] So, even within Gartner, I have to fight to get funding for governance, surveys and all sorts of things. So data governance is hot, right? So I'm Sally Parker, I'm a Brit. But I work out of uh Australia. And I cover data analytics strategy, uh, governance and within governance Master data management.
+[00:00:38] Now I say data governance is hot, okay?
+[00:00:42] but it's also fair to say that across the
+[00:00:45] Hundreds of discussions that I have with clients. So I've had with clients just this year on data governance. We see some common challenges that are recurring.
+[00:00:54] Okay.
+[00:00:55] So today we're not going to cover Frameworks, we're not going to cover um, The Journey there's plenty of resources that will help you with that online.
+[00:01:03] What? I really wanted to share in this session with some of those common challenges that are coming up. And some of the common discussions are really just roll up our sleeves and see what practical things we can do to improve governance. Okay.
+[00:01:17] So,
+[00:01:19] This picture I think is a fair representation of many organizations data governance Journey. You know where you want to be. You can see the destination
+[00:01:27] but it's paid with obstacles that take us off.
+[00:01:30] Course, that consume our time.
+[00:01:32] Some of us are just starting this journey.
+[00:01:35] Others have driven the bus down this road, many times with many different passengers, okay?
+[00:01:41] The major difference right now, of course, is AI so ai's. Done 2. Things for governance. Firstly, it's Amplified that voice which says hey we need decent data. Governance practices.
+[00:01:54] But the other thing that it's done is it's really accelerated.
+[00:01:58] The need to get those strong practices and Foundations in place very very quickly.
+[00:02:04] And we know that lots of organizations are struggling with this. We ran a survey on the evolution of data governance for AI towards the end of last year.
+[00:02:13] and the results that came back when we
+[00:02:15] Guest organizations to categorize where they were in terms of their maturity, is that 26? Uh, 26%. So about a quarter said, um, we have informal or we have had an ad hoc approach to data governance.
+[00:02:27] Another 31% said, we got somewhat formalized governance. So what that's saying, is that over 50% of the people who responded to that survey were admitting that the maturity of the data governance practices. Wasn't there, okay? And that reflects what I see in the client discussions that it reflects the, the, you know, the audience that's, that's coming into the room today and I'm sure that we have a mixture of people who are just starting their journey and others, who have been driven driven by the bus down this road many times before. So, I hope that what you take away is something that you can do now. Um, whether you whichever
+[00:03:00] those 2 cases you were in
+[00:03:04] so,
+[00:03:05] I wanted to first set a baseline of the traditional approach to today to governance. So we review a lot of data governance strategies, okay. And what we typically see is there are data issues and there are really good reasons for wanting to fix data issues. They create a lot of pain um so we see the data issues, we might set up a data catalog, there might be a business case. Which if I'm honest in about 85% of the time is either a request for resources for governance or it's a proposal for tools or Fabric or something that will help us, um, from a tooling perspective.
+[00:03:40] The next thing is organization set up these big data governance boards or camp.
+[00:03:45] Councils or committees, whatever they're called in your organization, okay? And the challenge with that is yes, we're fixing something which is a pain point for our organization.
+[00:03:54] But we're not linking it back to anything that's in the corporate strategy around risk, revenue or cost or risk value and cost. If you're in public sector,
+[00:04:05] The other challenge with this is that, you know, where do you actually start? There's a lot of data, there's an increasing amount of data. How do you know where to start? So we're reactive we focus on the pain point.
+[00:04:17] People don't understand why we're doing this, they don't understand why we need governance.
+[00:04:21] People be unwilling to share their data. As I say, I have a master data management which requires that people agree on common data models. But people don't want to share their data when you
+[00:04:30] Do set up those big govern.
+[00:04:32] Is, there's a lot of enthusiasm initially, but over time the enthusiasm wanes.
+[00:04:39] Stuarts don't play ball. This is a really, really common 1. What I didn't say at the start is I also cover data driven culture and I kind of fell into that because of the challenges around data analytics strategy and data governance. So the data stews don't play ball is a very common um pain point that comes up.
+[00:04:55] And of course there's no perceived value here which actually puts us at risk because if in 6 months time, you were asked well what have you done with your data governance program and all you've done is clean up data sets, you're in a world of pain, particularly if you need more funding. So that linked to the value is something we're going to talk a little bit about today.
+[00:05:16] Now if you're human me look I'm not 1 that typically likes to participate in quizzes, if I'm in an audience, but I was on the receiving end of this and I found it quite insightful. So if you'll bear with me,
+[00:05:27] I'm going to ask you 5 questions and what I'd like to do, if you're happy to play along on a Monday morning, um, is if you want to see, yes, to the question, can you raise your hand and keep your hand raised? So, the first question is, can you tell me the specific business reason?
+[00:05:42] Or the business outcomes, your governance initiative is aiming to achieve. And why if you can, could you just pop your hand up?
+[00:05:51] Fantastic, thank you. Could you keep your hand up?
+[00:05:55] if you can explain that in under 2 minutes,
+[00:06:00] I tell you was doing pretty good here, actually, you're definitely more more mature than, than my part of the world without using the words data and analytics or technology.
+[00:06:12] Yay. Okay.
+[00:06:16] And then the final 1 in a way that your business stakeholders or operations would understand and be motivated by
+[00:06:23] So we still have a few people with their hands up. These are the people, you need to go see after the session because they've got this fixed. Thank you. Thank you for humoring me. I hope you found that useful.
+[00:06:33] So, I guess what I'm getting at here, is that oftentimes data governance is seen as a about being about data management. Whereas it's much more, okay? And, for many of us, it's, it really is on us to
+[00:06:45] Reset that perception.
+[00:06:47] So,
+[00:06:49] What I'm going to do is hop into the first 1, which is probably something that seems quite obvious. You know, your why?
+[00:06:56] But I would say that in the strategies that I review, this is probably the hardest transformation for the data governance leads to to make because
+[00:07:05] The why or the value piece is in the eyes of the beholder. So, if the Zeta problem to fix, it's a, it's a good reason for doing governance, but it's not the reason that connects with, with our audience.
+[00:07:16] So across those hundreds of strategies um the lens might vary depending on who owns data governance. Sometimes an organization might benefit from having a big data governance team. Sometimes it's somebody who's sitting under the CIO who has this as a partial role.
+[00:07:30] irrespective all the things that I'm going to share with you today, you should be able to to to use
+[00:07:36] so, the challenge with with, with not starting with a clear north compass,
+[00:07:41] Is that we're taking this bottom-up approach and it might take us a long time to clean up data before we see any value. I already touched on that.
+[00:07:49] And stakeholders don't care about number of data sets fixed. They care about what that means to to their goals. If they're responsible for customer satisfaction or optimizing supply chain, they don't care how many data sets you've cleaned up. They care the the data that they need to fulfill that has been your priority.
+[00:08:06] and it's interesting, because
+[00:08:08] you know, if if we were looking to, if somebody said to us go and build a, you know, I want you to design a building the first question that we would ask is
+[00:08:15] Now, what's it for or is it a house? It is a hospital. Is it a hotel?
+[00:08:19] And we need to do the same thing with data governance. Okay there's a few reasons for that.
+[00:08:26] When I think about those strategies, as I said, they're very often. Um, they're very often look like a request for resources or for tools, particularly, in the case of Master data management. And this survey reflects exactly what I see in the inquiries. So there's a focus on trust risk and security, which you would expect for governance. But also the structure and the roles, which we talked talked about the big committees.
+[00:08:47] Processes and Tech enablement. What I want you to take away from this is where the outcomes and business value sits 34% of the organizations who responded to this. So they actually consider that as part of their
+[00:09:00] Governance strategy.
+[00:09:02] Probably more shocking, 26% consider the culture and communication side of things. And I'll come back to that because I think that's really really important. So back to my road visual, you know, if you were trying to get people on that bus, which is what we spend a lot of time doing the data governance.
+[00:09:17] You know, you might have the Rolls-Royce of buses or in Europe, it might be the Volvo buses. Um but unless they know where they're going and they have trust in you that you're going to get them there, then it's quite it's quite challenging to engage.
+[00:09:31] So what can you do? Well, first of all, if you are starting out with your data governance program,
+[00:09:37] think about what business outcomes do I unblock or enable with my program?
+[00:09:43] if you have to start with the corporate,
+[00:09:45] Strategy. I mean, a perfect world. You'd have a business outcome LED data and analytic strategy, but if you don't start with the corporate strategy, what are the risk revenue and cost goals of your organization, that that data governance would enable or unblocked?
+[00:09:59] If you already have your data governance program in play, which I suspect, many of you do, take a step back and think about the activities that you are doing right now. Let's say you are cleaning up your customer data, okay? Take a step back and say, okay. Well, once I've done this, let's say everything went perfectly 6 months down the track
+[00:10:17] What, what goals does that serve that I can see in that corporate strategy in the audit report or whatever it is. So drawing, that line of sight, super important,
+[00:10:28] um, and this is particularly important if
+[00:10:30] You have already taken multiple runs of governance, which is often the case. Because, you know, not only are you trying to get the bus from A to B and get people to stay on the bus, but you're carrying the baggage of the people who left the bus too. So you know, we've got a bit of work to do in rebranding data governance.
+[00:10:47] Number 2, it's kind of uh a follow on from from number 1 really. So if number 1 was about having the north compass, number 2 is about saying, okay, well today organizations are very much taking a minimal viable governance, minimal viable approach to governance. So it's about, you know, I'm not going to get, I'm not going to get everybody in the bus bus bus and stop it all stops. I'm going to be very careful about which stops I choose to stop at based on the capacity and the range.
+[00:11:15] The bus.
+[00:11:16] Um but I'm going to be very clear about delivering incremental value. So instead of delivering incremental cleaned up data sets if if 1 of my goals was improved customer experience and I've got a clean up my customer data for that. What other goals that the organization cares about does cleaning up that customer data support? And it's about rather than saying we'll clean up customer and we'll clean up product and we'll move on to something else. It's about saying no what what data supports the goals. So I can be very, very clear on who needs to be involved, what data is involved, what processes are involved and then move on to the next thing and depending on the size of the team, you might be able to do multiple of these in parallel.
+[00:11:55] this helps us because, you know, 1 of the challenges that many clients face
+[00:12:00] When I'm talking to the, on our client inquiries is they don't know where to start. It's like, there is so much that you could do if you're taking this outcome approach and incremental delivery of value, it makes your governance program, much more granular and much more approachable. Okay, so there are multiple benefits for doing this.
+[00:12:22] So you've got your north compass. You've got your destinations mapped out.
+[00:12:27] Um if you know what the goal is. So let's say, for example, that 1 of my corporate goals is you know, optimization at the moment, many organizations are in cost cutting mode and let's say that procurement carries. A goal of optimizing contract, spend
+[00:12:40] That's a really tangible and specific goal. So back to the questions that I
+[00:12:45] Asked earlier about, do you have a specific business outcome? If you have a business outcome that is procurement, needs to optimize contract, spend by 5% by the end of the financial year. That's a perfect kind of goal because you've got who needs to be involved, you've got the metric for success and you've got the outcome that you're looking to achieve.
+[00:13:03] When you have that, you then know who needs to be involved, you've got the agreed outcome. What processes and what data to focus on. So you're focusing on the right things.
+[00:13:17] So, as I say, what we've effectively done is we've made our governance Pro governance program, much more granular here and and I spoke about metrics. Um, often times the metrics that we use for data, governance are things like data quality and they're very valid metrics.
+[00:13:30] But they don't resonate if we can take that a step further. So again, I gave that very specific example where I said, procurement leads to optimize contracts Bend by 5%. What I really want to do is to link that data quality improvement to that 5% Improvement. Okay. So that's the challenging part, but anytime that we can do that you absolutely have the attention of your stakeholders.
+[00:13:55] And we should always be able to draw that direct line of sight. The causal line of sight between what, governing a piece of data, uh, which which outcome governing a piece of data, will contribute to, or which outcomes
+[00:14:10] number 3, Rebrand governance is a team sport, so we've spoken a lot about sort of
+[00:14:15] Rebranding governance is enabler again, risk Revenue cost or risk value cost.
+[00:14:20] but that's insufficient if your organization still thinks of data governance as an IT thing or the responsibility of it,
+[00:14:27] you might have been given the green light at the bus station.
+[00:14:29] Um, but you might have been published the itinerary, you know, the stops.
+[00:14:33] But you actually want people to get on the bus and stay on the bus.
+[00:14:37] So, 1 thing that we do have to do is get over these issues that you see here governance is not my problem. We've tried this before. Why is it going to work this time?
+[00:14:46] Um, we got real jobs. Why are you asking us to take on data, stewardship role? You know, I'm sure that many of you have experienced the challenges that you see on here.
+[00:14:55] So something that I use, that works pretty well. I'm a big fan of analogies. Anything that
+[00:15:00] Stick. And what I use is this team sport analogy. When you think about governance, You've Really Got 3 roles that you need or 3 functions that you need to fulfill.
+[00:15:09] Policy setting.
+[00:15:11] Policy enforcement.
+[00:15:14] And policy execution.
+[00:15:16] so, what I say to a client is, you know, pick the favorite team, sport of whoever you're talking to,
+[00:15:21] Now, if I was at home in Australia, I might use AFL because I live in Melbourne, in the AFL Natty. Um, here I would probably use uh soccer and FIFA. Okay? So the policy setting is like FIFA, they set the rules of the road, okay? And that's your governance board or your governance Council.
+[00:15:40] Policy enforcement, that's your data stewards.
+[00:15:44] They're not setting.
+[00:15:45] The rules of the road but they're making sure that people follow them. They're issuing you know red cards. If if if you know things go go wrong making sure that the game stays on track. Okay, so this is your data stewards and they're they're making sure that the rules are followed
+[00:16:00] And then finally, we have the players. So the, the policy execution,
+[00:16:05] Policy setting policy enforcement policy execution, and they're doing the data management side of things. Maybe automating a few things these days as well.
+[00:16:13] And the point here is that you want people to understand that they have a role to play in data governance. It's not. It cannot be 6. Governors cannot be successful if it is simply owned by it. So this is really getting getting getting people's head around that. They have a active role to play Within data governance.
+[00:16:32] So Leverage is team sport analogy? Um,
+[00:16:36] Right, size your program. Uh think about who does need to be involved, you don't need to put, you don't need to put data stewards in place for all your data. If you're taking that more granular approach you can prioritize where you start placing the data stewards.
+[00:16:53] Number 4, this is a personal favorite of mine. Um,
+[00:16:58] It's a question of my heart because I think of data governance and data driven culture and I'll put data literacy and AI literacy in that bucket as well as the twins of trust.
+[00:17:06] Because what we're trying to do is to create trust in our data and Trust in its use, okay?
+[00:17:12] We want good governance to be pervasive, you know, almost
+[00:17:15] Visible in Utopia.
+[00:17:17] But the same is true of the data-driven culture. We want it to be the norm of how our organization behaves and it it isn't, we have variable levels of data driven maturity across the organization.
+[00:17:27] We run data governance as a separate initiative from any data-driven change management. And we don't embed that in the work streams where we have that north compass of, you know, improved customer satisfaction optimize supply chain, procurement, whatever it is.
+[00:17:40] So in a perfect world, you know, if we can embed the cultural piece and the data governance piece into the existing workflows, it's kind of shifting from saying, hey come to my governance meeting to. I'll come to your improved customer satisfaction meeting and everybody knows why they're there which helps enormously
+[00:18:03] So the other thing about this. So this is the data point that I put up earlier when I showed. Um, you know basically a quarter of organizations think about culture and change management.
+[00:18:12] This is important for a whole number of reasons. When I at the start said, you know, it can be daunting to know where to start with your data governance program, even if you're not starting the data sets and you're starting with data driven outcomes,
+[00:18:24] It's still the same problem. There's lots of things that you could do and again, capacity and range of the bus. You'll be picking as many as you can take on.
+[00:18:32] I actually would consider the data driven maturity of the candidate outcomes when I'm putting my plan together. So if you don't have a strategy, that always already tells you what those priorities are and what you need to work on
+[00:18:45] Consider a number of things and 1 is, you know is it a priority 1 so risk. Revenue costs are the things that you have sorry risk and compliance are things you have to do.
+[00:18:53] Then I would think, okay, of all the other outcomes. Can I group some together and scale because they leverage the same data. So, I get some scale. I would also think, you know, technical feasibility, but I would also think of those that are left, where do I have the highest levels of data-driven culture? Because I'll get more traction with my governance. So when you're putting that proposal together of where you focus, I would actually think about this in that prioritization phase as well.
+[00:19:20] So changing habits and attitudes is important as improving the data.
+[00:19:26] Okay. Um,
+[00:19:29] something that
+[00:19:30] I use a lot here. Um, is there something called the Gartner business value pyramid? And if you haven't seen it, there's a whole toolkit and workshop. I don't use it as a toolkit and workshop. I just use the visual because what you've got is the outcome the process. So our outcome, the metric, the process and the data, and it shows visually a causal link between the data and the outcome. So if you, if you have access to that, I would say download that because it's super helpful for any of the cultural piece where you're trying to show that clear and causal link between you know, why a stakeholder should care about data and why links to their outcome. So I'd suggest, um, taking a look at that.
+[00:20:09] Number 5, this is what, um, my colleague Nate in the room opposite. Uh, contributed
+[00:20:15] This number 5, 3 of us debated. What we were putting our top 7 and this is what Nate Nate calls you eat your vegetables 1 and he he's kind of right because we all know you know we all know how to run meetings.
+[00:20:26] Um, but what we see, a lot of is those big committees that get put together and interest wanes over time. And people will either stop coming or they'll delegate to somebody else. And then you can't make decisions because the people aren't empowered to make the decisions.
+[00:20:40] Um and what we see is that really the the health of the attendance of that meeting is a a pretty good health check on how your data governance program is going. So we thought it was worth putting this here and saying, look, um, you know, we really do need to make sure that if we're taking that incremental, delivery of value approach,
+[00:21:00] We can narrow down who involved in this because people will have a vested interest in the outcomes that are in scope. So when you're thinking about, you know, if your meeting is just involve the people who need to be at a given time. So if I'm focused on something that's customer related, I might want the Privacy people there. If I'm focusing on something it's product related, might be a slightly different composition. So can we also rightsize, you know, the core constituents and the additional people who need to attend to make sure that, um,
+[00:21:27] Make sure that we maintain some some momentum there.
+[00:21:30] But also not just talk about updates, but talk about what we've achieved talk about in a processes that need to change and make sure that everybody has a voice and make sure that everybody leaves with a sense of what the actions and the time frames are to to follow. So,
+[00:21:45] Again, eat your vegetables but it is kind of important.
+[00:21:50] And and Nate put together a thing which I'm not going to go through today. But it's part of the governance Charter tool kit which is also something that is available online. So um
+[00:22:00] You can access that.
+[00:22:07] so, involve the people who need to be involved, um,
+[00:22:10] Tonight's Point, eat your vegetables. Before the meeting review, the agenda gather the necessary info clarify the objectives during the meeting lead. The decision to lead the discussion towards actionable outcomes and then follow up with clear notes, assigned tasks and deadlines.
+[00:22:32] Build on existing process. Um,
+[00:22:35] This is really uh we debated. What we were put in here and this was really coming out of that data point that you know, 59% of organizations have low data driven, uh sorry, low data, governance practices. So when we talked about this you said well kind of but people are already doing a lot of the things that that governance requires anyway. So that's what this is really talking about to say, can we build on the things that, for example, that data stewards are already doing?
+[00:23:01] And what you see here was actually a case study that was done with an organization called exact sciences. And what they did is they had the, um, DNA leader spend a day with the person who'd been identified as the optimal data steward.
+[00:23:15] and they spent the day, looking at how things were done, what their usual activities were, and then they came up with this,
+[00:23:21] And it's only the gray areas, which were the things that were not done as, as a normal tasks.
+[00:23:28] So when we talk about that shift from, you know, informal governance, practices to formal governance practices, that's much easier to achieve. If you can show that much of the work is already being done. So there's a lot of hesitancy for data stewards to take on extra work, particularly if they don't understand how it's contributing to the business. But what these guys did was to show, well, you're already doing, you know, a lot of this anyway.
+[00:23:53] so, um, look at look at, look at things are taking taking place already as part of particularly, in the case of stew,
+[00:24:00] Dealership the activities that are already already happening.
+[00:24:06] And number 7, um value the contribution and celebrate the wins. So this leads kind of nicely to what I what I would call our less stick and more flowers. Um number 7
+[00:24:17] We know that data governance has got a brand and reputation issue. We know that participation is widely viewed as just an extra task.
+[00:24:25] Um, yet we know that things like data stewardship are critically important to our organization.
+[00:24:31] So, whilst we're looking towards that, you know, world of a seamless data governance that is just built into every everybody's every day. Um, we need to remember to, to give some care and feeding to those who are contributing. So we don't just start
+[00:24:45] Start with why. But when we, when we've achieved that outcome and this is where the pyramid that I was talking about, the value pyramid is super helpful, too, because you can celebrate those wins visually to show what you've been delivering, as you go along as you're delivering those incremental outcomes. So celebrate the wins, celebrate your data stewards,
+[00:25:02] Um, because really what we're talking, you know what we're talking about is if we're thinking about the, the road analogy, at the start of the session, you know, we want people to come on the bus for that Journey, but we want to say that, hey, hey, we had a really great ride. Let's go. And do another another round, okay.
+[00:25:16] So again, this is uh, it's quite important to keep people on board.
+[00:25:21] So this was an example from ovintiv, another organization, and I'm going to play the whole thing out. What, what they did is they, um,
+[00:25:30] They acknowledge that, that, that, that the data stewards role was was critically important to their organization. And they kind of put these Pathways together here where the data Steward had 3 kind of, um, roles if you like. And the first was to identify quick wins because your data stewards of the people who have the deep subject matter expertise. So they see where data is blocking things from a business perspective. So the first thing that they're responsible for was for identifying those those wins within the business side where data governance could support and feeding that back up to the committee.
+[00:26:05] The second thing they were responsible for is within that business Community looking for additional sponsors. So, the first is about their own team. The second is about the
+[00:26:15] Larger team and the third was looking for brand new opportunities to drive the business with data governance. So you can see how critical the data stewardship role is for these guys. So if you are, um,
+[00:26:27] If you are putting formal data stewardship in place, again, celebrate the wins show what they're doing. Make it clear that it's a very, very valued task.
+[00:26:44] And the other thing is uh again data governance is hot which is good but you know when when you have achieved those outcomes and you've got to the end to the end um celebrate those outcomes and get them to send the postcards, you know, to show what's been achieved from a business perspective. So it's not
+[00:27:00] just the data governance voice is saying, you know, hey we've done this, but it's actually the, the business side that's that's doing this
+[00:27:09] So this was a Gartner, has these predicts? And this was a predict I put together, I think a couple of years ago now. Um and it was really again about the twins of trust and saying if we don't don't focus on the culture and the change management side you know we don't have a hope with governance, we have to think about the culture and the change management side and particularly with AI now that we've got that impetus, where we really need to xcelerate getting our data governance practices in place,
+[00:27:37] so on that, we started with the traditional approach to data governance,
+[00:27:41] And what we have here is an alternate approach which summarizes what we've been taught.
+[00:27:45] Talking about. So starting with the business strategy and with the outcomes, it might be 1 outcome. It might be 3, it might be 5, it doesn't matter. But we're taking what I call the Nike approach. We're just rolling up our sleeves and we're getting it done, okay? So if your governance strategy is small, that's perfectly fine, just deliver something.
+[00:28:03] Prioritize the data scope once, you know what the outcome is, you know, what the processes are, you know, who the stakeholders are, you know, we can identify the data that supports those outcomes.
+[00:28:12] Then you can put minimum effective governance, around this um demonstrate business value and then rinse and repeat.
+[00:28:20] And this ensures that your governance is relevant focused and impactful.
+[00:28:25] So in summary and I know we've kind of gone through a whirlwind uh Whirlwind there but they're the
+[00:28:30] Things that are coming up. Most in inquiries are the most impactful for organizations
+[00:28:34] Um, invest the time you need strong foundations, agree on, what will be delivered and when and how you will measure success metrics matter.
+[00:28:43] Throughout behaviors. If data is governance is an enabler. We also need to shift our lens on data governance and how we are presenting that out to the organization. It's an enabler and it's a team sport.
+[00:28:56] Treat data governance and data. Driven culture is a twins of trust, embed, both wherever you can wherever you have the opportunity to do so
+[00:29:05] Starting with those prior prior to list of outcomes. Um,
+[00:29:09] Put you in a stronger position to focus your effort on where you're going to get the highest return on investment from your governance program.
+[00:29:16] And they say thank you and communicate uh your achievements widely. So
+[00:29:22] so I will thank you for your time. We've literally got 19 seconds left. I'm sorry, it was so fast, but I would love to connect with anybody. That would like to continue the discussion. Um, the top note that's on here. Actually has a couple of worksheets in there that I use with clients. The first is about the prioritization, it's the rectangle and I'm pretty sure. I also put the pyramid in there if you have access to that. So thank you for your time and all the best with your governance programs.

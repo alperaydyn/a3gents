@@ -1,0 +1,299 @@
+[00:00:05] Good morning.
+[00:00:06] Thanks for spending some time with me today.
+[00:00:09] On our final day of the conference. I hope everybody has learned a lot so far and, uh, hopefully you'll pick up something this morning as well.
+[00:00:17] I'd like to start today's presentation.
+[00:00:21] With a question.
+[00:00:23] What is the airspeed velocity of the unladen swallow?
+[00:00:28] Some of you will recognize this from money Python and the Holy Grail.
+[00:00:34] Personal favorite of mine.
+[00:00:36] And yes, it is meant to be comical.
+[00:00:39] Conversation that followed this raises an interesting question about our understanding.
+[00:00:45] Standing the sorry, our common understanding and semantics.
+[00:00:51] and the challenges, we all face when we are defining metrics or calculations within our organizations,
+[00:00:57] Now, in this case, were we talking about an African or european swallow?
+[00:01:02] And of course, before I'm called out for this, I know. This is neither 1 of them.
+[00:01:08] I'm not an or not a file, I don't even know what kind of bird this is.
+[00:01:12] Fact is we have dozens, hundreds, perhaps even thousands of metrics within our organizations.
+[00:01:21] And some have more value than others.
+[00:01:24] But in many cases, interpretation of those metrics, is the challenge we all face.
+[00:01:30] That can vary dramatically.
+[00:01:33] And to support our AI first initiatives.
+[00:01:37] We need to rethink how and why we designed these metrics and monitor them.
+[00:01:45] So today, I want to take a brief bit of time to go over the types of metrics. We have
+[00:01:51] and the problems that we all see today,
+[00:01:54] And introduce the idea of building a framework for them.
+[00:01:57] and finally, wrapping this, all together to understand how business semantics are at the core of the future of analytics and AI,
+[00:02:07] Now.
+[00:02:09] Starting. Right in with metrics themselves, from a hierarchical perspective.
+[00:02:15] if we think about our strategic metrics,
+[00:02:17] these are metrics that typically operate at say, 30,000 ft of our business.
+[00:02:23] They measure things like long-term health and Market position and value realization.
+[00:02:29] These are the numbers that are Business Leaders and our sea Suites just simply obsess over.
+[00:02:35] Think of things like Revenue growth rate.
+[00:02:38] measuring, you know this increase or decrease over time of Market, uh, capture
+[00:02:47] This can provide a clear indicator of whether we are moving in the direction we want.
+[00:02:52] Capturing those clients that we're looking for.
+[00:02:56] And if different departments, use different Baseline calc.
+[00:03:00] Ations.
+[00:03:01] The resulting Revenue growth information can be misleading.
+[00:03:06] It could lead to overly optimistic forecasts or perhaps unnecessary Cost Cuts in anticipation of under underperformance.
+[00:03:16] and as we move through our organizations and we look at operational metrics,
+[00:03:20] Our shift changes to efficiency and flow and quality.
+[00:03:25] Think of these as flying at that 10,000 foot range.
+[00:03:29] These are localized to our business units. Often goal oriented
+[00:03:33] They measure the engines that keep our businesses running from day to day.
+[00:03:38] and of course, when we get to the ground floor here,
+[00:03:41] We're looking at project and activity, metrics.
+[00:03:45] These are those transactional measures.
+[00:03:47] They focus on output adherence to plan.
+[00:03:51] And immediate progress.
+[00:03:53] They track our work.
+[00:03:56] But not necessarily value.
+[00:04:00] And again, while these metrics support different types of decision, makers, the danger, lies in interpretation of how, what they mean?
+[00:04:11] And that difference in meaning is what we consider our crisis in meaning.
+[00:04:17] This semantic Gap is the primary blocker to trusting and scaling AI.
+[00:04:25] let me give a couple examples of,
+[00:04:27] How this plays out?
+[00:04:29] Take a help.
+[00:04:30] Care providers. Uh, customer contact team. Getting into a bit of a debate with customer experience team over. How many calls are coming in.
+[00:04:39] Now, our customer experience team considers every call. That's transferred.
+[00:04:45] And number of times.
+[00:04:47] To be considered 1 call.
+[00:04:49] Because it only included 1 client.
+[00:04:54] Whereas the Ops Team.
+[00:04:57] Reports each transfer as an individual call.
+[00:05:00] Because what they need is an agent in this case, a human to answer each 1 of those transfers. And that underlying call Value is an input to their scheduling algorithms
+[00:05:12] now, the customer hadn't changed the
+[00:05:15] Activity, hadn't changed. But clearly the definition in the interpretation of that metric had
+[00:05:23] in another more, probably more common example for people is arguments over sales numbers.
+[00:05:28] Where 2 different departments are reporting. What is reported to be the same number but 1 reporting sales at gross and another 1 at net.
+[00:05:36] Variation between this can be significant.
+[00:05:39] And say, in a retail organization, this could mean the uh you know, the impact of not being able to accurately project inventory values.
+[00:05:49] Basically what we're saying here is that s in a siloed uh environments these definitions create conflicting truths.
+[00:05:58] For us as humans.
+[00:06:00] And by extension AI.
+[00:06:02] AI cannot reason without shared understanding meaning or proper context.
+[00:06:09] And this lack and Clarity of definition and use leads to other problems that I think we all can realize today.
+[00:06:17] Take metric fixation.
+[00:06:19] This happens when our metric becomes the goal itself.
+[00:06:23] Where employees work to improve a particular measure without furthering our organization strategy.
+[00:06:31] Things like we're doing call time.
+[00:06:33] but having the negative impact on our client churn,
+[00:06:38] And then it can often be easier.
+[00:06:41] To measure or count widgets and activities.
+[00:06:45] so we measure that activity, rather than its impact,
+[00:06:50] And these can look impressive.
+[00:06:52] But again, don't always inform decisions. I tend to look at these as vanity metrics.
+[00:06:58] And it's generally an outcropping of not of needing to measure something, but not having a meaningful connection of the data to the decisions that we're trying to make.
+[00:07:09] For example, Counting blog page views, it's an interesting activity metric.
+[00:07:15] But the more valuable 1 would be the leads generated from that.
+[00:07:20] And of course, the more visible a metric.
+[00:07:24] The more likely it is to be deliberately manipulated.
+[00:07:28] Take a sales team if their bonus.
+[00:07:30] Is tied to volume.
+[00:07:32] It could incentivize them.
+[00:07:34] To provide damaging discounts just to achieve that volume goal.
+[00:07:39] Creating that perverse incentive to take actions that deliberately benefit the metric, but clearly go against our objectives.
+[00:07:48] And this ultimately discredits the metric, its intent and our trust in the data.
+[00:07:55] Now, none of these problems are new today. I think we can all accept that.
+[00:08:00] But they are significantly Amplified when we apply AI.
+[00:08:05] Because with more AI automation, increased black boxing and complex value interpretations.
+[00:08:12] These pitfalls just become more difficult to combat.
+[00:08:17] so,
+[00:08:19] I believe the answer here is to contextualize our metrics into a framework.
+[00:08:24] And this contextualization allows us as humans to understand our metrics. And then further lay the foundations for AI agents to act on our behalf with the same understanding.
+[00:08:37] Now, to demonstrate my point, I'm going to have to switch metaphors because as I said, I'm not an or of the file.
+[00:08:43] But I am an active cyclist.
+[00:08:47] And if I were designing my own bike.
+[00:08:49] I'd like to start with a blueprint.
+[00:08:52] And that's our framework.
+[00:08:54] This in this blueprint we're going to define the purpose of this bike. Is it a road bike for performance? And
+[00:09:00] Speed mountain bike for cruising over rough terrain or is it my city Cruiser that I use every day to ride to work and if you're like me, it didn't stop at those 3.
+[00:09:11] This blueprint ultimately helps us outline the general parameters of all the component parts and how they work together to create value.
+[00:09:20] So let's apply this type of idea.
+[00:09:23] To our metrics.
+[00:09:25] And that metrics framework or blueprint will help us Define the why and the how of our measurements.
+[00:09:33] And a framework purpose built for our organizations ensures that the metrics the affective component output of this framework.
+[00:09:42] Connect to our value streams in our businesses.
+[00:09:46] so,
+[00:09:49] The point here, being that build, you know, metrics on their own that single quantifiable point of data.
+[00:09:55] Is meaningless without the framework to help us understand its intent.
+[00:10:02] At a metrics framework, in this case is not just a random grouping of kpis.
+[00:10:07] It's the semantic blueprint that our organization uses to Define how data connects to our value.
+[00:10:15] Giving us that strategic, why? And the executable? How
+[00:10:21] An extent and ultimately establishes the context necessary for intelligent systems to operate.
+[00:10:28] now, I believe that this framework,
+[00:10:30] Rests on 6 pillars.
+[00:10:32] I'll take a quick walk through them.
+[00:10:35] Or write.
+[00:10:37] Now, strategic alignment itself. Here isn't just about matching our goals. It's about value. Driven prioritization.
+[00:10:45] in this, our frame framework mandate mandates a metric selection prioritize based on their ability to quantify business impact,
+[00:10:55] It stops us from measuring those things just because we can and focus on the things that justify Strategic investment.
+[00:11:04] So we need a map then to on how those leading indicators, those things that project, the future impact, our outcomes or lagging indicators.
+[00:11:15] And and drives that data driven narrative for success.
+[00:11:19] This ultimately creates that bridge from that high level strategy.
+[00:11:24] To actual execution supporting our organizational. Objectives by translating those high-level goals into a co coherent portfolio of metrics.
+[00:11:34] establishing a metric value and prioritizing measurements based on their ability to measure business impact and then ultimately being able to Cascade across levels and business units,
+[00:11:47] Now, definitional Clarity here.
+[00:11:50] This is about creating that single source of Truth.
+[00:11:54] Not the physical location.
+[00:11:57] But the physical meaning.
+[00:11:59] It promotes.
+[00:12:00] Consistency. My mandating unambiguous definitions that can be interpreted by all stakeholders from the front line to the Sea Suite from Human to AI.
+[00:12:10] And its standard standardized terminologies and calculation logic allowing for Meaningful comparisons between business units and our industry.
+[00:12:20] and if further ensures transparency by documenting things like lineage, its metadata, its calculation
+[00:12:27] This is critical for building trust and disambiguation how a number is actually calculated.
+[00:12:35] Together. These all come, uh, come around to build, build that single source of Truth. For standardizing our terms.
+[00:12:45] Now.
+[00:12:46] Our Frameworks also cannot be static.
+[00:12:49] Our organizations evolve. So do our metrics, this is a living system. This ensures contextual relevance allowing the metric to or the framework to be tailored to our organization and within our industry.
+[00:13:02] And it allows for continual Evolution through a governed life cycle.
+[00:13:07] Promoting the idea of revising retiring reviewing those metrics.
+[00:13:13] As our strategy shifts.
+[00:13:15] And it supports iterative refinements through feedback loops.
+[00:13:20] Where metric insights are used to learn iterate on our strategy and identify those new opportunities for growth.
+[00:13:29] Metrics.
+[00:13:30] Also need to be actionable.
+[00:13:32] And to be actionable, they have to support decision-making.
+[00:13:36] So to do this, that the port the metrics framework acts as a portfolio balancing mechanism ensuring that we have a proper mix of both leading and lagging indicators.
+[00:13:48] Crucially, this mandates, a contextual benchmarking approach.
+[00:13:52] because as I said the number on its own is meaningless
+[00:13:56] So we Define the standards for comparison against both historical performance.
+[00:14:02] And Industry results.
+[00:14:04] Every answer or every metric should ultimately answer the question.
+[00:14:10] So, what?
+[00:14:15] And of course the credibility of every metric, right?
+[00:14:19] Sorry relies entirely on its data.
+[00:14:23] This mandates, accuracy, through rigorous technical specifications and for formulas and ensures reliability by establishing data quality checks throughout the pipeline.
+[00:14:34] And of course provides auditability. So and proactive issue resolution so that we can manage data challenges rather than react to them.
+[00:14:45] And finally, of course governance.
+[00:14:47] 1 of everybody's favorite words.
+[00:14:50] This solves the who owns this problem?
+[00:14:53] Our framework should formally Define roles like a metric owner. Who's the person in the business?
+[00:15:00] That understands and interprets, its definition and impact the business. And the data owner that owns its data lineage and accuracy.
+[00:15:09] This eliminates ambiguity.
+[00:15:13] We also need to establish collaborative governance processes where definitions get approved cross functionally.
+[00:15:22] That ensures that when sales defines a term like Revenue Finance. Also agrees with that calculation,
+[00:15:30] Now.
+[00:15:31] When we bring all of this together, what we have is a holistic metrics framework. This becomes our total blueprint.
+[00:15:38] This structure provides the foundation for metrics to be consumed and interpreted universally by.
+[00:15:45] Bios, as humans. And AI agents.
+[00:15:49] so,
+[00:15:51] now that I have laid out,
+[00:15:53] This blueprint.
+[00:15:55] On how to build some metrics and put this together.
+[00:15:59] Some of you might be thinking.
+[00:16:01] How how do I go about this? Do I need to build this up?
+[00:16:05] From essentially, nothing.
+[00:16:08] And I'd suggest that in short, the answer is no.
+[00:16:12] You can and you should adopt some existing Frameworks that exist in the world today.
+[00:16:19] however, the key to understanding this,
+[00:16:21] Is that different Frameworks do solve for different problems?
+[00:16:27] I want to take a look at several current.
+[00:16:30] Frameworks in the world today that you could adopt and adapt for yourselves.
+[00:16:36] First and easiest, probably most common is this idea of the smart framework.
+[00:16:41] You probably recognize this. It's a general standard for goal, setting and performance man management.
+[00:16:47] It ensures that all of our metrics are specific And Timely.
+[00:16:52] Its versatile. It works for just about every industry and every type of team.
+[00:17:00] Now developed by Google.
+[00:17:02] Something called the heart map uh framework.
+[00:17:04] And this is designed for user experience teams, focusing Less on revenue and more on things like happiness.
+[00:17:12] And engagement.
+[00:17:14] this connects,
+[00:17:15] Design decisions to our business outcomes.
+[00:17:20] and then, of course,
+[00:17:21] there's the r.
+[00:17:22] Or the pirate metrics.
+[00:17:26] It's common for startups or any company that's in uh growth stages where we track the user Journey linearly.
+[00:17:36] From activation all the way through to revenue.
+[00:17:39] And it's designed to optimize for quick growth and customer acquisition.
+[00:17:45] but if we flip that pattern, what we get is there are and I see this more in mature, organizations or business units with a uh a subscription model
+[00:17:55] Where we're focused more on.
+[00:17:58] Keeping and retaining.
+[00:18:00] Our current users.
+[00:18:03] Instead of chasing new ones.
+[00:18:07] Key here.
+[00:18:08] Is that each 1 of these solves for a slightly different process?
+[00:18:12] Or different type of business.
+[00:18:14] And it's not our job as Leaders to necessarily design. A specific monolithic framework for our entire organization
+[00:18:21] It's to help identify which 1 works best for us.
+[00:18:25] if within certain different business, domains
+[00:18:29] and to ensure that they feed into a cohesive organization,
+[00:18:34] Essentially, the 1 size, fits all approach, here and ends up with a 1 size, fits none.
+[00:18:43] Now.
+[00:18:45] I've kind of walked through with the problems are
+[00:18:48] I've identified a way to build a framework around our metrics creating this Universal Pathway to enable human and AI agents.
+[00:18:58] This leads us to the idea of semantics.
+[00:19:01] And of course, metadata.
+[00:19:04] That's what our framework is collecting, metadata.
+[00:19:08] AI cannot understand context, without this human defined framework and the often missed element is metric metadata.
+[00:19:18] This is how we provide context to AI agents, so they can understand our intent when we approach it with a question.
+[00:19:28] Now, I'm not going to bore you for the
+[00:19:30] Of today's presentation on a lengthy discussion of technical metadata management.
+[00:19:35] But what I do want to do is highlight what I believe is the most important element of metadata that you're going to capture through this framework.
+[00:19:45] And that is the definition.
+[00:19:48] But in this, I believe that every metric has 2 definitions.
+[00:19:55] Depending on who you talk to, that might be more.
+[00:19:58] We have a linguistic, definition. This is how we talk about our metrics. This is the impact that has why we calculate it. What's its purpose?
+[00:20:09] this talk, this
+[00:20:11] Gives us. The why of our calculation? What's the Strategic?
+[00:20:15] Comparative around it.
+[00:20:17] but the 1, we often focus on
+[00:20:20] Is the operational.
+[00:20:22] This is how it's calculated. Where does the data come from? What is its data quality? What's the physical math behind it?
+[00:20:30] This is all about technical execution.
+[00:20:34] This is what allows an AI agent to collect and capture the correct data and make the correct calculation.
+[00:20:43] But if you think about your top couple of metrics in your organization today,
+[00:20:48] how often do you think those agree?
+[00:20:52] Semantics therefore are no longer just this Niche technology for specialized domains.
+[00:21:00] They're an essential component for any AI first organization.
+[00:21:04] And these Frameworks.
+[00:21:07] Are necessary to define those business, semantics. As we further automate our decisions with AI
+[00:21:14] and become the primary enabler of analytics for our future.
+[00:21:21] Now.
+[00:21:23] This image should start to become familiar to buy this point. It's our analytics. Continuum. It represents the analytics that we have today and those that we look to you for the future.
+[00:21:33] And as we move through this Continuum our analytics consumer moves increasingly from machine or from Human to machine.
+[00:21:43] and if we expect AI,
+[00:21:45] To act similarly to as US.
+[00:21:48] We need appropriate context.
+[00:21:51] Semantics. In this case, the definition and the use of our metrics is 1 key factor in providing that context.
+[00:22:00] So for traditional bi, this ensures consistent consistency in reporting.
+[00:22:05] Preventing those report Wars where different departments represent different numbers for what should be the same metric.
+[00:22:13] And as we move further into that prescription analytics space.
+[00:22:19] Semantics then, Empower our AGI AI agents to speak the language of our business.
+[00:22:30] Uniform. Semantics, therefore ensure that we all work from the same set of meetings for our metrics.
+[00:22:36] And a shared composite semantic layer.
+[00:22:39] It supports the interoperability that allows a diverse array of AI, agents and systems to collaborate, creating that scalable integrated intelligence architecture.
+[00:22:51] In fact, prioritizing semantics is projected to increase. Agentic AI accuracy, by upwards of 80%.
+[00:23:01] so as I kind of come to the end of this,
+[00:23:05] I want to leave you with several actions.
+[00:23:09] First, I'd like you to go home and audit your current metrics.
+[00:23:13] And we're not trying to boil the ocean here.
+[00:23:15] Your top 3 to 5 metrics and subject them to a semantic audit.
+[00:23:19] Identify that linguistic. And that operational definition that we talked about.
+[00:23:24] And ask yourself if I fed this into an AI agent, does it have enough context to understand why that metric is important and to calculate it correctly without hallucinating.
+[00:23:37] And over the next few months, you should formalize accountability.
+[00:23:41] Metrics fail.
+[00:23:43] When they are everyone's job but no 1's responsibility.
+[00:23:48] So, you need to organize your governance, teams, assigning, those roles that I discussed from metrics, things like the business owner as the, the metric owner from the business.
+[00:23:58] And the data owner.
+[00:24:00] From your data management teams.
+[00:24:03] And during this phase,
+[00:24:05] Convene those cross-functional governance. Uh, teams to ensure your metrics are not just covering activity, but they're measuring value in the organization.
+[00:24:18] and if a metric doesn't link to a strategic goal,
+[00:24:22] it's likely time to retire it.
+[00:24:27] I also established here that we can't just buy a universal framework off the shelf.
+[00:24:34] So, you have to build 1 that suits your reality.
+[00:24:38] Over the next year, I want to see you transition from building individual metrics to building the framework that governs it.
+[00:24:45] Perhaps adapting 1 of the ones that we saw today.
+[00:24:49] Because remember a monolithic framework rarely works.
+[00:24:53] So, use this time to define those specific, subframe works for your particular business, domains.
+[00:25:01] Ultimately the difference between a dashboard that gets ignored AI agents, that can't be trusted.
+[00:25:08] And a framework that drives our strategy.
+[00:25:11] Is not better software.
+[00:25:14] It's better semantic.
+[00:25:17] Now.
+[00:25:18] Lastly, before I go.
+[00:25:21] I am very certain that there are nonzero number out here non-zero. Number of people out here that have not heard anything. I've said since the first slide
+[00:25:31] There you go.
+[00:25:33] With that. I appreciate your time today. I'm really happy. You spent something with me on the final day and I hope to see you the rest of the day and Beyond.

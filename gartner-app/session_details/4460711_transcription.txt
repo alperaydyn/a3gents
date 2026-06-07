@@ -1,0 +1,215 @@
+[00:00:03] Good afternoon, everyone. I hope you're enjoying the conference so far.
+[00:00:08] So, my name is Rahul coming from Madrid from Spain and part of the Garner for technical, professional teams. And I'm, I like to consider myself a technical, professional. I'm an engineer. I like to build things. I I like to coach even before coding agents. Uh, but I have a confession to to to make I I I actually I started working like 4 years ago and generative AI started working in general. Uh in ra retrieval of many generation.
+[00:00:40] But I have to confess sometimes I just hate right.
+[00:00:45] And that, that's why we're here today, right? We're here today to discuss why sometimes we hate black. But some of the times we we love it. And the thing is that we will be discussing how we need RA in order to ensure the success of our of our AI initiatives.
+[00:01:04] uh, so let me begin with a couple of
+[00:01:08] Uh questions. The first 1 is easy, the second 1. Yeah, let's see. So please raise your hand.
+[00:01:15] If you have a rag implementation in production, a retrieval of engineering project. Wow, yeah.
+[00:01:23] So, thank you. A lot of
+[00:01:25] Uh, actually it's 93.4% of the audience.
+[00:01:30] Uh, have a rock production, Rock implementation production. Now second question, which is a little bit more difficult.
+[00:01:38] Please raise your hand. If you are completely happy about your rock, uh, uh, implementation in production and you're happy about the accuracy, the cost scalability maintenance and I can see exactly 2 hands. Uh, 3, 3, I'll talk to you guys after the talk. I need to talk to you.
+[00:02:04] so yeah that's why we sometimes we love rock this very very the most typical uh use case in G of
+[00:02:15] Years and but sometimes we struggle with that as we can see from our little experiment. So we're going to be discussing about
+[00:02:24] What is the future of rag, is? Are there any alternatives to rag? That are a better option right now for for grounding, our models into data and more importantly, how how, to fix it, how to improve our rag, use cases.
+[00:02:40] So, I know most of you already know about rag, I just will go through the definition which is easy because it's kind of in the name. It's about retrieval augmentation. Basically 3, 3 phase, right? Retriever you get raw data typically, uh, unstructured data, but more increasingly I
+[00:03:00] More and more. When I talk to clients, also, we are incorporating a structured data into Iraq, which is not easy. You might know. Uh, then you have to pre-process the data and index it for searching different types of search. We'll we'll discussing about that. Then we have augmentation, basically taking the relevant information from from the retrieval and augment the context window of our llm. And finally, uh, the generation part where we bring together. The user question relevant information system, prompt Etc and hopefully
+[00:03:37] You get a right answer. Right? And the the most important part of rag, is if you think about this, if you think about your AI initiative,
+[00:03:45] How many of them?
+[00:03:47] would would improve if you get
+[00:03:51] data from your organization into the model.
+[00:03:54] And the other is typically yeah, a lot of them. And that's why rag is so Universal, that's rag, is very, very present in in a lot of AI initiatives and that is part why we love it? Alright, it's pretty Universal. Is is there you saw that at the beginning and also
+[00:04:13] actually, my experience when I started working on this, uh,
+[00:04:17] you know, I worked for, um, a big insurance company in Spain, and they were so happy with me because in just 1 week again, before coding agencies, python notebook, and
+[00:04:30] Um, uh libraries. I got a PC working.
+[00:04:34] Just uh, a few days.
+[00:04:37] And everyone was so excited.
+[00:04:40] But what comes later. Yeah, we will talk about that in a moment. Uh but yeah, you get the thing is you get your model grounded to your data which is, you know, hopefully you reduce hallucinations, Etc. That's why we love it.
+[00:04:55] and,
+[00:04:56] But there's a the other side of this.
+[00:04:59] uh,
+[00:05:00] Even though easy is easy to start.
+[00:05:04] soon enough you discover that rag is difficult rag, is way more difficult that you think at the beginning because hey the accuracy getting
+[00:05:15] It's so funny when I talk to clients and they told me sorry about this but they they typically tell me look row we need a 100 percent accuracy. Well good luck.
+[00:05:26] Uh yeah, you have to think about the, you know, the variability. We we're talking about natural language variability in input from the users variability in the generation phase. Uh, plus yeah, cross fingers was retrieval when you have very, very complex knowledge base, right? So this is not as easy as it looks at the beginning. And because of all these considerations, right? It's like all social security and privacy you performance costs Etc.
+[00:05:54] Because all of these, we see from Garner we we talk to clients again and again.
+[00:06:00] Are repeating pattern.
+[00:06:02] Hopefully, it's not, okay.
+[00:06:04] But I see I experienced that myself. We call that the parade of AI dinosaurs. Let me explain what we mean by this typically
+[00:06:14] And again, I hope it doesn't happen to you, but there's a team, a technical team. You put together uh in a few days they they get a wonderful MVP and yeah, accuracy is not a nice but very very promising. Uh users, get excited and it looks good at the beginning and then it gets frozen in time. Nobody, uh, update the models, nobody is updating and taking care of the data, preparation Pipeline and data dating.
+[00:06:45] With new uh, data etc, etc. And in time, this project goes like, you know, forgotten
+[00:06:53] Then another thing comes and they said, hey why don't we build?
+[00:06:56] This new framework, whatever. And then the cycle repeats,
+[00:07:01] and here you have the party.
+[00:07:03] This is my experience. Um so well what do we do? Are we doomed?
+[00:07:09] Uh, how can we uh, deal with this?
+[00:07:13] uh, and
+[00:07:14] 3 things typically come up with in my inquiry when I talk to clients sometimes by Rahul. Why do I need to do ra? Now we have models with such a big context window. Why should I care about retrieval? I just throw
+[00:07:30] so, all the data into the context window, I mean come on
+[00:07:34] Yeah.
+[00:07:36] Just to mention the cost about that latency is crazy plus. Yeah, think about this, if you have a lot of irrelevant information, in the context window, what happens with your accuracy? Nothing good, right? So not yeah, good. I mean, big context window.
+[00:07:53] Nice thing for other use cases, not an alternative to write. Then the other, uh, fine tuning? I know. Fine. Tuning is very popular, these days easier now to do fine tuning but it's fine. Tuning, a replacement for Rock
+[00:08:06] Not really.
+[00:08:07] actually my, uh,
+[00:08:10] Recommendation. Here is yeah it does make sense sometimes to use fine-tune model specific.
+[00:08:15] Particularly a small language model, you do you build your domain? Domain specific, uh language model in conjunction with retrieval
+[00:08:24] because,
+[00:08:25] Unless your data is very aesthetic.
+[00:08:28] You will need to retrain the model. Every time your data, which is maybe not a very good idea.
+[00:08:35] And yeah, I have to talk about agents, of course.
+[00:08:38] and some people get confused about this, because
+[00:08:43] Think think again.
+[00:08:45] Our AI agents are replacement for rag.
+[00:08:50] I know agents are popular term but again, rag is about retrieval. It's about getting information from your organization so agents can
+[00:09:00] And use that. So actually brag or retrieval specifically, is the tool that most of your agents need to be working. So again, in order to ensure the success of your agentic, AI, you need rack working in the first place, right? So yeah, no replacement and now it's even more. We are more concerned about having rack workings. So,
+[00:09:24] Yeah, it looks like there's no Silver Bullet. I mean, those of you who are more,
+[00:09:28] Technically oriented, maybe you're locked into this techniques. I mean, I like this. I've been looking, I go to Archive. I see new papers coming in a lot of GitHub repos with things like you know, neural retrievers multihop multimodal uh retrieval.
+[00:09:45] Uh, I was looking recently at Cash augmenting generation a lot of different techniques but to be honest with you this is nice for um, let's say Innovation budget.
+[00:09:59] This techniques.
+[00:10:01] Are in research stage. This is not something you can think about for going into production today.
+[00:10:09] Yeah, and I agree. This is maybe what we need to think of for rag 2.0, but again, it's not an alternative. It's something that we can think of for improving our current rag Pipelines.
+[00:10:26] so,
+[00:10:28] Situation, just to me.
+[00:10:30] Good Danny. The video it's like,
+[00:10:33] Rag.
+[00:10:34] Yeah, it's in our best friend. It's our only friend.
+[00:10:39] So I think that we don't have any other option, but to try to fix this love slash hate relationship. We have with, with rack, we have to work on that.
+[00:10:51] So let's discuss. Now, the 7, the 7 ways in which we can fix rack and the first 1, maybe you thinking about ah, about hallucinations about uh, some technical, think about search.
+[00:11:06] the first 1, I think the most important 1
+[00:11:10] What we need to fix about rack Is Us.
+[00:11:14] people, the
+[00:11:15] Problem of AI always is humans.
+[00:11:18] No, what I mean by this is
+[00:11:21] Think about this about your rag, implementations.
+[00:11:26] Do you have a right plan in place for and the resources needed for curating and updating the data for your rag. Implementation, did you have a continuous Improvement plan? Do you have a clear and objective set of requirements and a test set where you can evaluate and get your uh performance for your rag solution? And typically the questions sorry, the answer to those questions is you didn't
+[00:11:59] I mean, I'm not.
+[00:12:00] Saying about you particular. That's my experience.
+[00:12:03] uh, what I mean to say here is that we should learn from our colleagues in software engineering,
+[00:12:10] People building software, they know this that you need a product engineering approach, you need to make sure technology is there that we have rack technology.
+[00:12:21] But maybe we're failing in how we manage.
+[00:12:25] This technology but I will be focusing more on these in a moment. But uh, I think yeah, this is 1 of the main ways where uh, struggling right now
+[00:12:36] now, more on to, of course, we talking about rack data, is the important factor here and obviously number 2,
+[00:12:46] Is pre-processing. Remember the garbage in garbage out from predictive modeling ml Etc?
+[00:12:54] And this applies here as well.
+[00:12:56] And probably, it's not because the quality of the original Road data that you have and people don't realize how connected is pre-processing to accuracy.
+[00:13:09] It is very sometimes I talk to clients and they tell me they tell me, oh maybe we should fine-tune our embedding model because that way or maybe we can use this other Frontier llm.
+[00:13:22] And you're actually you're losing a lot of important information in your documents, maybe because you have big tables.
+[00:13:30] Or diagrams. Are you not extracting the necessary information? Uh, let me just give you an example. Uh, I used to work for a chemical company and we had PDF documents referring to chemical products or production sites. You have to do named entity recognition and because no matter how intelligent the model is, no matter if, if you bring Einstein to your company, no matter how intelligent that guy is,
+[00:14:00] He doesn't know how you talk and there's a lot of uh contextual information that we humans. When we work in our organization, we know that
+[00:14:09] It's not in the documents, it's not in the original documents and that's why. Yeah.
+[00:14:15] People talk about context these days.
+[00:14:17] Uh if you're familiar with agents MD in the uh I think we need humans empty.
+[00:14:25] Sometimes that's the Playbook. That's still boarding. You need on boarding for humans. Why don't you think that we also need on boarding for llms? They need on boarding. They need some implicit information that sometimes we just losing in the process. So, think about this. Look at your pre-processing pipeline and maybe you identify some for instance. Yeah. Entities that you're not, uh, applying or some new chunking strategy that you can apply. Same thing for for search. This is more obvious, right? The, the retrieval phase and I know, I mean, most of you, I'm
+[00:15:00] Sure. The typical, if you look at retrieval optimization,
+[00:15:04] But I see again and again, people start with semantic search with the vector store.
+[00:15:08] Uh, then hybrid search when you combine these semantic search, uh, typically cosine similarity, something like that with keyword search.
+[00:15:18] and when those 2 are not enough for your use case, because people have this, they have this tendency to make
+[00:15:25] more difficult and more difficult questions.
+[00:15:28] So your scope keep increasing. That's the moment we're leaving. Now, my the the trend I'm, uh, realizing when I talk to to you, to different organizations, like now, everyone is talking about, uh, graph rack. Everyone is thinking
+[00:15:45] Oh maybe I should implement or build this semantic model this uh, Knowledge Graph because the hybrid search I have now is not enough.
+[00:15:55] Yeah, maybe that is the case. But I invite you to look at this, the 3 components here, query optimization retrieval and also post optimization because
+[00:16:07] Uh a lot of time you could improve a lot of your accuracy just by looking at intent recognition. Remember remember this? This is natural language your users.
+[00:16:21] They're going to be asking questions in ways you cannot fathom.
+[00:16:26] And sometimes you need this ambigu, right?
+[00:16:30] And, and you have an llm there, you have a chatbot. Why don't you try and that's very, very powerful tool. Why don't you try to disambiguate? Maybe same thing. A human will do if you get a a question about, huh? Tell me about the financial uh, indicators for this company, instead of just going retrieve. That what was that? What I'm going to retrieve? This is not specific enough.
+[00:16:55] So you can use an element to go back to the US and say, okay, what do you mean? Do you mean a pizza?
+[00:17:01] And then you do the retrieval. See? So it is about considering the whole pipeline not just going with whatever the user says, and try retrieval. Because you just basically wasting tokens.
+[00:17:13] That's the way it is. I mean,
+[00:17:15] Users. Yeah, you cannot trust them.
+[00:17:17] Um,
+[00:17:19] Yeah. Agentic rack is a yeah. I wanted to come in again about agent rack.
+[00:17:25] Trending topic.
+[00:17:27] But really think about if you need it or not.
+[00:17:30] I would say instead of agentic rack, I would prefer to say, do you need 1 hop? Retrieval, is it the question something that you can answer with just 1 retrieval or do you need to reason and plan across different retrievals because the question you go is really difficult and actually human would need to do that as well. So that's the big uh scoping uh question that you need to solve in order to implement your your uh ra pipeline.
+[00:18:00] This is.
+[00:18:01] Also, very good 1.
+[00:18:03] Invalids. Evaluations.
+[00:18:05] And again, this is funny for me because sometimes I talk again, I talk to clients every day and I asked them.
+[00:18:16] How well their ra system is working.
+[00:18:19] I'm asking about accuracy.
+[00:18:21] And some of them they tell me, oh, we're happy, it's going good, some others. Oh no, no, it's not working at all. And then when I ask, okay, how do you know
+[00:18:32] and it's like,
+[00:18:34] 90% of the time, they don't have a proper test set so how do they know? I mean it's like yeah it is okay for the prototype to maybe have you know,
+[00:18:45] A small set of questions you're just playing around and you get a heric you have a feeling that's not, but that's not proper evaluation right? Please use something again, if if software, guys, they know this, you have to do proper Evas, you have to go through operationalizing evaluations, having something like ragas where you can, uh, synthetically generate a test set with thousands of questions and then you define the scope and, you know, the actual accuracy
+[00:19:15] also very important because if when you're trying to fix 1 faile mode that you discover in a user,
+[00:19:23] You don't screw the rest of the of the test because you're just trying to fix for that, you run the whole battery.
+[00:19:30] And that's regressive testing. That's very well known.
+[00:19:33] Evolved driven development.
+[00:19:36] For some reason, we don't bring those techniques into rock. That's a problem.
+[00:19:42] um,
+[00:19:45] Gut rails. As you know, we're working with llms non-deterministic.
+[00:19:49] So, there are 100% accuracy, not going to happen.
+[00:19:54] Maybe, yeah, maybe 90 something percent.
+[00:19:57] But is that good enough for a regulated environment? No.
+[00:20:02] So just 1 thing. I mean a couple of things of our courage, this is an oversimplification of obviously, but um 1 Thing, most of the people concentrate of output coverage, they say, oh the model might be a
+[00:20:15] Hallucinating. I need to control that. Yeah, sure.
+[00:20:17] But again, what about users? For some reason, I tend to think that users are bad people, sorry. But
+[00:20:24] But yeah, but sometimes they are. I mean, there are people who are trying to abuse your system, so you need input guidelines and so forth. Now, the other thing is,
+[00:20:34] uh,
+[00:20:36] Llm as a judge llm as a critique very very popular techniques. People love them.
+[00:20:44] Come on.
+[00:20:46] Police watching the police non-deterministic. Algorithm monitoring and nondeterministic algorithm. Yeah, you could have a chain of 100 of them still not. Not 100% accurate.
+[00:20:59] So,
+[00:21:00] Please do use.
+[00:21:01] At the monistic algorithm for G rails.
+[00:21:06] Uh,
+[00:21:07] rule-based models from the 70s last century.
+[00:21:12] They work, okay.
+[00:21:14] Uh, I'm kidding. But yeah, there is a huge comeback of rule based models because of this uh actually uh, if you want something or you need something more sophisticated than that automated reasoning. When I say automated reasoning for garage is not
+[00:21:31] Semantic reasoning as in thinking of Chain of Thought prompting? I'm saying, uh,
+[00:21:38] Deduction induction inference engines. So it's a logic.
+[00:21:43] Where you have a format.
+[00:21:45] Language, and it's 100% determinism.
+[00:21:49] So, please look at that.
+[00:21:51] For for implementing the car rates and then you get you don't get 100% accuracy but you get 100% compliance which is yeah, not not a bad deal.
+[00:22:00] Uh, number 6, don't reinvent the wheel. I mean, I know that's the thing about us technical professionals we say, ah, there are this, framework, this other framework, I'm going to code, everything myself in Python,
+[00:22:14] Yeah. Well yeah.
+[00:22:16] Nice, but not very efficient.
+[00:22:20] Uh, there are plenty of tools. Open source commercial and leverage. That is not only about leveraging what's already built.
+[00:22:30] You get a proper best practice in place, most of the time.
+[00:22:35] So, yeah. And, and coming back to again, the, the other dimension to this is a risk Information, Security Management.
+[00:22:44] We are also tools for that observable AI, observability platforms. Uh, again evaluation platforms. So, all the things I was telling you, that it seems like a lot of work have to create the set. I have to automate observability. Yeah, but you can leverage tools for that, so it's not that hard at the end of the day.
+[00:23:04] And yeah, you were waiting for number 7.
+[00:23:09] Maybe you're wondering, maybe.
+[00:23:11] Yeah, I I said that the first 1 was the most important I
+[00:23:15] Read that. The most important is the 1 that is coming now.
+[00:23:18] Number 7.
+[00:23:19] Maybe you're guessing it.
+[00:23:22] And the thing, just let me tell you like rag. If you've been working on rag, has a very bad reputation, right? Be especially business users. They think they think of rag like something of the past like oh, more than 2 years ago.
+[00:23:35] Uh, like something like, is low Tech or yeah. The first use cases in geni used to be retrieval element generation. That's now the cool thing. That's not, it's not cool anymore.
+[00:23:47] That's what I mean. So think about this, if you're asking for Budget, if you are asking, you say, ah, I went to a Garner conference and we're going to revamp our rack rack.
+[00:24:00] Maybe you might get a way better reaction.
+[00:24:05] If you use?
+[00:24:07] Context.
+[00:24:11] because chances are
+[00:24:13] that the people you're asking budget for also went to a gather conference and they were coming. Oh, contest layer context context, every context layer, semantic models,
+[00:24:24] so, please do
+[00:24:26] Leverage The Power of marketing.
+[00:24:30] The power of language.
+[00:24:32] And don't ask for resources for rag. You can
+[00:24:37] fairly say I'm
+[00:24:39] needs resources for a Context Engineering.
+[00:24:45] Which is 90% of a rock.
+[00:24:48] I think, right? Because yeah context is getting data.
+[00:24:54] To models? Yeah, it's Context Engineering.
+[00:24:57] So yeah.
+[00:25:00] so,
+[00:25:01] Summarizing. We basically, we cover 7 Things.
+[00:25:05] I think of 3 blocks here first block is about.
+[00:25:10] People side of things. How we Implement a proper operations around that how we manage the technology that we have available?
+[00:25:19] Second block is actually technical improvements. So, please review the I mean there are things. Typically my experience is people tend to focus on 1 specific aspect. Some people, they look at just at the
+[00:25:30] Models. Some people look at the uh prompting no no no. You have to if you have in place.
+[00:25:35] The benchmarking your test set. You can start doing more uh systemic Improvement, going through all the pipeline and see what really works for your use case and yeah don't uh underestimate that.
+[00:25:50] And finally, yes, call it context engineer.
+[00:25:53] So, what can you do in the next week? So, obviously, we organizational part might take more time.
+[00:26:01] But again, starting for me.
+[00:26:04] if I had to do 1 Thing, the first thing is,
+[00:26:08] using a platform, something like raas or whatever other evaluation platform where you can just throw your
+[00:26:15] Notice base your documents and generate automatically generate a test set of questions and valid answers. So you start from having a good Benchmark, uh accuracy, a reliable accuracy metrics and for from that, you can iterate and then you start working on the rest around. Around that point that that would be my, my suggestion.
+[00:26:36] So yeah rag is here to sorry, sorry sorry Context Engineering is here to stay.
+[00:26:44] Uh, that is something that is a key part of most of our AI initiatives. And yeah. And that's why is is key for for our success. So, please have a look. We we've been
+[00:27:00] Uh, working on a ton of research content about this.
+[00:27:04] And most of the, uh, our research notes. There's there's a very good 1 of our graph rack.
+[00:27:12] But also, you can look at research about the evaluations.
+[00:27:17] G evaluations about how to implement Genai coverage because all those techniques you can directly apply that to to ra
+[00:27:26] So thank you very much for your attention. Please don't hesitate to reach us to reach to to us. If you have any questions that will be here for and yeah, enjoy the rest of the conference. Thank you. Thank you very much.

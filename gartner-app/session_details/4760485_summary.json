@@ -1,0 +1,7 @@
+{
+  "summary": "Successful deployment of Agentic AI depends on LLMs powered by trusted data and metadata. The foundation of the Ab Initio implementation is a data fabric architecture that enables Agentic AI at scale. We will describe this implementation on top of Google Cloud and a sample of high value use cases that can be delegated to AI agents and how multiple agents can collaborate to solve complex problems.",
+  "sections": [],
+  "key_takeaways": [],
+  "entities": [],
+  "subject_area_id": "agentic_ai"
+}

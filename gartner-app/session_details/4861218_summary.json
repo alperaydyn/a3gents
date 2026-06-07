@@ -1,0 +1,74 @@
+{
+  "summary": "The session discusses the integration of AI agents into organizational workflows, emphasizing the need to treat these agents as teammates rather than mere tools. It highlights the importance of data readiness and the operational capabilities required to support AI-driven processes. The speaker encourages organizations to rethink their data management strategies to leverage the full potential of AI agents in transforming business operations.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to AI Agents",
+      "key_points": [
+        "AI agents are becoming essential teammates in organizational workflows.",
+        "The session will focus on system requirements for integrating AI agents."
+      ],
+      "start_time": "00:00:03",
+      "end_time": "00:07:50"
+    },
+    {
+      "order": 2,
+      "topic": "Challenges and Opportunities",
+      "key_points": [
+        "34% of companies are transforming their operations using AI agents.",
+        "Organizations must address data reliability and governance to prevent issues like hallucinations."
+      ],
+      "start_time": "00:07:50",
+      "end_time": "00:15:30"
+    },
+    {
+      "order": 3,
+      "topic": "Building a Great Team with AI",
+      "key_points": [
+        "Data platforms should support real-time analytics and operational efficiency.",
+        "The importance of context and history in data interactions is crucial for effective AI utilization."
+      ],
+      "start_time": "00:15:30",
+      "end_time": "00:22:00"
+    },
+    {
+      "order": 4,
+      "topic": "Future of AI Integration",
+      "key_points": [
+        "Organizations need to ensure their data platforms are scalable and capable of handling AI demands.",
+        "A unified platform for operational data and AI insights is essential for success."
+      ],
+      "start_time": "00:22:00",
+      "end_time": "00:28:50"
+    }
+  ],
+  "key_takeaways": [
+    "Treat AI agents as integral team members to enhance collaboration and efficiency.",
+    "Ensure data platforms are capable of real-time processing to support AI applications.",
+    "Focus on data governance and quality to minimize errors and improve decision-making."
+  ],
+  "entities": [
+    {
+      "ai agents": 10
+    },
+    {
+      "data platform": 8
+    },
+    {
+      "real-time data": 5
+    },
+    {
+      "data governance": 4
+    },
+    {
+      "operational efficiency": 3
+    },
+    {
+      "context": 6
+    },
+    {
+      "data readiness": 3
+    }
+  ],
+  "subject_area_id": "agentic_ai"
+}

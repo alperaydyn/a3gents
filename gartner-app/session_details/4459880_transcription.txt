@@ -1,0 +1,207 @@
+[00:00:04] Welcome.
+[00:00:06] to this, uh,
+[00:00:08] session about the all important topic of how to design.
+[00:00:13] Your AI organization.
+[00:00:16] It is all important because the AI organization is identified as 1 of the 7 key pillars for a successful AI adoption.
+[00:00:30] And other words.
+[00:00:31] Without a proper AI organization, your AI isn't going to fly.
+[00:00:36] Your organization that we're talking about is about the people.
+[00:00:40] how they work together, how they are structured in teams, how they
+[00:00:45] Collaborate, how they work with Partners like external service providers or knowledge partners.
+[00:00:53] And these people.
+[00:00:54] That all are contributing to the success of AI in your organization.
+[00:01:00] You know, they need an organization to work effectively to be empowered and what they do.
+[00:01:05] Right? You need people to select the use cases to, um, make a design to build or buy a solution to, uh, to test it, to deploy it to integrate it to operate, it to use it to govern it.
+[00:01:22] You know, the saying it takes a village to raise a child.
+[00:01:26] Well, it also takes a village to adopt AI.
+[00:01:30] And that Village initially will be fairly small when you're just getting started. But soon enough, you will find that you need more and more people AI is going nowhere without us people
+[00:01:42] Right. So that is why it is important.
+[00:01:45] But how do you do that? How do you design a proper AI Organization for your
+[00:01:53] Company.
+[00:01:55] That is what we aim to answer in this session.
+[00:01:58] We're going to explore, several.
+[00:02:01] Design principles what makes a good or what makes an AI organization bad.
+[00:02:07] And then we're going to explore the of course, the vital role of leadership.
+[00:02:11] As part of that organization and finally, we're going to explore.
+[00:02:15] For some of the building blocks.
+[00:02:17] That you can use to create your own AI organization there. We will talk about center of excellence and platform teams and fusion teams and what have you?
+[00:02:27] But first some design principles.
+[00:02:31] The first 1 is about the fact that, of course, you may say, AI does not live in a vacuum and also your AI organization does not stand alone.
+[00:02:42] It's part of a broader.
+[00:02:45] Context. Of course, it consists itself of typically multiple teams.
+[00:02:50] But the AI team needs to work together with other departments as well, right? So, it needs to be aligned. And that's the key word here alignment with your broader opper.
+[00:03:00] Rating model.
+[00:03:01] With the model that people are used to, and how they work together in your existing organization, how your organization itself is structured, whether it's centralized or decentralized and what again, was the purpose of this organization? What is the business model of the organization? All of that is relevant when you're thinking about your AI organization.
+[00:03:22] Let me give you an example.
+[00:03:25] A few weeks ago, I had the pleasure of meeting 1 of the larger universities here in the UK.
+[00:03:31] And their AI leader.
+[00:03:34] Is responsible for for giving shape to their AI organization.
+[00:03:39] However, as you probably know,
+[00:03:42] And a university has.
+[00:03:45] Several faculties and these faculties often and also in this case have a lot of autonomy.
+[00:03:51] They will figure out how to use. AI, never mind.
+[00:03:55] A central it Department, right? So this person had to choose for a highly decentralized AI organization where you still have something in the middle, you know, that, that provides the infrastructure and some, you know, some other, uh, facilities to enable the others to do, what they want to do with AI.
+[00:04:15] But the central organization is very thin, so it's very distributed mirroring. In other words, the overall structure of the organization,
+[00:04:23] there's also other examples, like,
+[00:04:26] Uh, a few weeks ago, I saw a manufacturing company.
+[00:04:31] And they had a very straightforward business model right. There are just manufacturing and nothing much else. So in their case it made a lot of sense and it makes a lot of sense to create an AI organization is much more centralized.
+[00:04:44] You know, a huge Central team takes care of all the AI that's happening in that organization. It's it's a very
+[00:04:49] relatively simple organization, you may say in terms of structure
+[00:04:54] So to cut a long story short, your AI organization should be aligned should mirror your overall organizational structure.
+[00:05:03] Second design principle is that there's no such thing as a static, AI organization.
+[00:05:11] Things are evolving. Hopefully our evolving.
+[00:05:15] Right, when you're getting started, your AI organization is not the same as when you are much more mature in your scaling up AI across the entire company.
+[00:05:26] So to put it differently, your AI organization should also mirror your your current AI maturity where you are on your journey. Depends, how you structure your AI organization.
+[00:05:39] This is a key thing.
+[00:05:41] That uh can be measured by the way by using Gartner's AI maturity assessment, if you want. It's an online tool that allows you to measure all the boxes that you see on the screen here.
+[00:05:53] Uh, and, and, you know, by by going through a questionnaire, it will give you an impression. Where are you today? And when you repeat that,
+[00:06:00] Exercise, you can monitor your progress over time.
+[00:06:03] And then make sure that's the point here that your AI organizational structure is aligned initially. You may have just a few people doing some Pilots,
+[00:06:13] Soon enough. Hopefully, you will bring some of your Pilots to production. So you need some people to operate that to govern it. And I mean, you're ready for scaling. You need a much bigger team across the different. The organization probably working in multiple business units to implement and operate AI.
+[00:06:32] So keep track of that maturity and keep recalibrating your AI organization. Accordingly.
+[00:06:41] Now, what else?
+[00:06:42] Well, we have the choice.
+[00:06:45] For each of the activities within AI that need to be taken care of from, on the left hand side from strategy to infrastructure and everything in between.
+[00:06:55] A whole bunch of things that need to happen.
+[00:06:58] But you need to decide when you are designing, your AI organization. Where does it sit
+[00:07:04] does it sit in your business units in decentral, AI teams or do you centralize that activity or
+[00:07:14] Most common in between a hybrid approach or Federated. If you prefer
+[00:07:20] And this is the best practice without a doubt without a doubt. Because we find evidence in our research indicated by the green check marks here that the most
+[00:07:30] Successful, most mature organizations when it comes to AI.
+[00:07:35] Most of them have uh created have chosen for a hybrid operating model for their AI activities. Meaning that certain things happen, centrally like orchestration like overall portfolio management, but they work together, of course, with local teams and local business units to make sure that they are, you know, that they don't turn into what I call an ivory Tower, right? And Ivory Tower is a central AI team. That is not well connected with the needs of local business.
+[00:08:10] So you want to avoid that by not overly centralizing choosing for a hybrid.
+[00:08:15] Approach of course decentral. We also find evidence indicated by the red crosses here is that, you know, if you do things too decently well, initially, they may work fine. But soon enough you will find that, you know, you end up in a zoo of different Frameworks and well, I don't need to convince you. I think most people and DNA know this very well, but of course, business people would like to have autonomy, they would like to control themselves. What they are doing with AI.
+[00:08:45] So it's important to also if you like seduce them to work with the central team to enable them to empower them to do also, the hard stuff like operating AI Solutions, or providing the data, they need. So the catalog
+[00:09:00] Long story, short, go through the list of activities and consciously Choice. Choose, uh, a hybrid decentral or Central approach to each of those activities.
+[00:09:13] and then there is still something else as a design principle and that is
+[00:09:18] Perhaps the most important of them, all you may say. And that is the fact that the AI organization must be proactive or intentional. If you prefer, this is about the fact that if you want to accelerate the adoption of AI and many organizations want that to not waiting for business people to come forward with. Yeah, I want to use Ai and if they do often, it's yeah. Is that really how we want?
+[00:09:45] To use AI.
+[00:09:46] so, instead of that passive,
+[00:09:48] attitude, you want to have an AI organization that is proactive, that is um, you know, engaging with business stakeholders, of course they should that should do that without a doubt, but they should also, you know, scan the entire organization for opportunities using
+[00:10:06] The very popular AI opportunity. Radar shown here on the right hand side.
+[00:10:12] It's basically a way to visualize your entire portfolio of AI initiatives. Each dot representing, an AI initiative, or a use case,
+[00:10:24] and then um, as you can see, this this radar is is divided into
+[00:10:30] 4 segments representing the different parts of your organization. You have your front office if your back office. If your core processes, you have your product and Service delivery, right? That a, a structure where you can plot the different initiatives. And then the closer, the initiative is plotted to the center, the more feasible, the easier, it is, or relatively easier it is to, to implement. And the further it is out the harder, it is, right? So this is a way to, to sort of scan, your your organization for all those initiatives and then your AI organization can use this and should repeat it every now. And then to make sure you're on the right track. Giving your priorities shouldn't we invest more in our core capabilities
+[00:11:15] Or should we revisit the earlier assessment of, uh, AI use case assessments and say? Well, now we have this new tool or this new product or this new agentic AI or whatever is new and then shouldn't maybe it has become easier to implement it. Right? What was true a year ago May no longer be true or vice versa? Maybe in the meanwhile we have learned that actually I don't know, applying AI in customer service. For example is much harder than before there was so in other words, the AI team needs to proactively and uh, frequently recalibrate the entire portfolio driving.
+[00:11:56] The adoption of AI across the organization that is.
+[00:12:00] Important part of an effective AI organization.
+[00:12:05] so in summary, for this first part, it's about making sure that your AI organization
+[00:12:12] Is really seen as a critical success factor in, adopting Ai and turning, the promise of AI into reality, to really achieve that transformative impact to really create more value. Out of AI. The organization is a vital component of your AI investment.
+[00:12:35] Another part of that organization, of course, is the leadership. The leadership is
+[00:12:42] as with any other organization, a key part of
+[00:12:45] Of the success of, uh, of that. Uh, Endeavor and what we see in our data.
+[00:12:52] In a recent survey is that the more mature organizations those that are most successful in AI, have an AI leader.
+[00:13:01] That reports directly to the CEO.
+[00:13:06] 73%. No less. These are the high mature organizations, right? So it's about 17%, if you want to know of companies that are at that level to today.
+[00:13:18] less than 1 in 5, but what they have in common is this
+[00:13:22] In other words, you may say that for them AI is a chef as the Germans say, write a topic of the most.
+[00:13:30] Of the greatest importance to the Senior Management of your company.
+[00:13:34] So it's really indicating that, that AI leader should have a direct connection with, you know, the top leadership of your organisation.
+[00:13:42] And has a mandate to make changes to, to create speed.
+[00:13:47] That is basically why they are so up high in the food chain. If you are
+[00:13:53] Now, what we also see is that the list of responsibilities of the, a the average AI leader is quite long.
+[00:14:00] Right, it goes from Innovation driving Innovation to all the way down to to managing literacy programs. All of them are important.
+[00:14:11] this means that an effective AI leader, and
+[00:14:15] His or her organization supporting that role.
+[00:14:18] Should not, you know, think that they can do everything themselves, right? That's not the right sort of mental framework, they should realize that AI requires everyone's contribution. The involvement of
+[00:14:32] Almost everything in the company need you, so needs to be on board. So it means that the AI leader should see him or herself as more like an orchestrator as an facilitator, empowering others to contribute rather than trying to centralize everything under his or her control, you know.
+[00:14:53] Bring the budget to me. I will take care of that. That's not going to fly.
+[00:14:57] The AI leader that is more.
+[00:15:00] Effective is more or less orchestrator across the entire organization.
+[00:15:05] Sharing that responsibility but still holding the accountability.
+[00:15:10] now that is also, the reason that we see that in, the more mature and organization is the more they have dedicated AI leaders
+[00:15:18] Why? Well, for the simple reason, as you saw on the previous slide, it's a lot of work to be an AI leader. There's a lot on your plate and if you are already, if you are a CIO or cdio or CIO, whatever you call yourself, I guess your plate is already full enough even without AI.
+[00:15:36] Right. So it means that the AI leader often becomes a dedicated role of course closely working together with others.
+[00:15:45] Related to data related to it.
+[00:15:48] And other disciplines, too.
+[00:15:51] Now, another key role of that AI leader is to, of course, is to plan to look ahead.
+[00:15:59] To not assume that things remain the same. I already mentioned that earlier, right? Things are evolving should be evolving. Hopefully,
+[00:16:07] Right. So it also means that the challenges that you face when you are an AI leader.
+[00:16:14] Are different.
+[00:16:15] When you become more mature. So on the left hand side, you see the challenges, the typical challenges of low mature organizations. Where, for instance, you the biggest challenge often mentioned is is finding the right use cases. Where do we apply?
+[00:16:30] Ai2.
+[00:16:31] Or finding the talent recruiting or upskilling people.
+[00:16:35] Those are highly relevant challenges but they change when you start to mature on the right hand side there. Hopefully AI becomes Mission critical to your organization. You can't you know your key processes depend on it. Therefore the security and continuity of your AI Solutions becomes critical
+[00:16:59] so,
+[00:17:00] That means that, by the way. A fun fact. Well, not a fun fact. An interesting consideration is data quality, and data availability remain equally challenging that is a sort of you know, that challenge doesn't go away. Even if you're a
+[00:17:15] Sure, it remains a bit of a headache for the average AI leader, data availability, remains a challenge. No matter what you may say, but the other ones are changing. So it means that the AI leader needs to frequently recalibrate the planning of activities.
+[00:17:34] And should communicate that, you know, AI is not something like you create a plan once and then, you know, 1 of exercise. And then you're done for the next 5 years.
+[00:17:45] That's not how it is.
+[00:17:47] It requires constant recalibration, that's why you need an AI leader. And that's why it's hard to be an AI leader because you need to be very good in communication as well.
+[00:17:58] Now, that AI leader.
+[00:18:00] Given these challenges should not work alone, right?
+[00:18:03] It's not a 1 person job.
+[00:18:06] Soon enough in AI leader will require a team.
+[00:18:10] And the growing team.
+[00:18:12] If things go according to plan.
+[00:18:15] So how does that supportive organization look like what what are the teams that are needed?
+[00:18:22] Well here you see an overview of if you like the key building blocks that you could use to create your own design of your own AI organization. This is a typical example.
+[00:18:35] and by the way,
+[00:18:36] tomorrow there will be another session during this Summit, uh, by my colleague York, Heisenberg, who will go deeper,
+[00:18:45] In each of those boxes, if you're interested.
+[00:18:49] But these boxes for now are about well, at the top, you have the AI leader role as I mentioned, um, which typically, uh, is well, increasingly the more mature you are you get, uh, support by an AI Council or an AI board, or an advisory committee. Could be an existing board of directors, but a group of people, typically, senior stakeholders, who help the AI leader, you know, to make decisions about major Investments about policies and what have you
+[00:19:20] there are also organizations like, for instance, uh, I had a meeting with a large um,
+[00:19:28] Uh, Dutch bank the other day.
+[00:19:30] And they have an AI board. That is also populated by external stakeholders like someone from their regulatory body, uh, uh, representatives of Industry, associations, and others. And even University, professors just to add credibility. And to, you know, to show to the world. How much care they take in managing their AI in the responsible manner?
+[00:19:56] But that's just the AI Board. Of course,
+[00:19:59] the real work needs to be done and that's typically orchestrated by a, a Coe. A center of excellence, the orange team here or an enabling team typically sits at the central level orchestrating keeping track of
+[00:20:15] The portfolio, keeping track of you know literacy governance and all those things that typically happen at a more Central level.
+[00:20:23] but then, of course, they also need to deliver
+[00:20:28] and Implement and deploy AI Solutions. That's the work. What happens in the fusion teams here, the light blue teams that could be 1. Could be 2, could be multiple Fusion team. They're called Fusion teams because they are composed of multiple disciplines, right?
+[00:20:45] You have your data Engineers, you have your data scientists, perhaps you have your AI experts, you have your your software Engineers your integration, specialist, your your governance, specialist your validators, you have your business domain experts, you have your
+[00:21:01] Change managers, a whole bunch of people. Well, not necessarily different people. Sometimes you can have people wearing the same hat, right? If you're getting started, it's not, but it's a multi-disciplinary thing, a fusion team. That's why they're called Fusion teams and soon enough they should be supported by the yellow team.
+[00:21:22] The yellow team is the platform team.
+[00:21:25] The team that you know is responsible for making sure there is a platform available like the infrastructure a data platform for AI. Uh, repository of AI models. Uh governance tooling, what have you write shared facilities? If you like that, support all those
+[00:21:45] Fusion teams also to avoid that before you know it those Fusion teams change into vertical, silos of, you know, each 1 using their own infra, their own tooling Etc.
+[00:22:00] And although that may be very flexible it doesn't scale well. Alright so again as so often there is a trade-off to be made between local flexibility. The fusion teams should have a certain autonomy in doing their work quickly.
+[00:22:17] But it's not that. They on the other hand, we should also have the economy of skill. We also should have the consistency in the scalability that comes from working with common platforms.
+[00:22:29] and of course,
+[00:22:30] All of that requires communities of practice, typically virtual communities that serve to share knowledge between all these people.
+[00:22:38] again, if you want to know more about that,
+[00:22:41] Go see your presentation tomorrow.
+[00:22:45] but for now, I want to focus on this where, you know, the the thing is that
+[00:22:51] The question is, how do you know if your our organization is actually performing? Well, how do you know that?
+[00:22:58] I mean it looks nice on paper, but does it actually achieve the results you're looking for?
+[00:23:04] And that's when this becomes relevant, right? This is a bunch of criteria that you can use to evaluate your organizational design. But also to monitor
+[00:23:15] Dior over time, how your organization is actually doing.
+[00:23:19] So just to highlight a few for instance the speed of delivery is typically a key criteria, right. Which often relates by the way to what I just mentioned the level of autonomy, right? You don't want to create teams with too many dependencies between them because typically you know, if your Fusion team needs to work with the platform team for everything, they want to do, if they depend on another data team to get the data they need, but too many dependencies typically take away the pace, right? So,
+[00:23:50] If that's of concern, which it is for most organizations then you want to make sure that you have a fusion team that can work more or less on its own. Although under the guidance
+[00:24:00] And using the facilities offered by the platform team, right? So that is 1 consideration. Another 1 could be, for instance, a talent uh, distribution
+[00:24:11] You know, I've seen an insurance company only last week who were very active across Europe when it comes to their AI activities. And they had the Luminous idea, which I, I can't mention the name, but they are correcting that now to, you know, they they noticed that they're more experienced AI experts were leaving.
+[00:24:31] Because they were bored or they were not challenged enough. So they said well you know what, let's bring all those more senior AI experts together in 1
+[00:24:40] center of excellence.
+[00:24:43] But yeah, of course. What happen?
+[00:24:45] Happened. Perhaps, predictably. Is that after a while? They were disconnected from what was relevant to their business. They were doing great research but they were creating zero value for the company, right? So this is an effect that, you know, also, for other reasons, you want to make sure that your talent is well distributed across your teams.
+[00:25:07] So, there are other, uh, criteria as well. But if you want to learn more at the end of this presentation, there is a link to a gardener, uh, note that contains all the details about these criteria. The key message here is that use this criteria to evaluate your design and also keep on monitoring over time, how well, or how bad, your
+[00:25:30] AI organization is doing.
+[00:25:33] Now, something else still is about.
+[00:25:36] The activities of the people within the teams we talked about of course they need to build or customize and operate AI Solutions, right? That's the you know the the the bottom layer of everything you do.
+[00:25:50] But there's more to do.
+[00:25:53] Um, and uh, for that, uh, we highly recommend the use of the AI rope man, uh, that Gartner offers, but you could also create your own, of course, doesn't matter. But the thing is that, the key thing is that, uh, in addition to the actual delivery of your AI Solutions, there's a whole bunch of other things that need to happen, too.
+[00:26:15] Like setting up your governance or promoting AI literacy setting up a training program or, you know, maybe building extending your data uh, platform, right? Partially that happens in the projects that you're doing, but often it also requires a sort of horizontal effort if you like across all those initiatives.
+[00:26:39] So that those activities need to be identified.
+[00:26:42] And then they need to land in the different teams in your AI organization. So having
+[00:26:48] A road map helps to identify and prioritize those activities. And again, coming back to the uh, maturity assessment that we talked about before. It also comes in
+[00:27:00] Handy to, you know, not just to determine where you are but then also to make the connection with what are the activities that are needed to bring you to the next level?
+[00:27:08] Right? If you are, just getting started with governance, what are then? The first steps to, you know, to evolve your AI governance, right? Or if you are already quite Advanced and I don't know your engineering for AI, but then is the next step to get you further up to the maturity that you want to achieve.
+[00:27:28] So the maturity assessment and the roadmap work together, and give you a sort of foundation to identify the activities and prioritize the activities that you can then assign to the different teams in your AI organization. That is the idea.
+[00:27:45] And of course the people that sit in those teams need competencies, right? So we won't go through the entire list here, but the message here is that, you know, in addition to the
+[00:27:57] Technical competencies.
+[00:27:59] Of course, there are also many other competencies. So the recommendation is using some of our role descriptions, and there's a role Library, you can, you know, for each team, in your organizational design, there are different roles. And for each role you can design what are the compns, the competencies and the skills needed for that particular role.
+[00:28:19] Right. So creating a common framework to understand together with your HR department. Typically what are the competencies that we need and what is the Delta between Where We Are?
+[00:28:30] Are now both as a team but also at individual level. So of course, part of your AI organization is also to enable your people, you know, to educate themselves further to train them to learn the skills. They need, it's not like everyone needs to have all those competencies. It depends on each 1's. Role, of course, which ones are the most important 1. But it's just also a little bit to stretch the thinking that, you know, to play that role of leadership and proactive and engaging with business stakeholders and dealing with, you know, technology that is evolving all the time.
+[00:29:03] It's not a walk in the park, right? People need to learn how to do that.
+[00:29:07] So give them the time, give them the budget to do so and motivate them to, you know, to spend time on that.
+[00:29:16] finally, there is the, um,
+[00:29:18] the following, uh, observation that as I mentioned at the beginning. No, AI organization, should remain the same during your journey from getting started with AI all the way to becoming a world-leading player in the field of AI.
+[00:29:36] Or somewhere in between.
+[00:29:38] All right. So what we typically see is that the average company after doing some Pilots creates
+[00:29:46] Some kind of central team called the center of excellence and then over time when you start to bring some of those Pilots to production that team starts to grow and maybe they should be working together with some local teams. But the most
+[00:30:00] most most efforts, and most people sit at the central team typically,
+[00:30:05] but then,
+[00:30:06] Crucially, many organizations who are now at the stage of. Yeah, we have some AI in production, but now we want to make the leap towards scaling. We want to bring AI to the next level. Then you need to shift gears, then you need to rebalance your, our organization, where your, ah, your central or organization, then becomes a bottleneck. It can't deal with all the requests coming from all the places in your organization. So to scale, it needs to change from an overly centralized to a place where the center is more coordinating and facilitating and the and the spokes, if you like and the Hub and spoke metaphor, are more are growing.
+[00:30:45] And can work on AI across the entire organization.
+[00:30:49] And with that, a number of recommendations.
+[00:30:53] Start small, we talked about that. Don't try to blow up. Blow start to boil the ocean as they're saying, and, uh, you know, grow incrementally. Um, and then make sure that you have leadership in place. It's a lot of work. Make sure that you don't wait too long with those platforms because before, you know, it, you end up in a siloed landscape and, of course, pay attention to education, but also communities of practice, and above all. Make sure that you monitor your AI organization and adapted accordingly.
+[00:31:29] In the follow.
+[00:31:30] Ing Journey, that lies ahead of you. Thank you so much for your attention.

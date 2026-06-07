@@ -1,0 +1,71 @@
+{
+  "summary": "The session discusses the evolution of data management towards 'agentic optimization', emphasizing the need for organizations to measure and connect cloud costs to business value through a structured value chain. It highlights the importance of leveraging metadata and AI to understand data usage and optimize resources effectively. The speaker encourages a shift from viewing data management as a free service to treating it as a business with measurable value.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Agentic Optimization",
+      "key_points": [
+        "The concept of agentic optimization represents the next generation of scientific management.",
+        "Organizations need to understand their multiple data ecosystems and the role of AI in optimizing costs."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:07:30"
+    },
+    {
+      "order": 2,
+      "topic": "Measuring Cloud Costs and Value",
+      "key_points": [
+        "Organizations can achieve unprecedented granularity in measuring cloud costs by workload.",
+        "Connecting financial operations to data management practices is crucial for understanding value."
+      ],
+      "start_time": "00:07:30",
+      "end_time": "00:14:57"
+    },
+    {
+      "order": 3,
+      "topic": "Utilizing Metadata for Value Assessment",
+      "key_points": [
+        "Active metadata can provide insights into data usage and help prioritize data management efforts.",
+        "Organizations should assess the value of their data products based on user engagement and frequency of use."
+      ],
+      "start_time": "00:14:57",
+      "end_time": "00:22:30"
+    },
+    {
+      "order": 4,
+      "topic": "Future of Data Management",
+      "key_points": [
+        "Data products should be owned by the business, emphasizing accountability and investment.",
+        "Transitioning from a free service model to a business-oriented approach will enhance the value of data management."
+      ],
+      "start_time": "00:22:30",
+      "end_time": "00:25:06"
+    }
+  ],
+  "key_takeaways": [
+    "Organizations must adopt agentic optimization to effectively manage cloud costs and enhance business value.",
+    "Utilizing metadata is essential for understanding data usage and prioritizing data management efforts.",
+    "Data products should be treated as business assets with clear ownership and pricing to reflect their value."
+  ],
+  "entities": [
+    {
+      "agentic optimization": 5
+    },
+    {
+      "metadata": 7
+    },
+    {
+      "data products": 6
+    },
+    {
+      "cloud costs": 4
+    },
+    {
+      "financial operations": 3
+    },
+    {
+      "value chain": 4
+    }
+  ],
+  "subject_area_id": "data_management"
+}

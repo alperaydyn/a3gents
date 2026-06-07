@@ -1,0 +1,117 @@
+{
+  "summary": "The session discusses the top data analytics predictions for 2026, emphasizing the increasing integration of AI in various industries and the importance of human skills in leveraging AI effectively. Key predictions include the rise of AI competency requirements in education, the necessity for adaptability in the workforce, and the critical role of governance in AI applications. The speaker highlights the need for organizations to prepare for rapid changes and the emergence of new AI-driven business models.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction and Overview of Predictions",
+      "key_points": [
+        "AI will increasingly act alongside humans in various industries.",
+        "The session will cover predictions organized by date."
+      ],
+      "start_time": "00:00:12",
+      "end_time": "00:02:12"
+    },
+    {
+      "order": 2,
+      "topic": "Talent in the Age of AI",
+      "key_points": [
+        "Testing for AI proficiency will become commonplace in hiring.",
+        "Educational institutions are lagging in preparing students for AI-related skills."
+      ],
+      "start_time": "00:02:12",
+      "end_time": "00:05:14"
+    },
+    {
+      "order": 3,
+      "topic": "Learning and Adaptability",
+      "key_points": [
+        "Adaptability will be a primary metric for hiring by 2030.",
+        "Organizations should invest in simulators for real-life experience."
+      ],
+      "start_time": "00:05:14",
+      "end_time": "00:11:17"
+    },
+    {
+      "order": 4,
+      "topic": "Leadership and Human Skills",
+      "key_points": [
+        "Human relational skills will be crucial for leadership success by 2030.",
+        "Leaders must foster rapid change adoption."
+      ],
+      "start_time": "00:11:17",
+      "end_time": "00:13:51"
+    },
+    {
+      "order": 5,
+      "topic": "AI Models and Data",
+      "key_points": [
+        "Investment in AI-ready data will increase, especially from IoT devices.",
+        "World models will become essential for physical AI applications."
+      ],
+      "start_time": "00:13:51",
+      "end_time": "00:17:42"
+    },
+    {
+      "order": 6,
+      "topic": "Semantic Layer and Governance",
+      "key_points": [
+        "Semantics and metadata are critical for AI functionality.",
+        "Governance must be embedded in AI engineering processes."
+      ],
+      "start_time": "00:17:42",
+      "end_time": "00:23:12"
+    },
+    {
+      "order": 7,
+      "topic": "Future Business Models and Productivity Tools",
+      "key_points": [
+        "New AI-native startups will disrupt traditional business models.",
+        "The productivity tools market will face significant changes due to AI."
+      ],
+      "start_time": "00:23:12",
+      "end_time": "00:29:30"
+    },
+    {
+      "order": 8,
+      "topic": "Conclusion and Call to Action",
+      "key_points": [
+        "Change is inevitable and organizations must adapt.",
+        "Encourage continuous learning and adaptability in the workforce."
+      ],
+      "start_time": "00:29:30",
+      "end_time": "00:31:09"
+    }
+  ],
+  "key_takeaways": [
+    "By 2027, 75% of hiring processes will include AI proficiency testing.",
+    "Adaptability and learning velocity will be essential skills for future employees.",
+    "Human relational skills will be a key differentiator for successful leaders by 2030."
+  ],
+  "entities": [
+    {
+      "ai competency requirement": 2
+    },
+    {
+      "ai proficiency testing": 2
+    },
+    {
+      "learning velocity": 2
+    },
+    {
+      "human relational skills": 2
+    },
+    {
+      "ai governance": 3
+    },
+    {
+      "world models": 3
+    },
+    {
+      "semantic layer": 3
+    },
+    {
+      "ai-native startups": 2
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

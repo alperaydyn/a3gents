@@ -1,0 +1,258 @@
+[00:00:04] Good afternoon, everyone. Hope that you've had a great first day here at the DNA so much and that the energy levels are still super high.
+[00:00:12] so,
+[00:00:13] imagine this scenario, you've just signed a 6-figure contract for a Cutting Edge. Agentic analytics platform.
+[00:00:21] Only to discover that it doesn't actually meet your needs under real world conditions.
+[00:00:28] My name is Jeremy Curran. I'm a director Analyst at Garner.
+[00:00:31] And today I want to walk you through the key considerations that you need to keep in mind when investing in any agentic analytics platform.
+[00:00:42] So to better understand how AI agents are being used.
+[00:00:45] Analytics. It's necessary to take a quick detour into the past into an era before writing.
+[00:00:53] So before written language, everything needed to be communicated verbally.
+[00:00:58] Everything from how to farm how to create tools, or how to avoid that saber-tooth tiger, that had been piling around outside the village.
+[00:01:09] So, everything had to be repeated repeated repeated and naturally that wasn't necessarily the best use of anyone's time.
+[00:01:15] The invention of writing transformed. All of that.
+[00:01:19] so suddenly, we could
+[00:01:21] Be free of the shackles of having to endlessly repeat the past and focus on what came next.
+[00:01:27] And that has another name.
+[00:01:30] Allowed us to innovate.
+[00:01:32] So what does all this have to do with agentic analytics? I hear you ask.
+[00:01:38] And that's a very valid question.
+[00:01:40] Well, we can think of descriptive analytics as the pre-writing era of language.
+[00:01:47] An era where we had to consistently over and over again report. What we had observed in the past rather than focusing on what was to come in the future?
+[00:01:56] Agentic Analytics.
+[00:01:58] Frees us from this.
+[00:02:01] Allows us to focus on proactive insights rather than descriptions of the past.
+[00:02:08] But it's not all such a Rosy picture.
+[00:02:11] Unfortunately, we're still burdened by the same challenges that are associated with.
+[00:02:15] Analytics and descriptive Analytics.
+[00:02:18] Data issues, like missing data, low quality data, duplicated data conflicting data.
+[00:02:23] These are all still problems for agentic Analytics.
+[00:02:27] They prevent us from having the impact that AI can actually have.
+[00:02:33] And can lead to bad outcomes.
+[00:02:35] So for example, if we're missing data, then our am model lacks the context, it needs to do what it needs to do.
+[00:02:42] Say, for example, if we have a lead scoring model and we're missing email opens or demo,
+[00:02:47] Uh, uh, or demo requests, then this is a challenge for any kind of Agents built on this.
+[00:02:53] So the old phrase of garbage in garbage out is still very much relevant in the agentic analytic era.
+[00:03:00] But unfortunately, it gets worse than this.
+[00:03:04] Because agents allow us to really operate at a, a scale and a speed that wasn't possible in the descriptive analytics era.
+[00:03:12] We now go from the possibility of having a bad dashboard to having scale decision-making. That is not fit for purpose.
+[00:03:23] So, these are pressing issues that we need to focus on with any kind of agentic analytics rollout.
+[00:03:28] But where are organizations today?
+[00:03:30] I'm going to AI agents.
+[00:03:36] So, according to a recent Gartner survey 32% of respondents believe that truly usable, AI agents, remain a distant.
+[00:03:44] Reality.
+[00:03:46] Does that mean that the other 2/3 are actively implementing everything in agent State today?
+[00:03:51] No.
+[00:03:52] Only 19% of respondents indicated, that they are using agents to any great extent on a daily basis.
+[00:04:02] We get a different picture if we look online.
+[00:04:05] We've seen that mentions around agents over the past few years have skyrocketed 25%.
+[00:04:13] So what does this mean?
+[00:04:15] Well, we have a gap in terms of the perception around agents.
+[00:04:19] And the reality around how we've actually managed to implement them in any meaningful way.
+[00:04:28] But what do we actually mean when we say
+[00:04:30] An AI agent. The term is thrown around a lot and it can be important to set terms to make sure that we're all on the same page around this.
+[00:04:41] So AI agents are autonomous or semi-autonomous software. Entities, that use AI techniques to perceive make decisions. Take actions achieve goals.
+[00:04:53] So the key thing I want you to focus on here is that they a goals.
+[00:04:57] Agents are inherently.
+[00:04:59] Goal focused rather than task focused.
+[00:05:02] So, if we take an example of building a software feature for an analytics application,
+[00:05:08] we tell it, we give it a spec to go and create a particular feature, that's its goal, it then has the ability to go.
+[00:05:15] Understand which tools it needs to assess which architecture it needs to use, which tests it needs to write, to be able to do that. If it gets something wrong, it can learn from that and it can iterate and develop it all in the pursuit of its goal.
+[00:05:28] But when we talk about AI agents, we need to make some distinctions around their capabilities.
+[00:05:33] Again, the word agent is thrown around a lot and it's important to distinguish between what is really agentic and what is just non-agent.
+[00:05:43] For the purposes of this, we're talking about llm based agents.
+[00:05:48] Alms are the dominant AI Paradigm that are being used presently when it comes to agents that is not to say that they are the only way in which agents can be deployed. We can, for example, have more traditional AI technique,
+[00:06:00] That can be leveraged to create agents. These are called composite AI agents, but for the purposes of this because it's the dominant Paradigm, we'll focus on llm based agents.
+[00:06:08] And by definition agents have certain degree of agency.
+[00:06:15] If we start in the left hand side here, we can see what we call currently chat bots. So this is probably most of our experience of dealing with AI over the past number of years, is engaging, with AI in the form of a chatbot.
+[00:06:27] So chatbots are Again by definition, pretty good at chatting.
+[00:06:32] But typically, it's pretty much a back and forth, input from the user responses, from the chatbot.
+[00:06:39] Very low degrees of agency in terms of what can actually be taken in terms of an action of the back of that interaction.
+[00:06:46] We then move up the agency scale into assistance, assistance are good at helping.
+[00:06:51] They can take actions on our behalf.
+[00:06:53] So they can take that conversation to the next level in terms of their agency.
+[00:06:57] and this is kind of where we're at today and what we call agent 1.0
+[00:07:01] This is most of our general public interactions with agents is this limited degree of task based capabilities.
+[00:07:09] And then finally on the right hand side, we have full agentic systems.
+[00:07:13] So these go beyond just simple tasks.
+[00:07:16] Into learning exploring new possibilities.
+[00:07:20] Reasoning Beyond basic, uh, task management.
+[00:07:23] And they can solve problems on our behalf and are given much more autonomy and agency than basic assistance.
+[00:07:30] What does this look like in practice? When we think about an agent? What is actually going on underneath?
+[00:07:37] We talked about agents being mainly llm based, and in this example we have an end user has an interaction with a particular agent.
+[00:07:45] Let's call it agent. 1.0
+[00:07:48] But that is not to say that the end user in every instance needs to be.
+[00:07:52] A human.
+[00:07:54] This is a single agent system, but we may have multi-agent systems where the end user is another agent.
+[00:07:59] That is Agent, may be directing a single agent or a team of agents to perform a particular set of tasks.
+[00:08:06] But how do they actually go about performing these tasks?
+[00:08:09] So in the center, you can see that we have our step-by-step thinker.
+[00:08:14] This is.
+[00:08:15] Is essentially the brain of the agent and in the case of llm based agents. It's based on Transformer models, large language model,
+[00:08:22] So this can do all the things that you would expect of anything that can reason, it can do a high level task breakdown. It can plan it can self-reflect and correct, its actions based on that reflection.
+[00:08:35] On the left hand side, we then have the information retriever.
+[00:08:38] This is responsible for determining what context we need to to perform, any particular actions, how we can pursue our goals, and this can bring in things like business context external data.
+[00:08:50] Market dynamics. You name it. It can pull it in.
+[00:08:54] On the right hand side. Then we have the tool user.
+[00:08:57] This is the component of the AI agent that can.
+[00:09:00] Take actions on our behalf.
+[00:09:03] So again, it can interact with other systems, Enterprise systems, other agents, AI models, Etc.
+[00:09:09] And altogether, these formulate, the main components of any kind of General agent, as we would describe it at present.
+[00:09:18] so, we've defined
+[00:09:19] What agents are?
+[00:09:21] We've had a look at their capabilities. What does all this to do with agentic systems and Analytics.
+[00:09:30] So, agentic Analytics.
+[00:09:33] Is where we utilize 1 or more AI agents across the data to Insight workflow. Orchestrating tasks semi-autonomously or autonomously towards stated goals that support augment or automate.
+[00:09:45] Insights. So that's a bit of a mouthful.
+[00:09:46] So, let's talk about what that actually means.
+[00:09:49] What this means that if we have the traditional agentic workflow or analytic workflow, we're not just limited to 1 agent, we can have a family of Agents each working on a different part of the spectrum.
+[00:10:01] They can be semi-autonomous autonomous. In terms of the degree of agency, that they're given to perform their tasks.
+[00:10:08] And they perform that task in with the goal. We're going back to that goal Point again.
+[00:10:13] Of helping augment our automated insights.
+[00:10:18] So what are the key things that we need to be aware of when we're deploying?
+[00:10:22] Agents within the analytic workflow.
+[00:10:26] Well, counter intuitively. The first thing we need to consider is when not to use.
+[00:10:30] Agents in the analytic workflow.
+[00:10:33] the second thing we're going to look at is,
+[00:10:36] How do we understand the?
+[00:10:39] Underlying elements of an agent that infer it with the control versus trust. So they can be viewed as essentially black boxes because of the nature of their architecture and the underlying probabilistic nature of llms
+[00:10:52] and we need to be able to trust them if we're going to give them the degree of control that we need to do to have a functioning and agentic analytic system.
+[00:11:00] And finally, how do we adopt an evidence-based approach?
+[00:11:04] To avoiding agent washing and we'll talk about what agent washing is in a moment.
+[00:11:12] So let's compare the traditional analytics workflow.
+[00:11:15] With the agentic analytic workflow.
+[00:11:19] So we have on the top, what we are all familiar with in terms of our typical agentic workflow or typical analytic workflow. So we do some data preparation, we bring in different data sets from different sources. We do some manual querying around that we can do some basic uh, keyword search around it and then everything is pretty manual. In terms of if we need to distribute it, we might have to share a dashboard or we may need to uh to to share it in different forms.
+[00:11:46] Agentic analytics. Aims to as you mentioned, bring agents to bear on different points within that workflow.
+[00:11:52] so, instead of having to manually do data, preparation,
+[00:11:55] We can do conversational natural language querying. We can have the agents right? The
+[00:12:00] The syntax underneath to, to get our SQL.
+[00:12:04] It can do multi-step planning so rather than us having to step by step.
+[00:12:09] Manually do everything we can have the agent plan out a work plan, for how we're going to have an effective analytic workflow.
+[00:12:15] And then we can put it to work doing data preparation for us so that we can be sure that all of these steps are implemented consistently and coherently.
+[00:12:23] And the most important thing is that it can then autonomously deliver insights to us. So, rather than us having to pass through different tabs on a dashboard, it can proactively Surface, these insights, for us in a way that traditional descriptive analytics couldn't hope to do.
+[00:12:39] So, like I said, agentic analytics is very powerful, but it's not always the best option in every case.
+[00:12:46] So when is agentic analytics, Overkill?
+[00:12:50] So much. Like if you have a fishbowl
+[00:12:53] Sometimes it makes sense just to have a goldfish rather than try to cram a blue fin tune in.
+[00:13:00] There. So some of the situations where it might make sense to adopt more traditional Solutions rather than an agentic, analytic solution is when you require strict compliance and auditability.
+[00:13:12] If you need to be able to understand the entire lineage of the entire system have full observability. Then agentic analytics can be a challenge given the nature of LMS.
+[00:13:21] And given the lack of transparency into some of how that autonomy is working.
+[00:13:28] If you have low Roi use cases.
+[00:13:30] Agentic systems. Take a lot of effort to implement. You need integration. You need the context data. You need compute and you need the appropriate governance to make sure that it's all working properly together.
+[00:13:41] If you just need a couple of static metrics that are focused on just reporting, then it can be just a rules-based system or something more straightforward from a descriptive. Analytics perspective, might make a whole lot more sense and be more cost effective.
+[00:13:57] and if you have immature data and integration readiness,
+[00:14:01] For the very same reasons that we had challenges developing analytics on poor data foundations as well as machine learning.
+[00:14:08] We're not going to be able to build robust agentic analytic framework, on top of poor quality data foundations.
+[00:14:16] so it's about prioritizing and deciding where and when it makes sense to actually adopt agentic analytics within a system,
+[00:14:24] Maybe it's about prioritizing lower risk higher Roi elements, and then focusing on them and building out from there.
+[00:14:34] So we've talked about what agents are, we've talked about where they can be used and where they maybe shouldn't be used. So how can we be sure that when we are giving over essentially the keys to the car to to an agent that it is acting in our best interest and that we can infer what is inside the black box?
+[00:14:49] For that autonomy.
+[00:14:54] So if you take 1 thing away from this presentation,
+[00:14:57] I would hope that this is it.
+[00:15:00] When we are deploying agents within an analytics workflow, we're giving over a certain amount of control.
+[00:15:05] That control when we're doing that, it needs to come with a corresponding level of trust.
+[00:15:11] We give up a certain amount of control. We need to have trust that the agent is performing in a way that's reliable and is meeting whatever. Use cases that we have deployed for it.
+[00:15:23] Not every system needs to be fully autonomous. We can have different degrees of autonomy associated with different levels of criticality or different levels of what we need the agent to actually be performing on.
+[00:15:33] But just, we need ways in which we have that transparency and that line of sight into how the agent is actually performing.
+[00:15:42] and the trust that comes with that,
+[00:15:45] So how do we do that? How do we avoid having a black box that we don't have visibility into?
+[00:15:52] The first is around prioritizing explainability.
+[00:15:56] How can we be sure that we understand what code is being used?
+[00:16:00] Do we have decision logs?
+[00:16:03] Do we have a good sense of the underlying metrics that are being uh deployed.
+[00:16:08] The second is, how do we have transparent insights, and Trust in those insights?
+[00:16:13] What data is this being uh deployed on? Do we have citations, do we have confidence scores that we can rely on when the control is handed over to the agent? And that we can
+[00:16:24] Build that level of trust that we need when we're giving over that degree of control to an agent.
+[00:16:29] and finally,
+[00:16:30] How do we ensure traceability with semantic layers?
+[00:16:34] How can we be sure that the metrics that the agent is using in the analytics workflow aligned with our metrics?
+[00:16:41] and the information and kpis that are most essential to any of our Analytics workflows,
+[00:16:50] so with that, in mind,
+[00:16:52] we're going to look at a couple of examples of what this looks like in some analytics platforms.
+[00:16:58] This includes breakdown of natural language queries, some that are providing code, visibility explainable narratives and semantic. Grounding
+[00:17:10] so just to be clear, none of these are specific recommendations around particular vendors, but it just gives you a
+[00:17:15] Sense of the overall Market at the moment and what's available and and what is emerging in the agentic analytic space.
+[00:17:22] So this is an example from Tableau, in terms of the actual code being surfaced within a natural language query.
+[00:17:30] so we've asked the um the agent to provide a certain metric and it also not just gives us the information but gives us the
+[00:17:39] Expression that it used to actually determine that information. This can be useful for auditability, for figuring things out after the fact, so that we can reproduce results and have confidence that it's actually using the metrics that we need.
+[00:17:53] This is another example from Tableau, and this is more around explainable narratives.
+[00:17:59] So in this example,
+[00:18:00] Example, we've asked a somewhat vague query in terms of which products will perform best uh for the account.
+[00:18:06] Best being a very subjective term here. The agent has taken a stab at it and it has gone. And said, okay, we've used this particular metric in order to rank. It's provided the information and it's given us an explanation as to the reasoning behind that and um, how that came to be
+[00:18:23] when it comes to the actual semantic layer. Uh, this is from thoughtspot.
+[00:18:28] And again we've asked show total sales for jackets in the USA it's presented us with a nice graphic of the geographic spread of this within the US.
+[00:18:36] And it's also given us the actual metrics that you use, so it said sum of sales, USA and item type jackets as the filter criteria.
+[00:18:44] so, at least we can
+[00:18:45] Go back and we can refer to it and understand.
+[00:18:48] In the context of our semantic layer that we're using for our AI platform, that it is aligned with the results that the agent has returned and we can reproduce them after the fact.
+[00:18:59] And then finally, we have a breakdown of natural language queries. So again we've asked the um somewhat high level question around it. The CEO wants an overview of companies sales Trends. It's actually determined, which metrics, and which visualizations would best represent this. And it's given us a little narrative as to each of those as to why it's selected them. And what value they would bring to the actual
+[00:19:23] Uh, visualization.
+[00:19:25] So all these together, give us that transparency. Give us that visibility into the reasoning and the logic.
+[00:19:30] That the agents have.
+[00:19:31] Such that we can have that trust, which I remember I said was essential in terms of being able to hand over control to a certain degree to the agents within the confines of these kind of processes.
+[00:19:44] Okay, so we've talked about when not to use agents. We've talked about when we're using agents. How to do it, effectively?
+[00:19:50] Now, we're going to talk about how to adopt an evidence-based approach when you're actually selecting an agentic Analytics.
+[00:19:56] Platform.
+[00:19:58] Specifically to avoid what we call agent washing?
+[00:20:02] And essentially agent washing it, you may have already heard. The term is when
+[00:20:06] Vendors May apply the term agent to processes that are maybe more Legacy features that have had a bit of a, a rebranding, a bit of uh a bit of Pol.
+[00:20:15] It could be that you have static queries uh that are now being with some kind of report on top that are being uh positioned as maybe a bit more agentic than uh than they actually are.
+[00:20:27] And what we want to avoid is having a situation where we feel we are we have an agentic solution whereas in fact it's just a repackaging of an existing solution that we have already had in the past.
+[00:20:38] And again, that is not to say that these kinds of solutions are not valuable. Like we mentioned
+[00:20:44] Agents can be Overkill in certain scenarios.
+[00:20:47] So, it's just about making sure that we are aware of what we're getting in terms of the capabilities that come with agentic systems.
+[00:20:54] And this brings us back to our the original premise that we want to make sure that we have that visibility in the confidence.
+[00:21:00] That when we actually have a solution that it's going to meet our requirements, as we roll it out.
+[00:21:07] So how can we rigorously validate that any solution that we want to bring to bear for agentic Analytics?
+[00:21:14] Has the capabilities that we need under real world scenarios.
+[00:21:19] so the first thing that we shouldn't do is just rely solely on demos on videos and on um, you know, these kind of canned type of demonstrations
+[00:21:30] These are extremely valuable for understanding the general capabilities and features involved in a system, but we shouldn't be relying on them in order to make a decision around whether a particular solution is fit for purpose for our scenarios.
+[00:21:43] We need to evaluate on real world scenarios.
+[00:21:45] Need to take a particular vendor solution. Understand, does it work with the scale of data that you're using? Does it work under your particular governance requirements? Does it work with?
+[00:21:55] All of our data is going to be messy, does it work with that particular? Uh type of scenario?
+[00:22:00] Only then, will you have the confidence that when you actually deploy this in the wild? Is it actually going to be fit for purpose in a way that our original example wasn't
+[00:22:12] the second thing to do is to bring in the business early,
+[00:22:16] Who are going to be the stakeholders who are going to actually be involved in the outputs or in the usage of any of these agentic outputs.
+[00:22:23] So this could be Finance sales.
+[00:22:26] Tech HR anyone who's going to be a stakeholder?
+[00:22:30] Who is directly impacted by any of the use cases. Where agentic analytics is used should be brought in to understand what these use cases are going to be and how they'll actually work in reality.
+[00:22:40] Then we can Implement task driven acceptance tests to really nail down whether the solution.
+[00:22:46] Is a fit or the tool is a fit for the solution.
+[00:22:53] And then finally, we should engage in detailed discussions with the vendor around road map. Make sure that any of the features that are involved in the solution are actually available at the time that you understand the available that they're not in preview that they're generally available or that they're not on the road map. So understanding what is actually going to be available at launch when you bring the product to bear on your own systems is key to understand.
+[00:23:16] So in order to help you after the fact, when you are assessing an any of the vendor Solutions, we provided a checklist around some of the core areas that you should be looking when evaluating any vendor Solutions.
+[00:23:29] So the first is around conversational analytics. I mentioned that some, uh, Solutions may be positioned more as a agentic solution when they're in fact just um, more kind of pre-programmed answers. So you want to drill down and understand, can you ask questions in natural language? Does the interaction retain context around what you've asked and does it support, multi-step reasoning as you go deeper into a particular business problem?
+[00:23:56] How does it work for augmented insights generation?
+[00:24:00] Can you proactively detect Trends, kind of go beyond what uh current dashboards can do in terms of just describing a problem and really provide you with surface information that you wouldn't otherwise have been able to find without the agentic solution.
+[00:24:13] Does it give you confidence scores and explainability that Aid with governance and the ability to have that compliance and lineage around it?
+[00:24:21] And can it go further? Can it explore?
+[00:24:23] Deeper reasons that you maybe didn't even think to ask.
+[00:24:26] And recommend the next best action.
+[00:24:30] but wait, there's more
+[00:24:32] we have workflow Automation and orchestration.
+[00:24:35] Can you go? And as we say it's not a 1 Stop. We don't have 1 agent, that's doing the whole workflow. How do we take our existing analytics workflow and build out a more comprehensive?
+[00:24:45] Of workflow automation orchestration maybe with multi-agent systems.
+[00:24:49] So can we build low code for maybe different people within the team who aren't coding to be able to to contribute?
+[00:24:55] Can we have human in the loop if that's a requirement for our specific governance needs? How do we bring human in the loop into it?
+[00:25:02] And do we have relevant audit trails and governance built into our automated workflows such that they're fit for purpose.
+[00:25:10] And finally, how does it work with automated data, preparation, so kind of profile data quality.
+[00:25:16] Can it provide automated AI um, assist recommendations and can it handle data from different sources?
+[00:25:28] so, let's summarize what we've
+[00:25:30] Disgust.
+[00:25:33] We've talked a lot about the how, how these systems work, how they can be implemented.
+[00:25:38] How they all fit together.
+[00:25:40] But before we focus on the how it's important to think about the why, why are we using these systems, where are we deploying them? How do they fit into our broader AI strategy? And how is it going to enhance the organizational outcomes based on that?
+[00:25:52] That will give us a lens through which to decide where it actually makes sense to deploy. Agentic analytics within our stocks.
+[00:26:03] We need to identify based on that, where agentic analytics may be Overkill, where it makes more sense to have more.
+[00:26:09] traditional solutions for
+[00:26:12] particular problems that don't necessarily warrant or require
+[00:26:15] Nig solution.
+[00:26:18] How do we prioritize explicit transparency features. So we talked about some of the examples that are available in terms of
+[00:26:24] How we get to that level of trust, that gives us confidence to hand over control, to the agents at different degrees 2, different degrees at different points within the process.
+[00:26:35] So, these were some of the things around code visibility conference scores.
+[00:26:38] Sourcing data.
+[00:26:40] And semantic grounding. So that we know that the agent is speaking the same language that we are. When it comes to the business problems that we're framing.
+[00:26:48] And then finally, how do we prevent agent washing by adopting an evidence-based approach to evaluating our agents?
+[00:26:54] this brings us back full circle to our original problem, that we don't want to end up in a situation where we're
+[00:27:00] Following an agentic analytic solution that isn't fit for purpose that has been over promised and that doesn't actually work when we deploy it based on our own uh requirements.
+[00:27:13] We've also provided in the material, a quick action plan, which gives you some first steps to take in terms of within the next week. The next quarter and the the next year, in terms of implementing agentic Analytics,
+[00:27:27] And we provided some of our core research around uh, the area of agentic analytics for you to consider after the session.
+[00:27:35] So thank you very much for your attention. I'll be available for a few minutes after the session. If you have any questions and I just want to wish you all a very best for the rest of the conference. Thank you.

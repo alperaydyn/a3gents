@@ -1,0 +1,81 @@
+[00:00:00] so I work in a Vive, uh, and
+[00:00:03] Aviva is a large multinational organization, which means we're very large many data platforms. And the way we handle data has changed, I I've been coming to these conferences, I'm sure like a lot of people for a number of years and lesbian, completely honest. 4 years ago, when we were standing up here and people started talking about Ai and AI first, and it was going to be the future. We looked at a and when that'll be nice. I'll deal with it later because I've got enough problems with what I'm doing today. Now today
+[00:00:32] Actually not having an AI platform is a considerable issue of even recently announced our partnership with openai and you can now buy insurance.
+[00:00:42] Through chat GPT if you'd asked me 2 years ago.
+[00:00:45] We've been doing that. I'd have said, no, but we couldn't do that on the technology and the platform and our ways of working because the world changed and the world changed, very, very fast. And actually what we recognized is the old way of large organizations working and delivering data and pace.
+[00:01:03] Was not really a pace. The world moved far faster than we've ever seen before.
+[00:01:08] We recognized very, very quickly that the traditional approach of going from a legacy of prayer and we're very proud of ourselves. So we all went to the cloud and now it's in that great because we're now ready and we're cloud ready. And that's that's the buzzword. We we then
+[00:01:25] Data products and we're like, this is amazing. We're, we're sitting on the edge, we're leading on data products.
+[00:01:30] Guessing the value from it and then our AI team started coming and asking us questions. Quite simple questions, quite reasonable questions. But what we actually realized was is our data platforms, our data storage, the way we were managing data, couldn't keep up. The AI teams are accelerating at a pace far beyond what our data platforms could do.
+[00:01:53] We had a single data platform and what we're talking about today. It had 3,000 accounts. The reason why we're not talking about users, is it gets into silly numbers. That is uncorrelated or 1 account supported over a thousand users because it was a v account that pulled the v data out. As we all know, the days of bi dashboards being built, and we
+[00:02:15] Having 400 dashboards is kind of Disappearing into the world of now. Everybody wants an agent to chat with their data. So 1 account can support thousands of users 1 account. Now needs to support hundreds of Agents.
+[00:02:27] We had over 10,000 pipelines running uh when the project manager came and told me this, I almost fell off my chair because you look at the scale of this and going, this is a massive program to move. We had 1.3 petabytes of data to move and we had a thousand front end machine learning models fighting fraud trying to find our customers the best repair.
+[00:02:51] Servicing our customers on a day-to-day basis. So we sat down as a team and tried to work out. What is the best way to do this? Because we had very
+[00:03:00] Very challenging timelines to deliver on. And the cost I think is the hopes is not really an option.
+[00:03:06] We had 3 main challenges throughout the life of this programme, firstly the data.
+[00:03:12] 1.3 petabytes of data you go, I can move that. It's not very big. We can move it. It is much bigger than you think.
+[00:03:20] The other challenge we have with the data is it wasn't all in 1, Place 1 of the things we discovered when we tried to do AI at scale, is if you have your data in 30,000 different platforms and you've got to move it between the 2 to get any kind of consistent answers. You're going to struggle. So our first point was, we needed to move our data into a centralized place? The second thing we need to do is have governance you
+[00:03:45] Cannot have a 10000 pipelines running.
+[00:03:48] And not have good governance around it. And this was the point where we started our partnership up with DBT. It's actually really lucky, because, a couple of years ago, I was working on a startup and, uh, working with DBT at the time we built a new modern way of doing data. So very much. This time we turned up to DBT and went help, we want to do this again, but rather than having a 100,000 customers will be servicing. We're going to have a 18 million customers who are going to be servicing. Can you help us do this at scale? And this all comes down to standardized Transformations, the governance, you need around this when you're servicing millions, and millions of customers when you need, they need their data. We need
+[00:04:30] To help support and invite fraud fighting crime.
+[00:04:33] Delivering them, the service they need, unfortunately. Claims, you know, I'd love to say that the insurance company doesn't have to deal with painful. We do claims happen and that's the most important moment for us because that's when our customers need us. The most, the other lovely thing we got asked to do was move all the users. So we have users on Discord platforms. Lots of platforms, we had everything from data, scientists machine learning, experts, AI experts, the normal people you see in these kind of conversations, but we also had pricing analysts
+[00:05:06] juries Underwriters people who are not traditionally, technical
+[00:05:12] and the final challenge we had, which was
+[00:05:15] The Voice fundamental 1 is we were allowed to start.
+[00:05:20] An end.
+[00:05:21] In 7 months. So from the first piece of data moving and the first years are going over, we had to finish in 7 months and that sounds like why is 7 months? It's very random and out of time. Well, the actual answer is is when we were asked to start the project, we were given a year and by the time we finished working out, what we were going to do, and getting our Partnerships in place, we had 7 months left to do today. So 7 months was the time I to move 10,000 pipelines, thousands of accounts, tens of thousands of users pabt and data signed off.
+[00:05:55] Approved reconciled and that users delivering here.
+[00:06:00] And then if anybody's lifted the drains on their own world, they will find people who have created crazy stuff. There's this really annoying person.
+[00:06:09] Who a decade actually. When the project manager came up and goes, do, you know a person bought, Neil Scott? And I looked at him and went why he goes. Did, you know? And I went, oh, yeah, here we do. Meet, he commissioned that about a decade ago. He goes know that still exists and those people use it. So we found many, many things under the hood that we didn't want to and all of these things.
+[00:06:29] led to the fact that
+[00:06:31] we needed to start getting a fully structured and governed delivery around this. We needed to find all these
+[00:06:39] hidden gems. I thought that that was not what the project manager called it and we need to work out how we're going to.
+[00:06:45] Do this, our pace.
+[00:06:47] So we came up working with DBT, we had the standard delivery models. These are all the kind of things that we need. Everybody knows that we need as part of a standard data delivery. But the other thing we noticed is we also needed context.
+[00:07:02] Because actually Ai and the AI tooling out there today is based on context metadata lineage asking very, very simple questions of your data is as much about the data you've told it about the data as the data itself.
+[00:07:19] Spending time, as part of it investing in that has put us in such a good position. But the other thing that is is enabling our analytics via our
+[00:07:30] Having AI Tooling in place that enables people.
+[00:07:34] To not put stuff into Excel spreadsheets and send it around an organization. I'd love to say that that doesn't happen. I think we can all say it happens everywhere, um, to enable people to assess and treat data in a different way to lower the barrier, to entry giving our Engineers the ability to very rapidly stand up, semantic views, and agents to enable people to answer questions. Where 5 years ago, we had a data set for them, and we've built a data set for them. That would have been explained to them how
+[00:08:05] They want to deliver the data and it's explaining to them the data in a human readable form.
+[00:08:11] Now, we're starting to think about data in. What does the AI need?
+[00:08:15] In order to deliver the outcomes, the customers need what information and wrapping that information around the data became a fundamental delivery. And as you've been doing that in a governed way, because if you tell an AI,
+[00:08:30] this has changed it. Expects it to change and I'm assuming change and it will work with it. If you tell a human something's changed, they'll look at it and go. No, it hasn't.
+[00:08:38] I'll just wait for it to actually change. So getting that governed context in place became an essential deliverable for our platforms.
+[00:08:49] To that was the partnership through the DBT, where we build an engineering pipeline.
+[00:08:54] Based around everything in DVT. All of our code is in DVT all
+[00:09:00] Of the lineage. And we are exposing that to our agents. So our agents, when they're asking questions, our customers are asking questions, they have access to the data, they also have access to the lineage,
+[00:09:12] Why was this pricing feature created? Why did this machine learning model? Give me the answer. Why explainability became the buzz line that we started to talk about people factories Underwriters.
+[00:09:27] To understanding.
+[00:09:29] How the data that they're being given is generated?
+[00:09:33] Can fundamental to what we were trying to do. And by building these pipelines, out by adding the lineage, in throughout the piece, we gave the AR
+[00:09:45] The information they needed to actually be able to answer the questions that our customers needed.
+[00:09:50] Our customers are very demanding as I'm sure every news customers are and 1 of the things that they struggle with is unexpected change.
+[00:10:03] And they also start excuse me and they also struggle with when things are not as they expect.
+[00:10:10] What we've built through this pipeline of taking all of those plethora of systems that we had to integrate and mesh together.
+[00:10:18] What we've managed to do is deliver them, a trusted data platform that they can rely on for their day-to-day decisions.
+[00:10:30] We have seen through this migration. A 70% reduction in processing time, which
+[00:10:39] as a platform owner, I'm sure everyone loves, but as an end user,
+[00:10:44] you're getting your data 70% faster.
+[00:10:49] That means you can use that data to inform conscious decisions, improve our customers lives faster process that would be happening once a day, we can now do multiple times a day when we're out there. Talking about fighting crime fighting fraud protecting our customers from fraud, we can now do that in seconds.
+[00:11:08] Because we've reduced that time the 1. Uh I I quite like so I spent a lot of time as development.
+[00:11:15] Uh, I spent over a decade as a developer first. Uh, EG the bad bit of code, from a decade ago. Um,
+[00:11:21] 50%.
+[00:11:23] Increase in delivery velocity, our Engineers can get through twice as many points per Sprint, as they could before this platform was put in place. And that is fundamental because not again only other our customers getting their outcomes faster.
+[00:11:40] We're getting from more and everybody, everybody has backlogs. Everybody would like to be able to get through more. This really gave us the ability to do it.
+[00:11:49] The other thing we've been able to do is, you know, near real time data. Um,
+[00:11:54] we have real-time data services.
+[00:11:57] But they're very expensive. I think everybody knows you're not going to do it.
+[00:12:00] Large analytical processes in real time.
+[00:12:04] But the micro batch options that we're running here, enables our analysts to get fewer telematics for example, on a much much more regular basis and we did manage to move 1.3 Pathways. We actually move more. It was about 1.7 because
+[00:12:20] when you're trying to uh, build the car, as he's driving down the road people quite often say,
+[00:12:26] You move the day through you, give it to them and we said there it is. They send back the changes to the last night so we had to move it again. Um, but 1.3 petabytes of data was transferred over.
+[00:12:37] And where this is really landed us is our customers. The 18 million customers who
+[00:12:45] Use an email Services every day, are able to get better Services because as we can support them in our better way and we're doing that by servicing our direct customers, the analysts the pricing people the claims handlers in a better way. We've also built a much more connected customer view putting all this data together means we're not trying to harness together multiple systems and anyone who's trying to wire together 5 or 6 different data storage vendors will know that it's not the easiest process in the world.
+[00:13:19] And what we've really given out the back of it is governed context. AI. We are supporting the assumption that AI is an enabler for the future but
+[00:13:30] Turn AI on, it's not something that you'll talk tomorrow and it will just work. We have invested in building a data platform based throughout the idea that providing AI with the context will enable the AI to give better outcomes to our customers. And when you bring this all together, the, you know, this was a long journey. We're on, um, although the program only existed for a year, it felt a heck of a lot longer the journey that Aviva has been on.
+[00:13:59] Through that. And then afterwards, as culminated with things like the recently announced open, AI partnership and being able to sell car insurance through chat, GPT and there are many more things that have Eva has to come. But setting these foundations
+[00:14:15] No Benchmark setting these foundational capabilities in place has been the key enabler for us to be able to look to the Future. There is lots of people from Aviva today. Walking around Mr. Garner conference. We're trying to look at what are the next things? How do we be ready for the next movement? Because we do also recognize that AI isn't
+[00:14:37] A we haven't done it and now we're done, and we can just sit back. This platform, we've built is built to scale build tools, and actually working with Partners, like, DVT working with Partners throughout our data ecosystem, we're constantly challenging them. We want to do more, we want to go faster.
+[00:14:56] How we can help us with that. And whenever they turn up with a, uh,
+[00:15:00] Uh, yesterday about some new capabilities they've got coming, our answer is, we always want them because actually, where they can drive value, where they can help us deliver these customer outcomes, better. It really enables us to accelerate forward, and we're looking at. What is the next big thing?
+[00:15:17] Thank you very much.

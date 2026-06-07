@@ -1,0 +1,84 @@
+{
+  "summary": "The session discusses the increasing importance of managing unstructured data in the context of AI advancements, emphasizing the need for new tools and techniques to handle this data effectively. It highlights the shift from traditional structured data management to incorporating unstructured data, which now constitutes a significant portion of organizational data. The speaker outlines actionable steps for organizations to assess and update their data strategies to accommodate unstructured data management and governance.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Unstructured Data",
+      "key_points": [
+        "Unstructured data is increasingly important due to AI advancements.",
+        "Organizations need to adapt their data management strategies."
+      ],
+      "start_time": "00:00:03",
+      "end_time": "00:05:06"
+    },
+    {
+      "order": 2,
+      "topic": "Data Management Challenges",
+      "key_points": [
+        "70-90% of organizational data is unstructured.",
+        "Current data management practices are insufficient for unstructured data."
+      ],
+      "start_time": "00:05:06",
+      "end_time": "00:10:14"
+    },
+    {
+      "order": 3,
+      "topic": "Unstructured Data Quality and Governance",
+      "key_points": [
+        "Unstructured data quality relies on metadata.",
+        "Governance practices need to adapt to unstructured data."
+      ],
+      "start_time": "00:10:14",
+      "end_time": "00:15:00"
+    },
+    {
+      "order": 4,
+      "topic": "Vendor Landscape and Solutions",
+      "key_points": [
+        "Traditional vendors are adapting to unstructured data needs.",
+        "New specialized vendors are emerging in the market."
+      ],
+      "start_time": "00:15:00",
+      "end_time": "00:20:08"
+    },
+    {
+      "order": 5,
+      "topic": "Action Plan for Organizations",
+      "key_points": [
+        "Review and update AI strategies.",
+        "Engage with content leaders for better data management."
+      ],
+      "start_time": "00:20:08",
+      "end_time": "00:23:40"
+    }
+  ],
+  "key_takeaways": [
+    "Organizations must recognize the growing significance of unstructured data and adapt their strategies accordingly.",
+    "Effective unstructured data management requires new tools and techniques focused on metadata and quality.",
+    "Collaboration with content leaders is essential for successful integration of unstructured data into existing frameworks."
+  ],
+  "entities": [
+    {
+      "unstructured data": 15
+    },
+    {
+      "data management": 10
+    },
+    {
+      "metadata": 8
+    },
+    {
+      "data governance": 5
+    },
+    {
+      "data quality": 6
+    },
+    {
+      "vendors": 7
+    },
+    {
+      "data integration": 4
+    }
+  ],
+  "subject_area_id": "data_management"
+}

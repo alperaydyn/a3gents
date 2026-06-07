@@ -1,0 +1,104 @@
+{
+  "summary": "Ted, the field CTO for integration at Qlik, discusses the evolution of AI and its impact on data analytics and integration. He emphasizes the importance of context and trust in leveraging data effectively within organizations. The session outlines challenges faced by organizations and introduces key pillars for overcoming these challenges using Qlik's tools.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction and Audience Engagement",
+      "key_points": [
+        "Introduction to Qlik's analytics tools",
+        "Audience participation on AI tool usage"
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:01:51"
+    },
+    {
+      "order": 2,
+      "topic": "Challenges in Data Analytics",
+      "key_points": [
+        "Understanding the bottlenecks organizations face",
+        "Importance of context and trust in data"
+      ],
+      "start_time": "00:01:51",
+      "end_time": "00:05:15"
+    },
+    {
+      "order": 3,
+      "topic": "Pillars of AI and Data Integration",
+      "key_points": [
+        "The role of context and trust in AI",
+        "Combining CPU and GPU for analytics"
+      ],
+      "start_time": "00:05:15",
+      "end_time": "00:10:49"
+    },
+    {
+      "order": 4,
+      "topic": "Use Cases and Value Creation",
+      "key_points": [
+        "Importance of defining use cases",
+        "Building an agentic framework for data quality"
+      ],
+      "start_time": "00:10:49",
+      "end_time": "00:11:30"
+    }
+  ],
+  "key_takeaways": [
+    "AI is revolutionizing the data analytics industry by changing how we interact with software.",
+    "Context and trust are essential for deriving value from data in any organization.",
+    "Organizations should focus on defining clear use cases to drive data integration and analytics."
+  ],
+  "entities": [
+    {
+      "data analytics": 5
+    },
+    {
+      "ai": 7
+    },
+    {
+      "data quality": 4
+    },
+    {
+      "context": 5
+    },
+    {
+      "trust": 4
+    },
+    {
+      "data integration": 3
+    },
+    {
+      "data warehousing": 2
+    },
+    {
+      "agentic framework": 2
+    },
+    {
+      "cpu": 3
+    },
+    {
+      "gpu": 3
+    },
+    {
+      "data": 10
+    },
+    {
+      "analytics tools": 2
+    },
+    {
+      "use cases": 3
+    },
+    {
+      "data-driven": 2
+    },
+    {
+      "innovation": 2
+    },
+    {
+      "data trust": 2
+    },
+    {
+      "unstructured data": 2
+    }
+  ],
+  "subject_area_id": "data_quality"
+}

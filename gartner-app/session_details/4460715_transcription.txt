@@ -1,0 +1,275 @@
+[00:00:05] So good afternoon, everyone.
+[00:00:06] Hope you're all having a a great couple of days at the conference.
+[00:00:12] So, imagine this scenario.
+[00:00:14] You just delivered a set of analytics dashboards for your VP of sales that you generated using generative AI.
+[00:00:23] Only to find out that.
+[00:00:25] These dashboards directly contradict a number of other dashboards that you delivered just a couple of months ago.
+[00:00:30] and now,
+[00:00:32] They no longer trust either of them.
+[00:00:34] My name is Jeremy Kern. I'm a director Analyst at Gartner and for the next 29 minutes or. So I want to take you through the key things that you need to consider for rolling out Analytics.
+[00:00:45] And the generative AI era.
+[00:00:48] So how exactly is analytics impacting?
+[00:00:52] Generative, AI analytics at the moment.
+[00:00:57] Well, we all are familiar with the impact that generative AI has had on our lives in the past couple of years, in terms of text Generation image, Generation video audio,
+[00:01:08] Various different modalities.
+[00:01:10] And analytics is no different.
+[00:01:13] By 2027, we predict that 75% of new analytics content will be created with generative value.
+[00:01:24] We're also seeing the ease with which people can actually generate content. Is massively reducing
+[00:01:30] So, the predict the friction associated with this is much lower.
+[00:01:34] But how well, our organizations actually set up to handle this.
+[00:01:41] Well, similarly by 2027, we predict that 75% of organizations won't have an operating model that would be able to scale and govern Analytics.
+[00:01:51] Generated with generative AI.
+[00:01:54] so that presents a problem, we're generating a lot more content with
+[00:01:58] a lot less ability to actually manage it.
+[00:02:02] And this isn't mainly a tools problem. This is a structures a process. A governance problem.
+[00:02:09] So, this is something that we need to address to get the most out of generative, AI for Analytics.
+[00:02:15] Without these controls.
+[00:02:17] Chaos is created.
+[00:02:20] So how are organizations currently handling the scenario?
+[00:02:25] Well, I think analytics up-to-date has looked something like this.
+[00:02:31] A lot of people doing their own thing.
+[00:02:32] A lot of people creating their own dashboards, not a lot of joined up thinking if there are rules. Most people don't seem to be following them.
+[00:02:41] It's really been a bit of a build push done mentality to Analytics.
+[00:02:46] And what works manually won't work for generative. AI.
+[00:02:51] And it doesn't help that it doesn't even work manually.
+[00:02:55] So if this is where we are, where do we need to get to?
+[00:03:01] Was something like this, looks a lot better.
+[00:03:04] With a lot more process people are staying in their Lane, we have a collective rules of the road or governance of our analytics processes.
+[00:03:13] And we'll definitely need this for the volume of traffic that we're about to face.
+[00:03:18] We need systems that are designed for scale and repeatability.
+[00:03:21] We need systems, not just dashboards.
+[00:03:26] So where can we draw inspiration from?
+[00:03:30] Well thankfully our peers in the devops world, have a nice template that we can rely on.
+[00:03:36] Now, I'm not saying we have to co this exactly 1 to 1 but we need to put some kind of process.
+[00:03:41] Some kind of feedback loop into our development of our Analytics.
+[00:03:45] Assets.
+[00:03:46] We need to be able to plan.
+[00:03:48] To create.
+[00:03:49] To verify.
+[00:03:51] To do pre-production.
+[00:03:53] We need to move all the way through the cycle, all the way back to the beginning, such that our monitoring feeds back into our processes. So we know what went, right and what went wrong, what our analytics content
+[00:04:08] this gives us a model for how we can potentially change our approach to analytics in the future, especially in the era of generative AI
+[00:04:16] So, we chose to name this analytics apps?
+[00:04:19] Very original.
+[00:04:20] And let's outline the key issues that we need to discuss here to get to grips with how to bring analytics into the generative AI era.
+[00:04:34] So we're going to start with looking at.
+[00:04:37] What does analytics look like today?
+[00:04:40] We need somewhere to start. So we need to get a sense of where we go.
+[00:04:45] We then need to look at how we can scale analytics content in an era of generative AI
+[00:04:51] And then finally, we need to look at how we can govern this analytics content, such that we know how we're managing it.
+[00:05:00] So, what does analytics content actually look like today?
+[00:05:07] Well, most of you will hopefully be familiar with something like this.
+[00:05:11] It's a standard dashboard.
+[00:05:12] So typically we take different metrics, we visualize
+[00:05:15] some these things like
+[00:05:17] Line charts bar charts or for particularly sadistic views.
+[00:05:22] Uh, pie charts.
+[00:05:26] These are very helpful, I'm not bashing dashboards. I spent a lot of my career building dashboards, uh, and doing data science.
+[00:05:33] So they're extremely valuable to present information.
+[00:05:35] To a particular audience.
+[00:05:39] But they buried the lead. A lot of the time.
+[00:05:42] They rely a lot on inference and understanding. What was the reasoning behind? Why? We chose a particular graph, what we were visualizing a particular metric and what we were trying to get a cross.
+[00:05:52] and the challenge is as data professionals often times, we infer a lot of data, literacy in our audience,
+[00:05:58] we build something and we
+[00:06:00] Think, of course they're going to be able to realize what we were trying to get across in this particular dashboard but that's not always the case for different stakeholders.
+[00:06:07] So they leave a lot undescribed so for example, in our bar chart or in our line chart in the bottom left corner, why is there a spike at that particular time?
+[00:06:17] We can't tell from the dashboard alone. We don't have the additional context that we need.
+[00:06:25] if we go back, 40 years,
+[00:06:28] Self-service was generated very early. It didn't come about with
+[00:06:32] Just analytics dashboards we could have Excel spreadsheets, we could.
+[00:06:37] Generate information from them.
+[00:06:40] We then move forward to SQL databases where we could do maybe SQL queries and answer questions in an
+[00:06:45] Language waiter and that.
+[00:06:47] and that brought us all the way up to
+[00:06:49] visual dashboards like we see here today. So there's been this constant tension between the freedom that comes with providing the tools to answer questions and the control. We need to put in place to make sure that they have the requisite governance and guardrails around that that the answer is actually makes sense.
+[00:07:05] And generative AI is the latest in those Technologies.
+[00:07:09] We Face the challenge of providing the tools to help people answer the questions that they need answered.
+[00:07:14] But putting the guardrails in place to make sure that they have the required and requisite information for those to make sense.
+[00:07:21] So with that in mind, this is what we have up until now, what could analytics look like in the future.
+[00:07:30] So this is a pretty good representation of what that might look like. This is Jeannie from data bricks.
+[00:07:35] And it's a bi interface built on top of the data bricks platform.
+[00:07:41] So in this instance and again, this isn't a recommendation of any particular platform, but it's a good example of how we might better like to actually interact with our analytics content.
+[00:07:50] Rather than static dashboards that only answer 1 question at any point in time. We can have a conversation with our data.
+[00:07:58] rather than saying, what is the average of this particular metric in this bar chart, we can say
+[00:08:03] What is our churn this month? What led to that?
+[00:08:07] What are the factors that are contributing to our Revenue?
+[00:08:10] We can have a conversation.
+[00:08:14] And what's more?
+[00:08:15] We can have a conversation that provides us with the underlying reasoning behind the answers to that conversation. So, in this example, it actually provides not just the data itself.
+[00:08:25] But a well-reasoned paragraph and why it chose a particular metric. It actually shows us its work. It gives us a plan for how it actually came to its decisions and presents that valuable context to us. So, we know when we're presenting the information back that we know where it came from.
+[00:08:42] And this is very different to how we've been doing things today, where we're again, relying on, static dashboards.
+[00:08:49] 1 thing to keep in mind is that we don't want to conflate analysis with reporting.
+[00:08:54] There's many instances where static metrics that, don't change over time, that are built on well grounded.
+[00:09:00] And static metrics, make a lot of sense.
+[00:09:04] Given the nature of llms which underly, many of the generative, AI analytics products.
+[00:09:10] Their probabilistic in nature. So you may ask the same question a number of times and get a slightly different answer.
+[00:09:16] This is fine. If we're doing some exploratory analysis, we're trying to answer some questions, but if we're reporting key metrics to stakeholders, we want to make sure that we have the same answer every time if we presenting the same 1,
+[00:09:29] So it's about really the right tool for the right job, at the right time like any other software too.
+[00:09:36] So now we know.
+[00:09:38] Where analytics has come from?
+[00:09:40] What it could look like in the future.
+[00:09:42] but how do we go about actually constructing our
+[00:09:45] Architecture, so that we can support something like this.
+[00:09:48] So let's look at the analytics stack that we need to do this.
+[00:09:53] So like with anything, we have to start with our data.
+[00:09:57] So traditionally up until now if we're doing any kind of descriptive analytics, we're probably mainly relying on our structured data. So relational databases dim tables fact tables.
+[00:10:07] Those sorts of things.
+[00:10:09] But for generative AI, we need to go beyond that.
+[00:10:13] If we're going to be answering very nuanced, contextual questions, we need to have the new nuanced contextual data to support that.
+[00:10:20] And that's where semi-structured and unstructured data come in.
+[00:10:24] So if we're trying to understand why a particular set of clients are churning,
+[00:10:28] it's 1 thing that for the
+[00:10:30] Your data to tell us that they have turned what they spent, what they didn't spend, it's another thing for an email buried, within a, semi-structured data source, to be able to tell us the reason as to actually why they did it.
+[00:10:40] Or maybe there's a market report, which is in a PDF, which will give us the additional context as to why they're struggling in their particular industry and how that might have led to them, not having the budget to support and thereby turning.
+[00:10:52] So we need to have that rounded.
+[00:10:54] well-founded and structured data underpinnings in this multimodal data Foundation,
+[00:11:03] On top of that, we need to have our metadata there.
+[00:11:05] so our data, that describes our data,
+[00:11:08] And this can be split into 2 different areas. We have our active metadata, and our passive metadata
+[00:11:14] And the way.
+[00:11:15] I'd like to think about the 2 of these is the difference between a thermostat and a thermometer.
+[00:11:21] So it would a thermostat.
+[00:11:23] It's measuring the temperature and it's also changing the temperature of the room. As a result of it, going above or below a particular temperature, whereas a thermometer is just passively collecting that information and capturing it.
+[00:11:35] So using the metadata in combination with our data, we can describe our data more effectively so that we and the models, the underlying generative AI models that are going to help us enable this new architecture. Have that context too.
+[00:11:51] On top of that, we have our semantic layer.
+[00:11:55] So we're going to have our business rules, we're going to have our taxonomies. We're going to
+[00:12:00] Have our ontologies. This is where we really give the model its context about our organization about our industry. What are the things that are important? How do they relate to 1? Another
+[00:12:10] and how are we defining them?
+[00:12:13] We can kind of think about this as you know, cutting up the food for the model such that it doesn't have to struggle to eat it.
+[00:12:20] And this is essential for billing building effective things like knowledge graphs so that we can relate different entities within an organization.
+[00:12:29] So that we can build effective data products based on models that are well, founded and contextualized.
+[00:12:35] And so we can potentially build our own large language models. If needs be to do that,
+[00:12:43] on top of that, we have our metrics there.
+[00:12:45] now we we have all the building blocks, we've got our data, we've got our metadata,
+[00:12:49] We've got our semantic layer which is described the meaning behind the data. Now, we can get into the business of actually defining our metrics.
+[00:12:56] We're getting closer to the business here. We want to have clear, well-aligned metrics that are built on well-founded well, structured, strong data foundations. And this is where the metrics are comes in.
+[00:13:14] then we have our
+[00:13:16] layer on top of that, which is the actual analytics consumption there.
+[00:13:20] so, this is where we start to get into our actual,
+[00:13:23] Business intelligence applications, our conversational AI.
+[00:13:28] maybe we are doing this as part of a
+[00:13:30] Broader machine learning and um, and data science initiative.
+[00:13:34] Or maybe we're embedding this into some sort of software application within the organization.
+[00:13:40] We now have all the building blocks to be able to enable those types of conversations with our data.
+[00:13:48] And just 1 more layer. I promise we have all the supporting mechanisms that will enable us to have effective structures and governance around it. So you can think of these as the delivery mechanisms for the information as well as the guard rails around it.
+[00:14:02] so in this context, we have agents that are providing
+[00:14:06] the link between our underlying data.
+[00:14:09] And the end users. So they're taking that knowledge, they're turning it into insights.
+[00:14:14] and their,
+[00:14:15] Putting that in such a way that it can be consumed by the end user.
+[00:14:19] On the right hand side. Then we have our different
+[00:14:22] Governance and guard rails.
+[00:14:24] So we're looking building up from making sure we have effective data quality.
+[00:14:28] Making sure that we have a policy engine put in place that the data.
+[00:14:33] Is understood by the uh the analytics and by the generative Ai and agents. On top of that.
+[00:14:39] We need to put guard rails around our agents to make sure that their effectively using the right tools are using the right context.
+[00:14:45] And then we need to make sure that we have effective system management around that.
+[00:14:57] Okay, so we've talked about
+[00:15:00] Where we were with analytics where we can get to with it.
+[00:15:03] And the type of systems and data that we need in place to be able to actually enable that.
+[00:15:07] So, let's summarize if we want to scale our analytics content.
+[00:15:11] We need to create strong semantic layer.
+[00:15:14] Which has Rich column descriptions.
+[00:15:18] So this is about making sure that any of the knowledge which is in our heads or which is in our business, processes are actually translated.
+[00:15:25] To the agent or to the model that we're not leaving it undescribed. Like we are in the dashboard.
+[00:15:30] That we're putting in place so that when it comes to the agent or the model being able to access it, it has that information to hand and can provide a much more contextualized answer around it.
+[00:15:43] We then need to simplify
+[00:15:45] The data with our business rules.
+[00:15:48] So, it's no good taking our llm and sending it down on top of our data set in a raw form.
+[00:15:55] There's just too many different permutations it won't have the underlying context. It won't have the underlying understanding of our data to be able to do that. If it does provide an answer, there's a much higher chance that it's going to be inaccurate that it's not going to be relevant to what we actually wanted to answer in the first place.
+[00:16:11] This is why we need to go through all those various layers to provide it with the metadata, not just the underlying Source data to provide it with the semantic layer and to provide it with the business rules and context that it needs to actually answer the questions that we're pausing it.
+[00:16:26] And this is where we can help it further. We can provide it with sample, queries.
+[00:16:30] we can say, for the different types of questions that are relevant to our stakeholders remember because ultimately, this is who we're trying to answer these questions for
+[00:16:37] How do we give them examples of what good looks like?
+[00:16:40] How can we take things that we know in our experience of working with our stakeholders and with our data aligned with well formulated queries, and when well formulated questions?
+[00:16:51] And how do we continuously Benchmark such? That we know that what is being generated is accurate.
+[00:16:57] I think.
+[00:16:58] Within analytics, we can sometimes be guilty of pushing out content and then not being able to have good sense after the fact, how it's actually being utilized and this is essential to make sure that we now we have the scale of generative AI layered on top of this.
+[00:17:12] We really need to have systems in place to effectively.
+[00:17:15] Monitor and manage this after the fact, in terms of the accuracy of the outputs, we're giving up a certain amount of control to do this. That's why we need to really leverage any opportunity that we have to make sure that the accuracy is
+[00:17:26] Up to that particular level of control.
+[00:17:33] So, we've talked about how we do this now, how do we actually govern it? How can we be sure that what we're putting in place makes sense that it's effective and that it's fit for purpose for anything that we want to build out on top of it.
+[00:17:44] How can we govern analytics in the generative a year?
+[00:17:55] So we require a few things to do this.
+[00:17:57] The first is to fix our inconsistent metric.
+[00:18:00] And if there's 1 thing that I would take away from this entire presentation, this would be it.
+[00:18:05] This solves our problem that we had at the very beginning of losing trust a 1. It doesn't matter how much effort we put in how much fancy systems and tools. We put in place if we're not giving consistent metrics to our stakeholders, if we're contradicting ourselves, they won't trust our outputs.
+[00:18:20] So we need to fix these things first and foremost, and make sure that we have clear concise and
+[00:18:26] Metrics that we can stand over, and that we can be sure our our Representatives.
+[00:18:31] Need to monitor our performance to make sure that our actual analytics dashboards built on top generative. AI are are fit for purpose.
+[00:18:41] When you track our usage, I mentioned how we can be guilty. Sometimes of
+[00:18:45] Are dashboards out into the wild and assuming that they can fend for themselves. We need to make sure that they're actually able to
+[00:18:51] meet the use cases that they've been put out there for in the first place.
+[00:18:56] We need to certify our content to make sure that stakeholders.
+[00:18:59] Have a good understanding of what's contained within each of them.
+[00:19:03] And we also need to manage the life cycle of our content. So I'll speak about each of these in turn in a bit more detail.
+[00:19:14] Let's double down on fixing inconsistent metrics. I mentioned that our VP of sales is no longer very happy with us because we've been giving them inconsistent metrics. So, how would we fix that?
+[00:19:24] Well, the first thing would be to do an inventory of what the uh you know the appropriate metrics are in this.
+[00:19:30] So, our VP of sales is particularly interested in annual contract value.
+[00:19:35] But like with any metric, there's many ways that we can cut it.
+[00:19:38] Maybe it's the annual contract value for a particular opportunity, or maybe for a particular account, or region or salesperson.
+[00:19:46] These can balloon very quickly and we sometimes can be a little bit flippant in terms of how we refer to metrics. So, having a clear, consistent database of how this is done with things, like descriptions around it with things like the purpose, the meaning this is all the context that becomes important, when we're choosing, how to use this. And when a model is trying to interpret our data, it also has this context. So it knows how to use this most effectively
+[00:20:10] So this is an example from uh, thoughtspot.
+[00:20:15] So in this example, we have a myriad of different ways that we can Define her annual contract value.
+[00:20:20] But we have this at hand so it isn't an issue. We can sense. Check to make sure that when someone is asking for something that the representative metric is in place.
+[00:20:29] And that we know, immediately what the scope is for anyone. So if we have conflicting metrics that we can resolve that in time,
+[00:20:40] so we can also make sure that we're looking at the consistency of our definitions around the metrics. So it's 1 Thing, having our name and Convention, we also have to make sure that the underlying syntax and code behind any kind of metrics, makes sense.
+[00:20:55] so, this is the the Dax language which is used in bi for defining for
+[00:21:00] Aware around different types of metrics. And this is a program called Moto which has been described to me as the grammarly of Dax.
+[00:21:09] And essentially this says that if you have a particular type of metric, it can identify when your syntax is incorrect, it can identify when the performance of when you're actually resolving. This particular metric is going to be substandard. It can call that out and make sure that you when you do Define something, not just you have the naming convention, right? But you also have the underlying definition and metrics that you're using, are going to be correct.
+[00:21:38] Thinking of the performance of our dashboards.
+[00:21:41] I don't know how many times in my career you've been sitting waiting for.
+[00:21:45] Something to resolve for that Spinning Wheel because you have a sub-optimal query that maybe should have been a a bit more.
+[00:21:52] Loving Care given to it before. It was plunged into the back end of the dashboard before doing it.
+[00:21:57] So,
+[00:21:58] Just think about when we're doing it. Think about how our stakeholders feel when they are bringing up a dashboard that they need for their roles. And the information isn't resolving immediately and they have to wait, they won't be back to that dashboard. If that's a consistent problem for them.
+[00:22:11] But we don't tend to track this. We don't tend to actually look at the metrics associated with.
+[00:22:16] Things like dashboards or things. Um, like any kind of analytics project uh, products.
+[00:22:21] 20% of data and analytics projects track and communicate user satisfaction. So that means that 80% aren't doing that.
+[00:22:30] So it's not that much of a lift in terms of doing it. If we focus on making sure that when we do put these metrics into production around our analytics Frameworks that they fit certain slas,
+[00:22:41] Are we confident that? If we put this out to stakeholders, that are going to be comfortable using it and that it's uh sufficient sufficiently performant to to meet their needs.
+[00:22:53] In a similar vein.
+[00:22:55] Are we tracking usage?
+[00:22:57] I think.
+[00:22:59] 1 of the challenges of putting information again, out into our stakeholders without managing. It is that we don't have a good sense of how it's being used, or whether it's being used.
+[00:23:10] You mentioned time, that can be saved by identifying whether there was actually any active.
+[00:23:15] Users with our dashboards, could be put to a lot better use if we knew before the fact that it wasn't going to be relevant to them.
+[00:23:23] Similarly, if we know we have a particular set of power users, that allows us to zero in, on how they're using it to understand more and understand how we can enhance the dashboard, or how we can enhance the broader analytic framework that we're using.
+[00:23:35] And again a statistic here that we have around 30% 36% of data and analytics projects track usage would again means that 2/3 aren't tracking usage.
+[00:23:48] I think this also provides a good opportunity to maybe push back in certain instances if we're getting requests for particular type of analysis and we know that the usage is very low on it. We can put that resourcing into better.
+[00:24:00] Areas and focus in on areas that are actually relevant for the stakeholders who are requesting it.
+[00:24:09] I think another challenge that stakeholders can face is.
+[00:24:13] Having a long list of different dashboards in front of them where they all look very similar. They all have very similar names, maybe they haven't been accessed in a while and it's unclear to them whether they should be using it. Whether it's deprecated.
+[00:24:26] How recently has it been refreshed? Is it relevant to their particular query or question that they have?
+[00:24:31] And even more worrying statistic is that only 13% of reports show, watermarks to certify data set and content.
+[00:24:39] Again, we can't be reliant on stakeholders to go and search this out for themselves. And this means that all of the effort that we go in.
+[00:24:45] To developing dashboards developing Solutions.
+[00:24:48] Can go to waste if they're going to be reluctant to use the content based on. Um the fact that they don't know whether it's certified
+[00:24:56] So putting the time in to have a clearly developed certification system that focuses in on the different levels and statuses of different dashboards can go a long way to giving a lot more confidence to stakeholders around the fact that they should be using different, uh, dashboards.
+[00:25:14] And finally life cycle management.
+[00:25:18] 32% of, of organizations, have product managers to oversee, data, and analytics projects from prototype to production.
+[00:25:27] if this was any other,
+[00:25:29] Product.
+[00:25:30] Or any other kind of system, typically there's owners, it just makes sense.
+[00:25:34] Someone has to understand the scoping for something they have to understand how it's developed, how it's rolled out how it's managed once it's launched, but we don't tend to have this within Analytics.
+[00:25:44] That means that there's no joined up thinking behind why we built this in the first place when it was launched. And what was the impact of it?
+[00:25:54] We don't really have a strong Dev test production workflow with an analytics. And this is why we need to focus in on getting better around these areas.
+[00:26:05] So that's summarized that
+[00:26:07] we talked about where analytics is today in terms of the challenges that we can face around.
+[00:26:13] Generative AI in its youth.
+[00:26:15] We've seen the future in terms of what it might look like having a more natural conversational interface with.
+[00:26:21] Our data.
+[00:26:23] we've looked at the type of Stack that we need to do that the types of data the types of
+[00:26:28] infrastructure and support and governance that needs to go around that.
+[00:26:33] And we've also looked at the ways in which we can effectively govern that analytic content.
+[00:26:39] So again, 1 thing to take away, if you only take away 1 thing is to make sure we fix our inconsistent metrics. That means you can have a nice conversation with your VP of sales next time, rather than them never using your content again.
+[00:26:52] Monitor our performance to make sure that our dashboards are fit for purpose and that we're not going to lose people. In that last Mile. In terms of, they've accessed our dashboard.
+[00:27:00] But it's underperforming and they don't want to go through that experience again.
+[00:27:04] We want to track our usage to make sure that we're actually putting our efforts into the right areas.
+[00:27:09] That we're not creating dashboards that nobody's using.
+[00:27:12] And if they aren't, we have to understand why they're not using it and how we can enhance them and and develop more effective processes.
+[00:27:18] That's certify our content to make sure that stakeholders know, the status of a different of a dashboard or of an analytic solution when they come to it.
+[00:27:28] And that's established life cycle, content management. Let's make sure that we have owners across the life cycle of our analytics projects because this as we've seen will become essential as the scale of analytic content generated in the generative. Failure becomes untenable, uh, in a manual sense.
+[00:27:47] So I've included here, some of our key research around this uh for you to look into after the summit.
+[00:27:55] And I've also included, uh, a link to 1 of our surveys here, the, uh, future of data analytics, which we'd really appreciate if you had the time after this, uh, the session to, uh, give some input on.
+[00:28:06] Thank you very much for your attention. Uh, I'll be available for a few minutes after the session. If you have any questions and I just like to say thank you again and I hope that you enjoy the rest of the conference.

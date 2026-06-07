@@ -1,0 +1,90 @@
+{
+  "summary": "The session focused on the importance of governing unstructured data to unlock its value and improve efficiency. It emphasized the distinction between governance and management, highlighting the need for proper metadata management to facilitate AI readiness. The speaker shared best practices for discovering, cataloging, and tagging unstructured assets to enhance their usability and integration.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Unstructured Data",
+      "key_points": [
+        "Unstructured data is often misunderstood; it always has some form of structure.",
+        "The session aims to explore how to govern unstructured data effectively."
+      ],
+      "start_time": "00:00:03",
+      "end_time": "00:08:05"
+    },
+    {
+      "order": 2,
+      "topic": "Governance vs. Management",
+      "key_points": [
+        "Governance defines what needs to be done, while management focuses on how to achieve it.",
+        "Authority and responsibility are key components of the governance model."
+      ],
+      "start_time": "00:08:05",
+      "end_time": "00:12:49"
+    },
+    {
+      "order": 3,
+      "topic": "Challenges of Unstructured Data",
+      "key_points": [
+        "Unstructured data is complex and often siloed, making it difficult to analyze.",
+        "Inconsistent metadata poses significant challenges for effective governance."
+      ],
+      "start_time": "00:12:49",
+      "end_time": "00:19:46"
+    },
+    {
+      "order": 4,
+      "topic": "Best Practices for Governing Unstructured Data",
+      "key_points": [
+        "Discover and catalog unstructured assets to understand their usage.",
+        "Implement a tagging system to enhance data retrieval and integration."
+      ],
+      "start_time": "00:19:46",
+      "end_time": "00:30:54"
+    },
+    {
+      "order": 5,
+      "topic": "Conclusion and Recommendations",
+      "key_points": [
+        "Metadata management is crucial for linking data and ensuring compliance.",
+        "Establish governance policies to manage access and usage of metadata."
+      ],
+      "start_time": "00:30:54",
+      "end_time": "00:31:30"
+    }
+  ],
+  "key_takeaways": [
+    "Understand that unstructured data always has some form of structure, and governance is essential.",
+    "Implement effective metadata management to facilitate AI readiness and improve data usability.",
+    "Create a tagging system to enhance the integration and retrieval of unstructured assets."
+  ],
+  "entities": [
+    {
+      "unstructured data": 15
+    },
+    {
+      "metadata": 12
+    },
+    {
+      "governance": 10
+    },
+    {
+      "data governance": 5
+    },
+    {
+      "cataloging": 4
+    },
+    {
+      "tagging": 4
+    },
+    {
+      "integration": 4
+    },
+    {
+      "risk mitigation": 3
+    },
+    {
+      "value creation": 3
+    }
+  ],
+  "subject_area_id": "governance"
+}

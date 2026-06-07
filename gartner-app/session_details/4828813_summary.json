@@ -1,0 +1,7 @@
+{
+  "summary": "Many SAP BW migrations end up replicating years of technical debt into a cloud environment – at significant cost, with little improvement in data quality or AI readiness. In this session, we'll show you how to scope your migration smarter, preserve critical business logic, and structure your output as governed data products for Snowflake, Databricks, or SAP BDC – reducing maintenance costs and giving AI agents data they can finally rely on.",
+  "sections": [],
+  "key_takeaways": [],
+  "entities": [],
+  "subject_area_id": "data_management"
+}

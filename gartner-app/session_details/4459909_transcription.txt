@@ -1,0 +1,161 @@
+[00:00:12] Hello, how are you? How's everyone doing?
+[00:00:21] Welcome to top data analytics predictions for 2026. Uh this is 1 of my favorite sessions. I love doing this 1. Um and it's really you know in a time where we all know the world of sort of data and artificial intelligence. It's moving so fast, isn't it every day even intraday because we're constantly tracking? What's going on? It feels like like
+[00:00:45] New chapter sometimes in a science fiction novel.
+[00:00:48] And by the time we sort of make it through 2026, the lines between human intelligence and machine intelligence and organizational intelligence that'll blur even more right businesses will run like ever before on data. Um you your role becomes increasingly critical.
+[00:01:09] Uh and AI systems aren't just assisting us. They're acting alongside of us on our on our behalf. Every industry, every industry is so crazy will be transformed by New Waves of intelligence and intelligence technology. Now we shared thoughts about the future in
+[00:01:30] A number of places throughout the conference. We have our top trends. We have tomorrow, the 2030 Vision in the keynote. We talked a bit about the future but here we share sort of related predictions uh with you uh that we published at Gartner, but the team here, the whole team here, sort of voted and we sort of whittled down the top ones that we think will help you plan to help you realize business value in the future.
+[00:02:01] And so here is a summary of what I'll share with you today organized by the date. The prediction We Believe will come true.
+[00:02:12] Now, you may ask, are you always right?
+[00:02:15] We're not always right. If I'm being honest, about all aspects of the prediction, the prediction includes the date, it includes the prediction itself, it typically includes an impact, uh, and something that we can measure and what we do. And we look back and we see where we write and we're actually right directionally about 80% of the time uh not necessarily all the aspects of the prediction. Um and if we were right all the time, we probably wouldn't be looking forward enough. So I'm okay with that 80%.
+[00:02:48] and so, but I want to start with
+[00:02:52] The opposite of tech.
+[00:02:54] The boiler maker.
+[00:02:56] any Purdue University fans or do you know anybody who
+[00:03:00] Went to Purdue University in the house. You know, I got 1. Yeah, not surprising.
+[00:03:05] Now, believe it or not. Um, this is their mascot.
+[00:03:09] For their sports teams. Now I know in Europe you don't really have like college sports teams and mascots. We have all sorts of weird ones in the US. Uh some that are sort of
+[00:03:20] Not so weird, like the turtle for example, or you know a, a panda bear there is even 1 the banana slug or the fighting okra. No kidding. There's a sports team, whose mascot is that a? I won't embarrass the college, uh, as to, which 1 that is
+[00:03:37] But obviously, the boiler maker special is course, kind of the opposite of tech, isn't it?
+[00:03:44] but in,
+[00:03:45] Interestingly Purdue was the first US University that I can think of that. I found uh, that's implemented. An AI competency requirement for graduation.
+[00:03:58] So now and into the future produce students will have to demonstrate critical thinking skills to understand to evaluate to effectively use AI in their chosen field.
+[00:04:12] And so the the curricula will be will continually be updated by The deans of the specific colleges so that they have that working Professional Knowledge of AI and they'll be tested on it.
+[00:04:25] and I looked, and I tried to find universities in Europe that also,
+[00:04:30] Have that. And while we see a lot of them starting to to implement sort of AI literacy programs uh to comply with the EU, AI um AI act, which is great. Um there's I could only find 1 and I'd love to hear if you know of others, the MEF University in turkey. That's sort of EMA that has a similar AI competency graduation requirement to Purdue where there's 20% general knowledge and then 80% that specific to a specific field.
+[00:05:03] And so I wanted to share that with you because I think it's super relevant to the first set of predictions which is talent in the age of AI.
+[00:05:14] and so,
+[00:05:15] So what we believe you will see very soon testing for skills in the area. ER era of AI is AI permeates how we work testing for skills will become commonplace you know hiring managers aren't just looking for people who know their way around Microsoft Word, or a fax machine, right? Those were sort of out the door with shoulder pads although I think shoulder pads are now back.
+[00:05:40] But we believe that by 2027 75% of higher in processes will include certifications and testing for workplace AI proficiency during recruiting.
+[00:05:55] And so what are the implications of that?
+[00:05:59] right, we know
+[00:06:00] Know that strong critical thinking skills drives AI value. So it really is sort of the combined power of humans and AI that gives us a productivity and Creative Advantage that either 1 by itself. But we also know that it is the critical thinking skills that will be key to sort of understanding and unlocking the value of the. And those are the very skills that can atrophy with using AI as a crutch rather than as an accelerator. So how do you achieve that balance?
+[00:06:33] Now, unfortunately, as you saw educational institutions are lagging behind. They aren't serving our kids, I recently spoke at the UN
+[00:06:45] University of Maryland Smith School of Business in the US. It's a top 10 business school.
+[00:06:51] And I'm worried.
+[00:06:53] I'm worried about the kids that are in their last couple of years of uni in the US. It's Juniors and seniors. I know I think you have second and third year of uni I'm worried about that. Because Unis haven't figured out how to balance the risk of plagiarism with making sure that students have the AI skills. They need to do their jobs to succeed in the workplace.
+[00:07:18] Anybody have kids in that in that position. Are you worried about them?
+[00:07:24] I don't know, I I am they really basically have to self teach because they're restricted from using the tools.
+[00:07:30] And so, how do we balance?
+[00:07:32] The use of AI with the loss of the things that make AI useful.
+[00:07:37] You know, soon, we're going to see the, you know, the atrophy of critical thinking skills due to AI. Um, I think we'll also push universities and push employers, uh, to also test for AI free skills and we already see that, you know, if you go to interview with a coding assistant,
+[00:07:56] do you think that they allow you to use, uh, their coding assistance for during the interview? Know they have an AI free coding assistant assessment so I think we'll see more of that.
+[00:08:09] and so the other thing we're seeing is that in some really AI
+[00:08:15] First organizations.
+[00:08:17] Token, budgets are sometimes equivalent to a person's salary.
+[00:08:24] And Uber, you know, announced and they they reported somewhere recently that their spending 4 to 10,000 per developer per month on tokens.
+[00:08:35] So I can see a world pretty soon where, you know, employees will negotiate a token budget. Like they negotiate their salaries, like they negotiate their benefits. They're not going to come work for you unless they have a token budget.
+[00:08:47] That supports them doing their job, effectively. So we will likely see that.
+[00:08:53] and so that brings us to to a sort of a next
+[00:08:56] Uh, prediction around learning and testing test.
+[00:09:00] For learning velocity in the era of AI, you know, people who are going to succeed in this new world are likely going to be people who can adapt quickly, who are adaptive Learners, because by 2030, the half-life of technical skills will shorten to 2 to 5 years, from 8, to 10 years. I actually think it'll be much shorter than that, but this was the prediction as written.
+[00:09:23] And that's resulting in adaptability and learning velocity being the primary metric for hiring.
+[00:09:33] And so what are the implications of that for you? I mean we see that skills. Turn over probably will drive more disruption than job loss.
+[00:09:45] According to the world economic Forum um that's what they have predicted that it's large-scale skills, disruption that will be more of an issue necessarily than job loss. But that you we already know that they reported 30 to 40% of jobs today.
+[00:10:02] Didn't exist in 1970.
+[00:10:05] So, we'll likely see a similar but accelerated disruption through T 2030.
+[00:10:12] And so to get access to just in time, critical new skills that you'll need to keep fresh in your organization.
+[00:10:20] Um expect to potentially use Blended resources. Contractors gig workers of course AI augmented workers and agents as well.
+[00:10:30] Um, think about investing in simulators Genai simulators that can realistically simulate real life experiences by mimicking actual human behavior.
+[00:10:42] Create safe zones for your people so that they can experiment and try and fail.
+[00:10:48] Safely reward, those people who are adaptive learners.
+[00:10:53] Give them bonuses, reward them, recognize them publicly, and in their end of your appraisals because that's the type of person that you want in your organization in the future.
+[00:11:05] and so here, you know, learning is better than knowing
+[00:11:09] Apt adaptability will be and is the new must-have skill set.
+[00:11:17] And so on to our next 1, right? Our next predict prediction is really about leadership. What does that mean for you as leaders
+[00:11:25] And really only exceptional people people need to apply by 2030.
+[00:11:32] Human skills will absolutely be at a premium. So by 2030 60% of organizations achieving successful differentiation with AI,
+[00:11:43] Will be led by Executives. Who prioritize the Mastery of human relational skills.
+[00:11:50] And so the implications for you is that human skills are the thing that drives applied Innovation. So the cdao, the D,
+[00:12:00] DNA leader as technical AI capabilities, become commoditized.
+[00:12:05] Strategic Advantage will depends on how leaders are able to direct and apply AI to drive, business outcomes and Innovation and we know that right? AI is a cross-functional sport. You need to bring people together from across the organization. So cdao, DNA leaders, Everyone's an AI leader really. As we heard in the keynote um you have to have strong Coalition building skills, strong influencing skills, those are the role. Those are the people that you'll see advancing to more powerful seae roles, including CEO.
+[00:12:42] and as organizations recognize,
+[00:12:45] The value of human LED strategic vision and leveraging AI to impact the business. And so the challenge, of course, 2 is, we see that AI Readiness grows faster than human readiness.
+[00:12:59] but,
+[00:13:01] That and that is likely just to accelerate. And so leaders have to excel at fostering rapid change. Adoption. That is a key barrier to adoption. It's not the technology. You guys will implement the technology. It is getting people to adopt change their behavior. Change how they work change, how they leverage? Insights to impact the business.
+[00:13:22] And so really humans are key strategic advantages, shifts from what technology can do to, how humans Direct.
+[00:13:30] Direct and apply it. And so you play a critical role in your organization's success.
+[00:13:36] Not just by providing the foundations for AI, but also becoming that de facto leader of Applied technology and Enterprises.
+[00:13:46] You have that knowledge.
+[00:13:49] and so here,
+[00:13:51] Your data, your people, they are your superpower. So you have to balance, human and Technical skill sets and promote people that have those unique human skills, you know who they are.
+[00:14:07] so,
+[00:14:08] let's shift gears a bit to AI models and data.
+[00:14:13] And this we're going to talk about the world.
+[00:14:15] Beyond text models text-based models is
+[00:14:20] Its World models.
+[00:14:22] And that means that your data gets physical.
+[00:14:25] And what do we mean by that?
+[00:14:27] As Investments by the business, and AI, ready data, especially data collected from iot devices, 4 World models, empowering, physical AI applications. We expect that that data will be 20 times higher,
+[00:14:43] Uh, in 2026 than in 2025.
+[00:14:48] Admittedly potentially growing off a smaller base. But this prediction says, by 2029 AI agents are projected to generate 10 times more.
+[00:15:00] data from physical environments than from All Digital, ai ai applications combined,
+[00:15:10] And we, you know, the expression, the world is its own best model, so the implication of that for you is that if you're exploring using World models, you have to train in the dream. There's the the world models really are about, simulation and synthetic data and synthetic scenarios.
+[00:15:28] so for example, in the physical world agents of such as autonomous driving uh Vehicles use World models
+[00:15:37] And they enable, you know, a complete understanding of driving environments with enhanced spatial awareness, right? They
+[00:15:45] Can predict upcoming Road situations.
+[00:15:48] They apply generative and non-generic driving safe driving at scale.
+[00:15:57] Now the Neo World model that's also NW uhm, you might have seen, it's capable of handling 216 possible. Driving trajectories
+[00:16:11] In just a 100 milliseconds to help identify optimal paths. That's astonishing. It can also use a short video clip just 3 seconds to generate
+[00:16:24] Um, an imagined 120 seconds scenario to support more.
+[00:16:30] Comprehensive driving planning.
+[00:16:32] Again amazing. And so we see big investment here. Uh, ffe Lynn, 1 of the, you know, the mother of AI uh Jan Lund, who just started uh uh the advanced machine intelligence uh startup got a billion dollars in funding for essentially physical AI World models. Both of them are you know going all in on world models.
+[00:16:57] And basically, because it's the next Frontier, its AI acting in 3D space to reason to act to interact with the world to understand physics, to understand, cause and effect, right? That really takes AI, sort of to the next level Beyond large languages.
+[00:17:15] Models. So we believe that'll be super important for you to consider particularly initially. Those of you who are in manufacturing Logistics, will likely be the first ones to be affected here.
+[00:17:26] So, again implications for you if your data is physical, so should be your AI ready data. So think about building competencies and things like synthetic data as as you as you, you know, move towards that. That end.
+[00:17:42] So, moving on to our next chapter.
+[00:17:45] Not your father's, semantic layer. So any business objects, experts, business objects. Um, uh, universes or cognos framework manager package experts in the house.
+[00:17:57] Really. Wow.
+[00:18:00] Uh, I guess I'm the only 1, so that means I'm a lot older than everybody else. But anyway, we all know if you're, you know, data data experts, that the semantic layers are incredibly important. They've always been this isn't new. You hurt. You're hearing us talk a lot about context this week.
+[00:18:17] It's particularly critical uh, for AI. And that's why we believe that semantics and metadata isn't just something you talked about among yourselves.
+[00:18:30] So it really, it really Rises to the level of critical Foundation. A board level issue similar to data platforms similar to cyber security. Because if your agents don't have critical contacts,
+[00:18:45] Then they can't perform in a trustworthy accurate and cost-effective way. So, we believe that semantics context have you. As you've heard many times probably this week, it's King, but I would go even a step further. It becomes something that you need to present to your board, get by in, get funding so budget for semantic capabilities. It's non-negotiable.
+[00:19:09] So you need to sort of shape and position.
+[00:19:12] The semantic layer contacts as a strategic asset, that's absolutely critical to how agents function and how you get value from AI.
+[00:19:21] Um you know semantic literacy collaboration with semantics with your Executives with the business that
+[00:19:30] Should be part of your AI literacy training, particularly for executives from whom you have to get budget.
+[00:19:36] And of course, you know, embedding semantics into your AI systems into your Pipelines.
+[00:19:42] That's critical to again AI functioning accurately cost-effectively it's essential.
+[00:19:48] Now we've been talking and you know knowledge graphs are not new. They've been around for, I don't know, 10 years at least or more. Um and building ontologies isn't new and historically we've shied away from them because they've been manually intensive. They take they've taken forever. You often have to draw them on paper first.
+[00:20:06] Tools are changing and so they are also AI enabled.
+[00:20:11] So consider and look for easy to use tools to support.
+[00:20:15] Ontology development, your knowledge graph development to semantic interoperability, um, and avoid sort of over-engineering start with minimal viable. Semantics and context assets, uh, to support your high value, use cases.
+[00:20:31] and so here really semantics break the barrier for providing AI agent, ready data they are it is critical context becomes critical a board level issue as I said
+[00:20:48] So let's shift a little bit to governance sort of a, you know, a related uh uh topic to contact. UM it becomes existential. It's not something that you can just
+[00:21:00] Put on paper and throw it away or not worry so much. If the business business isn't going to comply with agents, it becomes existential and we've talked about that too. You need to shift risk from people to code. But the question is, how do you get that done? How do you get that done? And what we're saying here is this what are the implications for roles and accountability and responsibility? And so this prediction is by 2028, we believe that 50% of content risk roles
+[00:21:35] will, uh, migrate from legal and cyber security to AI, engineering to address the inherent risk caused by
+[00:21:45] Siloed Assurance processes that sit in different places.
+[00:21:50] And so the implication of that is that, you know, Engineers eat governance for breakfast. Meaning it becomes their responsibility, it becomes the responsibility of the AI engineer.
+[00:22:02] Developing operational responsibility for AI governance in engineering teams becomes critical.
+[00:22:09] And that means you have to formalize in operational roles, like the AI engineer, like the data engineer. Um, the responsibility to comply with the organization's policies and regulatory requirements. And they have a responsibility to embed those into the context layer into the governance layer to support.
+[00:22:30] how agents function responsibly so you will need to establish cross-functional processes to align efforts in engineering with legal and compliance and with the security teams,
+[00:22:42] And Beyond content risk management of course context. In AI engineering will also be key drivers for compliance by operationalizing regulatory organizational requirements through contextual guardrails. And so again, it's AI engineering who really are assuming your first line of defense for governance, which is a shift, a big shift.
+[00:23:12] And so, similarly,
+[00:23:15] How embedding governance in code, how does that actually happen? And so, what we're proposing is through agent, negotiated data, contracts, and we had a session here as well, that talked about data contracts in more detail. But the prediction here is that by 2030.
+[00:23:33] 50% of organizations will use autonomous AI agents to interpret governance policies and Technical standards into machine verifiable data. Contracts, automating, compliance and governance policy enforcement.
+[00:23:50] And so again, what are the implications of that?
+[00:23:53] The implications are you'll have to budget for that, right? You'll have to budget for embedding Trust.
+[00:24:00] So that so that means that governance platforms and tools will have to be part of your roadmap and budget. Uh, plans.
+[00:24:09] As AI governance platform. Uh, runtime enforcement becomes also critical so that instead of just offering alerts, when things go wrong, being able to continuously Monitor and potentially remediate, uh, uh, uh, deviations from governance, policy or security policy. As agents operate, will be key. We believe that a pretty significant chunk of your budget up to 20%.
+[00:24:35] of your DNA, budget will be for AI driven, use cases, but allocated to evaluation of design and controls, and feedback loops for for
+[00:24:45] as you scale um, automated analytics as you scale, automated decisions through a agentic workflows
+[00:24:53] And uncovered decisions that are using ai, ai agents. Uh, will likely cause significant financial or reputational loss and it's not a matter of if. But when so, how do you begin to embed those controls including runtime controls will become critical? You'll have to invest for that. And so data, contracts leveraging, compliance platforms leveraging data, gov Ops practices. They are key enablers, um, of of of, of, of building out and implementing and executing on these data contracts,
+[00:25:30] And so experiment with data governance agents in low-risk pipelines to orchestrate and automate the negotiation process validate that agents can actually correctly interpret uh context and protocols in a controlled environment. And of course you may want to redesign your analytics flows to include evaluations at the required stage and definitely, I mean, you know, of course vendors have lots of claims, but don't just trust them. You need to verify. Don't necessarily rely on, vendor benchmarks and metrics absolutely verify as you go along.
+[00:26:08] And so here we say, you know, growth of agentic governance will require devops practices and tools to integrate.
+[00:26:15] With active metadata and governance control to evolve into, you know, continuous and autonomous remediation, that will be key. So think about how you execute on shifting policy into code data. Contracts are 1 way to do that. Now, in our final chapter, we'll look at just a couple of further out predictions that have broader implications for how your Enterprise operates, not not specific to DNA. And the first 1 is just peer into your crystal ball to see what organizations are going to look like in the future.
+[00:26:50] And so while I don't necessarily buy into Sam Altman's. You know, 1 person running a billion dollar company. We're already seeing a new wave of unicorns.
+[00:27:00] Emerging. And so, by 2030 a new wave will emerge with 2 million in annual recurring, revenue or ARR per employee. Boosting billion-dollar plus valuations and driven not by investor capital and promises but by extreme Capital efficiency that produces valuation multiples based on performance not promise.
+[00:27:26] And we're already starting to see that we see Trailblazers AI native startups. Today, there's a group of them achieving more than 10 times growth efficiency than your typical uh startup with 1 million in ARR. And that's, you know, pretty amazing and research shows too. When you
+[00:27:45] Look at that cohort, 60% of them are profitable, so, that means that they're growing at the, um, without they're growing without having the same level of capital dependency as traditional startups. Uh, that means that they are absolutely disrupting, traditional Industries with extreme Capital efficiency. Instead of hiring 10 AI Engineers, they only had need to hire 1 or 2. That means that their different types of people generalists, instead of Specialists giving them significant ownership. Um, you know, so if you have these startups in your industry likely, you'll be held to a different standard. And so these are Pace Setters. They're focused on profitability and scale at the same time, which is quite different.
+[00:28:30] Than traditional startups, they typically focus on scale, then profitability. So a whole new, uh, way of operating and growing as a business. And so the implication here is that if you're in an industry and where you have these new startups emerging, you're going to have to keep Pace or see valuations uh Decline and and we've seen that over time uh with previous uh technology uh evolution.
+[00:28:55] And so here's here's our final prediction.
+[00:28:59] Um now every organization uses some type of productivity Suite, historically dominated by Microsoft. Now we believe this Market will be disrupted and perhaps by the current leader that's not unheard of but through 2027.
+[00:29:15] 7, AI, Genai and AI agent. Use will create the first true challenge to mainstream productivity Tools in 30 years.
+[00:29:26] Prompting a 58 billion dollar market shake up.
+[00:29:30] What do you think?
+[00:29:31] I mean we already see that, right? Many of you are probably using tools that are not PowerPoint to create presentations. But I mean remember, when you first used Excel or PowerPoint or word, I remember the first time I was like, oh my God, that's amazing changed my life right? Changed? How I could do my work. Uh, but guess what? You know, 1995 is calling. They want their tools back. You know, those tools haven't changed since then, really, in terms of the
+[00:30:00] User experience. So we need new user experiences. We need new plugins, new dot dot types. New formats and value is is Shifting to agent, agentic AI experiences. So new vendors will emerge and compete. We'll see if Microsoft remains on top. Um, and so here,
+[00:30:19] Continuous learning, again, is key. And so try to encourage your people, your kids, I go back to our kids, I still feel sorry for them and really hope that they can continue to learn on their own. You know, make sure that they build 1 Thing a week without touching a mouse or a keyboard
+[00:30:42] And so I'll just leave you with 1 thot. I mean
+[00:30:45] Change, I think has to be added to death and taxes, right? They're the things that you just can't avoid, um, they're the only things in life that you count on, um, ex accelerating change for sure is a constant. I don't think that things will change more slowly than it does today.
+[00:31:04] Things will always change faster than it does today. So,
+[00:31:09] How you react to that change? Really is what determines your future, your organization's future. So I prefer that you be the change. So I'll stop here. Thanks for listening. Uh, hope you have a great rest of conference.

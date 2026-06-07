@@ -1,0 +1,174 @@
+[00:00:14] Welcome everyone to what's probably the most exciting Topic in this whole conference, which is the the future of AI. And, um, there's been so much progress happening so quickly that if you're anything like me, you're constantly thinking. What's next? What's coming?
+[00:00:30] And of course when we talk about the future of AI, we end up talking most of us about the next 3 to 4 months, right? Because it goes so fast, but no today we're going to try to look Beyond.
+[00:00:41] That time period and look at say, the next 10 years and try to answer what?
+[00:00:45] We say about that, where are things evolving with AI? My name is Lena Ramos, and I've been covering AI for Garner for about 10 years now. And, of course, we don't have a, a crystal ball here, but I think 1 of the best ways in which we can better understand the future is to think more clearly about what's happening already in the present. So that's why we're going to do today. We're going to look at several trends that are happening right now and we're going to extrapolate into what they might mean for the future of AI.
+[00:01:15] You know, AI has been around for a long time, about 70 years or so.
+[00:01:20] And it's going through these periods of great excitement. Just the, the 1 that we're living through right now followed by periods of great disappointment. The so-called AI Winters, where research
+[00:01:30] Funding dies, right? But we think that this time is a little bit different when it comes to act because this time the AI wave will not receive. You'll just keep coming.
+[00:01:40] Because this time around my mother who is 70 years old, same as AI, she knows and uses strategy all the time. And we have in this apps, 1 billion, 2 billion users that are constantly using experience in this things. We also now have coding agents that for the most part actually work. Right? So the AI wave is not receiving but at the same time it's very unlikely that the shape that we see AI right now is the 1 that that will keep going, right? It will evolve as time goes by. So we're going to cover 3 things today.
+[00:02:11] first is 4, schools of thought because we all bring
+[00:02:16] Different conceptions about what AI can help us achieve.
+[00:02:20] Second, we're going to look at 7 future AI Trends in this, our trends that are already happening, but we're going to extrapolate to see how they could push the boundaries of AI. And then finally we're going to use that information to think about what are the future, AI scenarios in which of those is more likely to happen.
+[00:02:37] but let's start with the schools of thought, because this is 1 where a lot of us have already some conception about what AI can actually achieve,
+[00:02:45] In the first school of thought here is is saying only living beings can truly be intelligent. So AI, the AI. The whole AI project is. Uh, you know, why even try right? It's hundreds of years away from fruition.
+[00:02:59] then the
+[00:03:00] The second school of thought is no, um, AI can exist, but it needs to be very close to humans. So we're talking about simulating the human brain, doing things like this. So, 20 years, at least maybe much more
+[00:03:14] Then the agnostics will say, AI is absolutely possible. Doesn't have to look like human intelligence at all, but it is difficult and we still don't have the right breakthroughs required to get to that position.
+[00:03:26] And finally, the more optimistic, uh, group of of people will say in, you know, basically AI or AI is already here but it's just not evenly distributed. But we need to do is to scale the Transformer architecture with all these things that we have with more more data, more data centers and that that will get us there.
+[00:03:44] so, in this,
+[00:03:45] Room will have many people across the Spectrum.
+[00:03:47] Garner is mostly in this position where we think AI can absolutely exists, doesn't need to be related to human intelligence.
+[00:03:56] But we're still probably many breakthroughs away from something like an Aji type of a scenario.
+[00:04:03] In a lot of this depends on our definition of intelligence and how we think about that and people have been trying to Define intelligence for 2,00 years or so. So it's not an easy question but this definition is the 1 that I love the most
+[00:04:16] intelligence is what you use when you don't know what to do.
+[00:04:21] So what's cool about this definition is that, it's not about pre-existing knowledge, it's not about what you know, it's about how you can adapt beyond what you've seen before.
+[00:04:30] Right? And if you think about humans, we have survived because we're able to adapt to all kinds of environments to all kinds of circumstances and that's what we need AI to do. So in reality, AI has different dimensions and we try to formalize this by, um, using something we call the guard intelligence framework, which has the dimensions that you see, on the page. So what you see here is on the yellow line is, what human intelligence roughly looks like right now.
+[00:04:56] And then on the yellow line, we have current AI how it looks on average. So you'll see for instance on the knowledge side, we already have ai that in many ways is more knowledgeable. He knows more content than many, you know that any average individual human
+[00:05:12] but at the same time as I was saying, intelligence is
+[00:05:15] Much more than knowledge. You need adaptability perception action and decisioning even agency, right? For all the talk about agency these days,
+[00:05:26] Current AI agents are mostly parasitic on our human agency. We are the ones that Define the goals. We are the ones that actually make things happen. We're the ones with the agents, so we're going to keep looking at this framework and see particularly in that white line. How different Trends can push the boundaries of what's possible with current AA.
+[00:05:47] And we have 7 trends that we'll discuss.
+[00:05:50] And again, these are things that are happening already right now, but we're going to look at what they might mean as we go into the future.
+[00:05:57] The first is that my favorite title in the whole presentation.
+[00:06:00] AI on steroids.
+[00:06:02] Which is AI. The benefits from massive computing power, right? So more gpus more data centers, more power.
+[00:06:10] Nuclear reactors next to Data Centers data centers in space.
+[00:06:16] If you know, I'm starting to sound like I feel like my Twitter feed. And if you recognize that is because this is mostly the current discourse, this is mostly our current Paradigm where it's all about scaling. The current Transformer architecture in a massive way.
+[00:06:30] And the thing is that steroids work. They really do at least for a while, right? So we have to admit that the recipe, you're having larger models that are trained for longer with more data with more reinforcement. Learning that still delivering really good.
+[00:06:45] Results particularly as we see on the yellow line. So the yellow line now represents the specific Trend. So AI on steroids and how is pushing the boundaries of the white line?
+[00:06:56] So when it comes to to AI on steroids, it particularly pushes us towards the direction, as you see on the right hand side of superhuman knowledge. So we might see in a few years that already this AI systems are more knowledgeable. Not just that the average human but the more normal more knowledgeable than many domain experts as well.
+[00:07:14] At the same time.
+[00:07:16] It it won't let us progress as much in some of the other dimensions particularly in terms of adaptability. As you see on the right hand side.
+[00:07:25] In the reason. Why is that despite all this benefits the fundamental limitation
+[00:07:30] of this sort of scaling AI on steroids is that it's ultimately all about pattern based problem solving
+[00:07:36] Right? So if the AI system has, has seen this before in training, has seen a similar approach, you can use that approach to solve the current problem, but we haven't seen, uh, currently is AI coming up with new approaches, fundamentally new approaches to solve new and kind problems.
+[00:07:53] And that's 1 of the limitations. But another 1 of the cautions is the 1 that you see in the first bullet point, there is the diminishing returns of scale. So let me be clear here. We're absolutely, still seeing models getting better and better, and better. We're not hitting a wall. At least there's, there's no wall to be seen inside.
+[00:08:12] But at the same time, it takes more and more.
+[00:08:15] More resources, write more and more data, more, and more gpus.
+[00:08:18] In other words, more and more steroids to keep this going, and the costs are immense.
+[00:08:24] Right. If you think about energy costs, we're now talking about gigawatt, our data centers that are being built and the financial costs, the buildout of AI data centers is so big right now that is starting to really matter in the GDP numbers for the US, say
+[00:08:39] So Ai and steroids is absolutely a big Trend that is pushing forward, but is not the only 1 and we need to discuss a few of the others.
+[00:08:48] So composite and neuros symbolic is Trend number 2, and this is about combining different. AI techniques together,
+[00:08:56] So think about this for a second. How can we with this?
+[00:09:00] 31 machine that we have in our brains are able to beat many of the Lambs in many tasks.
+[00:09:07] We in a way are the living proof that you don't need AI on steroids, right? That you can have a much more efficient approach. We must have, not literally, but we must have some sort of neuros symbolic system. And what I mean by that is that we're able to take all these this information that is coming in through your senses, right? So that's the neural bit. But then we are able to abstract away, create this abstraction symbolic abstractions to then
+[00:09:33] Solve whatever we need to solve for the problem at hand.
+[00:09:36] And by the way even little children can do this. I have a 2 year old and home and she's wonderful in every way.
+[00:09:45] but um,
+[00:09:47] As when it comes to nighttime, as soon as you see pajamas, she understands this symbolic abstraction she says, these are not pajamas. These are the first in a sequence of events, engineered to put me to sleep, and I'm going to stop that right now.
+[00:10:02] It's less fun.
+[00:10:03] That is what I'm saying right now is just very painful when it happens. But anyway,
+[00:10:08] Composing a new symbolic.
+[00:10:11] You know, can't get us to that kind of place where we're combining differentiates in a powerful way in particularly. As you see on the yellow line, it pushes towards adaptability and decisioning because you are combining different techniques with different strengths right? In that allows you to to sort of abstract and go away and go
+[00:10:30] Go go be able to solve problems that you couldn't have seen before.
+[00:10:34] So, it's quite powerful that combination.
+[00:10:37] So benefits, more transparency, more reliability, because you're using also symbolic systems that have those characteristics.
+[00:10:43] Lots of examples already. So if you think about customer service AI agents, they're not just using llms they're using a number of AI techniques combined together.
+[00:10:51] But of course some cautions particularly complexities. So there's no doubt that this is more complex to do.
+[00:10:58] Because you need to understand the different techniques and more importantly, you need to understand how to integrate them together, which has many challenges to that.
+[00:11:08] Trend. Number 3 is first principles AI. Some people call this physics-based Ai and the idea is that you
+[00:11:15] You will incorporate baked into our AI models. A lot of the scientific knowledge that we have accumulated over many hundreds of years.
+[00:11:22] Right? So that's the argument. We know all of these things.
+[00:11:24] So, for particularly for scientific use cases, and for engineering, use cases. Can we create models where we are baking into into them? All of this knowledge? A good example here is Alpha fall from Deep Mind.
+[00:11:37] So deep mind 1 in in 2024 the Nobel Prize in chemistry for um creating a a protein folding prediction system that was trained on data but very crucially to the conversation here in the architecture they also embedded core scientific assumptions of what we knew about protein folding and those priors were very helpful to help them to generalize.
+[00:12:00] So where can I get us?
+[00:12:03] To meet the, the most exciting thing about this is the knowledge side because it can really push our scientific knowledge in particular.
+[00:12:11] So AI for science within the next 10 years is going to be a huge deal. If you think about it, really our whole progress, human progress is really Downstream from science. So everything that moves, uh, even a little bit, our progress in the scientific world can really help. Here, it also helps with adaptability and decisioning because you're starting from a very, very good starting point of understanding the this this, um,
+[00:12:36] um,
+[00:12:37] this physical reality, uh, representation that allows you to generalize much more. So those are some of the key benefits.
+[00:12:45] Robustness generalization more efficient training as well. Because you're starting from a a good starting point in examples. I mentioned a few already, uh, Alpha fault, for protein folding molecule generation, right for Life Sciences. Simulation simulation is becoming a huge deal right now is, is part of how we train this this latest Frontier models.
+[00:13:06] And for simulation, at least for physical simulation, you need to create an embed in these models, the this this at least an approximation of the of the loss of physics. So it goes really much in that direction.
+[00:13:19] It's also of course, in cautions more complex, and it requires collaboration across disciplines. So you you have to take engineers and I don't mean AI Engineers but all kinds of Engineers and then get them to collaborate.
+[00:13:30] With AI experts with it, experts and so forth. So that can be a bit challenging.
+[00:13:37] Trend number 4 is invited on physical AI.
+[00:13:40] Which is AI that has a body, right?
+[00:13:43] A colleague of mine defined this in a very clear way. He said can you try it out of the window, right? If you can try it out of the window, then it's physical AI. So robots, drones autonomous vehicles, you get the idea.
+[00:13:54] And, you know, a way to think about the, the current Genai ways is that it's been incredibly successful in the digital side, right? Particular llms have been trained with all internet data with with our digital activity, but digital is not the real world.
+[00:14:10] The real world is much harder than digital, physical AI. Therefore,
+[00:14:15] Is much harder.
+[00:14:17] In for this reason, is largely seen as kind of the next Frontier in the evolution of generative. AI models, people are really trying to push into this direction. So you see big companies like envidian Tesla going here, but also many, many startups that are trying to do really interesting things in physical Ai. And for good reason, because if as you see in the yellow line, this will allow us to really push what's possible in terms of the boundaries of AI across knowledge adaptability perception action. Because if you think about it,
+[00:14:45] To get it to get the systems to work in the real world in the messiness. That is the real world. You really need to be strong in all of those areas. So it's a great force and function for us to advance in all of this particular dimensions.
+[00:15:00] Lots of examples already 1 that I'll I'll highlight is autonomous vehicles and autonomous vehicles. It's a great example because it used to be a big hype about 10 years ago, right? But then it went through this crash of disappointment where where people realize just how hard it was to actually create, you know, self-driving cars.
+[00:15:19] But now we we've seen a bit of a Renaissance in the last 2 years, right? Like you, you have companies like Google's, who that are already operating at scale in certain cities within certain specific domains, but they're doing doing that, uh, very successfully. So you can expect to see in physical AI, a lot of these Cycles because it's again, it's it's really hard to get, right? And you need a lot of data. So that's that's what we we expect to see in the next 10 years.
+[00:15:45] Um, questions related to that.
+[00:15:47] Simulations. So this systems are trained in simulation. Mostly not in the real world and simulation is not reality, right? So It's tricky to answer the questions of. How do you train, how do you prepare these systems for a really messy world, right?
+[00:16:03] There's always going to be a gap between simulation and reality, and that is a challenge.
+[00:16:09] All right. Adaptive Collective AI. That's number 5 and that's a fun 1 because of course humans are already a, a form of collective intelligence, right? You think you pick a single human 1 of you and your impressive? Uh I assure you but if you take this entire room and you get them transacting and talking and sharing ideas, that is something that is completely different. You cannot
+[00:16:30] Really describe the room in the, from the perspective of the individuals, we really have a collective intelligence. And of course, this these days, um, the name for this trend is multi-agent systems. That is what we're trying to build. And I spend a lot of time talking to clients about multi-agent systems. So people are already doing things where they have like an orchestrator that is, um, dividing work between sub agents and in many different design Partners like this. But if you extrapolate that forward, you get into this situation where you might have swarms of Agents all collaborating with each other, which is probably the the nightmare of the it and data analytics Department.
+[00:17:05] but,
+[00:17:07] Even for where you can imagine an internet of Agents, right? Where you have this, Global Network of agents that are all automatically displayed.
+[00:17:15] Covering each other transacting with each other and getting things done. So it's really hard to see where this this could lead us because it's almost by definition really hard to predict but
+[00:17:25] It will certainly push the boundaries of what's possible with with AI and that's what you see in the yellow line. Here is particularly strong, I will say in terms of adaptability
+[00:17:35] and,
+[00:17:37] That's probably the main benefit adaptability and robustness because you have this distributed system of agents that all are you know have their individual strengths and that can be very useful in if you when you're dealing with a changing world.
+[00:17:51] Examples here colleges if you see examples. Um,
+[00:17:56] In the previous slide.
+[00:17:58] You already have things that.
+[00:18:00] I was mentioning multi-gen systems. You also have in the in the physical world, you have drone swarms that are inspecting critical infrastructure in a distributed way. So this is happening all the time. The main caution is the second bullet point, which is that you we basically don't know what happens when you connect all these agents together. You have this almost by definition, this unforeseen emerging properties that emerge from the collective um in a way that is hard to predict.
+[00:18:25] All right, work model Ai. And this is
+[00:18:29] By far. I think my favorite of the 7 Trends if I had to pick
+[00:18:32] And the way I think about this is that it's about giving AI imagination.
+[00:18:37] Right. So we all have this world models, we all have this. This causal model of what will happen if I took an
+[00:18:45] Right. So
+[00:18:46] If I drop this clicker right here, I can almost see it in my mind's eye.
+[00:18:51] The the way it's going to fall, the sound is going to make your reaction in the audience, all of those things and even, you know, not not just humans can do this, right? So that's why someone like talks about the way before getting to artificial general intelligence. We need to get to artificial cat intelligence.
+[00:19:09] Because even cats have this world models, right? Like a cat will say oh I need to jump here and catch that thing. And it's very sophisticated, but LMS for the most part, do not have this world models but there are a lot of exciting research Trends into this direction.
+[00:19:24] so for instance, there are very self-driving startups, um,
+[00:19:29] uh,
+[00:19:30] Right now that are working that that are building this world models from data. So this is not something that is created by hand, but they're generating this world models that when the AI that is controlling the car when the car is driving, is able to see, okay? Given all of the different cars around me. Right? What will happen? If I accelerate. So it kind of rolls out into the future 10 15 seconds and say, what will happen if I do this, what will happen if I do that, right? So it's kind of Imagining the future in a way in planning against that. And what advice you, as you see, on the left hand side is a, a push in many of the capabilities. Particularly on the left hand side in decision and action, because this ability that we have to imagine
+[00:20:11] In that world models can give AI is really helpful.
+[00:20:15] When you have to decide and take action and plan against I'll go. So far as to say that if we went through AI agents, these are where agents are all about, they're all about
+[00:20:25] want to meet a goal, and I'm going to create a sequence of actions to achieve that goal. So you need this kind of imagination that world model to plan against that.
+[00:20:35] So lots of benefits as, as I'm mentioning perception and actioning.
+[00:20:40] Examples. I mentioned um, the autonomous vehicles but
+[00:20:45] In general for robotics. This will be
+[00:20:47] Revolutionary. This ability to plan in imagination. It's uh quite quite a powerful activity. And as I was saying in AI agents, we really need to get to this point.
+[00:20:58] For True, AI agents.
+[00:21:00] Of course, cautions World models. Like any model can be wrong, right? So you you might get a bias model that has incorrect assumptions about the real world. So we need to be careful about that. But by and large is a really powerful Trend that is already happening in that. We're seeing more and more
+[00:21:17] Okay, our last trend is augmented intelligence.
+[00:21:21] Which of course, a lot of us are already augmented with AI. So, questions to the room, let's see how this 1 goes. How many of you have interacted with an L in the last 24 hours?
+[00:21:33] All right.
+[00:21:34] That's about 80% or so, so maybe 90. And I'm not surprised. I mean, this is the future of AI, uh, presentation. So of course, you're interacting with LMS. But yeah, we're all augmented.
+[00:21:45] That's a augmenting, our cognition. But if you think about AI can really augment, also our senses. So now you have companies that for instance, met, I just announced this smart glasses that allow you to, to do live captioning and live live subtitles, which is could be transformative for for many people that, you know, are hard of hearing. And
+[00:22:07] And that's just the the first step. So this if you're projecting to the Future you can get into brain machine interfaces, right? Which um sound like sci-fi, except that even 10 years ago, people have demonstrated that you can control with your brain, say a prosthetic arm in doing different things like this. So really powerful type of trend that. And as you can see in the in the yellow line, This is 1 where the yellow
+[00:22:30] Line completely supersedes the human intelligence and that's because you're starting with a human, as a starting point in almost, like giving giving a superpowers in each of those Dimensions. So, pushing our human intelligence forward in each Dimension. So, it's quite the powerful Trend because of that.
+[00:22:49] Examples. I mentioned a few about expanding our senses, but there's of course expanding our cognition as well cognitive uploading. So already, you have developers that have, you know, many, many agents running around doing things for them, right? And I think you can expect to see many of us with a little army of Agents around us, right? That. And we are offloading that cognition, which is very exciting. The same time, there's some cautions.
+[00:23:15] Because there is the question of what happens to our own human intelligence as we do that as well, right? So you might have all kinds of unforeseen psychological impacts and there's the question of what happens to culture, what happens to society?
+[00:23:28] Based on this.
+[00:23:30] All right, so those were the the 7 trends that are already happening in the impact they could have. So based on this we're going to look at certain future AI scenarios and they're likelihood, How likely they are to happen within the next 10 years.
+[00:23:43] So, we're going to consider 3 as scenarios.
+[00:23:45] The first is making AI more like us including our limitations second making AI the complementary intelligence to us. So AI is working in symbiosis with humans.
+[00:23:58] in the, the last 1 is
+[00:24:00] make it or letting AI become a super
+[00:24:03] Powerful intelligence, right? That is decoupled from us. So very different from us.
+[00:24:08] When I call the first 1 article general intelligence or AI that is human like the second augmented collective intelligence. So AI in humans working together and the last 1 article super intelligence which is AI that goes beyond humans.
+[00:24:22] So what you see here on the left, are the 7 trends that we just discussed and then, in the middle column is how impactful they could be for this 3, different scenarios starting with the first 1. So, artificial general intelligence,
+[00:24:35] and in here, you see that there are definitely some trends that that have an impact on this potential scenario, but not but not quite so particularly the in particular the
+[00:24:45] The the first row Ai and steroids. That is very powerful as we were saying, but it's kind of pushing AI in a very different direction that is not very human-like.
+[00:24:54] So overall.
+[00:24:56] The complexity of human intelligence as we've been discussing today, really is poorly, understood understood and underestimated by and large. And we, we believe that real AI, that will be something like human intelligence is at least 10 years away.
+[00:25:13] Now, artificial collective intelligence is a different story because that you can see in the trends that all have a big impact when it comes to to this scenario in which Ai and humans are more closely working together.
+[00:25:27] uh, in particular you you, we were talking about
+[00:25:30] About augmented intelligence, which is the number 6 in the list and we were talking about physical AI robots World models that are integrated with human society.
+[00:25:38] So in a way, artificial collective intelligence is already possible but it will evolve in in really interesting ways within the next few years.
+[00:25:47] final 1, we have
+[00:25:49] Artificial super intelligence, which is AI that goes beyond humans.
+[00:25:53] And here are some trends that that do have a big impact into this particularly again in number 1, Ai and steroids. That is a really powerful Trend. Again, it's not going to take us to a human like intelligence but it's it's going to take us to a very interesting place.
+[00:26:07] However, overall.
+[00:26:09] We believe that several breakthroughs are required to get into this, um, super intelligent.
+[00:26:15] And in those pictures are are really go beyond what we know right now in those 7 trends that that we have discussed in this presentation.
+[00:26:23] So overall, the the clear winner out of all of this scenarios at least, for the next 10 years is artificial collective intelligence. And what that means is that giving what we know right now giving where this Trends are progressing. The most likely a scenario is that you'll have, uh, humans and AI increasingly integrated with each other, and perhaps not. Some of the other scenarios which are more decoupled from humans.
+[00:26:45] And at least for me, that's that's great news because I want to very much continue to be in this picture of the the future of AI.
+[00:26:54] All right, so we discussed many different Trends in many different scenarios.
+[00:27:00] but what's going to happen in in, in the future,
+[00:27:02] Uh so what can you do with all of this information? So despite this being you know about the the long-term future of AI, we can already do in some be doing some things. First, 1 is quite simple. There's so much change happening from many different trends that we need to constantly recalibrate. Our AI strategy and that's going to be very frequent, going forward. Number 2.
+[00:27:23] As AI evolves.
+[00:27:26] We um, encourage our clients to look Beyond productivity, use cases. A lot of our clients are very much focused on using AI to improve productivity and there's good reasons for that.
+[00:27:37] But at the same time as you saw in the different Trends, they're pushing AI into very powerful Direction. So we could be doing much more.
+[00:27:45] Game-changing AI as we go forward.
+[00:27:47] Number 3, let's keep an open mind for alternative techniques in emerging approaches, like, the ones that we were discussing today. The goal beyond what everyone's talking about which is generative, Ai and AI agents.
+[00:28:00] Number 4 related to this. You can combine the strengths of different techniques. You can combine Genai with symbolic AI you can do composite AI, right? So you can get a combined system that is more powerful that it that the constituent AI techniques.
+[00:28:14] And finally number 5 we can work towards artificial collective intelligence by prioritizing humans. Sorry use cases that Empower humans
+[00:28:24] Right. So in the medium term, the next 10 years is not going to be so much about creating AI that is
+[00:28:30] Super intelligent, but it's going to be about giving people superpowers with AI.
+[00:28:35] So if you follow this, this 5 recommendations, you're going to be in a much better place to to navigate the the wonderful and crazy future of AI that is coming quickly for us. And with that, I'd like to thank for your attention and have a great rest of your conference. Thank you, everyone.

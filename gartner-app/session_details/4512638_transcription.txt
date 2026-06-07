@@ -1,0 +1,274 @@
+[00:00:00] The driver. The
+[00:00:02] car, the pit stop Pro, the engineers
+[00:00:04] actually, if you talk to a obviously I talked to the data strategist, the Formula 1, all of these factors are important.
+[00:00:12] and when you start asking the price rise,
+[00:00:15] You end up with data for Formula, 1 data, is 1 of the most important factors in winning a team.
+[00:00:24] but meanwhile, in this system,
+[00:00:27] and this is the reason of data governance initiatives, we pay by 2027
+[00:00:36] The question is, what does failure mean? So is it just our data Lake Project? Next 3 months 3 years longer than expected
+[00:00:47] What actually, is the issue that there is a disconnect?
+[00:00:50] Between companies investing in data for the last 20 30, probably 40 years and getting way out of it.
+[00:00:59] this is um, from a Harvard Business Review study, which says 99% of the organizations contributing this survey invest in data and I
+[00:01:08] I really curious on who was the 1% not investing but you never know, you never know.
+[00:01:14] But still.
+[00:01:16] Just a third or less of a third of the company said, we are achieving transformation and business outcome.
+[00:01:22] And this is really an issue and this is at least my perception being industry for the last 26 years. So I started with batch processing.
+[00:01:30] The data warehouse then we invested a lot in Hadoop clusters then data Lakes. Um actually I can totally relate to this 29%. You're getting out of your data investment.
+[00:01:41] So 1 of the core questions that we try to answer and this is a short talk. So the talk actually is an invitation for a conversation. If you want to dive deeper, come to me or to the AWS specialist at our booth.
+[00:01:53] What if you have been approaching data strategy in the wrong way?
+[00:02:01] So I'm going to share.
+[00:02:03] 9 lessons on 3 aspects on how to build data advantage in the Akira because right now,
+[00:02:11] Everything looks like it feels like it's accelerating. So
+[00:02:15] Is accelerating, the speed of innovation, and accelerating more and more people use data.
+[00:02:21] In business processes inside of Amazon. And AWS, we see new roles emerge subject. Matter experts being supported by agent a high operators, however you want to call this role. So more people getting data in their
+[00:02:36] Hand. This is why you need short Change, how we approach your data.
+[00:02:40] This talk, we want to talk about how to reimagine your data strategy, how to rewire it.
+[00:02:47] But finally, how to actually realize that getting value out of it.
+[00:02:53] When you say reimagine, your data strategy,
+[00:02:56] Reimagine, the data strategy of your organization.
+[00:02:59] What comes?
+[00:03:00] To your mind.
+[00:03:06] For Formula 1.
+[00:03:08] Reimagination means I'm thinking about pit stop. It's a very operation process in the 1950s. It took 67 seconds, a pit stop. Even this is greatly fast. So my garage they do it's a 50 minutes. I believe this is fast but yeah in the 1970s it was 30 seconds and right now it's 1.8 seconds for a pit stop.
+[00:03:30] 1.8. It's like this. Okay. They stopped refilling the car, I know. But still 1.86 and its really fast.
+[00:03:39] And why are they reimagining all their operational procedures?
+[00:03:43] And this is a principle.
+[00:03:45] That is also core on how Amazon and AWS, you know, works.
+[00:03:50] We say we are the most customer-centric company on Earth because we always work backwards from customer needs and problems and then we create a solution and this is what we recommend. Also in reimagining your data strategy
+[00:04:04] Customer value, drives technology. Not the other way around.
+[00:04:09] But and this is what I see in customer conversations, mostly of the conversations I have with this customer start with technology talking about products.
+[00:04:19] While I would love to talk about, customer problems and ready. And usually most organization, there's a disconnect, a disconnect between the highly specialized highly capital.
+[00:04:31] Often centralized data units.
+[00:04:35] And the customer.
+[00:04:37] And they are also many organizational layers between the customers. The people talking to the customers and the people trying to prepare data so that other people in the organization can make sense out of it. So, there's a translation there.
+[00:04:51] Data people speak speak python. Not so much business.
+[00:04:56] when they try to understand business and this is what they try to do, most of the time, when they are not busy in maintaining data pipelines, is they look in data, but they are missing the anecdotes
+[00:05:07] The Amazon we say everyone is a leader, not everyone is a manager but you should make decision based on data. Then it goes.
+[00:05:15] and this is,
+[00:05:16] What I recommend?
+[00:05:19] If you're being asked for prioritizing a data initiative, a proof of cost of foreign agent or how to buy any of us. These 3 questions
+[00:05:29] How will this creative measure the value? And the important work here is measured. So you need to be defined beforehand when we deploy these solution into production and we run an A B test, this new solution and the current solution, or we let a customer use a certain business process without and with the new solution, what is the kpi? We want to change.
+[00:05:54] Second.
+[00:05:55] Is this the most direct path?
+[00:05:57] Because speed matters in business.
+[00:06:01] And how quickly can we deliver it? Because my experience at least is when you deliver a new feature,
+[00:06:08] To your customer. You measure it. You measure the impact. It creates.
+[00:06:12] Most of the time for the first time and release a feature, it doesn't deliver any weather.
+[00:06:17] So you need to get it in front of your customers very quickly and then iterate.
+[00:06:22] What is also important is strategic data curation.
+[00:06:25] Unfortunately, what I observe in many customers organizations, it's still way value is more important.
+[00:06:33] Than.
+[00:06:35] Value.
+[00:06:37] Any for the last 20? 30 years.
+[00:06:41] When you?
+[00:06:42] Was created in the space of data.
+[00:06:46] In the combination of volume and accuracy. So we collected all kind of values and then we try to increase and improve the accuracy.
+[00:06:54] In a genetic AI, it's different. So it's context. It's the connections between the data and then it's the adaptability of the user, the use case and the
+[00:07:06] And this is why also the role of major data is changing in your data strategy.
+[00:07:12] In the past, it was just a description for administrative purposes.
+[00:07:18] Additional data in your data set and the agenda area uh the the importance of metadata that is getting much much more important because especially in the metadata, you can see the business context.
+[00:07:30] You can get an understanding, what the impact of the decision will be. You can see much more easier relationships between the different, um, data even across domain.
+[00:07:43] and when you know what your customer product is,
+[00:07:47] And you gather the right data.
+[00:07:50] Then it's about creating the right data products because just data products, Drive accidents.
+[00:07:56] In Formula 1, they collect a million data points per second during a race.
+[00:08:01] So they have the same data Foundation, but for the engineers, for the driver, for the pit stop crew, they create dedicated data products in the data product with a specific purpose for the task at hand during a race.
+[00:08:15] After the foray for this person.
+[00:08:18] and still, when I talk to customers most of the time,
+[00:08:22] We talk more about data Pipeline and data products.
+[00:08:27] And this is why still?
+[00:08:30] Data the mindset in many organizations. Um, behind data is a data warehouse.
+[00:08:37] So we store and collect data and then we prepare it, we build data, warehouses data lakes. And then we believe, if we build it, they will come.
+[00:08:45] But very often this is not true. No, 1 comes
+[00:08:48] with all the raw material.
+[00:08:51] So what is the data product think about a check out page in an e-commerce shop like Amazon?
+[00:08:57] So they create a lot of check out data in regards of
+[00:09:00] Payments customer customer Behavior.
+[00:09:02] And the checkout team can now provide.
+[00:09:07] Analytical products based on this transactional data, they collect, for example, they might just create an absolute report for certain stakeholders in the organization, but they might also create an API, which provides real time data supporting an AI ml algorithm.
+[00:09:27] What is important with data products? Is that there is clear ownership
+[00:09:32] and the owner of this data products, should not be your centralized. Highly specialized data people.
+[00:09:40] It should be the people closest to the customers.
+[00:09:43] the people that actually,
+[00:09:45] Understand feared change the business processes. The persons that also build and change the business application supporting this business processes.
+[00:09:59] Let's talk about rewire your organization.
+[00:10:04] Reva means how do you have to set up your organization your pit stop um crew so that you can actually win a race.
+[00:10:14] The most important part is.
+[00:10:17] Data strategy and the data organization must be led data strategy.
+[00:10:24] It's not about technology.
+[00:10:26] It's not about setting up ETL processes. It's not about
+[00:10:30] The pipeline. It's about connecting the people who are close to the customers.
+[00:10:37] Who get the business applications who manage the business processes and at the other hand, the people who try to make decisions based on this data.
+[00:10:47] It's not about technology.
+[00:10:49] Technology. Follows customers.
+[00:10:53] But then creating such a data-led. Data-driven company strategy, there is a cultural roadblock.
+[00:11:00] The cultural growth block is that most organizations are not used to make data-driven decisions.
+[00:11:07] Most organizations are being made by the highest paid person.
+[00:11:11] Because usually highest paid persons have a lot of experience.
+[00:11:15] And this is why very often they make 2 decisions.
+[00:11:21] but usually, it takes a lot of time to prepare such decisions and bring, um,
+[00:11:27] papers in front of this person so that they can make a decision.
+[00:11:31] And then a song and the data driven song organizations, you want, the people closest to the customers, being able to make decisions based on data and anecdotes
+[00:11:40] So, you need to prepare your data that they have this data. Um,
+[00:11:45] Ready at hand, but from a cultural perspective, it must be okay but not the highest paid person, but the person with the right data, makes a strategic call.
+[00:11:57] And this is why we recommend for creating
+[00:12:00] Data driven strategies.
+[00:12:02] data-driven cultures, and the data-driven cultures means,
+[00:12:06] Person with the right data at hand makes a decision.
+[00:12:10] And this requires psychological safety because most of the time, people are not used to make quickly decisions. Just Based on data with getting allowance of other people in the organization.
+[00:12:21] And this is why you need also to work on your governance framework.
+[00:12:26] And here, we talk about an enabling government.
+[00:12:30] The Formula 1, they have raised. Um, this
+[00:12:33] security cards.
+[00:12:37] And they do not stop a race.
+[00:12:39] but in a situation of danger, the guy the racing cars through a danger
+[00:12:45] This should be the true purpose.
+[00:12:48] Of a governing functions.
+[00:12:50] This is um, out of Informatica.
+[00:12:54] In data wire study, 92% of organizations adopting, a genetic AI are concerned about data quality and governance.
+[00:13:04] And from my perspective, this is a totally valid number. You should be concerned, but the issue is
+[00:13:11] Too many people are concerned about data data, governance.
+[00:13:15] Data products.
+[00:13:17] A genetic AI in your organization and you're slowing down innovation.
+[00:13:23] In your organization. While at the same time, other people in your organization, the CEO, the CEO want people to
+[00:13:30] in a way with data, what they should they do,
+[00:13:33] They go underground.
+[00:13:35] And you create Shadow it.
+[00:13:38] The shadow. It is not governed.
+[00:13:41] and this is,
+[00:13:43] this is the art of setting up a true enabling governing function.
+[00:13:49] And this is why we talk about minimum viable governance where we recommend
+[00:13:56] to keep data really visible, you won't
+[00:14:02] Data teams.
+[00:14:03] Mostly in your business, departments may be marketing, maybe sales hiring an agency.
+[00:14:09] And they are creating data applications with without being properly governed.
+[00:14:15] You should automate your routine at Amazon. We will release million times a year. This just possibly because with automate most of our governance
+[00:14:23] And measure, what matters?
+[00:14:26] Do not just measure risk avoidance, but also maybe think about tracking decisions speed and decision quality.
+[00:14:37] Is your governance framework?
+[00:14:40] Accelerating decisions speed in your organization.
+[00:14:44] And this is why data link becomes more important.
+[00:14:48] So in the past, it was mostly there for compliance.
+[00:14:53] Mostly tracked in behind the data catalog.
+[00:14:56] But with a genetic Ai and AI.
+[00:15:00] Every knowledge worker in your organization, using gentle, using tools, using 5, 10, 15 agents per day. These people also need to know what is the source for this data? What is the context versus the knowledge base? Plus I see Regulators asking regulated companies,
+[00:15:22] That they have to store. What was the prompt? The agent used? What was the context was, was the data?
+[00:15:29] So what is measured differently?
+[00:15:34] For sure. It's about risk, avoidance.
+[00:15:36] if you don't want to go,
+[00:15:39] Underground with some of your workloads.
+[00:15:41] The recent your governance.
+[00:15:43] trying to also,
+[00:15:45] Become.
+[00:15:46] And secure at the same time.
+[00:15:48] Especially in our premise data centers. We have to choose, we want to be fast off.
+[00:15:55] Here in the cloud, you can be fast and secure.
+[00:16:00] When you rewire your organization.
+[00:16:02] When you rewire your technical setup.
+[00:16:05] Don't boil the ocean.
+[00:16:07] I've seen so many so many strategic projects where organizations set up
+[00:16:12] um,
+[00:16:15] A new data project a new um project on setting up the organization and usually what is the average duration of such a project? What would you say?
+[00:16:26] I would say it's always 3 years.
+[00:16:30] How long does it take in reality?
+[00:16:32] 5 years.
+[00:16:33] Most of the time they start a new 1 because they all want fake, so don't bother the ocean. Don't be don't start when you're ready.
+[00:16:42] But become ready by starting.
+[00:16:45] When you receive your data strategy, start with small steps.
+[00:16:54] But the important part is you must win a race.
+[00:16:59] So it's fine that you have identified the user needs the user problems that you have set up a new organization, you need to have an an organization that can execute and practice and this is what Formula 1 does.
+[00:17:11] Um, with every race. So everyone.
+[00:17:15] All hands on deck and everyone tries to win, win win this game.
+[00:17:21] And this is how they organize they organize for driving results.
+[00:17:28] and when we talk with customers about how to organize,
+[00:17:31] The first question.
+[00:17:34] It's being raised, is should we set up our organizational, safe organization, centralized or decentralized?
+[00:17:42] And actually then my answer is now being a consultant it depends. Um because and then I answer, what are you optimizing for
+[00:17:52] most of the time, the customers really come down say
+[00:17:55] what are you optimizing for what is your current organization set up optimizing for
+[00:18:01] The most common answer is efficiency.
+[00:18:04] But actually, what does efficient mean is its speed, is it cost? What is it currently? Most of the time the answer is cost.
+[00:18:11] um but in general you can say if you set up your organization in centralized with you optimize for efficiency because you want to get the most out of usually specialized eye shape specialist while
+[00:18:28] If you opt in a more decentralized setup.
+[00:18:32] You optimize for Effectiveness, usually on speed, but on the cost of effect of efficiency.
+[00:18:42] And what is the problem with centralized data teams?
+[00:18:45] usually,
+[00:18:46] they're just overwhelmed and they are becoming a bottleneck.
+[00:18:51] Because they have to maintain.
+[00:18:54] So many data pipelines, so many data reports, so many data products with always changing requirements. So, from my perspective, this is 1 of the hardest job in an organization.
+[00:19:06] Trying to fulfill all the needs of all the stakeholders in the organization. They asked a question, usually, a questions are supervised, then you have to do you work for days weeks, sometimes months or getting all the data making sense out of the data.
+[00:19:23] Interaction. Okay.
+[00:19:25] This is what I already knew.
+[00:19:31] another issue of this, um, highly decentralized organization setups that are optimizing for efficiency is
+[00:19:39] There is a distance.
+[00:19:42] Not just from the customer to the highly centralized organization but also from the people trying to support decision and their internal decision makers.
+[00:19:51] and,
+[00:19:52] Depends on the organization set up. But most of the time, the central data organizations, um, they also too far away from the business processes from the actually business domain. So they miss domain knowledge
+[00:20:05] And this is why.
+[00:20:07] We recommend you should optimize for both.
+[00:20:10] Efficiency and Effectiveness, and there is an organizational pattern, how to spread it out.
+[00:20:15] Actually, it's been Loosely covered as an organization, but highly aligned.
+[00:20:20] and the pattern that I think we have spoken with this kind of conferences for the last decade is
+[00:20:27] Flavor of data mesh.
+[00:20:29] so, we believe
+[00:20:31] That producers of data. So the owners of the application that create transactional data, they should also own analytical data products,
+[00:20:42] And the important part is, they should work closely on a day-to-day business in Davis with the consumers of the data.
+[00:20:51] So, no proxy in between.
+[00:20:55] this optimizes for Effectiveness and speed, but it's not efficient and
+[00:21:00] This is why you need to have a data platform team.
+[00:21:04] Central team, highly specialized, where the data producers and consumers can stand on the shoulders.
+[00:21:12] What I personally like with data mesh.
+[00:21:15] You can introduce data mesh in your organization in a very evolutionary, very incremental, iterative way.
+[00:21:24] So there is no 3 4, 5 Year resolution area, 50 million projects needed.
+[00:21:33] when you execute,
+[00:21:36] And try to win a game is in a data driven organization, you need to be aware that you environment is changing.
+[00:21:43] Customer needs are changing.
+[00:21:45] Business process are changing accordingly, business applications are changing. So your data needs to be dynamic and this is another reason why I believe we believe the actual data producers who owned business applications, they also need to own analytical and AI data products, because
+[00:22:03] Data is and should be a living resource.
+[00:22:07] Most organization is not treated like this.
+[00:22:10] And the same is true with strategy.
+[00:22:14] Strategy must be an ongoing practice in Formula 1, for sure.
+[00:22:19] For every year, they have a new strategy, but it's not about defining and writing down the strategy.
+[00:22:26] The important part of the strategy execution.
+[00:22:30] So strategy is an ongoing practice and it doesn't really matter and this is um from a mckinson survey how well-defined your strategy is.
+[00:22:40] So in this survey just 21% of high performing organization found a formal strategy document as the top success factor. It's not
+[00:22:51] the driving factor in strategy execution, is that you are able
+[00:22:55] To put a data product in front of a customer as quickly as possible measure, if the customer adopts it, if the customer is willing to pay for it and then you need to iterate.
+[00:23:07] So,
+[00:23:08] practice beats document.
+[00:23:14] But still.
+[00:23:15] you need to have the right to
+[00:23:18] and we believe that I started using AWS in 2012. AWS is the best place to innovate with AI and with data.
+[00:23:27] This is we provide all the tools and all the services that you need to create.
+[00:23:32] Data-driven organization.
+[00:23:34] It starts with our chips training effect, differential.
+[00:23:39] And we have the largest GPU lead in the industry. Then we provide you all the services for having it optimized data Foundation.
+[00:23:47] The sage maker and family for machine learning and then as a former CTO and software developer their service, that excites me the most is Amazon Bedrock, this is a modern agnostic and modular service.
+[00:24:00] and,
+[00:24:01] Host models.
+[00:24:03] But especially, they can run.
+[00:24:05] Agents, secure and safely. What? I also want to call out is Amazon quick. Amazon, quick is our tool for every knowledge worker. It's your agentic teammate that connect with all your data to provide answers.
+[00:24:20] You can automate it so you can Define flows and skills. Um, I'm
+[00:24:26] Reducing my travel expenses just 2 weeks ago with it. This was really, really great. Um, and the important part is that it's, um, part of your AWS account. It knows the guardrails, the Securities, the rights, um, of your workers and the assessment.
+[00:24:47] And then, if you want to deploy agents, I started my career in in startups and scale up in the early 2000. And we were talking about uh which application server to use which web server to use, how to handle sessions. We have the same discussions in all this is
+[00:25:03] you don't you should not think about what is this Foundation. What you see application server? What is a web server for a genetic AI? We have a service ready and this is Amazon Metro core.
+[00:25:13] It takes care about.
+[00:25:15] The vehicle runtime for our service about memory identity Gateway. Um and especially policies and evaluation
+[00:25:23] Because is when you deploy an agent, my analogy for an agent is a young very well.
+[00:25:31] College graduate.
+[00:25:34] Without any clue about your business.
+[00:25:37] Your processes and your your customers. So the important skill for knowledge workers will be to delegate.
+[00:25:44] And this is why.
+[00:25:46] Elderly people organization are not very, very important to us because they know how to delegate. They know how to set policies. How to tell an agent when to escalate. And when to stop, and when to come back, you can Implement all these policies in Amazon, okay?
+[00:26:02] and lately, what we also announced
+[00:26:05] this high school graduate, he's very smart, but every morning, like in Groundhog Day, um, it starts from scratch, so you want to have
+[00:26:15] A learning agent, you want to have agents whose memory and this is why we currently Implement stateful runtime environment using openai Advanced models.
+[00:26:25] So, we are coming to an end. This is an invitation for a communication. If you want to talk to me over coffee, I will be here until Wednesday come and join me at the booth if you want to dive deeper in this aspect.
+[00:26:38] And yeah, who is familiar with this claim data is a new oil.
+[00:26:45] Who first of all, it was hard in 2008 by British scientists. Um some people in the community actually believe data is not like oil data is like milk.
+[00:26:57] I believe data is like wine, so there's some
+[00:27:00] parts of my,
+[00:27:01] Okay, you're laughing, you get the analogy. Um but actually we believe it's it's like
+[00:27:06] Oxygen, it doesn't fuel your business, but it's if life to your business.
+[00:27:12] It's important, it's getting more and more important.
+[00:27:14] Thank you very much.

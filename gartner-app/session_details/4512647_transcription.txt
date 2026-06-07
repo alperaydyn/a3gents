@@ -1,0 +1,311 @@
+[00:00:06] Thank you for, thank you for that. Uh, spiritual uh introduction and welcome.
+[00:00:12] It's really good to be here. Um,
+[00:00:16] so telling our AI Factory,
+[00:00:18] Is.
+[00:00:20] A sovereign AI cloud.
+[00:00:23] So I will talk a lot about that, the learnings, but before doing that, I wanted to take a step backwards and talk a bit about why
+[00:00:33] we actually became what's called a tenor, AI Factory.
+[00:00:37] So tenor. AI Factory is a company on its own owned by the tenor group.
+[00:00:43] And the tenor group.
+[00:00:45] Is originally.
+[00:00:47] A set of Telecom operators across the nordics in Europe and across Asia.
+[00:00:54] And what they deliver.
+[00:00:57] Our services such as voice messaging internet.
+[00:01:02] And these type of services are now classified as National critical services.
+[00:01:09] Meaning being heavily regulated.
+[00:01:13] And these Telecom operators, they also want to use AI as everyone else. They want to improve, uh, performance customer experience, improved security, do predictive maintenance and so on.
+[00:01:26] But they cannot use the public Cloud AI.
+[00:01:30] Due to the nature of the, the criticality of the services.
+[00:01:35] And that's
+[00:01:36] Why we in toellner formed this company?
+[00:01:39] And built.
+[00:01:41] A sovereign AI cloud.
+[00:01:45] And then we also decided, let's launch it to the markets because there are many other companies with the same needs across the, both the public and the private sector.
+[00:01:57] So I will structure the presentation in 3 main bulks. The first thing is, I will talk about the service offering and, uh, call it the journey we had all the learnings and how we bring Serenity into the service offerings.
+[00:02:12] Then I will talk about the technology.
+[00:02:15] and the security, which I think is,
+[00:02:18] The kind of a key key point in this conference and with this audience. Uh, and last but not least, I will talk about the operating model which is really, really close to my heart.
+[00:02:29] so, the first thing,
+[00:02:32] About the teller AI Factory is that we have 3 key principles.
+[00:02:36] It's about sovereignity, security and sustainability.
+[00:02:40] So we're in it, it means that your data is protected, it follows, the National Security Law.
+[00:02:47] Privacy.
+[00:02:49] Is taking care of and all of that time, much more back to this letter.
+[00:02:54] Security is obviously that we have the physical security in place, but also the cyber security and everything related.
+[00:03:00] So your data is secure from cyber attacks and then sustainability. So we are building gpus. The gpus are power hungry, all we all know that.
+[00:03:11] Uh, but they also generate a lot of heat.
+[00:03:15] And so we liquid cool those gpus and we take the Surplus heat and we feed it back into the community, to heat up the buildings. That's 1 part of sustainability. And then there are other parts when it comes to supply, chain sustainability, and so on,
+[00:03:28] but these 3 things are really, really, uh,
+[00:03:31] Important pillars for the tenor. AI Factory.
+[00:03:37] we started out in 2024, we entered a partnership with Nvidia and we
+[00:03:43] Went into.
+[00:03:45] Buying some equipment.
+[00:03:48] We formed the company, uh, and we started building. And
+[00:03:52] We call this a minimum viable product. It took us 3 to 4 months before, we had something out in the market.
+[00:03:59] With MVP customers and being totally transparent that it's still an MVP face.
+[00:04:06] Then we worked with the customer. We got the second 1, third 1 and we did call it more co-creation. We got a lot of good feedback from the customers on how
+[00:04:15] to build the AI Factory for a good customer experience and security.
+[00:04:20] And then we are scaling.
+[00:04:22] Moving from the h100 to the h200 gpus.
+[00:04:26] Uh, quadrupling the capacity uh, this year.
+[00:04:30] So it has been a journey. Uh, we are not that big when it comes in terms of capacity. But we are scaling based on demand. So we are not a hyperscaler and we are not trying to be 1 ether.
+[00:04:43] And then just to give a glimpse on what type of customer cases we have, uh, typically its customers having sensitive data or are regulated under the National Security Law.
+[00:04:56] But also customers with.
+[00:04:58] IPR. They want to protect so it's different types and 1. Use case is the real time translation service.
+[00:05:06] By a company, a customer of us that deliver.
+[00:05:12] Voice translation in real time to working with the police.
+[00:05:15] And the Red Cross doing this, that immigration control, uh, and that's typically sensitive data.
+[00:05:21] The other 1 is the predictive Network maintenance. This is by 1 of the te Telecom. Operators owned by telenor.
+[00:05:27] Um again it's sensitive data, it's actually under the National Security Law up to. We compare it to the NATO classification. It's closed about NATO confidential
+[00:05:39] Because if the people get hold of that type of data about the whole transport Network, it's quite critical for the nation.
+[00:05:48] And then we have another 1 on the automated case, documentation with the police.
+[00:05:52] Um, so the police officer officers are out there. They have cameras microphones.
+[00:05:59] and then,
+[00:06:01] things are being recorded when they speak when they did uh uh interview people on on the crime scene and
+[00:06:08] do observations and then they get back to their desk and they have an automated report generated, saving a lot of time. Obviously, they need to look a bit into that report because AI May hallucinate. We all know that
+[00:06:21] And review it but it saves them a lot of time.
+[00:06:24] And then I will not talk through everything and that there's a lot of more interesting casing cases both by the private and public sectors uh, running.
+[00:06:34] But I wanted to spend a bit of time on, uh, sovereignty. What does that mean?
+[00:06:40] And then compare it a bit to other type of clothes as well.
+[00:06:44] so, we do have the
+[00:06:45] Public clouds by Nature. It's defined as a global Service.
+[00:06:49] Um, you may have data locally if you have a region in the country and that's good.
+[00:06:55] you have the EU clouds, which is, uh,
+[00:06:59] Operating in the European Union, um, European ownership and so on.
+[00:07:05] And then we have the national cloud and that's where we position. Um,
+[00:07:10] and if you look a bit, how do we Define sovereignty? So the first, if you look at the data domain,
+[00:07:17] so, the data stays in the country,
+[00:07:20] that's really important.
+[00:07:22] but,
+[00:07:23] I also said that with the public Cloud, you can actually have the data and the concrete.
+[00:07:27] if you have a region,
+[00:07:28] So it's a bit the same.
+[00:07:30] But there are other aspects. If you look at the technical domain,
+[00:07:35] how are you actually operating in controlling your clouds, your AI clouds.
+[00:07:41] So what we are saying is that the control plane should be fully local no dependencies outside.
+[00:07:47] if you look to public Cloud 1 example, out of many is the identity and access management typically a global Service
+[00:07:54] Things get go down if you lose connectivity into the country.
+[00:07:58] And for tenor. AI Factory in Norway in the nordics. It is kind of an island.
+[00:08:05] The only Mainland connection we have is that through Russia.
+[00:08:09] So and we all know about the fiber cats ongoing and what that may impact.
+[00:08:16] Second thing is the service continuity, because when we have licenses for our software, we are working with Partners. Like red hat is 1 of them.
+[00:08:25] So we need to have long lived licenses, if you get a cut, you should continue to operate, you should not be dependent on a licensed server somewhere else.
+[00:08:35] if you look at the operational part,
+[00:08:38] Then.
+[00:08:39] It's also important that the operations are local. So we have the whole operational team sitting, uh,
+[00:08:45] In Norway in over premises.
+[00:08:48] And that again is important. If you get that Cerrone connectivity or some other things may happen, whether it's political or whatever.
+[00:08:56] You still maintain control of the, the operations?
+[00:09:01] Uh and and that also includes development.
+[00:09:04] uh, and the people operating and developing our security cleared
+[00:09:09] Up to the required level.
+[00:09:12] And that's where we work with the National Security Agency to get that security clearance.
+[00:09:19] The last piece of The Sovereign sovereignty. Definition is the legal aspects. It's about the national ownership.
+[00:09:26] Of the data center.
+[00:09:28] Of the quality technologies that what you operate.
+[00:09:33] And the company that does it?
+[00:09:36] And the second thing is that it's governed by national law.
+[00:09:41] So it does it's not dependent on the famous, Claude Acts.
+[00:09:45] that the old, uh, may know about
+[00:09:50] So this is the sovereignty definition and this is with us with whatever we do when we make technology selections when we work on the operating model and everything.
+[00:10:02] And then the services we offer, this has been a journey.
+[00:10:06] We started with the GPU as a service.
+[00:10:09] and that basically means that you get
+[00:10:13] You get a tenant.
+[00:10:16] On in Cuba at this.
+[00:10:19] Kubernetes is a kind of a cloud cloud technology that we run.
+[00:10:23] It's based on open shift in our case.
+[00:10:26] So, we operate the hardware, we operate kubernetes and we give a 10.
+[00:10:30] To the End customer.
+[00:10:33] Now, the thing then with kubernetes is that you need some level of competence to actually do it, you get a lot of flexibility, you can spin up your llms, uh, AI models agents.
+[00:10:43] Databases you name it. What you need?
+[00:10:46] But you need to have that competence. And we what we noticed is that many companies doesn't have that.
+[00:10:53] If you look to the AI scientists and data scientists, they many of them doesn't work in kubernetes.
+[00:10:58] Some do you of course but not uh all of them so they wanted something simpler. So we moved into what we call AI development as a service and brought a set of tools.
+[00:11:09] Like pytorch in jupyter notebooks.
+[00:11:13] and uh, tooling
+[00:11:15] To run AI pipelines for training fine tuning.
+[00:11:18] And it turned out to be quite uh the the AI scientists liked it is probably not uh perfect equally good as uh bedrock in AWS or vertex AI in Google Cloud.
+[00:11:30] But it does the job in a so environment and it's getting improved. It's also based on open source.
+[00:11:37] But then we also had other companies that maybe didn't have those data scientists. So they wanted access to a model they just want that API endpoint.
+[00:11:47] With secure access so they could run their critical data on it.
+[00:11:52] So, we delivered model as a service.
+[00:11:55] So, we are delivering the API. We create a secure token for them.
+[00:11:59] and then,
+[00:12:00] They can use uh, the moderns basically, from their, their applications.
+[00:12:05] so of course, we focus a lot on what models to provide because we do have
+[00:12:09] About 400 models available in this AI Factory.
+[00:12:13] But we cannot operate. Um, all of them and run them due to the capacity needs.
+[00:12:19] So we selected, of course, something for coding is really in demand, because there's a lot of coders on National critical systems.
+[00:12:27] And they cannot use cloud code directly to say a public cloud.
+[00:12:33] Um then of course uh large language model and a model from multimedia. That's the basic starting point.
+[00:12:42] So we operate it patch. It scale, it
+[00:12:45] On it and and the the customers get access to the API through a secure API. Gateway with intrusion detection and intrusion prevention, dose and everything needed to protect them.
+[00:12:59] So, that was uh the service offerings and the journey uh quite some learning out of working with many, many customers, uh, in this area. And now we see with all the latest edition of the model, as a service that things are really taking off more and more can use it.
+[00:13:14] But then, I wanted to dive a bit into technology, uh, and security.
+[00:13:18] So, the first thing is the architecture.
+[00:13:21] so, I will not
+[00:13:22] spend too much time in detail and everything, but I want to highlight some of the learnings
+[00:13:27] so, if you look at the hardware,
+[00:13:30] um,
+[00:13:31] it is similar to a, a regular clothes but there are some differences
+[00:13:36] the first thing is that you have gpus
+[00:13:39] An operating gpus is not very different from operating CPUs.
+[00:13:44] Of course, you need to learn how to secure things you have. The, the cache that you need to take care of you have. Um, if you customers want to slice 1 GPU into say it, uh, virtual gpus, you need to do that in a good way.
+[00:14:00] So you basically need to take care of those things. Then we have the storage and 1 a bit. I shouldn't say it's a unique for AI.
+[00:14:07] But the need for super high capacity, storage is important.
+[00:14:12] Especially for those that does training.
+[00:14:15] And fine tuning because you need data straight into the GPU with super speed.
+[00:14:20] but you also need high capacity, because customers have large amounts of data, they want to store
+[00:14:27] Um then we have the network. Uh so similar to a normal data center, you have the ethernet fabric which is connecting all the servers together and then reach out to Internet that is there uh, 400 GB capacity.
+[00:14:40] But we also have the network and another Network connecting all the gpus together is called the infinity band.
+[00:14:48] And that is 800 GB capacity and that is a bit more complex.
+[00:14:53] because we are quite quite well used to build multi tency on the
+[00:14:57] Ethernet fabric. But also when it comes to the
+[00:15:00] You need to make sure that when people train.
+[00:15:03] They should not be able to access each other's memory.
+[00:15:05] And such so, building multi tenancy at all. These levels is is a challenge.
+[00:15:10] So there's a lot more cabling in these data centers than in usual data centers, even though there there's quite some cabling there as well.
+[00:15:20] Then we move into the second layer and that's the cloud layer.
+[00:15:23] Um, I will spend a bit more time on that in the next slide, but 1 of the main challenges is to bring a fishing and security
+[00:15:32] So we are running kubernetes on bare metal and that's important due to the performance.
+[00:15:38] Um, but if you do that, you don't have this virtualization VM layer to to give you that additional m.
+[00:15:45] To tendency capability.
+[00:15:46] So I'll come a bit more back to that. On top of that, we see this orange part. That's the AI development tooling.
+[00:15:55] Which is the fun, uh, fundament for AI development as a service. And then if you move above that, we we don't do this. That's what our customer does.
+[00:16:05] So, they are building the application and the real use cases.
+[00:16:09] We are building the foundation below.
+[00:16:11] The only thing we have up there is what we call the model as a service.
+[00:16:15] And then on top, of course, we need a nice customer portal, giving customer experience so they can get the observability, billing, insights, uh, send tickets if they need support and so on.
+[00:16:26] So that's the technology stack. And if you dive a bit into this
+[00:16:30] The second layer on on the clouds.
+[00:16:32] I wanted to highlight some of the learnings that we had from the multi tendency.
+[00:16:37] So we started, I said, I told earlier that we started, we run run really fast.
+[00:16:43] So what we did initially was that we put the dedicated kubernetes cluster per customer
+[00:16:49] and that's super good for security because you get physical physical isolation.
+[00:16:54] You get your own dedicated GPU node.
+[00:16:58] Um the other benefit is that you have really high flexibility into how you configure things because you get comprehensive, add admin rights on the cluster.
+[00:17:08] but,
+[00:17:10] 1 GPU server, contains 8, gpus,
+[00:17:14] so, you
+[00:17:15] Actually you reserve a GPS.
+[00:17:18] And I think for large customers, that's not the problem. And we have those taking 8, 16 24, that's okay, but for smaller customers, especially when we look at the maturity of the AI market today, it is a challenge.
+[00:17:32] So we had to be more get better with base of bringing multi. So then we looked into how can we do that this within kubernetes? Kubernetes is not designed for multi-engine.
+[00:17:43] So we did quite some things. Now, I will become a bit technical for those, that are interested.
+[00:17:48] So we took the gateways, basically, the Ingress and egress IPS.
+[00:17:52] Down to the name name, Space level created, multiple namespaces.
+[00:17:56] And we used sharded Ingress so that you get
+[00:18:00] Full isolation. And then we can configure the necessary policies.
+[00:18:05] We also implemented isolation in the storage driver and configured necessary role based access control for them.
+[00:18:12] And then, of course, we pentest.
+[00:18:14] Pentest to check that this is uh good enough because we are talking about sensitive and critical data.
+[00:18:21] And of course we did the network configurations.
+[00:18:25] All good. It's working.
+[00:18:28] but,
+[00:18:30] when you do some customization like this,
+[00:18:33] You get some consequences?
+[00:18:35] Because then when you build your observability stack, it needs to work with that customization. When you build your identity and access management it needs to work when you build your API.
+[00:18:45] Gateway, it needs to work. So, there are following consequences, which is not part of this more standard defect to standard open source, way of doing things.
+[00:18:54] But luckily, these findings are brought back into the open source community. And we hope that we are coming to a place where we get a proper implementation, that becomes the facto standard.
+[00:19:04] So this is great learnings, and I wouldn't say It's The End Game yet. Still working on it.
+[00:19:12] Security.
+[00:19:13] Huge topic. And even this is not the full scope of security, but this is what we meet on a day-to-day basis, the cyber security, the technical controls on how we implement it.
+[00:19:23] Information security, how do we classify the data physically Security in the data centers? What?
+[00:19:30] Do use. How much steel do you have in?
+[00:19:32] Them. What doors cameras sensors guards.
+[00:19:36] And then also office bases. Where does the people working on classify data? Actually sit. It needs to be secure zones.
+[00:19:44] 1 thing is to work on it. Another 1 is to talk it. You need to have
+[00:19:48] isolated rooms where the the the voice is not leaving.
+[00:19:52] That's pretty demanding.
+[00:19:53] And also personal security back to the security clearance and, and following that up.
+[00:20:00] Working with the National Security Agency on that topic, but I wanted to spend a bit of time on cyber security.
+[00:20:07] Uh, in telenor.
+[00:20:09] We have something called defendable architecture and that's um it's it's basically a framework.
+[00:20:15] This is not the technology itself. It's the framework for how to implement security.
+[00:20:19] It is modular and risk based.
+[00:20:22] Meaning that when you decide what uh level of uh risk you want to take you implement security accordingly?
+[00:20:30] And it's a set of security controls and the whole value is to protect the cloud.
+[00:20:35] And the data.
+[00:20:37] and what it also gives, when you follow this model, we use that across all the public clouds, all the private clouds,
+[00:20:43] you get security by Design, when you get in, you have this level of security
+[00:20:48] And it also brings ecosystem trust when working with Partners, they are using the same model and it's not very different from standardized models.
+[00:20:55] And so you get the preventive detective and access controls in place. So it looks like this.
+[00:21:01] um,
+[00:21:03] I will assume a bit in so don't try to read the the the, the text on top there. Uh, that's the important thing because on the horizontal axis, you see the 18 security controls,
+[00:21:13] um,
+[00:21:15] that's basically the preventive detective and access controls put together in 1 and then on the vertical axis,
+[00:21:23] You see?
+[00:21:25] The maturity levels.
+[00:21:26] So if you are at the bottom here all the way down, you don't have it.
+[00:21:31] And then the depending on the risk appetites, you move up. You need to implement more security.
+[00:21:37] and just if you go to a public Cloud without doing anything, you're actually at the bottom layer in, many of these cases,
+[00:21:45] You can get it but you need to configure it.
+[00:21:48] So you don't get those things by default. I think public clouds, provide super good on security, so nothing against that but you need to configure it.
+[00:21:58] So I see time is running too fast for me, so, uh, I've not spent too much time resource isolation platform, security boundaries. How do you configure the security Zone classes? Fundamental when you implement, uh, the the multi
+[00:22:13] And parameter security protecting touristy internet. Uh, and so on.
+[00:22:18] Data protection super relevant for AI. A lot of things happening there.
+[00:22:22] I move on.
+[00:22:24] Um, application security as well. There's a lot of AI things coming in there. Uh,
+[00:22:30] um, flow-based monitoring
+[00:22:32] moving faster is, of course, important when we want to do incident response and automated because there are incidents
+[00:22:40] They are coming and even more now in the AI era.
+[00:22:45] A lot more.
+[00:22:48] Um, then Network IDs IPS intrusion detection, prevention API Gateway, crucial functionality. And then we have all the access related things.
+[00:22:57] We need to access the platform as an operator and our customers needs to access.
+[00:23:03] So then if you bring this all together, I will show you an just an example implementation
+[00:23:09] so in this case, the gray areas there are not not implemented, then you have a risk appetite to
+[00:23:15] At this level and this is actually super secure.
+[00:23:19] So again, I said we are using this in all the public clouds, ashure AWS gcp, Oracle with read that on Prem VMware on Prem and so on.
+[00:23:28] So we are using this also in the SoundCloud. It's it's a good tool for us and it's good when working with vendors
+[00:23:38] So then the last thing I wanted to talk about which I said is quite close to my heart is the operating model because when we started I said again we started quickly but what we established was we had like a development team, we had an operations team and then we have security team.
+[00:23:53] The team with AI is that things are moving so fast.
+[00:23:57] It's incredible fast.
+[00:24:00] Amazing.
+[00:24:01] So, what happens is that the operation teams?
+[00:24:04] Always call back to the development teams.
+[00:24:06] Always.
+[00:24:08] And development teams are for naught into the operations so they don't see what's going on and they need to get that learning as well.
+[00:24:14] And then you have the incidents and the security team struggle to follow.
+[00:24:19] So based on all this, uh, this experience is, we decided to move into Dev SEC, Ops
+[00:24:26] So, and that is, of course, uh, to me, uh, maybe it's a no-brainer to many of you.
+[00:24:33] Uh, but it has been really, really important.
+[00:24:37] So, I think the team that we have, so originally we have had 1 Dev, Ops, Dev SEC, Ops Team. And now we have splitted into
+[00:24:45] The platform Dev secops team. Now 7 people.
+[00:24:48] Because those teams cannot be too big.
+[00:24:50] And more less a service that SEC Ops Team.
+[00:24:53] For people today.
+[00:24:56] Um, they are using gitops.
+[00:24:59] So everything is, uh, according to Agile, Cloud native methodologies embedding security all the way.
+[00:25:07] So I think tools like gitlab, you know, ansible, we use a lot. We have also started to use the mCP servers and quite some interesting learning there as there as well.
+[00:25:17] Because a lot of the Automation in the cloud is very, uh, deterministic.
+[00:25:23] You want to create a API key, you want to configure a network, you know, those things needs to be correct.
+[00:25:31] So, you don't need an llm to help you really.
+[00:25:33] So, you can have an agent doing it, but you don't need an AI agent. But then, there are other things. I talked about Incident, Management and incident response. There's a lot of uncertainty when that happens.
+[00:25:44] So getting AI agents in there is I believe super good and we are working on that. Another case is change management.
+[00:25:54] Because you want to apply a change into your Cloud environment or application and then what's the impact?
+[00:26:00] That's areas where those agents can help a lot where there's uncertainty like non-deterministic processes.
+[00:26:08] So we are working a lot on that. So I think then 1 of the big tasks of process when we what
+[00:26:15] Happens when you get the customer on, you need to onboard them and automate everything.
+[00:26:19] Create a tenant in open shifts, create the vpns create the networks internally storage identities.
+[00:26:26] security Keys, uh, you name it and that whole automation
+[00:26:32] improved dramatically when we move into this way of, uh, working. It really brought the dev and Ops and the SEC teams together.
+[00:26:40] There's a huge success and I think uh, the way I want you to remember this success is that it's giving me.
+[00:26:48] The powers of Batman.
+[00:26:50] So, please take that with you or linear turtles, if you want.
+[00:26:56] so to sum up, um, I talked about
+[00:27:00] The service offerings. And the learnings we had on the way.
+[00:27:04] We started with GPU as a service. We saw that customers, they wanted something simpler.
+[00:27:09] Uh, when it comes to AI tooling.
+[00:27:12] Especially the data and AI scientists.
+[00:27:15] Then we moved into model as a service so you can basically look at it as an infrastructure as a service platform as a service and software as a service.
+[00:27:23] Right? You first GPU you rent the house.
+[00:27:27] In AI devices service, you rent the house which is fully furnished and in model as a service. You basically, you are in a hotel room.
+[00:27:35] That's the analogy.
+[00:27:37] Then multi tenancy, we worked a lot on nothing. Got a lot of learnings, I think it's important for us to facilitate
+[00:27:45] AI usage.
+[00:27:47] For those type of customers with critical data, both those that need a lot. And also those that need, maybe 1 2, 3, 4 gpus,
+[00:27:56] So that's what we were able to do, but we still have some challenges there.
+[00:28:01] The last thing is the operating model.
+[00:28:04] I talked about the move to devs which in this fast moving industry has been uh, really important for us.
+[00:28:11] So, with that, I want to thank you all for coming here and listening to me and uh, please uh, reach out to me. I'm I will stay here for a while.
+[00:28:21] And I've also put my contact details at the end here. So thank you so much.

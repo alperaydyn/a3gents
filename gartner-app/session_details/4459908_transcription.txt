@@ -1,0 +1,301 @@
+[00:00:03] Good afternoon. My name is Alan Duncan I'm 1 of the research analysts in Gartner's data and analytics strategy. Group supporting Chief data analytics officers heads of data, analytics other data analytics leaders.
+[00:00:16] Uh, looking at aspects of how do you define your strategy?
+[00:00:21] How do we engage around business value?
+[00:00:25] And what should the operating model look like, in terms of the ways that we execute against whatever promises that we make to ourselves.
+[00:00:38] Big question.
+[00:00:40] Why do we need an operating model?
+[00:00:44] Here is
+[00:00:45] Is a beautifully tended and organized Garden.
+[00:00:50] Right. Just like we have our beautifully organized intended environments for data and analytics and AI.
+[00:00:56] Right.
+[00:00:58] Well, the reason we did an operating model is because none of that happens by accident.
+[00:01:04] Yeah, the operating model is defining things that maintain order. Discipline orchestration. If we didn't have a defined operating model that we apply to,
+[00:01:20] then here is your data and analytics environment.
+[00:01:25] and I know for sure that many of you are actually in,
+[00:01:30] Situations where that's actually what we're dealing with, right?
+[00:01:35] In order to deal with complexity, in order to deal with capability, that actually delivers what we're trying to achieve, we need to bring order to that potential chaos.
+[00:01:50] Most of us are not starting from scratch and planting our data and analytics Garden, you know, from the first dig
+[00:01:59] we're dealing with environments where we have to bring a degree of order to
+[00:02:05] The.
+[00:02:06] Chaos that we find ourselves involved in. Yeah, you're all recognizing that I can see the nodding around the room already.
+[00:02:14] And here's the kicker.
+[00:02:16] Only half of you.
+[00:02:20] Is that you lot?
+[00:02:22] You. Yeah. But only half of your according to the survey results and you know from your colleagues and peers around the industry, only half of you are taking the responsibility and being deliberate in
+[00:02:39] designing and evolving, what our operating model needs to be in order to bring that order and discipline to
+[00:02:47] what we are approaching.
+[00:02:50] So, there's a bit of kind of physician here myself in this.
+[00:02:54] Right. We can if we can't complain about how put upon we are
+[00:03:00] Are by changing business requirements and demands that are coming from Business Leaders for AI when they can't even spell it. And so on,
+[00:03:09] Unless we put our own house in order and have the discipline and the orchestration. And so on to be able to say, this is what we're doing. Here's how it works.
+[00:03:19] Here's who's doing that work.
+[00:03:24] And then how to Parlay that into business value.
+[00:03:28] how do we measure that, actually, all of the work that we're doing and all the things that we're delivering,
+[00:03:34] Are actually achieving.
+[00:03:37] Measurable business results by whatever definition of measurable results that we choose.
+[00:03:45] all right, now the way that we communicate that handoff from operating model view,
+[00:03:54] How am I delivering, and who is doing the work?
+[00:03:58] Through into. Why does that matter? Who cares? And how do I know whether we're being successful is the relationship between strategy and operating model? Now, if you some of you may have been in my session this morning where we discussed the strategy elements of defining. The, what are we doing? Why are we doing those things? How do we show that our stakeholders are getting benefit here? We're looking at the executional aspects of what goes into.
+[00:04:30] Into the view of.
+[00:04:34] Showing that we are ordered and disciplined, and repeatable, and interoperable, and scalable, and agile, and all of those wonderful buzzwords.
+[00:04:45] We know what we're doing, we can able to demonstrate that. We are achieving it and that is then applying into
+[00:04:54] realizable business outcomes.
+[00:05:00] And we need to be very careful.
+[00:05:04] and aware of the fact that whether we have the capabilities to execute upon that, operating model design,
+[00:05:15] By either enable.
+[00:05:16] And accelerate achievement of value.
+[00:05:20] Or.
+[00:05:21] Inhibit it.
+[00:05:23] You know, you can make all the promises in the world.
+[00:05:27] You can have all of the idealized view of how do we want to execute an operate?
+[00:05:33] but if I don't have the resources and capabilities to be able to do so,
+[00:05:39] Then it's a bit of a false promise.
+[00:05:43] And actually quite a lot of us.
+[00:05:46] Don't do the reality check element, not only for our own teams. But for the people around us to say
+[00:05:54] are we checking to validate that if those are the business Ambitions and this
+[00:06:00] This is what is required to execute and how we're going to deliver and the resources that are needed.
+[00:06:07] Have we got those or not?
+[00:06:09] The reality check and and and holding the mirror up to ourselves to say. Okay, this is where we need to invest. This is where we need to grow. This is where we need to develop new practice and so on. So, there's a process here and again, I talked about this for those of you who are in this morning as a process of strategic planning.
+[00:06:27] Where we develop and think through and then our articulate, all of these things.
+[00:06:34] To ourselves and to each other.
+[00:06:36] So that there's a consensus on.
+[00:06:39] What choices we've made? What are the expectations arising from those consequences and also
+[00:06:45] and being able to say,
+[00:06:47] oh, where do we take a hit?
+[00:06:50] Yeah. Now as you go through the planning process and building out and understanding what those capabilities needs to be,
+[00:07:01] then you are going to. Then, look at the individual activities, the work that has to be done.
+[00:07:08] In order to achieve.
+[00:07:11] Right? So in the strategic planning process at the operating model level, we have to go to the stage of saying,
+[00:07:19] And how will that be executed? What tasks and activities will be done and by whom?
+[00:07:25] in order to
+[00:07:27] complete those deliverables.
+[00:07:30] Which then linked to what outcomes are we trying to achieve? And we need to be able to also see how do these things support each other. You can see where this is heading.
+[00:07:41] Road map.
+[00:07:42] Because the road map is the timebound view of says, what is going to happen when it's going to happen? What's the sequencing and dependencies? And so on that needs to happen.
+[00:07:53] Yeah.
+[00:07:54] Now, I'm hoping that none of this is absolute news to anybody.
+[00:08:00] But my guess in many cases, you're not necessarily being that disciplined in going through that thinking process.
+[00:08:12] And we're probably not communicate.
+[00:08:15] Ating it in that way, which helps us either establish credibility to link the work that we're doing to the value. That it brings
+[00:08:25] or being able to communicate with the chief executive and CFO and Chief Operating Officer and so on and saying
+[00:08:33] Here are the constraints and that's why you can't have.
+[00:08:38] So many nice things.
+[00:08:41] And we haven't even talked about AI yet.
+[00:08:43] Right.
+[00:08:44] But we need to put ourselves into this cycle of discipline thinking discipline planning discipline communication so that we can get into disciplined execution and delivery.
+[00:08:56] With me so far.
+[00:08:58] Good.
+[00:09:00] So now we need to take that apart even further and look at some of the key components of what goes into making that work. And again, I'm hoping that none of these things are going to be a surprise to anybody.
+[00:09:16] But we're probably not necessarily thinking about them and articulating them and understanding the connections and linkages.
+[00:09:23] In the way that I'm about to show you, right?
+[00:09:27] So the first aspect of the operating model is, what are our understanding of our data analytics? AI ecosystem?
+[00:09:41] so this is all about understanding the contain the
+[00:09:45] Contents, the informational content the uh, Corpus of information data Knowledge Management.
+[00:09:54] And other content types.
+[00:09:56] That we have.
+[00:10:00] And linking them through to. And why do we have those sets of information data?
+[00:10:06] And are the fit for purpose.
+[00:10:10] With the purposes being defined by whatever we identified within the Strategic view, right?
+[00:10:17] You're all going to be comfortable. I trust with the aspects, therefore of things like data quality and master data management and data governance and metadata management, right.
+[00:10:30] We're all comfortable and we've all got people and teams working on those kinds of activities to bring order to our data chaos. Yes.
+[00:10:40] of course, that now gets
+[00:10:44] Impacted and enabled and accelerated or inhibited by how AI.
+[00:10:51] Comes into that.
+[00:10:53] Data ecosystem.
+[00:10:55] because we can start to use agents to help us understand and engage more quickly with the mappings of metadata from 1 application to another
+[00:11:05] Or we can use agents to automatically improve and upgrade our, our Master data sets to improve.
+[00:11:15] Administration Integrity of data sets that are getting reused.
+[00:11:20] At a use case. Delivery level, when we're trying to provide that information to business users for outcomes, then there are algorithms that we're going to encode, which include the decision making that we've agreed upon. If we understand the decision intelligence of what types of decision, we are trying to make and what the expected outcomes and so on.
+[00:11:41] But again, those business facing AI enabled applications also run on Corpus of information.
+[00:11:48] Right, we're we're talking a lot about AI, ready data. Most of you, I hope are
+[00:11:54] what that really means is, are we making sure that the information that we have in?
+[00:12:00] Whatever form.
+[00:12:01] Is ready and prepared and fit for purpose.
+[00:12:08] Or as yet unidentified purposes, which may get to come.
+[00:12:14] Right now, if you position data, governance data, quality Master data management, Etc, our understanding of the data assets that we have.
+[00:12:23] In those terms of, this is a corpus of information which is then used by these business, operational applications, which is used by these decision-making processes which is used by these generators of value.
+[00:12:40] then we're in a position to
+[00:12:42] both apply AI to our own work.
+[00:12:45] Help data Architects. Map, the
+[00:12:49] Data management environment more quickly help.
+[00:12:54] People code, new analytical Solutions or indeed provide user interfaces to your business community. So they can ask a question and then all of the hard work and complexity has dealt with on their behalf, ease ease that point of consumption. So that even an idiot like Alan Duncan can put a prompt into
+[00:13:15] Microsoft co-pilot.
+[00:13:17] And anticipate that we're going to get results. That actually have credibility and integrity for why, I was asking in the first place and so on.
+[00:13:28] We have to differentiate.
+[00:13:30] And a lot of it background people. Don't big mistake differentiate the data ecosystem View,
+[00:13:39] What data we have the contents?
+[00:13:43] From.
+[00:13:46] The architectural view, the containers.
+[00:13:52] Yeah.
+[00:13:55] A lot of systems architect type. People will conflate those things. Why? Because they're thinking in business, operational terms, the application for a particular business process, the system for a particular function,
+[00:14:11] that instantiation,
+[00:14:15] yes, of course, for me running that process or task, or activity, the data, and the
+[00:14:21] System that it is contained within.
+[00:14:24] Are 1 and the same thing.
+[00:14:27] if however, I'm then trying to say, okay, I need to answer a set of questions which bring information from multiple of those places together into
+[00:14:37] A place where I can interrogate.
+[00:14:40] And again we should all be used to that, we call it data, warehouses and data lakes and so on.
+[00:14:46] Then.
+[00:14:48] I need to decouple system from data application from data, container from contents.
+[00:14:56] There's a big education for a lot of our it colleagues that we need to engage.
+[00:15:00] To help them understand that decoupling.
+[00:15:03] It also means that we need to be very, very clear about the design patterns and so on that we're applying to all of this.
+[00:15:12] classic case, we work for a business that is very process and task oriented
+[00:15:18] Which means that almost by design. It is siloed. You're all coming across that. I am sure.
+[00:15:25] Right, Finance, do these Finance functions and processes and tasks.
+[00:15:30] Never talk to operations, who do these operations processes and tasks?
+[00:15:35] And they never talk to sales and so on.
+[00:15:38] And yet, if we want to say, okay, let's understand which of our customers are profitable.
+[00:15:48] Finance say well, it's not my problem.
+[00:15:51] And operations say well that's not my problem.
+[00:15:55] And marketing say it's not my problem. I just find you new leads and so on. So the transversal discussion is really really difficult. Unless we take architectural patterns, also this differentiation between use of data for operational purposes. Execute task and activity. I am fulfilling an order.
+[00:16:14] I am issuing, an invoice.
+[00:16:17] Versus.
+[00:16:19] Analytical and decision-making questions. Which customers should we be doing business with?
+[00:16:25] Which citizens require more support from our government.
+[00:16:30] Service. Is it from the agency? Then we're currently providing.
+[00:16:35] There's that decoupling of why the systems view, the application view, the container view needs to be different from the content.
+[00:16:47] And that then manifests itself into different technology, configurations.
+[00:16:54] Most data and analytics leaders that we encounter are comfortable with the analytical expectations and expressions.
+[00:17:03] Yes.
+[00:17:05] Less comfortable with some of the operational.
+[00:17:08] Considerations and management of data.
+[00:17:13] how I, there's
+[00:17:15] of often a an organizational decoupling of the responsibilities for build me, the data warehouse, build me, the data Lake, build me the
+[00:17:22] Analytical engines from.
+[00:17:26] Maintain the Integrity in my Erp system.
+[00:17:29] When you start to look at a containers versus contents View at the content level, the data that is used for the servicing of a customer. Transaction is the same data as is used for analytical understanding, and therefore we need to be able to bring those together.
+[00:17:49] Which means we need more involvement than possibly. We're used to
+[00:17:54] in the operational aspects of data design.
+[00:17:58] In those core.
+[00:18:00] Systems.
+[00:18:03] Yeah, and the way out of all of that.
+[00:18:07] my colleagues would tell you is, then by adopting a more logical data, our data warehouse architecture approach,
+[00:18:14] Yeah.
+[00:18:15] Understand what data we've got and where it is and how it comes together.
+[00:18:21] And then I can instantiate that.
+[00:18:24] Within data fabric architecture.
+[00:18:27] So that I understand from a metadata point of view, how these things all connect, and where the sequencing and and so on are or use data mesh to technically instantiate those things.
+[00:18:40] I need to understand intellectually.
+[00:18:43] how these things plan, and
+[00:18:45] Design.
+[00:18:47] If I am, then going to steer the
+[00:18:49] Delivery of particular implementations.
+[00:18:54] This, by the way, is why you would never want to give the delivery and Engineering of the data platform to a business function.
+[00:19:05] For themselves.
+[00:19:08] Because they haven't got the discipline.
+[00:19:11] To pay this kind of attention.
+[00:19:14] We should be trying to encourage them.
+[00:19:17] From a consumption point of view to learn how to interrogate those data sets through environments that we provide for them.
+[00:19:27] Yeah. Federated local.
+[00:19:30] Lies decentralized use of analytics, use of AI in the business process in the business, decision-making tasks.
+[00:19:39] But the engineering of the data platform needs to be done robustly with integrity and so on.
+[00:19:47] It's another reason why things like governance, although we're talking a lot about governance.
+[00:19:53] Needs to be done, not only at the policy setting level, but actually instantiated into technical controls in the systems and applications and tasks.
+[00:20:04] But that means we've reached a really understand.
+[00:20:09] Who has access to what information and in, what context and why that matters? And what value we're trying to bring.
+[00:20:15] So that we're not seen as Gatekeepers and preventing people.
+[00:20:19] But we are seen as enablers and helping them.
+[00:20:23] Overcome things that they're not paying attention to, like are there.
+[00:20:29] Uh, legal or regulatory constraints that they were unaware of or not paying attention to.
+[00:20:36] So, very, very strong architectural aspects leading to technical implementation.
+[00:20:44] That we mustn't, ignore.
+[00:20:47] And this should not be the shanty town or the, you know, the overgrown Garden View which says I would just making it up as we go along.
+[00:20:56] Somebody.
+[00:20:58] Our teams have got to.
+[00:21:00] The grown-ups in the room that says here's how we deal with our data. These are the standards that we apply. These are the disciplines that require to happen in order that our data remains fit for purpose.
+[00:21:12] For operational purposes. Analytical purposes, and AI purposes.
+[00:21:20] which brings us to the third piece of the
+[00:21:24] Operating model which we need to pay attention to.
+[00:21:28] The delivery model.
+[00:21:34] To aspects of this, which I think.
+[00:21:37] 1 is typical and gets argued and wrangled a lot, and the other we'll talk about in a moment. The thing that we should
+[00:21:45] Be familiar with.
+[00:21:47] Is the argument about whether we should centralize or decentralize.
+[00:21:51] Just a quick show of hands is there anybody in the room?
+[00:21:55] In their current organization is not having an argument or a debate or a discussion about, should we centralize or decentralize our data and analytics capabilities? Anybody not having that discussion.
+[00:22:10] I mean I'm not even sure I could count those hands on the fing fingers of 1 hand, let alone
+[00:22:16] You know, 2 very few of us not having this discussion.
+[00:22:21] All right.
+[00:22:22] Now.
+[00:22:24] I'm going to offer you a way out of having that as an argument.
+[00:22:28] Which is to say, stop thinking.
+[00:22:30] About it in terms of whose job is this?
+[00:22:33] Or who owns the.
+[00:22:36] Data analytics function.
+[00:22:39] Think instead about what work needs to be done.
+[00:22:43] And who can contribute to it?
+[00:22:46] Who's got the skills and the knowledge and the capacity.
+[00:22:49] Because then the structure we put on bringing people together.
+[00:22:53] Becomes more self-worth.
+[00:22:55] Right. The structure is a is a construct to help people work together, more effectively for the purposes of whatever work needs to be done.
+[00:23:04] and as the work shifts and changes, and we got new requirements in our road map that we're going to move towards
+[00:23:09] We probably want to reconfigure the team.
+[00:23:12] Yeah.
+[00:23:14] If we.
+[00:23:15] Think of this hierarchically as if we were in some kind of data and AI Factory view, where everybody does the job? They've been assigned forever and a day.
+[00:23:27] It becomes very, very brittle, very, very quickly.
+[00:23:31] Yeah, so it's not about whose job is this, whose task is this whose function is this. It's what activities need to do and what skills and competencies are needed, in order to fulfill those activities.
+[00:23:46] At that point, we can then have the discussion that says, so who is best placed?
+[00:23:55] And maybe we will have folks who are
+[00:23:57] already fully skilled with the
+[00:24:00] Capacity and capability to get on and do a whole bunch of work and deliver, Great Value things.
+[00:24:04] that's the
+[00:24:05] The green folks here. And of course our own centralized
+[00:24:10] Data and analytics Center of Excellence hub goes without saying that we're all brilliant.
+[00:24:16] But, maybe we've got some colleagues who need some help to learn skills and competencies that will help them be able to adopt and apply. And, and so on, that's the the, the, the Amber group here.
+[00:24:28] In which case our job is not to deliver.
+[00:24:32] So much as to educate and train and coach, and Mentor, those folks so that they can then take on and deliver.
+[00:24:43] and then, there may be
+[00:24:45] Folks that we identify that go. Well, ideal thing would be the marketing function in
+[00:24:54] You know, South America should do their own regional marketing.
+[00:25:00] But those guys can't spell data at the moment.
+[00:25:03] So, let's protect them from themselves and we'll offer it as a provided service solution.
+[00:25:12] That we can roll out to them and make use of now. Any and all of those are right. And proper and valid choices but that's the point.
+[00:25:20] It's choices based on assessment of Readiness and capability.
+[00:25:27] what are we trying to achieve, who can contribute
+[00:25:31] There's no Rights and Wrongs anymore.
+[00:25:33] Now that's uncomfortable for a lot of folks around us.
+[00:25:37] So, actually culturally this has an implication as well.
+[00:25:41] Yes.
+[00:25:44] Now, that's the the bit that we're maybe not.
+[00:25:50] Yet wrangling in that way.
+[00:25:53] But we're familiar ABS, most of you have said, you know, by not putting your hand up, you said, yes, we are dealing with centralized decentralized debate. Here's a way of navigating that thing that we are all familiar with.
+[00:26:06] Here's the bit that often I see.
+[00:26:09] Colleagues in the industry overlooking, which is the discussion about method. And
+[00:26:15] Ice.
+[00:26:17] if this is the discussion about who is doing the work,
+[00:26:22] whatever work it is. There's also a discussion about how will that work be done.
+[00:26:28] Methods practices.
+[00:26:31] You know, the adoption of technique.
+[00:26:33] And so on.
+[00:26:35] Now, what we're trying to illustrate here is that the methods and practices that we adopt and apply to get rigorous repeatable. Sustainable, interoperable, agile. Etc. Need to shift depending on the relationship that we're having with our business stakeholders.
+[00:26:52] We need to. I mean, it is, you know, we we've mapped this out in our research, as a decision tree that says, depending on what we're trying to.
+[00:27:00] Achieve.
+[00:27:01] and the way that that relationship is framed,
+[00:27:06] and the
+[00:27:08] influence that we want to have in that relationship partnership.
+[00:27:14] Guides us to what sort of delivery approach we should adopt and apply.
+[00:27:20] Flexible adaptable. Delivery approaches.
+[00:27:24] Matched to the type of problem that we are trying to solve.
+[00:27:29] Now.
+[00:27:30] I see very few of you.
+[00:27:34] Doing that.
+[00:27:36] You know, even if we've said yeah, yeah, we're going to adopt agile delivery or we're going to um, Implement data products. Fine.
+[00:27:45] it doesn't go to the next level of configurable detail, which is to say
+[00:27:49] Is it appropriate to be adopting agile methods for this type of solution? Or do we actually need a more waterfall style approach?
+[00:27:56] Is it appropriate to be doing a data products view? Or is it actually better to be doing a research-based approach? Because what we're trying to do is a Pathfinder here, we don't even know what the problem is yet.
+[00:28:10] So, we need to do some kind of experimental proof of value.
+[00:28:14] Yeah, and so on. So
+[00:28:16] if there was 1 big takeaway for today, I would actually be asking you all to think about what kind of relationship do. I need to have with my stakeholders at this particular point in time.
+[00:28:29] What's?
+[00:28:30] Style of delivery. Do we need to adopt?
+[00:28:33] And then, how do we apply the methods and practices that are appropriate to that delivery Style?
+[00:28:45] Half an hour goes past very, very quickly.
+[00:28:49] What I've walked you through, there are the things that we need to think about in our operating model how they connect and configure together.
+[00:28:58] And then some of those key components of managing, the ecosystem, being able to understand and manage, the architectural choices that we make.
+[00:29:09] and then in the delivery model, how we reconcile and guide and steer,
+[00:29:15] Who does the work?
+[00:29:17] And how should the work be done?
+[00:29:20] I wish you all success with that, that should bring you into new Clarity and orchestration, clearly. For those of you who have gotten a clients, there is technique best practice accelerators that you can draw upon with your teams to turn this into
+[00:29:37] Adoption and application, wish, you all best and thank you for your time today.

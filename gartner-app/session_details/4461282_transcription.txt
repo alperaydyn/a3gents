@@ -1,0 +1,232 @@
+[00:00:05] My name is Andres.
+[00:00:06] And today I'm going to talk about analytical franchises.
+[00:00:11] And this is a very relevant Topic in my humble opinion, because Genai is really changing, how we deliver Analytics.
+[00:00:19] And to be completely honest, we haven't really succeeded in self-service.
+[00:00:25] And we might not be really ready for what's coming now because we beyond the finding metrics delivering dashboards reports now we have additional expectations. Now our business users are asking for natural language query capabilities, conversational, analytics and identical analytics as well.
+[00:00:45] Some kind of Automation in what we are doing with with aenai. So now more than ever, it's important to have
+[00:00:54] New operating models and organizational models that allows us to bring all the knowledge and all the capabilities that we have in our organizations to enable this kind of new behaviors. So and I think that a franchise is a very powerful way to communicate. What we believe that is the right organizational model to be ready for for this. And we will uh,
+[00:01:17] Find out why? And how we can Define this kind of franchises, but before that and just to set the stage. Uh, let's talk a little bit about where we are coming from, because I think it's important to understand that. So, this is not
+[00:01:30] Something really new. This kind of challenge is not something really new. So we have been working around this from decades and as I said for trying to enable self-service and try to be more efficient, delivering data and in the early 2000s what we did was defining a Enterprise that our house with a centralized team that was in charge of everything and that was great because everything was under control
+[00:01:52] But it didn't work so well because it was slow, it became this kind of architecture and teams, it became a bottleneck.
+[00:02:01] And even worse it became uh not really well aligned with the real business needs. So if you ask it somewhere and in those times, uh, is it really driving value? The data you have in your organization? I think what
+[00:02:15] I don't know, I have some people here in at doing reports but it's like a black box for me and I don't know how they are pretty icing, what they're doing.
+[00:02:24] So we overreacted and we went to the Other Extreme. So in the 2010, more or less with data Lakes, we went to a completely decentralized organizational structure. So, now, we fix it, the alignment with business because we let the business do almost whatever they wanted. They could bring their own data, they could Define their own dashboards. They could almost buy their own tools. So we have Tableau, click Excel powerbi and every different toy that we can imagine in different departments, you know, in our organizations. So we solve 1 problem, but we created a different 1. We created a new 1, we created a problem of
+[00:03:00] An efficiencies and let's be honest again. A nightmare for govern everything that we had and sometimes even some confusion about what things meant, uh, you ask its Finance, what sales mean, and they will say, no, sales is gross sales and you ask a marketing. No sales is net sales, and if you ask an agent now,
+[00:03:20] Give me sales. What is the agent going to do?
+[00:03:24] Whatever the agent wants. It will hallucinate. It will not ask for clarification, so we need to provide a additional capability. So this is not what we really wanted and it became manual.
+[00:03:35] So, you had many people wandering around, trying to do their own thing. Trying to harvest value from data. Something, sufficiently not efficiently. Something
+[00:03:45] Effectively, but it was like a siloed approach. We were not playing as a team and we need to realize that analytics is a team sport. So we need to find a balance between
+[00:03:59] this centralized bottlenecks, but efficient capabilities and easier to govern and this
+[00:04:05] Freedom, that we don't want it to become an anarchy.
+[00:04:09] so, we need to find a healthy balance in the middle and
+[00:04:15] Maybe could you are going to say okay Andreas you're going to tell me about have and spoke models. Well there, this is an idea that's okay, but who wants to be a Spoke?
+[00:04:27] And I'm going to tell you something, I'm reviewing my home.
+[00:04:30] Right now and I'm the owner of my home.
+[00:04:33] And if I bring the technical guy, the architect and the architect tells me that I must do everything in a certain way. Maybe I will not be happy.
+[00:04:43] I I'm the owner, I want to make things the way I want to be.
+[00:04:48] Uh, the architect might tell me, what do I need to be compliant with the law might make me recommendations, but I'm still the owner. I want to feel like a owner and my own business users have the same issue. They want to feel like the owners.
+[00:05:03] And from data governance, we are telling them. You are the owner of your data, but then we are not letting them be the owners if we have a centralized organization. So what we need to do is
+[00:05:15] Collaborate between it and the business. And again, the franchise world is something that works very well to explain what we are trying to achieve because like McDonald's. For example, is a very recognizable brand.
+[00:05:28] So, they have a standard.
+[00:05:30] And we are providing a standard from our centralized point of view.
+[00:05:34] But we are letting as well. The different, um,
+[00:05:38] teams and different business users.
+[00:05:41] To tailor the specific standards to their needs. So there's a co-ownership, uh, co-governance, uh, Co delivery strategy so basically, we are co-leading so
+[00:05:53] in this franchise model, what we are trying to get is, um,
+[00:06:00] Let's say that the business feels that they they are franchise owners, not someone in a spoke that they need to do what they are being told for.
+[00:06:12] Okay, so this is a way for bringing this consistent and efficient delivery without losing this alignment with the specific needs of our different teams.
+[00:06:26] With this approach.
+[00:06:28] the idea is that we are going to be able to be
+[00:06:31] more efficient and also to scale in an easier way as McDonald's. You can start opening franchises in a specific region.
+[00:06:40] Without needing to open everything in the whole world. But then iteratively you will
+[00:06:45] Open more franchises in your organization. So this is again a metaphor that works very well to explain what, what we are trying to look for. Okay?
+[00:06:53] So today, we are going to talk about these 2 things. The first 1 is
+[00:06:58] How do we start? Uh, franchise analytics, franchise modeling an organization and what and and and why?
+[00:07:06] and second, uh,
+[00:07:09] how can we enable this using something that you have heard about a lot, that is data products and data products and analytics products. This is like chocolate and strawberry. They mix very well. So this is something that well hope you will like strawberry and chocolate. But this is something that work together. Very, very well because this product approach will help us. Well,
+[00:07:30] Providing this standards to the different uh analytics franchises. And we'll we'll see how
+[00:07:37] so,
+[00:07:39] When we have analytics franchise, we have 3 c, 3 key ingredients.
+[00:07:44] The first 1 is this balance between the centralized and the decentralized team.
+[00:07:51] And how do we achieve that?
+[00:07:54] so, this balance, um,
+[00:07:56] How would they say this? Uh, the centralized team should take care about the house? Things are being done?
+[00:08:03] And the decentralized team should take care about what is being done. So, the centralized team provide the standards, provide the architecture, provide the technology, provide the platform.
+[00:08:13] Provide as well.
+[00:08:15] Uh, roles like technical leads for data, engineering for V for data science. But those are people that are not going to really build the solutions, maybe some of them but not all, they are going to tell how to do it. They are going to evolve these capabilities in order to make it easier.
+[00:08:36] To the decentralized teams, to build their own things. Uh, so in the decentralized community, the decentralized teams, we will have citizens in the designs. We will have
+[00:08:47] citizen data Engineers. We will have citizens Bea developers that they will leverage the capabilities provided by the central team. They will tailor it to their needs.
+[00:08:57] And then they will be able to deliver what?
+[00:09:00] They really know because they are the ones that know.
+[00:09:02] What exactly do they need to achieve their business goals? Because that's what we're looking for, capturing value, and delivering value.
+[00:09:11] So that's the first ingredient. We need to find a reasonable balance between centralized and decentralized organization.
+[00:09:18] In the second place, we need to acknowledge that analytics is a team sport.
+[00:09:23] And we have different skills that are needed for succeeding in analytics. And the first 1 is the domain and understanding
+[00:09:31] And domain understanding comes from business experts. Come from the domains.
+[00:09:36] We need technical skills as well to develop this kind of solutions and we need analytical skills.
+[00:09:43] And have you ever met?
+[00:09:45] Met someone that excels at these 3 skills.
+[00:09:49] I think this is like finding a unicorn that plays the piano wall.
+[00:09:53] IPhones on unicorns but none of them play the piano.
+[00:09:56] It's really difficult to hire them. And if you're lucky and if you have 1 or 2 in your organization, congratulations. But it's really difficult to bring this kind of skills in a single person. So you need to bring
+[00:10:09] A team and this it doesn't need to be a team, a very big team, maybe a couple of persons, a couple a couple of people is enough for this. Maybe you can have someone from the business team with the main understanding, some analytical skills.
+[00:10:23] someone from the centralized technical team with technical skills and some analytical team skills, and
+[00:10:30] and you may have heard this morning in the keynote that
+[00:10:34] Teams now can be smaller with the help of Agents. So we can bring that as well.
+[00:10:39] So instead of looking for 1 person in a centralized team that knows everything bring together. This Fusion teams.
+[00:10:48] Leverage, agentic AI as well and gen AI to make them more productive. But
+[00:10:54] This is a team sport. So at least the main understanding and technical skills are really difficult to have them in a single person.
+[00:11:01] And last but not least.
+[00:11:03] This prototype first governance framework that I'm including here. Uh, sometimes when we have a centralized team and we asked the team, uh, we want you to do this kind of requirements.
+[00:11:15] Sometimes the first answer is no, I cannot do this.
+[00:11:18] We need to change that mindset and say yes. We can do that, but we can do it. Only in a prototype environment in a control environment, in a sandbox environment. Let's test the hypothesis and then then we will include all the bells and whistles that we need to go burn and manage and operate everything. But let's first do something in a controlled environment so we can test our value hypothesis. And that's the Prototype uh, funnel that we can see there. Then we can evolve to a pilot
+[00:11:46] Then we can go to production. But when we go to production,
+[00:11:50] is when we involve the very expert technical skills, we first have
+[00:11:56] The the sandbox environment in which we can test.
+[00:12:00] This value hypothesis. So we can prioritize in a better way. That's the main idea and this is common sense.
+[00:12:06] But sometimes we are not really doing it this way. So it's good to remember that we may be doing this kind of things.
+[00:12:14] So the first step when we want to, uh,
+[00:12:19] Prepare for this analytical franchise model is to Define.
+[00:12:24] This high level organizational chart in which we have the central team and the different franchises in different business units. Different domains or different, uh areas or regions of our organization.
+[00:12:37] And it's very important to say here that we don't need to do everything at once.
+[00:12:41] We can start with a small Central team.
+[00:12:45] That defines the platform defines the best practices defines the standards, then we can choose 1 or 2 domains.
+[00:12:53] Maybe HR maybe supply chain.
+[00:12:56] And we start iterating, and improving this model.
+[00:13:00] Because this is a balance and the balance needs a little bit of iteration to get it right? And this is not technology, what we are talking about, we are talking about people. So when we talk about people, we need to acknowledge as well, that is very difficult to. Well, to see this kind of, uh, balance that we are looking for.
+[00:13:18] So, once you have a couple of franchises working, well, make them visible,
+[00:13:23] And more domains will come.
+[00:13:25] And then you can grow iteratively by doing that. We will decrease the
+[00:13:30] Risk of the deployment.
+[00:13:32] and,
+[00:13:34] Usually we say that our DNA teams are under staffed, do you agree with me, raise your hand. If you agree with me that the the young teams are under staffed
+[00:13:45] Well, quite a lot of hands.
+[00:13:46] All the other ones.
+[00:13:48] Do do you think that they are overstaffed?
+[00:13:52] Raise your hands. No 1.
+[00:13:54] Do you think that they're over stuff? Okay, we need to move them to the business.
+[00:14:00] Uh,
+[00:14:02] but majority thinks that they are understaffed because they are becoming a bottleneck. So instead of having more people, if we hire more people, maybe we will end up with a situation that the 1 that you are thinking about, um,
+[00:14:13] if we bring more people from the business, we
+[00:14:15] These franchises, we will have more capacity. We will have these Fusion teams and we will.
+[00:14:21] Not uh incur in additional uh stuff costs.
+[00:14:25] So this team play uh, will allow us to to grow as well. So instead of bringing more people to a centralized team, let's bring more capabilities to these franchises, so they can do their own thing.
+[00:14:39] so, we
+[00:14:41] Do something that is called The Gardener materiality score. So we asked you, we asked data analytics leaders, uh, some questions about their current state and we provide these kind of maturity assessment and there are some questions and there are some insights that I got from this, uh, maturity assessments.
+[00:15:00] And then the first 1 is the first 1 is that only half of of organizations.
+[00:15:05] Are really leveraging a Sandbox environment as I was describing before.
+[00:15:11] So this is a call to action if you have a Sandbox environment. If you are 1 of these 1 out of 2 organizations that have a Sandbox environment. Congratulations, you should continue using it. If you have 1,
+[00:15:24] That's a action that you can start bring a Sandbox environment, so you can Define prototypes, and instead of overwhelming, your expert, technical people that are, uh, have a backlog bigger that they can uh, that they can process.
+[00:15:40] Provide this kind of sandbox environment, so you can safely prioritize and test your hypothesis.
+[00:15:46] and only 1 out of 3 organizations, have a product manager have this product mindset
+[00:15:52] So again.
+[00:15:53] if we want to implement this funnel in which we are continuously improving, it's important that we have this funnel, uh, this capabilities, these roles, uh,
+[00:16:03] Available as well. So if you don't have product managers or data product owners or analytics product owners, think about bringing this role into your teams.
+[00:16:15] and,
+[00:16:16] Reality is not as easy as the previous, uh, organizational model that I shared.
+[00:16:23] In some cases, some of the franchises will have more capabilities. They will be more proficient.
+[00:16:30] And other will be less proficient. So we need to address the situation, we need to play with the resources that we have.
+[00:16:39] So, the solution for this situation is what we call the variable mandates.
+[00:16:44] So, depending on the proficiency of each franchise, we can let them be more autonomous or less autonomous. So, for example, some franchises that they have only a small capability. They uh, they they can only maybe they can only use the data that we are already providing.
+[00:17:03] And maybe build some visualization but by themselves, but we are not going to let them bring their own data, uh, Implement their own pipelines, or Define their own semantics.
+[00:17:15] And I will stop here because semantics are really important.
+[00:17:18] Because semantics is something that traditionally we have been implementing in a centralized way or maybe even in a data engineering team.
+[00:17:26] But remember what I said at the beginning of the talk that we want to enable natural language query capabilities. We want to enable agentic Analytics,
+[00:17:36] and,
+[00:17:37] Analytics, agents AI. Any AI will need something beyond the llm that is powering the, the agent they will. They will need knowledge about the organization knowledge about their processes, and I will be speaking again, on Wednesday about context about the context layer knowledge, engineering. That's a topic not for today, but you need to build
+[00:18:00] This kind of knowledge in a way that is understandable by these agents and who is going to build this.
+[00:18:09] Not it because we don't have the knowledge about the nuances of the business processes.
+[00:18:15] So we need to bring in all these tacid knowledge that lives in organization.
+[00:18:21] To provide this kind of machine understandable representation of the knowledge who is in a good place for doing that. The analytics franchises because they are in the business, they are lying to the final business goals.
+[00:18:34] So semantics are something important. So, if they are not very proficient, they will not be able to define semantics, but if they are more proficient, maybe a level 2, what? We are calling them here, we
+[00:18:45] Might lend to find their own metrics.
+[00:18:47] And that's perfect and we might let them. Um,
+[00:18:52] Promote to production, this kind of metrics.
+[00:18:55] But only for their own consumption.
+[00:18:58] Because they are citizen, uh, technical people. So maybe we don't have this ability to promote everything to the whole organization and we you will need more mature franchises to do that and as well. Some, um,
+[00:19:13] Some capabilities from the centralized team in order to make sure that everything goes smoothly. So you can let not very proficient. Uh, franchises do their own visualizations, you can let more proficient franchises combine data and do their own Pipelines.
+[00:19:30] And you can let the more mature franchises to Define some metrics and maybe even to share it with all the other organization, with the help of the centralized team. So this variable mandates are really important as well.
+[00:19:43] So last, but not the least, what I would like to address is.
+[00:19:47] This arrows that we see here in the in the organizational model and these arrows are bi directional. So we have we have franchises. Franchises are not only
+[00:20:00] Doing things for themselves, they can contribute for the whole organization.
+[00:20:04] Uh, think about, uh, I spoke about McDonald's a couple of times. So in Finland, some years ago, they did an experiment. They did the MB
+[00:20:15] Burger because there was demand for vegan burgers and what did McDonald's, uh, do they let Finland to test this hypothesis?
+[00:20:24] And it would quote. So they expanded first to Sweden, then to all the nordics. And then now there's a much bigger offering in many menus. In many markets of McDonald's.
+[00:20:36] so this is a way that
+[00:20:38] In both directions, the central team can provide additional tools and additional ideas to the franchisees. But the franchises they are also contributing
+[00:20:48] to the whole organization. So, this bidirectional, these 2-way arrow is really critical.
+[00:20:56] So,
+[00:20:57] Why a franchise model? Because it
+[00:21:00] Accommodate this Regional variance that I was talking about. It can also bring this additional Knowledge from the
+[00:21:07] Domain franchise teams, to the central organization and to the overall organization. Um, it's going to be co-own it. So it's easier to bring the business in, if we follow this model and we don't need to do it all at once, we can roll it out. Incrementally.
+[00:21:27] so,
+[00:21:30] let's go to the second part that it was talking about.
+[00:21:33] and,
+[00:21:35] Why data products and analytics products are important.
+[00:21:39] For franchises.
+[00:21:40] because we want to align to the business and usually traditionally, uh,
+[00:21:45] And again, let's be honest. We are going to have been very very honest today.
+[00:21:50] we are not usually very
+[00:21:52] I think there are lack of rigor is a characteristic that many times happen when we see a business franchise or a business team, uh, trying to manage data and trying to work with data data. And for me, when I was managing, this kind of situations when I saw very big Excel files, it was like scary. What's going on in this files? There's no as software development cycle there is no quality assessment so we need to be a little bit more. Uh,
+[00:22:23] We need to provide this kind of engineering best practices to to our franchise teams.
+[00:22:27] so, with the traditional approach, as you can see here,
+[00:22:30] we weren't managing requirements, uh,
+[00:22:34] The requirement that got prioritized depending on the most paid person in the room so if the boss says it, I'm going to do it but there's no rationale there. We weren't evaluating in a structured way. The return of investment of each initiative that we had, we didn't have support.
+[00:22:51] Uh, maybe who did this Excel file? Who did this dashboard? If it's on PTO if it's on holiday, we don't know what happens. We need that person to return uh because like
+[00:23:03] Uh, we didn't have good performance because we were in testing for performance. We weren't uh checking that the quality of the information that we were consuming was the right 1. So this was an nightmare for
+[00:23:15] For dashboarding and reports. Imagine now,
+[00:23:18] With the multiplying capability of AI energy Ki what can happen if we don't get this right.
+[00:23:24] so again, we need to go back to this best practices and with product management and data products and analytics products we can have, uh,
+[00:23:33] More structure, life cycle, more clear defined and deliverables. We can provide artifacts from the centralized team to reduce the cognitive load of the teams, but to make sure that we are going to increase quality checks Define slas for for performance.
+[00:23:48] Prioritize in a collaborative way, the requirements prepare a role Maps. So this is a better way to to do things.
+[00:23:56] and,
+[00:23:58] the final goal is to achieve some
+[00:24:00] Like this, this is a sample vendor, it's called metric insights. I recommend you that take a look, uh, in the in the floor, in the vendor floor there and speak to them. There are many vendors that are doing this kind of things, uh, but this is metric in sight as an example.
+[00:24:14] and,
+[00:24:15] What you can see here is something like the experience is like when we open Netflix and Netflix has a lot of information in it and we browse the catalog we have recommendations, we have different types of content there and it's easy to navigate that catalog.
+[00:24:31] And this kind of catalog is something that uh we believe that is very useful as well. And look at the golden stars that we have there, the gold stars that means that this specific artifact is uh certified by
+[00:24:45] A specific team because it followed a specific. Um, well checklist of quality, for example. So when you consume this data, you know that you are safe. If there's a gold star and you know, well that it might be some risk if there isn't, but at least you understand it, you can browse it, you can find things. Uh, you can have maybe some conversational interfaces there as well. So the idea here is that
+[00:25:08] beyond the developing capabilities and delivering data. You need to provide this kind of catalog capabilities and this kind of eux experience for your business users in order to help them find what they really need.
+[00:25:23] and again from this maturity score, we have additional insights here and we are seeing that only 43% of organizations
+[00:25:30] Ations have this kind of capabilities, you might buy them with a vendor like metric insights but you might build it as well. Uh, you can buy code this kind of portals and Define your own requirements but it's important to
+[00:25:44] Put focus and and a knowledge importance of the user experience when you are delivering insights.
+[00:25:50] So, make them easy to to be fine found.
+[00:25:53] And this kind of gold stars that I was talking about only 13% of organizations are doing this.
+[00:26:01] Why are not with doing this?
+[00:26:04] Because it's not so difficult.
+[00:26:06] and,
+[00:26:07] It makes our users life much easier.
+[00:26:10] so, this is a kind of
+[00:26:13] Easy to achieve capability.
+[00:26:15] That 9 almost 9 out of 10 organizations, have the opportunity to implement this.
+[00:26:20] and,
+[00:26:21] I promise that. If you do it, you will
+[00:26:23] you will start finding a more satisfaction in your users. More trusted data that you are delivering.
+[00:26:29] And who is doing this kind of things. So I brought this case study about Medtronic, uh,
+[00:26:34] They started this journey and the important thing here is that this is a journey. This is not uh,
+[00:26:41] 1 project that you do in 1 month. What, uh, Medtronic did is they brought this pushing teams together, they called them inside teams. They have this Central team that provides the platform. Provides the capabilities provides the best practices. And, and they can, they, they help.
+[00:27:00] they have, they, they initial, uh, provide resources to
+[00:27:06] speed up the, the
+[00:27:10] the formation of the initial, uh, teams of the initial.
+[00:27:14] Um, franchises, they call them, they don't call it franchises. They call it inside teams, but this is the same idea.
+[00:27:20] And they bring together all these capabilities to deliver insights and they did that in a journey. So they started uh, 3 years ago, with this foundations, with, with the capabilities with the standardizing the the the tools that they were going to use uh, defining this best practices, these models.
+[00:27:41] And now, they are being able to deliver predictive and prescriptive analy.
+[00:27:45] Federated way.
+[00:27:46] And they are aiming at, that's what they are starting. Now in this, uh, in this year, they are now aiming to enable agentic analytics, agentic Predictive Analytics. So all that I said about
+[00:28:00] Leveraging, the knowledge in the different franchises and business teams about their specific, domains, and Define it in a machine. Understandable way. They are doing it, so they can enable identical analytics and make this promise a reality.
+[00:28:15] So,
+[00:28:17] We are wrapping up the session now, so some recommendations.
+[00:28:21] The first 1 is remember.
+[00:28:24] Your business teams are owners of the data, they own the business.
+[00:28:30] Business goals. So don't call them spokes.
+[00:28:33] Let them be franchise owner operators. They own their own franchises so they call it, they cover, uh, everything that we are doing.
+[00:28:42] Bring this pushing teams together. Remember.
+[00:28:46] Domain skills. Technical skills, they need to collaborate, this is a team sport.
+[00:28:52] Provide variable mandates acknowledge that not all every franchise is going to be equal. So some of them need to follow.
+[00:28:59] Different procedures, different guidelines and they might be, uh, empowered to do more or less things.
+[00:29:06] And well.
+[00:29:09] uh, provide this kind of
+[00:29:12] feedback and user interfaces to help.
+[00:29:15] Our users to consume the data.
+[00:29:16] So, by doing this, we will be closer to this balance that I was talking about, at the very beginning of the organization, and we will be more likely to achieve what we expect from analytics in the present, an agentic analytics in the near future.
+[00:29:32] So, thank you very much for your attention. This is the amount of time that I have for today show. Enjoy the rest of the conference. I'll be around if you have any questions. Thank you very much.

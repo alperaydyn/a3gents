@@ -1,0 +1,15 @@
+{
+  "session_id": "4591317",
+  "title": "Conference Orientation",
+  "speakers": "Eleanor McGrath-Williams",
+  "time": "8:00 - 8:30 AM",
+  "date": "Monday, May 11",
+  "location": "Maritime Suite 24, Level 3",
+  "session_url": "https://cn.gartner.com/BIE27I/sessiondetails/4591317",
+  "has_files_csv": true,
+  "media_fetched": false,
+  "documents": [],
+  "errors": [
+    "Media API HTTP 500: 500 Server Error: Internal Server Error for url: https://api.ct.aws.gartner.com/ConfAggService/agenda/GetAppointmentMedia/13225/4591317?LanguageCode=en"
+  ]
+}

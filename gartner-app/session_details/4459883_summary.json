@@ -1,0 +1,97 @@
+{
+  "summary": "The session debates the future of business intelligence (BI) in the context of artificial intelligence (AI), with Julian advocating for AI's transformative potential while Carly emphasizes the enduring value of BI. Both speakers agree that AI and BI can coexist and enhance each other, rather than one replacing the other. The discussion highlights the importance of governance, accountability, and the need for a balanced approach to analytics in organizations.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction and Debate Setup",
+      "key_points": [
+        "Introduction of the debate question regarding AI and BI",
+        "Julian's belief that AI will replace BI"
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:04:30"
+    },
+    {
+      "order": 2,
+      "topic": "AI and BI Relationship",
+      "key_points": [
+        "Carly argues that AI will enhance rather than replace BI",
+        "Discussion of the evolution from Hadoop to Data Lakes"
+      ],
+      "start_time": "00:04:30",
+      "end_time": "00:10:30"
+    },
+    {
+      "order": 3,
+      "topic": "Analytic Authority and Governance",
+      "key_points": [
+        "Discussion on who owns analytic authority",
+        "Importance of governance in BI and AI"
+      ],
+      "start_time": "00:10:30",
+      "end_time": "00:19:00"
+    },
+    {
+      "order": 4,
+      "topic": "Cost and Value of AI vs BI",
+      "key_points": [
+        "Debate on the cost-effectiveness of AI compared to BI",
+        "Concerns about AI insights potentially being more costly"
+      ],
+      "start_time": "00:19:00",
+      "end_time": "00:24:30"
+    },
+    {
+      "order": 5,
+      "topic": "Democratization of Insights",
+      "key_points": [
+        "AI's role in democratizing analytics",
+        "Need for a semantic layer to avoid chaos in insights"
+      ],
+      "start_time": "00:24:30",
+      "end_time": "00:30:00"
+    },
+    {
+      "order": 6,
+      "topic": "Conclusion and Recommendations",
+      "key_points": [
+        "Final thoughts on the coexistence of AI and BI",
+        "Recommendations for improving analytics processes"
+      ],
+      "start_time": "00:30:00",
+      "end_time": "00:32:37"
+    }
+  ],
+  "key_takeaways": [
+    "AI and BI should work together to enhance analytics capabilities.",
+    "Governance is crucial in ensuring accountability and trust in analytics.",
+    "Organizations should document their analytics processes to leverage AI effectively."
+  ],
+  "entities": [
+    {
+      "business intelligence": 10
+    },
+    {
+      "data lakes": 5
+    },
+    {
+      "governance": 6
+    },
+    {
+      "semantic layer": 4
+    },
+    {
+      "ai native": 3
+    },
+    {
+      "data gravity": 3
+    },
+    {
+      "predictive analytics": 2
+    },
+    {
+      "self-service analytics": 2
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

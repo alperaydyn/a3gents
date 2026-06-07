@@ -1,0 +1,173 @@
+[00:00:03] Hello, welcome to the second last second last session for day 3. How's everybody doing?
+[00:00:11] Energy is okay, feeling good?
+[00:00:13] Still excited, brains full. Uh, I know many clients at this stage of the conference are kind of going. I don't know if I can take any more.
+[00:00:21] But I appreciate you. Thank you very much for for staying here today. Um,
+[00:00:27] I urge you to work in the structure data world for about 25 30 years but in the last kind of 3 years, since Jenny I came out, I'm getting more and more questions from Architects about unstructured data,
+[00:00:39] We may have to start managing it, or at least the companies asking more about Ai, and what do I need to do with regards to deal?
+[00:00:45] With unstructured data, we're going to start bringing these into various applications. And if you've attended my other sessions, you kind of know why I like analogies
+[00:00:52] Uh, I talked about it in the context of skiing.
+[00:00:55] If you've ever been skiing at a resort before, you know, they have different grades and different difficulties of skiing. You have to kind of follow the rules to make it down, the slope safely but generally you're working on a groomed slope.
+[00:01:06] The snow is predictable, you follow that Trend, and it's kind of just the lines and the, uh, rows similar to what you see in a database table, very predictable. And as long as you follow the rules, you make it down, okay?
+[00:01:17] but now, with AI
+[00:01:19] We're kind of going back country.
+[00:01:21] More and more data sources are open to us now. And we're not quite sure how to kind of navigate them and in the world of unstructured data.
+[00:01:28] even though you're following the same principles of
+[00:01:30] Seeing you're starting to kind of go downhill on 2 pieces of wood or carbon fiber. Uh but the ground's different
+[00:01:36] The texture of the snow will be different. You need different types of squeeze and equipment to be able to kind of Traverse the terrain carefully need to be more careful of the Rocks because they may be hidden.
+[00:01:44] Uh, you had to be careful of avalanches.
+[00:01:47] So, all these things are starting to kind of creep in, and that's kind of the scope and expansion of what we're seeing again. As you start to bring unstructured data into the data management sphere.
+[00:01:56] So why is unstructured data now? So important.
+[00:02:01] So, let's look at just the taxonomy. I guess what, we break down, we talk about the different data structure types. So structured has always been rows and columns typically database tables and often in spreadsheets. Uh, semi-structured using Json and XML is all
+[00:02:15] Also been kind of a a factor and often used within that, but it hasn't metadata tag and so it's often something that can be traversed and processed by technology or by by code. And then we've had unstructured data
+[00:02:27] and it's been around for a long time.
+[00:02:29] It's not that new but primarily it's been just used for human consumption.
+[00:02:35] In terms of How It's been processed, we haven't actually had the ability for machines to use it at scale. There certainly have been AI projects out there for the last 10-15 years, which I'm looking at different types of image processing, but it hasn't really been mainstream in the data management context.
+[00:02:48] and,
+[00:02:50] Effectively what that means is in pregen AI. This was kind of the scope of what most typical data analytics professionals have had to worry about.
+[00:02:57] But now with Genai the whole
+[00:03:00] Gambit.
+[00:03:01] There's no subject to processing with regards to, with regards to a data management application. This is why we're starting to see this growing trend of questions. Come come into, uh, come into Gartner.
+[00:03:13] So why is it so important now?
+[00:03:16] Right now, we've estimated about 709% of data inside an organization is typically unstructured. So, that's a huge footprint that we've never really had to take into account. I still talk to a lot of organizations who are just dealing with the 10 to 30% of their data that's structured and they still struggle to manage all of that. This is now problem, that 3 to 10 times bigger,
+[00:03:36] We're also predicting that by 2028.
+[00:03:39] Application leaders and people who look after content are going to receive the direction of the metadata, they need to collect from data.
+[00:03:45] Analytics leaders because we have to now support this for AI between we have to establish context. So the metadata requirements are going to be now increasingly dictated from the data management side and then passed back to these application leaders overall.
+[00:03:58] And we're also seeing an increase in spending. So for multi, structured data management, it's going to account for 40%.
+[00:04:04] Of the total it spend.
+[00:04:08] And even a bigger prediction if you're looking at, kind of the bigger footprint, I guess where Ai and what AI data management is having to have a most of your organizations are predicting over the next kind of 4 years. We're going to see a 7x spend
+[00:04:20] On getting data, ready for AI.
+[00:04:25] so,
+[00:04:27] What does that mean? I guess from a data management perspective. Now this is
+[00:04:30] A retrieval augmented data, architecture. We look at again how we do the monitoring. Do some of the data prep and the augmentation. This is all predictive of what the AI model does once it gets the data. It needs.
+[00:04:42] But when you look at where the data management focus is, it's this little blue square.
+[00:04:47] That's gotten us and it really hasn't had that level of attention that it needs in terms of, how do you get the data ready? What type of tools and techniques? Are you going to do? And how's that going to be supported as you try and support these applications and many more that you start to incorporate into your organization?
+[00:05:06] When we start looking at different types of use cases, again that need unstructured data again. There's still the classic AIML
+[00:05:12] Use cases that are out there so you'll see stuff like customer segments.
+[00:05:15] Ation.
+[00:05:16] Fraud detection, inventory, forecasting. Looking at how you can process documents social media posts understand what people's intents are and how that can be incorporated to these types of activities.
+[00:05:27] We're seeing a growth again, in domain specific functions, too. Again, chat Bots,
+[00:05:31] Have been around for a while, again, they're increasing. Now, as a result of Jen, AI
+[00:05:35] Um, summarization of documents being extraction, of contract from large, contract, documents, and terms of specific terms or phrases. That might need to be okay. Counted for or also popping up increasingly. We're seeing stuff like claims processing,
+[00:05:48] being handled increasingly through AI agents.
+[00:05:51] And eventually again as we start to move into the agentic AI phase, we'll see stuff like customer service, automation being fully serviced, it also enhances the Knowledge Management.
+[00:06:00] As documents get created, they can be then mapped to a taxonomy or an ontology and incorporated into the knowledge base in a much more automated fashion.
+[00:06:11] Then how do we start to look at managing?
+[00:06:13] Unstructured data for AI readiness.
+[00:06:17] And if we look at a simplified architecture,
+[00:06:21] For unstructured data management. We see capabilities such as data integration for unstructured data, and this may incorporate again standard integration patterns, but also utilizing stuff like OCR or various types of code, parsing to incorporate data into a vector database. You also need to be able to do stuff like chunking and embedding in many cases to be able to get the data into the vector database to be processed.
+[00:06:44] You'll see un.
+[00:06:45] Structure of data quality also began to pop up. Now, unstructured data quality is quite a bit different than what we've done. Typically in data quality in a structured World. Generally you have 2 layers of metadata. You have a data describing out the data set is you have an internal metadata structure that tells you what the data content should be.
+[00:07:01] And typically when we've done assessment of unstructured of structured data, we've always compared the metadata definitions in the in the column level to what the data was. And if we matched up, we had good data that didn't match. You had bad data.
+[00:07:12] And the unstructured world. There is no 1 internal context.
+[00:07:15] So the only way you can actually get good quality is actually from the metadata itself.
+[00:07:19] The data itself.
+[00:07:21] In a sense is always always perfect.
+[00:07:23] but it's the metadata that describes it that tells you, whether that data is appropriate, whether it's relevant, whether it can be trusted, that'll be
+[00:07:30] Become the key to unstructured data quality. As we start to step into this and try and manage it.
+[00:07:36] I'll be unstructured data governance.
+[00:07:38] Again, typical 2 Data governance you'll see we look at policies again around privacy security and access control looking at documents from a classification point of view. But also looking at the internal attributes of them that they have a sensitive data or a particular phrases, that need to be redacted, we had to be taken into account.
+[00:07:54] And of course, the access controls around the classification of documents. We've also need to be taken into in factored in and this may affect how Vector databases consume that data or what could be surfaced by the AI as it's being queried.
+[00:08:07] And finally, we'll be looking at unstructured metadata management primarily through data catalogs.
+[00:08:12] and sematic knowledge, graphs and we're seeing
+[00:08:15] Some vendors start to step into this.
+[00:08:18] into the spear again, documenting unstructured data assets, looking through, um, share points or other types of document areas where they can kind of capture and help document the metadata there of the of the documents and some cases, extracting
+[00:08:29] Knowledge from it, matching it to a taxonomy or an ontology. In other cases, there's actually been tools that have been out there now for 20, or 30 years that have been working with unstructured data and trying to manage it and actually have a lot of these Concepts already built in. And we'll get into some of that a little bit later.
+[00:08:47] But look at the architecture. If you're used to data architectures, you're kind of saying, well, this just sounds like data management.
+[00:08:53] And you'd be right.
+[00:08:55] In fact, thinking about unstructured versus structured data is probably a bit misleading. You need to think about structure
+[00:09:00] Data is really just a different type of asset that requires new new tools platforms and techniques to be able to manage it again. Similar to our downhill skiing
+[00:09:09] Going from Backcountry to a g to from the resorts to to the backcountry area. It's just slightly different equipment and slightly different awareness in terms of what you're working with and how you're going to Traverse it.
+[00:09:23] So, if you're going to start to update your architecture, to take into account on structured data, I guess, you can start taking the individual pieces and look at how they might be a little bit different from a data ingestion. Point of view in structured data worlds, we still have the odbc. Uh rest jdbc options with regards to how do we connect the databases and extract the data for unstructured data are going to be looking at doing Discovery and Gathering via different types.
+[00:09:45] To contact connectors. This also May utilize apis, if you're types of document databases uh file an application shares.
+[00:09:53] For data pre-processing. Again, we'll be looking at different types of data enrichment Technologies and modeling that we typically had for structured data.
+[00:10:00] Going to the unstructured data world again. We're going to have to have classification of what a document might be doing different types of extraction enrichment uh possibly using different types of validation. And even using OCR for image files that we may need to kind of turn into text.
+[00:10:14] for metadata capture typically, we've always relied on the data catalogs, to be able to do this to capture again, our names, our relationships and our usage metadata
+[00:10:22] The unstructured world, you have various types of metadata. You need to collect, there could be system metadata such as a creation date.
+[00:10:29] You may have application.
+[00:10:30] Data. So the document type that produced the document, that produced this you'll have content metadata in terms of the themes that that document or text may represent.
+[00:10:39] You have various process metadata. So where does the document fit in terms of a business process and how that relates to that? And you also have permissions with regards to who can access a piece of document who can access a document again, how it can be utilized.
+[00:10:51] For data lineage. Uh we've always relied on guest various types of data lineage tools through ETL processes, the track again, where data goes from 1 table to the next, uh, in the impact analysis are going to do and stuff like duplication. Maybe archiving deletion inversion at versioning of different types of of text. So a document itself. Once it gets created, sort of becomes a permanent feature. You don't update a table or kind of move it. So instance,
+[00:11:15] You may create different versions of it and again, you're going to be tracking that similar to what you'll be tracking lineage of the types of uh from a database table.
+[00:11:25] From a data quality. Point of view, we've always relied on profiling, looks at the relational analysis, doing examination of the metadata to the data itself and really trying to determine what we have with
+[00:11:35] Unstructured data, you're getting into kind of more content, management doing rote analysis, looking for redundant obsolete trivial integration and then trimming that knowledge or content base down to the material that's relevant to your organization.
+[00:11:48] And you want to look at. How do you make that content, accurate, pertinent and trusted. And there's techniques again in other areas or other research of areas of Garner that actually describe this uh in in a lot more detail.
+[00:12:00] For the data filtering again. We're getting this for unstructured data again, stuff like production looking for sensitive data. Uh, how do we chunk this? And again, put it under to accommodate uh stuff within a within the context Windows of a large language model
+[00:12:13] For governance again on the unstructured pieces we don't just look at row level attributes. We start to look at either folder level or even document level kind of controlling. We may do redaction of individual elements within a document to remove sensitive data uh where it needs to be contained.
+[00:12:34] And finally, with semantic modeling, again, you go from business. Semantics to support the self-service, uh, to help to business business, semantics to help ground the llms in terms of the business context. And again, how it document.
+[00:12:45] Can be utilized and incorporated into a response on a prompt.
+[00:12:49] So all these areas just kind of slight changes and subtle again looking at your existing base how you can start to extend that and begin to kind of incorporate and Advance your data architecture to include these other new types of techniques you're going to have to follow up to do these same practices. I guess you've always done in a data management context, but just then evolving them to deal with these new data types.
+[00:13:10] And there's something interesting starts to happen. When you look at how we're now processing. Unstructured data, we're often relying on AI.
+[00:13:17] To help us do data management.
+[00:13:19] So, we can do the data and putting it back into an AI.
+[00:13:22] And we're getting this kind of circular logic and this is another kind of feature area. We tend to see in a lot of the research, a lot of the questions we get from our clients these days is
+[00:13:30] Am I doing data management for AI or is AI? Helping me do data management? And the answer is both,
+[00:13:35] The advances is technology will help us do better and help us process this data effectively. Again, there's just too much of it for traditional techniques to be able to scale and be able to do this and in corporation that will help then help us Advance again. What we get from, um, get from our documents in terms of processing it with AI for other types of business purposes.
+[00:13:59] And again, you want to start looking at, how do you align your AI capabilities to those used cases? So again, start with the quick wins
+[00:14:06] Not everything is a gen AI. Not everything. Requires a large language model. Look at the classic AI IML. Again, how do you start doing different types of model? Labeling of documents?
+[00:14:15] How do you start to use a non-lead detection to help improve elements of data quality? Much of that is already in place with like tools like data observability.
+[00:14:24] You want to then move on to more domain specific functions. Again, how do you start improving your chunking? How do you do? The metadata enrichment again to convert those text into the vectors that you need. How do you automap? Those documents to The Logical groupings. Be able to do it again, tools out there to help process, uh, and align documents to a taxonomy or an ontology will help improve this feature. Again, to help improve the results you get from AI as a process, your documents.
+[00:14:47] And as it gains for the maturity, again, a genetic retrieval help identify documents that may be part of a knowledge store, begin to evolve and of course multi-agent orchestration around how you do data integration, how you do your data Ops and your data management.
+[00:15:00] Practices will begin to follow on.
+[00:15:02] So, who are the vendors that can help?
+[00:15:06] When I first started looking into this, I kind of looked at it from a pure view of a of a structured data management person. I looked at data at at unstructured data and I just said, there's nothing out here, it looked pretty Barren overall and uh, there's been actually a couple of areas that I've seen.
+[00:15:20] Have been around for quite some time. Now, traditional data management. Vendors are starting to kind of step into this, uh, into this Market companies. Like, calibra have bought a company called deecee labs and they have their unstructured, AI proposal. Again, this allows you to scan documents and get aligned that information to a taxonomy, help improve results and get better organization out of it.
+[00:15:39] Uh, Informatica have added uh the ability to kind of load Vector databases.
+[00:15:44] through the
+[00:15:45] Through their data integration capability and helping support some of the chunking and embedding capabilities out there. And of course data bricks and snowflake have also been adding other other features.
+[00:15:53] There's been a number of specialized vendors appear recently in the market companies, like, anomalo have usually started off in the structured, uh, data observability field. They've also added again, an unstructured data component to look at text documents that come in. They can help with then align that to an AI model, but they can also do ongoing observability as you feed new data into a database or into a vector database to make sure. Again, it's still fits. The use case that you defined again, allowing you to filter out or Moni or filter out on the irrelevant documents to that particular knowledge base or also to begin filtering and search searching for sensitive data. That may be contained in there.
+[00:16:29] Uh, unstructured.
+[00:16:30] Rio also helped again do loading into Vector databases uh ilalo again, is another company that tries to map out and put some structure around unstructured data again just to make it easier and more accessible.
+[00:16:42] The hyperscalers, uh, Amazon. Google and Microsoft have all had capabilities to get with regards to doing search with text, uh, being able to use uh, AI search and again, doing text extraction.
+[00:16:55] Uh, palantir, we've heard about before again. It's been working with again on structured data also, for a number of years.
+[00:17:01] The ones that really surprised me.
+[00:17:04] because I've been in the structure world where the companies like document content management,
+[00:17:08] Many cases. These companies have been doing this for 30 years or more
+[00:17:12] These technologies have been around a long time, even from client server.
+[00:17:15] Errors in terms of how they've been doing it. In many cases they've been very Niche, focused insurance companies, use it, for instance, to kind of help document management processing when they're doing claims processing. It'll fit into a workflow. But because these companies focus on a lot of the quality aspects,
+[00:17:29] Looking at the document, capturing the metadata understanding its Providence.
+[00:17:34] And then kind of, uh, helping to map that to the business process in terms of how it can be responded. I've always been in there and they've usually relied on Consultants to help complete the loop. In terms of trying to automate these processes to a certain degree.
+[00:17:47] Uh,
+[00:17:48] some of these companies are now adding their own workflows and AI agents on top of this, to help automate those claims processing activities and various types of form processing activities in a much more automated fashion.
+[00:18:00] Another interesting group, our data storage Services vendors.
+[00:18:03] That's a bit of a mouthful to try to say fast. But um again these managers have been around in many cases for a number of years. Uh, they primarily have been working with the it teams since the since about the launch of big data and we always started accumulating large volumes of documents over time. They've just been many cases building up in databases.
+[00:18:22] talk to some clients, uh, an IT manager reached out to me and I said,
+[00:18:26] I've Got 5 petabytes of data sitting in a server, I need to move it. What do I do?
+[00:18:30] How do I get rid of it or how do I pair it down? And these types of solutions are typically focused on that they'll scan documents and start to kind of build up metadata profile for them. Capturing some of the base information that can be utilized.
+[00:18:43] But then again, allowing them to add different.
+[00:18:45] Play some enrichment to them, to be able to kind of enrich the metadata profile. Again making them more accessible giving you different options to move and and visualize data. So again you can make it relevant to a particular context in terms of how it either way you need to delete it or again, make it available to another type of you use case.
+[00:19:01] Uh, NetApp, for instance, has also gotten our partnership with Informatica. So again, they provide a lot of the scanning capability, they have the depth to be able to scan those assets and in partnership with someone like an Informatica company, they can start to enrich that business metadata and incorporating that with the structure and unstructured worlds,
+[00:19:16] uh, companies, these companies have been a little bit reluctant.
+[00:19:20] To talk to the data management spaces. Um, I've had 2 reactions
+[00:19:25] 1 is like data management, people don't know it.
+[00:19:27] I'm not going to, I don't want to waste my time talking to them.
+[00:19:30] Um, they're starting to kind of realize that there's world that these worlds are starting to collide a little bit. Uh, other companies kind of said, I've been waiting 15 years for you to come. Talk to me.
+[00:19:39] And just sitting there. So, because again, they've always kind of thought they've been sitting out there in the wild and just kind of focusing on these Niche areas and they're kind of surprised to kind of see this is happening. But these are some of the areas that are starting to kind of converge.
+[00:19:51] And it's important to keep in mind that these other Technologies are here because they also have a lot of practice behind them and 1 of the predictions. Again, we've had in this case here is that if you go out and try and build your own metadata capabilities around trying to catch capture and document these things you're probably going to incur costs 300% higher.
+[00:20:08] than if you just use some of the existing technologies that are in there and so thinking about that, as you build out your data strategies, you want to
+[00:20:15] Look at again, what already exists in the organization. What can we use? Is there a lot of expertise and resources and met metadata that we can leverage that will help these AI projects as we move forward.
+[00:20:25] And this is not something you're really going to be able to ignore. If you're in the data management in the data management sphere uh again data leaders that don't learn how to feed multimodal data hungry.
+[00:20:37] Ai and we'll start to fall behind and executing on these AI strategies. So this is again, something that's going to require attention from uh a space. We've traditionally as as data management people probably haven't had to deal with before
+[00:20:50] so, as an action plan,
+[00:20:52] To kind of get kicked off. Uh, we have our
+[00:20:55] Monday morning. Take the 2 days off. After the conference. I'm tired. I know you.
+[00:21:00] You guys are probably tired here too. Um, go and review your organization's, AI strategy.
+[00:21:05] Find out what the plans are find out what the priorities are and again, where those data sources that you might need to start, accessing are going to be located.
+[00:21:13] I start to look for any content leaders out there who may have already been working in this space who have a good handle on this data and be able to kind of give you some support with regards to uh, understanding the data extracting metadata or coming up with some techniques and processing your practices, with regards to how you manage this content as you start to incorporate it into your data management architecture.
+[00:21:35] Assess your in the next 90 days, then.
+[00:21:37] Assess your current approaches on how unstructured data sources are managed and governed.
+[00:21:44] Unstructured data.
+[00:21:45] Governance has already been happening.
+[00:21:47] We've got a new word for it because it's kind of in the data management sphere, but it's existed in other forms, inside your organization, records management data, privacy and security.
+[00:21:57] Document content management all have practices with regards to how data income in how it can be classified when it can be deleted and how you ensure quality.
+[00:22:07] So look at all the skills and technology that are available and engage with those colleagues and begin building, relationships with them, help them understand the data strategy, that's out there again, what they want to be able to do with the data and try and understand where policies might need to be respected, particularly, and stuff, like records management where stuff may have to be deleted or retained, depending on what gets created as a record, um, and try and build those relationships again to try.
+[00:22:30] In advance that data strategy.
+[00:22:33] And again, start looking at your future State needs.
+[00:22:36] Identify those gaps in your current technology and start making plans with regards to again, how you can close those gaps in line with the data with the AI strategy, that you're trying to execute on.
+[00:22:45] And finally, over the next 12 months again, look at updating your data strategy.
+[00:22:50] Update your reference architecture and start to incorporate that unstructured data plan into that into that format.
+[00:22:57] Then socialize, that plan again, with the various stakeholders start getting feedback, start getting Buy in, not just for the technology pieces but also for the governance actions.
+[00:23:07] And the quality standards you're going to have to maintain as you go forward.
+[00:23:10] And there's a lot of different research on the data management side. We certainly been doing a lot of
+[00:23:15] Research in this area around governing data looking at unstructured data quality. Uh, but in some the bottom line here, the uh structured content. For unstructured data, that's in another area of data digital workplace. These are the guys who have always done. The content management again have a lot of depth in terms of research and how to deal with unstructured data. So, these are other research areas in Gartner. If you don't always have access to may be useful to you, too, as you start to advance this step.
+[00:23:39] Uh,
+[00:23:40] and I'm going to be give you a little bit of a mine's a little bit of a break. So I hope you enjoy this session. I found a useful and I'll be available for questions if you have any further things to say but thank you very much.

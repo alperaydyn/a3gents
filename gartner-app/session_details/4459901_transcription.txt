@@ -1,0 +1,320 @@
+[00:00:04] Hello. So already
+[00:00:07] Near the end.
+[00:00:09] 3 days. Go by so quickly.
+[00:00:12] um,
+[00:00:15] this session is about the shall we say the complex relationship between Ai and sustainability?
+[00:00:23] and by the way,
+[00:00:25] Just for clarity, whenever I say, sustainability in the context of this session, I mean, environmental sustainability. So relates to topics like energy, carbon footprint, water consumption. What have you?
+[00:00:40] Now, I would like to start with this. This is the Beautiful.
+[00:00:45] Flower.
+[00:00:46] Known in English as the Fox Glove.
+[00:00:49] Um, it's scientific name is Digi Talus.
+[00:00:53] And in this case, it's the digital is Pera.
+[00:00:57] Now, be careful because this flower is beautiful as it may seem is also quite poisonous.
+[00:01:05] When you use it too much, your heart rate will go down and unfortunately, most people then will die.
+[00:01:14] Uh, however.
+[00:01:16] If you use it just enough. It is also an excellent. Well, recently rediscovered.
+[00:01:24] Medicine for certain heart conditions, especially the heart conditions, where the heart rate.
+[00:01:30] Is too high but only if it is applied in the right dosage.
+[00:01:35] Too. Little it won't be effective too much. You will die.
+[00:01:40] So that make me think well.
+[00:01:43] It also relates to AI, of course, right. We're talking about AI here.
+[00:01:48] And also for AI. We want to apply AI in such a dosage. If you like that, we keep the balance.
+[00:01:56] In such a way that the benefits continue to outweigh the costs.
+[00:02:03] The benefits.
+[00:02:04] Of course should be about business value, right? Financial gains
+[00:02:10] But also, as I will argue in this session.
+[00:02:15] AI can play the positive role when it comes to supporting certain sustainability outcomes. And I will show you some examples of that during the presentation.
+[00:02:28] However there is also the other side of the balance. The costs again Financial costs costs to mitigate risks but also
+[00:02:37] that is 1 of the sort of growing concerns around AI.
+[00:02:42] The massive use of energy and also water for cooling purposes.
+[00:02:49] We will talk about that more during the session.
+[00:02:53] But the essence.
+[00:02:56] Is to make sure we keep that balance in.
+[00:03:00] the, you know, in a manner
+[00:03:02] We, we wanted to stay.
+[00:03:05] More benefits than cost. So, uh, that is why
+[00:03:11] We are going to talk about several topics. First, I will briefly go into some examples that demonstrate that AI can actually be very powerful to support our organizations to achieve to support certain sustainability outcomes.
+[00:03:29] I'm emphasizing that because we shouldn't dismiss AIS. Only something that is bad for sustainability.
+[00:03:38] But then in the second part, we will go a bit deeper into the reasons why AI is so.
+[00:03:45] You know, so it's becoming more and more.
+[00:03:49] Uh, a huge consumer of energy and water. And then in the third part,
+[00:03:56] we're going to explore some of the things that we can do. You can do in each of our organizations, you know, to do our bit in Striking the right balance.
+[00:04:07] That is the menu.
+[00:04:09] And the first part is, as promised is about examples. This first example.
+[00:04:16] Comes from, as you see the Olympic Games in Paris?
+[00:04:21] where,
+[00:04:22] AI was used very actively.
+[00:04:25] By the organ, the people organizing the events.
+[00:04:29] Amongst.
+[00:04:30] Sellers for safety. You know, using Ai and cameras to
+[00:04:34] To for what they call crowd management, to detect when things go may go wrong.
+[00:04:41] but importantly, there were using AI to optimize traffic flow to, you know, to
+[00:04:49] Optimize the timing of things and, you know, to give directions to people. What is the most? What is the best way to get from venue to venue B, Etc. So and then they compared that with, they create a simulation
+[00:05:05] And they compared the benefits of doing that with doing nothing or at least, not using AI.
+[00:05:11] and they came to the,
+[00:05:13] Well, in my eyes.
+[00:05:15] Quite impressive.
+[00:05:17] Result that thanks to the use of AI.
+[00:05:20] They could reduce the carbon emissions by 47%.
+[00:05:25] Which is massive, right?
+[00:05:27] Another example comes from the Spanish city of Bilbao.
+[00:05:32] This time. It relates to water.
+[00:05:35] The uh, utility company there.
+[00:05:38] Is uh, dealing with what they call aging infrastructure. It's starts to leak. If you do not write leading to water.
+[00:05:49] the loss of water, which is, you know,
+[00:05:52] Especially in Spain as you probably know, Spain is getting hotter and hotter.
+[00:05:57] And especially in the summer time water.
+[00:06:00] Is in demand. So they
+[00:06:02] also what they did is to start using AI amongst others, to predict what are demand. But then also to pinpoint areas where water consumption Maybe
+[00:06:13] You know, more or less than others. And also, they started to use AI to predict.
+[00:06:20] Based on the age of the pipes and what have you where the risk of water leakage is highest and therefore, where maintenance or replacement has to be prioritized.
+[00:06:32] and as a result,
+[00:06:34] It's not just that they achieved more efficient maintenance.
+[00:06:39] but also from an environmental point of view, they greatly reduce the actual loss of
+[00:06:45] Water because of leakages.
+[00:06:47] So that is another example of hey I how AI.
+[00:06:51] Is not only helpful to Achieve Financial outcomes but also to help, you know uh to improve the environmental impact of whatever we are doing.
+[00:07:06] Well, that sounds hopefully rather positive.
+[00:07:11] However, the reality is, of course that there is also the other side of the balance, right? The impact of the use of AI in terms of energy and water consumption.
+[00:07:23] So, that is what we're going to explore. What?
+[00:07:26] You know, how is that?
+[00:07:28] How can that be? Yeah.
+[00:07:30] How and how is that evolving? And what can we do, by the way, to reduce that. So,
+[00:07:36] Overall.
+[00:07:39] Perhaps unsurprisingly giving the massive hype around AI.
+[00:07:44] We see that the the demand for compute power is growing.
+[00:07:50] Exponentially right in Europe alone.
+[00:07:53] The year on year growth is 250%.
+[00:07:58] And World At Large, it's even more.
+[00:08:02] Now, the good thing by the way, is not just that, it's
+[00:08:05] Uh, maybe to say something positive here. I also saw recently that in
+[00:08:11] Munich in Germany. They opened a data center.
+[00:08:15] Enter that is completely powered by renewable energy.
+[00:08:19] Which is good. You may say it is. However, we should also be aware that, you know, the buying power of the companies.
+[00:08:28] Building those those data centers is massive.
+[00:08:31] and,
+[00:08:33] There are, you know, their procurement of solar panels and wind turbines or whatever. They use is also having an impact on the market and
+[00:08:42] Re raises prices and also makes the availability of those renewable energy sources less for others. So still
+[00:08:51] Concerning.
+[00:08:53] and um,
+[00:08:56] You probably heard, you know, in the media that companies like
+[00:09:00] Microsoft and other similar.
+[00:09:03] you know, hyperscalers, as we sometimes call them,
+[00:09:06] Are also even investing in to own their own nuclear power plants, right? Just to have power availability for their
+[00:09:15] massive compute power, a massive data centers. So that is having a. So what is causing that? Well, first and foremost, it's the training.
+[00:09:24] You know, as you know these models like GP and Claw and many others by now, right, we have a choice.
+[00:09:34] All of them need to be trained and all of them.
+[00:09:38] Leverage The
+[00:09:40] you know, 1 of the reasons why we had this sort of breakthrough Innovation with
+[00:09:45] Which you know, well actually was before Chet. But
+[00:09:49] anyway, a few years ago, 1 of the reasons of that breakthrough was because we we were able to train models in a parallel fashion. We could in principle, we can scale them endlessly.
+[00:10:03] But that is endlessly from a sort of
+[00:10:06] Algorithmic perspective, right? We can use massive amounts of data to carry with techniques like So-Cal self supervised learning. We can that sort of opened the doors to to the creation to the feasibility of creating huge models that we are using today.
+[00:10:24] Like GPT.
+[00:10:27] But of course in reality is that the sky is not.
+[00:10:30] New limits, right? Well, from a sort of mathematical or theoretical point of view, it may well be endless.
+[00:10:37] but the reality is that now we are actually
+[00:10:40] getting into a Zone if you like where people are more and more concerned about
+[00:10:47] the availability of enough energy for building, even bigger AI models.
+[00:10:54] Which is not only concerning for AI itself, right?
+[00:10:58] Because it means that some of those Investments may go nowhere. If the we run out of energy and that may sound far-fetched, but if you look at the numbers,
+[00:11:09] that may be closer than we than we think it is but of course also from an environmental
+[00:11:15] Sustainability point of view, we should be concerned about this massive consumption of energy.
+[00:11:21] so, the reasons are that actually, you know,
+[00:11:26] Many of those AI firms.
+[00:11:29] Seem to act as if there is no limit to their capital.
+[00:11:34] And their energy and the compute power.
+[00:11:37] Which frankly sometimes makes them lazy.
+[00:11:41] Right? If you have endless resources, there's little incentive to optimize your way of working.
+[00:11:49] Yet, there are ways change. You know, there are several other
+[00:11:54] Emerging.
+[00:11:55] Or existing firms and some of the existing ones are also start.
+[00:12:00] Starting to realize that they should become more efficient.
+[00:12:03] So they start using reusing existing models. For example, if you want to create as an example, a domain specific or so-called small language model,
+[00:12:15] Well, small.
+[00:12:17] Less big is perhaps a more appropriate word?
+[00:12:20] Then uh that makes it more efficient or at least.
+[00:12:24] Less inefficient is perhaps more appropriate.
+[00:12:28] to say also, what we see just to highlight 1 important thing is to
+[00:12:34] Those AI companies. Well, at least increasingly not all of them become more.
+[00:12:40] Aware about.
+[00:12:43] the fact that
+[00:12:45] We call the uh let's say the diminishing returns of endless training of models.
+[00:12:51] so the the principle is shown here on the on the horizontal axis, we have the the energy,
+[00:12:58] Used and on the vertical axis, we have the benefit in terms of further model performance Improvement.
+[00:13:07] And the Curve.
+[00:13:09] Conceptually looks like this. So initially when you start training, of course,
+[00:13:15] Oh, of course but at least it goes up quickly.
+[00:13:18] But then at some point, you know, it starts to flatten down.
+[00:13:23] and and then you reach a point where you should Wonder okay for this 0.000000
+[00:13:30] 1%, further Improvement.
+[00:13:32] Is is that still worth the consumption of energy? And by the way, also the financial cost of
+[00:13:39] Continuing training.
+[00:13:41] And then the question is at some point. Of course, no.
+[00:13:45] There is, but believe me that there are many AI firms who as I mentioned.
+[00:13:52] at least in the recently were not that aware of this and they were just
+[00:13:57] You know, using compute power as if it was for free.
+[00:14:02] So that
+[00:14:03] is 1 way to, you know, to stop.
+[00:14:07] earlier, to avoid the waist of compute, power and energy for
+[00:14:15] Only very marginal gains.
+[00:14:19] The other reason why we see the massive growth of energy consumption is because we use it.
+[00:14:28] This is what we call influencing the actual, you know, we use Chet Gemini, co-work, whatever.
+[00:14:37] Lucia from Minstrel.
+[00:14:39] To mention another 1 for a change.
+[00:14:41] and that, of course, takes energy because we are with
+[00:14:46] Billions of people.
+[00:14:48] and not to mention the growing use of AI agents who are even more addicted to using llms right that you know, not it's not unusual
+[00:15:00] That an average AI agent.
+[00:15:02] Invokes an AI model, you know, hundreds thousands of times per day. Much more than we humans do.
+[00:15:10] now again,
+[00:15:12] That is, you know, concerning from a financial perspective because often we see that agentic AI, uh initiatives May the costs May spiral out of control.
+[00:15:24] But again, it's also concerning from and sustainability perspective. So, uh, the reason is that often we are using rather mindlessly AI models even if it's just for fun or even if we actually don't have to
+[00:15:43] We will come back to that later.
+[00:15:45] But there are actually.
+[00:15:48] the good news is that there are increasingly ways or practices available
+[00:15:54] to improve 1 that I wanted to highlight here.
+[00:15:58] Is the use of model routing or model gateways.
+[00:16:04] This is basically, you know, using be
+[00:16:08] You know, not having your chat bot invoke, some model directly. But rather having it
+[00:16:16] Use a model router or model, Gateway as an intermediate, like a broker, if you like, which takes the request your prompt or migrant and then analyzes it and says, well, you know, your prompt.
+[00:16:30] Maybe. Well first. Well, you could even, you can program, it yourself. Well, maybe you can even refuse it. Say, well, if you want to use a model for this then, well,
+[00:16:39] Not at work, right? Use your own private, uh, token. But yet
+[00:16:45] Um, but you can also say, well, you know, this request is actually. Why would we use an expensive? I don't know. Commercial llm for this. Maybe we can.
+[00:16:57] Answer this question perfectly fine because it's seems to be less complex or perhaps we have an slm or you know, a small language model or another model that is cheaper or more energy efficient. So it's a culmination of, you know, financial and sustainability criteria that you can use to.
+[00:17:15] To steer the request towards the model of choice rather than leaving it to the user or the chatbot to make that selection.
+[00:17:25] so that's, um, another thing, by the way that I should mention here is
+[00:17:30] That prompting can often be much more efficient, right? Sometimes people,
+[00:17:36] think that AI is a person and then
+[00:17:40] I think they must be polite and they say, well could you please perhaps help me with Etc and then you know, all those words are completely needless.
+[00:17:50] It's not a person. It's a machine. It doesn't have feelings that only pretends to have feelings. So our prompting in other words, can often be much more.
+[00:18:00] Efficient.
+[00:18:01] Less tokens.
+[00:18:03] There's no need to you to add the word please, but that's the easier example. So there is a framework that if you want you can use its called the Gartner's reflect framework you can use for a prompt training so you can prompt your employee uh to prompt, you can train your employees and better more efficient prompting.
+[00:18:23] Again, not just for sustainability but also because better prompting also in on average leads to better results, right? So that is another reason to do it.
+[00:18:34] But also it's about making people aware that AI is not for free.
+[00:18:41] you know, using AI to
+[00:18:45] Innovate, a single image, it depends a bit on the complexity of the image Etc.
+[00:18:50] But takes on average, the equivalent of charging a smartphone.
+[00:18:56] 1 time or even 200 times, just to put it in perspective, it is really quite costly.
+[00:19:04] So,
+[00:19:05] Just to make that visible for people alone, you know, helps to drive awareness and reduce unnecessary use of AI.
+[00:19:15] okay, so then the third part, I wanted to highlight here relates to the actual Hardware, the infrastructure that we use to power AI, of course, we all heard about gpus,
+[00:19:27] But that's, there's more to it. It's also about
+[00:19:30] You know, uh, of course, you need to store data. It's the networking. Its processing of the collecting of data.
+[00:19:38] um, and then, you know,
+[00:19:42] To cut a long story short there is a lot of hardware needed for AI and often we see that.
+[00:19:48] You know again perhaps a bit of abundance of capital in the current hype climate.
+[00:19:57] People forget to look at things like power usage, carbon usage. That's the meaning of those abbreviations you see here or water usage efficiency. Those are metrics.
+[00:20:11] used to basically monitor but also,
+[00:20:15] so,
+[00:20:15] uh, evaluate, you know, you can design the infrastructure in many ways and
+[00:20:21] 1 criteria and of course, is the efficiency and the performance. But other criteria are also is this the most energy efficient setup.
+[00:20:31] All right. So or can I use my cooling water for instance to for heating elsewhere, as an as a simple example? So anyway, the point is that, that sort of energy, that sustainability perspective,
+[00:20:49] Is often.
+[00:20:51] Not, you know, it's sort of undervalued in how data centers are designed and constructed and operated.
+[00:21:00] And of course, it can be better.
+[00:21:02] Right. So, um, there are several trends that help to, you know, to make that uh, infrastructure more efficient, if not for sustainability, as I mentioned, but then for AI itself, right? It is in the interest also
+[00:21:19] also of also in the commercial interests and the general advancement of the field,
+[00:21:25] Uh, we should recognize that you really should become more effective.
+[00:21:29] especially also, when you think that
+[00:21:32] a, if we want to ever reach AGI, you know, human like AI
+[00:21:37] Which, you know, depending on how you define it is still many years away, at least in the definition.
+[00:21:45] Of garter of gardener and how we how we project it.
+[00:21:49] Um,
+[00:21:51] but anyway, that aside the point I want to make regarding
+[00:21:54] the advancement of AI.
+[00:21:57] Is that we humans are actually incredibly energy efficient right our brains. Yeah, they consume energy as you know, being at this conference for 3 days,
+[00:22:09] but it's still and even if you take your entire upbringing,
+[00:22:13] And all the food you consume right to go to school and get educated Etc.
+[00:22:19] Even then we are still significantly, more energy efficient than AI. So if you ever and which you know, is not just to sort of
+[00:22:30] You may say, is that necessary then? Well, well, it is becomes more necessary if you want to deploy AI into robots or sustainable or sustainable into autonomous vehicles or systems that need to operate, you know, disconnected from the grid as an example.
+[00:22:50] Anyways, so, uh, there are several uh, Trends. There 1 is, for instance, the uh the invention of U
+[00:22:58] Of neuromorphic computing and sort of new generation of chips. That is much more energy efficient
+[00:23:05] Also of course, you can play a role Yourself by insisting or selecting cloud service providers that you know, use renewable energy.
+[00:23:15] You could even use what we call Green shedding. So if you have, if you work with data centers, that are
+[00:23:22] solar powered, then use the data centers that are actually in the, you know, in the daytime Zone.
+[00:23:30] Anyways if you can control that right, many of us can't control that we just use the services of a cloud service provider.
+[00:23:38] Excuse me.
+[00:23:40] Um, so I was skip this for the sake of time and move to the first part where we
+[00:23:47] Uh, need to talk about what we can do in our organizations.
+[00:23:52] so, we have
+[00:23:54] identified a number of activities, from what we call Frugal AI strategy to
+[00:24:00] Sustainable scaling.
+[00:24:01] And each of those activities, I will briefly address.
+[00:24:07] 1 is as I mentioned Frugal AI strategy, which as the name implies
+[00:24:13] is about creating an AI strategy, which
+[00:24:17] is wise to do anyway.
+[00:24:20] but then,
+[00:24:22] Also incorporate sustainability, objectives and align that.
+[00:24:26] Through Google, AI strategy with your overall organizations or companies.
+[00:24:33] CSR goals or whatever.
+[00:24:36] You call that in your organization, right? And that is relevant because you know some companies are relatively, you know, we just
+[00:24:45] Want to comply, you know, we are just managing mitigating the risk.
+[00:24:51] To companies that are very ambitious and want to, you know, want to use want to actively work on reducing, for instance, their carbon footprint and see it even as a way to differentiate themselves from their competitors. Right? To have a green reputation, can even be a commercial benefit.
+[00:25:10] So the the message here is that, or the question rather is, where is your organization on this spectrum? From least to most ambitious when it comes to sustainability and then once you know this align your Frugal AI strategy with that ambition level or
+[00:25:30] You want you can perhaps even debate it but that's up to you. Alright? So that is
+[00:25:35] Um, a little bit about Frugal AI strategy, then the other 1.
+[00:25:40] a bit more practical is to say, well,
+[00:25:43] I already alluded to that when I mentioned this, um, making it visible for people how much energy is being used if they use AI.
+[00:25:53] you can do that also in a more systematic manner, for instance by um, including
+[00:26:00] or let's say using your AI literacy, the training that you do to educate your employees in the use of AI.
+[00:26:09] But I also incorporating the topic of sustainability in that training, you know, just to add it.
+[00:26:15] And create more awareness about it.
+[00:26:18] but more formally, you could also say, well,
+[00:26:21] In our governance.
+[00:26:23] you know, in the reporting in the monitoring, that we do of our AI initiatives,
+[00:26:28] We want to also incorporate what we call here sustainability, risks.
+[00:26:33] There are several Frameworks emerging to help you do that. You don't need to reinvent your own wheel here. For instance, 1 is the French
+[00:26:43] Well it's not a very appealing name. I have to say off North spec 20. No 2340. But anyway, it's a framework.
+[00:26:51] that contains metrics and ways of how you can calculate or estimate the actual, you know,
+[00:26:59] Uh, envir.
+[00:27:00] Environmental impact of your AI initiative.
+[00:27:03] So you can add that to your own list of things you want to keep track of when you are governing AI.
+[00:27:11] What else? Well more technically.
+[00:27:14] You know, if you look at AI is not just about infrastructure, right? It is
+[00:27:19] many things that are needed for AI.
+[00:27:22] and to what we
+[00:27:26] What we recommend is to, you know, to add to apply a system to each of those layers.
+[00:27:34] Here is an overview and I don't have time to go through all the boxes here. There is a reference at the end of this presentation that points to a gardener note,
+[00:27:45] Where we go through all these boxes. Um, in containing practices that you can apply to improve these different layers from a sustainability perspective.
+[00:27:59] Right to from embracing so-called green software engineering. So
+[00:28:04] also thinking about, you know, if I develop a function or an algorithm how much energy does that actually take,
+[00:28:13] To, well, all kinds of other things. So just this is, but the, the, the, the, the, the essence of this is that, as you can see,
+[00:28:23] It's not just in the infrastructure or your data management. It is the board that you can uh try
+[00:28:30] To improve sustainability.
+[00:28:32] What else? Well,
+[00:28:34] Then we have to think about where do we use AI for, and when do we not use it? Where do we not use it for?
+[00:28:43] And um, because we often see that also, by the way, with agentic are
+[00:28:49] that sometimes it's used as a sort of Silver Bullet.
+[00:28:53] Even in cases, when it's actually not necessary, right? If you don't need to use AI while you use our well, because that is not only costly from a sustainability point of view. But it's also, you know, often comes with a certain, no probabilistic not, so reliable outcome, so,
+[00:29:15] Sometimes you can Implement use cases just as well with conventional automation technology like RPA or workflow. Automation there's not always a need to use AI
+[00:29:25] but I'm getting ahead of myself because what we are talking about here is this so-called optimal AI Impact Zone, this is
+[00:29:34] No.
+[00:29:35] It's really quite simple.
+[00:29:38] on the horizontal axis, we have the complexity of the use case you are implementing
+[00:29:43] On the vertical axis. There is the value that AI can bring to the use case.
+[00:29:48] If it's low, we are using AI unnecessarily, right? We could have used another cheaper.
+[00:29:58] Less energy in.
+[00:30:00] Intensive technique. It's Overkill to use AI on. In the middle, we find The Sweet Spot, but then on the Other Extreme, we find use cases where, actually, AI is not good enough for right? So we, we are wasting again.
+[00:30:17] Ai, and the energy, it takes because
+[00:30:21] It's too too difficult for ai. Ai is not a miracle cure. There are use cases where we still need to do things ourselves.
+[00:30:30] Us humans.
+[00:30:32] So in those cases, the high complexity use cases.
+[00:30:36] We don't want to use AI either. So in between is what we call the sustainability sweet spot.
+[00:30:43] So, be aware.
+[00:30:45] Aware of where AI supplies and avoid unneeded or useless ways.
+[00:30:53] Now finally, um, I know we're a little bit out of the over time but this is 1 of the final slides. We going to, if we want to scale, AI further
+[00:31:03] I think it's also important to work on a mindset. A culture where AI
+[00:31:09] Is actively used not just to boost efficiency or achieve other business outcomes. But it's also proactively used as a tool to support your own sustainability.
+[00:31:22] And often they go hand in hand, right? If you reduce the, I don't know. If you're a manufacturing, if you reduce the fuel consumption by your
+[00:31:30] Machines, well that's not only good for your wallet but it's also good for for the environment.
+[00:31:37] So, work on that sort of frame, that sort of, mental mind that mindset that AI is, you know, also a catalyst for Innovation for the good of sustainability.
+[00:31:51] And, of course, a proactive approach where you, you know, proactively uh, propose areas where AI could could apply in that manner is very helpful.
+[00:32:03] Now finally some recommendations or rather a summary on the benefits side. As I mentioned, apply AI in its sweet spot and proactive proactively, apply a
+[00:32:15] Are where it can help to boost uh your uh sustainability goals on the cost side.
+[00:32:22] Make sure that you are, you know, uh, that you have those sustainability risk in your strategy, in your governance and the evaluation of the use of AI. Do not use AI as a silver bullet, because first of all, it's not feasible, it's not always useful, but it's also bad for the environment.
+[00:32:44] And finally,
+[00:32:46] Now let's all contribute to reduce the energy and water consumption by AI by selecting, you know Cloud providers that prioritize renewable energy or by applying those practices.
+[00:33:00] Is that if we talked about, uh, ourselves, thank you very much for your attention.

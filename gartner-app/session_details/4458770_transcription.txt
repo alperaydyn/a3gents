@@ -1,0 +1,185 @@
+[00:00:04] Hello.
+[00:00:05] And welcome to best practices for implementing a data catalog.
+[00:00:09] As a gardener analyst, I speak to hundreds of clients every year. And I take a lot of calls about data catalogs, and there's usually 1 very consistent question from the people I work with, and they kind of say, I bought a data catalog.
+[00:00:21] But I can't get anybody to use it.
+[00:00:23] Did I buy the wrong 1?
+[00:00:26] And the answer I often say is not really, maybe not but you may not have bought the right 1 either.
+[00:00:31] Because you don't necessarily understand the use case that you've implemented and I start off talking about the idea of a data catalog. I think about it, buying a map or building a map before a modern Cathy happens. So you had the Pirates who would go build
+[00:00:45] Own treasure maps, and they'd often interpret the land forms and the landmarks Orion and map out these things.
+[00:00:50] And so the skill of the mapmaker was 1 attributes that caused difficulties against reading it.
+[00:00:56] The other half was the skill and ability to of people to interpret what that map had on it that caused those difficulties. So that's 1 kind of challenge around the data catalog, kind of component that we tend to see
+[00:01:10] The other aspect of it is that people also tend to build their own versions of the same map, multiple times, each doing their own interpretation each putting their own different distinctions on it. And, of course, this creates different versions of the truth.
+[00:01:24] So people began to distrust either the maps or they may have trouble reading either 1 and again having difficulty navigating.
+[00:01:30] Getting the assets and this just creates a lot of confusion within the organization in terms of what data is valuable and how they can start to access it.
+[00:01:39] So today we're just going to get into the ideas of why is adopting a data catalog. So challenging
+[00:01:45] how to data catalogs, support data and AI initiatives.
+[00:01:49] and again, what you can do to improve your chances of success
+[00:01:55] So very often when I'm working with clients. Again these fine they have a number of strategic issues when they start to kind of kick off a data cataloging project. The first 1 again is poor alignment of the metadata they like a. Why?
+[00:02:05] From a very technical aspect of data management. It's obvious why you need metadata management. You need to understand what artifacts are there, where they exist. Maybe we're sensitive
+[00:02:15] Data persists or from a business standpoint, they don't necessarily see the benefit of this.
+[00:02:20] What's the outcome going to achieve? How does this help me improve revenue or reduce costs in terms of the organization?
+[00:02:27] There's often poor communication about the business requirements. So to build an effective catalog or to document your metadata effectively, requires some input from your business stakeholders in terms of what the definitions mean, again, how they can be applied, and taking time, and effort to try and catalogue and map those to the technical assets.
+[00:02:44] There are often can be a long payback period.
+[00:02:46] Simply building up documentation itself, doesn't do anything, valuable immediately. The payback in some cases can take longer to period of time when things change, when people begin to move around the organization and all of a sudden, you begin wondering, how does
+[00:03:00] That pipeline work. What is that data actually mean?
+[00:03:03] And there may not necessarily always be a single version of the truth. Some different groups may have different versions of their of the same data and use it for the wrong particular context and coming with a unified. Harmon, harmonized view of that may not always be possible and how those get reconciled within the organization can also be challenging.
+[00:03:22] From a guess clinical point of view, when you look at data or metadata in your data strategy, no metadata is required to make data visible accessible trustworthy and interoperable.
+[00:03:34] So what helps again, a lot of those classic kind of data management aspects. But again, it's not always clear to the business in terms of what that means. And the reason for that comes down to visibility
+[00:03:45] So, very often, we talk about a business outcome.
+[00:03:48] Trying to achieve business value value. We build a data strategy and of course everyone gets on board and they're all excited about it. They start talking about how we're going to start utilizing AI or predictive models, to kind of achieve this outcome, everyone understands, but then we start getting into the technical aspects of how do we support this?
+[00:04:04] The it portions of beta storage and integration began to come in, play data engineering, and the data Ops also play a factor. And finally, we get down to the catalog metadata management documentation of aspect of this.
+[00:04:16] Very often the business is already moved on.
+[00:04:18] I think in this thing's going to be run and they don't really understand uh where their as where they're going to be involved and even if it is communicated very often, they want to get the value first from the AI initiative to prove that there is some
+[00:04:30] In that concept before, they start investing more time and energy into kind of doing the documentation and some of this detailed work.
+[00:04:37] The communication what's needed and why is also important. So we've had this model before in terms of the 4 different types of metadata going from the technical to the operational and to the business piece. And when you look at what that data means, um, in terms of context value, so the technical pieces, uh, tend to have a low context value, they show you what tables are there and how they're defined they work. Well, for the engineering teams lineage will help you show how data is connected together and help you begin to kind of do some kind of levels of impact analysis, but the really you kind of get the business context from it. You need to start having ontologies taxonomies controlled vocabularies.
+[00:05:11] And mapping that to your data.
+[00:05:14] Even the social media.
+[00:05:15] Data aspects in terms of how people utilize the data or different aspects with regards to the developer. Feedback can also be important with regards again, how that business value goes in,
+[00:05:24] And it goes from more of an IT managed.
+[00:05:27] Components that can be automatically scanned to the business managed pieces, which are often more manual and time-consuming to do.
+[00:05:36] This is our metadata management maturity model. We look at these kind of 6 classifications or 6 uh stages you go through as you begin to kind of improve your metadata management. Now most organizations we speak to are probably between a 0 and a 2.
+[00:05:48] and many of them are trying to go from a stage 1, where they say they have maybe a number of different, Silo catalogs or different methods of storing metadata, they usually maintain their own definitions and they kind of keep things as is, but as you try and
+[00:06:00] An Enterprise View.
+[00:06:01] Of this time, you need to start bringing groups together. You need to get control vocabularies consistent, uh, terminology in terms of how things are described and be able to kind of do those descriptors. And it takes a lot of time to get groups to collaborate, and understand the value of that, and then spend time documenting those assets,
+[00:06:17] And this can actually have a lot of high effort, but not necessarily showing a lot of return on investment upfront.
+[00:06:25] The return on investment comes a bit later. Once you get into these active preactive stages, where you can start doing analysis of metadata, we can start driving automation, we can start including AI that can then Traverse your data infrastructure. That's where you begin to kind of see the benefits from the automation, but there's this
+[00:06:42] Hump, you have to get over to be able to do it. It could be
+[00:06:45] Troublesome to sometimes convince the business uh, that this is actually worthwhile and you're actually going to start to see benefits from this.
+[00:06:51] And our surveys when we do, uh, examinations of where organizations are in terms of their metadata management. Maturity. Most organizations are still what we call in the passive modes, the 0 to 1 0, to 2 stage, that we described. So a small percentage of them are starting to get active more active and uh metadata practices that put in place and are starting to see the benefit from this. Uh but still again it's it's an area where we see all organizations struggle constantly.
+[00:07:15] There's also a number of technical issues you see when we implemented data catalog. Uh the first 1 is a skills deficit. People don't realize cataloging is a skill. Uh, 1 of the things I did when I was researching, this particular piece was starting to find.
+[00:07:29] People who used to be.
+[00:07:30] Go to cataloging and I found librarians.
+[00:07:32] Actually have been doing this for, well, thousands of years.
+[00:07:35] In many cases they've built up the discipline in terms of the skilled uh controlled vocabularies and managing different types of domains and putting together. Ontologies in terms of how you organize and and structure information, and very often much like our early Maps
+[00:07:49] Uh, many organizations build catalogs right now.
+[00:07:52] They're building from their own perspective and they're using your own kind of terms and definitions and structure, and this can cause some challenges there.
+[00:07:59] There's a Time deficit again. We expect many of our business partners to to contribute to this. Uh, they don't necessarily understand or M most local contribute 5% of their time, but during the build phase, it usually is a little bit longer, um, a little more effort required to make this happen.
+[00:08:15] Off in a poor understanding of the metadata requirements. Again, a data catalog will often bring its own meta model to it.
+[00:08:21] And it's usually a lot in many cases if it's a robust catalog or a very complete solution, it may be far more than you need.
+[00:08:27] So taking time up front to understand what your metadata requirements are, how they're going to be useful to you is also a key step. We tend to see get missed
+[00:08:35] We often see the wrong starting point starting in the place of a data warehouse and just trying to scan that as as as a place is often a, a weak starting point as well, we'll get into some of those Solutions afterwards.
+[00:08:45] And finally, the adoption of the handoff, just because you have built a catalog maybe perfectly structured you still have to get your users to use it to see value to it and to get them incorporate that into their daily workflows. So again making sure you have the training making sure you can kind of continue.
+[00:09:00] Need to help them use that in their day-to-day operations is going to be important.
+[00:09:07] So again, how to catalog support?
+[00:09:10] Analytic data analytics and AI initiatives.
+[00:09:15] And I guess there's 4 kind of key use cases here. The number 1 use case. I tend to hear is searchability
+[00:09:22] mostly, we can't find our data.
+[00:09:24] We know we have thousands or tens of thousands or even hundreds of thousands of different assets inside our data repositories. We're not quite sure what's there or it's often very siloed, only small groups of teams, understand small segments of the data that they, that they utilize.
+[00:09:38] But again, just trying to catalog stuff isn't always going to be useful. Again, it's a long payback period and a long step to Roi.
+[00:09:45] Began having a set of assets documented consistently used that everyone knows what they mean.
+[00:09:51] It can also be a self-limiting exercise.
+[00:09:53] Very often the people who build the catalog and the teams that began to build it for their own purposes.
+[00:09:58] Start to learn what the data already means.
+[00:10:01] And therefore, they already, once they use those small number of assets over and over again, they only need to use the catalog once to figure out what data is there and go back to find it. So therefore, therefore the catalog can start to fall out of use in those particular cases,
+[00:10:13] We also need to wonder, do we need to catalog everything?
+[00:10:17] Not every data asset is going to be useful, not everyone's going to be shared and needs to be cataloged. So we do need to make sure that again, we have just understanding of what assets we need and which ones we want to catalog and make sharable.
+[00:10:29] The second.
+[00:10:30] Can use cases data governance.
+[00:10:32] And here's where you're trying to align. Again the policies, the business definitions and your critical data together and here we tend to see a higher success rate. If your data governance program is aligned to certain types of business initiatives. Now, in some cases, I do see a data governance program leading with the catalog.
+[00:10:48] And I think by cataloging, they can govern uh typically it has a work force where you start to govern the assets, you start to build in the programs, the practices and the policies. And as that program begins to scale, you need something like a catalog to document. Those assets and help kind of do some more tracking on that.
+[00:11:02] So you need to have that alignment to the to the business outcome for the data governance program.
+[00:11:07] Um, but it does also create a limited view of your data assets. Typically only 5 to 10% of your data assets,
+[00:11:15] A really critical required governance and require that level of policy control. So if you're looking for that broader searchability piece, it does help. But is maybe not going to be as complete.
+[00:11:26] And when we look at, again, surveys with most of the organizations, we talked to
+[00:11:30] Still 70% are still starting their data governance program right now. And in terms of Technology they look at the catalog. Still sits at the top of the type of Technology they want to try and deploy. And again, many, I work with a lot of clients right now, in terms of, how do you fit the catalog into your governance program again, how that's going to work together?
+[00:11:52] Use case. Number 3 is data engineering.
+[00:11:55] This is really about supporting impact analysis or helping support. Some of the observability features.
+[00:12:00] Understanding how your data assets connect together. Uh, and if things go wrong inside of a pipeline, how do you begin to fix that and deal with those issues?
+[00:12:07] It's primarily focused just on top, Technical and operational, metadata overall. So it does more give it's more suited to the engineering teams and it does give you a slightly broader view of the data.
+[00:12:18] Because your engineering teams are looking at everything is there. But again, it's going to have a limited business context.
+[00:12:25] so again, if you're trying to incorporate this into your business workflows or trying to get your users to engage, if it's just a technical catalog, it's going to be struggle to try and extend out of that and
+[00:12:33] Without business involvement over a period of time. These probably will start to fail. Remember because the business context is going to move on but the engineering teams may not be able to keep up and that catalog may become a little more useless over time as a technology.
+[00:12:45] Or the architecture begins to change.
+[00:12:50] Use case. 4 is AI, ready data.
+[00:12:53] And we're seeing AI right now as a metadata, as a key enabler for AI projects. And we're seeing that, it's because AI isn't just data hungry. Even though most of the large language models of consume, most of the data, probably, in, in the world, we also need to consume metadata
+[00:13:09] this builds the context that helps AI models, particularly large language models or generative AI begin to
+[00:13:16] Work generate outputs that are contextually relevant and improving the outputs there.
+[00:13:21] But it's also a composite use case from the previous reuse, cases, the data engineering, the search and also the governance components. And so we have the same vulnerabilities.
+[00:13:30] How do we get Roi?
+[00:13:31] How do we get the business outcomes defined and again how do we get that visibility in terms of uh with with the business community?
+[00:13:41] With our data, you may have seen this, uh, this diagram before but we talk about 3 pillars, uh, for AI ready data, the first being alignment, again, that's having that definition of the data. In terms of what it means, how it can be used and how it would align to a particular AI model for its use case.
+[00:13:58] The second pillar is to qualify that's really putting in place, a level of observability. So as you monitor data over time, you begin to kind of say whether it's drifting or whether it's staying relevant to the current model.
+[00:14:10] The third pillar is governance. So when you have alignment of the data defined and when you observe,
+[00:14:15] Data, beginning to drift where there's a disconnect you now, have governance, which says do I need to go fix the data?
+[00:14:21] Or do I need to change the model?
+[00:14:23] The data catalog primarily plays a role again in the governance function and the and in the alignment function, in terms of defining the data and then helping kind of figure out which data needs to be corrected and, uh, managing that from a governance standpoint.
+[00:14:39] And similar when we look at large language models and retrieval augmented generation systems. We're seeing metadata begin to play a role here. So if we look at our augmented generator pipeline,
+[00:14:48] We have the data management infrastructure again, feeding data into a knowledge base and a vector database, we also have them the data catalog.
+[00:14:55] Providing some of that metadata, which is going to help. Do the vector embeddings and provide that
+[00:15:00] Contextual enrichment, which is going to be necessary to make these tools work effectively.
+[00:15:10] And 1 key takeaway I guess if from from uh, hear about the AI. Ready data piece again is about. If you're getting serious about AI in your organization right now, you also need to get serious about metadata. It's key to context. It's key to helping gain maturity and Improvement, and results that you get from your AI infrastructure.
+[00:15:32] So, what can you do to improve the success of your chances?
+[00:15:36] So, the first steps around again, people and communication.
+[00:15:40] Uh again you want to look at engaging, your stakeholders early, making sure that before you start buying a data.
+[00:15:45] Catalog, they have a view in terms of what's there, what the expectations are again, how this is? And who's going to be be able to work for you? There's always different levels of resistance inside of an organization. So generally we are starting out with these projects, you're looking for the early adopters, the ones that kind of see the vision and are willing to work with you on these components.
+[00:16:02] Other groups will be kind of what we call slow followers or fast followers. They're going to need a little bit of help. Again, having training programs, put in place, or some way to kind of break down some of the friction, they're going to experience.
+[00:16:11] And finally there's going to be the resistance group in some cases, this could be 2 3/3 organization.
+[00:16:17] In terms of people who just look at this and just wait for the blow by and they wait for the next Trend to come along. Uh, again, there's going to be change management programs. You're going to need to put in, place to figure out how to how to engage with them.
+[00:16:29] You want to look?
+[00:16:30] Are getting 1 or 2 again, high value impact cases. Going first
+[00:16:34] Uh, trying to go in and scan. All the assets is generally a disaster with most data catalogs. I've seen groups who were started off. They, they started very slowly, they were starting to get progress, they were starting to get adoption. There was a merger. They were told to go scan the other companies data assets, they pulled 100,000 tables into their environment and their catalog fell apart.
+[00:16:53] So having those high value cases growing it slowly organically and getting that level of Engagement in an organic matter, it's probably the most effective method right now. We've seen for kind of getting the catalog to scale.
+[00:17:07] Again prioritizing stakeholder alignment and communicating the value proposition from the start and an ongoing basis is going to be a kind of a continuing communication Factor.
+[00:17:15] Need to take into account.
+[00:17:18] You're going to need to collaborate across teams again to ensure the alignment the ownership and you're going to need to set um expectations regarding the outcomes that are going to be achieved from the metadata management setting realistic expectations. That you're not necessarily going to see Magic from this. But again, you're going to give that insurance policy that you can re recover from changes into your data architecture, and your infrastructure. Over time, if you have good metadata management is going to be key.
+[00:17:44] You want to assign the data stewards again, to make sure metadata completeness consistency. And currency is maintained.
+[00:17:50] So, I have metadata.
+[00:17:53] Metadata quality is now becoming a thing.
+[00:17:56] uh, we've always talked about data quality in terms of the accuracy, the completeness,
+[00:18:00] The same applies for metadata. Now, it's data about the data and It suffers from those same challenges, it will go stale over time. It will be in complete. And so these things will need to be monitored in order to make sure that your catalog is relevant and up-to-date.
+[00:18:15] And again, provide literacy and training to help support the adoption helping people understand again, how to utilize data and how to utilize the data catalog, are going to be kind of key steps. You're going to have to take to ensure success.
+[00:18:28] As I pointed out earlier again, cataloging is a skill. You're talking about taxonomies you're talking about ontologies building control vocabulary. This all comes from primarily Knowledge Management. Library science uh a librarian basically starts on a master's degree.
+[00:18:42] This isn't simple stuff to pick up. And so,
+[00:18:45] And want to be able to have some level of upskilling in terms of how this is going to be done and respect some of the skills that are going to be required to kind of build this, I have seen in many cases, Librarians getting hired to actually work with data catalogs. Do the implementation and put in these controlled structures.
+[00:19:01] Around processes again, you want to start defining metadata standards and templates for the requirements that are going to be put in place. So, again, simply just taking what's in place of a data catalog, I'm going to be very flexible. There's going to be a lot of configuration. So taking time up front to understand what metadata you need up front, and how you're going to collect, it is going to be an important step.
+[00:19:21] Again, look where you can automate metadata collection. Generally the technical metadata scanning. A technical asset is quite easy. Lineage is okay, but
+[00:19:30] Reversing improvements again, in terms of processing, unstructured, documents and turning that into metadata, that can be consumed into a catalog, is beginning to improve. So, look, where you can leverage Automation, and particularly some of the Jenner generative, AI techniques that can be used to harvest, metadata from unstructured data sources.
+[00:19:48] I mean, look at combining and reusing data assets. So again, as you start to catalog assets, overall, you can start to determine where the duplicates are and this can help drives on efficiencies within your program, so using the catalog, then as a early way to start driving some, uh, benefits.
+[00:20:03] With regards to the amount of data that's being processed, the amount on pipelines, you can rerun can be some early ways to show a return on investment here.
+[00:20:12] Again, look at the design of the architecture of the workflows and the
+[00:20:15] Apis based on your current business. Processes priorities.
+[00:20:21] You want to look at capturing kind of business context?
+[00:20:24] The lineage and the usage patterns again for for ensuring AI Readiness. Um,
+[00:20:29] And finally, I guess the, the key piece here, again, the example of the metadata requirements. So here's an example, again, of a metadata application profile borrowed from again, a library librarian Sciences program. And here, they really take down in terms of
+[00:20:43] Understanding what metadata elements they need to capture.
+[00:20:46] Who are the subject matter Experts of the sources of the metadata that you're going to try and you're going to try and produce. And again, 1 of those input rules vocabulary and formatting standards that are going to be done. This will help really provide that early governance, you're going to require to kind of be able to kind of help.
+[00:21:00] Decide what data catalog you need and how you're going to start to implement it from its from its early stages.
+[00:21:06] The time requirement is also need to be communicated. So, if you think about data stewards, typically again, they want to commit about 5% of their time to doing governance or these types of metadata activities.
+[00:21:16] Here you start to have 2 phases. 1 is the implementation phase. You know, there's the operations phase. The operations phase probably can work within that 5% boundary.
+[00:21:26] Up front because it's ongoing erase just doing, kind of very simple maintenance and just doing monitoring over time. So again that's more within the in a work but as you're building the catalog, as you're getting the standards decided and focusing on these, there's going to be a higher time commitment. So that should be communicated up front with the stakeholders and again arrangements made to be able to accommodate that.
+[00:21:45] You don't want to run the implementation phase too long.
+[00:21:49] 8 to 10 weeks, seems to be where I've seen a lot of projects kind of try and cap it at in terms of how much they want to commit that time and build up that implementation. If it goes over that generally, there's push back and the business users will leave the disengage or walk away from the project again. It looks like it's dragging on too long and they can't get down to that operations mode of about 5%.
+[00:22:08] The next steps again, for the implementation again, is to consider the technology.
+[00:22:12] So again, look at the ease of use.
+[00:22:15] How will applicable is going to be to a business user? Will it be able to operate with it as well as a technical functionality?
+[00:22:20] Very often, we'll just see an IT team go in and basically scan, look for the best catalog on the market with the best kind of scanners or capabilities, but it may be very technical and may be very engineering focused.
+[00:22:30] Not suitable for business user consumption. So again, having the participate and understanding where those non-functional requirements are uh as well as the sum of the usability pieces are going to be important, considerations.
+[00:22:41] So look at the catalog that's going to help solve your kind of key priorities and use cases.
+[00:22:46] Um, but there can be challenges with that again. Often ask a user again, what I described the use cases.
+[00:22:52] So do you want to search? Do you want to do data, governance? Do you want to do engineering? You want to get ready for AI? And the answer is that most often is yes.
+[00:22:59] Uh but generally when you want to start kind of building a catalog, you want to have a clear view and kind of 1 of those key priorities that you're trying to solve first. If you're trying to solve for everything, uh you often buy a very big, very complex catalog and they're often get stuck in terms of some of that implementation. So again there's going to be had to be balanced in terms of the use cases.
+[00:23:15] You want to try and solve uh but also the scope and reality of of what it's going to take to implement that.
+[00:23:21] Again, look at how you can use automation to improve the metadata ingestion and the enrichment. Again, most of the catalogers will have the scanners to ingest technical metadata. Many more are starting to add in the AI capabilities again to do enrichment. Uh, they'll also again scan, um,
+[00:23:36] Unstructured data sources Graphics, in some cases that can help use be used to enrich a metadata that improves some of that experience.
+[00:23:44] And again look at activating metadata so support AI already data. So activating metadata basically means to start doing analysis on the metadata. You have to start driving recommendations and driving some levels of Automation. In these cases if metadata just sits passively in the catalog over time, it will follow
+[00:24:00] Into issues.
+[00:24:02] We talk about the scoping in the approach we touched on this briefly earlier. So this is a reference State architecture.
+[00:24:08] Includes your sources includes an ingestion layer. It includes an organized layer for where the data warehouses and the data Lakes can store the data and then how it's going to be consumed in in the analysis.
+[00:24:19] Generally, when groups start cataloging, they focus here.
+[00:24:24] Let's scan the data warehouse. Let's collect a couple hundred thousand assets. Let's begin to kind of document all these things. They handed it off to the business.
+[00:24:31] Could you put comments on this and elements and they have no idea what the table names mean? They have no idea where the elements come from. They're not familiar with the workflows or how they how they integrate into their reports and dashboards or from their operational systems and so they have no context with regards to
+[00:24:45] Other buildings in.
+[00:24:47] A better approach is to try and go this horizontal element again. When you start to scan in either some of the operational systems or some of the analytical pieces,
+[00:24:56] And you can be any kind of capture here. These 2 end points, have a lot of business, metadata contained in them,
+[00:25:02] Reports have headers. They already have field descriptions, they'll already have specs, which contain some of this stuff Erp systems will also have again a lot of different metadata uh, and and documentation which explains what the business context is
+[00:25:15] And that can be, then be used through lineage to connect into the middle layer, which will then give some of that business context. This takes stress off your data stewards. And also helps give you a better view in terms of how your data is connected over time.
+[00:25:26] and just to help set some reality expectations on the time to be able to do
+[00:25:30] Do this. So this is a, basically a road map for deploying a data catalog. I won't go into all the detail text on this. This presentation is downloadable
+[00:25:38] Uh but the key thing is I guess when you get past the pilot and into the expanding phase just where you kind of get that minimum viable catalog put in place, where you have a kind of a core set of users, you're getting some value to, it can take roughly 7 to 24 months up to 2 years.
+[00:25:52] To try and build that catalog and I've seen that pattern appear oh over time. So I often get asked the question, how can I do this in 3 months or do it in 6 months and the challenge is you probably won't
+[00:26:02] you get to a p but in terms of getting that adoption and kind of getting people to do it, it's going to be a slightly longer road map and then even then you're still constantly adding to the catalog. Building new groups, particularly if you're if you're a larger organization,
+[00:26:14] and finally,
+[00:26:15] To wrap up again. Look at, you know, prioritizing those use cases, find the 1 or 2, use cases that will help you get started.
+[00:26:21] Again, look at building cross. Functional teams find elements where people have to share data as a means to be able to try and get some level of collaboration to get some level of common do uh common definitions that can be used and to help smooth out. Maybe some of the problems you have in Sharing data using the catalog then as an enabler to do that.
+[00:26:38] And then look at creating a metadata application profile for first. Take time to understand again. What metadata you need? What stuff is going to help. Solve your most immediate problems and use that then to guide your purchase decision decisions. And again how you start to implement your girlfriend's program overall,
+[00:26:54] And again, thank you for your time. And I hope you found this interesting and enjoy the rest of the event.

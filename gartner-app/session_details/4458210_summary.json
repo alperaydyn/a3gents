@@ -1,0 +1,85 @@
+{
+  "summary": "The session focuses on the importance of trust in data governance and its implications for AI and analytics. It discusses the need for organizations to adopt a trust model that enhances decision-making and operational efficiency. The speaker emphasizes the role of governance as an enabler for innovation and collaboration in data-driven environments.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Trust in Data Governance",
+      "key_points": [
+        "Trust is essential for effective data governance and decision-making.",
+        "Organizations face challenges in adopting new practices and technologies."
+      ],
+      "start_time": "00:00:03",
+      "end_time": "00:05:05"
+    },
+    {
+      "order": 2,
+      "topic": "Understanding Data and Trust Models",
+      "key_points": [
+        "Data governance should be viewed as an enabler rather than a control mechanism.",
+        "Different types of data require varying levels of trust and governance."
+      ],
+      "start_time": "00:05:05",
+      "end_time": "00:10:28"
+    },
+    {
+      "order": 3,
+      "topic": "Implementing Trust Models",
+      "key_points": [
+        "Establishing a trust model involves assessing data quality and lineage.",
+        "Feedback mechanisms are crucial for continuous improvement in data governance."
+      ],
+      "start_time": "00:10:28",
+      "end_time": "00:15:52"
+    },
+    {
+      "order": 4,
+      "topic": "Impact of Trust on Business Outcomes",
+      "key_points": [
+        "Companies using trust models see improved compliance and financial performance.",
+        "Effective storytelling is essential for communicating the value of data governance."
+      ],
+      "start_time": "00:15:52",
+      "end_time": "00:20:59"
+    },
+    {
+      "order": 5,
+      "topic": "Challenges in Trust Governance",
+      "key_points": [
+        "Determining who decides on trust levels can be complex.",
+        "Governance should involve collaboration across the organization."
+      ],
+      "start_time": "00:20:59",
+      "end_time": "00:26:15"
+    },
+    {
+      "order": 6,
+      "topic": "Future of AI and Trust",
+      "key_points": [
+        "Trust is foundational for the development of autonomous AI.",
+        "A hybrid trust model can reduce risks associated with AI outputs."
+      ],
+      "start_time": "00:26:15",
+      "end_time": "00:32:46"
+    }
+  ],
+  "key_takeaways": [
+    "Establish a trust model to enhance data governance and decision-making.",
+    "Incorporate feedback mechanisms to continuously improve data quality.",
+    "Communicate the value of trust in data governance through effective storytelling."
+  ],
+  "entities": [
+    {
+      "trust model": 5
+    },
+    {
+      "data governance": 6
+    },
+    {
+      "data quality": 4
+    },
+    {
+      "decision-making": 3
+    }
+  ],
+  "subject_area_id": "governance"
+}

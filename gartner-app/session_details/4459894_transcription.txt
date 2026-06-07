@@ -1,0 +1,562 @@
+[00:00:04] Good afternoon.
+[00:00:05] I'm Aaron Rosen bound.
+[00:00:07] I'm in the data Management Solutions architecture group at Gartner.
+[00:00:12] and,
+[00:00:13] I'm really honored that you've
+[00:00:16] chosen this session and and listen to me finish. I get the last word at this year's conference
+[00:00:23] so,
+[00:00:27] We have been.
+[00:00:31] On a journey to towards a new place in data management for quite a while.
+[00:00:37] Um, we've seen it coming, we
+[00:00:40] you know, those who've been around every
+[00:00:44] you know, we've had
+[00:00:45] Significant change in the last few decades and there's, you know, been Milestones, right? Every big shift has had a driver, right? We we started
+[00:00:56] with green screens and batch.
+[00:01:00] Monolithic.
+[00:01:02] and then, you know, we got
+[00:01:05] client server, we had 1991 the first version of Oracle that didn't lose data and short order, right? We got oh wow, app.
+[00:01:15] Visual Basic the same old thing about 24 months, really came to Market changed architecture.
+[00:01:24] We?
+[00:01:26] in terms of, you know, the real change in middleware and when
+[00:01:30] Services. Really. Let us build out apps in a new way with upscale but the data layer
+[00:01:35] Was very, very similar. So mostly monolithic some distributed
+[00:01:43] but,
+[00:01:44] Right now.
+[00:01:47] We're seeing a significantly new pattern in data management.
+[00:01:53] That is.
+[00:01:55] Primarily exists only in the cloud enabled, by the cloud.
+[00:01:59] Um, and it's, it's started.
+[00:02:03] This.
+[00:02:04] Distributed Open Table work, you know before AI it started in the dupe era.
+[00:02:13] But it exploded.
+[00:02:15] With a set of Technologies and Innovations in the last few years.
+[00:02:21] and,
+[00:02:23] It's going to fundamentally change how we manage data that we're really moving the combination of a, a standard sort of a data operating system.
+[00:02:34] From.
+[00:02:35] How we interact as humans, interact with the data.
+[00:02:39] To.
+[00:02:40] The backbone of our AI architecture.
+[00:02:47] Part of this, right? We have
+[00:02:50] A.
+[00:02:52] Virtuous cycle.
+[00:02:54] that we're already down the road of
+[00:02:59] With.
+[00:03:00] Standardized tooling.
+[00:03:03] We have a surface where we can be more productive.
+[00:03:07] With standardized access to data.
+[00:03:10] Primarily, you know, we've seen in the lake house.
+[00:03:12] And zero, copy. Protocols.
+[00:03:15] We have actually ability to build more data, insight and products with less data movement.
+[00:03:22] The ability to gain better insights with less code with less data movement.
+[00:03:29] A surface area that's more uniform has allowed the application of AI.
+[00:03:35] and it's
+[00:03:36] their areas where Roi is unclear.
+[00:03:39] For AI.
+[00:03:41] data management, the tooling of data management pipelines is
+[00:03:45] Top 1 of them.
+[00:03:46] When we deploy Ai and data management, we produce more reliable Pipelines.
+[00:03:53] Produce more, reliable results with less resources and a quicker time.
+[00:03:58] That in turn, lets us make more data available which reads whether Insight which leads more opportunity. There's the vendors we've been.
+[00:04:10] Spinning this flywheel.
+[00:04:12] Forward, I say, in a significant way.
+[00:04:15] For about the last 18 months, and it's gotten faster.
+[00:04:19] We predicted.
+[00:04:21] That.
+[00:04:23] you know what we saw in the middle of last year, we saw that
+[00:04:27] that maybe we were going to see about
+[00:04:30] 15% growth.
+[00:04:32] Um, in the overall database market and spend
+[00:04:35] And we saw almost 5 Points higher than that from the major csps in earnings a couple weeks ago.
+[00:04:43] And that's not PC's.
+[00:04:46] That's showing us its production workloads at scale.
+[00:04:50] Um, and I'm hearing that directly vendors.
+[00:04:53] so,
+[00:04:54] Why do we need all of this, right?
+[00:04:59] There is.
+[00:05:00] every organization to talk to has,
+[00:05:04] A version of this.
+[00:05:06] And every single box, and every single layer.
+[00:05:10] Is.
+[00:05:12] Representing friction.
+[00:05:14] That happens.
+[00:05:15] Friction and insight friction and operations.
+[00:05:18] We have been moving data around.
+[00:05:21] To have different uses in different contexts, and we have different copies.
+[00:05:26] um,
+[00:05:28] and we've done this for a very long time.
+[00:05:30] We've done this very long time.
+[00:05:32] um,
+[00:05:35] Each.
+[00:05:37] Piece of this puzzle represents.
+[00:05:40] Local logic.
+[00:05:42] Local logic, that's encoded often in proprietary language. We have
+[00:05:48] Stored procedures and Oracle, we have scripts and Power Center.
+[00:05:53] We have analytic pieces in SAS or SPSS.
+[00:06:00] And they're not just technical barriers, they become business bottlenecks.
+[00:06:04] Right, that the silos.
+[00:06:07] Prevent.
+[00:06:09] Business analysts from orchestrating work across that it creates and gets in the way of analytics content. We constantly have to reconstitute context.
+[00:06:21] What's happening in? The new architecture is, we are collapsing these layers.
+[00:06:26] To allow.
+[00:06:29] The AI to work over the context and the data without this integration battery.
+[00:06:36] To move to Machine consumable Products. Not just human through apis.
+[00:06:43] But this means we need to shift.
+[00:06:45] From sort of integration by effort.
+[00:06:48] To integration by architecture.
+[00:06:52] And then,
+[00:06:53] We can enable that that flywheel to move even quicker.
+[00:06:57] so,
+[00:07:00] you know, Gartner we've been talking about this development.
+[00:07:05] This data ecosystem for a long time. The concept is really straightforward data at the center.
+[00:07:11] We don't move the data from silos Silo. It stays put
+[00:07:14] The applications and services that are around it, we have sort of common services for governance authorization of observability.
+[00:07:23] Right. And there's a lot going on in this layer.
+[00:07:28] I want to.
+[00:07:30] I think what's most important is actually what's going on at the center?
+[00:07:34] Um, at the persistence layer.
+[00:07:36] um, because that's
+[00:07:40] there's been really significant movements.
+[00:07:45] This is where.
+[00:07:48] I want to talk about python spark and open tables.
+[00:07:54] That we're changing the physics of how we move the information.
+[00:07:59] We're also.
+[00:08:01] Changing substantially the market.
+[00:08:06] And how we access the tooling and how we assemble the stacks.
+[00:08:09] Um,
+[00:08:11] And I'd say, in a rather rather fundamental way.
+[00:08:15] um,
+[00:08:17] that at all layers.
+[00:08:20] This is.
+[00:08:22] A radical change to.
+[00:08:25] What's happened?
+[00:08:27] Before in data and I'll say I've said this is big a change as relational.
+[00:08:33] but,
+[00:08:34] Parts of it, go beyond because it's not just a switch from 1 technology to another. But it's also a market Dynamic change, we have never
+[00:08:43] Had.
+[00:08:46] Completely open Tooling in data.
+[00:08:51] Right. And that's
+[00:08:52] That's really changed some folks who look at front-end development and app development.
+[00:08:57] It's not proprietary anymore.
+[00:09:00] We had an explosion in app, creativity.
+[00:09:04] that's happened because, you know, you write stuff in JavaScript or in typescript use Frameworks
+[00:09:10] There's No 1 even to write a check to
+[00:09:12] there isn't
+[00:09:14] um,
+[00:09:15] and its really changed that world. And I think the same
+[00:09:19] Is a foot in the data World. We're we're seeing it already.
+[00:09:24] So, something certainly happens as we move through.
+[00:09:29] These revolutions. Not everything gets better.
+[00:09:33] Right. That
+[00:09:34] We're going to change. We, we went through this.
+[00:09:37] At lower levels of storage and the Linux operating system. There are things I miss
+[00:09:43] In VMS that we don't have any.
+[00:09:45] Whether on their Linux, there are things that got worse at the storage layer that haven't gotten better for years.
+[00:09:51] Um, the same will happen in data. We we will give up some of the stuff.
+[00:09:56] but,
+[00:09:57] It is.
+[00:10:00] We know actually the things are moving along and we're going to talk about how to navigate that evolution.
+[00:10:07] So,
+[00:10:10] I want to start with python.
+[00:10:12] um,
+[00:10:15] We know.
+[00:10:16] Practically everyone out there is using python it shows up in a lot of different areas.
+[00:10:23] and,
+[00:10:25] It is not.
+[00:10:27] there are you know people going to have arguments well
+[00:10:30] Python. Well, there's typescript.
+[00:10:32] And you know, and maybe it's JavaScript and a lot of other languages when it comes to the data world.
+[00:10:41] it is the first time we have had
+[00:10:45] Now, end to end.
+[00:10:48] Support over the life cycle.
+[00:10:51] In an open standard language.
+[00:10:54] Right, so I can give me 2 things. The first is skills.
+[00:10:59] It's the number 1 program in which taught in the world.
+[00:11:02] um, if I have 1 thing, I learned I'm going to Learn Python
+[00:11:07] LMS are exceptionally good at writing, it they will write it in the background without asking for it.
+[00:11:13] and,
+[00:11:15] Whether I'm doing orchestration.
+[00:11:16] In airflow. I'm doing transformation work.
+[00:11:20] I'm doing query work. I'm writing a dashboard guey.
+[00:11:25] I'm writing execution of an agent.
+[00:11:28] I can use Python for that.
+[00:11:31] I can use it for simple work, I can use it for advanced work, there's a broad set of libraries and they're not proprietary.
+[00:11:38] So I can do anomaly detection and Power Center.
+[00:11:43] And and look, and do we squares? And I can do that in power center. I can do that in SPSS. We can do that there. I can do in a store procedure
+[00:11:52] Inside of Oracle.
+[00:11:54] But I can use a python.
+[00:11:57] Sub routine to do that. The same 1.
+[00:12:00] Every 1 of those products today.
+[00:12:03] And I can take that code and I can take that logic and move it around.
+[00:12:07] Right. This
+[00:12:10] This combination when, especially when we combine that with LM code generation.
+[00:12:16] Changes the surface area of how we express our logic.
+[00:12:20] Um,
+[00:12:21] And how we build skills and how we build implementation inside of data.
+[00:12:27] I said in a, in a way, we had some of that with jobava.
+[00:12:31] But it never it never covered. We had some of that stuff but it still was isolated and we're seeing now as an adoption is not isolated.
+[00:12:43] So right.
+[00:12:45] What out the first, I start definitely education system as part of that.
+[00:12:50] You can hire.
+[00:12:52] You know, people out of high school know python.
+[00:12:55] People work with data and many disciplines who have learning python they're not going to come in knowing SPSS is certainly not going to know Power Center.
+[00:13:03] you know, or how to use Azure data Factory, they're coming in, knowing that
+[00:13:09] Right. We're seeing the popularity.
+[00:13:12] and then,
+[00:13:13] It is.
+[00:13:15] The lingual franka cross.
+[00:13:18] when I asked,
+[00:13:20] Any llm to do a data oriented tasks. It's going to default to python.
+[00:13:25] Right? And and we see that both in and out broad support AC
+[00:13:30] Across the ecosystems and practically every tool, right? It's it's the common language.
+[00:13:36] so,
+[00:13:38] what I want to do though, right?
+[00:13:41] Well.
+[00:13:43] Definitely.
+[00:13:44] It is moving all of.
+[00:13:49] Data Architects, towards software, engineering standards, right? We've talked about this in other areas. This is filled data Ops movement. You're dealing with code, you're dealing with policies code.
+[00:14:02] With data gov Ops with orchestration is code.
+[00:14:07] We have to take on the discipline and data that the software engineering group Works in terms of branching,
+[00:14:15] And cicd and all the normal code, hygiene things that we depend on continuous integration.
+[00:14:27] You've got to be dealing with then.
+[00:14:31] I I call it sort of this this multi-dimensional change management.
+[00:14:37] That every 1 of you is going to be in the middle of for the next few years, where we've got tooling change.
+[00:14:44] And a skills mindset change.
+[00:14:46] At the same time.
+[00:14:49] um,
+[00:14:50] but,
+[00:14:52] At the end.
+[00:14:54] What we get is massive architectural agility.
+[00:15:00] Very, very significant.
+[00:15:01] Because we're we're getting portability of logic.
+[00:15:06] Right refactoring becomes incredibly easier, right? I
+[00:15:11] Write you move from folks who moved from data stage to Informatica who moved from Informatica.
+[00:15:20] To data bricks.
+[00:15:22] Big, big lift, big lift.
+[00:15:26] People move from data bricks to glue. Not a big lift.
+[00:15:31] Happens very quickly with LMS.
+[00:15:34] uh,
+[00:15:35] these are, it's just
+[00:15:38] We have significant.
+[00:15:40] Significant scalability and Agility.
+[00:15:44] but we've
+[00:15:47] Got. We've got exercised that right, you have to make portability your intent, you've got to make the agility your intent.
+[00:15:52] There will be a need to refactor to take advantage of new technologies, but there's also a need to keep that agility.
+[00:16:03] when I look at,
+[00:16:05] Right. Keep priorities.
+[00:16:08] Certainly, you have to be using AI internally.
+[00:16:13] Um, I there's a note I published last week um on this subject, right? Which is
+[00:16:20] Agentic success in data, starts with agentic coding.
+[00:16:25] um,
+[00:16:27] There is demands. We see this AC.
+[00:16:30] Cross.
+[00:16:31] Um, last survey we had 75% of CEOs.
+[00:16:35] Are.
+[00:16:36] Prioritizing a gentic services for their entire organizations, to be able to employ agents throughout. It is a top credit Mission critical for many CEOs. It's going to happen. How are we going to govern that? Well, if we can't govern token, spend and safety among 10 pipeline Engineers, using quad code and codecs. We're certainly not going to be able to scale it rest. We have to start now.
+[00:17:08] We have to build that up.
+[00:17:12] and, and the way that starts is,
+[00:17:15] building and nurturing the agentic applications to operate the DNA functions using
+[00:17:21] non-deterministic technology to build deterministic code, we will be dealing
+[00:17:27] Rather soon with non-deterministic analytics over data, that's a different Kettle fish.
+[00:17:34] We certainly have to start with.
+[00:17:37] The code production.
+[00:17:41] All of this demands.
+[00:17:44] Modernization for Value delivery, there's going to be a lot of very serious discussions about spend about value.
+[00:17:54] and,
+[00:17:56] We are already seeing.
+[00:17:58] Really significant.
+[00:18:00] Changes and cost structures in certain industries, customer service. I want to see worldwide.
+[00:18:05] Staffing levels come down right and that's Justified.
+[00:18:11] but we've got
+[00:18:13] To really focus on that more than ever before. Because the nature of the data, loads are going to go up the query, loads were it up, but they're not faced necessarily buy seats.
+[00:18:27] And this gets back to both software engineering practices.
+[00:18:31] As well as our overall engineering practices.
+[00:18:38] AI engineering.
+[00:18:40] Is the top growth area.
+[00:18:44] We?
+[00:18:45] Have to get better at expressing intent about managing the intent about managing an AI because we are going to need to spend more there and we're going to spend less on building and maintaining Solutions, that's going to get cheaper.
+[00:19:01] And all of this requires that we're ready.
+[00:19:04] Right. That
+[00:19:06] that because we're going to have.
+[00:19:09] Enormous.
+[00:19:11] We're seeing the data loads increase or seeing them increase all ready.
+[00:19:15] And if we're not prepared and sort of built the underpinnings to support that load, we're going to accumulate cat debt faster than we ever get out from under it.
+[00:19:27] So python is the portable language.
+[00:19:31] We need a portable engine for that to run on.
+[00:19:35] and,
+[00:19:38] Again, we can have arguments.
+[00:19:41] Is it spark? Maybe it's Rey. Maybe, that's not the future.
+[00:19:47] The.
+[00:19:48] There's 2 things that.
+[00:19:50] Really important as Sparks general purpose processing engine does lots of things.
+[00:19:54] It can do streaming it, can do SQL. It can do batch.
+[00:19:59] The first.
+[00:20:01] Big thing is.
+[00:20:03] It's supported.
+[00:20:05] Supported in.
+[00:20:06] In by lots of libraries. It's easily accessible. It's supported by all the vendors. I can run managed spark everywhere.
+[00:20:15] It's relatively portable.
+[00:20:17] There are optimizations all the csps have their optimized Spark
+[00:20:23] but bringing in,
+[00:20:25] Plain vanilla code is straightforward. It's not a major porting effort. It's a minor refactoring effort if it doesn't run out of the box,
+[00:20:35] This enables scale, right. Enables scale of
+[00:20:39] Of.
+[00:20:41] Whether I'm doing large scale batch and is resilient is able scale of distribution.
+[00:20:48] In terms of different workloads.
+[00:20:51] It's the core technology sitting inside a fabric.
+[00:20:55] Behind.
+[00:20:56] Data bricks aws's.
+[00:20:59] Um,
+[00:21:01] Warehouse strategy. Um,
+[00:21:03] the only reason it's not really part of Google's is, of course, like lots of other things in Google, they invented the precursors first, and
+[00:21:11] Live with that, but they all supported.
+[00:21:14] Spark is 1 of the most active, Apache projects.
+[00:21:18] The most active Apache project is is air foil which is also very important to our community, right? This is
+[00:21:25] Large area.
+[00:21:27] This is where a lot of the compute power is aggregating. It's being proven at scale.
+[00:21:35] The.
+[00:21:36] The incremental improvements are significant, right? We used to a few years ago, you said well, uh, I have to go to data bricks to get decent.
+[00:21:45] Everything else sucks.
+[00:21:48] They've all come up in performance that Gap is narrowed quite a bit. Apache spark has gotten a lot better.
+[00:21:54] so,
+[00:21:59] We've talked through most of this.
+[00:22:01] I should have. I should have advanced.
+[00:22:04] So, why now right started with data science Community extended to AI workloads?
+[00:22:10] and,
+[00:22:12] we had 2 things converge at the same time that the rise of AI and training,
+[00:22:17] And we had the abandonment.
+[00:22:21] And migration of Hadoop and hdfs will workloads over to spark and object storage.
+[00:22:28] Right. And that alone.
+[00:22:30] Drove a fair bit.
+[00:22:33] Then.
+[00:22:34] You know, we've got all a lot of the major libraries out of the box started supporting Pi spark, right? So,
+[00:22:41] so now,
+[00:22:42] you know, I can run numpy or scikit or other analytics libraries and they just work out of the box.
+[00:22:49] Um,
+[00:22:51] Pandas Etc. Lots and lots of support.
+[00:22:55] And then SQL got a lot better.
+[00:22:58] That's balanced. There's still other ways to run SQL, trino has expanded that quite a bit.
+[00:23:05] But I've got reasonable SQL there.
+[00:23:09] I've got pretty reasonable streaming there and it's improved a lot. So,
+[00:23:16] What to do. Well, certainly
+[00:23:19] Use the prior, use the managed services.
+[00:23:22] Um,
+[00:23:23] You know, running this stuff is still running the Clusters and doing that is pretty hard almost all the vendors even offer server offer, serverless spark right now.
+[00:23:34] You can make that very, very easy to scale and and get going. Um,
+[00:23:42] You definitely, there is serious continuous Improvement. Um also with the managed Services, right? What's happened? For example, on the performance of spark on arm-based processors has has taken off, but it's massively. Dropped the cost.
+[00:24:00] Of running. Some of these workloads.
+[00:24:02] um,
+[00:24:04] when I talk to customers at the larger scale,
+[00:24:07] Right, fundamentally. We're seeing
+[00:24:11] Costs drop orders of magnitude over the last few years, in running some large scale batch workloads.
+[00:24:18] And so that can be used to lower costs or running larger larger workloads.
+[00:24:25] You've got certainly to treat spark in the same way as other major open source packages. What are? What are my major versions? What are my major versions? Am I running the code compatibility? Um, right. It's simple. Similar to what I would do in terms of
+[00:24:45] Python versions and python, libraries and, and keeping that it requires.
+[00:24:51] Some hygiene and, and some Packaging.
+[00:24:53] Um,
+[00:25:00] so we've got a unified processing engine and let's set it up. I'll put trinos getting close to being up there. Alongside a spark, it's pretty important.
+[00:25:10] What's the the huge anchor on all? This is Open Table formats.
+[00:25:17] Right.
+[00:25:19] care about a file format,
+[00:25:21] Um, what is so important about a file format?
+[00:25:27] Every.
+[00:25:28] Time, we've been dealing with data.
+[00:25:31] From the time, I started Ingress through that.
+[00:25:35] We have had a single engine, usually a single instance of an engine over a set of files.
+[00:25:42] Writing and reading proprietary, controlling the io to that file.
+[00:25:48] Even when we've had open storage.
+[00:25:51] Systems, you know, wire tiger, you know, we have wire tiger sitting in mongodb and under my SQL, you can't read and write to those independently, and you certainly can have multiple instances reading and writing the data simultaneously.
+[00:26:10] and not only do we have a common format,
+[00:26:13] to read archaic gave
+[00:26:15] That let us break out of some of the CSV. Hell, get better compression.
+[00:26:20] We can read and write to it.
+[00:26:24] From multiple engines at the same time, not only multiple instances.
+[00:26:30] of those engines, but heterogeneous engines,
+[00:26:34] To the same data at the same time.
+[00:26:37] This is an architectural Revolution.
+[00:26:41] And a market Revolution.
+[00:26:44] because the effect of this,
+[00:26:46] Is now I can choose engines.
+[00:26:50] Based on the economics and the workload that aren't tied to the data.
+[00:26:57] Right. So
+[00:26:59] I can run.
+[00:27:01] When I run an ETL process and it's batch.
+[00:27:05] I can use Spark.
+[00:27:07] On a low-cost Network on cheap compute.
+[00:27:13] And then I can use a high-speed High memory.
+[00:27:18] You know, query engine, if I want to use snowflake on top, I can use that.
+[00:27:22] Or I can use.
+[00:27:23] Trino, if I don't want to pay snowflake.
+[00:27:26] I can have another activity writing data, I can have different teams who have different, somebody uses AWS glue when someone else uses data bricks, writing to the same table.
+[00:27:39] At the same time.
+[00:27:41] and,
+[00:27:42] This.
+[00:27:46] This is a major movement.
+[00:27:50] This is we we haven't had this before.
+[00:27:53] This is interoperability.
+[00:27:55] Like came to the networking world, right? I could I could buy a switch from 3 Comm and a router from Cisco. They actually talked to 1 another
+[00:28:04] We haven't had that in the data world. Not much.
+[00:28:06] Right to move things around.
+[00:28:10] That's sort of, that's sort of 1 piece.
+[00:28:14] The other 1 is, it's accepted and being used.
+[00:28:19] It's not a theoretical. We we long passed where the Hadoop Market ever got.
+[00:28:25] Um,
+[00:28:27] looking at Iceberg based workload.
+[00:28:30] Are probably over 15 billion approaching 20 billion.
+[00:28:35] And spend last year.
+[00:28:38] Um, it's it's a
+[00:28:41] Most of it is a, you know, it's it's I'd say the adoption curve at the largest consumers is massive.
+[00:28:49] The big giants, but I'm seeing it across the board. Um, and it's happening very very quickly.
+[00:28:55] Um,
+[00:29:00] we're also getting a lot less confusion. I'd say the other still dealt out there, but icebergs becoming much more common. So,
+[00:29:10] when we know, I mean, we know,
+[00:29:13] That.
+[00:29:14] Object Store.
+[00:29:15] For instance cheap. It's scalable. We get the throughput.
+[00:29:18] We know that.
+[00:29:20] That we get durability.
+[00:29:22] We know that a shared name space gives us productivity.
+[00:29:26] And we can share data internally and externally. Simple zero, copy is working.
+[00:29:36] We have some issues with multi-region, availability.
+[00:29:41] I definitely think we have issues to work through in terms of of resiliency, cross region and replication of state cross region.
+[00:29:50] I seen the road maps for everyone. I think we're going to work through that.
+[00:29:55] um,
+[00:29:56] we haven't pushed fine grain security.
+[00:30:00] Into the Open Table standards yet. It's sitting up this side cars, localized implementation.
+[00:30:06] There's enough implementations that definitely has been proven out that it's a matter of politics and not technology.
+[00:30:13] But we've got to get through those politics, right? So I can secure open tables and data bricks, I can secure open tables on AWS but it's not the same mechanism.
+[00:30:23] and,
+[00:30:25] There's still certain workloads which are cheaper to run.
+[00:30:29] Yeah, it's pretty. AC the board been pretty effective but there's definitely places. Um,
+[00:30:36] Certain time, series, aspects, certain logs, where other engines do a better job.
+[00:30:43] I think we've come a long.
+[00:30:45] long way a multi-vendor interoperability, um,
+[00:30:48] We got data bricks and Google made announcement. Just this week about their catalog interoperability. I've seen quite a few, uh, Apache Iceberg interoperability.
+[00:31:00] Uh, stories, not just plans but it's working. Read and write
+[00:31:05] That's so um back and forth Federated across that's working.
+[00:31:11] I don't know. I think there's other reasons that stand in the way besides old tipi. I think we're getting good traction on down in the 100 million range but they're still going to be a class of workload that needs
+[00:31:23] faster. Wait and see. That's not going to go there.
+[00:31:28] so,
+[00:31:29] Okay.
+[00:31:30] We've got ya. Technology is evolved.
+[00:31:33] What? What makes this so special? Why is this a revolution?
+[00:31:39] The elasticity.
+[00:31:41] Like I said is is sort of fundamental that's a big change. Um,
+[00:31:46] Um, right. I I I don't even take calls about speeds and feeds anymore, it's all cost. I can get any speed. I want, it's all about cost.
+[00:31:56] Right, we truly have written that.
+[00:31:59] The multiple ends.
+[00:32:02] The largest companies are exploiting this to massive advantage.
+[00:32:07] It's emergent in.
+[00:32:10] In the mainstream.
+[00:32:12] Um,
+[00:32:14] but,
+[00:32:15] I see this.
+[00:32:16] You know, happening more and more, whether it's under the same roof, multiple engines inside of fabric, multiple Indians inside a data bricks, or I'm bringing my own right. I'm I'm using I'm, I'm deciding to split between data bricks and Starburst or Torino or I'm bringing my own, you know, using open source.
+[00:32:35] but,
+[00:32:38] This.
+[00:32:39] AI.
+[00:32:41] Takes a lot of the fear and a lot of the messiness of using some of these away, right? It doesn't, it doesn't care that they're suited for interfaces if it get there.
+[00:32:53] Jai is accelerating this. Just at a massive scale. We're moving along.
+[00:33:02] so,
+[00:33:04] Right now.
+[00:33:06] We are in very much in a commoditization phase.
+[00:33:12] Very, very much like modernization phase, right? We have a lot of
+[00:33:18] Right, you see?
+[00:33:20] Explosion of innovation from The Lakehouse providers. But what's going on at the query level?
+[00:33:28] Everything pretty much works.
+[00:33:31] Basic batch processing sequel.
+[00:33:36] No M. That is not a area of friction. It's about
+[00:33:40] Where is the data gravity and what are the costs?
+[00:33:44] Right. That's
+[00:33:45] That's been a big deal.
+[00:33:48] This.
+[00:33:49] Is setting up, then a value migration, and establishing this.
+[00:33:56] Automation through Genai.
+[00:33:59] This will take.
+[00:34:01] This is moving pretty quickly.
+[00:34:04] Um, but it's going to take a few years. Maybe I would say when I wrote this, maybe it was 8, maybe this is going to happen. Maybe this is 6 years.
+[00:34:12] But I've got to turn over skill sets.
+[00:34:16] I've got to be able to govern this stuff at scale. I got to figure out how to do it.
+[00:34:21] And it's probably going to happen at the same time that we shed a lot of Labor.
+[00:34:27] In the data analytics world.
+[00:34:29] It's
+[00:34:30] it is, there's a lot of automation that can be done and we're going to have to
+[00:34:39] you know, it's
+[00:34:40] I think a lot of folks are going to go up in the level into analytics, but we're showing in a write less code and spend less time, on caring feeding.
+[00:34:51] and certainly, when I look at,
+[00:34:54] Where the at vendors are going rather aggressively?
+[00:34:58] It's in to leveraging the context in the problems that they establish in the apps to do, speculative work.
+[00:35:07] To not simply automate.
+[00:35:10] The investigation or automate.
+[00:35:14] You know.
+[00:35:15] I have.
+[00:35:17] I've talked to multiple folks. For example, we're building isvs, who are building data import?
+[00:35:24] Into their apps. We're just saying,
+[00:35:27] just give me whatever data you have.
+[00:35:30] I I I don't even I don't need you to run into anyi tool, I know the target.
+[00:35:36] I know the target.
+[00:35:37] I've seen we've seen hundreds of different sources before. I know the domain and the context you're coming in
+[00:35:45] I'll figure it out.
+[00:35:47] Right.
+[00:35:48] You turn that around.
+[00:35:50] And that also becomes well just give me the problem. I'll go out and fetch the data.
+[00:35:58] Each of these.
+[00:36:01] There is opportunity window.
+[00:36:04] In terms of what is my position?
+[00:36:07] What is my next action? What do I have to change? My architecture? What do I have to change in my skills? Has to change my priorities.
+[00:36:15] um,
+[00:36:16] there are different pathways through this.
+[00:36:22] So,
+[00:36:24] I think I want to take away, right? No matter what pace you think this world is on.
+[00:36:30] You can say you're full of it. This is all hype.
+[00:36:33] Crash opening is going to go to business. We're going to be back to the normal.
+[00:36:38] You know.
+[00:36:39] Or you agree, the market is undergoing change.
+[00:36:44] And you.
+[00:36:45] Type of position on that.
+[00:36:47] Right, I I work at this like it's 1995.
+[00:36:52] I got build an app.
+[00:36:56] Right.
+[00:36:57] We know, everything's going client server.
+[00:37:00] You know, everything's going but we also know what that point. I'll go back to 9995. We couldn't get more than 100 transactions. A second out of those back ends. It's very hard to scale client server app over 20, 30 users. But we're going to build a new green screen app.
+[00:37:15] we're just similar position, maybe a little bit past that
+[00:37:19] We might have passed that 6 months ago retrospect but they have a position.
+[00:37:23] This affects your vendor position.
+[00:37:25] Right.
+[00:37:26] That's my I'm going to just follow the vendor.
+[00:37:29] Hold them.
+[00:37:30] Responsible.
+[00:37:31] Am I going to?
+[00:37:33] Go with optionality and Open Standards, where am I going with this?
+[00:37:37] Right there has to be position.
+[00:37:39] and,
+[00:37:40] How am I, how much time am I going to spend on optionality and Agility?
+[00:37:45] versus hey, I could
+[00:37:48] leverage an AI up above. Keep all my Tooling in place, not change that at all. Take advantage of those productivity.
+[00:37:55] so,
+[00:37:58] You've got a look at how you're going to balance the use of Technology across the new use cases in the old ones at the same time.
+[00:38:09] We've got to identify where you stand relative to the market.
+[00:38:15] Um, in terms of leveraging, the new technologies leveraging, the cost structures.
+[00:38:25] All of that comes down to what your goals are.
+[00:38:30] Right. There are places where you can.
+[00:38:32] Be and leverage this within existing vendor in ecosystems. Some of the opportunities that opportunity to new to to new ones, their Industries wave a lot of pressure.
+[00:38:43] on the analytics front for Innovation places where
+[00:38:47] there is going to be pressure on the cost side.
+[00:38:49] But all of it requires a position.
+[00:38:53] That you have.
+[00:38:55] because that world I said, is
+[00:39:00] We've we've passed the realm of hype.
+[00:39:04] Right? We've that we're very much in. This is the erection vendors are moving.
+[00:39:11] um,
+[00:39:12] And, and each Direction has consequences.
+[00:39:17] There's, there's no sort of safe place to go.
+[00:39:22] There's a lots for writing on this topic. Um, as mentioned, I think,
+[00:39:28] There was a devops presentation, I did earlier in the week that I think is very relevant in this area.
+[00:39:34] Um, I just published that paper on.
+[00:39:37] On Genai I think is very relevant. Um, I'm
+[00:39:43] We'll be doing a brand new m.
+[00:39:45] To just on Wake houses, um, this year which I'm kicking off the research in the fall.
+[00:39:52] um,
+[00:39:53] and other than that, I think.
+[00:39:57] We are.
+[00:39:58] We are. Am I over? I'm over.
+[00:40:01] So we are done. But if anyone has any questions, I'll be here after. Thank you so much.

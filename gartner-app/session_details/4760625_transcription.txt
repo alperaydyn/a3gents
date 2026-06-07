@@ -1,0 +1,191 @@
+[00:00:05] Good afternoon, everyone.
+[00:00:07] I'm swarup CEO of data hub.
+[00:00:10] Hope you're all settling in.
+[00:00:12] Because I'm going to tell you a story.
+[00:00:16] Once Upon a Time.
+[00:00:18] Humans spent weeks searching for data.
+[00:00:21] You know, they file tickets asking for access.
+[00:00:24] they, uh, asked around about the semantics of data and
+[00:00:28] You know, did a lot of analysis?
+[00:00:31] Only for it to land too late for it to matter.
+[00:00:36] And of course, you all know that once upon a time is right now, humans are still dealing with these problems.
+[00:00:43] But it's going to get a whole lot worse.
+[00:00:47] today, Claude code, generates 100% of the code required for Claude code, you all know this
+[00:00:53] And agents are being deployed in production. The analytics agent is the most prominent, use case that we are hearing.
+[00:01:01] And in about 9 months, to 12 months, agents will actually send
+[00:01:07] 100x, more traffic to your data platforms than humans.
+[00:01:11] The question is, are your platforms ready for that? Kind of traffic.
+[00:01:18] But before I dig into all that a quick history about data Hub, data Hub was born at LinkedIn to, uh, to, to handle the large scale.
+[00:01:27] Data management, challenges that link.
+[00:01:30] and,
+[00:01:31] Had uh, it was open sourced.
+[00:01:33] And Linkedin invested in us when we formed the company.
+[00:01:37] The commercial product is called Data Hub cloud.
+[00:01:41] And we have companies like apple Netflix and block contributing to the project. It's a, it's a vibrant and growing ecosystem and we have more than 15,000 practitioners in our community. And more than 3,000 companies running data have been production.
+[00:02:00] When we talked to all these companies uh you know we we asked them about. Hey how is the space evolving? How are you thinking about?
+[00:02:10] Your data management and AI in production. And we
+[00:02:15] Commonly hear a few things that I just wanted to summarize here, right. A lot of companies start with
+[00:02:21] what we call Phase 2 which is a very human oriented approach to data management where you're still primarily relying on process and coordination and your um you are trying to keep up with
+[00:02:34] all the different policies and humans are in charge and a human oriented data catalog is often used to
+[00:02:42] Manage.
+[00:02:44] Um,
+[00:02:45] problems that can't really scale with what humans do, right? This approach quickly falls apart.
+[00:02:52] Especially when you have a Federated.
+[00:02:55] organization where business units are also managing their own data and
+[00:03:00] You know, the scale and fragmentation of data, far exceeds what humans are able to deal with?
+[00:03:06] And of course, the driving force these days is AI Readiness, everyone's talking about it and you know, that's where you start to uh think about you know what what does AI in production need? How do you deal with? Um,
+[00:03:21] A contract where different business units can still adhere to centrally defined standards. But a lot of the um guarantees that you need for production facing data is done through automation, right?
+[00:03:35] And you have the the need to look across both data and AI as you're doing all of this, right? And you need a way to understand.
+[00:03:45] Consumption of AI and to actually drive the standards that you need in the data that is in the supply chain of that. And this is the phase where we, uh, use AI data catalog. Something that can span across both Ai and data.
+[00:03:59] and phase 4 is when you get into autonomous agents, where you have agents that are uh,
+[00:04:08] Fully autonomous or you have humans interacting through autonomous agents. But this is where you you needs. Go beyond.
+[00:04:17] The need to just manage data and AI assets, the supply chain, where you start to get into what we call the context platform where you have the need to factor in.
+[00:04:28] Semantic cortex.
+[00:04:30] Agent decisions, human Corrections and all of these things into a unified layer. So that agents have a way to uh, navigate not just
+[00:04:39] Uh, the, the the the classic challenges associated with data, Discovery, and so on. But also the semantic challenges that they have
+[00:04:48] So this is the pattern that we most often see, and when you're trying to navigate from that human oriented data, catalog to what we call the AI data catalog, which is that phase 3. Um, you know, you
+[00:05:02] You find that traditional processes, hit a wall, right? The manual.
+[00:05:07] Processes just don't scale and you need the ability to look across the entire supply chain starting.
+[00:05:15] From where your understanding, how AI is actually consuming your data sets to, you know, the health of the Upstream data that is actually feeding all of the uh the models.
+[00:05:28] And you need to operationalize this with
+[00:05:32] what we call the AI Readiness scorecard.
+[00:05:35] Where you have the ability at at an individual asset level.
+[00:05:41] To measure, key health indicators. You know, what is the accuracy? What does the semantic? Uh,
+[00:05:48] definition of this, and
+[00:05:51] and the ability to, uh,
+[00:05:53] Put this alongside consumption by AI. So you need the ability to measure consumption by
+[00:06:00] Instrumenting, the mCP servers by instrumenting the the agents.
+[00:06:04] And you need the ability to tie that back to an individual snowflake table that hey in the act of answering this question, this loan decisioning agent, happened to touch this Upstream MySQL table and to be able to capture all of the bread breadcrumbs that are associated with answering, that question and also capture the decisions that happened as a result of that and put it alongside the data Health metrics, that's when you drive action. Right? That's true. Operational AI Readiness, not not just AI, Readiness, for the sake of it. So, you need the ability to measure consumption and you need an operational way to tie the health metrics alongside
+[00:06:45] so,
+[00:06:46] You know, this is this is an ongoing Pursuit, obviously, you're never done, you know, you have to treat it more like an operational problem. But once you get past that, the next challenge is obviously,
+[00:06:58] Context management. Right? When you, when I talk about context, I think it requires a little bit of definition. There's the, the standard understanding that you have to go beyond Technical and operational, but also get into more business context, you know, standard operating procedures. Uh,
+[00:07:14] your um, you know, your metrics your um, you know your uh,
+[00:07:21] All the unstructured context that lives in your organization bringing all of that together. Uh and doing it at an Enterprise.
+[00:07:30] Scale is what we mean by context management, but you run into the usual challenges, the first 1 being, this is so scattered and fragmented, right? It lives in your mCP servers in your uh, unstructured data sets, your PDFs, your Confluence documents and and so many other places where you actually have the subject matter expertise and then you often don't understand.
+[00:07:53] What is trustworthy? What is accurate?
+[00:07:56] You know, just because a human suggested, a correction to a standard operating procedure. Does it mean it's valid forever? No, probably not. It has a half-life, maybe it's valid only for 6 months after that. You probably need to go and reconfirm with the subject matter expert, right? And then I'm going to un ungoverned, you know,
+[00:08:15] Are not just reading, they're also making changes and if you don't actually govern the changes that they're making you could have uncontrolled chain reactions. So these are the
+[00:08:27] Problems. Some of them are old, some of them are new, but the bottom line is, um,
+[00:08:33] All of this is happening at machine scale where humans are no longer able to keep up with all the things that are going on and you need a new way to address this. Uh, this is what we call the context platform. Uh, we solve for 3 things here first,
+[00:08:50] context intelligence, the ability to quickly bootstrap business context by looking at various sources,
+[00:08:58] Unstructured query logs.
+[00:09:00] Semantic models, and being able to quickly bootstrap.
+[00:09:04] Business context.
+[00:09:06] and context Hub, where you have the ability for subject matter experts to come in and
+[00:09:11] Confirm deny or reconfirm facts or when agents make decisions you need the ability for these experts to, uh, provide Corrections on top and then deliver all of this context to where the various Frameworks that exist, whether it's Lan chain, or whether it's Google adk, because context, has to be consumed wherever the action is actually happening. And that's what we call the, you know, the the context platform, where you're able to,
+[00:09:37] Scale, the practice of Context Engineering.
+[00:09:40] Across the Enterprise. It's not just limited to a single app.
+[00:09:46] so,
+[00:09:48] You know, we're really happy to have over energy as a customer, you know, many ways there at the bleeding edge of many of these practices. I want to invite Alex Creighton she's a principal product manager at over energy. Please welcome her.
+[00:10:09] If I full, that'll be a good start to this.
+[00:10:13] That has happened before. Um,
+[00:10:16] For first of all, thank you for being here. Welcome. Do you want to quickly introduce yourself and your your role at over energy? Sure. Uh, so I'm Alex. I lead our dates and AI platform teams at oval
+[00:10:29] um, I've been
+[00:10:30] The company for 2 years and I was really lucky to see to witness the acceleration of our journey in in Ai and we've been partnering with data hub for a while. Now to
+[00:10:40] To try and solve some of our, if not all of our uh, all of our data challenges.
+[00:10:46] Fantastic. So before we dig dig into the um, you know, the meaty topics, just some quick ice breakers coffee or tea.
+[00:10:54] Coffee.
+[00:10:56] Open AI or anthropic anthropic.
+[00:10:59] Humans in control or Ai and control both.
+[00:11:03] You have to pick 1.
+[00:11:05] Humans. Okay.
+[00:11:07] All right.
+[00:11:09] so, you know, we talked about
+[00:11:12] AI a lot and we talk about business out.
+[00:11:15] you know, the thing that I hear about the most is still
+[00:11:18] customer service agents or analytics agents. What are you seeing? What is actually important to the business? So an overall argenti with AI and machine learning isn't new. So we've started back in 2017, 2018 from, uh,
+[00:11:35] Trying to predict issues that our customers may have with their meters. Uh, then we moved into NPCs action and personalized tax personalized products.
+[00:11:45] And more recently we've moved into this whole conversational AI space so we've built uh the teams have done an amazing job. Building the chat bot or like conversation AI app from scratch uh but also we've moved into the territory of more prediction now. So we
+[00:12:00] See a world where we could predict the problems for our customers before they do when we solve them before, they even become a problem. So, that's what we're trying to leverage the, uh, AI. But also the second layer of that, we're very intentional how we use AI in our organization. So we look at it in 2 ways. What is internally and how we can augment our teams, what tools we could give to our teams to use and then also how we can use it to better our relationship with our customers. Uh and really use AI to drive a better customer experience which is ultimately what we want as a as an energy retailer.
+[00:12:32] So you talked about uh, predictive use cases. Yes. Could you get into some of that and are there any success? Stories also related to that. Um, so when we think about prediction we think about predictive
+[00:12:45] Maintenance, for example. So we want to, you know, we imagine a world where
+[00:12:50] Senior leader comes to work. Uh, they open this amazing tool. They look at 4, million meters, both traditionals and smart meters, for example. And you can see that 10 or 20% of those meters have issues and then immediately you can like anticipate what those issues are and and try and solve those for for the customers. We're just scratching the surface on on on that right now but that's a really big area of focus for us again as an energy retailer. We care about about different things I guess.
+[00:13:20] So as you're well aware getting a complex use case that to production involves many many things. Some of the things that I talked about. Yeah,
+[00:13:30] In the supply chain, you know, the reliability and, and so on. So it takes a lot to go from a
+[00:13:37] A very promising pilot to Something in production. Yeah, I think it'll be really useful to the audience if you share some of those, uh, lessons. So, um, again, we, I guess, uh,
+[00:13:49] you know, obviously praise the teams because I'm part of the teams. But, um, we've got amazing data scientist, uh, and engineers. And we've got a really strong data team at over and a lot of the I guess initially when we're starting doing a project like this, a lot of the work goes into Data, Discovery and data exploration. So what data do we need to solve this problem? Do we actually have that data? Is it clean? Is it structured? How can we access it and historically, uh, I guess before data Hub and whilst we went on
+[00:14:15] On the journey for adoption. It could take a team from 2 days, to 2 months, to do that, to do that exploration. And, and, and that data Discovery. And that's where do you see the most amount of time being spent? And then what we try to then measure is do our teams actually, trust the data and from if you want to use a scale from 1 to 5, what you found historically is that the trust in that data is really low? So 1 of our I guess blocker and challenges was around the data, you know, can we find it? Is it good? Is it clean? Who owns it? Um, so it's still I guess it goes back to the fundamentals of
+[00:14:49] Of building and product, and actually the fundamentals of of of the data.
+[00:14:54] Yeah, and we both have talked about this, a bit, you know, the the technical and the operational.
+[00:15:00] Of data is 1 aspect. Obviously there's a lot to be done there when you look at the supply chain. Uh, but
+[00:15:07] Uh, when I talk to people, a lot of people also, talk about how hard it is to get the semantic graph. Yes, uh, especially
+[00:15:18] The the knowledge that's embedded in. All the subject matter experts. Yeah. And how do you get them to participate? What are your thoughts on that? So what we've, so what we're doing actually, we've got 2 ways of looking at this. So 1. Uh, we've got a centralized team that builds our data platform. So what that is effectively is a marketplace where teams can come and publish their data as a data product, and then that gets surfaced, uh, to
+[00:15:45] The analytical teams through a semantic layer, and, and you started having a common definition about like, what's a bill, what's a direct debit, what's an active customer, what's a meter? Because that's really important and, you know, historically energy. Like energy is a very traditional industry, so you would find that, you may have 3 different ways of measuring an active customer or like you have 3 different like concepts of what a bill actually is, right? So through the data, platform of building, that semantic layer. And then we're giving teams access to to to those data products via VIA that. And obviously using data to have that a big part of our data platform. Um, and it's a big part of how customer, sorry, how uh our teams can can find their data. And then the second thing that we're starting to look at right now is that knowledge platform element of it. So
+[00:16:30] As an energy retailer of what you find is, a lot of your work is very operational. You have a lot of information and knowledge about how you run the business, but more importantly, the advisors that are working with our customers and serving our customers, they'll have lots of processes with like how they serve those customers. So it's about how we 1 of the problems that we're trying to solve. It's about like, how do we centralize that data in a really good way that's versioned and then we surface that to a human but also to an nlm because you
+[00:16:57] Going into that the AI acceleration phase. Um,
+[00:17:02] You'll start opening up access to to this data to the LMS as well to try and do all sorts of innovative stuff with it. Right. Right right. Just just a quick poll here. How many of you have?
+[00:17:13] Agents running in production.
+[00:17:18] Cool. That's great. More people than I expected. Yeah. Yeah, yeah. For sure I think the answer was
+[00:17:24] uh, much smaller last time I did this um,
+[00:17:28] how many of your blocked more by the technical and operational health of your data supply chain?
+[00:17:35] uh, than the actual AI use the
+[00:17:39] the AI bottlenecks.
+[00:17:43] Okay, that's a, that's a fair number. I think it's everyone, but yeah, all right, we'll go, no actually, it's interesting. Uh, how, how about, you know, this semantic knowledge, the business knowledge, you know, the standard operating procedures the subject. Matter expertise, how many
+[00:18:00] Your block more by that.
+[00:18:04] Okay, so I think it's a good mix. Different hands went up this time, so
+[00:18:10] I think speaks to like the different.
+[00:18:13] Um, phases of evolution. Also, as you get these things from Pilot to production, um
+[00:18:20] I guess 1 question is
+[00:18:22] As you're getting these things into production, I'm sure evals is a big part of it. Yes. How have you operationalized that?
+[00:18:33] very good question and it's been
+[00:18:36] It's been a very interesting problem to solve, um, so we, as I've mentioned earlier we have some really good data science.
+[00:18:45] Einstein's. And when we started our journey to building our conversational AI, tooling our chatbot. Right? Well, you've got, uh, in the app we about a year. And a bit ago, we started to look at how we can do evals, and that's still a new. I don't I'd venture to say that's still a new thing for everyone, right? Like, you don't need it from the beginning, so we
+[00:19:04] Um we looked at the line chain ecosystem to try and and and see if we can run our eals using uh using that stack. And then as we started doing evaluation what we've discovered is, like we're getting even more data because you're getting all of those traces and you're capturing all of those different conversations.
+[00:19:23] So it's been a journey of learning, not only how to do evals, but how to harness the data that I would get from The evals? And then what good
+[00:19:30] It looks like in production and what what's the tooling layer that you need for something like that in production? Because you do need strong, observability over your llms and we're using the same sort of, uh, platform, uh, for observability as well. Um, and I think like in as a good example, using Eevee valves we uncovered the bug in Gemini before Google themselves. Uh, did it. And I hope it's okay for me to say that publicly, but that, that, that made it for a very interesting conversation with the, with the US team. Um, so yeah, I think it's, uh, it's still a journey of learning, but we're fairly ahead I would say with, with how we do things.
+[00:20:05] so as as these evals have come in and um,
+[00:20:10] you know, you have
+[00:20:12] a few, uh, small number of people looking at
+[00:20:15] These results. Um, and how do you go about?
+[00:20:20] Understanding where to actually materially improve the evals, you know, when do you localize it to a data problem? Versus is something on the model. The prompts, like, how have you gone about doing that? So we evaluate both the in this case, the conversation but we also evaluate the models and their performance and we do LM as a judge. So we apply LM as a judge, uh, in the platform. But also we do human annotations and human. Um, uh
+[00:20:47] Yeah, we get a human to review those results. And then I think, I see a world where we aggregate all of that tracing data and we potentially plug that back into something like data Hub to get into that phase 4 on your
+[00:21:00] Graph and build that context, uh, that context platform. Um, but it's still a bit, it's still hidden Miss and we do a lot of experimentation, right? Um, yeah, and I think it's just also about the tools that you have. Ultimately. Yeah.
+[00:21:13] um, you know, when I talked to companies they
+[00:21:18] There are 2 schools of thought. 1 is
+[00:21:22] You know, you have a lot of mess, just live with it, let the AI, let loose on that. Um, and start adding context alongside it as you go along.
+[00:21:34] But then there's the other school of thought that no, uh, it's better to have business facing data products.
+[00:21:41] and with Rich semantics and a
+[00:21:45] Should only consume things that are up at a certain standard.
+[00:21:49] And so I'm sure you fall in the second Camp. Maybe talk us through how you arrived at that.
+[00:21:57] Um,
+[00:21:59] So I think for us again, 1 of the biggest 1 of the most important things that we wanted to achieve. So we started taking it back a bit at the beginning of the year, we started to care about AI Readiness. And I remember when, when our leadership team came to me that a lot of Alex, we have to start measuring are Readiness and I was like, what do you mean? Can we start defining? So I spent a bit of time with the teams trying to Define what a region is means for us because I think it's different for each company, right? So we looked we look at AI Readiness as data.
+[00:22:30] So is our data structured clean. Can people access it? What different level of access you get to that data. Uh, do we have the right infrastructure? Uh, in place in the right tooling to surface that data to to the teams and to the team? Understand what that data is. And then do we have, like, what is the quality of our data? And we measure a lot of things.
+[00:22:49] Number of data incidents, uh, we put observability over our data and then we created our own index metric using Claude, I should say. So I use a lot of Automation and in in doing that but we started through it started from the back of like trying to to measure our Readiness and what that means for us. And then we went really hard at uh created single source of Truth to our data products, getting all of those data products onto 1 platform and then giving teams
+[00:23:15] Strong, uh, observability over those products and also an easy way to access those products on on, on the platform.
+[00:23:22] Cool.
+[00:23:23] Um,
+[00:23:25] so I want to touch on the more culture and, uh, aspects of this. Let's great. So,
+[00:23:35] I I hear again 2 different things. AI Readiness is a top-down board. Mandated
+[00:23:41] directive or, you know, sometimes it's more Grassroots and
+[00:23:46] um, and then, in either case, you actually need to figure out the incentives and the the the participation of
+[00:23:53] The different business units. So what are your thoughts on what works? What doesn't? I'm sure you're figuring it out like many of us here.
+[00:24:00] So I think more recently, you know, I describe these things probably in, I come across, you know, very simplistic but it's been a journey for us as well and it's not really easy to, to nail it from the beginning. I think we think a lot about
+[00:24:15] Giving people the tools to experiment with this, right? Um, and I think we're really lucky because we're using both uh, Google and anthropic uh, to that. Um, and also, we think about how we can reshape our teams and what teams could look like to be successful in this day and age. Like, if you look at intercom for example, which is really good, they became an AI first company. A couple of years ago, they went really hard at AI. I think that the team composition is like 3 people. That's it.
+[00:24:42] You know, doing all sorts of innovation what we're trying to.
+[00:24:45] Spider-Man with at the moment is can we create like can we innovate in 1 space and then create a photo deploy uh type of um, culture where we take that Innovation. And then we put it into a different parts of our organization. So then or design is really important and how you think about creating those teams is really important to be successful in in the, in the eye space. That's what I'm that's what we're finding right now and I think we've got loads of support from the leadership team. While some of these things, you know, is I guess is a bit top down because it comes from the board. There's a lot of innovation in the space. People are very interested, the CEO is going to talk to other CEOs and then they come back and say can I have access to Claude know, you can't. Um, so so I think it's, it's a bit of that but also it's it's just encouraging the teams to use the tools experimental.
+[00:25:30] A lot and then make it easier for those uh, for that culture to sort of spread across the organization.
+[00:25:37] Cool. Um, yeah. I mean, I think, uh, this is what I hear from um a lot of our customers to the the ability to experiment with many different things and see what sticks and yeah. Um, so
+[00:25:51] As you've gone about.
+[00:25:54] Looking at the entire supply chain.
+[00:25:56] In structured data is hard. Yes. But at least
+[00:26:01] It's understood. What are the things that are hard about it? Or unstructured people have actually very little understanding of even what is hard about it? Yeah, um, you know, for example, a PDF could describe the state of the world
+[00:26:15] World today.
+[00:26:16] But it may not be relevant 6 months from now but that still gets enshrined into.
+[00:26:21] Uh, the knowledge repository. So how have you?
+[00:26:24] Uh looked at the challenges with unstructured data. Um I think this is a very good question because it's something that we're looking at right now and I think it's first of all is getting good visibility of what that unstructured data looks like because for traditional companies, in in the UK and I think you know fintech like finance companies fall in this space as well. Is you'll find that you've got you have 15 different ways of doing 1 Thing.
+[00:26:50] And it's 20 different ways of documenting that the documenting that thing. So what we're trying to do now is get visibility over all of that knowledge, that exists or
+[00:27:00] Operationally what that looks like, how many versions of that do we have? And then it's about creating 1 single source of truth of that as well. That gets versioned properly gets accessed in the right way. Because as you said, we are doing a process today that might not be valid tomorrow because, you know, you're talking about a different challenges in the energy space.
+[00:27:22] So, you know, we've talked about so many challenges and it's it's a lot. Um, what keeps you going? What what do you find personally?
+[00:27:31] uh,
+[00:27:32] Motivating. As you deal with all these problems, um,
+[00:27:35] Well, that's a very good question. I haven't thought of that. Actually, I'm really passionate about this space. First of all, um,
+[00:27:42] And I think like, we've got so many in.
+[00:27:45] Interesting challenges to solve and I love trying to solve those problems in a more traditional business rather than going, you know the sort of cool edgy Tech AI. First businesses. I think that really keeps me going um and also the teams and working with the people and seeing people getting access to these tools and getting very very excited about it. Um, because I do think um, yeah if you've got a really good opportunity here with with this, so yeah.
+[00:28:12] Cool. Uh last bet time for some predictions. Um, when do you think um we'll have
+[00:28:20] Fully autonomous agents manipulating data reporting on data.
+[00:28:26] Um,
+[00:28:27] uh, with humans just quarterbacking.
+[00:28:31] I well, I've I've got 2 arms that in the US, I think probably in the next 12 months in the UK and Europe.
+[00:28:39] Maybe give it 24 months, uh but I do think there's like there's different pockets of that as well. So I think sooner than people expect because you see that already started to happen in some places but I do think us is a bit ahead. We have more regulation. We like the red tape more. Sadly.
+[00:28:53] I hope no 1 in the government is here, if not like I'm a fan, I used to work for the government.
+[00:28:58] Oh Alex, thank you so much. I think you've covered a variety of topics and it's been very very useful to everyone here. I wanted to thank you again.

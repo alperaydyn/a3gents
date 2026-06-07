@@ -1,0 +1,104 @@
+{
+  "summary": "The session discusses the evolution of AI governance and the importance of providing context for AI agents to function effectively. It highlights the challenges faced by organizations in implementing data governance and the need for a structured approach to manage AI risks. The speakers emphasize the significance of operationalizing governance policies to ensure safety and efficiency in AI applications.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to AI and Governance",
+      "key_points": [
+        "AI is evolving with autonomous agents taking over tasks.",
+        "Context is crucial for AI models to function correctly."
+      ],
+      "start_time": "00:00:00",
+      "end_time": "00:10:00"
+    },
+    {
+      "order": 2,
+      "topic": "Operationalizing AI Governance",
+      "key_points": [
+        "The need for practical implementation of governance policies.",
+        "AI governance must keep pace with rapid technological advancements."
+      ],
+      "start_time": "00:10:01",
+      "end_time": "00:20:00"
+    },
+    {
+      "order": 3,
+      "topic": "Challenges in AI Governance",
+      "key_points": [
+        "Inconsistent risk assessments across the organization.",
+        "The importance of a centralized AI inventory for visibility."
+      ],
+      "start_time": "00:20:01",
+      "end_time": "00:30:00"
+    },
+    {
+      "order": 4,
+      "topic": "Future of AI Governance",
+      "key_points": [
+        "AI governance should be treated as an ongoing capability.",
+        "Establishing an AI Control Board for multi-stakeholder engagement."
+      ],
+      "start_time": "00:30:01",
+      "end_time": "00:40:00"
+    }
+  ],
+  "key_takeaways": [
+    "AI governance is essential for ensuring safe and effective AI applications.",
+    "Providing context to AI agents is critical for their success.",
+    "Organizations must operationalize governance policies to keep up with AI advancements."
+  ],
+  "entities": [
+    {
+      "AI governance": 5
+    },
+    {
+      "data governance": 3
+    },
+    {
+      "context": 4
+    },
+    {
+      "risk management": 3
+    },
+    {
+      "autonomous agents": 2
+    },
+    {
+      "data products": 2
+    },
+    {
+      "AI Control Board": 2
+    },
+    {
+      "operational efficiency": 2
+    },
+    {
+      "safety": 2
+    },
+    {
+      "centralized AI inventory": 1
+    },
+    {
+      "stakeholders": 1
+    },
+    {
+      "business decisions": 1
+    },
+    {
+      "renewable energies": 1
+    },
+    {
+      "mining technology": 1
+    },
+    {
+      "operational sites": 1
+    },
+    {
+      "policies": 2
+    },
+    {
+      "workflows": 2
+    }
+  ],
+  "subject_area_id": "governance"
+}

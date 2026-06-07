@@ -1,0 +1,61 @@
+{
+  "summary": "The session focuses on the importance of a well-defined operating model in data and analytics to bring order and discipline to complex environments. It emphasizes the need for strategic planning, clear communication, and the alignment of resources to achieve measurable business outcomes. The speaker discusses the relationship between strategy and operating models, highlighting the necessity of adapting methods and practices to the specific needs of stakeholders.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Operating Models",
+      "key_points": [
+        "Importance of an operating model for maintaining order in data and analytics environments.",
+        "Need for strategic planning to align resources with business goals."
+      ],
+      "start_time": "00:00:03",
+      "end_time": "00:09:00"
+    },
+    {
+      "order": 2,
+      "topic": "Understanding the Data Ecosystem",
+      "key_points": [
+        "Decoupling data content from application systems for better data management.",
+        "Role of AI in enhancing data quality and governance."
+      ],
+      "start_time": "00:09:00",
+      "end_time": "00:18:00"
+    },
+    {
+      "order": 3,
+      "topic": "Delivery Models and Team Dynamics",
+      "key_points": [
+        "Discussion on centralization vs decentralization of data functions.",
+        "Need for flexible delivery approaches based on stakeholder relationships."
+      ],
+      "start_time": "00:18:00",
+      "end_time": "00:29:37"
+    }
+  ],
+  "key_takeaways": [
+    "Establish a clear operating model to bring order to data and analytics environments.",
+    "Decouple data content from application systems to improve data management.",
+    "Adopt flexible delivery methods tailored to the specific needs of stakeholders."
+  ],
+  "entities": [
+    {
+      "operating model": 5
+    },
+    {
+      "data governance": 4
+    },
+    {
+      "data quality": 3
+    },
+    {
+      "strategic planning": 3
+    },
+    {
+      "data ecosystem": 3
+    },
+    {
+      "delivery model": 3
+    }
+  ],
+  "subject_area_id": "data_management"
+}

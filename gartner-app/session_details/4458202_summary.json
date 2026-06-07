@@ -1,0 +1,76 @@
+{
+  "summary": "Eric Breu discusses the evolution and significance of AI agents and composite AI in decision-making processes. He emphasizes the importance of capturing intuition and experience through AI techniques, as well as the need for a structured approach to decision intelligence. The session highlights the integration of various AI methodologies to enhance reliability and effectiveness in organizational decision-making.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to AI and Agents",
+      "key_points": [
+        "AI has evolved significantly since its inception, with current focus on AI agents.",
+        "AI agents are autonomous software entities that can perceive, reason, and act."
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:03:00"
+    },
+    {
+      "order": 2,
+      "topic": "Decision Intelligence and Autonomy",
+      "key_points": [
+        "Decision intelligence is crucial for organizing AI agents.",
+        "Autonomy in AI agents allows for improved decision-making processes."
+      ],
+      "start_time": "00:03:00",
+      "end_time": "00:09:00"
+    },
+    {
+      "order": 3,
+      "topic": "Composite AI Solutions",
+      "key_points": [
+        "Composite AI involves mixing various AI techniques for better decision-making.",
+        "Knowledge extraction is essential for retaining organizational knowledge."
+      ],
+      "start_time": "00:09:00",
+      "end_time": "00:12:00"
+    }
+  ],
+  "key_takeaways": [
+    "AI agents represent a significant advancement in the field of artificial intelligence.",
+    "Integrating multiple AI techniques enhances decision-making capabilities.",
+    "Capturing and institutionalizing knowledge is critical for organizational success."
+  ],
+  "entities": [
+    {
+      "AI": 10
+    },
+    {
+      "AI agents": 5
+    },
+    {
+      "decision intelligence": 4
+    },
+    {
+      "composite AI": 3
+    },
+    {
+      "knowledge extraction": 2
+    },
+    {
+      "autonomy": 3
+    },
+    {
+      "data": 6
+    },
+    {
+      "context": 3
+    },
+    {
+      "machine learning": 2
+    },
+    {
+      "cdao": 2
+    },
+    {
+      "analytics": 2
+    }
+  ],
+  "subject_area_id": "agentic_ai"
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Gartner Sessions{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+          <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+        </svg>
+        Gartner Sessions
+      </a>
+      <a href="/subjects" class="nav-link">Subject Areas</a>
+      <a href="/graph" class="nav-link">Session Graph</a>
+      <a href="/studypath" class="nav-link">Study Path</a>
+      {% block nav_extra %}{% endblock %}
+      {% if current_user.is_authenticated %}
+      <div class="nav-user">
+        {% if current_user.picture %}
+        <img src="{{ current_user.picture }}" alt="{{ current_user.name }}" class="nav-avatar">
+        {% endif %}
+        <span class="nav-user-name">{{ current_user.name }}</span>
+        <a href="/logout" class="nav-link nav-logout">Sign out</a>
+      </div>
+      {% endif %}
+    </div>
+  </nav>
+  <!-- Study-mode progress bar — rendered by JS from localStorage -->
+  <div id="study-bar" style="display:none"></div>
+  <main>{% block content %}{% endblock %}</main>
+
+  <!-- Entity modal -->
+  <div id="entity-modal" class="modal-backdrop hidden">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 id="modal-title">Sessions with entity</h3>
+        <button class="btn-icon" onclick="closeEntityModal()">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+      <div id="modal-body" class="modal-body"></div>
+    </div>
+  </div>
+
+  <script>
+  function openEntityModal(entityName) {
+    const modal = document.getElementById('entity-modal');
+    const title = document.getElementById('modal-title');
+    const body  = document.getElementById('modal-body');
+    title.textContent = `"${entityName}" — sessions`;
+    body.innerHTML = '<div class="spinner"></div>';
+    modal.classList.remove('hidden');
+    fetch(`/api/entity/${encodeURIComponent(entityName)}`)
+      .then(r => r.json())
+      .then(data => {
+        if (!data.sessions.length) {
+          body.innerHTML = '<p class="muted">No sessions found.</p>';
+          return;
+        }
+        body.innerHTML = `
+          <p class="modal-count">${data.total} session${data.total !== 1 ? 's' : ''}</p>
+          <div class="entity-session-list">
+            ${data.sessions.map(s => `
+              <a href="/session/${s.session_id}" class="entity-session-row">
+                <div class="entity-session-title">${s.title}</div>
+                <div class="entity-session-meta">
+                  ${s.speakers ? `<span>${s.speakers}</span>` : ''}
+                  ${s.date ? `<span>${s.date}</span>` : ''}
+                  <span class="entity-badge">${s.count}×</span>
+                </div>
+              </a>`).join('')}
+          </div>`;
+      });
+  }
+
+  function closeEntityModal() {
+    document.getElementById('entity-modal').classList.add('hidden');
+  }
+
+  document.getElementById('entity-modal').addEventListener('click', function(e) {
+    if (e.target === this) closeEntityModal();
+  });
+
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeEntityModal(); });
+  </script>
+  {% block scripts %}{% endblock %}
+
+  <script>
+  /* ── Study-mode progress bar ─────────────────────────────────────────── */
+  (function () {
+    let _studyCacheData = null;
+
+    function getStudy() { return _studyCacheData; }
+
+    function saveStudy(s) {
+      _studyCacheData = s;
+      fetch('/api/user/state/active_study', {
+        method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(s),
+      }).catch(() => {});
+    }
+
+    function currentPageSid() {
+      const m = location.pathname.match(/^\/session\/(\d+)/);
+      return m ? m[1] : null;
+    }
+
+    function render() {
+      const study = getStudy();
+      const bar   = document.getElementById('study-bar');
+      if (!bar) return;
+
+      if (!study || !study.path || !study.path.length) {
+        bar.style.display = 'none';
+        return;
+      }
+
+      // If we're on a session page that's in the path, sync current_index
+      const sid = currentPageSid();
+      if (sid) {
+        const idx = study.path.findIndex(s => s.session_id === sid);
+        if (idx !== -1 && idx !== study.current_index) {
+          study.current_index = idx;
+          saveStudy(study);
+        }
+      }
+
+      const total   = study.path.length;
+      const cur     = Math.min(study.current_index, total - 1);
+      const session = study.path[cur];
+      const pct     = Math.round(((cur + 1) / total) * 100);
+      const color   = session.stream_color || '#6366f1';
+
+      bar.style.display = 'block';
+      bar.innerHTML = `
+        <div class="study-bar-inner">
+          <div class="study-bar-left">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" style="color:${color};flex-shrink:0"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            <span class="study-bar-name">${escH(study.name)}</span>
+            <span class="study-bar-step">${cur + 1} / ${total}</span>
+          </div>
+          <div class="study-bar-track">
+            <div class="study-bar-fill" style="width:${pct}%;background:${color}"></div>
+          </div>
+          <div class="study-bar-right">
+            <a class="study-bar-link" href="/session/${session.session_id}">
+              ${cur === 0 && sid === session.session_id ? 'Resume' : 'Current session'} →
+            </a>
+            <a class="study-bar-link" href="/studypath">Edit path</a>
+            <button class="study-bar-dismiss" onclick="dismissStudy()" title="End study session">✕</button>
+          </div>
+        </div>`;
+    }
+
+    function escH(s) {
+      return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    }
+
+    window.dismissStudy = function () {
+      _studyCacheData = null;
+      fetch('/api/user/state/active_study', { method: 'DELETE' }).catch(() => {});
+      document.getElementById('study-bar').style.display = 'none';
+    };
+
+    // Run on load; also expose for session_detail to call after index sync
+    window._studyBarRender = render;
+    window._getStudy       = getStudy;
+    window._saveStudy      = saveStudy;
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      try {
+        const res = await fetch('/api/user/state/active_study');
+        if (res.ok) {
+          const data = await res.json();
+          _studyCacheData = data.value || null;
+        }
+      } catch (_) {}
+      render();
+      if (window._studyNavInit) window._studyNavInit();
+    });
+  })();
+  </script>
+</body>
+</html>

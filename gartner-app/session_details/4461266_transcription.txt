@@ -1,0 +1,195 @@
+[00:00:00] Kind of breaking through some of those analytical mind fields that we have plaguing our organizations is there as we've grown, as we've democratized data, or maybe access available to data.
+[00:00:13] We hit this point where the traditional methodologies of centralized development, just don't keep up with our business demands.
+[00:00:22] Um,
+[00:00:23] So, what I think we need to do is then explore a technical, reference architecture to underpin and operating model.
+[00:00:32] And this is meant to help balance those essential controls wheel demand. Along with creating some agility in our business units.
+[00:00:41] so,
+[00:00:42] Any of us feel like we're looking at something like this.
+[00:00:45] A pile of unsorted blocks.
+[00:00:47] And our research shows that 48% of you out there.
+[00:00:52] Don't have an actual, uh, formalized process for analytical delivery.
+[00:00:57] People are basically left up to their own devices.
+[00:01:00] Do we have all the pieces? We all have all the tools.
+[00:01:03] We have the smart people, you have the data.
+[00:01:06] But they're scattered.
+[00:01:08] In here.
+[00:01:09] To me, this looks like a pile of uncoordinated attention.
+[00:01:14] But in this pile, we get roped development and unsearchable insults.
+[00:01:18] We get 3. Different departments defining churn as in 3 different ways.
+[00:01:24] if we try to glue all of these blocks together,
+[00:01:27] we end up with the rigidity that we've had historically.
+[00:01:31] So to break us from that chaos, the redundancy, these missed opportunities.
+[00:01:38] We need a framework for implementing and managing analytics throughout our organization.
+[00:01:44] So here I propose that we need an analytics operating model.
+[00:01:48] Underpinned. What I'll go through today as a technical reference architecture.
+[00:01:53] 1 that mirrors. Best practices for development life, cycle management.
+[00:01:58] Provides cost-efficiency scale of ability that ultimately reduces organizational risk.
+[00:02:05] Now.
+[00:02:06] I want to take a minute and Define what it is. I mean by a reference architecture
+[00:02:11] This is a framework for making our system.
+[00:02:15] Scalable interoperable and supportable.
+[00:02:18] And it serves as an essential tool for aligning, our technical designs with business objectives, ensuring principles, such as modularity, and scalability in future Readiness are all maintained.
+[00:02:32] And by designing a technical reference architecture here. What we do is we solve for 3 problems,
+[00:02:39] That chaos born on us by Rogue decentralized development.
+[00:02:44] The rigidity of those traditional centralized development models.
+[00:02:49] And then we achieve balance by instituting global oversight for consistency and risk reduction.
+[00:02:56] While maintaining some local autonomy in development.
+[00:03:01] So, at its core, this reference architecture is a detailed design, template a blueprint.
+[00:03:08] Uh, that outlines are building blocks.
+[00:03:10] And how we connect them to solve our common Technical and business challenges.
+[00:03:17] And this is not meant to be a 1 Zas fits all solution. What I will present today is meant to be adapted. It's a starting point that you can then extend based on your business, requirements, your technical contacts or even your ecosystems
+[00:03:33] So why ultimately do we go through this? Why do I suggest that we want to define a reference architecture and why in particular a Federated?
+[00:03:42] well, it's about choosing the
+[00:03:45] Right? Or the optimal organizational pattern for our business?
+[00:03:50] 30 talked a little bit. And we know this about centralized patterns.
+[00:03:54] They're restricted, they can create bottlenecks.
+[00:03:57] And they don't just don't keep up with the ever-changing demands of our businesses.
+[00:04:02] And decentralization.
+[00:04:04] Allows for freedom and development.
+[00:04:06] But yield silos, redundant efforts, and inconsistent development and ultimately limited sharing of those insights.
+[00:04:16] With Federation.
+[00:04:17] We achieve.
+[00:04:18] Interoperability through shared standards.
+[00:04:20] And scalability.
+[00:04:22] Through a common implementations shared enablement.
+[00:04:25] And governance becomes, then a coordinated effort.
+[00:04:30] Federation gives us the best of both worlds, effectively, the Goldilocks zone of an analytics operating mode.
+[00:04:36] and this architecture becomes then that strategic blueprint that enables information sharing and collaborative Development Across our decentralized units while maintaining globalized standards
+[00:04:51] To build this. I think we rely on 4. Founders.
+[00:04:56] 1 is we need consistent development of our Analytics.
+[00:05:00] Meaning the way we develop our metrics, semantic models, machine learning models must have a standardized process.
+[00:05:07] and if we build a great model,
+[00:05:10] people need the ability to find it and connect with that data.
+[00:05:14] So, 1 of the most challenging.
+[00:05:15] Thanks today.
+[00:05:17] And we want to then also move away from those monolithic building blocks and create composable and interoperable architectures.
+[00:05:25] And finally, The crucial element here is that we need balance control that still allows for localized nuances.
+[00:05:35] So,
+[00:05:36] Going to take a walk through this albeit very detailed diagram.
+[00:05:40] Which is now a generalized stack of analytical capabilities.
+[00:05:45] I consider our analytic service framework.
+[00:05:48] Here's where we identify the capabilities that our organization is going to provide to our analytics developers and users.
+[00:05:54] and how will package those capabilities for consistent implementation across business domains
+[00:06:01] At a high level. We're really looking at a couple of layers across for data connection and preparation, our analytical modeling and then analytical delivery, and all of these are then fairly coupled by analytics operations.
+[00:06:14] typically, we talk about this in terms of governance,
+[00:06:18] I want to take a walk through these layer by layer.
+[00:06:22] At the base layer. We're starting with data and this in a Federated model is about standardized utility.
+[00:06:29] Here, we enable connectivity to get to our data sources.
+[00:06:33] And our analytics developers focus on data, preparation and transformation, to make that data useful and fit for purpose.
+[00:06:41] Critically, we're really focusing here on the data quality.
+[00:06:45] That our users can connect with.
+[00:06:47] And even if a business unit owns their own data and say a data mesh Paradigm, the standards for how that data is accessed, and cleansed has to be part of this reference architecture to ensure the interoperability that we all need.
+[00:07:04] Capabilities. We talked about in this layer are often centered around data preparation. Arguably. These are the most used capabilities by our analytics developers and are generally implemented as an integral part of our analytics or EI tools. Sometimes they're found in uh Standalone platforms.
+[00:07:23] Or even part of our data science machine learning tools.
+[00:07:27] Now.
+[00:07:28] As we move up.
+[00:07:29] To this.
+[00:07:30] Center of this. We're moving into that modeling layer and this is kind of the brains of the operation. This is where the magic happens and also where most of the problems also happen when we don't have a plan.
+[00:07:41] So this is where we're defining relationships between data entities. This is where we're creating our dimensional models and we're also uh, codifying our business definitions
+[00:07:52] This is where our analytics developers are connecting with that prepared. Fit for purpose data building the metrics, they're semantic, they're machine learning models and leveraging things like taxonomies and hierarchies. And what we're seeing increasingly in this space is how do we adopt ontology and Knowledge Graph into this?
+[00:08:11] So, in this layer is that place where we do Define.
+[00:08:15] Revenue or churn once so that all of our Downstream endpoints in our delivery, use that same logic.
+[00:08:22] And by federating this layer are specific business units like domain. All right? Sorry, this is domains like HR or Finance legal, that kind of thing can Define their own semantic models, and share those out as products.
+[00:08:36] Fit, uh, fitting in with our Global standings.
+[00:08:40] So again, we often find these as part of our incumbent bi tools, Standalone semantic, layer platforms.
+[00:08:48] Increasingly as I suggested Knowledge, Graph is playing a role in this, and even some data management platforms are building in that semantic modeling capability.
+[00:09:00] and then when we get to that analytical delivery layer,
+[00:09:04] this is how our business is consumed, those insights, and how we share those insights for things like, dashboards reports, conversational analytics, through natural language query and even those predictive models and the key function here is productization
+[00:09:20] we need to move in this pattern away from simple project delivery.
+[00:09:26] Deliver something and walk away to more product management, life cycle, management change control.
+[00:09:32] Here's where we also enable that discoverability.
+[00:09:35] As if a group like marketing, creates a great, uh, customer segmentation model.
+[00:09:42] Sales needs to be able to find that rather than NEC.
+[00:09:45] Necessarily built 1 on their own.
+[00:09:47] So we enabled that through implementing or augmenting, the data catalogs, or the analytics catalogs that are tools have or even built, uh, bringing in third-party tools, uh, to enable that across the business.
+[00:10:02] And then, of course, wrapping this, as I suggested, we have that operations layer.
+[00:10:07] In a Federated model governance is not designed to be a bottleneck. We really won't uh treat this as an enabler. It's the guide rails.
+[00:10:15] So we do focus on data security practices and observability to monitor pipeline health and operation there. But critically we want to look at enabling users with things, like life, cycle management, change control version management, that sort of thing.
+[00:10:30] These are tools and services that the common business user is not accustomed to.
+[00:10:35] But as we move to that productization,
+[00:10:38] We are looking to enable.
+[00:10:41] And all of these capabilities then work together in efforts to mitigate organizational risk.
+[00:10:48] This allows us to ultimately trust those decentralized business units.
+[00:10:52] Because we can see what they're doing.
+[00:10:54] And guide them on how to do everything safely.
+[00:10:58] So together, these represent the collective of analytical services that we as Architects need to provide to our users.
+[00:11:08] and as we look at this stack and probably some of the you can tell from some of the words and descriptions I've used,
+[00:11:15] We need to recognize a very practical reality.
+[00:11:18] And that is that our modern analytics bi platforms often have overlapping capabilities.
+[00:11:24] With little or no ability to disagreed them.
+[00:11:28] So we have to acknowledge that these tools are frequently implemented. Ultimately is end to end Solutions where data preparation modeling and delivering are all tightly coupled.
+[00:11:40] And it's our role to also educate users on how when and where to use any 1 of these tools in particular.
+[00:11:47] And based on our business units individual maturities, we don't expect each domain to use every feature within this stack.
+[00:11:56] But we want to purposefully adapt and compartmentalize.
+[00:12:00] Limitation of these tools to align with those varying maturities and skill levels within our business units.
+[00:12:08] Core objective of this framework is to allow us as Architects to systematically, then packaged and commoditize the implementation of these technical capabilities. And by doing so, we provide that consistent Baseline again based on this blueprint, that ensures that even though our domains work independently, they remain connected through shared standards and globalized guidelines.
+[00:12:34] so,
+[00:12:37] all this looks in practice and I want to start first with a pattern of Federated analytics on top of centralized data.
+[00:12:45] And this is the most common form of analytics Federation. I've seen today,
+[00:12:49] Many organizations.
+[00:12:51] Manage their data centrally or at least the preponderance of your data is managed Central.
+[00:12:56] So here we see that Enterprise data layer and often is shared out the forms of connections, to data, warehouses data, Marts data, links that sort of thing.
+[00:13:06] And often a decentralized pattern emerges on top of us as we Implement self-service analytics tools for multiple bi tools.
+[00:13:14] Be the result of that acquisition as well.
+[00:13:18] but often this pattern emerges,
+[00:13:21] Without consistent.
+[00:13:22] Uh, capabilities leading to those discrepancies in implementation, duplication of efforts and development and the lack.
+[00:13:30] Interoperability in the analytics Pro uh, products we provide.
+[00:13:35] So our business units on the left and right side here, they have their own analytical modeling and delivery capabilities.
+[00:13:44] They pull it from that section that Central data.
+[00:13:48] And in a feder Federated model.
+[00:13:50] We focus on enabling sharing through centralized catalogs or hubs.
+[00:13:55] Again, depending on exactly what tool sets you have this might vary, but the focus here is on analytical sharing and connectivity.
+[00:14:04] And surrounding this implementation to reign in that chaos of pure decentralization is Enterprise governance. These are those guide rails to ensure that consistency.
+[00:14:15] Delivery that interoperability and risk mitigation.
+[00:14:20] Now.
+[00:14:21] again, most organizations will consider this pattern when they're already managing their data, centrally
+[00:14:28] But the expectation here is that business users are the ones developing Analytics.
+[00:14:34] And uh, Distributing to to their consumers.
+[00:14:38] basically in patterns, where self-service Analytics,
+[00:14:42] Really 5 minutes uh, are are, are prioritized? Um,
+[00:14:48] so,
+[00:14:49] uh,
+[00:14:52] sorry that's for me, uh, where you know, our, you know, we have or where we have analytics groups that have widely diverging needs that are Central
+[00:15:00] Teams just are unable to support.
+[00:15:03] so,
+[00:15:04] the second model here is a Federated analytics based on a decentralized uh,
+[00:15:11] Data management, Paradigm. This is closer to that data mesh, uh, pattern. You'll notice here that what we have is domain data. Now, inside each 1 of the business units,
+[00:15:21] And the business unit. Now, owns everything from their data management all the way through to their analytical delivery.
+[00:15:27] Now again,
+[00:15:29] Focus here on that shared capacity through catalogs. And of course that uh Enterprise governance that allows uh that domain to help orchestrate objectives and monitor pipeline health.
+[00:15:44] So,
+[00:15:45] This provides then the maximum amount amount of agility for more mature organizations.
+[00:15:52] The widespread adoption of self-service Analytics.
+[00:15:55] Coupled with this growing implementation of data mesh empowers, then business units to control and cultivate their domain of data and Analytics.
+[00:16:05] Ultimately resulting in content. That's produced as products that are shared through the wider organization.
+[00:16:12] Some of the things that we find, uh, that promote this type of architecture, uh, are things where we have organizations that are highly geographically distributed or we have business, domains, that face, data sovereignty, constraints or even data privacy rules.
+[00:16:30] That uh, restrict access to Raw data.
+[00:16:34] There's something I have to uh point out here. That's important is that these 2 patterns that I've gone through, are not mutually exclusive
+[00:16:43] In many cases, it is likely that you'll have a domain that thrives in 1 area of this and others that still need centralized support.
+[00:16:51] So as Architects, it's us up to us to understand our businesses and start from a base pattern and start to build out from there. But again, not a 1 size, fits all, we're not all going to fit into 1 particular pattern as a strict construct.
+[00:17:07] Now, what do I suggest that you do for me?
+[00:17:11] so, as we move forward, replacing our Legacy silent,
+[00:17:15] Analytic Solutions with that modern more modern analytics framework.
+[00:17:19] That's kind of our priority is reorganizing the tools in the delivery mechanism that we provide to those users.
+[00:17:25] And it's not just about acquiring new tools.
+[00:17:28] It's about optimizing things that we have finding out where we have gaps and possible implementing new tools.
+[00:17:34] This is shift in develop or in deployment methodology ensures that as our base grows and further decentralize, we reduce risk and redundancy rather than compounding
+[00:17:48] So I suggest as you go home from this determine what your base model happens to look like and draft. Those top level guidelines that we looked at specifically focusing on modularity and interoperability
+[00:18:02] And over the next few months, this focus should be on strategic modularity.
+[00:18:07] So again, take a look at this framework. Bring that home.
+[00:18:11] Identify that the 1 does not work for all organizations and figure out which pattern Works in yours. And in this move away from that centralized government uh governance framework to a more collaborative. Adaptive governance model,
+[00:18:30] and ultimately, the goal here is to use this technical architecture as a foundational pillar to operationalizing and analytics mesh
+[00:18:38] moving us away from that project, delivery model to
+[00:18:41] project Centric delivery where our business users.
+[00:18:45] Units. Take true ownership of their Analytics.
+[00:18:49] And in this we want to help them adopt and adapt develop uh, almost software development principles in their analytics delivery.
+[00:18:59] By instituting that overall mindset, we start to move away from, uh, we start to achieve that Enterprise level control with domain agility.
+[00:19:10] And move away from that state of unmanaged chaos that we saw at the beginning.
+[00:19:14] To achieve the goal of a structure. Scalable ecosystem. Where each domain is empowered to deliver that trusted high impact Insight at the pace of our business demands.
+[00:19:26] so,
+[00:19:28] With that.
+[00:19:30] I want to thank you all for your time this morning.
+[00:19:32] I've told times up anyway.
+[00:19:34] I hope you all enjoy the rest of the conference. I look forward to talking to you.
+[00:19:38] Here and uh, Beyond thank you.

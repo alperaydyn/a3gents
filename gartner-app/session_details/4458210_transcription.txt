@@ -1,0 +1,202 @@
+[00:00:03] Hello, I hope you can hear me. Well, welcome to this session.
+[00:00:08] Couple of information for you.
+[00:00:11] Uh, I know you will have the material available with your Navigator. The material is very busy. We try to put a lot of things together and hopefully you know with some uh of course area of focus is more relevant for depending on the maturity in the room.
+[00:00:28] and so this is when you go to material, I try to pose when it's possible, because the material might be need some additional, you know, support second piece of information is a little bit more fun, in the sense that I always am, very conscious that I have
+[00:00:45] Accent. So if you have any trouble in my accent you just need your raise your hand. I don't get offended, is normal. Thank you for that, okay?
+[00:00:53] So what we're going to look today is this very important in general. Applicability of trust works. When you're dealing with data and of course, when we are dealing in the space of a genetic Ai, and because we are covering these 2 particular area. We try actually to to give you a storytelling, which is going to support you in your initiative in relation to governance.
+[00:01:17] The first thing that I want to mention is actually, when you are dealing as an executive in the space of data, analytics and AI, you're probably facing some of these challenges.
+[00:01:30] Challenging from different perspectives, strategic Financial technology, organizational, and focus as well on people.
+[00:01:37] And as you can see, as much as there is, a lot of information, we act box some of this area in a very specific way.
+[00:01:46] We notice from a strategic perspective that many company are still not focusing on the fact that data analytics.
+[00:01:54] And today of course, extended to the opportunity of AI driver. A lot of potential Innovation, but Innovation need as well. New type of practices and often is not the focus that we are observing.
+[00:02:08] We also observe that this is lack often. On understanding the organizational model are changing.
+[00:02:15] Is not a single model that would work. What is possible to do? In order to achieve a little bit more agility when we are dealing with complexity and we are dealing with new initiative.
+[00:02:27] When we look at technology, we notice proliferation of cell DNA.
+[00:02:32] What does it mean that we would like to adopt new practices, new Investments, new technology, but we often use
+[00:02:39] Same type of tools that are still uh, very beloved by some consumer.
+[00:02:46] So typically spreadsheets are still there and we deal, we need to deal with that on the fact that sometimes it's not easy to maintain distribute and reuse.
+[00:02:56] This type of support.
+[00:02:58] uh, you are at the conference, so
+[00:03:00] You're going to hear more about AI data or data ready for AI.
+[00:03:05] And uh it's important to say that whatever is your angle and your maturity. AI is the opportunity more than the disruptor or both. But data often is if you don't dealing very well in the context of, you know, using a, a data in a proper way in the context of your initiative.
+[00:03:26] Then, of course, we are observing. The data is not connected to the right approach to The Right. Use what is about decision making? And this is typically connected very well with data governance because governance is continuous Improvement in the way we want to work with data.
+[00:03:43] Because we want to.
+[00:03:45] Enable better decision. So this particular representation drive to a particular aspect of what we want to talk.
+[00:03:54] Is your data governance effective. Now, governance in general, can be effective for a lot of different reason.
+[00:04:02] You know, the focus has been too much on technology. The focus has been only in 1 angle of the problem is multi-dimensional is difficult to say.
+[00:04:13] However, in this particular material that we are presenting, we are focused on a very specific area, which often in my own inquiries is affecting people.
+[00:04:25] Do you trust your data?
+[00:04:28] This is, uh, interesting.
+[00:04:30] From an angle of evolution as well, are as we treat in technology and business focus on data.
+[00:04:37] And often we delegated data simply to be used in 1 single representation.
+[00:04:43] But trust is probably much more open to different type of aspect and area of focus. So we want to introduce this angle from a data angle and of course into a genetic AI.
+[00:04:56] So, we are going to cover this area.
+[00:04:59] This is very much important because there is a different way to consider governance
+[00:05:05] We talk about shift.
+[00:05:07] Uh, in some other Garner material, we find we talk about reset.
+[00:05:13] This is where changing.
+[00:05:15] The way we need to think about governance and of course, when we are dealing with trust and Trust model, is there an effect on agentki?
+[00:05:25] uh, for some people in the room, this might be more advanced for some other less Advanced but actually we started talking about
+[00:05:33] data and Trust model last year.
+[00:05:37] At the conference. And we look at the evolution of our organization are doing in. Also, we had, you know, some experience in talking with customer and use of Technology on the matter.
+[00:05:49] So, the first point is, do we need a set or a shift? Well, I think 1 of the area that is clear emerging. Sorry forgot to click double
+[00:06:00] Is of course, the idea that governance is still very much done in majority of the cases with an angle of we have data issue.
+[00:06:09] And so really control oriented really in a single way across the organization, without considering specific style or specific type of implementation needed.
+[00:06:19] We are noticing that, not all data is equal. What does it mean? I need probably a different spectrum of activity in. How do I analyze my data and so I introduced trust model.
+[00:06:31] You probably heard that in the keynote, the idea of perceiving governance as an enabler is not probably new. But what is new? We do not forget that whatever we want to call governance, because maybe it's perceived badly.
+[00:06:45] In our organization.
+[00:06:46] Is actually is the governance and becoming an enabler from both transformation in using technology and of course, business angle and perspective. But today, we are here to talk about trust model
+[00:07:01] So, let's see. Where do we need to focus?
+[00:07:06] The first part. So there is a lot of space to be used for bullets, but without going into a definition at the moment, let's continue trade on the graphic.
+[00:07:17] The whole idea of course, is that data is potential value for the organization and we are not the the, you know, this is not be discovered that today, but this has been as well. A big transformation that we
+[00:07:30] Seen in organization in considering very much data analytics, specifically, enabler, to actually affect the way organization work in decision and affecting explicit business outcome.
+[00:07:42] Data as well is introduced in the fact that is risk associated.
+[00:07:47] Because data is probably vast in the organization. Uh you know we know we recognize very well that people typically do have more data that probably know that they have some data, is there for a reason? Some data might not be there for a reason you probably heard about talking about data. But there is a risk assessment associated with data, is another type of exercise that needs to be done.
+[00:08:11] so, when we recognize this opportunity that exists between,
+[00:08:15] Value and risk in the same space of business. Then we need to calculate what is the effort of doing this.
+[00:08:22] Does it cost more me to think about that and apply that to what I want to achieve? Or is there an optimization? It's probably there and optimization because the idea is actually using data in the context of impact and of course,
+[00:08:38] Investment. So the first bullet to consider when we Define a trust model, is the final data is used. And so we are going to see how this is done properly, but of course, we are dealing with the fact, is that really offering an impact? And how do I modify my decision when I need to implement policy? So the rule, the benchmark,
+[00:09:00] Then I want to use for dealing with my data.
+[00:09:03] So this is very much, the definition that we are going to use and we are referred to it.
+[00:09:10] Now.
+[00:09:11] 2 different slide here, represent form of taxonomy so but I don't want to confuse you. These ones light is about the process. You need to consider in assigning a level of trust.
+[00:09:25] Of your data by some criteria.
+[00:09:28] Of course, some criteria applied to user.
+[00:09:32] So user that actually are uh, effectively certified to work with data.
+[00:09:38] The data models and statistical analysis, that is validating. How my data is going to be leveraging my Corporation.
+[00:09:45] You might have specific standard for doing that.
+[00:09:48] When you're dealing with the consumption of data, is clearly data source as well. The model needs to be properly connected to what I try to achieve.
+[00:09:57] Then the data is used externally or internally.
+[00:10:02] So this angle of criteria. Say, if I match all these criterias very well, I can score my dating specific way. If not this is changing my opinion or my analysis of data. So the the middle model is the simple way to understand how this process of introducing criteria for dealing with data is very useful.
+[00:10:28] If this is generic,
+[00:10:30] But you can say, this is a model itself. The next slide shows something that already exists in the industry and so it's the taxonomy created to sea level of trust and the guidance for governance.
+[00:10:44] So if you like this, has been already implemented, okay? This is something visible in the industry. Now, it's not the single template. You don't have to take it like oh, I'm going to go home and do this. No, but this is working. This has been defined.
+[00:10:59] And of course, you should in your mind, think about there is an arrow going from the top, from the bottom. To the top, that is Define better trust in data and different type of governance decision that I need to take.
+[00:11:14] Of course.
+[00:11:15] In the context of today automation you can considering there are probably analysis can be done at the level of workflow and checks that enable me to to establish. If I'm using this particular model in an applicable ways and Technology, by the way, the fact that is the first day you have a lot of opportunity to meet vendors and discuss. You can ask question about how they are automatically supporting the idea of trust model in their own technology.
+[00:11:45] And we have seen end, user organization adopting mix of Technology typically in the space of data, cataloging metadata and data observability in order to build the scoring system for their own organization.
+[00:11:59] now, this
+[00:12:00] A little bit dry in some sense. So let's give you a perspective on an example.
+[00:12:05] The example is a representation of uh, health insurance organization.
+[00:12:12] The focus is this organization as a mission critical priority which about cost control and cost optimization.
+[00:12:20] And you can see this idea of cost control can not only be based on internal system analysis, but is in a modern way, coming from a continuous intelligence analysis of data that contribute to evaluate what's happening inside your organization.
+[00:12:37] each data coming into my organization, by the nature of my infrastructure model, and we work
+[00:12:45] Is different representing trust level.
+[00:12:48] So let's making even more clear in terms of example, if you pick this area here,
+[00:12:54] so from your side, you are not on the left button device reading from customer Health apps,
+[00:13:02] Clearly, I can say this is probably an asserted input, I don't know everything. Exactly in the way it should be done. I'm only collecting a lot of data. I still need to think about how elaborate that, and probably the platform that I use is, which is iot, is not necessarily validated in specific type of standard.
+[00:13:24] But when I do here, I'm sorry apology for my pointer. If you go insurance and
+[00:13:30] Healthcare Market data analytics, model going directly in my ecosystem platform is most likely to be assured type of data.
+[00:13:38] So what does it mean? I assigned this firm percentage of usability in my trust model when I collect this data and then when I elaborate I can uh with of course a scoring system and in indication of I need to do more, I need to do less, I have enough information to do it.
+[00:13:56] What you have done with this exercise.
+[00:13:59] With this exercise or you build your trust model of reference. This is a real example.
+[00:14:06] Little bit. You know, the chart looks like a underground map with a lot of things but the idea is connecting data with different level.
+[00:14:15] Level of trust imply. Different type of effort and Analysis of governance.
+[00:14:20] Trust model. Okay. But what I can do more, what I need to consider that today, I probably need to apply different type of Technology capabilities.
+[00:14:32] Uh, remember that we call this capability that we are representing Dimension? Okay, we are going to talk about 5 Dimension that you're going to use from a perspective or evaluating your data in the context of building a trust scoring or trust model.
+[00:14:49] clearly in order of importance, quality comes into the picture is always about how my data is accurate or complete but I want to track transformation of data so they
+[00:15:00] A lineage is also very important. I understand how this is used in which patterns way and how this apply and typically, these 2 are very much fun. Fundamental that we seen in applicability then of course we want to know how this model is going to perform and scale when I add different type of analysis. So it's about uptime latency. How does it work in my case?
+[00:15:25] Part of the technology is also the opportunity to collect feedback. This is the Sioux human analysis, producer and consumer, but actually analysis of feedback given directly to the user platform. If you are familiar with data analytics, governance platform, they will have this area of work where actually there is a cont
+[00:15:45] Distribution from user, in terms of analyze, what happened?
+[00:15:48] Last but not least, is metadata.
+[00:15:52] Metadata. You heard from keynote context is king. That's very much foundational for analysis. That understand the semantics. But also, how do I Define policy work that I need to do with my trust model?
+[00:16:07] and so all this is dynamic is not static and you think about the continuous evaluation of data
+[00:16:13] sources will apply in the context of Technology capabilities.
+[00:16:18] And the beauty of it that today probably working with agents.
+[00:16:23] It can enhance significantly some of these analysis carefully. We are going to talk about the fact that
+[00:16:30] Agents become much more interesting when they are dealing with trusted data. But ideally you need to think about a what also about the opportunity of automating. What is possible to achieve in this case.
+[00:16:46] so,
+[00:16:47] The trust model and recognize impact in several area.
+[00:16:52] So this is a business slide just to say, stay on the left for, you know, what is important in terms of category? Stay on the line, you need to build your story for the business. So the series of impact, their formulate, if you like an agenda for business, uh, angle from a perspective of what is that is,
+[00:17:15] Categorization, is we recognize compliance?
+[00:17:18] We recognize Readiness, we recognized Financial Improvement. We recognize as well, operational, efficiency, and of course, by older stakeholder by
+[00:17:30] so this play in this context here, and what you see in the middle is data point that we have connected collected directly from survey industry report,
+[00:17:41] So we know for example, that compliance is actually improving dramatically versus company, not using trust model.
+[00:17:49] And so maturing data governance initiative have a better Financial Improvement performance and so forth.
+[00:17:56] Clear, our survey need to be revalidated and validated.
+[00:18:00] But what we noticed is that company going into that level of detail, they have a storytelling which is much more business oriented and very important in order to build an agenda for conversation.
+[00:18:13] You want to take a picture? I saw someone doing it. Yes, don't forget. You have the material with you all the time, okay? So, but just in case, again, the game to play is to say, what category do you need to consider for this for this impact to be used in a storytelling?
+[00:18:31] But if there is value,
+[00:18:33] there are challenges. Okay, so we have challenges with trust models.
+[00:18:39] related to
+[00:18:41] Who's deciding about this. That's actually a very interesting challenge.
+[00:18:45] who is in charge here about what needs to be decided when
+[00:18:49] Governance should be a business capability governance or whatever is very different things as we observe in many organization.
+[00:18:57] Trust broken down in more than 2 3 4 dimension. I would say, uh then you start with a smaller number, a new test. What is working?
+[00:19:07] How many level of trust do we need? I show you a model with 5. Do you need 5? Some consideration is to be applied and by the way, I will not give you only with the question. I will give you a perspective, but I want to go through some of the challenges that we are observing.
+[00:19:24] Was giving feedback in this particular type of exercise. I think independent.
+[00:19:31] Um, how do you review the level of trust? This is, can be actually a very interesting exercise that can be done depending on the maturity of your governance initiative.
+[00:19:42] And of course, how do you resolve the dispute? Think about the first bullet about it and the business all deciding where to go, if we don't agree on a model is always about agreement. Governance is also about collaboration and you need to consider this aspect.
+[00:19:59] so,
+[00:20:01] The answer to the question, sit in this particular what I call cheat sheet.
+[00:20:07] In, in some sense is about keep it simple.
+[00:20:11] Try to work with smaller type of dimension.
+[00:20:15] Quality lineage, for example, at the beginning, apply nicely.
+[00:20:19] Same for the level of trust, start with 2 Monitor and try to understand what is working priority was going to give feedback is based on your maturity and governance program initiative. So again, there is more behind the scene. Often, you should, uh, review this. Well, some provocation, don't do it, create an agent governance agent that does it for you and, of course, you know, when the, the decision is going to be where to change,
+[00:20:50] Keep the level lower at the beginning. So the decide to stay at the lower level will engage you in a better way.
+[00:20:59] so,
+[00:21:00] He wanted to introduce trust model to say these are very relevant. The the idea is trust trust is actually giving you the opportunity to work with agent in very different ways you trust data.
+[00:21:12] AI trust using trusted data is probably give you smart agents, okay?
+[00:21:19] So importance of uh agentic. Again you are at a conference where you're going to have a lot of coverage of this. We try to adjust to summarize very few things here.
+[00:21:31] AI evolves.
+[00:21:32] Is digital worker. There are autonomous or semi-autonomous
+[00:21:37] typically an agent is about brain memory and tasks. So they they they
+[00:21:45] Take decision based on what they know with some form of reason. It typically provided by large language model and delivery task.
+[00:21:52] Trust is becoming therefore foundational. But in reality, the ability to use trust model, accelerate the adoption. Or let's say, the trust is an enabler to more collaboration and activity. Now, trust is a very big concept. However, to consider in this area, particularly it means, probably, I can work better my data from with my data in the context.
+[00:22:18] If trust is a great opportunity, what's happening is actually a little bit different from collected information. Typically vendor will say that 1 of the, you know, stop to init.
+[00:22:30] Positive in AI is really dictated by the lack of trust in AI itself. So 50% will decide not to invest in Trust. Of course, using large language, model means as you probably know very well, a probabilistic perspective on outcomes versus deterministic. So the generation of wrong result giving trust or confidence is actually a barrier itself to say well I do really trust and if I really don't trust, but I want to put a lot of human to match workflow. While it's not too much investment and effort and therefore, all the benefit that I want to gain from AI is not there.
+[00:23:10] And finally, the the last 1 is a strategic assumption from Garner.
+[00:23:15] All these will block the development of autonomous AI.
+[00:23:20] And to a limit that we have seen, you know, less than 10% in 2028.
+[00:23:26] How do you go around that? Well, you build principal
+[00:23:30] Ideally, the principal are always based on fundamental aspect which is you know, governance is governance. You deal with governance and you establish board like you would do with data and most like you create some form of collaboration by Design. You need to have consideration inside uh related to privacy because security and explanation are part of you know the challenge that you want to do. You can actually test with Advanced use of tool how specific
+[00:24:00] Behavior of Agents work. So you do a linear regression or a gaming theory in applicability of these 2 techniques and now that you can understand how they are acting in different components and what is the outcome?
+[00:24:15] And finally, you can use a graduated trust model.
+[00:24:19] So, all these aspect actually respond to this question.
+[00:24:24] So, if this is critical use of AI.
+[00:24:29] Do we ensure that what we are doing is completely trusted?
+[00:24:34] and so the funny things about this is that a continuous loop of testing engagement and at the end of the day, this is the focus of having a
+[00:24:45] Conversation about how do I create trust reference perspective? I just said before,
+[00:24:51] trusted data.
+[00:24:53] Used by agent smart data available, okay. Uh, we actually publish a prediction in Ghana that basically, because there is so much generation of data. Also from AI, you always need to have a zero trust approach. So, you need to build model thinking. I want really to create something driving me, an analysis, which is appropriate.
+[00:25:15] Would you take a decision uh or related to your life? Trusting AI. Unfortunately, we have example of people that talk to Ai and asking question about life.
+[00:25:26] Is affecting also children. So, you know,
+[00:25:30] Carefully. Evaluating what's going on is okay.
+[00:25:33] Uh but this is very much important, if this is true and we delegating more to AI well then trust is very much the foundation of this conversation, so this trust is very relevant.
+[00:25:49] You need to think about a design approach, which is trustworthy. So few things which are really relevant, trust as a core design. In what I try to achieve when I build my agents and model and I want to develop them.
+[00:26:03] I need to consider the diminishing human in the loop at critical decision points. How do I measure that is going to be as well? Very important in the first place. However,
+[00:26:15] I need to have some user interface and experience that enable me to understand monitor what's happening in my uh, applicability. So I need always to have a mechanism and workflow for user transparency. Technology will use that.
+[00:26:31] More interesting. You need to think about different type of Matrix. I don't know if you heard about it, but we talk about time to trust example of try to trust. I want to know that my data is of good quality but I give a framework for this to happen because I'm actually working in production this time frame Define very well if I'm spending enough effort or not.
+[00:26:56] Another example is you're working with an AI model for
+[00:27:00] Developing an AI agents and in your sandbox. You can experiment. How is working?
+[00:27:05] When you are Developer will tell you well we actually anticipating that using this particular exercise you can diminish the human in the loop by 5% time to trust is actually enabling you to measure the trust your delegating to this because you're getting efficiency in human intervention.
+[00:27:26] When you're dealing with security, you need to deal with some categorization. And by example
+[00:27:32] Frameworks. You need actually to consider what is available out there in terms of framework? For example Regulatory Compliance, uh, requirements emerging across the world in different
+[00:27:45] Laws.
+[00:27:46] Monitoring think about your. Um, an example is, I level high frequency, uh, algorithmic trading that is doing trading and generating trades,
+[00:27:59] And if they get a wrong type of data input, then I generate an outlier with huge possible losses money. So you need the circuit breakers that actually deploy what is going on and happening. So, this is continuous monitor to be their audit Trace. What is very relevant if you apply to, uh, uh, for example, to with the loan to a bank.
+[00:28:23] and this is today much more automated, so this is not necessarily known, um, new, uh, you have to
+[00:28:30] Actually have a mechanism in which you trace how the audit and the trail has been exposed to understand what was happen. When probably the wrong decision was taken and how does it work? And finally digital twins because digital twins, enable you to simulate the physical environment. Typical example, is you are simulating a lake, not a data Lake, a real Lake, a river basing Waters in water out. Benefit of the water can be related to the use of water for agriculture reason. But danger, the damages from the water can be generated. Because people living on the coast have flooding uh you know uh situation. So how do you do you need to govern that SEMO?
+[00:29:15] Ating the aspect and understanding how to manage the behavior of the water. Potentially, you do that with the dam?
+[00:29:22] So, this physical analysis, enable you to simulate the environment? Digitally to put parameters in order to understand how this is affecting and changing. So digital twin are very powerful in that sense.
+[00:29:35] When you're building uh, this type of analysis of Agents, you want to combine classical AI with generative AI because you want to run the terministic, AI work with probabilistic AI works. So you reduce Alum hallucination risk. In the way the general generative AI can offer you an output, but also you actually enhance trust by 3 different.
+[00:30:00] Different category that uh, we will give you more in this slide. Clear, justification for decision. Come from explainability.
+[00:30:09] Observability means, like we said before, you need to monitor, so you need to adapt yourself to use in new type of tools. And today, again, check out what is available, for example, in data observability.
+[00:30:24] You need to balance that this is a adjustability. So this is about human in the loop with Automation and autonomy generated. By AI, these 3 things characterize enhancement of trust in the deployment of your, uh, exercise itself.
+[00:30:43] so, if you
+[00:30:45] Remember anything? Or? No, not remember anything. The thing you need to remember from presentation is 1 single word.
+[00:30:53] Trust. Okay, good.
+[00:30:56] So I know we are after lunch so the trust is okay.
+[00:30:59] Okay. And, and basically what you need to think about that, this is strategic imperative. You want to do it?
+[00:31:05] Want to do it with data. You want to do it because you want to develop your agentic so it's foundational but also everything else that we mentioned.
+[00:31:14] You need to quantify how this is actually done because that's improved reliability.
+[00:31:20] You need to Benchmark. So remember time to trust, I found that when I talked about try to trust before it was very well perceived. So as my
+[00:31:30] Be something to consider versus time to value and then of course, hybrid trust model, which is combining AI.
+[00:31:37] The classic AI engineer at wtvi to actually reduce risk of alucinacion.
+[00:31:43] I leave you very quickly with an action plan because I've been very bad and so I took extra time out of your 30 minutes. So apology for that few things you want to consider combine governance initiative data and AI.
+[00:31:57] And actually test where the organization is, there may be a lot of collaboration that need to be done.
+[00:32:02] In the next 3 months and so you need actually to start to understand and pilot something that might work in your organization and then of course you're going to scale and revisit and change.
+[00:32:15] And adjust because nothing is static and very much big evolution of everything.
+[00:32:22] Some reading for you, if you are Garner customer, go there. Uh, and if you are going to the customer, please using inquiry as well to extend.
+[00:32:31] And finally, of course, as in every single part of this conference, you will see we looking for improvement all the time. So, scan, the code give us feedback. We are very happy if you score 5 but we can also understand if you're an app about anything.
+[00:32:46] From my side. Thank you very much and apology for the busy material, but it was a pleasure to meet you today. Enjoy the rest of the conference.

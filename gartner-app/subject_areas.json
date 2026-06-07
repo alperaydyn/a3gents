@@ -1,0 +1,82 @@
+[
+  {
+    "id": "agentic_ai",
+    "title": "Agentic AI & AI Agents",
+    "short": "Agentic AI",
+    "color": "#6366f1",
+    "bg": "#eef2ff",
+    "description": "Multi-agent systems, building reliable agent architectures, context layers, knowledge graphs and ontologies, integrating AI agents into D&A teams, and quantifying their cost and value. This area covers the next major inflection point in AI — autonomous agents that plan, reason, and act across complex workflows."
+  },
+  {
+    "id": "governance",
+    "title": "Data & AI Governance",
+    "short": "Governance",
+    "color": "#16a34a",
+    "bg": "#dcfce7",
+    "description": "Governance frameworks, the data governance vs AI governance debate, self-service analytics governance, trust models, compliance, and practical implementation strategies. Covers how organizations must adapt their governance practices to accommodate AI, unstructured data, and decentralized ownership."
+  },
+  {
+    "id": "ai_strategy",
+    "title": "AI Strategy & Leadership",
+    "short": "AI Strategy",
+    "color": "#0ea5e9",
+    "bg": "#e0f2fe",
+    "description": "CDAO role and first-year success, AI organizational design (centralized vs federated vs hybrid), operating models, AI maturity frameworks, D&A strategy formulation, and navigating the politics of AI transformation. Covers how leaders define AI ambition and build organizations fit for purpose."
+  },
+  {
+    "id": "data_management",
+    "title": "Data Management & Architecture",
+    "short": "Data Management",
+    "color": "#f59e0b",
+    "bg": "#fef9c3",
+    "description": "Converged data platforms, lakehouses vs data lakes vs warehouses, data fabric architecture, data engineering for AI, ETL and data integration evolution, DataOps, decentralized ownership, and agentic data management. The foundational layer that determines whether AI initiatives succeed or fail."
+  },
+  {
+    "id": "generative_ai",
+    "title": "Generative AI",
+    "short": "GenAI",
+    "color": "#ec4899",
+    "bg": "#fce7f3",
+    "description": "GenAI use cases and ROI measurement, the build-vs-buy debate, RAG implementation and improvement, managing GenAI blind spots (Shadow AI, technical debt), and preparing unstructured data for GenAI applications. Covers both the opportunity and the hard realities of deploying GenAI at scale."
+  },
+  {
+    "id": "analytics_bi",
+    "title": "Analytics & Business Intelligence",
+    "short": "Analytics & BI",
+    "color": "#8b5cf6",
+    "bg": "#ede9fe",
+    "description": "The future of BI in an AI world, decision intelligence as a discipline, agentic analytics platforms, self-service analytics governance, data storytelling with GenAI, and the shift from descriptive dashboards to proactive prescriptive analytics. Includes the AI vs BI debate."
+  },
+  {
+    "id": "data_quality",
+    "title": "Data Quality, MDM & Metadata",
+    "short": "Data Quality",
+    "color": "#06b6d4",
+    "bg": "#cffafe",
+    "description": "Data quality as the prerequisite for AI, master data management strategy and implementation, data catalogs, active metadata management, augmented data quality platforms, and governing unstructured data. These foundational disciplines are the most common blocker to AI readiness."
+  },
+  {
+    "id": "ai_value",
+    "title": "AI Value & ROI",
+    "short": "AI Value & ROI",
+    "color": "#10b981",
+    "bg": "#d1fae5",
+    "description": "Measuring AI business impact, KPI and metrics frameworks, the gap between productivity gains and financial outcomes, headcount and workforce implications, D&A budget benchmarking, and connecting data initiatives to business results. Addresses the persistent question: where is the actual value?"
+  },
+  {
+    "id": "trends_ethics",
+    "title": "Future Trends, Predictions & Ethics",
+    "short": "Trends & Ethics",
+    "color": "#f97316",
+    "bg": "#ffedd5",
+    "description": "Gartner signature keynotes and analyst predictions, D&A outlook to 2030, maverick forecasts, AI sustainability and energy tradeoffs, digital sovereignty, geopolitical risk, and responsible AI regulation. Covers the macro forces shaping where data and AI are headed over the next decade."
+  },
+  {
+    "id": "culture_people",
+    "title": "Organizational Culture & People",
+    "short": "Culture & People",
+    "color": "#84cc16",
+    "bg": "#ecfccb",
+    "description": "Multi-generational workforce dynamics, building cultures of innovation and flexibility, AI literacy and workforce upskilling, human skills in the AI era, organizational change management, and the social dimensions of AI adoption. The human side of the AI transformation."
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "summary": "The session covers the latest Magic Quadrants for data integration tools and metadata management solutions, emphasizing their interconnectedness in enhancing data management practices. It highlights the growth of the data integration market, driven by the need for comprehensive solutions that support both operational and AI use cases. Key vendors are discussed, along with recommendations for evaluating integration tools based on specific use cases and capabilities.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Magic Quadrant for Data Integration Tools",
+      "key_points": [
+        "Data integration is foundational for effective AI insights.",
+        "Integration tools must support both operational and analytical use cases."
+      ],
+      "start_time": "00:02:34",
+      "end_time": "00:13:30"
+    },
+    {
+      "order": 2,
+      "topic": "Market Trends and Vendor Insights",
+      "key_points": [
+        "The data integration market is growing rapidly, driven by cloud providers.",
+        "End-to-end platforms are preferred over standalone tools."
+      ],
+      "start_time": "00:13:30",
+      "end_time": "00:24:00"
+    },
+    {
+      "order": 3,
+      "topic": "Magic Quadrant for Metadata Management Solutions",
+      "key_points": [
+        "The metadata management market is growing faster than data integration.",
+        "Vendors must address various use cases beyond just cataloging."
+      ],
+      "start_time": "00:24:00",
+      "end_time": "00:34:30"
+    }
+  ],
+  "key_takeaways": [
+    "Evaluate multiple integration tools based on specific use cases and capabilities.",
+    "Consider the integration of metadata management with data integration tools.",
+    "Look for vendors that provide active metadata analysis to enhance compliance and insights."
+  ],
+  "entities": [
+    {
+      "magic quadrant": 5
+    },
+    {
+      "data integration": 10
+    },
+    {
+      "metadata management": 8
+    },
+    {
+      "informatica": 4
+    },
+    {
+      "microsoft fabric": 3
+    },
+    {
+      "denodo": 2
+    },
+    {
+      "snap logic": 2
+    },
+    {
+      "calibra": 2
+    },
+    {
+      "servicenow": 2
+    },
+    {
+      "dbt": 2
+    }
+  ],
+  "subject_area_id": "data_management"
+}

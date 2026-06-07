@@ -1,0 +1,200 @@
+[00:00:05] Good afternoon, everyone.
+[00:00:07] We are here to debate, a very interesting question. You might already be wrestling in your organization.
+[00:00:15] if you start analytics today,
+[00:00:19] were you still start with?
+[00:00:21] business intelligence, bi
+[00:00:24] Or something with artificial intelligence AI.
+[00:00:30] My name is Julian son.
+[00:00:32] Maybe like all of you.
+[00:00:34] I start become a heavy, heavy AI user, 3 years ago.
+[00:00:41] Not just writing and funny article or creating some graphic.
+[00:00:45] Nowadays, I'm heavily using AI.
+[00:00:49] To analyzing my data.
+[00:00:52] Asking critical question on it, and it gets on recommendation.
+[00:00:57] With that, I firmly believe AI will kill bi.
+[00:01:03] Not because bi is fairly.
+[00:01:06] But fundamentally. How AI is transformed? How people ask questions? Take the answer and get recommendation? What do you think Carly? So, thanks Julian. Um,
+[00:01:20] so, I'm currently in and I've been doing analytics for about
+[00:01:27] um, a lot of years let's just say,
+[00:01:30] My whole career actually, um, and super excited to be here and have this debate with Julian today. And, you know, Julian,
+[00:01:38] I agree with you in that AI is fundamentally transforming. How We Do bi
+[00:01:47] But what I disagree with is your conclusion. I don't think AI is going to kill bi. And in fact, I think we can avoid a homicide here altogether, right? I think Ai, and bi are going to learn to work together, right?
+[00:02:05] I just think they'll be better that way. Who here remembers Hadoop?
+[00:02:09] And he had. Oh yay. Okay, so remember the promise of Hadoop. What was the promise of
+[00:02:15] Tons of data, right pabt of data, relatively inexpensively relative to SQL Server. So what happened? We got Hadoop. We put all our data in Hadoop.
+[00:02:29] And did it work? What do we find?
+[00:02:32] We found that you cannot run a business on Hadoop.
+[00:02:38] Right, what we really needed was we needed that flexibility that Hadoop gave us, but we also needed that predictability consistency that we got with the SQL data warehouses, and so voila.
+[00:02:55] Data Lakes were born, right? And I think a similar thing is going to
+[00:03:00] Happen with AI and bi it's not an or AI or bi. It's an ant Better Together.
+[00:03:10] so, let's
+[00:03:13] See what you guys think. Alright, let's do a little poll, we want to know which future do you believe in right now. So what I'd like you to do is open up conference Navigator. If you go to this presentation and scroll down to the bottom, you'll see a question.
+[00:03:32] And the question is simple, right? Which future do you believe in AI first. That AI will kill bi.
+[00:03:41] Or do you believe in the the second?
+[00:03:45] Bi modern approach, that AI will not kill bi.
+[00:03:50] So, let's take a minute to vote.
+[00:04:02] Wow. Okay.
+[00:04:05] Huh, looks like I have a lot of friends in the audience Julian but here's what I want you to do.
+[00:04:12] Keep an open mind, right? This, these are some really good questions that we need to be asking within our organization. And if you're not asking them, I can guarantee you somebody in your organization is so keep an open mind and let's move forward. So
+[00:04:30] Julian, let me ask you.
+[00:04:32] if you were building analytics today,
+[00:04:36] Would be I still exist.
+[00:04:39] Thanks Carly and appreciate all your pulling here.
+[00:04:43] Well.
+[00:04:44] I do think.
+[00:04:46] AI is transformed. The analytics process.
+[00:04:50] but if you ask me, if I'm going to open a bi company where I really start with a BRI interface anymore,
+[00:05:00] Am I going to really compete with Tableau powerbi click setting here for many years?
+[00:05:07] It's a really mature Market. If I take this question as a green field thought, and using an entrepreneurial,
+[00:05:15] Plans.
+[00:05:16] Nobody nobody will really enter into this V landscape anymore. We definitely need to think about uh, AI native future.
+[00:05:27] What do I mean by that?
+[00:05:29] Think about the whole bi landscape for years. It is heavily being dragged into this data gravity. What is that? That is essentially means where you positive data will also determine your bias
+[00:05:45] For example, if you use the Oracle database, maybe you will end up with OAC or Oracle analytics Cloud. If you're using Salesforce data Cloud, you probably end up with Tableau. This data gravity matters.
+[00:05:58] And now we are.
+[00:06:00] To introduce another gravity, which I call it the AI gravity which is the experience pool. That is essentially means if you don't do the natural language way or chat, both way to perform DNA, your user will ask you as well because they are using AI to do all the other digital workflow in the other application.
+[00:06:22] So it's becomes a experience pool, which really Drive DNA leader to innovate. Another very important thing is what I see from the existing bi vendor, there are also innovate themselves.
+[00:06:37] 2 weeks ago, I literally see a new demo coming from Tableau where they are bringing their entire interface.
+[00:06:45] Case by using AI Chapo 2 Cloud. They basically transformed the whole Tableau architecture and ask people to using the Tableau mCP to perform DNA without touching Tableau interface.
+[00:07:00] Well if you think Tableau is really like going to define the gold standard of the bi2 for visualization. So even now Tableau give up this approach
+[00:07:11] So with bi2 is more become an analytics as code and also more seriali command line driven I believe AI, absorbs bi okay, so you're focusing on the tool.
+[00:07:27] Right. And yeah, you know,
+[00:07:30] The interface is part of that and that's probably going to change but bi is so much more than just the tool Julian bi is a discipline, isn't it? And even what you talk about with Tableau the value that we have kind of under the covers is all that consistent framework the context
+[00:07:51] Right? That bi brings to the table. The metrics, the lineage the definition. None of that goes away with a new interface. We still need that foundational information. And you know what, anybody here in a regulated industry,
+[00:08:09] Wow, this is super important, right? This does not go.
+[00:08:15] Away. So I agree with you. I totally agree with you, that AI brings some amazing things to the table, and I really am an advocate of AI, but I think it enhances bi. I think in the end that the bi, the governance that bi systems provide is going to prevail.
+[00:08:37] So Julian, let's jump to another question, right? We've been talking about tools,
+[00:08:43] But let's switch that up a little bit and talk about what I think is really maybe an underlying question here who really owns analytic Authority.
+[00:08:54] Well.
+[00:08:55] I think Authority don't really come from the latest the bi too.
+[00:09:00] To be honest, we as DNA practitioner, we are pretty practical. We are always looking for 2 things.
+[00:09:09] More data and more capability and you tell me which platform gives you more capability and more data.
+[00:09:16] I think are these AI UniFi stack or a UniFi platform. Looking at data. Breaks snowflake they all enter into this BR landscape with their Lakehouse as a foundation with both structured data and unstructured data. And also I think bi has been for years only serving these basic analytics descriptive analytics, diagnose analytics a little
+[00:09:45] A little bit, but if you talk about Predictive Analytics or even prescriptive analytics, it's very hard to achieve on the bi layer.
+[00:09:54] And also, I think, when we're looking about the future user are really looking to solve the complex question, they are looking for a better decision making process where AI can using all the context saved all in different places, which eventually give you this context, Rich insights. This is what I really believe. We no longer need a separate bi layer. It's 1 platform, noi 2. Ah, okay gosh. You know, I so I hear what you're saying and again, I think it sounds really amazing.
+[00:10:30] To be honest, right? But the reality is, it's not where we're at. We have millions of people every day that are in there using their analytics to create their dashboards to do their queries Etc and you can't change that kind of thing overnight, right? You might be able to put in an llm and somebody can ask a question but
+[00:10:56] that's,
+[00:10:57] Not going to run the reports that really we run our business on, right? It doesn't quite get us there. So again, I think AI is an assistant. I think it will help us in that. It brings to the table ways for us to give access to new,
+[00:11:15] And different kinds of people access accessing new and different kinds of data to do, new, and different kinds of analytics, but we still need that foundation. So I believe, Julian that AI modernizes, bi but it's not going to replace not going to replace it.
+[00:11:37] So let's go to the next question, then.
+[00:11:41] um,
+[00:11:43] If AI does replace that bi layer, then.
+[00:11:48] Where does this accountability that? I talked about that bi provides where does that live?
+[00:11:54] Well, I do believe accountability will exist on a common.
+[00:12:00] Ground, where AI layer and VR layer will fight for many, many years. Semantic layer.
+[00:12:08] Well, I think semantic layer is something. We are misleading today.
+[00:12:14] Why? Because if you see, who owned a semantic layer,
+[00:12:18] It.
+[00:12:19] It is trying to put all the context into this small boxes you know trying to tell how business users should ask the question. Well I do think business user know this question better than it well but but if you're looking at a bi too, they don't really facilitate this business enrich the semantic, there's no opportunity for the business user.
+[00:12:45] She really contributing to that semantic layer.
+[00:12:48] And also I do think semantic building is a co-authoring experience. It requires both it people business people to co-authoring all the context and facilitate the destination of your data analytics.
+[00:13:04] If you only doing this basic it driven semantic layer. What do you end up? It's just more dashboard. There's no action here. If you see some of the leading activity in the DNA space, we have this ontology based semantic layer. We have this knowledge graph based semantic layer. They all target for more action-driven analytics. This is what we need for the future of DNA.
+[00:13:30] And I do see this semantic control is moving into AI, boy. That's a tough 1, isn't it? You know what, I think that semantics always has been and always will be buys home turf.
+[00:13:48] They kind of defines what we do within bi, it's ybi, works. It gives us consistency, it defines the metrics, people know where to go to get that information. And that's why we can use these foundations to, really run our business, right?
+[00:14:10] and for all of you that are in regulated,
+[00:14:15] Industries. That's not going to change. Are things becoming less regulated.
+[00:14:20] Or is that becoming more important?
+[00:14:24] Right. Increased regulation makes the emphasis on having this governance controlled semantic layer there and available, right? And trusted and true.
+[00:14:38] so in the end, what I think Julian is about
+[00:14:44] You're messing with my home turf, right? We've done this forever and we've done it well. So let me ask you another question, right?
+[00:14:54] Who defines Revenue in the end?
+[00:14:57] Is it?
+[00:14:58] a metric defined by
+[00:15:00] A person.
+[00:15:01] Or is it a model? Well, interesting question here because I never understand.
+[00:15:08] Why people spend so much money on AI and spend their token? But only providing Matrix or more dashboard.
+[00:15:18] You can basically get all these things. Free from the free bi2 today as well. Why you just repeat your AI investment on your existing work?
+[00:15:29] I think you found a mentally. The real question is the governance because if you get your governance right, you don't need to worry about too much. Who defines? What?
+[00:15:40] And the governance is a non-negotiation layer. We all do government.
+[00:15:45] But I have to say, you know, bi word governance is not work, it's not working.
+[00:15:52] Why? Because we are using this 1 size fits all governance model to suffice the involving self-service analytics needs.
+[00:16:01] The good part about AI error. Governance is really about AI. Evaluation evaluation. Is the missing part for today's DNA architecture.
+[00:16:15] What do I mean by evaluation evaluation doesn't mean, how many dashboard we need to build? Or how accurate it is. It defines what good looks like for my DNA? Is that really contributing my customer change?
+[00:16:30] Problem, or it improved, the revenue in general, we need to give a goal of our AI agent to perform DNA. The goal should never be improved the dashboard or increased the number of dashboard.
+[00:16:45] What? I really seen in here is the leading vendor and also leading practice is also putting governance throughout the entire DNA. Workflow is no longer a after sort process to put governance as a second citizen.
+[00:16:59] So I do think with this AI UniFi platform. You can trade the governor's policy as a composable recipe, where you can really bring in your governance with this business lead for curse. Not just the accuracy of the number.
+[00:17:15] The good news as well. We all think governance is Shifting to the AI layer as well.
+[00:17:22] Maybe a bit of a shift but I think you're still building on our foundation. Now interestingly if you think about what has happened in bi,
+[00:17:33] so, we had these kind of big
+[00:17:38] Stony kind of data warehouses, right with the centralized team that would create reports for us in bi and it just wasn't working. So what happens? We swung the pendulum 180 degrees and enter, self-service, right? And we said okay you're on your own, you can do whatever you want. Here's t,
+[00:18:00] Hello, here's click, how about, a little bit of powerbi with that, right? And we went way the other direction and so, you know, Julian, I'll give you that. We've lost a little bit of our governance, Mojo, with bi I would say, but you know what, I think it's coming back. I think it's coming back every day. I talked to DNA leaders, and all of them are wanting to understand. How can we balance that control with that agility, and that flexibility? Right? So I think that's changing and that's a lot of what bi brings to the table. We've got that history. We've got that proven metrics. Even the foundation Julian. You're going to need to
+[00:18:45] Bring some of that governance into AI. We've already got. And we need to leverage that, right? So I believe as powerful as AI is. It's bi that's accountable.
+[00:19:00] Right. So
+[00:19:03] Let's not fix.
+[00:19:05] What isn't broken within bi?
+[00:19:09] So let me ask you another question, Julian, you ready. Yeah. Okay when an AI generated Insight is wrong. Who's going to sign their name to that?
+[00:19:19] Are you going to do that? Well, I'm trying to, but I think, uh, to be honest, I think, what are your real question here is really a cost.
+[00:19:30] Yes, sir.
+[00:19:31] right, I think for many, many years when we as a bi leader trying to pay the vendor
+[00:19:38] We are using this role-based license.
+[00:19:41] Well, you only pay for 1 license for 1 user.
+[00:19:46] For all the functions.
+[00:19:48] Well, if you're looking about the other data, we collecting 90% of the Excel user,
+[00:19:56] probably only using the 5% of the function.
+[00:19:59] But why you still pay for the full price?
+[00:20:03] Why it applies to the bi tools as well. You can see
+[00:20:08] Your bi road map, giving more and more capability, much more comprehensive capability, but your user problem.
+[00:20:15] We will never use why still pay for the full price. That's the question.
+[00:20:19] And also think about is not only about, um, license fee. But it's also about training.
+[00:20:27] Over 40% organization are still using more than 2 bi tools that not just creating the 2 cost. But also cost the training issue, you need to train different tools for different type of user coming from different backgrounds.
+[00:20:44] So all these things we need to fix by Ai and AI is really good at it because they are using this consumption based pricing. You only pay for what do you need and what do you really use for? Here is my recommendation for your next B.
+[00:21:00] Our renewal, if your vendor do not have any consumption based pricing for you. You can simply stop talking with them. We need to go, which is consumption based pricing and only pay for the capability. The just enough capability. We need to be honest, most of the users sitting the business still in a low maturity status. We don't need a full function of the tool, we just need the just enough capability to enable them.
+[00:21:29] So here is my question. Why pay for bi when AI does the job for a fraction of the cost? I'm trying Julian but I don't believe for a second that AI is going to be cheaper than bi.
+[00:21:45] Right. Jensen Juan the CEO of an Nvidia recently. Estimated that
+[00:21:53] There will be 3 to 5 trillion dollars. That's trillion with a t right in AI investment.
+[00:22:04] Who's going to pay for that?
+[00:22:06] We are right? All of us.
+[00:22:09] So gosh, that doesn't sound inexpensive to me at all. Um, and if you move Beyond just the the dollar and cents there, I think there's another issue here. When we talk about this idea of creating, kind of stacks where we have 1, vendor
+[00:22:30] And we use them for everything, across all of data and analytics, and AI.
+[00:22:36] That doesn't sound cheaper to me. Any either, you know what that sounds like to me.
+[00:22:41] That sounds like lock in to me and history tells us, right? What that's all about.
+[00:22:47] So I think that um you know, it's it's super important that what we really understand here is what are the real costs of implementing. But also managing these systems that we have, right? We have to have a really intimate understanding of what the cost involved is going to be.
+[00:23:11] The other thing and I want to hop back to governance here for a minute.
+[00:23:15] the other thing is we've seen example, after example, of how costly data AI insights can be
+[00:23:27] Alright, so you've all heard the story?
+[00:23:31] So what I want to reiterate here at Julian more than anything is that 1 Wrong AI Insight costs more than bi ever will.
+[00:23:41] Well, Carly, you emphasis a lot relating, the rest, and the wrong decision making cost maybe more money.
+[00:23:49] but the 1 key question, I want to ask
+[00:23:52] Is, if risk always swings, how does the Innovation ever get a permission to move fast?
+[00:23:58] I think you will argue.
+[00:24:00] Do we have a self-service Analytics?
+[00:24:03] Well today I have to say self-service analytics is a big lie for the bi industry. Why? Because people don't want to be self-service people want to be better served. They don't want to learn a lot of Tableau powerbi or click tools to drag and drop. Get the data and get inside. That's a lot of work and they don't want to take another 2 weeks training to understand how to do the Dual access. And eventually make a visualization. This is not what what they want. What they want is really insights. They want to get the business value. And they also want to get decision, right? This is the real permission. And also, this is the real promise.
+[00:24:45] For many DNA experts.
+[00:24:47] Well, I do see AI is really for analytics for everyone. What they democratize is the insights, they want to make the bi2 be accessible for for anyone in the industry with the domain knowledge. That's the reason we see many AI first or AI native company. They start trying to skip the bi entirely. They are trying to build the domain knowledge into this agent skills, to make the domain knowledge as a recipe. Where the large language model can follow the domain level knowledge to perform the bi functionality as well. It's no longer another tool to build your B.
+[00:25:30] It is fundamentally using the AI coding capability to restructure the bi capability.
+[00:25:37] Here is my ask.
+[00:25:39] you should a seriously consider document your business analytics process today, because if you're looking all the successful AI agent in the industry,
+[00:25:50] The most successful 1 all this coding agent. The reason is very simple, all the Cadence coding history are well reported in the GitHub or gitlab. And they have, they have entire idea about what good coding looks like and what a bad coding looks like you need to do the same for your decision making process with the business analytics, documentation,
+[00:26:15] Then your our agent will know how to do the domain level analytics, just owned by your own organization.
+[00:26:21] With that, I believe eventually AI democratize insights.
+[00:26:28] I'm all about democratizing insights. I love that, right? But I think you need to do that with a semantic layer because without it you're just going to have chaos, I think, right? So having an llm that you can ask a question of
+[00:26:50] How does that really move the needle in terms of value? Like, I don't get it. It's cool, right? It's fun. But how does it really move the VA the needle on?
+[00:27:00] Value. We've seen this before, I feel like right, we've lived this Shadow Analytics.
+[00:27:08] Shadow data science and machine learning. And now, what do we have?
+[00:27:13] Shadow AI.
+[00:27:16] Right. We want democratization with control.
+[00:27:22] And it is the bi layer that gives you that management that gives you that precise reliable and trusted foundation, on which we can really run our business.
+[00:27:36] Right. And I feel that without bi, what we really have is democratization.
+[00:27:45] That turns into disorder.
+[00:27:48] Well, let me make compression test again.
+[00:27:51] For this disorder thing.
+[00:27:53] Let's see when 10,000 user asked 1 question.
+[00:27:59] Once AI or bi can give the same answer every time I think bi will win this time because it's very consistent.
+[00:28:08] However the other question is, if the first person get the correct answer, does the second person getting the correct answer, also getting extra value.
+[00:28:19] Probably not. They just get the same number.
+[00:28:22] Well what I think is AI is providing is the personalized experience, not another case.
+[00:28:31] What we as a DNA leader should do is putting the good context, the just ignore context to harness your AI agent to build a domain level analytics agent to democratize your insights. So personalized answer for everyone is the goal.
+[00:28:50] So I don't buy again. Sorry Juliet. I know I'm so argumentative today, but I don't buy that. We need infinite personalization. I just don't think we do, right? I think we need just enough personalization, and the reality is there are times specifically when we're running our business, right? Again, that we need that consistency, we need 1,
+[00:29:15] Definition of revenue, for example, we need to make sure that people are are pulling down the correct metrics kpis with the correct definitions. We need to be sure that we get that right, right? And if you have 10,000, users asking 1 question of an llm. Yeah, you know what, you get 10,000 answers.
+[00:29:42] And that's not how we run a business. Cool. Yes.
+[00:29:47] But not how we run a business. We are 1 organization. Write 1 truth? Yeah, go ahead. Julian wrapped up. Please allow me to wrap up with my final point if
+[00:30:00] We only do 1 thing to achieve a better AI enabled analytics, please improve your experience layer because we do believe the AI native. Interface will dominating your user experience in the future and also trying to make your domain level analytics agent because only your supply chain people knows how to do your supply chain analytics. You need to document it and make your our agent to learn it for the longer time.
+[00:30:30] So this is my recommendation for your AI first pass. What do you think about the bi mode and pass Carly? Yeah, so let me give you my final 2 cents. I think we made a big mistake when we talked
+[00:30:45] About bi is just a visualization, right? Because now we've become kind of these visualization experts and that is not the core and the Heart of what we do what we really do. Like I've been talking about all along is we provide this consistent layer on which we run our business and it is true and it is just right and it is trusted and that doesn't go away. So I believe it's not an or bi or AI, it's an ant it's working together, right? So if you're a DNA leader and I'm sure most of you
+[00:31:30] Are that are currently kind of experimenting with AI because it's finding its way into our tools and the work that we do every day, right? And if that's enabling your customers to do AI work better quicker, faster, that's amazing.
+[00:31:46] But I think the real value that AI brings to the table here is the emphasis that it puts on our core, what AI is at its heart, which is the trust the truth, the consistency and the value that bi brings to the table.
+[00:32:04] So with that, Julian, anything else.
+[00:32:07] Well, I want to end up with my recommended reading.
+[00:32:11] Garner has defined agentic analytics, which can help you.
+[00:32:15] To guide a full Journey from bi to AI, but my final asked, uh, if you believe my side, please help read this session. And thank you Carly. Yeah. So my final actual final final 2 cents is. If you believe my side, go out and vote because I know your answers will be the truth.
+[00:32:37] And thank you.

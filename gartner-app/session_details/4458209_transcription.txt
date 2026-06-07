@@ -1,0 +1,203 @@
+[00:00:04] Well, good afternoon, it's an absolute pleasure to have this opportunity to walk you through this very powerful, negotiation cheat sheet.
+[00:00:14] Now, this cheat sheet is made up of 10.
+[00:00:19] Different tips and techniques that will provide all of you as DNA Leaders with some great negotiation, leverage, and bargaining power. When negotiating with your technology and your AI vendors.
+[00:00:33] Now I'm going to make it nice and easy. I'm going to actually walk you through each of these 10 tips and techniques 1 by 1.
+[00:00:42] but before we get started, let's talk a little
+[00:00:45] A little bit about this card you got. When you came in the door now the card is little but it's very powerful. This is your cheat sheet.
+[00:00:55] In fact.
+[00:00:57] What you see up in the slide is exactly what you see on the front of your card.
+[00:01:01] Now if you flip the card, over the goal of today, when you walk out of here is you're going to know how to put this cheat sheet in action.
+[00:01:12] And what I'm going to do is I'm going to walk you through each of the bulleted action items here. So you'll know how to do just that. Now you might notice at the bottom of my card that I have given you, my email address Joanne Rosenberger at gartner.com, what I'd like to.
+[00:01:30] Offered to do is to actually send you the actual PowerPoint deck. I'm going to use today and I also brought some supplemental materials. I'm going to reference some my gifts to you for coming to this session. If you would like all these materials, all you have to do is email me.
+[00:01:49] And if you'll do me 1 favored in the subject, just put cheat sheet and I know you came to my session.
+[00:01:56] With that.
+[00:01:58] Go ahead and get started.
+[00:02:00] You know, when I build this cheat sheet, it was not an accident that this became the first tip and technique. In fact, I made this number 1, very purposely, why
+[00:02:13] because creating
+[00:02:15] A competitive environment is 1 of the most powerful, if not the most powerful tactics that you can use for leverage and bargaining power.
+[00:02:26] You might find it interesting to know that many of the key vendors that you do business with. Well, they've told us that Gartner that when they get an RFP request for proposal that their regional VP of sales, delegates, the authority to the local sales team to give you better pricing deeper discounts, why? Because the RFP gives them evidence its competitive
+[00:02:53] Now.
+[00:02:54] I see people doing a great job with rfps for new projects, but I don't
+[00:03:01] See a great job being done on renewals.
+[00:03:05] The typical conversation I have with clients.
+[00:03:08] For example, the the vendors I cover here at Gardener or IBM, red hat, and broadcom. So let's use red hat. For example, I might be sharing with a client all the Alternatives, all the competitors products and services to every red hat product family and the the discussion might go like this. Well, you know, uh, we don't think we can switch because switching costs are going to be too high. Well, how do you know if you haven't done a switching cost analysis or we don't want to switch, here's the point. You don't have to. But if it's Opie,
+[00:03:45] Operationally feasible, technically feasible to switch, then use that to your advantage, to create the competitive environment, because it gives you power. So, the takeaway here, from this first tip and technique is to use the RFP as your friend for both new projects and renewals when it's operationally feasible to switch.
+[00:04:11] Let's move to tip and technique number 2.
+[00:04:14] You're going to see that a lot of these tips throughout this cheat sheet have to do with asking.
+[00:04:21] Knowing what to ask when to ask and how to ask your vendors and your vendor sales teams key question.
+[00:04:30] Questions. Now, this particular tip has to do with asking actually insisting that you get all options.
+[00:04:40] now, I say this a lot and you're actually going to hear me probably say it again before this session is over, if you don't ask you don't
+[00:04:49] Get.
+[00:04:51] If you don't ask for all options, your vendor is going to propose the option, that's best for them.
+[00:04:58] Quite honestly, what will put more money in their pocket from a bonus and commission standpoint?
+[00:05:05] So you want to make sure you're asking for all options and analyzing all options. Now, my first gift to you,
+[00:05:13] Is a great.
+[00:05:15] Great little template here. And we have this type of an RFQ. This is a request for quote template happens to be for SAS for SAS offerings.
+[00:05:25] And we have this for all your spend categories, but since you do a lot of SAS deals, I thought this would might be the most relevant for you.
+[00:05:34] So I love this for you because it's a 1 pager and it is asking all the right questions to pull back the covers to expose hidden missing ambiguous details that if you don't ask for them, you're not going to get them. This ask for 3 prices list price, entitled price offered price. A lot of people forget they have an entitled discount
+[00:06:00] Government for example, you typically have an entitled discount asked for overage charges. It asked for the definition of the charge metric how the metering is being done for a ideals. It's actually asking for terms and conditions as well usage sandbox use prod, non-pro High, availability disaster recovery. So this little 1 pager will answer a lot of your questions and then you use this to analyze all options when you get the responses. I also want you to have this conference is quite a bit about AI.
+[00:06:39] So, I wanted you to have this just to educate yourself on all the different.
+[00:06:45] AI pricing models and metrics that we're seeing in the marketplace. The more you understand about an AI pricing model and metric and how the metering works the better, you'll be able to negotiate those AI deals as well. So I'll be sending this along if you email me. So,
+[00:07:04] Technique 2.
+[00:07:07] for all options and
+[00:07:11] to get those hidden details. Let's now move to tip and technique number 3 that also has to do with asking.
+[00:07:20] But this has to do with asking your vendor sales team.
+[00:07:25] What motivates them?
+[00:07:28] You know, I helped a lot of clients.
+[00:07:30] Become better negotiators. Sometimes they're in procurement it, business teams.
+[00:07:36] And this might sound might sound a little hokey, but it's true.
+[00:07:42] I say, in order to be a great negotiator, you've got to be a great detective, think about it.
+[00:07:51] Think about your your vendors, they are highly skilled, highly trained at knowing what to ask when to ask, how to ask and actually who to ask in your organization. You want to be just as good.
+[00:08:07] So a lot of times when I'm sharing this with someone new a couple weeks ago, I was sharing this with someone, uh, quite new to procurement.
+[00:08:15] And she looked at me really funny.
+[00:08:17] And she said, I don't know, Joanne, you want me to ask the vendor, how they get paid. And I said I do.
+[00:08:24] You know, it's all in the way you ask.
+[00:08:27] Now you're certainly not going to go to your vendor and say you must tell me how you get paid. You're going to do this in a nice respectful way. And here's what I recommend
+[00:08:38] Back in the day, I've been with Gartner 16 years. When I managed procurement, I would actually teach my procurement teams how to actually break the ice so they could get to know the sales team get to know what motivates them and I would say start with yourself. So let me demonstrate
+[00:08:55] I'm the lead negotiator. I'm meeting with the sales team. So here's
+[00:09:00] Here I go.
+[00:09:01] So we're going to be working together on this renewal rather complex, High, spend high risk. So, you know, means a lot to me that we work together. And we get this right now. Let me tell you about me. Here's what motivates me.
+[00:09:18] I am compensated based on what I get bonus wise each year. My bonus is dependent on how well I Balance cost risk and value for every contract I negotiate
+[00:09:34] cost.
+[00:09:35] Savings to budget.
+[00:09:37] Is their savings to budget cost avoidance. Can I show cost avoidance value? What did we work together?
+[00:09:45] To do that, I could showcase to my stakeholders, all the organization that we brought in more value.
+[00:09:54] To show how we can use more value for your products and services.
+[00:09:59] Risk. Did. I mitigate risk through nice tight terms and conditions? Now that's what motivates me because that's what I measured on each year. So now, you know about me, I'd love to know about you tell me this. Now I know that every sales team has a Compensation Plan. No secret. Love to know about yours. Do you get paid salary?
+[00:10:24] Commission. Both would help me to know that.
+[00:10:28] Do you get bonuses month?
+[00:10:30] Quarterly is your big bonus at the end of your fiscal year.
+[00:10:35] Tell me this, are you more highly compensated on some products and services than others? And they always are. In fact, my next gift to you,
+[00:10:46] That I will send. You is just an example here.
+[00:10:49] And I'm giving you an example of the products that if you're doing business with either IBM, Microsoft, Oracle or sap. These are the products that the sales team is typically more highly compensated on. It's usually the Strategic products anytime too. That you see a vendor has a, your vendor has been acquired by another vendor. The vendor that a
+[00:11:15] Required that particular vendor usually will compensate their sales team higher to start actually selling that product I cover VMware, for example, so VCF is what every sales team is more. Highly compensated on to sell the point is that these changes. So you always want to keep track and understand and they'll tell you, that's the beauty of asking. They will tell you if they truly believe that you really are there to help each other, so just ask
+[00:11:50] Let's move to tiffan technique. Number 4.
+[00:11:53] Now, what this is emphasizing is how much great information you can get from vendor.
+[00:12:00] Websites. Now I'm going to get more deeply into that when I get to tip and technique number 8, but right now I want to talk about the actual investor relations website page, it's 1 website page in these big websites
+[00:12:18] to large vendors. If they're publicly traded will typically publish their quarterly Financial results.
+[00:12:26] And instead of me telling you about it, I want to bring it to life for you, put it in action and I'm going to use Oracle
+[00:12:33] Now, I know oracle is here at the conference so Oracle if you happen to be in the audience. Hey, I'm not picking on you, I promise. In fact, I like the way you publish your financial results, nice and clean. And
+[00:12:45] Clear.
+[00:12:46] Now most vendors will do just what Oracle has done. Notice Oracle has 4. Segments, vendors will publish their financial results by segment think of segments as profit centers.
+[00:13:01] So you see Oracle has 4 cloud services and license support. Cloud and on-prem. License is hardware and services. Now vendors are just like end users everybody cares. How they compare quarter over quarter year-over-year, they're hoping their revenues grow
+[00:13:19] and expenses, decrease or at least stay flat. Well vendors are the same way. So let's for example, take a look at how Oracle closed their third quarter.
+[00:13:30] Last year by segment. So this is what they publish.
+[00:13:35] That's how they close third quarter. Now, most of you probably know because Oracle is pretty aggressive at their fiscal year, end their fiscal year ends May 31st. So,
+[00:13:47] Back up 3 months and that's third quarter, February 28th. So that's how they closed each segment. Now, they also publish how they did the year before.
+[00:14:00] And then they show the comparison. Now Oracle loved it that they grew that first segment 11%, they love that but they didn't love.
+[00:14:12] that they went down, they
+[00:14:15] Missed those Targets in those other 3, Prophet centers. Now, why do you care about this? You care, because they're very hungry to catch up.
+[00:14:26] So,
+[00:14:27] What could you do?
+[00:14:30] What I recommend you do is you actually have a conversation with Oracle and have this already up up on your laptop and do a screen share show it to them. Say boy, you know what, I was just looking at your financials and yikes looks like you kind of missed the boat on a few of these but you know, we do have a need for some additional cloud and on-prem licenses if you come to the table.
+[00:15:00] With a good offer.
+[00:15:02] And actually give us better pricing than we're even getting today. We might be interested in actually renegotiating. The contract we have and helping you close that deal.
+[00:15:14] By May 31st.
+[00:15:16] Most of the vendors will jump on this, so keep track of how they close those quarters because it gives you great bargaining power.
+[00:15:25] Now, we know oracle's fiscal year end is May 31st.
+[00:15:29] So you want to keep track of well, you want to keep track of all your vendors fiscal year, end dates.
+[00:15:38] now this is a great slide and I'm going to actually send this to you as a separate slide because
+[00:15:45] I want you to think of this as a
+[00:15:47] well, lack of better words, a fiscal year-end database that you can add to this. I'm also going to send you a great website.
+[00:15:58] So any of the vendors, I don't have up here that you're going to add and you can have your procurement or your vendor management team delegate that responsibility to them.
+[00:16:08] But it's a great website, it's sec.gov from the US. It's called the Edgar database, super simple. You type in the vendor name and actually the fiscal year, end, if they're public, not private public will show up, so it's pretty easy to use and I'll send that to you now. This is so
+[00:16:30] Important.
+[00:16:31] And sometimes my colleagues even kind of laugh a little bit at me. And they say, Joanne don't. Most people know that this is kind of negotiation 101. I say many do, but people forget or they lose track of time or they or or they're not proactively planning the negotiation. So, what I have done, and I found this to be very helpful, everybody has really loved this. So, I've got 1 of these for all of you. I've actually printed these on little 6X, 8, inch cards. And I have plenty up here on the stage for all of you. Take a couple, take 1 back to your procurement team. Hang it on your wall. I mean, keep it handy. Keep it somewhere. So this is always top of mind because
+[00:17:15] this is powerful either to string the deal along to get closer and closer to those quarter and fiscal year ends or
+[00:17:24] early renew vendors, love to renegotiate multi-year contracts. So, an early renewal is great. 1 tip for you.
+[00:17:34] Don't let your contract end on the fiscal year. End date.
+[00:17:39] When you go back and you look at some of your contracts, I imagine many of yours do end on the fiscal year. End date.
+[00:17:47] Have it end a quarter after because if you have it end a quarter after now you can use it to your advantage to say, wow, I'll use I'll use IBM since I cover IBM.
+[00:18:00] Wow. IBM. You know, our contract ends March of 2027 but you know, we might be able to close a deal with you by December 31st. If you come to the table with a great offer and give us prorated credit for those last 3 months, vendors will jump on that so don't have it end on the fiscal year end. Like if you do a 3 year deal make it 39 months instead of 36 then you can use the year end to your advantage.
+[00:18:31] Okay.
+[00:18:33] now, move to tip and technique number 6,
+[00:18:38] and,
+[00:18:39] I'm a huge advocate of this because quite honestly 1.
+[00:18:45] Financial analysis model does not fit all deals.
+[00:18:50] And I've got a workshop that actually has a negotiation scenario that walks you through how and how to actually customize your financial analysis model to be deals specific for example bundled up deals well you could never look at it from a capex Opex standpoint so my example is taking an actual SAS implementation and training deal insisting that it get unbundled because Finance
+[00:19:24] needs the detail. In order to look at the capex Opex in
+[00:19:30] Act because we treat implementation as capex. It's very powerful.
+[00:19:35] Prepays.
+[00:19:36] Always make sure if the vendor because the vendor is more highly compensated on a prepay. Make sure they give you pay. As you go take the net present value of the pay as you go stream compare it to the prepay use that as leverage should cost models. Simple should cost models as counter offers. I'm going to send you my whole Workshop because I want you to see each of these scenarios and then if you want to call with me after and bring some of your colleagues in including Finance,
+[00:20:07] Great to do that. I do these as hour-long sessions. Anyway, this is big and what is the biggest takeaway for?
+[00:20:15] From here.
+[00:20:16] is to always make sure you let your sales team know that Finance is part of the process part of your negotiation, part of your approval process that if Finance doesn't sign off on the deal,
+[00:20:31] You can't take it forward for executive management approval.
+[00:20:35] Any time. They know finances involved you will get more details and better transparency because they know Finance is just going to kick it right back. So always let your sales team know. Finance is part of the approval process.
+[00:20:51] Number 7.
+[00:20:54] number 7, is to Showcase how
+[00:20:59] you should always.
+[00:21:00] Be reminded that everything is negotiable.
+[00:21:06] Now, this can be thought of as a nice checklist too because what I recommend that you do is every 3 to 6 months quarterly, if you can. But at least every 6 months, sit down,
+[00:21:19] With your team can be procurement, vendor management It Business Leaders and look at what contracts you have. That are candidates for renegotiation.
+[00:21:33] now obviously if you want to buy more of something new products, new services, or if you let's say that you have done your demand forecast and
+[00:21:45] Do you have a capacity increase need or uh, consumption?
+[00:21:49] Increase well obviously vendors love to sell you more. But I always feel bad when a client will tell me. Yeah, we kind of
+[00:22:00] Now we kind of goofed up here. We overbought signed a 3-year contract or the vendor oversold, 3 year contract, we're 1 year into it and we haven't even deployed some of the products. So we're stuck. You're never stuck. First of all, that's wasted money.
+[00:22:20] what you do is you calculate the value of what you have, not deployed, not used shelf where for example, and then
+[00:22:30] then what you do is you
+[00:22:32] Do a little homework.
+[00:22:34] Play detective.
+[00:22:36] Take a look at the vendors roadmap. Take a look at the products and services. Take a look at your legacy products or even even products that aren't Legacy that you have today. That is a trade-up opportunity. Trade-ups are treated as new sales. So that is big to a vendor.
+[00:22:56] So you think about what is it that you would use to replace what you didn't use and May and the vendor will give you credit for the value. You lost for what you didn't deploy, that's negotiable they call these contracts cancel
+[00:23:15] Rewrites.
+[00:23:17] You take your current contract, you cancel it.
+[00:23:20] Prorated credit for the remainder of the period credit for unused products and you rewrite the contract. Now, under new terms, conditions and pricing
+[00:23:32] Everything's negotiable so you're never stuck.
+[00:23:36] In a bad contract.
+[00:23:38] So the point is that you want to now, sit down with your vendor, talk about what you haven't used or talk about what you end, talk about what you need and then craft that new deal that's negotiable. If you walk around to the show floor, where all the vendors are
+[00:23:56] Feel free to ask them. I do this all the time at conferences. I say.
+[00:24:00] Do you know do you like multi-year deals and most of the time they'll tell me. Yes. I tell them what I do. I don't keep it a secret and then but
+[00:24:09] I would say 90% of them tell me, but we don't want those multi-year deals to go to the end.
+[00:24:16] 1 Sale. It happened to be, uh, at this DNA Summit in Orlando. 1 vendor was telling me that 12 months into a contract
+[00:24:27] The sales team is out already trying to open up the contract for renegotiation. So, everything is negotiable just keep that in mind.
+[00:24:38] Ten technique number 8. Now when I was talking about oracles, quarterly Financial
+[00:24:45] Results. I mentioned that's 1 website page, the investor relations page. Well, you can get so much great information from these vendor websites. I mean, it's amazing how much you can get. Now, if you're a Gartner client asked us because any vendors we cover, we eat sleep. Breathe this. Like I said, I cover IBM red hat and, uh, broadcom. I can tell you the answers on all of this at any point in time. So, you can always ask us but
+[00:25:18] If you have a vendor management team, that's a great job for them, too, to delegate that Authority or that responsibility to them to capture all this great information.
+[00:25:30] Package it up, report it to you so you can use it to create your negotiation plan and strategy.
+[00:25:37] So all of this is giving you great data points, great information. And information is always giving you more knowledge, and the more knowledgeable you are the better negotiator you're going to be
+[00:25:52] I want to use something as an example. I'm going to use the third checklist item here executive leadership changes in org charts.
+[00:26:00] This is actually great to always take a look at in the websites. And another thing you want to look at is you want to look at the blogs and the different quotes that, uh, CEOs. And their leaders make for example,
+[00:26:15] Uh, you might see that a CEO has said, we're not here to sell. We're here to partner
+[00:26:21] Well, if your local sales team isn't actually acting that way, you know, usually those quotes to your advantage, and sometimes you have to escalate escalate above the local sales team. Well, you can usually find it the CEO and the the leaders reporting to the CEO and a vendor organization on the website. But you're not going to find the regional.
+[00:26:47] Org charts.
+[00:26:49] Or the reporting structures. So remember a lot of this is about asking, simply ask your sales team to tell you who these people are.
+[00:27:01] Now all from time to time have clients say to me. Yeah, but won't the sales team. Get mad at me. If uh, you know, if they think that we're going to escalate above them.
+[00:27:12] So you can do this a couple ways you can say, and this is quite often the case that sea level execs your CTO CFO. CIO, uh, wants to know who is the Regional VP of sales, you know, maybe I do want to get involved here. This is a very complicated deal and it's very strategic to, you know, our future as well.
+[00:27:38] so maybe the CIO wants to get involved so you can simply say, you know, my CIO always likes me to ask, uh,
+[00:27:45] You know, for these names, you can also ask for this, if you're using an RFB ask for it, right? In your RFP, but the point here is also. If you're asking your local sales team, they don't want you to escalate above them. So if you're asking for this, they're going to work harder so that you don't escalate. So, this is a win for you. Either way, you look at it, but the point is that you want to ask them.
+[00:28:13] Uh, yeah. So you know, who do you report to? Who who's your manager and is your manager, the Regional VP of sales
+[00:28:23] You know who who's that?
+[00:28:25] Also, we want to know who the dealmaker is, you know, the dealmaker.
+[00:28:30] Sits behind the scenes, crafts, the deal.
+[00:28:35] And gives it to the sales team to propose to you.
+[00:28:39] So why is the dealmaker hiding? We want to know who the dealmaker is and we want to actually have the dealmaker. Um, come to our meeting. You know, let's let's get, let's make this, you know, a team approach here. Let's get everybody involved. The other thing that's really important is to make sure you always know the country manager.
+[00:29:00] Country manager. If you're doing a deal in the UK, It's usually the UK country manager but it may not be
+[00:29:07] I was helping a client.
+[00:29:09] On an IBM deal in the UK, but the country manager was actually in Sweden. So,
+[00:29:15] You just want to make sure, you know these things because you may very well want to escalate. Now 1 thing that is always helpful especially on a complicated deal is bring in a c-level exec sea levels. Always help you by giving you more power when negotiating if your c-level execs want to be part of it. And a lot of times they do because, you know, hey they think it's fun and or they know that they can help.
+[00:29:46] Last 1, not least tip, and technique number 10.
+[00:29:50] you know I hope you've seen that all of these tips and techniques 1 through 9 actually will give you negotiation leverage and bargaining power but
+[00:30:00] What often I will see clients do or not do is they won't build enough time into the negotiation process to have a final negotiation phase or they will actually think they can do this in a day.
+[00:30:18] Well.
+[00:30:19] 1 thing, I'm going to send you. It's the last my last material that I'm going to send you. It's a, it's a nice 1 pager. It's a 12-month guide.
+[00:30:30] And it shows you, the action items, you should be taking 12 months out, 9 months out, 6 months Out, 3 months before, you're you have a negotiation. Now, this is usually, for 1,
+[00:30:45] Of your more complex. Negotiations and do. Am I saying you have to start 12 months on everything? No.
+[00:30:52] But 6 months, you still want to 6 months.
+[00:30:57] At, you don't want to wait any longer than 6 months.
+[00:30:59] Or shorter than 6 months. I should say. And what you want to still do is make sure you're building in all these activities proof of concept engagements with for alternatives.
+[00:31:11] Make sure that you have built in enough time to do the switching cost analysis, terms and conditions, uh, checklist that type of thing. It's great action items here. And the point is 3, months is where I recommend. You build in this final negotiation strategy.
+[00:31:30] This gives you time now if you want to escalate above the local sales team to bring in that VP of sales and the dealmaker, if you want to.
+[00:31:41] Bring in your CFO, for example, or your CTO.
+[00:31:46] We have to explain the contract to them, explain the deal, explain the new proposal. So you need time to do all that to have a credible Plan, B, to be able to say, uh, we can walk away.
+[00:32:00] And you can't do this with every contract you have, but you can with more than you might be thinking. So you need time to do that. And
+[00:32:10] This is a big deal.
+[00:32:13] You know, your vendors do this?
+[00:32:15] All the time, they have dress rehearsals, they get together and they talk about what role. Are you going to play? What role are you going to play? What are you going to say? You want to do? Just the same. This actually is very powerful on some of your bigger on your bigger negotiations. So, build enough time to do that.
+[00:32:36] Now I think that I mentioned at the beginning and you probably recall that I said the goal of today. When you walk out of here is you'll know how to put this cheat sheet in action and this is the full-blown cheat sheet. Exactly what you have on your card.
+[00:32:55] And you can now just follow this and make sure that you are
+[00:33:00] Taking advantage of all of these tips and techniques for your various negotiations. Now, do you need to use each and all of these for every deal? No.
+[00:33:10] But you'll be able to tell which ones are going to be more powerful and more effective as you plan your negotiation. I want to remind you that Gartner is always here too, to help you plan these negotiations. So, you know, engage us too. In fact you can follow this 12-month guidance, every step of the way as well.
+[00:33:31] so I hope that you found this to be valuable if you would like the deck and all these materials I mentioned again, just use my email address at the bottom of the card and just put in
+[00:33:45] In the subject, cheat sheet, and I'll send everything to you. My goal is to get everything to you tonight. So, that's my goal. Now, if you would like extra, I've got some extra cards up here, take 1 back to your colleague and I have all the fiscal year end cards as well.
+[00:34:02] Please come and take as many as you want from the stage and have some more candy too. I want to thank you all for coming. I hope you found it valuable. I loved presenting this to you. Thanks so much everyone. Thank you.

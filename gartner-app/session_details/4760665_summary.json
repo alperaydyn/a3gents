@@ -1,0 +1,68 @@
+{
+  "summary": "Data lags undermine agentic systems and put your entire business on a reactive footing. With AI agents, you can accelerate your ability to react to new contextual information, but preparing data sets for each AI use cases is time consuming. In this session, learn how to build a semantic metadata layer that automates retrieving relevant structured and unstructured data, giving employees and AI agents real-time context and agentic decision-making.  The session discusses the importance of providing AI agents with real-time context to enhance their decision-making capabilities. It emphasizes that without understanding the broader context and having access to quality information, AI applications may fail or lead to poor outcomes. The speaker illustrates this with examples of how context can improve the performance of AI agents in various scenarios.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Context in AI",
+      "key_points": [
+        "AI applications often fail due to lack of context.",
+        "Understanding context is crucial for effective AI decision-making."
+      ],
+      "start_time": "00:00:00",
+      "end_time": "00:06:30"
+    },
+    {
+      "order": 2,
+      "topic": "Real-Time Information and Trust",
+      "key_points": [
+        "Agents need real-time information to function effectively.",
+        "Trust in data quality is essential for AI agents."
+      ],
+      "start_time": "00:06:30",
+      "end_time": "00:12:00"
+    },
+    {
+      "order": 3,
+      "topic": "Examples of Contextual AI Applications",
+      "key_points": [
+        "Contextual understanding can prevent costly mistakes.",
+        "Providing agents with comprehensive data leads to better outcomes."
+      ],
+      "start_time": "00:12:00",
+      "end_time": "00:19:00"
+    },
+    {
+      "order": 4,
+      "topic": "Conclusion and Key Takeaways",
+      "key_points": [
+        "Foundational steps are critical for successful AI deployment.",
+        "Implementing context is a straightforward yet impactful step."
+      ],
+      "start_time": "00:19:00",
+      "end_time": "00:21:12"
+    }
+  ],
+  "key_takeaways": [
+    "Empowering AI agents with real-time context significantly enhances their effectiveness.",
+    "Quality information and trust are foundational for successful AI applications.",
+    "Understanding the broader context can prevent operational failures and improve customer satisfaction."
+  ],
+  "entities": [
+    {
+      "data intelligence": 5
+    },
+    {
+      "real-time information": 4
+    },
+    {
+      "data management platform": 3
+    },
+    {
+      "context layer": 3
+    },
+    {
+      "trust": 5
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

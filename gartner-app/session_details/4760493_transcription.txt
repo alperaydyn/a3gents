@@ -1,0 +1,376 @@
+[00:00:03] Good morning.
+[00:00:05] All right, let's talk about a bit about data today, Ai and cyber security. How it's coming together to transform largely all of our companies,
+[00:00:15] All of our lives and how that's evolving, and how we should be evolving with it.
+[00:00:19] So our data first, right what's happening, what's evolving, and what's taking place is really this, I think explosion of data, uh, data activities to a solid. Right? In all of our our lives and our businesses, and our companies.
+[00:00:32] And it's really uh, taken off when you think about what's, what's evolving and the speed of information. And you think about the comparison of the last 40 or 60 years, what's taking place?
+[00:00:45] Let me give you an interesting stat.
+[00:00:49] Over 90% of all data created in the history of the world was created in the last 2 years.
+[00:00:57] Let's think of that for a minute.
+[00:00:58] We've had computers since the 60s and 90% of all data ever created was created in the last 2 years. That's the pace in the speed of which we're going at.
+[00:01:08] Its Wild.
+[00:01:09] Similarly we have all that data and information to taking place. People are obviously want to die value out of that so and analytics and AI. But what's happening here is that on the AI side, these are failing.
+[00:01:21] About 88% of all PC's today, fail.
+[00:01:24] They're going to production.
+[00:01:26] They can't scale, right? You run a PC. That's great.
+[00:01:30] Looks great. Let's put in the production, it's not working. What's happening? There's so much information as much data, but the context in the metadata is not actually being aligned to drive and those edge cases are failing right when you go to AI.
+[00:01:44] When you think about that, that larger Evolution about AI itself. And what's happening there, that also exploding
+[00:01:50] So in the last couple of years, we all know this, the the buzzwords of the day would be AI or chat gbt or Claude or methos or agents. But what's actually taking place is this
+[00:02:04] There are now over 50,000 companies today.
+[00:02:07] That are AI companies.
+[00:02:10] 50,000.
+[00:02:11] Who are your partner with?
+[00:02:13] Who are you going to trust?
+[00:02:15] Who do you want to use to help you transform, you and your company. But that's the scale and the size we currently are in and it's evolving.
+[00:02:23] Interesting. Uh statistics in this slide that I actually find more intriguing than the number of companies is actually the number of investors over 20,000 investors today, are investing in enabling those companies.
+[00:02:37] This is probably going to double in the next 2 years, the next 2 years, probably have a 100,000 companies that are AI companies.
+[00:02:45] That's massive.
+[00:02:46] Right? So the world of transformation of evolution and using AI to transform your business. Who do you partner with? Who do you trust? How do you make sure that your data and your controls are actually being uh, given by people that are
+[00:03:00] Access to my controls.
+[00:03:02] Similarly, I was taking place in the last uh, year or 2. These are 2 interesting, uh, trends.
+[00:03:08] the first 1 is
+[00:03:10] Over half, what we all see on our on the websites, or on the Internet, or on social media, whether it be Instagram, or Facebook over 50% of what we see today has been AI created.
+[00:03:23] AI generated. That's wild.
+[00:03:26] Look at that is your news articles. You guys are content. Look at that as your Facebook posts. So your Instagram posts things that you read your, CNBC your your BBC articles, all those things are now ai created over. Half of it is AI created. That's wild.
+[00:03:42] so similarly, right when you think about the websites,
+[00:03:45] Of all websites across the entire world launched and created last year, 75% were AI created.
+[00:03:53] 3 quarters of all websites were created by AI. It just shows you, not just the speed and the pace, but also, how do you think about the quality control? How do you think about the, the ability to understand what's actually truthful, or not, right? What's real, what's factional? What's not,
+[00:04:10] What's happening? So all this actually driving the fourth Industrial Revolution where we are today
+[00:04:17] So AI is truly. That fourth Revolution, we've had steam electricity, computers, that's all been, you know, 30, 40, 50 year transformations,
+[00:04:30] Think about AI itself. Rolling year 3.
+[00:04:35] You've just started its very early days.
+[00:04:38] but then into a quick comparison, when you go back in time to computers, I first came out in the 60s with mainframes
+[00:04:47] I think about 3 years into that Revolutions of of mainframes, what evolved from punch cars to a user interface for AI in the last 3 years. What's evolved? It's massively different. It's accelerating and different way, different pace than it has been in any other wave in history.
+[00:05:07] And that's speed of change is going to continue to compound.
+[00:05:10] that's a big difference actually with a fourth 1 here, which is AI can learn
+[00:05:15] Learn and evolve by itself.
+[00:05:17] Versus the other 3 revolutions here required. All of us.
+[00:05:22] Require all of us to transform and change and evolve and to help mature that over time. And this fourth 1 AI can do that themselves.
+[00:05:32] so similarly, think about this and this is a change, think about your companies and your Enterprises
+[00:05:39] When you we talked to your your risk teams, your controls your audit teams who here today has people that are concerned about AI. People that are like, you know, we shouldn't use. It doesn't make sense.
+[00:05:51] 2 hands. Come on. There's a few more than that. I know. There you go. Look at the back, you say, right? People are concerned. And the common thing I always hear is, you know what, Tom, it's okay. We're going to
+[00:06:00] We're going to wait until we have regulations and laws, defined and controls may I roll out once we know the rules of the road we're good to go.
+[00:06:09] You can follow those rules of the road. Let's look back.
+[00:06:13] On how long that actually takes.
+[00:06:15] Perfect example.
+[00:06:18] Airplanes.
+[00:06:19] Flight.
+[00:06:20] Right? Commercial flights. Took place in the 20s 1920s. 1930s, it started.
+[00:06:26] But it took over 40 years for modern regulation to the laws to come out and be mature, 40 years.
+[00:06:34] Similarly with AI, right? You have your EU AI act that's coming live this year, right? Has a multi-year phased, out process to be compliant but there's more and more coming beyond that.
+[00:06:45] But just think about that for a minute.
+[00:06:47] This is the first step in that regulation and how AI can use to evolve and change.
+[00:06:54] If you wait until all the different controls and laws and regulations are in place before you use it, you're missing years upon years of opportunity to transform your company and grow your business.
+[00:07:06] Let's do a couple other examples here.
+[00:07:10] Back. Uh, many years ago, the mayor of Boston. Once said that automobiles are a menace to society. It's been banned from the streets.
+[00:07:18] We all laugh at that now, but back then, it was very serious. They were, they wanted to ban all cars from the streets of Boston.
+[00:07:26] Imagine that happened today.
+[00:07:28] Imagine if every single city in the world,
+[00:07:30] Growth had cars, but Boston still had horse and carriage.
+[00:07:34] How about this 1?
+[00:07:36] the chairman of IBM once said,
+[00:07:38] I only see a Margaret for Falcon Peter's worldwide.
+[00:07:42] Worldwide.
+[00:07:44] Out of all of you but I have 5 appears in my house. My family alone.
+[00:07:47] So I want households, right?
+[00:07:50] But this is shows, you is it takes time people to understand what's happening the Transformations, how it will change their lives, how will change the market and the economy, and being able to say, you know what, based upon this, we need to think differently. Now, obviously, IBM also shifted as well, right? They went and they built their own computer business and they evolved their entire company. But think about it. This was the chairman of the board that
+[00:08:15] Says right now, I don't see marker for it.
+[00:08:17] How much they had to evolve in pivot from that over time.
+[00:08:20] Pivoting is important changing and evolving your mindsets. Important learning is important. Being able to take that and evolve your thinking and evolve with the industry is going
+[00:08:30] is key.
+[00:08:32] so, that being said,
+[00:08:34] Does anyone here know about B coding?
+[00:08:37] Show of hands. Wow, a c of the room. I'm super impressed. Okay, cool. So people that don't other half of the room, doesn't know Vibe coding.
+[00:08:45] Tonight, a bit of homework go on to YouTube when you get home.
+[00:08:49] Type in Vibe coding.
+[00:08:50] We Blown Away about how it actually can evolve and transform, how you do engineering today and development. But actually, what mainstream last year
+[00:09:00] So, last year, the Collins Dictionary.
+[00:09:02] Word of the year was Vibe coding.
+[00:09:04] right, being able to actually,
+[00:09:07] Write what you want and actually have the application of the process automated or the engineering ability built for you, right? That's the world that we're in. It's it's wild.
+[00:09:19] um,
+[00:09:21] I've been in the industry for 20 plus years and Banking and Financial Services actually recall many times. When in technology, we always say, you know what? Let's go get our business requirements. Figured out first, get our BRD signed off it'll be a 100 page Word document. We'll review that get a line on our Dev plans, then go do it.
+[00:09:40] That's evolving, no more. If you're saying, let's get a BRD.
+[00:09:45] No more. She said let's go Define business requirements. You can now actually give that power to your domain owners
+[00:09:52] Right? Whether it be Finance or accounting or legal or operations or credit risk, whoever it may be and say, you actually can type your requirements in.
+[00:10:03] and actually have
+[00:10:05] 5 coding.
+[00:10:07] And the ability of AI to build your prototype for you.
+[00:10:11] And then you can hand it over to your technology team.
+[00:10:14] and you and your team for engineering and I'm actually then mature it and Harden it to be to be deployed, but that's a sort of change how we all today, do development and do engineering that will evolve the space
+[00:10:28] So that being said, does anyone actually know?
+[00:10:30] What the hottest languages today for coding?
+[00:10:33] Anyone know.
+[00:10:37] What is the current hottest language?
+[00:10:39] Python Cobalt. What do you guys think, Java?
+[00:10:44] Man, quiet crowd.
+[00:10:47] How about this?
+[00:10:49] Is the human language. It's us.
+[00:10:51] All right, the first time in history.
+[00:10:54] You don't actually need to know a coding language to actually build something.
+[00:10:58] The first time ever.
+[00:11:00] You can type what you want.
+[00:11:02] and any language that, you know,
+[00:11:05] And actually, the AI, the vibe coding.
+[00:11:09] Kim, build it for you.
+[00:11:12] Involving all of our spaces? No.
+[00:11:15] No more. Do you need to go and train someone about how to use python or R Studio or C+ or Java? That's that's changing.
+[00:11:25] It changes our lives, changes our technology teams, right? You can just use your words. Will it be in French Spanish English, whatever it is and that allows you to build
+[00:11:39] to transform like that is a revolutionary thing that just now coming on the scene.
+[00:11:45] but,
+[00:11:46] At the right controls.
+[00:11:48] And the right monitoring.
+[00:11:51] What do you get?
+[00:11:55] Bad quality.
+[00:11:57] That output right AI.
+[00:12:00] Slop.
+[00:12:01] The people call it also.
+[00:12:03] A word of the year last year.
+[00:12:08] Not the right controls and monitoring and the right ability to define the data inputs and the outputs and the prompts that are being used. You get AI slop
+[00:12:18] So, how do you balance this?
+[00:12:21] How do you balance the ability to give these amazing tools and Technologies to your teams?
+[00:12:27] while balancing, the ability to make sure that the output is of high quality
+[00:12:33] The ability to transform your business, to launch new products, to transform your channels. Those are all things that are evolving and by the way, all of our jobs will change.
+[00:12:43] Right.
+[00:12:45] So, people's jobs are going to change whether they be in the past, you have to go and create an Excel document on about all of you. But now you can do a a just kind of cash flow analysis and Roi and irr. You can do a npv calculation literally with Claude embedded in New York Excel file. You already can prompt your Excel document.
+[00:13:06] To do that for, you know, more do you need to know the equation to go do this? You literally can prompt it and build it for you on the Fly.
+[00:13:15] Who here is used so far, Claude co-work anybody in the room.
+[00:13:20] About a third of the group.
+[00:13:22] Try it. It's amazing. I I now use it to direct to draft up all my PowerPoint decks.
+[00:13:30] Have a 20-page prompt.
+[00:13:32] I plug it in out of a reference file and in 10 minutes, I have a PowerPoint document created.
+[00:13:38] It's not final by any chance you have any means, but it's about halfway done.
+[00:13:41] But that goes from zero to 50%, for me, then I use my expertise to finish it off. But like that, accelerates your job. It accelerates your business, right?
+[00:13:53] With this new Economist New World. Everyone now believes they can code.
+[00:13:57] Write all your new hires are bringing in they all believed their expert coders you know why?
+[00:14:02] So you can use cloud code or cursor, right? Or GitHub copilot because they had those technology those tools. They now can produce expert level code.
+[00:14:16] Those roles will change. So in the past right, you only would have technology built products for you.
+[00:14:23] Now, it's going to evolve, you can have your entire company.
+[00:14:27] Building products for you in parallel.
+[00:14:30] We're not that the technology team becomes more of the workflow management, you've all this pipeline coming in of new products. How do you manage that? How do you make sure that being your policy is your controls your security requirements before it's pushed to production,
+[00:14:45] the the world of technology is going to change, but imagine the world where
+[00:14:50] You no longer need to go ask for more funding.
+[00:14:52] To go build a new project.
+[00:14:54] Imagine a world where you can Empower every single employee in your entire company to be
+[00:15:00] Self-sufficient, to build their own product and technology and automation.
+[00:15:03] Imagine a world.
+[00:15:05] Where technology team no longer needs to wait to get business, requirements to go build something. They can build it in a day.
+[00:15:12] Through collaboration.
+[00:15:14] We are just now in the custom that happening.
+[00:15:17] On the cusp.
+[00:15:19] Without having proactive monitoring productive controls and quality Gates. You can't do that the control landscape that we all lived in the last 20 years. Around, reactive controls, compensating controls, those type of capabilities can't scale to Monitor and protect.
+[00:15:35] In today's world.
+[00:15:36] That's a big difference. You need to think about being low and proactive, how do you get that real-time visibility so you can enable that type of transformation to you in your company.
+[00:15:45] And that's where the first time ever.
+[00:15:47] Technologies are going to enable this.
+[00:15:51] So, cyber security, CSO team. The CDO team.
+[00:15:55] the, the risk team, the last 10, 20, 30 years, they've all been
+[00:16:00] Largely siloed.
+[00:16:02] Why?
+[00:16:05] Largely because of Technology.
+[00:16:08] cyber security had their own technology and their tools to do, uh,
+[00:16:12] 1 of the patching V management, right? It's Security reviews and so forth. The CDO, their own tools, doing data glossaries data governance data profiling, right understanding Discovery, understanding lineage
+[00:16:27] the first time ever Technologies and
+[00:16:30] Enabling these teams to come together.
+[00:16:32] We're not even going to have.
+[00:16:34] The ability to have single tools that across the entire company.
+[00:16:38] Where you can have the risk team, the legal team, the data team, the cyber security Team, all having that common view.
+[00:16:46] of where data actually is, how it's actually being used the controls, you have or you have control gaps and when you need to go fix,
+[00:16:56] I always would smile when, uh, I have the audit team come to me and say, Tom, we're gonna run an audit, but we're gonna spend the first 30 days scoping out the audit.
+[00:17:06] Why?
+[00:17:07] Why do you need to scope out the audit?
+[00:17:09] Because they're not on the same level of understanding of Baseline about where things actually are today.
+[00:17:15] What's the systems? Do you have what controls you have has actually work because they all have their own tools technology for the first time ever.
+[00:17:24] That's not coming together where your first line of defense, second line defense, and third line defense can all have the same view about what data is being used. How it's being used the controls and security, the landscape, the policies, where you're compliant and where you're not compliant,
+[00:17:40] and by having that, it allows you to automating, things automating your business processes.
+[00:17:46] so who here today uses like cursor, who uses co-pilot on GitHub, who uses Cloud code, but half the room,
+[00:17:58] Right, awesome. That's about right.
+[00:18:00] Now, 20 to 30% of your automation for coding.
+[00:18:03] It helps you basically build that first code base. You got to do the reviews and so forth.
+[00:18:08] Who here uses a chat gbt or co-pilot on M35 to do email automation.
+[00:18:15] Write your emails.
+[00:18:17] All right.
+[00:18:18] I do it all the time. Make my emails on better. Please write 100%. It's about half.
+[00:18:26] It's about half of your automation right there of the email.
+[00:18:30] Has anybody know what product and Company and process has 99% automation today.
+[00:18:41] 99% anyone know,
+[00:18:46] What's that?
+[00:18:47] No, it's actually 99.98%. Automation is actually the waymo car.
+[00:18:54] But that 02 has not automated.
+[00:18:57] You know what happens?
+[00:18:59] It goes here.
+[00:19:01] Human the loop.
+[00:19:02] People call it.
+[00:19:04] That 02, that cannot be automated with AI and agents goes here.
+[00:19:09] All right.
+[00:19:10] But think of it like this.
+[00:19:13] For many of us.
+[00:19:15] When we think about our companies, our control Partners our wrist, team that say, you know what, we're too risk adverse to use AI for these things.
+[00:19:23] I would smile say, okay.
+[00:19:26] I say.
+[00:19:28] What is the most valuable thing in your life?
+[00:19:30] And the common answer is.
+[00:19:33] 1 of 2 things either. My family,
+[00:19:36] My kids, my parents.
+[00:19:38] Or it's my money. My net worth.
+[00:19:41] It's an interesting, okay. So the about your family, your kids, you're driving on the road
+[00:19:48] In your car.
+[00:19:50] And the car next to you is a driverless car.
+[00:19:53] See that as a cyber Taxi.
+[00:19:55] Zuck, which is the new car for Amazon waymo.
+[00:19:59] so, the most precious things in your life, in your world,
+[00:20:03] You are not driving at 80 miles an hour or 100 kilometers an hour right next to a completely autonomous vehicle using AI.
+[00:20:11] But yet.
+[00:20:12] You can't use it in the business because we're risk.
+[00:20:16] Interesting.
+[00:20:18] How about your phone?
+[00:20:20] Your Android or your iPhone.
+[00:20:23] Your entire net, worth your money, your Investments.
+[00:20:27] Are all on your, on your device, on your phone.
+[00:20:30] Your phone is AI today.
+[00:20:32] With a B Siri or your clawed app that's on your phone.
+[00:20:37] Your entire net worth of all your money that you've made the entire life.
+[00:20:41] That feeds your family.
+[00:20:43] Right supposed to AI.
+[00:20:46] But yet, we can't use in the business world because we're too busy conversed.
+[00:20:50] Just think about the difference there for a minute.
+[00:20:52] It's not what you were conversed that he would don't understand what the risks are.
+[00:20:57] So how do you how do you help people on that Journey?
+[00:21:00] If I give them transparency.
+[00:21:02] Help them understand what the actual risks are.
+[00:21:06] How people understand how they can visualize it and how do you mitigate it? That's how you break down that barrier. That's how you bring along the larger team. The company on that Journey,
+[00:21:19] So we think about what's evolved in the last 40 years. It's been this
+[00:21:23] from people in computers the last 40 years.
+[00:21:26] Right. Think about data and and a cyber security.
+[00:21:30] Probably not 90% of our budgets been on technology, right? Whether it be Hardware, software, storage compute data, right about 10% or so of them from people, right? That's kind of how we've been doing the last 40 years. How do you automate your business or you?
+[00:21:45] Technology to scale your business.
+[00:21:47] Then people basically has been the the the things that basically don't fall in that process.
+[00:21:52] They're the manual output.
+[00:21:54] But now it's evolving.
+[00:21:57] first time ever, we have 3 things now,
+[00:22:00] Humans us.
+[00:22:02] Computers.
+[00:22:04] And agents.
+[00:22:07] Agents will change how we think about automation.
+[00:22:10] And computers and Technology.
+[00:22:13] Right. Agents have
+[00:22:15] Superhuman Powers. We don't have.
+[00:22:19] Right? They can do parallel processing.
+[00:22:22] They can do pattern recognition. Think of billions of Records, the facts that we can't identify as humans.
+[00:22:29] Right.
+[00:22:30] The speed which they can process is specifically faster than we can process as humans.
+[00:22:37] It's always interesting to see this slide. I think about my wife, my wife's sh swear. She is the best parallel processor of tasks in the world.
+[00:22:46] But in reality, she's not right.
+[00:22:49] She can just micro batch things really fast.
+[00:22:51] Right. But it's true though, right humans can't pay their process. Thanks, you just can't our human brains can't do that. But computers can.
+[00:23:01] but without the right controls and monitoring and security,
+[00:23:05] We also have then weaknesses.
+[00:23:08] Hallucinations AI slop, right? You have it in in nature. Things are basically missed where you don't.
+[00:23:15] Actually the right controls in place.
+[00:23:17] That's where you got to bring these controls capabilities together. This is 1 of those things where people are concerned about using AI because they don't know how to mitigate these risks.
+[00:23:26] And make sure you can use the powers, not the the weaknesses.
+[00:23:32] When you think about how we scale and the scaling Paradigm, we're currently in think of it like this.
+[00:23:38] So humans all of us.
+[00:23:40] We can consume about 60, bytes of data per second.
+[00:23:44] Call teams call reading an email watching a movie on a phone call with their parents.
+[00:23:52] 1 agent.
+[00:23:54] To consume 50 million bytes a second 50 million bytes of data per second.
+[00:24:00] For 1 agenda.
+[00:24:02] I always have an interesting chat, people say, you know what, we're in a good spot Tom, we're going to use human human Loop for AI.
+[00:24:08] So, okay, great.
+[00:24:10] How many agents do you have?
+[00:24:12] We have like 5, okay.
+[00:24:14] Let's take 1 agent for a minute. If 1 agent is processing, 50 million bytes per second,
+[00:24:19] In a human can only do 60 bytes. How many humans do you need to have human in the loop for 1 agent?
+[00:24:28] A million.
+[00:24:30] Your entire company.
+[00:24:32] Is human. Looper 1 agent.
+[00:24:34] House that scale.
+[00:24:36] Can't scale.
+[00:24:38] Doesn't actually work. It actually kidding yourself thinking that she have human Loop, you know?
+[00:24:43] What actually happens.
+[00:24:45] Is you you you don't have the controls in place, you need to actually run at scale the high quality.
+[00:24:52] So, we need to put in place. Instead is actually control agents.
+[00:24:56] Audit agents compliance agents. I can check and review is no longer human a loop. Now it's actually human on the edge.
+[00:25:05] Whereas transactions and Things fall out of the process or can't fit in that quality control. Check. That's when humans come in.
+[00:25:14] That's when you look at it, when the humans need to be involved.
+[00:25:17] Back to our example with the way Mo car that 02 02 Cent that's when a human takes over. But the 99.98%
+[00:25:27] It's all been done by agents.
+[00:25:29] control a
+[00:25:30] Automation, agents, Auto agents quality agents. That's how it's being done.
+[00:25:37] We're thinking about the new security Paradigm here.
+[00:25:41] Was happening is for the last 40 years. I've been focusing on data at rest,
+[00:25:46] Fading is being Cryptid. You can say hey be tokenized to be masked when you move data from A to B, right? You have lineage have quality but now they AI. It's changing now it's data in motion right data in use how do you actually know how it's being used? Who's actually using it? Or is it basically being used for the intent?
+[00:26:05] How do you have that controls and that monitoring in place?
+[00:26:08] So, you know that you are compliant or not.
+[00:26:12] when you think about security,
+[00:26:15] In the new AI era, think of as these questions.
+[00:26:19] Where's my data?
+[00:26:20] Who's using it? How is it being used?
+[00:26:24] Right? If you don't know those questions, you don't know how it's actually being used at all. You're blind to it.
+[00:26:30] All right.
+[00:26:32] So if you think about evolving and transforming your company, here's 4 things, I think about that. How do you get this journey on these 4 steps?
+[00:26:41] First 1 is identifying your data.
+[00:26:44] Whose actually using it and how it's actually being used.
+[00:26:48] Identifying your models, your mCP servers, your agents, getting AI Solutions, where are they? Actually are in nonprofit prod how they actually build how they actually trained.
+[00:27:00] All right. 2 is once you have that visibility, how do you then govern it? How do you apply your regulations, your gdpr your EU, AI Act Your Door requirements, how do you apply those?
+[00:27:13] How do you apply your internal policies? Your Tech policy cyber security policy data policies. How do you apply them? Tell you where in your compliant, not compliant every day. Not once a year on an audit, how do you see it every day and say I'm compliant or non-compliant?
+[00:27:28] You're not complying, you go and actually fix it.
+[00:27:32] How do you then take all that intelligence?
+[00:27:34] And feed it into your DLP, team, cyber security.
+[00:27:38] How do you feed it into your DLP engine to, then enforce an alert and block?
+[00:27:43] How do you get that happen in real time?
+[00:27:46] Does anyone know right now? What is the average time for a cyber security attack using AI?
+[00:27:53] Anyone know.
+[00:27:55] 27 seconds.
+[00:27:59] 27 seconds is the time it takes for an attacker to get in.
+[00:28:03] With AI and get out with your data.
+[00:28:05] How are you ever going to stop that with human in the loop?
+[00:28:10] in terms of you're not going to,
+[00:28:14] That's where you need that. Intelligence in this first 2, buckets to identify govern to feed it into your deal piece. We act on it in real time and block.
+[00:28:24] Right. Now, 1 of every 6 attacks is AI driven.
+[00:28:28] And that 1 attack.
+[00:28:30] Is done in 27 seconds, on average, on average.
+[00:28:34] Somewhere faster.
+[00:28:36] The fourth 1 of a nit is the key piece.
+[00:28:39] Vivre coding. How do we enable your business to do Vive coding? Your employee base, to-do Vive coding to actually build agents, and automate.
+[00:28:48] well, those 3 things around identifying
+[00:28:52] Governing protecting at your AI guardrails in real time.
+[00:28:56] the last piece that enablement is all around the data in the data, out the prompts that are being used
+[00:29:02] Right.
+[00:29:03] And by the way, those are things that we do.
+[00:29:06] At Sierra.
+[00:29:08] These 4 things in the page.
+[00:29:10] Is what we enable for your business.
+[00:29:14] we enable all
+[00:29:15] This for you, in real time.
+[00:29:16] This is how we help you solve your problems. We give you that visibility of your data who's actually using it how it's being used. You get that visibility of your controls, your policies, your requirements. We allow you to feed that into your DLP. We be a purview or a zscaler or a crowd strike or paletot in real time to block.
+[00:29:36] That's how we help all of our clients.
+[00:29:38] So, we can help you.
+[00:29:40] As you go forward in your journey.
+[00:29:43] I mean, you think about the 5 ways that AI break security
+[00:29:48] Here's a 5.
+[00:29:49] Scale.
+[00:29:50] Access right attribution. These are all things that are evolving in your landscape and your your world.
+[00:30:00] as I mentioned earlier,
+[00:30:02] Sierra does those 4 things for you?
+[00:30:04] we did, we identify it for you at scale across your entire company and allow you
+[00:30:10] To manage and govern your entire ecosystem. In your environment every day in real time.
+[00:30:16] You think about what's evolving today?
+[00:30:19] Because what's going to happen?
+[00:30:20] In the next 2 years, you're going to have more agents that you have applications and models combined.
+[00:30:26] Combined.
+[00:30:28] How are you going to manage agents in real time?
+[00:30:31] Without the right real-time controls to do so.
+[00:30:35] As you go forward, as you leave here today here are 5 things. You just
+[00:30:39] Need to have. You can't skip.
+[00:30:41] Right.
+[00:30:43] No your your data.
+[00:30:45] Where it actually is with a quality of your data has actually being used. Who's actually using it.
+[00:30:50] Fragmented governance.
+[00:30:52] Out of all of you. But in my last uh, role I had over 50 policies of my company. How do you a single V those policies? So when you comply or not,
+[00:31:00] Fragmented, governance isn't governance.
+[00:31:02] Just looking at things in silos.
+[00:31:04] Bring it all together. Understand how to actually use it going forward.
+[00:31:09] So that being said, we're done in our time for today.
+[00:31:12] But uh we're here today down at booth at Sierra come meet us. We're here to help all of you going forward.
+[00:31:17] Thank you so much for the time, guys. Appreciate it. Have a good day.

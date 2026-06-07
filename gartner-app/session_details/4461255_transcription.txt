@@ -1,0 +1,136 @@
+[00:00:05] My name is Kevin Quinn, I cover analytics and AI at Gartner. Uh I've been with Gartner for 7 years.
+[00:00:12] before coming to Gartner, I spent over 30 years in the industry working for analytic software vendors and
+[00:00:19] 1 of the things experiences I had.
+[00:00:23] About 20 years ago, was actually working on a a project, which was to build, uh, a Predictive Analytics system for the City of Richmond. Virginia.
+[00:00:34] and and, and the purpose of it was to predict
+[00:00:37] where crime was going to occur to be able to more efficiently deploy the police
+[00:00:44] and at that,
+[00:00:45] Point in time, there's a certain amount of logic that you have, as you know, what should we do? We should start off by getting, you know, 5 or 10 years of crime data and about, you know, the day of the week and all that stuff and figure out, we can predict where crime patterns were occurring,
+[00:01:02] and 1 of the things that I found out at that time, that 10 years of crime data,
+[00:01:07] for predicting crime, patterns is much less predictable about where crime will occur than if you just took 1 year of crime data, and you married it with weather data,
+[00:01:21] Weather has a huge influence on the types of crimes and of course, then where the crimes will occur. Uh, and that's when I learned out learned about,
+[00:01:30] The idea of external data having an influence on on, uh, on different outcomes and I got an interest in it. And you know, ever since then, at at Gartner, I've been following the growth in external data, what people use it for new types of data that's been growing. Um, and
+[00:01:48] Certainly with the uh, the Advent and the growth in AI, there's a lot more interest in bringing in external data to fuel smarter, AI outcomes. And that's what the presentation is all about. Uh, so
+[00:02:02] Being the last presentation on the last day. Maybe I'll talk really fast so that we can finish 5 minutes early. So we'll see how that works out.
+[00:02:10] um, I got this statistic as much as 85% of the data that affect
+[00:02:15] A company's business outcome comes from outside their organization. Um, so that's, that's a, you know, that's, that's I was eye-opening. When I first started was a Harvard Business Review, uh, uh, uh, uh, data point.
+[00:02:28] Uh, so uh, and
+[00:02:32] So external data, by the way, is it could be anything, it could be uh, news feeds, social media, uh, whether crime, retail, you name it. You'll see this lots of examples that I'll give you here and a lot of growing interest is in things that are outside of the typical type of data. So video data is 1 of the fastest growing things that people are collecting from the internet as input into AI.
+[00:03:00] So we're going to just talk about uh, the growth of data and what data types are available.
+[00:03:05] Uh, the impact on of that external data can have and just we're going to do that through some of the some real world case studies and then where you can find it and how you can kind of uh integrate it into your own data pipelines, and many people may already be doing it. It's just that the fact that there's an increase of in types of data that people are always amazed with
+[00:03:26] I remember another story was where I was working with this company and they they told me that if you were doing a site location and you wanted to put a coffee shop right over there,
+[00:03:38] they could tell you how many males from 18 to 25 years old, walked by that.
+[00:03:45] Location at 10:30 yesterday morning.
+[00:03:48] That's the kind of data that's actually available out there people they they track it from certain mobile apps and correlate it into. Who was that likely that walked by their cross? Reference it and then they can start telling you about the demographics of people walking by any particular point in in the world. Practically
+[00:04:05] so anyway,
+[00:04:08] um,
+[00:04:09] a lot of the new data as you can imagine is unstructured Gartner estimates, it between 80 and 90% of the new data. That's on the Internet is unstructured. If you think about the volume of video data, that's out there. Tons and tons of that being kind of produced every day and external data could be structured. Semi-structured unstructured, text audio imagery uh, from news.
+[00:04:30] Social media and lots of other places.
+[00:04:32] Give you some other really interesting stories as we go along because the amount of things and, and types of things that people are doing is amazing. And another interesting point is,
+[00:04:43] Very often the data that may be affecting your outcomes, may have absolutely nothing to do with what you what you would think. Like just think like weather and crime is not something that you always think about as a relationship.
+[00:04:55] So when you obviously use it for AI, you can increase accuracy, you can reduce errors. Another data point that I got was uh, related to from a a company that provided predictive predictive forecasting or demand forecasting. And the story they used to tell was that is if you're a billion dollar company,
+[00:05:15] And you can improve the accuracy of your demand forecasting by 1%.
+[00:05:22] A 1% Improvement in accuracy and demand. Forecasting means 35 million dollars to your bottom line annually.
+[00:05:30] So you can see why people would be interested in whether external data can improve their forecasts.
+[00:05:36] Um obviously enhanced responsiveness. So if you're taking in real time fees, whether it being an example, social media news events, all sorts of things like that, you can get better awareness for AI update models. And in a sense in real time, it can reduce bias. If you're actually only working with your own data, there are certain biases that are that, that form within your own data and by,
+[00:06:00] Taking external contacts, you can kind of bring a new, a new view to the data and also important for composite modeling and that enabling new types of AI techniques by doing that.
+[00:06:11] These are just examples of of some of the types of things that that are out there. So there's a search Trends. So just knowing what people are searching for, um, social media online reviews. These are things that people constantly look for um, satellite imagery. Um, there's a there was a use case that I saw.
+[00:06:30] Which was a few years ago, there was a, uh, an outbreak of sound salmonella that came from a a, uh, a fast food chain.
+[00:06:40] So the stock price of this fast food chain went down by 50%.
+[00:06:45] So hedge funds.
+[00:06:47] Want to bet when that stock is going to return to normal.
+[00:06:52] And if they have to if they wait until that company reports its revenues and revenues going up. That's too late. They need to be able to understand when it's coming back before they report revenues. So what did they do? They bought satellite imagery of the parking. Lots of the food chain to see 1. More cars started to show up to the parking lot, which would be a leading indicator of potential future Revenue growth. So you see that people start to look at the this data and what you could possibly do in very very innovative ways.
+[00:07:22] traffic analysis shipping, uh, containers
+[00:07:26] Uh, Freight, bookings Warehouse, inventories.
+[00:07:30] Obviously credit card transaction, mobile payments.
+[00:07:33] Iot sensor data more and more iot sensors, and cameras, and CCTV, you know, everywhere. Uh, those kinds of things is feeding data and this is all data that somebody has collecting and trying to monetize putting out there on data marketplaces and has potential signals that can work if integrated with your own data.
+[00:07:54] Retail foot traffic, I mentioned already. Um, government the government, most most governments as I think this is a website called uh alternative data.gov. Uh, I think that that's the actual thing. Uh, if you look that up, it's it's huge amounts of government, historical government data of all sorts of type types that they have there, that you can get some of its paid.
+[00:08:15] For some of its free.
+[00:08:17] So, what do you do with this data? I mean, obviously, some of it may be obvious but there's a lot of other ones like benchmarking is a very common thing that's big with universities and Healthcare organizations. I want to know whether my University based on how many students I have and faculty, how it's what's the graduation rate compared to other universities of my type and on my size? Same thing with hospitals. What's the mortality rate for any particular disease, compared to hospitals of my type and my size. So you compare yourself Insight enrichment. Is something that marketing departments have been doing for a long time. So if they have a piece of information on Kevin Quinn, where can I go out and buy more things about Kevin Coyne? Where does he shop?
+[00:09:00] Does he belong to with Jim? How many cars does he have? Somebody actually has that data that they can buy and enrich their own data, just about people places and things.
+[00:09:09] Recommendations, lots of the websites, obviously, Amazon and and Walmart and others can tell you when people buy this, they also buy buy it along with these other items. So product, affinities.
+[00:09:20] Machine learning is sort of what I've been talking about all along here now. So using additional data to make machine learning models that are just a little bit more accurate or maybe a lot more accurate.
+[00:09:32] Llm training has exploded in the last couple of years as well. That's why a lot of multimodal models now. And the people who are producing them are scraping
+[00:09:41] huge amounts of video data off of the internet to train.
+[00:09:45] Uh, to train models on on, on video, inputs and image inputs.
+[00:09:49] And contextual grounding. I don't know if you've seen anything here, while you were, at the show on, uh, uh, context graphs or the idea of context, graphs being used to make agents AI, agents, more accurate, uh, we'll context graphs can have data from your own,
+[00:10:07] Uh, web your own uh data sources within your, or your organization or contextual information that's coming from the outside.
+[00:10:16] This is another area that's special. This is uh, a web data collection. I wrote about a couple of last year, I think it was and uh, it's it's web, scraping. So web scraping is something that companies have been doing for a very long time. You go out there. I mean there's lots of
+[00:10:30] Different things that you do with web. Scraping. So web scraping is basically using websites as a data source but obviously the data is like in not in the format you could use. So you use web scraping tools to grab it and put it into a format that you could use and then you can integrate it in with your own data. So what do you look just to give you an idea? What what a lot of companies will do is if they compete with another organization. They will go out to ZipRecruiter and indeed and see who that who they're hiring. And what roles are they hiring to understand what they may be doing as a competitive, uh, for competitive intelligence. Really, big thing is, is in pricing for retail and e-commerce websites is finding out what other websites are charging for a particular.
+[00:11:15] A product that you also sell. So you go out there and you scrape it the new modern.
+[00:11:20] Uh web scraping tools. Our agents themselves that work with natural language and you can say I need you to go. The interesting thing about web scraping is that very often it's very very particular, the data that you want. You don't just want all of this data from all of the web. I want the web data from these 2 websites on these 2 web pages, and just these prices and these products. So it's custom to what you need.
+[00:11:45] And these agents you can actually use natural line. We just say, I need you to go to this website and this page they give you tools where you can just box out the things that you want and the and you tell it when you want to scrape the data,
+[00:11:58] What format you want it put in.
+[00:12:00] Json CSV, whatever. And how you want it, sent you want it to be sent to a an S3 bucket or you want it to send. Be sent the email or put in a particular location so you can use agents now to scrape data. That can be external, contextual information that you can use
+[00:12:15] Uh, lots of web scraping tools out there that uh and basically there's been people always think of that is that legal to do. I think there's there's been many US law suits and cases about that. Basically, if data is available on the web publicly without a special account needed to get it, then it's public Avail, then it's public data, then it's there's no reason why you can't do it.
+[00:12:38] Uh and all of these tools also have ways of getting around captures and other things in order to be able to get to the data.
+[00:12:45] And I mentioned already, but this is this idea of an Enterprise context graph is something that's NOW essential for making agents work properly. And if you can load your context graph with external data, you can make your agents more accurate.
+[00:13:00] Um, I just put those 2 things up there, as kind of alternative and closely related things to external data.
+[00:13:08] So let's just talk about the impact of external data via real real world examples. I've gave you some already. This is just
+[00:13:16] they always tell us to use images in our slides and I was looking, what can I what can I use as a image. So the this is an image of unusual relationships.
+[00:13:24] Uh, because there are lots, lots of unusual relationships in data.
+[00:13:28] so,
+[00:13:30] Spurious relationships. Well, those charts are on the bottom are of the idea of data. Being correlated when 1 thing goes up, another thing goes up what you ultimately would love to be able to find is when 1 thing goes up,
+[00:13:44] In the not too distant future a week, a month, a day, something else will happen. So when the parking lot starts to fill up the revenue for this particular retailer or fast food chain, will likely go up so you want a leading indicator, so those lines are the same
+[00:14:01] Shape, but they're further apart.
+[00:14:05] Um and sometimes this unusual relationships like this, 1 there on the top there. The number of drownings has a strong positive correlation to the percentage of people eating
+[00:14:15] Being ice cream.
+[00:14:16] Sounds like a spurious relationship, right? Like it not related but actually they are related.
+[00:14:22] When do people eat ice cream?
+[00:14:24] When it gets warm, when it gets warm, what do people do? They swim?
+[00:14:28] So there is a correlation there that makes sense. And there's lots of those kinds of things out there that you have to seek out and find that you may not ever have noticed. Like I mentioned the other 1, the idea of types and locations of crimes that are affected by weather,
+[00:14:43] These are some of the unusual relationships that that companies are using today. To do Predictive Analytics, bird migration data influences, Airline fuel models. So the idea that we're an airport is if there's any kind of particular bird migration
+[00:15:00] That's going on. Planes will take off in a different direction and potentially use more fuel. So they use that bird. Migration stuff to influence their predictive models on how much consumption they're going to have for that particular month or quarter or whatever.
+[00:15:14] Air pollution, influences air, pollution amounts, influence the increase or increase or decrease in streaming Revenue.
+[00:15:23] Um, elevator sensors.
+[00:15:26] uh, you know, the the iot sensors in elevators, giving you an indication of of uh, retail real estate
+[00:15:34] These are not things that you would necessarily have a thought of, but if you can get that data, you can start to make predictions that. Can that your competitors or other people? May not have gotten just to give you
+[00:15:45] An idea of just a couple of them and the other 1, that's sort of related to what I said before. Parking lot, fill rates before 6:00 a.m. predicting retail earnings.
+[00:15:54] so,
+[00:15:56] the hedge funds and investment firms that they, they're way ahead of the game in finding these crazy relationships in data because they're always looking for,
+[00:16:05] Signals that will give them indications of the market.
+[00:16:10] Some of the challenges.
+[00:16:11] You'll face with taking in external data is that it's not always of the highest quality, that'll be some of the things that you do is if you're working with a provider, I have some things later on in the presentation about what are the things that you need to kind of get from a provider in your SLA related to schemas and and and requirements of the data that you get.
+[00:16:30] um,
+[00:16:32] also, you need to have
+[00:16:34] More and more, especially 1 in related to ml and Ai Ai and predictions, and, and decisions that may be automated. You need to basically be able to track how that was made. So you need to know the origin or the Providence of data. So that's something that's required when you're actually using the external data. You need to be able to know and track where that data came from.
+[00:16:56] And of course there's ethical and regulatory requirements raised with privacy and other things. When you're getting getting data from the outside, you have to make sure that the provider you're getting it from, is doing things in a, in an ethical way. Because you could that could reflect on you, if you're using data that they got in a not. So,
+[00:17:13] Good way, and you're using it to make.
+[00:17:15] Predictions in your data. That may actually result in a decision made from data. That was not gotten in or received in the right way.
+[00:17:23] These are just some more examples. Um, just focus on that on the, uh, well, the first 1 is about cyber security. A lot of cyber security is reactive. They're looking for things penetration into a website, but a lot of the new company, they're looking at external data called operational. Osent is, you know, uh, uh, open source, intelligence things that are happening on the internet, social media things, that could be leading indicators of potential potential attacks and stopping something before a threat occurs. That's that's even more important.
+[00:18:00] Gordon on economic forecasting, another really unusual thing that companies do that do economic forecasting, is they use satellite nighttime satellite imagery in particular in third world countries or countries where you don't really have a lot of data coming from and they're looking for lights.
+[00:18:19] at the night at nighttime that indicate construction sites and the more of these lights they see the more economic
+[00:18:27] Positive economic indicators. There are so again things that you wouldn't necessarily think of, uh, and Healthcare Diagnostics. They use weather pollution. Demographic data to improve disease, outbreak predictions, and their accuracy is improved by 20%. The previous 1, I mentioned with the satellite,
+[00:18:45] Light, um, 2015 to 25%, Improvement in economic data predictions, when they're using this external data. So you can see those kinds of impacts can have just profound effects on on your AI.
+[00:19:01] So external data and where to find it.
+[00:19:07] Uh, so I showed you before the types of data. Uh, the this is a partial list that I put together basically of of companies that are selling data, many of them, 1 of the first places you could go to is you can go to things like Azure data share or AWS data Exchange
+[00:19:26] Data bricks has a huge Marketplace snowflake has a huge.
+[00:19:30] Huge Marketplace. So, a lot of the big database vendors already have, uh, listings of data that they have available, um, and the data could be real-time streams or it could be historical data. So for the historical data for training real-time streams for, you know, real-time inferencing, you will,
+[00:19:46] Um, but these are all, there's a whole series of companies that are doing satellite imagery. A lot of that stuff can actually be custom so you can kind of contract with them to get specific data. If you need, like, I talked about these are all whether companies that provide access to weather data, uh, these are web scraping companies, bright data and oxy labs are 2 of the biggest ones, and most of the web scraping companies uh also sell just pre pre pre-scripted data so they'll go out to
+[00:20:15] Job sites. Indeed, zip recruiter they'll go into LinkedIn and other places and they'll create data sets on a daily basis and at a lower cost you can just buy access to those data sets. If it's something that's what you need or you can contract with them for them to set up a scraping routine to get specific data that you need.
+[00:20:34] Um,
+[00:20:35] obviously social media data is a big thing for brand sentiment use, uh, a consumer sentiment, uh, mobile data app, uh, usage of mobile data. That's not about people moving, but it's about the usage of apps and what people are doing on apps, which can be very uh have some great signals in it uh environment data there.
+[00:20:55] um,
+[00:20:56] Credit card, transactions.
+[00:20:58] Uh, Financial Market.
+[00:21:00] Market.
+[00:21:01] Uh, whereas the other 1 that it was on there. Well, these are all data marketplaces, I mentioned data bricks Google Oracle, all of the companies actually already have marketplaces and it's a good place to go to just find a starting point. Usually, they're, they're set up in a way that you can kind of filter it out by the specific thing that you're looking for industry type of beta Healthcare data. Um, and start to look at what the contracts are, whether you're going to get historical data, data streams daily data, uh, or what have you, um,
+[00:21:32] yeah. Okay.
+[00:21:36] So, how do you typically do that? These are just the common ways that people or, or integrating external data into their, uh, their pipelines. So AP.
+[00:21:45] Eyes is of, of course a logical thing. So you can uh this is usually when you're doing API, you're getting like structured data, Financial feeds weather data, social media and it could be pulled. So you schedule a job to get the data on a make an API call once a day or whatever it may be, or it could be push where you actually have them alert to you. If this data changes,
+[00:22:09] Batch file ingestion is very common way too where you can actually, you know, work with 1 of these companies that do the data provide and have them put something on a on an S3 bucket or something on azour or do say a secure file transfer and send it to you to you behind the firewall.
+[00:22:26] Uh, streaming data integration, of course, as well. You could
+[00:22:30] You have, uh, uh, you can for high frequency, things like iot data that you want to keep track of. Uh, and then, of course, you can just use data marketplaces and exchanges. And right then, and there on the website, you can do that most of the web. The companies that do this, too, they provide, uh, uh, code Snippets, so, that your data Engineers can very easily use that ghost, code Snippets as ways to just automatically integrate that data,
+[00:22:58] So some of the other things that are that are these this is what if you're going to do a contract with an external company, you can you know you want to have a schema contract to enforce that the data is consistent so they're sending you the same thing all the time you want to do quality checks for nulls outliers.
+[00:23:15] is drift, uh, Version Control, if they're doing anything with schemas, and they're making changes that there's Version Control that you have an SLA agreement, that ensures, you know, freshness uptime of the data and the website fallbacks in case the data didn't come through for a particular day, what does it fall back to and then lineage tracking that's going to certainly be important for uh, keeping track of of the data if it's needed for
+[00:23:42] Uh, for sourcing for predictions. Where did that? Why was that decision made? What model did you use? What data set did you use?
+[00:23:53] I did speak fast right, final recommendations.
+[00:23:58] I always say, start with business outcomes.
+[00:24:00] What are the things that you're trying to influence? And where do you think that that data might come from? If you take a look, there's lots of stories that you can take a look at on the internet on how people are improving. Demand forecasting. What data are they getting? That would improve those demand forecast.
+[00:24:14] Um prioritize High signal enrichment over breadth. So find out what are the individual pieces of data that you need? That have the biggest impact. Like I mentioned weather and crime. That's a good example. What are the specific things that you need to know uh, address ethics and privacy the part of that? Could be your own policy. Internal part of that is just regulatory within your your your uh, your region.
+[00:24:39] um,
+[00:24:41] if you leverage curated marketplaces like the data bricks and is
+[00:24:45] Usually that's stuff is already vetted and everything. You've got to get approved to get on those websites. So usually those are vetted sources already, that's a good place to start to get data that, you know that you can trust.
+[00:24:56] Uh, and plan for continuous adoption. This stuff is going constantly changing. Uh, so that there's, there's new signals that you can find all the time. Uh, and you can, you know, obviously, you can get new data all the time that can actually, I think that we're getting to a point where companies are going to start going to start competing on the accuracy of the output of the AI that they have. And that's 1 of the most important things, uh, that that we're seeing is that you need to be able to, um, have better AI in order to be able to compete in, in, in, in, in this, uh, modern era. So,
+[00:25:30] That's all I have. If you have any questions on any of the things I said,
+[00:25:33] Glad to talk to you. Uh I have to but have a nice day and a nice, safe trip home. I appreciate it.

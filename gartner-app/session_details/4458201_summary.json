@@ -1,0 +1,95 @@
+{
+  "summary": "The session debates the relationship between data governance and AI governance, exploring whether they should be treated as separate entities or as part of an evolving framework. The discussion highlights the challenges organizations face in implementing effective governance for AI, particularly concerning unstructured data and compliance. Ultimately, the speakers aim to find common ground on how these governance models can coexist and support organizational objectives.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to the Debate",
+      "key_points": [
+        "The session focuses on data governance versus AI governance.",
+        "The aim is to explore the relationship and potential integration of both governance models."
+      ],
+      "start_time": "00:00:03",
+      "end_time": "00:05:15"
+    },
+    {
+      "order": 2,
+      "topic": "Arguments for Data Governance Evolution",
+      "key_points": [
+        "Data governance must evolve to effectively govern AI.",
+        "Unstructured data governance is critical for AI use cases."
+      ],
+      "start_time": "00:05:15",
+      "end_time": "00:10:02"
+    },
+    {
+      "order": 3,
+      "topic": "Challenges in AI Governance",
+      "key_points": [
+        "AI governance requires new stakeholders and frameworks.",
+        "Existing data governance practices may not suffice for AI's context-dependent nature."
+      ],
+      "start_time": "00:10:02",
+      "end_time": "00:15:25"
+    },
+    {
+      "order": 4,
+      "topic": "Collaboration Between Governance Models",
+      "key_points": [
+        "AI governance should integrate with data governance for effective outcomes.",
+        "Collaboration with compliance and risk management is essential."
+      ],
+      "start_time": "00:15:25",
+      "end_time": "00:20:05"
+    },
+    {
+      "order": 5,
+      "topic": "Conclusion and Key Takeaways",
+      "key_points": [
+        "Both governance models are critical and should evolve together.",
+        "Organizations must adapt their governance strategies to include AI considerations."
+      ],
+      "start_time": "00:20:05",
+      "end_time": "00:26:38"
+    }
+  ],
+  "key_takeaways": [
+    "Data governance must evolve to address the complexities of AI governance.",
+    "Unstructured data governance is essential for successful AI implementations.",
+    "Collaboration between data and AI governance is necessary to mitigate risks.",
+    "Organizations should involve compliance and risk management in governance discussions.",
+    "A hybrid approach to governance may be the most effective way forward."
+  ],
+  "entities": [
+    {
+      "data governance": 12
+    },
+    {
+      "ai governance": 10
+    },
+    {
+      "unstructured data": 5
+    },
+    {
+      "compliance": 6
+    },
+    {
+      "risk management": 5
+    },
+    {
+      "stakeholders": 4
+    },
+    {
+      "data foundation": 3
+    },
+    {
+      "decision-making frameworks": 3
+    },
+    {
+      "business outcomes": 3
+    },
+    {
+      "organizational risk": 3
+    }
+  ],
+  "subject_area_id": "governance"
+}

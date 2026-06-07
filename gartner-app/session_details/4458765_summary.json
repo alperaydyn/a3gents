@@ -1,0 +1,130 @@
+{
+  "summary": "The session discusses the top trends in data and analytics for 2026, emphasizing the shift towards becoming an AI-first enterprise. Key trends include agentic data management, agentic data streaming, and decision governance, which are essential for organizations to leverage AI effectively. The session outlines actionable strategies for data and analytics leaders to prepare for these trends by 2030.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to AI First Enterprise",
+      "key_points": [
+        "AI first is a strategic approach to maximize AI adoption benefits.",
+        "By 2030, 1 in 10 organizations are expected to become AI first."
+      ],
+      "start_time": "00:00:14",
+      "end_time": "00:05:01"
+    },
+    {
+      "order": 2,
+      "topic": "Agentic Data Management",
+      "key_points": [
+        "Agentic data management involves using LLM-based agents to automate data tasks.",
+        "It aims to streamline data operations and reduce human effort."
+      ],
+      "start_time": "00:05:01",
+      "end_time": "00:10:28"
+    },
+    {
+      "order": 3,
+      "topic": "Agentic Data Streaming",
+      "key_points": [
+        "Real-time data is crucial for AI agents to function effectively.",
+        "Timely delivery of context updates enhances decision-making."
+      ],
+      "start_time": "00:10:28",
+      "end_time": "00:15:59"
+    },
+    {
+      "order": 4,
+      "topic": "Decision Governance",
+      "key_points": [
+        "Decision governance involves managing decisions as assets.",
+        "Accountability and traceability are critical for AI-based decisions."
+      ],
+      "start_time": "00:15:59",
+      "end_time": "00:20:42"
+    },
+    {
+      "order": 5,
+      "topic": "Composite Semantic Layers",
+      "key_points": [
+        "A composite semantic layer addresses the fragmentation of semantic definitions.",
+        "It promotes openness and interoperability across data architectures."
+      ],
+      "start_time": "00:20:42",
+      "end_time": "00:23:51"
+    },
+    {
+      "order": 6,
+      "topic": "Graph RAG",
+      "key_points": [
+        "Graph RAG enhances the accuracy of AI responses through knowledge graphs.",
+        "It provides transparency and traceability in decision-making."
+      ],
+      "start_time": "00:23:51",
+      "end_time": "00:26:31"
+    },
+    {
+      "order": 7,
+      "topic": "Data Management Platforms",
+      "key_points": [
+        "Unified data management platforms reduce fragmentation in technology solutions.",
+        "They enable better integration of internal data with AI capabilities."
+      ],
+      "start_time": "00:26:31",
+      "end_time": "00:28:27"
+    },
+    {
+      "order": 8,
+      "topic": "AI Governance Platforms",
+      "key_points": [
+        "Centralized oversight of AI governance is essential for compliance.",
+        "Monitoring and reporting on AI systems are critical for risk management."
+      ],
+      "start_time": "00:28:27",
+      "end_time": "00:30:14"
+    },
+    {
+      "order": 9,
+      "topic": "Sovereign AI",
+      "key_points": [
+        "Sovereign AI focuses on localized control of AI investments.",
+        "Understanding legal requirements is crucial for AI implementation."
+      ],
+      "start_time": "00:30:14",
+      "end_time": "00:32:15"
+    }
+  ],
+  "key_takeaways": [
+    "Organizations should prioritize becoming AI first to gain a competitive edge.",
+    "Integrating agentic capabilities into existing workflows can enhance operational efficiency.",
+    "Establishing governance frameworks is essential for managing AI-driven decisions."
+  ],
+  "entities": [
+    {
+      "ai first": 5
+    },
+    {
+      "agentic data management": 4
+    },
+    {
+      "agentic data streaming": 4
+    },
+    {
+      "decision governance": 4
+    },
+    {
+      "composite semantic layer": 3
+    },
+    {
+      "graph rag": 3
+    },
+    {
+      "data management platforms": 3
+    },
+    {
+      "ai governance platforms": 3
+    },
+    {
+      "sovereign ai": 3
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

@@ -1,0 +1,80 @@
+{
+  "summary": "The session discusses the importance of closing the data integrity gap to effectively deploy AI and agentic AI within organizations. It highlights the challenges businesses face in ensuring their data is AI-ready and the need for robust governance frameworks. The speakers emphasize the significance of metadata, context, and the semantic layer in achieving successful AI implementations.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Data Integrity and AI Readiness",
+      "key_points": [
+        "Organizations struggle to connect AI performance to business outcomes.",
+        "60% of AI projects are expected to fail due to unprepared data."
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:07:21"
+    },
+    {
+      "order": 2,
+      "topic": "Challenges in Data Management",
+      "key_points": [
+        "Data often trapped in legacy systems lacks metadata and context.",
+        "A framework is needed to ensure data is fit for autonomous processes."
+      ],
+      "start_time": "00:07:21",
+      "end_time": "00:14:04"
+    },
+    {
+      "order": 3,
+      "topic": "Implementing Agentic AI",
+      "key_points": [
+        "Agents need to operate at scale and understand governance policies.",
+        "A semantic layer is crucial for agents to interpret data correctly."
+      ],
+      "start_time": "00:14:04",
+      "end_time": "00:20:02"
+    },
+    {
+      "order": 4,
+      "topic": "Key Takeaways and Conclusion",
+      "key_points": [
+        "Establish a clear semantic layer for data governance.",
+        "Integrate quality and governance into the workflow of agents."
+      ],
+      "start_time": "00:20:02",
+      "end_time": "00:30:00"
+    }
+  ],
+  "key_takeaways": [
+    "Ensure your data is AI-ready by addressing gaps in data quality and governance.",
+    "Develop a semantic layer that is understandable for both humans and agents.",
+    "Integrate governance and quality checks into the workflows of autonomous agents."
+  ],
+  "entities": [
+    {
+      "data integrity": 5
+    },
+    {
+      "ai ready data": 4
+    },
+    {
+      "semantic layer": 6
+    },
+    {
+      "governance": 8
+    },
+    {
+      "agentic ai": 5
+    },
+    {
+      "metadata": 4
+    },
+    {
+      "context": 3
+    },
+    {
+      "data quality": 5
+    },
+    {
+      "autonomous agents": 3
+    }
+  ],
+  "subject_area_id": "data_management"
+}

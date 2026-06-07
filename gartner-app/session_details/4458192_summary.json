@@ -1,0 +1,73 @@
+{
+  "summary": "Sally Parker discusses the increasing importance of data governance and the common challenges organizations face in implementing effective governance practices. She emphasizes the need for a clear understanding of business outcomes and the alignment of governance initiatives with corporate strategy. The session aims to provide practical insights for improving data governance amidst the evolving landscape influenced by AI.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Data Governance",
+      "key_points": [
+        "Data governance is increasingly recognized as essential.",
+        "Many organizations struggle with the maturity of their governance practices."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:01:41"
+    },
+    {
+      "order": 2,
+      "topic": "Challenges in Data Governance",
+      "key_points": [
+        "Common challenges include lack of understanding and engagement from stakeholders.",
+        "Organizations often focus on pain points rather than strategic alignment."
+      ],
+      "start_time": "00:01:41",
+      "end_time": "00:05:16"
+    },
+    {
+      "order": 3,
+      "topic": "Importance of Business Outcomes",
+      "key_points": [
+        "Data governance should be linked to specific business outcomes.",
+        "Understanding the corporate strategy is crucial for effective governance."
+      ],
+      "start_time": "00:05:16",
+      "end_time": "00:10:47"
+    }
+  ],
+  "key_takeaways": [
+    "Data governance is critical for organizations, especially with the rise of AI.",
+    "Aligning governance initiatives with business outcomes enhances their effectiveness.",
+    "Organizations must overcome common challenges to improve their data governance practices."
+  ],
+  "entities": [
+    {
+      "data governance": 6
+    },
+    {
+      "ai": 3
+    },
+    {
+      "data analytics": 2
+    },
+    {
+      "master data management": 2
+    },
+    {
+      "corporate strategy": 3
+    },
+    {
+      "business outcomes": 3
+    },
+    {
+      "data quality": 1
+    },
+    {
+      "data-driven culture": 1
+    },
+    {
+      "data catalog": 1
+    },
+    {
+      "data issues": 2
+    }
+  ],
+  "subject_area_id": "governance"
+}

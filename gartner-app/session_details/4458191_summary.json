@@ -1,0 +1,78 @@
+{
+  "summary": "The session discusses the Intelligence Capabilities Framework (ICF), emphasizing the importance of context in data and analytics. It outlines how organizations can leverage this framework to adapt to rapid changes in technology and societal expectations. The speaker encourages leaders to assess their current capabilities and identify gaps to drive actionable insights and value creation.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to the Intelligence Capabilities Framework",
+      "key_points": [
+        "Context is crucial for delivering actionable insights.",
+        "Organizations face rapid changes in technology and societal expectations."
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:07:34"
+    },
+    {
+      "order": 2,
+      "topic": "Understanding the Framework",
+      "key_points": [
+        "The ICF consists of five horizontal layers and two vertical layers.",
+        "It focuses on technical capabilities rather than people or processes."
+      ],
+      "start_time": "00:07:34",
+      "end_time": "00:13:17"
+    },
+    {
+      "order": 3,
+      "topic": "Detailed Layers of the Framework",
+      "key_points": [
+        "The information layer is foundational for data integration.",
+        "The context layer provides business-friendly abstraction."
+      ],
+      "start_time": "00:13:17",
+      "end_time": "00:20:15"
+    },
+    {
+      "order": 4,
+      "topic": "Leveraging the Framework",
+      "key_points": [
+        "Organizations can overlay their AI ambitions onto the framework.",
+        "Different perspectives can help identify capabilities and gaps."
+      ],
+      "start_time": "00:20:15",
+      "end_time": "00:28:00"
+    },
+    {
+      "order": 5,
+      "topic": "Actionable Steps for Leaders",
+      "key_points": [
+        "Assess your current position relative to the framework.",
+        "Identify critical gaps to prioritize actions."
+      ],
+      "start_time": "00:28:00",
+      "end_time": "00:32:15"
+    }
+  ],
+  "key_takeaways": [
+    "Context is essential for driving actionable insights in data and analytics.",
+    "The Intelligence Capabilities Framework provides a structured approach to assess and improve organizational capabilities.",
+    "Leaders should actively identify gaps and align their strategies with business objectives to justify investments."
+  ],
+  "entities": [
+    {
+      "intelligence capabilities framework": 5
+    },
+    {
+      "agentic analytics": 3
+    },
+    {
+      "data fabric": 2
+    },
+    {
+      "data products": 2
+    },
+    {
+      "mission critical priorities": 2
+    }
+  ],
+  "subject_area_id": "data_management"
+}

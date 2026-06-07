@@ -1,0 +1,146 @@
+[00:00:05] This session is about the AI strategy.
+[00:00:09] And how to go about it and things are changing all the time.
+[00:00:14] Actually, it's 1 of the frequently asked questions we are getting from organizations is
+[00:00:20] you know, if if AI is changing
+[00:00:23] like every month or even on a daily basis, sometimes people feel
+[00:00:29] How can you make an AI strategy? Then I mean who's to say how AI will be in 1 or 2 years from now, right?
+[00:00:37] Maybe people in 2027 or 8 will say oh that agentic are is so 2026, right?
+[00:00:45] So, probably something new will be then there something new something even better. So how do you create a strategy? If things keep changing and do, should we still try to create a strategy? And then to that question?
+[00:01:00] Should we still try to create an AI strategy? The answer is yes.
+[00:01:05] We need an AR strategy despite the Dynamics of this field. We need to make sure that we know where we're going. There is no doubt that setting goals and setting priorities is you know, a condition to be successful. In AI value creation. Just trying to boil the ocean doing anything without any guidance, any direction.
+[00:01:30] Won't get you very far. So yes, we need a strategy but we need a strategy that is like a Rover.
+[00:01:36] You know, a Rover is a vehicle designed to explore Uncharted Territory like the moon or Mars, who knows? And it is designed to be strong to deal with harsh conditions.
+[00:01:50] And it still also flexible so you can go around obstacles and still steer towards your your goal, your objective.
+[00:02:00] So in other words, we need an AR strategy that is both resilient and agile both strong and flexible.
+[00:02:09] But how do you do that? How do you create an AR strategy?
+[00:02:14] That is what we
+[00:02:15] Aim to answer in this session, so we will explore.
+[00:02:18] First of all, where do we stand today? When it comes to AI? What is our Baseline? When we are creating an AR strategy?
+[00:02:27] Based on where we are today then secondly we're going to explore a bit further. Why? That is not so easy.
+[00:02:35] and then, thirdly,
+[00:02:37] Fortunately, we also will give some answers. We will look at a framework and also, you know, consider some examples of how organizations real organizations out there are using AI how they have formulated the AI strategy using this framework.
+[00:02:55] And then finally, we going to explore the question.
+[00:03:00] you know, that if we already know some things about the future of you already know certain Trends, emerging
+[00:03:07] How does that impact our strategy? How can, how can we future proof, our AI strategy knowing already what's coming towards us?
+[00:03:16] So that's what we're going to explore here.
+[00:03:18] First, where do we stand with AI today? Well, when it comes to adoption the dark blue, the actual adoption. You can see that Jenner has overtaken. Well it should say traditional AI here, right? So clearly a lot of no surprise I guess, right? Given the high given that almost every organization is investing in both genr and traditional AI.
+[00:03:45] We see that the anticipated funding on the right hand side remains strong, despite growing concerns about the actual value created by AI.
+[00:03:56] But it's still going strong.
+[00:03:58] Agentic AI on the third line is well emerging, right. Today, only 17% of organizations have agents actually in production.
+[00:04:11] Less than 1 in 5. So at the very least we can observe that there is a significant gap between the P picture painted by some vendors and the reality, the Practical reality in organizations. It's not so easy to implement agents, which is a discussion that will
+[00:04:30] Be further explored in other presentations, by the way, during this conference, but here we should just observe that, you know, uh, that investment is strong. And yes, there is still a need for for a strategy to turn all those investments into real value.
+[00:04:47] This is also Apparent from another uh, survey that we did about the maturity of organizations right now globally across Industries.
+[00:05:00] There we see that only 7%, which happens to be the same percentage on than on the on the previous, there's no correlation, right? It's not like if you apply agents, then you are high maturity necessary. It's just a coincidence. It's the same percentage, but the point
+[00:05:15] Is that only 17% is that high maturity?
+[00:05:19] The majority of companies, that Medium maturity 30% low low maturity means that you are doing piloting. Some experimentation, maybe you have 1 or 2, AI Solutions in production medium means roughly that you have multiple AI Solutions in production and they're starting to generate value. High maturity means that you managed to scale up AI, it's used across the organization, it's becoming Mission critical to the entire company. That's roughly the characterization as you can see. Uh, if you are at medium maturity, you're in good company.
+[00:05:55] Right. So uh,
+[00:05:58] it also means that, you know, it's not,
+[00:06:00] Just AI that is changing. This is the hype cycle. As I'm sure, you know, this is, you know, we left out some of the because the real hype cycle is, is very densely populated mostly on the left hand side. So it's not just organizations that are evolving when it comes to AI adoption. It's also the technology itself of course, as you know, that is still evolving rapidly. AI is just getting started. You may say who's to say, what AI will bring 5 years from now?
+[00:06:31] What will be the possibilities then? So,
+[00:06:34] Despite the fact that we have, you know, a lot of expectation. There's at the same time, not a guarantee that the development of AI will follow a linear path.
+[00:06:45] You know, many people think that, you know, the progress will continue, but I have to say that already. We see early warning signals that the progress is flattening down, believe it or not.
+[00:06:57] Maybe with the exception for AI for coding there. We see a lot of advances lately, but in general AI needs new Innovations to to continue further, but the good news is that also in R&D and Innovation, there is so much investment in things like, you know, embodied, AI multi-, agent systems, and other, uh, promising new innovations that. Yeah, it's likely that AI, very likely that AI will continue to evolve or continue to improve.
+[00:07:30] But generative AI as you see there in the middle is already heading down towards the trough of disillusionment, right? So we are already see that people become a little bit. Disappointed about Genai.
+[00:07:42] Or even more than a little bit.
+[00:07:45] But agentic AI, of course, is still very much at the peak of inflated expectations.
+[00:07:50] So, our strategy needs to take into account, that AI will continue to evolve rapidly and that also we need to take into account that in order for geni to reach a plateau of productivity, we need to invest not just in geni itself, but also in the practices we need to apply it successfully. Those are some of the findings, you can derive from that, from that hype.
+[00:08:15] Cycle.
+[00:08:16] Now, um, in other words, if we think about our AI strategy, we shouldn't only think about the fact that AI as a technology is evolving. We should also consider the fact that our own capabilities are own willingness, uh, our own, uh, urgency to invest in AI is changing as well. So we are not talking about, of course, not about the technology, that is very static. This is a very Dynamic field. I mean, we need to calibrate recalibrate our strategy accordingly, very frequently. Now, um, that is difficult. We need to build a Rover, but we also need to recognize that as we mature as
+[00:09:00] Our own organizations go from low maturity to high maturity. That also the things that we need to prioritize are changing as well. So low maturity, we find, you know, uh, uh, challenges like finding the right use cases finding the right Talent. Uh, you know, uh, changing a culture of addressing a culture where people still need to, you know, willing to be motivated to embrace AI. There are many people actually afraid of AI. In a recent survey, I saw that no less than 60% of employees are actually afraid of AI, they may fear, they lose their job because of it. Although the fact, although it's hardly happening in practice, right? Most AI.
+[00:09:46] Is merely supporting empowering people, it's hardly ever, despite all the media attention.
+[00:09:51] We found in a in a sir in a in a in you know in the analysis of us layoffs, that only 1% only 1% of Laos could be attributed directly to AI. The rest was using our as a scapegoat, but the cut a long story short, we should not underestimate that many employees. Also here in Europe are afraid of AI and are not very willing to embrace it. So that's 1 of the typical challenges that you need to address through communication through literacy to change that, that, that attitude, that, that those those fears about AI. But that's
+[00:10:30] Changing when you're going to a high maturity, then you have other challenges. So your strategy also needs to change accordingly. So for instance this is more about dealing with security because AI becomes more business critical right? You want to have ai that is secure and is not disrupted, and must be, you know, uh uh must be continuous in operation to because it has become so important for our, for our business processes. So and then, in the middle, we still have other challenges. Right? So our strategy and other words, never mind all the details here.
+[00:11:03] Our strategy also needs to evolve as we mature, so does our strategy, so must our strategy evolved as well.
+[00:11:14] That's why.
+[00:11:15] Heart. That's why a strategy should never be a static thing. You know, strategy shouldn't be a 1-off exercise that you do like now and then you're done for the next 5 years, right? A strategy is more to be seen especially in AI strategy as a process where you constantly are monitoring whether the strategy itself still makes sense. Or uh that recalibration is nessus necessary.
+[00:11:42] Now.
+[00:11:45] I think that's clear by now write, our strategy must be resilient and agile at the same time. So how can we achieve that?
+[00:11:53] well, we took the metaphor of the Rover, quite literally and thought about the the blueprint
+[00:12:00] Brand of the real Rover. That is cruising around on Mars.
+[00:12:04] And its design. It's actually much more clever than you may think at first sight,
+[00:12:11] 1 of the Essential Elements of its design is that its Wheels can move independently a very different from your regular car.
+[00:12:21] Right, so it means it had multiple components that can you know, are not overly dependent from each other, but still there is a central body. If you like a central brain that coordinates all those moving parts
+[00:12:36] That is the essence of why the real Rover is so resilient and agile at the same time.
+[00:12:44] so, we took
+[00:12:45] That metaphor a step further and said, well what if we apply that directly to the way we create our own AI strategy?
+[00:12:55] Recognizing that, of course, in the middle we still need to have our strategy that is, you know, pulling the strings that is sort of planning things and making sure that if there are dependencies between the different things we need to take care of that, those dependencies are addressed and that you, you know, you change your planning and priorities accordingly.
+[00:13:17] But the other part we try to, you know, component to create a more independent Wheels to take that metaphor quite literally buy, for instance, identifying a wheel for
+[00:13:30] Governance and value. Those are the rules that sent you in a certain direction, right? Your value view, as we call it, here is where you determine your priorities. Where do you want to apply AI to in which business areas? What are the main use cases in that area? How do you measure that value? Which that sets the course for where you want to go with AI, right? But then governance is also there to make sure that you're not going into areas that are too risky.
+[00:13:58] Or incomplete, right? So governance and value go together. But then, in the middle layer, there is what we call the people layer, right? This is where we have our organization, the structure, the teams that we need. And the also, the rules, the the change management.
+[00:14:15] The literacy and all the things that relate to the people, we need to make AI successful.
+[00:14:21] And then the first row of Wheels is about the technology if you like this is about data about the infrastructure, the Frameworks, the, you know, the platforms that we need to apply AI. So this together is a, a comprehensive, um, you know, uh, overview of all the different building blocks that we need to address in our strategy.
+[00:14:46] So we can take that as a as a framework to say, well, what if we apply that to existing AI strategies, which we did. Right. So we took a look at, you know, tens hundreds of different
+[00:15:00] Of our strategies from organizations that they were selling willing to share with us.
+[00:15:05] And we found out that there were roughly 4 different types of AI strategies.
+[00:15:10] The first type.
+[00:15:11] Is what we call the armored car. This is where the for companies or organizations where you know, you want to be on the safe side. You want to apply AI but you want to do it in a very safe manner.
+[00:15:25] Right? So an example of organizations, in this category is a Ministry of interior Affairs. They were from a European country, a company in the name, but they were willing to share their AI strategy and that AI strategy, we projected on the wheels on the Rover framework, if you like and there.
+[00:15:45] Where we found amongst others? That of course, they emphasize a lot of uh they emphasize a lot, their governance, right? They want to be very strict in where they apply Ai, and where they, where they do not apply our to make sure that they are compliant. And that there are not violating the rights of their citizens, uh, to protect privacy to be compliant with the EU AI act. All of that is very prominent in their strategy.
+[00:16:13] And terms of value.
+[00:16:15] their ambition is not like, oh we want to use AI as a sort of
+[00:16:19] Um, Catalyst for change or transformation. That's not relevant for them. They are a public sector organization. They're, they're, they don't have, you know, they're just due
+[00:16:30] What the politicians tell them to do basically, right? So they don't have room for all kinds of new stuff that's not within their mandate. They just have to focus on using AI to improve their existing processes, which is fine. There's no right or wrong here. It's just a way of using AI. So that's 1 flavor, the armored car.
+[00:16:51] Another 1 is more shorter more opportunistic. This is uh a strategy that would project it on the framework coming from an e-commerce organization.
+[00:17:02] Like an Amazon, but then another 1.
+[00:17:05] And they are using AI like, you know, like just drive, they said strategy we call that, right? So it's basically about never mind.
+[00:17:15] Safety too much. Well, of course, you still need to have some minimal security, but we are mainly focused on using AI as fast as possible to create value. Not very deep, uh, Grand transformative initiatives but just really, uh, practical pragmatic use cases, where they use AI to create, you know, to turn, uh, their to, to create more revenues and to, you know, to, to beat their competitors.
+[00:17:43] Why? Because they this, these companies that are that have this type of strategy, they are in a very competitive field, right? So they want they want AI just to, to, to, to create value as as as quick as possible, right? So, in their strategy, the
+[00:18:00] Emphasize the immediate relevancy of AI use cases. They emphasize that they want to have, you know, they want to motivate their people by, for instance, organizing internal hackathons or ideation workshops and quick, uh, uh, implementation feel fast as they say. So they are building a lot of AI, use cases, some of them fail. That's fine. We just keep the ones that work and generate value as soon as possible.
+[00:18:30] That's the uh, just drive. They said strategy.
+[00:18:35] then there is a category of companies that really want to use AI as
+[00:18:41] a catalyst for change. They really see.
+[00:18:45] It. As a, you know, a game changer.
+[00:18:48] Uh, 1 example is a pharmaceutical company that are actively using AI not just to improve the efficiency of their back office. That's also what they do. But their main focus lies on, you know, using AI to accelerate their R&D. Now to use AI to create new molecules more quickly and and also, you know, to to open doors to new drugs that the world has never seen before, which will hold great potential for us. All right. This, this, this use of AI will will change our lifespan and Health Care. Uh, so it goes Way Beyond the immediate
+[00:19:30] Profits of a pharmaceutical company but their strategy therefore is more future oriented.
+[00:19:36] They prioritize their Investments to, you know, to to to to to for use cases, where where AI is really um used as for for Innovation for transformation, they also use for example, a a multi-agent system to optimize their Logistics, right? Which is quite Advanced but so they spend a lot of money in their, in their most, in their more transformative use cases. But they also need to at the same time, remain in control, right? They are a regulated industry so it's not like they can just let go of all the risk management and all the policies that need to come
+[00:20:15] Live. That too is emphasized in their strategy.
+[00:20:18] So it's balancing Innovation with governance and regulation.
+[00:20:23] And then finally, there is the rest.
+[00:20:26] And there's nothing wrong with the rest, this is the most common AI strategy, you know, your middle of the road strategy. If you like where we just want to use AI to you know to boost our productivity where we can to uh to maybe do a little bit of experimentation to use AI to to do some Innovation here and then but nothing too much right? It's just a proper middle of the road. AI strategy where we balance short-term with longer term value generation. Where of course, we want to be compliant with regulation but
+[00:21:00] Not overly concerned with risks. Uh but yeah we are open to to to AI Investments. That maybe not today but then tomorrow we'll generate value. Uh, and yeah, most of the time there is, you know, an emphasis on uh, having proper Roi calculations. Uh, but this is the most common uh strategy we see today.
+[00:21:25] So it means that all these strategies can link to this Rover framework. It gives you a strategy structure to address all the important aspects that should be in any AI strategy.
+[00:21:40] Moreover, we also see increasingly that companies want to create a 1 p.
+[00:21:45] Summary of their strategy and the same framework can be used to do just that, right? So this is um a template that we're offering to our clients and uh is used to just create a summary, of course you can still
+[00:22:01] Create a more elaborate document to go into all the details. But you would be surprised how much of the essence of your strategy, you can capture in just 1 page.
+[00:22:11] So of course, at the top, there is the vision basically.
+[00:22:15] 1 2, sentences describing how urgent, how important your a AI is to your organization, right? You want to be a follower or you want to be ahead of the troops. Uh, you want to use
+[00:22:30] To empower people or you want to use it to cost. Reductions mainly mainly if you know that you can capture that in your vision,
+[00:22:38] But then the other wheels or the wheels that we talked about all these chapters, if you like can be summarized by just a few sentences. So I recommend you to use that because it really is also a nice, completeness check, whether you are addressing all the necessary wheels, that should be in your strategy.
+[00:23:05] then there is the fourth and final area that we need to talk about because as I mentioned at the beginning and several times after that, AI
+[00:23:15] Is changing always. And as we continue to change,
+[00:23:20] So, how to go about that? Well,
+[00:23:23] Let's have a look at some trends that, of course, you should take into account 1 Trend, which is very prominent at the moment is, of course, agentic AI.
+[00:23:36] Now, agentic ai is as I mentioned at the beginning, despite all the hype in reality still very much emerging, right, only 7% remember actually uses agents at the moment. So for most organizations, it's still a promise.
+[00:23:54] At most.
+[00:23:55] many companies are experimenting with it and many companies at the
+[00:24:00] Moment, when you look more closely what they are doing with agentic AI, most of it is, you know within the scope of a single Enterprise application. So you're using agents in the context of their office automation or their CRM system or their Erp system.
+[00:24:18] Which makes sense. Right because me, a growing number of the vendors of those applications start to offer or have already offer agents that are, you know, already embedded in that application context and it's much easier to use compared to building your own Agents from scratch. And then figuring out yourself how those agents must, you know, which apis they need to use which workflows to use which context
+[00:24:45] They need much harder compared to the situation that you're just using vendor provided agents or agent development Frameworks that are just able to work within that application.
+[00:24:57] However, however, we see that most of those agents are focused on shall we say, individual task automation. So it helps people to do whatever they need to do more quickly, which is useful, nothing wrong with that. But the higher value we, we see only in use cases. Where, or we see more in use cases? I should say where we go to the process level. Where agentic AI is applied to not just to automate a single task, but to automate a single a complete
+[00:25:30] Workflow complete process which typically also goes AC the boundaries of single applications.
+[00:25:37] So 1 of the expectations 1 of the predictions by Gartner as you see here, is that in a few years from now, 60% of organizations will adopt platforms for AI agent. Orchestration. Uh, that go beyond the, uh, uh, the existing Enterprise applications Suite. Why because the value of agentic are, is far bigger on average when you start to use it to to automate things across the silos of your organization.
+[00:26:08] This is a general trend.
+[00:26:10] that of course, is interesting to know of, but
+[00:26:15] What does it mean that is the purpose? Why we are bringing it up here? What does it mean for your strategy?
+[00:26:20] Right. Well, it means amongst others, that putting all your eggs in the same basket today by saying, well, we will only use Agents from this. Vendor is very premature.
+[00:26:31] Agentic AI is just getting started, so make sure that your sort of Future Vision how you're going to use, agentic AI takes into account that you know, you probably have multi vendor landscape of Agents.
+[00:26:46] And that you need to have and prepare your people in terms of skills, in terms of technology, for what we call a, you know, an Enterprise AI agent orchestration layer, right? Which is still fairly new to
+[00:27:00] Today, there are hardly any vendors that offer that, but it's something to be prepared for. So it means for your strategy, that some of your investment should go to Preparing yourself for that kind of capability.
+[00:27:13] Now, another Trend that we could talk about is robotic AI or physical AI or embodied. AI people use different phrases for the effect that agents. Uh, are increasingly AI agents are increasingly live within a robot if you like a humanoid robot or a poly functional. Robot. There's a lot of investment taking place there. And for most organizations, today, it sounds more like a, you know, a far away future.
+[00:27:45] But be advised that the Investments especially in China are so high that we shouldn't be surprised that these, you know, more capable robots. Compared to the rather limited ones that we know of today are closer by than you may think.
+[00:28:03] Now, you may argue, maybe you have seen this recent marathon where, uh, a robot was have you seen this? Yeah. That you know, but I think it was able to, to run half a marathon, right? But then it turned out the dirty secret was that that robot was followed by 2, Guys, in a car, remotely controlling that robot, right? Well, that I think,
+[00:28:28] Is telling a bit of the story.
+[00:28:30] How hard it is to create AI driven robots, that really can operate and act reliably in the real messy world that we all live in, right? So, but it doesn't mean don't be fooled by thinking. Oh, then we don't need to prepare for that because we argue that, although, yeah, it may still be a few years from now, things are moving fast. So be prepared for
+[00:28:57] Uh, AI driven robots entering the workspace, not just for manufacturing, there are also social robots. There are also other robots that, you know, maybe in 5 years from now, you will find yourself in an office working together with some robots for different functions, right?
+[00:29:15] Depends on your organization. How much sense that would make?
+[00:29:18] But the point is that your strategy should not only focus on the now, but as I mentioned, also on the future, right? So make sure that those Trends are on your radar and this is just 1 of them. I mean, there are also people talking about AGI, there are people talking about world models or talking about cultural AI or about, you know, uh, first principles AI. I mean, the number of Trends and emerging topics is countless. So make sure that those Trends are on your radar because things are moving fast and you better be prepared. That's the message.
+[00:29:53] Also for robots. Now, it might very well be that in 3 years from now, we come to the conclusion that we will never take off.
+[00:30:00] But you can't, I mean, if you want to wait, be my guest, but then you will be late. Alright? So better be early to make sure that you're prepared for those new new opportunities that coming to us.
+[00:30:12] In, uh, quite earlier than many people seem to think.
+[00:30:17] So uh, in general we talked about Trends in our itself. But of course, we also make made to make sure that the world that the our strategy is also able to deal with other disruptions that are happening, right? Like you know, geopolitical events Wars uh pandemics hopefully not but who knows, you know or economic
+[00:30:41] Uh, recession, uh, their concerns about an AI bubble.
+[00:30:45] What do you do, if the AI bubble will burst? What impact does that have on your AI strategy?
+[00:30:50] Well probably I think if you want to hear my opinion about that although it's very hard to predict if and when that Bubble Burst may happen, but if it does happen, I still think that there is real value in AI although but I think maybe it's very healthy and brings us back to a more realistic uh use of AI. It's not a miracle cure but there's still a lot of value if you apply it in the right manner.
+[00:31:15] Anyway, that brings us to brings me to the end of the presentation, uh, in summary. Um, make sure that you set your priorities. We need a plan to turn a promise of AI into reality. Make sure that your uh that you are free.
+[00:31:30] Frequently, recalibrating the strategy with new advances, both in Ai and in your own organization, make sure you are monitoring that progress by doing, you know, frequent AI maturity assessment. Uh, Gartner has a tool for that and uh, make sure that you're, you know, just not just focusing on on technology or data that too, of course, but also focus on the other Wheels.
+[00:31:55] And most of all make sure that you are you know you your your strategy is not static but is a process that is constantly. Uh recalibrated. Thank you very much for your time and enjoy your your evening.

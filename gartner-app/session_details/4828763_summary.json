@@ -1,0 +1,7 @@
+{
+  "summary": "A legal ops chatbot worked brilliantly in POC. But in production, the data became massive and messy: relevance and quality were unclear, sensitive information couldn’t easily be filtered out, and there was no metadata to point AI toward the right answers. See how adding a data context and curation layer before ingestion cuts data prep from months to days, lowers compliance risk, and improves AI accuracy.",
+  "sections": [],
+  "key_takeaways": [],
+  "entities": [],
+  "subject_area_id": "data_quality"
+}

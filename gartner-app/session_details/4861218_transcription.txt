@@ -1,0 +1,187 @@
+[00:00:03] Hi, good afternoon. Uh, my name is Chris Bridgeland from couchbase. Um, I got the graveyard shift to keep you energized. After you've had a nice little bit of lunch.
+[00:00:12] So um, let's go into into this. We're we're going to be talking the title of this. This presentation is operating data in a world of AI. Um, I know in the gender it most probably comes out as something, but it something slightly differently but it's all around the agentic approach that a lot of our customers are getting into. So,
+[00:00:31] what we're not going to be doing, is doing a product pitch. This is not a product pitch, we're not going to be doing uh, feature require or feature analysis, or or performance data at all. What we are doing is we're going to be doing a little bit of a check in on
+[00:00:45] On what it, what it means to be in that agentic world.
+[00:00:50] Um, and 1 of the things that we had, we're really focusing on as well, is is really answering a different question.
+[00:00:57] Answering a question of if you today. And I can, I do a quick show of hands. How many people are actually in the activity of doing things with agents right now. Active agent progression, how many of you keep your hands in the air? If you are successful with your agentic approach right now and or or still trying to find your your way a little bit. So the people with their hands in the air, everybody else go talk to them because they they're doing some stuff, right? So get get involved.
+[00:01:24] So couple of things do you want to talk about? Our this is a, this is really all about.
+[00:01:30] About reframing, certain certain Concepts.
+[00:01:32] Um, and if I asked 1 question,
+[00:01:35] of you to think about your for yourselves is
+[00:01:39] today, we look at agents as um, as tools tools for our teams to basically use what if we treated them as teammates. What have we treated them as something that would really associate themselves with with, you know, adding value to us and being part of the team that we work in.
+[00:01:58] Um,
+[00:01:59] the session is really about system requirements.
+[00:02:02] So what do you need? If you're going to have somebody working in the team and what are your teammates today? What are they, what are they rely on? Ultimately, and it's really about the infrastructure that sits underneath that.
+[00:02:17] so, if you look at the agent era today,
+[00:02:20] and,
+[00:02:21] you look at the names up there and some of the statements that have been made
+[00:02:25] The challenge that that they're basically identifying is, is not a challenge for them because they've already seen the trends. They've seen the data that basically pushes them towards a. We need to do something with agents. Um,
+[00:02:40] Microsoft has been doing a, a load of work around that side of things Nvidia with um, with Jensen with, with his statement there. But if you think about it, it's it's not really a massive change in, in the sort of the way the world has worked. We we started with Mainframe. We moved to PCS.
+[00:02:56] You know, we went from PC to the internet internet, internet to mobile mobile mobile.
+[00:03:00] File to the cloud.
+[00:03:01] and,
+[00:03:02] All that's happened is that you're you're looking at where you're you're working with your data, you're looking at ways in which you're being able to host this sort of information.
+[00:03:12] And if you're in that sort of, in that sort of a genetic world, the agents are really just another way in which you're working with your data.
+[00:03:21] If you look at the the comments there, for example, AI agents will become the primary way in which we interact with computers. I mean these guys, they say they're not doing, they're not saying these statements because
+[00:03:32] The way the world is is is is just now, new big, bright bright and shiny. These guys have been working on it for a while.
+[00:03:40] And they've built their their approach to it knowing that agents.
+[00:03:45] Are going to be key.
+[00:03:47] The age of Agents is here as Jensen says, AI agents, likely to be a multi-trillion dollar opportunity.
+[00:03:54] If we frame that up a little bit today, the annual spend on it, networks data centers, computing power, all the, all the aspects of basically running my operations today globally, annually. We spend around about 5 trillion dollars.
+[00:04:13] He's saying that it's AI agents by themselves, will be a multi-trillion dollar opportunity admittedly with some drag behind it. But ultimately, he's saying this is going to change dramatically and these guys have all basically placed bets on this.
+[00:04:30] Sundar says there you go. AI agents are sorry. Our what have the best chance of taking AI from a nice to have to add need to have?
+[00:04:42] And so, the world is changing.
+[00:04:47] But if you then look at and I and I'm going to say the people who put their hands in the air and we think about how many people are actually in this room today. I, I would guess we're around about that sort of figure.
+[00:04:58] 34% of companies today.
+[00:05:01] Are.
+[00:05:02] Deeply transforming using agents in the way that they transform their their way way of working.
+[00:05:09] Products processes and business models. Okay? And therefore the question is, if
+[00:05:15] If you're not in that 34%, what are you going to do about it? And are there smarter ways that you can do about that to accelerate yourselves in there?
+[00:05:24] And yesterday's systems really aren't designed for today. So unreliable context, I think we you you would have been hearing through quite a few of the sessions context is key to what we're trying to do. But also knowing that my data is complete, my data is a proper representation of what I B, basically want to build my decisions on
+[00:05:47] stay incomplete data and also agents hallucinating because you fed it with with incorrect data. You want to stop that sort of, that sort of bleeding activity, no control of visibility.
+[00:05:58] Prompts tools, zero.
+[00:06:00] Governance.
+[00:06:01] Um you ultimately want to make sure that the the prompts and tools, you've got that full auditability, you want to know that they're behaving the way you expect them to behave.
+[00:06:10] And there are lots of tools and lots of capabilities out there today and around the floor, in the, uh, in the exhibition Hall, um, with with vendors that are that are tackling that space.
+[00:06:20] And we're a data company. We're on the we're, we're we're that data platform.
+[00:06:25] Data is in silos.
+[00:06:28] If you think about the sort of moving, from my real time data to my operational data, or my analytical type data, lots of people are still going through that batch process. I want to have real-time visibility of my data. I don't want to be in the situation where my context is different because the
+[00:06:45] The timing of my data being available is actually giving me false readings or full data to work on.
+[00:06:51] Um, but we've also got multiple different types. We've got multiple different types, we've got oltp Vector, we got caching with d, duplication of data, and we've got it all out of sync depending on obviously how it's been architected.
+[00:07:05] And then finally the expensive, um, and slow approach.
+[00:07:09] So as it says there, you know,
+[00:07:12] Run away tools and spiraling inference clock costs?
+[00:07:17] And if, if people get into the thing of of, if, if I don't have the semantic search and I don't have the history of how my conversations have been happening. I'm going to be going back over the same old questions. Again, I'm going to be asking my agents to do the
+[00:07:30] Same piece of work again, adding additional cost, to to what I do today on a day-to-day basis.
+[00:07:41] so if we go back to that, first question, I asked if you bring an agent in as part of your Workforce treat them as part of the team,
+[00:07:50] you know, your data platform becomes the operating system.
+[00:07:54] So you need to know that your data platform that you're asking your team to work with is providing you with the levels of features and capabilities.
+[00:08:05] That you need.
+[00:08:08] So the question is, are you ready?
+[00:08:12] So, let's just assume an agent is now part of your team.
+[00:08:15] Let's start with how you build a great team. So let's say
+[00:08:19] we've built a great team, but if I go and have a look at what things are out there today,
+[00:08:25] your business never sleeps and neither should you or your customers?
+[00:08:31] the last thing you want is a disruption, which will damage your relationship with your customers and your users and take business away from you because you haven't been able to respond effectively
+[00:08:41] Your best people go wherever the work is.
+[00:08:45] This is more about portability and accessibility to data. So it's not just about it's in my central system if I'm mobile and I've got teams in different Geographic, locations, that data should be pervasive everywhere and in sync,
+[00:09:00] I should have it on my mobile devices and that's 1 of the areas where we have a superb strength in a with a with a bunch of customers in in this space uh where they're in the service industry or they're in the uh, you know, travel industry and things along those lines where they are they are able to do their work remotely, even when disconnected.
+[00:09:20] Your teams work every on every kind of information.
+[00:09:24] Big thing here is really, I want to make sure that I'm not just doing it for structured data. I'm doing it for all types of data. I want to be able to have that visibility in in how we operate today.
+[00:09:34] And when you look at how we're we're looking at it, we're trying to tackle these things. So we have an always on approach in what we do. We want to make sure that data is pervasive everywhere.
+[00:09:45] We want to make sure data is available on the systems that you expect it to be on.
+[00:09:51] We are Cloud to the edge. We have a lot of our customers today, making sure that as I say in the airline industry, if anybody's got the opportunity to fly with Emirates or with United
+[00:10:02] Um, as an example, they are getting their planes off the ground, the in-flight entertainment, and all the systems are basically working when they're up in the air, they're running on mobile devices, when they're down and back on the ground, they resynchronize again and everything that the whole customer experience has basically been captured throughout the whole journey.
+[00:10:22] And then your teams work on every kind of information. 1 of the really important things is and if I talk about for a second, a bit of History.
+[00:10:30] 15 years ago when we started, we chose Json as the format of data that we store all of all data in. So, Json format has now really become the the the main bed fellow of AI.
+[00:10:42] And the agentic approach to doing things.
+[00:10:44] We can store structured and unstructured data in the in the system. And we've basically made sure that we are with some of our largest customers. And I think everybody here, everybody's got LinkedIn account.
+[00:10:57] Thank you for using couchbase. We are the database behind LinkedIn.
+[00:11:01] But we're a bit of a best-kept secret. So part of this is also to help help you understand that we we can work with some of the the toughest use cases and that always on comes back again.
+[00:11:13] so, if I build a great team as well,
+[00:11:15] Built a great team. I should also think about other aspects of the infrastructure I want to make sure that when something works you scale it you know if I'm having great successes I don't want to be held back by fear of what scalability means in cost and and complexity.
+[00:11:35] Growth should be a reward.
+[00:11:36] Nobody waits for an hour for an answer from a sharp colleague. Okay? You all know people inside your organization if it's not you you know somebody who is the person you go to to to answer a question, you want to be able to go and ask that question and get a a response back very, very fast and slow response has become a bottleneck. Okay. And it shouldn't be the it shouldn't be that way for
+[00:12:00] Your you your users or your agents?
+[00:12:04] You hire people who find the right answer from context.
+[00:12:08] And context is is key. I think many of the talks that so far have been talking about the semantic approach to doing things, the context, and also the history, the knowledge. If I've asked that question once before,
+[00:12:20] why am I asking it again, if I can keep a history of that sort of conversation and be able to use that as a basis for the next series of questions for other functions inside the organization, I want to be able to make sure I've got good data and its relies on good data behind the scenes.
+[00:12:35] So from a scalability perspective, you know, we've got customers today that that have um in essence well over thousands of nodes worth of our technology Depp.
+[00:12:45] Deployed.
+[00:12:46] It should be a shared, nothing architecture, and I should be able to scale functions independently inside my infrastructure.
+[00:12:53] Scale as fast as the opportunity demand scaling up and equally scaling down. You know we have some some very large organizations where Black Friday comes around, everything gets scaled up. I need to bring it back down again and bring it back under a cost control great, we can help you with that.
+[00:13:10] Memory first.
+[00:13:12] Couch base is made from came from 2 companies couch, which is couch 1 was was was, uh, 1 technology and 1 was members couch. 1 couch stands for cluster of unreliable commodity Hardware if you don't know, the acronym. That's, that's, that's now a little bit of learning from, from me to you.
+[00:13:30] Um, but also members memory. First, we decided we wanted to have high availability and high performance. And the best way to get performance out of any system is put it through memory. So all data in our system for the last 15 years and beyond go through memory,
+[00:13:45] So we want to be able to give customers sub millisecond access in what they do. And that's 1 of the things that we we, we are very proud about in how we're able to deal with that.
+[00:13:55] Um, and in with our Vector, search capabilities. We're now a billion scale, Vector search. I want to be able to feed my AI agents with information. Very, very rapidly.
+[00:14:05] And then also, I want to be able to do that query of my data in multiple ways. I want to be able to look at SQL. I want to look at Vector. I don't want to have to have do
+[00:14:15] 2 different searches for data. Great, we'll give you the ability to do a hybrid search where you can bring that set of data and then do your vector search over the content that we store inside the system.
+[00:14:30] You built a great team. So what are the final 3 items that we're going to talk about here?
+[00:14:36] Your best people act, and learn simultaneously.
+[00:14:40] So the wall between operational analytical systems kills real-time data, and that's more along the fact that, um, how many of you today have, you know, in essence, the process of getting my, my data uploaded, my ETL processes. And once a day or multiple times a day, I'll be doing Bosch processes to go and update the data.
+[00:15:00] Okay. See a few hands and it's and it could be painful, it could be painful, especially when the senior execs inside the company say I need an answer now and you go. Yeah, wait until 6:00 tomorrow morning. I'll be able to give you that answer because we got an ETL process that runs overnight.
+[00:15:16] That wall between operational analytical systems shouldn't be there.
+[00:15:21] You don't hire 10 people to do a job that can handle 3. In other words, you don't get 10 tools. If I can consolidate and bring that down to a lesser amount. If you do that, you're in to the thing of, um, of of significant, you know, increases in my total cost of ownership and my return on investment
+[00:15:42] You don't hire Elite Talent.
+[00:15:45] To burden them with Administration, you hire them for the creativity, they bring to your organization, you hire them to do things that are going to take you into different areas. Instead of saying, hey, hang on a second. I would I could do with this report tomorrow or I could do with this report. Yesterday is possibly more the conversation that you have with certain people.
+[00:16:08] so, for an operational intelligence, our platform is very much designed around
+[00:16:15] Analytics, being near real time.
+[00:16:19] The way in which we do our work. If you've got your data set sitting inside couchbase as well as externally we can bring that data from within couchbase into our analytic.
+[00:16:30] Nose and bring extra data in there to augment that as well. And we can do that in near real time and be able to give you answers very, very rapidly.
+[00:16:39] This is a journey we've been on natural efficiency.
+[00:16:44] If I can replace a bunch of different tools because instead of 1 data platform, you got different data silos and we can look at consolidation efforts we're doing a lot of work with our customers around that side of things and we see based on the cam customers that we've spoken to when they've been in that rationalization process is when they can feel comfortable and confident, that the platform they've chosen is much more expandable and extendable. You know, we've got lots of customers that started with caching with us.
+[00:17:13] You know, because that's how we start.
+[00:17:15] Started our career, we started, you know, or our our business, our business was sitting in front of mainframes and and databases relational databases because they couldn't perform. We became the performance layer for them, sitting in front of those. Anybody here has subscribed to Sky TV, every time you get onto your box, you're using couchbase your subscription, service is is is supported by couchbase on the back end very quick, very responsive. And now they're using that intelligence of how you log onto the system to give you your your recommendations of what you should watch next week.
+[00:17:48] Natural efficiency kicks in there. And then, 1 platform, our view is, why have multiple platforms ties into the point 8? Why have multiple platforms? When 1 platform could do
+[00:18:00] A lot of the work for you.
+[00:18:02] With all different ways in which you want to be able to access your information.
+[00:18:07] And that should be if I'm looking at my agents and I'm saying, if I can provide my agent and my users with a platform that can basically meet those requirements and knock on the head, those 9 points of of limitation that that are built in there. Then I feel confident that that should be worthy of consideration.
+[00:18:27] When you look at the diagram here. So, so the sort of architectural view, we got there was it? Agentic AI rag chat Bots predictive ml product or product catalogs. Operational analytics field service apps iot customer 360.
+[00:18:45] Profiles and personalization caching and session management. The the reality here is that those are what most companies are expecting to be operating to today or operating with today. Those are their applications
+[00:18:59] where we come into it is we believe that if we can provide you with an operational service, mobile service, analytic service, or you should be looking for a platform that has all those features.
+[00:19:10] In 1 with.
+[00:19:13] Enterprise grade security embedded in what you do and I can have it.
+[00:19:18] In my own on premise self- deployed or I can have it as a service. Those are the things I should be looking for.
+[00:19:27] So, you should be looking for those.
+[00:19:30] Sorts of aspects sitting there because why it matters is on the right hand side there. Less friction.
+[00:19:36] My data retrieval and AI are working together.
+[00:19:42] Better scale.
+[00:19:44] I'm able to.
+[00:19:46] Have consistent performance under real world, use cases. As I say, we've got customers that are getting, you know, in essence, 80 million iOS. A second with 1 of the big travel companies out of our system because they're sitting in front of or sitting behind a lot of the travel, um, services that are out there today.
+[00:20:05] But they're able to get that predictable performance because they've basically architected and chosen us as the back-end platform for them.
+[00:20:13] Faster outcomes.
+[00:20:15] Prototyping to production is really, really key.
+[00:20:18] Um, I want to be able to go and try things out. I want to know that.
+[00:20:23] Some of my development teams May well have been doing stuff in a little you know laptops and and firing up environments and doing certain things. But a lot of developers may not be thinking about the scalability and the operational side of side of those things. If I can give you a development platform that can grow with you as you go towards the Prototype and into production, it's key.
+[00:20:46] And then what makes, you know, what it solves at the end of the day?
+[00:20:50] The whole idea there is that I don't want to be in a situation where I've got fragile AI Stacks um and and Pilots that that don't make it out out the door.
+[00:21:00] Um, 1 of our customers, the, the Travel Inn Travel company that we we work with, um, 1 of their 1, of their expectations. Was that AI is going to be a significant change in how they operate with their their travel companies that they they support.
+[00:21:17] And they when I, when I asked the CIO of the of the organization, I said, how many projects have you got going at the moment with AI. He said, 300 ran about 300, we're running with how many alive he went 7.
+[00:21:29] He's, he's got a big trajectory where he wants to be able to turn his travel agency, literally making agents work for him, um, and build that sort of things out.
+[00:21:40] But it's that sort of that sort of scale that people are are looking at experimenting and go.
+[00:21:45] Going into that that world and then finally hallucinations. If I know that my data is good, if I've done all of the right work to basically, make sure that my data is, is grounded. It's got the, uh, context. It's got the semantic capabilities embedded, in what we do today, specifically in the AI services from from many of the organizations that are out there today.
+[00:22:07] I know that my data is good. I know that I'm going to make basically make sure that hallucinations and costs of redoing stuff are basically very much controlled.
+[00:22:21] so this isn't a journey that we've been on, you know, literally for the last year or so, we, we we we we've been doing machine learning and certain certain
+[00:22:30] Of introductory aspects to to this. And we we launched the first external product, we were doing a lot of stuff in stuff internally with our, our platform, uh, with a with a, uh, with a, a tool that I would say or an agent. Uh, so is called IQ.
+[00:22:47] And IQ was literally people who said, I don't know how to code against couchbase, I don't know how I should run my query against my data set. How would I get the most efficiency? We created IQ to basically be your assistant to how you integrate with couchbase?
+[00:23:05] From there, we moved on to creating a m machine learning feature store.
+[00:23:09] Um, we went into hybrid Vector search.
+[00:23:12] and that's basically being able to in 1,
+[00:23:15] In 1 statement or 1 query, I can do the SQL query, as well as do. A vector query. Embed that together in 1 instead of having to go through the batch process, think about the backwards and forwards.
+[00:23:27] Um, we went into Mobile Vector search, we then took it out to mobiles, we said, Hey, listen, we got it working. Let's take it out to the mobile. And we, with our couch base platform, we're able to, we have a, a couch, based mobile version, or a couch based light version,
+[00:23:41] So self-managed mcps billion scale, Vector search. So we took our vectors and took them to next to the next level. And we are, I would say we are very, very proud of the work that our engineering teams have done with regards to how
+[00:23:55] Sizable. They're able to take this in the real world examples of of being able to do.
+[00:24:00] AI a great large against large data sets.
+[00:24:03] semantic, llm cache model Services, data processing AI functions and then the agent catalog,
+[00:24:11] And we've got loads of our customers today working and building these things out. They are working on those. The guys that started a couple of years back with us or 18 months back when we started launching more and more usable functions to help in the AI world,
+[00:24:25] they are coming out the door with loads and loads of features they're working and developing with us, um, but it's, it's finding that partner that will work with you because you're going to be pushing the boundaries of any platform you're looking for and you're going to be looking for a an organization that will put your
+[00:24:43] needs in.
+[00:24:45] Into the road map as we go forwards.
+[00:24:47] And then it's also about about the uh, the ecosystem, you know. So we've got a lot of different things. Open AI Lang chain, we've got crew AI uh Gemini. We've got a bunch of different things in video. I think you may well have seen that previously we we we we launched with our AI services and Nvidia hooking uh, associated with that 1.
+[00:25:08] Um, and in a, in a couple of hours, uh, 1 of the 1 of our booth Partners, uh, down down downstairs will be also announcing a partnership with us, so keep your eyes on, on that announcement. We'll, we'll make some noise about it too, but in essence, it's, it's weird. The data platform, we're looking for Partners at the agent platform. That do that side of things.
+[00:25:30] Was really, really well and help organizations build that out and having a strong ecosystem, to deal with the agent approach to doing things and the data platform approach, you're doing things and making it streamlined for you is absolutely key.
+[00:25:44] So we are looking at growing significantly in that space as we go and I think we've got a pretty decent uh decent list there today.
+[00:25:57] so,
+[00:26:00] As a platform, we've got 3 architectural differentiators in what? We believe that we we provide today
+[00:26:08] We our mission critical by default. We've been doing Mission critical.
+[00:26:12] For 15 plus years. Okay.
+[00:26:16] Uh we want to make sure it's not just about high availability. It's about Mission criticality. You know. You don't want to be down and you want to you want to be able to gracefully deal with that sort of things. Um and we can certainly help on that side of things. We want it built for applications where downtime isn't a metric.
+[00:26:32] Um it becomes a headline of downtime happens. We don't want you to be in that space and and we help a lot of our customers in that.
+[00:26:39] UniFi by Design.
+[00:26:41] So we want to be able to have your operational data and your AI insights and unified and under 1 platform. So you're able to work off a, a core set of data that you have absolute faith in
+[00:26:53] And then finally everywhere where you operate you want to make sure that should you want to start getting?
+[00:27:00] Getting closer to your end users. We got customers in the in that sort of world. We want to make sure that you have the ability to make sure your data is as close to the people, as you need it to be to meet the requirements for you to keep your customers and your users happy.
+[00:27:19] We are calling ourselves. If you've seen our booth, we're calling ourselves the operational data platform for AI.
+[00:27:27] A little tagline at the end, but we do it differently.
+[00:27:33] So,
+[00:27:36] I think you will have heard from many of the people that have been presenting this this week or these last few days, a lot of it is around.
+[00:27:44] Is.
+[00:27:45] My data, good enough for the agentic approach.
+[00:27:48] You've got to make sure that your data platform that you choose is going to meet your requirements for now and into the future.
+[00:27:58] We are 1 of No Doubt, many choices that many organizations make, but I would say, if you give us an opportunity to come and spend a little bit of time with you come to Booth 611, um, I think we've run out of the Yeti mugs, but I think we might have, if you want to have a Arrangement meeting with us, um, you know, a little bit more of a personal thing. We I think we still have some vouchers thumbs up on those ones. Yeah. I think we still got some some vouchers there. So, so we got some Starbucks, vouchers. If you need a little little little coffee boost in the morning.
+[00:28:28] Um, come come come.
+[00:28:30] Talk to us.
+[00:28:31] We, we feel that we are at a point where
+[00:28:35] You should absolutely be having a conversation with companies like ourselves where we've put customers First Data at the center of everything and want to help customers on their agentic Journey.
+[00:28:50] Thank you very much.

@@ -1,0 +1,452 @@
+{% extends "base.html" %}
+{% block title %}Gartner Sessions{% endblock %}
+
+{% block content %}
+<!-- Filter bar -->
+<div class="filter-bar">
+  <div class="filter-inner">
+
+    <div class="search-wrap">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+      </svg>
+      <input id="search-input" class="search-input" type="text" placeholder="Search titles, speakers, summaries, transcripts…">
+      <div id="search-spinner" class="search-spinner hidden"></div>
+    </div>
+
+    <div class="filter-sep"></div>
+
+    <div class="filter-group" role="group" aria-label="Attendance filter">
+      <button class="filter-btn active" data-visited="">All</button>
+      <button class="filter-btn" data-visited="true">Attended</button>
+      <button class="filter-btn" data-visited="false">Not attended</button>
+    </div>
+
+    <div class="filter-group" role="group" aria-label="Notes filter">
+      <button class="filter-btn active" data-notes="">Any notes</button>
+      <button class="filter-btn" data-notes="true">Has notes</button>
+    </div>
+
+    <select id="subject-filter" class="entity-select" title="Filter by subject area">
+      <option value="">All subject areas</option>
+      {% for area in subject_areas %}
+      <option value="{{ area.id }}">{{ area.title }}</option>
+      {% endfor %}
+    </select>
+
+    <button id="show-hidden-btn" class="btn-show-hidden" title="Toggle hidden sessions">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94"/>
+        <path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19"/>
+        <line x1="1" y1="1" x2="23" y2="23"/>
+      </svg>
+      Show hidden
+      <span id="hidden-count-badge" class="hidden-count-badge hidden">0</span>
+    </button>
+
+    <button id="show-non-info-btn" class="btn-show-hidden" title="Toggle non-informative sessions (registrations, breaks, lunches…)">
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="10"/>
+        <line x1="12" y1="8" x2="12" y2="12"/>
+        <line x1="12" y1="16" x2="12.01" y2="16"/>
+      </svg>
+      Non-informative
+    </button>
+
+    <span class="filter-count" id="filter-count"></span>
+  </div>
+</div>
+
+<!-- Sessions by date group -->
+<div class="sessions-container" id="sessions-container">
+
+  {% for group in grouped %}
+  <div class="date-group" data-date-group="{{ group.day_date }}">
+
+    <!-- Date header -->
+    <div class="date-group-header">
+      <span class="date-group-day">{{ group.date_label }}</span>
+      <span class="date-group-count" id="date-count-{{ loop.index }}">{{ group.sessions | length }} sessions</span>
+    </div>
+
+    <table class="sessions-table">
+      <colgroup>
+        <col><col><col><col><col><col>
+      </colgroup>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Session</th>
+          <th>Time</th>
+          <th>Subject Area</th>
+          <th>Status</th>
+          <th style="text-align:right">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        {% for s in group.sessions %}
+
+        <!-- Session row -->
+        <tr class="session-row"
+            data-id="{{ s.session_id }}"
+            data-date-group="{{ group.day_date }}"
+            data-title="{{ s.title | lower }}"
+            data-speakers="{{ s.speakers | lower }}"
+            data-attended="{{ 'true' if s.attended else 'false' }}"
+            data-has-notes="{{ 'true' if s.has_notes else 'false' }}"
+            data-has-summary="{{ 'true' if s.has_summary else 'false' }}"
+            data-has-video="{{ 'true' if s.has_video else 'false' }}"
+            data-subject="{{ s.subject_area_id if s.subject_area_id else '' }}"
+            data-non-informative="{{ 'true' if s.non_informative else 'false' }}">
+
+          <!-- Expand toggle -->
+          <td class="col-expand">
+            <button class="expand-btn" onclick="toggleSummary('{{ s.session_id }}', this)" title="Expand summary">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="9 18 15 12 9 6"/>
+              </svg>
+            </button>
+          </td>
+
+          <!-- Title + speakers -->
+          <td class="col-title">
+            <div class="row-title">{{ s.title }}</div>
+            {% if s.speakers %}<div class="row-speakers">{{ s.speakers }}</div>{% endif %}
+          </td>
+
+          <!-- Time -->
+          <td class="col-time">
+            <div class="time-start">{{ s.time.split('-')[0].strip() if '-' in s.time else s.time }}</div>
+            <div class="time-range">{{ s.time }}</div>
+          </td>
+
+          <!-- Subject area -->
+          <td class="col-location">
+            {% if s.subject_area %}
+            <span class="sa-pill" style="--sa-color:{{ s.subject_area.color }};--sa-bg:{{ s.subject_area.bg }}">
+              {{ s.subject_area.short }}
+            </span>
+            {% else %}
+            <span class="muted">—</span>
+            {% endif %}
+          </td>
+
+          <!-- Badges -->
+          <td class="col-badges">
+            <div class="row-badges">
+              {% if s.attended %}<span class="badge badge-green">Attended</span>{% endif %}
+              {% if s.recommended %}<span class="badge badge-amber">Recommended</span>{% endif %}
+              {% if s.exclusive %}<span class="badge badge-red">Exclusive</span>{% endif %}
+              {% if s.has_notes %}<span class="badge badge-blue">Notes</span>{% endif %}
+              {% if s.has_video %}<span class="badge badge-gray">Video</span>{% endif %}
+              {% if s.has_audio %}<span class="badge badge-green">Voice</span>{% endif %}
+              {% if s.has_summary %}<span class="badge badge-gray">AI</span>{% endif %}
+            </div>
+          </td>
+
+          <!-- Actions: Details + Hide -->
+          <td class="col-actions">
+            <div class="actions-wrap">
+              <a href="/session/{{ s.session_id }}"
+                 class="btn-details{% if not s.has_video and not s.has_summary %} btn-details-upload{% endif %}">
+                {% if s.has_video or s.has_summary %}Details →{% else %}+ Add content{% endif %}
+              </a>
+              <button class="btn-hide"
+                      onclick="toggleHide('{{ s.session_id }}', event)"
+                      title="Hide this session">
+                <!-- eye-off icon — replaced by eye icon when hidden -->
+                <svg class="icon-hide" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94"/>
+                  <path d="M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19"/>
+                  <line x1="1" y1="1" x2="23" y2="23"/>
+                </svg>
+                <svg class="icon-show hidden" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Summary expansion row -->
+        <tr class="summary-row" id="summary-row-{{ s.session_id }}" style="display:none">
+          <td colspan="6">
+            <div class="summary-panel" id="summary-{{ s.session_id }}"></div>
+          </td>
+        </tr>
+
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endfor %}
+
+  <div class="empty-state hidden" id="empty-state">
+    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+      <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+    </svg>
+    <p>No sessions match your filters.</p>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+// ── State ─────────────────────────────────────────────────────────────────────
+const allRows = Array.from(document.querySelectorAll('.session-row'));
+let filters = { visited: '', notes: '' };
+let searchAllowedIds  = null;  // null = no text filter active; Set<id> = FTS results
+let activeSubject     = '';    // '' = all; otherwise subject_area_id string
+let showHidden = false;
+let showNonInformative = false; // non-informative sessions hidden by default
+
+// Persist hidden sessions in localStorage
+const HIDDEN_KEY = 'gartner_hidden_sessions';
+let hiddenIds = new Set(JSON.parse(localStorage.getItem(HIDDEN_KEY) || '[]'));
+
+// ── Hide / show ───────────────────────────────────────────────────────────────
+function toggleHide(sessionId, event) {
+  event.stopPropagation();
+  if (hiddenIds.has(sessionId)) {
+    hiddenIds.delete(sessionId);
+  } else {
+    hiddenIds.add(sessionId);
+    // Close summary if open
+    const sr = document.getElementById(`summary-row-${sessionId}`);
+    if (sr) sr.style.display = 'none';
+    const row = document.querySelector(`.session-row[data-id="${sessionId}"]`);
+    if (row) row.classList.remove('expanded');
+  }
+  localStorage.setItem(HIDDEN_KEY, JSON.stringify([...hiddenIds]));
+  updateHideButtonIcons();
+  updateHiddenBadge();
+  applyAllFilters();
+}
+
+function updateHideButtonIcons() {
+  allRows.forEach(row => {
+    const id = row.dataset.id;
+    const isHid = hiddenIds.has(id);
+    row.querySelector('.icon-hide').classList.toggle('hidden', isHid);
+    row.querySelector('.icon-show').classList.toggle('hidden', !isHid);
+    row.querySelector('.btn-hide').title = isHid ? 'Restore session' : 'Hide session';
+  });
+}
+
+function updateHiddenBadge() {
+  const count = hiddenIds.size;
+  const badge = document.getElementById('hidden-count-badge');
+  const btn   = document.getElementById('show-hidden-btn');
+  badge.textContent = count;
+  badge.classList.toggle('hidden', count === 0);
+  if (count === 0 && showHidden) {
+    showHidden = false;
+    btn.classList.remove('active');
+  }
+}
+
+document.getElementById('show-hidden-btn').addEventListener('click', () => {
+  if (!hiddenIds.size && !showHidden) return;
+  showHidden = !showHidden;
+  document.getElementById('show-hidden-btn').classList.toggle('active', showHidden);
+  applyAllFilters();
+});
+
+document.getElementById('show-non-info-btn').addEventListener('click', () => {
+  showNonInformative = !showNonInformative;
+  document.getElementById('show-non-info-btn').classList.toggle('active', showNonInformative);
+  applyAllFilters();
+});
+
+// ── Filtering ─────────────────────────────────────────────────────────────────
+function applyAllFilters() {
+  const { visited, notes } = filters;
+  let visible = 0;
+
+  allRows.forEach(row => {
+    const id       = row.dataset.id;
+    const isHidden = hiddenIds.has(id);
+    let show = true;
+
+    if (searchAllowedIds !== null) show = searchAllowedIds.has(id);
+    if (show && activeSubject)                         show = row.dataset.subject === activeSubject;
+    if (show && visited)                               show = row.dataset.attended === visited;
+    if (show && notes === 'true')                      show = row.dataset.hasNotes === 'true';
+    if (show && !showNonInformative && row.dataset.nonInformative === 'true') show = false;
+    if (isHidden && !showHidden)                       show = false;
+
+    row.style.display = show ? '' : 'none';
+    row.classList.toggle('row-hidden', show && isHidden);
+
+    // Keep summary row in sync
+    const sr = document.getElementById(`summary-row-${id}`);
+    if (sr && sr.style.display !== 'none' && !show) sr.style.display = 'none';
+    if (show) visible++;
+  });
+
+  updateDateGroups();
+  document.getElementById('filter-count').textContent = `${visible} of ${allRows.length} sessions`;
+  document.getElementById('empty-state').classList.toggle('hidden', visible > 0);
+}
+
+function updateDateGroups() {
+  document.querySelectorAll('.date-group').forEach(group => {
+    const dateKey = group.dataset.dateGroup;
+    const rows = group.querySelectorAll('.session-row');
+    const anyVisible = Array.from(rows).some(r => r.style.display !== 'none');
+    group.style.display = anyVisible ? '' : 'none';
+    // Update session count label
+    const visibleCount = Array.from(rows).filter(r => r.style.display !== 'none').length;
+    const countEl = group.querySelector('.date-group-count');
+    if (countEl) countEl.textContent = `${visibleCount} session${visibleCount !== 1 ? 's' : ''}`;
+  });
+}
+
+// ── Search (FTS5 via API) ─────────────────────────────────────────────────────
+let searchTimer;
+const searchInput = document.getElementById('search-input');
+const searchSpinner = document.getElementById('search-spinner');
+
+searchInput.addEventListener('input', e => {
+  clearTimeout(searchTimer);
+  const q = e.target.value.trim();
+  if (!q) {
+    searchAllowedIds = null;
+    applyAllFilters();
+    return;
+  }
+  searchSpinner.classList.remove('hidden');
+  searchTimer = setTimeout(() => {
+    fetch(`/api/search?q=${encodeURIComponent(q)}`)
+      .then(r => r.json())
+      .then(data => {
+        searchAllowedIds = new Set(data.results);
+        applyAllFilters();
+      })
+      .finally(() => searchSpinner.classList.add('hidden'));
+  }, 220);
+});
+
+// ── Attended filter ───────────────────────────────────────────────────────────
+document.querySelectorAll('[data-visited]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('[data-visited]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    filters.visited = btn.dataset.visited;
+    applyAllFilters();
+  });
+});
+
+// ── Notes filter ──────────────────────────────────────────────────────────────
+document.querySelectorAll('[data-notes]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('[data-notes]').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    filters.notes = btn.dataset.notes;
+    applyAllFilters();
+  });
+});
+
+// ── Subject area filter ───────────────────────────────────────────────────────
+document.getElementById('subject-filter').addEventListener('change', e => {
+  activeSubject = e.target.value;
+  applyAllFilters();
+});
+
+// Support direct link from /subjects page (?subject=agentic_ai)
+const urlSubject = new URLSearchParams(window.location.search).get('subject');
+if (urlSubject) {
+  const sel = document.getElementById('subject-filter');
+  if (sel) { sel.value = urlSubject; activeSubject = urlSubject; }
+}
+
+// ── Summary expansion ─────────────────────────────────────────────────────────
+const summaryCache = {};
+
+function toggleSummary(sessionId, btn) {
+  const summaryRow = document.getElementById(`summary-row-${sessionId}`);
+  const sessionRow = btn.closest('tr');
+  const isOpen = summaryRow.style.display !== 'none';
+
+  // Close all other open summaries
+  document.querySelectorAll('.summary-row').forEach(r => { if (r !== summaryRow) r.style.display = 'none'; });
+  document.querySelectorAll('.session-row').forEach(r => { if (r !== sessionRow) r.classList.remove('expanded'); });
+
+  if (isOpen) {
+    summaryRow.style.display = 'none';
+    sessionRow.classList.remove('expanded');
+    return;
+  }
+
+  summaryRow.style.display = '';
+  sessionRow.classList.add('expanded');
+
+  const panel = document.getElementById(`summary-${sessionId}`);
+  if (summaryCache[sessionId]) { renderSummary(panel, summaryCache[sessionId]); return; }
+
+  panel.innerHTML = '';
+  summaryRow.querySelector('td').innerHTML = `<div class="summary-loading"><div class="spinner"></div> Loading summary…</div>`;
+
+  fetch(`/api/session/${sessionId}/summary`)
+    .then(r => r.json())
+    .then(data => {
+      summaryCache[sessionId] = data;
+      summaryRow.querySelector('td').innerHTML = `<div class="summary-panel" id="summary-${sessionId}"></div>`;
+      renderSummary(document.getElementById(`summary-${sessionId}`), data);
+    })
+    .catch(() => {
+      summaryRow.querySelector('td').innerHTML = `<p class="muted" style="padding:14px 18px 14px 50px">No summary available for this session.</p>`;
+    });
+}
+
+function renderSummary(panel, data) {
+  if (!data || !data.summary) {
+    panel.innerHTML = '<p class="muted" style="padding:4px 0">No summary available.</p>';
+    return;
+  }
+
+  const takeaways = (data.key_takeaways || []).map(t => `<li>${t}</li>`).join('');
+
+  const sections = (data.sections || []).map(sec => {
+    const pts = (sec.key_points || []).map(p => `<li>${p}</li>`).join('');
+    return `<div class="section-item">
+      <div class="section-item-header">
+        <span class="section-item-title">${sec.topic}</span>
+        <span class="section-time">${sec.start_time} – ${sec.end_time}</span>
+      </div>
+      ${pts ? `<ul class="section-points">${pts}</ul>` : ''}
+    </div>`;
+  }).join('');
+
+  const entities = (data.entities || []).map(obj => {
+    const [[term, count]] = Object.entries(obj);
+    return `<span class="entity-tag" onclick="openEntityModal('${term.replace(/'/g, "\\'")}')">
+      ${term}<span class="entity-tag-count">${count}</span>
+    </span>`;
+  }).join('');
+
+  panel.innerHTML = `
+    <p class="summary-text">${data.summary}</p>
+    <div class="summary-grid">
+      <div>
+        <div class="summary-section-label">Key Takeaways</div>
+        <ul class="takeaway-list">${takeaways || '<li class="muted">None listed.</li>'}</ul>
+        ${entities ? `<div class="summary-topics"><div class="summary-section-label" style="margin-top:14px;margin-bottom:8px">Topics</div><div class="entity-tags">${entities}</div></div>` : ''}
+      </div>
+      <div>
+        <div class="summary-section-label">Sections</div>
+        <div class="sections-list" style="margin-top:9px">${sections || '<p class="muted">None listed.</p>'}</div>
+      </div>
+    </div>`;
+}
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+updateHideButtonIcons();
+updateHiddenBadge();
+// Non-informative sessions are hidden by default; button starts inactive (not active)
+// showNonInformative is already false so the filter hides them automatically
+applyAllFilters();
+</script>
+{% endblock %}

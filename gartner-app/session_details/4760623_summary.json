@@ -1,0 +1,77 @@
+{
+  "summary": "The session showcased how AI agents integrated into a data fabric can transform healthcare by improving clinician workflows and patient interactions. A demonstration highlighted the use of AI to streamline documentation and enhance decision-making during doctor-patient conversations. Key design considerations included ensuring data quality, governance, and the importance of keeping humans in the loop.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to AI in Healthcare",
+      "key_points": [
+        "AI can relieve clinician burnout by automating documentation.",
+        "Generative AI projects often fail to deliver expected ROI."
+      ],
+      "start_time": "00:00:07",
+      "end_time": "00:05:15"
+    },
+    {
+      "order": 2,
+      "topic": "Demonstration of AI in Action",
+      "key_points": [
+        "AI supports clinicians by summarizing patient histories.",
+        "The solution captures and organizes patient interactions seamlessly."
+      ],
+      "start_time": "00:05:15",
+      "end_time": "00:18:45"
+    },
+    {
+      "order": 3,
+      "topic": "Key Design Considerations",
+      "key_points": [
+        "AI agents require comprehensive data context to make accurate decisions.",
+        "Governance and ethical use of data are critical in healthcare."
+      ],
+      "start_time": "00:18:45",
+      "end_time": "00:24:29"
+    },
+    {
+      "order": 4,
+      "topic": "Data Fabric Architecture",
+      "key_points": [
+        "A data fabric enables integration of structured and unstructured data.",
+        "Real-time feedback loops ensure human oversight in AI decision-making."
+      ],
+      "start_time": "00:24:29",
+      "end_time": "00:33:45"
+    }
+  ],
+  "key_takeaways": [
+    "AI can significantly reduce the documentation burden on healthcare providers.",
+    "Integrating AI into clinical workflows enhances patient care and decision-making.",
+    "Maintaining data quality and governance is essential for successful AI implementations."
+  ],
+  "entities": [
+    {
+      "ai agents": 10
+    },
+    {
+      "data fabric": 8
+    },
+    {
+      "generative ai": 5
+    },
+    {
+      "patient care": 6
+    },
+    {
+      "documentation": 7
+    },
+    {
+      "governance": 4
+    },
+    {
+      "decision-making": 6
+    },
+    {
+      "ehr": 4
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

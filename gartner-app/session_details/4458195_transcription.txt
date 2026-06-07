@@ -1,0 +1,347 @@
+[00:00:04] My name is Alan, Duncan I'm 1 of the research analysts in our data and analytics uh strategy practice.
+[00:00:11] Um, my contributions include looking after chief data analytics officers and others hit. Head leads of data, analytics AI in terms of your role. Um, which is
+[00:00:24] The basis of today's session. We also look at uh aspect of data strategy, uh, data and analytics operating model. Um, and the subject that's close to my heart around, all the change management and business impact, aspects of how do we ensure that actually, this is not just a technical challenge, but,
+[00:00:45] Actually becomes an organizational impact as well.
+[00:00:49] For today. Um, we're looking at uh some of the factors that we identify as helping you individually, be successful.
+[00:01:00] In your role. Now that obviously then translates into what are we doing with our teams?
+[00:01:05] What are we doing? Within our organizations?
+[00:01:08] um, and we're looking at some of the factors that
+[00:01:11] Take into account plan for um, so that you can actually curate your own success and own careers.
+[00:01:20] We are still.
+[00:01:23] I guess evolving, what the chief data analytics officer means.
+[00:01:29] Many of you.
+[00:01:30] You are still the first 1 in your organization.
+[00:01:35] Um,
+[00:01:37] the onset of artificial intelligence.
+[00:01:41] Whatever you choose AI to mean, is a major major factor?
+[00:01:47] And we've got, um, aspects around as you maybe saw in the keynote, you know, aspects around mandate for change.
+[00:01:56] And yet, when we start to execute, again that mandate we almost get thwarted by other things that get thrown at us. Um, and how do we then,
+[00:02:08] Adopt and apply discipline.
+[00:02:12] In scenarios of.
+[00:02:15] Chaotic.
+[00:02:17] Uh, environments, or if not chaotic, at least, you know, degrees of uncertainty.
+[00:02:24] um, we were also seeing that there's a dichotomy between what we were expected to be able to deliver against
+[00:02:31] And how much that's getting funded.
+[00:02:34] Yeah, and what we're expected to deliver against.
+[00:02:38] And the skills and the knowledge, and the understanding of folks around us.
+[00:02:43] Be careful what you wish for.
+[00:02:46] So,
+[00:02:48] It is a brilliant opportunity for all of us to set our stall out.
+[00:02:54] To lead.
+[00:02:56] Yeah, and and go beyond.
+[00:02:58] Excellence of technical.
+[00:03:00] delivery and into something that is more about, um,
+[00:03:04] you know, almost
+[00:03:07] Philosophical change in the way that our organizations, think and work and operate.
+[00:03:13] but if we're going to achieve that,
+[00:03:17] Shift then we need to do our own work to prepare ourselves to be that kind of leader.
+[00:03:26] and,
+[00:03:27] We're going to look through in terms of a few things that will help us shape those choices.
+[00:03:34] I'm going to start with looking at.
+[00:03:37] Trend impacts of things that we just need to pay attention to what's going on in our world.
+[00:03:42] We're then going to look at some of the challenges.
+[00:03:45] That we face and the issues and the blockers to progress. And then we're going to look at some actions that we can immediately take that. Might
+[00:03:52] make a difference to ourselves. Yeah.
+[00:03:56] um, and so Trend number 1 is around
+[00:04:01] the value of what we do.
+[00:04:04] It's a fairly typical thing that people could tell you what they do.
+[00:04:10] And if they're reasonably good at it, they can tell you how they do those things.
+[00:04:16] It's much smaller seldom that we can articulate.
+[00:04:21] Why those things matter?
+[00:04:23] What are the outcomes that we get? Oh, we're you know, we've just spent the last 6 months building.
+[00:04:30] Our new data platform.
+[00:04:33] But so what?
+[00:04:36] You know, we've implemented all of these new reports and dashboards for for our um business operations.
+[00:04:43] And what did we get as a result?
+[00:04:46] And so on. And you can see here,
+[00:04:49] With all of the different ways in which you could.
+[00:04:53] Choose to measure and articulate our impact.
+[00:04:59] At best.
+[00:05:02] 60% of us are articulating. Those impacts in a meaningful, measurable way.
+[00:05:08] And you can make your own choices, whether you would consider that. It's not real, unless,
+[00:05:15] It's been extremely impactful. Now, we typically would say
+[00:05:21] You're achieving something, if you're hitting.
+[00:05:25] Extremely or notably impactful, by the time you get to moderately marginally.
+[00:05:31] Doesn't really count.
+[00:05:33] Right now, I'm not going to ask your hands or anything, but if you look here at that list of here are all the ways in which we could track and measure the value of what we do as a data analytics function and the contribution that we make to the organizations that we work for.
+[00:05:49] And actually, it doesn't matter whether we're commercial or public sector in this regard, right? I mean, all of those different measures are ways in which we can articulate value.
+[00:05:57] And challenge yourself to say,
+[00:06:00] Which of those ones could we hand on her quantifying and communicate the impact we're having?
+[00:06:07] We all have our own different stories.
+[00:06:12] but probably a lot of us are struggling in terms of
+[00:06:16] Getting this kind of traction Fair.
+[00:06:21] And yet we're being asked to do more potentially with less or different investment AIS, being thrown at us as a thing.
+[00:06:31] Nobody cares about data governance.
+[00:06:35] We've spent all this time and money and energy building out our platforms.
+[00:06:40] We've got to start communicating in terms of.
+[00:06:44] and here is,
+[00:06:45] What that all adds up to.
+[00:06:48] You know, so pressure to deliver value and be seen to deliver value.
+[00:06:55] Huge.
+[00:06:59] And really that's on us. Not
+[00:07:01] on our
+[00:07:03] Business counterparts, and stakeholders.
+[00:07:06] We've got to tell our own story.
+[00:07:10] In order you do that, of course we have to be able to do delivery of stuff and things.
+[00:07:17] And you can see here there's a again a very mixed bag in terms of our success of delivering the stuff and things.
+[00:07:25] so communicating on the 1 hand, of course, we have to tell the story,
+[00:07:30] Actually, we've also got to be able to execute and deliver.
+[00:07:33] The satisfaction levels are variable.
+[00:07:38] Very, very crucially there. That stuff around, AI tools platforms and models is enabled by all of the underlying foundational stuff.
+[00:07:49] There are a lot of AI projects and you guys will know this only too well a lot of AI projects that are going on at the moment.
+[00:07:56] That are rapidly moving forward with the deployment of the tools.
+[00:08:01] And paying no attention whatsoever to the things that actually create foundations that go into successful, analytical models, it used to be garbage in garbage out.
+[00:08:13] It's now garbage in.
+[00:08:15] Semblance of authority out.
+[00:08:18] Because our some of our colleagues who are blindly starting to use, chat, GPT or co-pilot or gemini, or whatever are actually still too stupid to own a computer.
+[00:08:30] Right. So there's a real real challenge here that says, if we are going to be successful
+[00:08:36] Then we have to be the grown-up in the room that's making sure that what we're feeding into those analytical and AI engines is trustworthy accurate complete and so on.
+[00:08:50] But I also have to be able to communicate that in a way that people understand and care about on their terms, not on ours, because nobody gives a damn about data.
+[00:09:00] Governance.
+[00:09:01] Nobody gives a damn about the implementation of the data leak.
+[00:09:08] Saving ourselves, of course.
+[00:09:11] but those things are enablers of
+[00:09:15] Better Revenue Generation by understanding who our customers are and which ones are profitable or not. Or they're enablers of understanding what our citizens expect from the services of our government agency, and whether we're providing those services,
+[00:09:30] Successfully based on the funding allocation we've been given from Treasury.
+[00:09:36] And so on and so on and so on, you see what's going on there? The the trend here around the narratives of understanding and communicating purpose.
+[00:09:46] Linking to all of the underlying capability that we need to deliver in order to enable that purpose.
+[00:09:53] The conversation goes in, both directions.
+[00:09:56] And it's exacerbated and it's heightened and its accelerated by all of the nonsense that's going on with artificial intelligence.
+[00:10:04] That is just adding fuel to the fire.
+[00:10:08] We've got to deal with that. And I would argue on your all behalf.
+[00:10:14] The nobody else in the organization that you work for whichever, so it is is better positioned to have those discussions than you guys.
+[00:10:22] But you've got to choose to have those conversations in that way.
+[00:10:26] Yeah.
+[00:10:28] Good.
+[00:10:30] so,
+[00:10:31] If that's the context that we're working with then in terms of the major Trends and themes.
+[00:10:38] Communicate value.
+[00:10:40] More so than ever before. We've you know, it's no longer a trust case based approach and be able to orchestrate and understand all of the foundational capability. While we're also missing around with all these new
+[00:10:55] toys and tricks.
+[00:10:57] then obviously that raises some things that we need to deal with and so
+[00:11:01] The issues that we're dealing with the challenges that come up.
+[00:11:07] if we are going to succeed but also if we are going to protect ourselves,
+[00:11:15] Then we've got to be very very clear and explicit about what's going on. That's actually thwarting us right now.
+[00:11:23] Right.
+[00:11:25] And it's amazing, how many organizations we speak to where the desirable ambition.
+[00:11:32] Is articulated in the strategy?
+[00:11:36] Maybe not always as clearly and explicitly as it could be, but that's, you know, okay. But at least we have some view as to what
+[00:11:43] good or better might look like,
+[00:11:46] And then we've got the operating model view that says and here's how we're going to deliver it and nobody's having a conversation about all of the elephants that are in the room.
+[00:11:56] Of our culture sucks.
+[00:11:58] And no.
+[00:12:00] Nobody's actually identifying how much funding we really need to do this.
+[00:12:04] And we've got a CFO, who knows the cost of everything and the value of nothing.
+[00:12:08] And the business say that data's, it is problem. Anyway.
+[00:12:12] Right.
+[00:12:14] How we going to overcome those things? How are we going to seek investment to put the work in the resourcing and the skills? And the technologies that enable us to overcome these? How are we going to deal with those? If we don't get them, explicitly out on the table.
+[00:12:29] The has to be the long hard look in the mirror. That says, here's what we're dealing with.
+[00:12:34] And again, our own self protection would be to get these out on the table.
+[00:12:40] Yeah.
+[00:12:42] Now.
+[00:12:45] Some of you will be experiencing some of these.
+[00:12:48] Some of you will experiencing most of them.
+[00:12:54] Good luck.
+[00:12:56] How many of you are actually putting those on the table?
+[00:12:59] Explicitly and saying, here are the things that we need to invest in.
+[00:13:04] if you want all of those nice business benefits,
+[00:13:08] And articulating it in that way, right? Show hands. Yeah. Thank you. Well done, good, right. It's not that many hands going up.
+[00:13:17] The honesty factor of this is what we're faced with guys. You know, our people don't have the data literacy, to be able to understand and interpret. The information, we are providing to them in those reports and dashboards
+[00:13:30] Our chief executive can't even spell AI.
+[00:13:33] These are all realities.
+[00:13:35] Right. I mean, I I'll I'll give you the the, the basic that says, if a senior executive comes and says, we need Ai and we need it tomorrow.
+[00:13:45] Then they probably don't know what anything of what that means and therefore they almost certainly don't need AI.
+[00:13:51] Probably not for at least the next year.
+[00:13:55] Right. And there's a conversation for another day about Executive Education and literacy and so on, however,
+[00:14:01] Deal with the elephant.
+[00:14:04] Hair in the room.
+[00:14:06] Don't let it Stampede you.
+[00:14:09] Get them out there and visible.
+[00:14:12] And then we're in a position to negotiate.
+[00:14:15] How are we going to address those things?
+[00:14:19] But if we don't do that.
+[00:14:21] We're sunk.
+[00:14:26] Here's the view particularly with respect to the generative Ai and and and AI aspect of this, the foundational aspects that we all care about and rightly. So,
+[00:14:39] Are the factors that not enough? People are having a discussion about when it comes to and let's install co-pilot and give it to everybody in. In our company, Microsoft are giving it for a dollar a day per person, yippee
+[00:14:55] And what about the ethics of whether we should be doing that? And how
+[00:15:00] We looked at the information quality that we're feeding into those engines.
+[00:15:04] And is the information um, actually.
+[00:15:08] Properly managed from a life cycle point of view.
+[00:15:13] so that we're only looking at the proper and up-to-date versions rather than
+[00:15:21] old version controlled information sets.
+[00:15:24] Have we got people that understand the outputs that they're providing when they asked uh, a question to the engine and have got enough knowledge to recognize that. Oh, it's missed some stuff out and there are gaps in what the
+[00:15:39] um,
+[00:15:41] you know, the uh, prompt has given me or oh,
+[00:15:45] It's hallucinating.
+[00:15:48] By the way, how many of you guys know a human being that has that actually hallucinates?
+[00:15:55] You, you want to 1 1?
+[00:16:06] Very, very we meet very very few human beings who hallucinate right?
+[00:16:11] if somebody a human being came along and said to you, what some of these generative AI outputs are saying,
+[00:16:19] you wouldn't call it a hallucination. You'd see that person was lying.
+[00:16:24] Yes.
+[00:16:26] But you need enough knowledge to understand when somebody is telling you a lie.
+[00:16:31] All right.
+[00:16:32] And do we have people who have that no background knowledge and skill, you can only get efficiency gains and and uh you know productivity benefits if you're knowledgeable enough.
+[00:16:45] To know what the machine is giving you, and then what to do with that. So, it doesn't tell you when it's
+[00:16:52] Uh, giving gaps, it doesn't tell you when it's lying to you.
+[00:16:56] And know generative AI application. At the moment will come to you and say Allan that was a really stupid question. You should have asked this instead.
+[00:17:05] Right. So who's dealing with those kinds of things?
+[00:17:09] In your current startup pilot.
+[00:17:15] Pil.
+[00:17:15] It, um, clawed.
+[00:17:18] Uh, projects.
+[00:17:20] Good luck. If I sure hands and I'd expect maybe 5 Hands in the room. If, if I was lucky
+[00:17:27] Yeah.
+[00:17:29] Lots and lots to think about that aren't being thought about.
+[00:17:33] Some of them are things that we would know about already with data quality and data, governance and blah.
+[00:17:39] But there's other factors at play that somebody needs to pay attention to.
+[00:17:45] And then we have to ask, do, we actually have the skills and competencies to be able to execute?
+[00:17:52] I see very, very few folks that have got part of their project and portfolio management a step.
+[00:18:00] That says.
+[00:18:02] When we've understood what the requirements are.
+[00:18:05] Do we evaluate whether we've got the skills and competencies and capability, and capacity to deliver that?
+[00:18:12] We take it on trust that the business. People understand their business processes and decision, making false assumption.
+[00:18:19] You know, we take it on trust that the folks who are doing the developing and coding have actually got the skills and the knowledge to build those Solutions.
+[00:18:28] Sometimes false assumptions.
+[00:18:30] We take it on trust that people understand what having good data governance means false assumption.
+[00:18:37] If we are going to succeed,
+[00:18:39] then there's a duty of care to ourselves and to the folks around us to stop every
+[00:18:45] Every single time.
+[00:18:47] And ask are we ready for this?
+[00:18:52] Do we have the skills? The companies, the capacity to deliver? Whatever it's being asked for, if you want to achieve those outcomes,
+[00:18:59] While, at the same time, overcoming the challenges and problems.
+[00:19:03] And you can see there that, you know, the kind of capabilities that we're talking about, a lot of them are things that we would already know and understand.
+[00:19:12] I would trust and hope that your teams have keep capability and capacity to do a lot of those things.
+[00:19:17] But there are extensions that require new learning, new skills, new competencies, or if not entirely new skills and competencies.
+[00:19:26] Then at least refactoring of things that we already knew.
+[00:19:30] Know how to do.
+[00:19:31] And do them in a different way for the outcome.
+[00:19:37] Final Challenge and I'll guarantee that every last person in this room.
+[00:19:42] Has at some point complained about the fact that our business runs in silos.
+[00:19:49] Anybody not ever had that complained and said it out loud.
+[00:19:55] Yeah, good, right? So this is a brilliant opportunity.
+[00:19:59] Right? Because the reason that we are in silos,
+[00:20:05] Is not because people are malign.
+[00:20:07] Not often.
+[00:20:09] but because they think and work and behave and have been required to
+[00:20:15] And work and behave in business process terms.
+[00:20:20] Right. Even if we're not.
+[00:20:22] Structured in a way that means that our business processes are properly fully documented all down to the procedural level. And so on, you will have people in your organizations. The majority of them articulate in terms of this is what I do.
+[00:20:37] And this is how I do that.
+[00:20:40] Their job description.
+[00:20:42] responsibilities task activity activity task not
+[00:20:48] outcome to achieve, is this or that or the other
+[00:20:52] so,
+[00:20:54] at a personal level, it's all task activity process.
+[00:20:58] when you put a bunch of people together and we
+[00:21:00] We call that a function, guess what? The function is defined by task activity process.
+[00:21:06] And if we've got this group of people in finance, doing Finance function, activity process and we've got the marketing for guys who have been tasked with and assigned.
+[00:21:17] Marketing functions, task activity process and operations who have been assigned and tasked with you know function process guess what?
+[00:21:26] Without actually designing it. So we've already entered everybody towards this is what I do and this is how I do it.
+[00:21:34] Yes.
+[00:21:37] And we've almost trained it out of them to think about why am I doing this?
+[00:21:44] there's,
+[00:21:45] Hardly any discussion about actually, how would I know if we've succeeded the measurable outcomes? Some of you will have reasonably well-defined kpis and metrics good but a lot of the time actually the kpis and metrics that we see are rubbish and tell you nothing about actually what's going on?
+[00:22:02] And there's nobody thinking about and what would better look like?
+[00:22:06] And better could be.
+[00:22:08] Um, I am going to do the thing that I do, but improve it.
+[00:22:14] Or it could be. We're going to actually find different things to do.
+[00:22:18] Yeah, so not not just. Um, am I doing things right? But am I doing the right things?
+[00:22:26] Here's where our unique opportunity comes.
+[00:22:30] because if we start to ask,
+[00:22:33] why are we doing these things? And what outcome are we trying to achieve? Then we're introducing a problem-solving approach linguistically before we get into technique and Method and by doing so,
+[00:22:46] you can then start to say if we want to achieve this outcome,
+[00:22:50] Who needs to contribute?
+[00:22:53] Not.
+[00:22:55] Who's responsibility is this? And what?
+[00:22:58] Um, you know who owns it?
+[00:23:02] But rather.
+[00:23:04] Who can contribute to it?
+[00:23:06] And immediately you were into a much more collaborative approach.
+[00:23:10] Right? And the data and analytics and AI agenda right now is probably the only
+[00:23:15] Li place that we can stimulate that shift from activity and tasks based. This is what I do and this is how I do it to a problem-solving transversal approach, which is to say, what are we trying to achieve and who can contribute to it?
+[00:23:32] so,
+[00:23:33] take the opportunity to challenge back.
+[00:23:37] And push your colleagues.
+[00:23:40] Into this.
+[00:23:42] Problem-solving way of approaching things. We still might hit the buffers that say. Actually they haven't got the skills in the competencies to think this way. Okay, then we can talk about data and the literacy skills and so on and problem solving techniques and methods.
+[00:23:57] But it changes the conversation.
+[00:24:00] And it only happens if we start to think in transversal methods, stop complaining about silos.
+[00:24:08] And start introducing a conversation that by its very nature.
+[00:24:13] Bypasses that.
+[00:24:15] Assigned due duties tasks function and starts to talk about outcomes instead.
+[00:24:21] Really powerful.
+[00:24:23] Yeah.
+[00:24:25] so,
+[00:24:27] Setting ourselves up to say that we want to achieve those outcomes. These are things that currently get in the way of all of that. Then we can now start to take action as a result to say, Okay? So let's be responsible for
+[00:24:41] Our own destiny.
+[00:24:43] First thing.
+[00:24:45] Is that we've got to be clear and explicit about what all the expectations actually are.
+[00:24:51] Which means a defined strategy.
+[00:24:56] Which is really just an articulation of what are we doing? Why are we doing that? And who are we doing it for?
+[00:25:03] And are defined operating model.
+[00:25:06] How do we do all of that and who is going to do the work?
+[00:25:10] For those of you who are interested tomorrow morning, I am doing a a session on how to shortcut this process of defining, the strategy View. And tomorrow afternoon, I'm doing a session on how to pull together, all the things that need to go into the operating model view. So we'll drill into that further tomorrow. But I have to be clear in the expectation.
+[00:25:30] Ations.
+[00:25:31] Right. The strategy and operating model constructs are our opportunity to articulate.
+[00:25:37] This is what we're choosing to do and why? And so on it also is our opportunity to articulate. This is what we're choosing not to do right now.
+[00:25:47] And sometimes seeing we're leaving that alone.
+[00:25:50] Is more important than this is what we are doing.
+[00:25:53] Because you know, there will be people that come and moan and complain about why they are pet project isn't being done.
+[00:26:00] If we thought it through and been clear and explicit,
+[00:26:04] I can park those objections.
+[00:26:07] This is not once and done.
+[00:26:10] Particularly beloved of government agencies and public sector. Or we've got a 3 or 5 year,
+[00:26:15] Strategy, strategic plan.
+[00:26:17] Right.
+[00:26:18] 3 to 5 years is never in our current world.
+[00:26:22] Write 3 to 5, quarters is probably the longest term that you want to be thinking about.
+[00:26:28] And then it's a rolling programme 369, 12 months. And every quarter we reassess
+[00:26:35] Their may not be any changes to make, okay, fine carry on.
+[00:26:39] But if there are new trigger aspects, you can considerations, then we can plan those in so add agile program and portfolio management, using the strategy articulation and operating model to be able to be clear and explicit and get a shared consensus. Understanding of what we've chosen to do and what we've not
+[00:27:00] Doing.
+[00:27:05] Secondly.
+[00:27:08] Value management.
+[00:27:11] How do we make sure that we are articulate? What are we doing? And how it works all the way through to here is the business purpose that it serves
+[00:27:21] Or these are the business purposes that we are trying to serve. And therefore
+[00:27:26] Here are the capabilities that we need to develop and build upon.
+[00:27:31] I meet very very few colleagues in the industry and our industry who do foral value.
+[00:27:39] Uh, stream mapping.
+[00:27:43] All right.
+[00:27:45] This should be part of your data cataloging for example, but not just what data have we got, but which business processes does it support and what's the outcomes of those business processes? Here's the data that we've got. Which decisions does that support?
+[00:27:57] And how do we articulate? Those decisions?
+[00:28:00] Yeah.
+[00:28:01] if I take that intellectual examination of our business,
+[00:28:07] and track it through the narratives of
+[00:28:11] how do we build stuff? What does that deliver?
+[00:28:14] Why does that matter to whom? And how do we know if we're being successful?
+[00:28:19] We've got some brilliant opportunity then to influence the choices that we make.
+[00:28:26] You must start to adopt formal.
+[00:28:30] Value management and and value mapping take techniques.
+[00:28:35] Which sets the context for all of the capability, building the skills and competencies in the team, the new technologies and tools that we need etc, etc.
+[00:28:45] Enough said about that, you're all doing this stuff. I'm absolutely sure.
+[00:28:50] Yeah, but now we've got rationale as to why all of those capability building things are actually going to.
+[00:28:58] Have an impact and a value in a different. And then the final thing to think about is the cultural aspects of all of this winning, the hearts and minds of people.
+[00:29:08] Changing the way they think and work and behave.
+[00:29:12] Our recent work.
+[00:29:14] Over the last.
+[00:29:15] 4 years has been on the characteristics of organizations that our data driven.
+[00:29:20] Was was published research on this where we're leading now is the well, the influence of AI.
+[00:29:28] Um, has to do to some of these expectations around those cultural and behavioral expectations.
+[00:29:36] Again we need to be very very proactive on the front foot of guiding people through and being clear and explicit about what expected.
+[00:29:46] And that's where these kinds of.
+[00:29:49] Expectation, setting activities can really really help get everybody on the same page.
+[00:29:54] Talking the same language understanding each other so that we can make progress.
+[00:30:01] all of that is really, really quite
+[00:30:04] Complex, of course it is.
+[00:30:07] But if you unpack it and put it back together again with discipline,
+[00:30:12] you end up with a journey to success where we understand all of the elements and how they fit together and support each other to become more than the sum of their parts.
+[00:30:24] That's what all of this is about.
+[00:30:28] I wish you all well, regardless of your current context.
+[00:30:34] You know, whether you are leading the delivery aspects or whether you're trying to bring business people together or whether you're actually trying to drive your organization into a whole new Direction. Yeah.
+[00:30:45] But you can and you will succeed.
+[00:30:49] If you pay attention.
+[00:30:51] To the outcomes, we're trying to drive the things that are inhibiting us and the choices that you make.
+[00:30:59] with, of course, support
+[00:31:02] From the tools and accelerators that we can bring to bear for you.
+[00:31:06] Thank you for your time. This afternoon. I wish you very much success and enjoy the rest of the week. Thank you.

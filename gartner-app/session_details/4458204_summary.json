@@ -1,0 +1,85 @@
+{
+  "summary": "The session focuses on AI-first organizations and the technologies they are implementing to enhance data analytics capabilities. It highlights the importance of context, governance, and agentic analytics in driving value from AI. The speaker presents two vendors showcasing solutions for building context from structured and unstructured data.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to AI-First Organizations",
+      "key_points": [
+        "Highlighting technology implementations in AI-first organizations",
+        "Setting expectations for session structure"
+      ],
+      "start_time": "00:00:05",
+      "end_time": "00:02:05"
+    },
+    {
+      "order": 2,
+      "topic": "Importance of Context and Governance",
+      "key_points": [
+        "Context is crucial for AI agents to operate effectively",
+        "Governance is necessary to drive value and trust in AI"
+      ],
+      "start_time": "00:02:05",
+      "end_time": "00:04:30"
+    },
+    {
+      "order": 3,
+      "topic": "Vendor Demonstrations",
+      "key_points": [
+        "Atland's context Lakehouse for structured data",
+        "Flexor's AI context engine for unstructured data"
+      ],
+      "start_time": "00:04:30",
+      "end_time": "00:12:59"
+    }
+  ],
+  "key_takeaways": [
+    "AI-first organizations are moving beyond experimentation to scale AI deployments.",
+    "Context is essential for the effective operation of AI agents and analytics.",
+    "Governance must evolve to be embedded within AI systems to ensure trust and value."
+  ],
+  "entities": [
+    {
+      "AI": 5
+    },
+    {
+      "context": 6
+    },
+    {
+      "governance": 4
+    },
+    {
+      "agentic analytics": 2
+    },
+    {
+      "data": 10
+    },
+    {
+      "unstructured data": 3
+    },
+    {
+      "structured data": 2
+    },
+    {
+      "analytics": 3
+    },
+    {
+      "data lakehouse": 2
+    },
+    {
+      "business context": 3
+    },
+    {
+      "semantic model": 3
+    },
+    {
+      "data warehouse": 2
+    },
+    {
+      "flexor": 2
+    },
+    {
+      "atland": 2
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

@@ -1,0 +1,163 @@
+[00:00:03] Welcome. Come on. In my name is Fran Wilson and I'm the chief marketing officer for Sumari. Um, and I'm delighted to have my friend and valued customer Anish here from densu. He's going to share, uh, just a bit about his journey with, uh, Samari and their MDM projects and, uh, look forward to your feedback. We are Booth 704 downstairs and would welcome you to stop by at any point uh during the next 2 days and have a conversation. So with that, I'm going to turn it over to honest. Thank you. No, thank you Frank.
+[00:00:40] So hi, good morning everyone. Um, my name is Anish.
+[00:00:45] On bmdm lead for, for for density. And I'm just going to take you today through the Journey of our MDM experience going over the over the last few few years.
+[00:00:56] Um, I'll talk a little bit about denser who denser because that's quite important to understand uh the type of data challenges. We have
+[00:01:04] And then I'll talk about a little bit about how we actually look to solve some of the difficult data problems we had. And why we ended up choosing semari as our MDM solution.
+[00:01:17] So let's dive into who densu is densu is a Japanese Media Company. It's the seventh largest Media Company worldwide.
+[00:01:27] uh, we have over 70,000 employees, we
+[00:01:30] Serve, uh, clients in over 145 companies.
+[00:01:34] Um and the client base tends to be large. Blue Chip uh clients from from around the world the the company originally
+[00:01:43] in Japan was founded in 1901 so it's been going a long time. And in Japan, it is the number 1 media uh, company there.
+[00:01:53] so on your uh, on on your right hand side, you'll see some of the
+[00:01:58] uh larger organizations that were within the dense who uh umbrella of companies Carrara tag Merkel, and on your left hand side, you'll see on my left hand side, sorry, you'll see some of the Blue Chip clients that densu has
+[00:02:16] so, the story is very, uh,
+[00:02:19] Interesting. Um let me just go back a slide.
+[00:02:23] The story is very interesting. Um there are lots of organizations within the densu umbrella. There are lots of Acquisitions um and back in 2012, densu acquired what densu decided to go Global. They acquired a company called densu AIS or Aegis Network which then became denser ages.
+[00:02:45] Um and that was a network of media companies. What is remarkable since then? Several hundred companies have been acquired in a short period of time. Um so that's only about 14 years uh from from now and that
+[00:03:00] Causes a lot of problems. Uh, if any of you have been involved in an acquisition, you know how difficult it is to actually have a company to commercially integrate it, let alone work on the it and the data infrastructure. You have have their
+[00:03:18] But we wanted to rationalize all these companies. And at the time we had 3 lines of business lines of business, uh, Creative Media and cxm. Now, we have about 3 or 4 more and the idea was to get all the services rationalized them and put them together.
+[00:03:36] But as you can imagine, from a data angle which was the area, I was involved. It's quite a problem.
+[00:03:43] because each
+[00:03:45] 1 of these organizations has a CRM system, it has a finance system, it has an Erp system um and so on. So if each company has 5 or 6 systems and they're all holding client information,
+[00:04:01] Um, and you got several hundred Acquisitions. That's a lot of data that we want to decide what to do with. So that's the that's the important factor here. It was this huge proliferation of organizations, and their data. How could we bring that together and create something meaningful when you had such a rapid acceleration of, um, companies and all of these companies weren't exactly the same in the previous.
+[00:04:30] Previous slide. Some of them were large. So they had Global clients, some had Regional clients, some had only local clients.
+[00:04:37] And so, all of this had to be uh bought bought together.
+[00:04:42] so,
+[00:04:44] how are we going to solve this problem back in about?
+[00:04:48] 2017, the company decided.
+[00:04:50] To create an Enterprise wide data Hub to collect all this data, um, and bring some Modern data technology. So we could, at least bring it together. At least start to analyze it and see what was actually going on.
+[00:05:06] So we went I think it was probably an 18-month period.
+[00:05:10] Where the business went looking for some data warehouse technology data Lake.
+[00:05:15] Um, analytics, MDM integration Technologies and we bought all these Technologies and went around.
+[00:05:23] Um the business of bringing all the data together. So the first thing we do is we need to get hold of all the data. So you've got to go to all these companies organizations around the world, and markets, create integration Integrations, to pull that data into a data warehouse.
+[00:05:40] So now we got the data into the data warehouse, but it's not just standard data, it's transactional data as well, it's not just client data, we wanted to know about the opportunities. It's not just Finance data. We want to know about the transactional finance information and how that was coming into into the data warehouse and what did that data Act?
+[00:06:00] Actually mean.
+[00:06:01] So in the architectural diagram, we created data mods for specific data domains.
+[00:06:08] So you would have a domain for let's say clients or time sheets or HR data and we had to create canonical data, formats, and structures, to translate that data into something we could actually uh look at analyze and uh do something with.
+[00:06:26] The 2 media. Well, the the most immediate use case was uh, analytics, how we're going to analyze this create company dashboards like client profitability, like Dash, resource utilization and so forth.
+[00:06:41] So, we managed to get the the the data together.
+[00:06:44] and as part of,
+[00:06:45] 1 of the small parts of that jigsaw is Master data management. Because we did have to bring the data together in a way that was going to be understandable. And how could we join it all all together?
+[00:07:00] um, and so we ended up
+[00:07:03] Going down the master data, management route and going through a 6-month procurement exercise to find an MDM partner. At the time, we looked at Informatica at a Karma, Trillium talent and IBM and in the end we ended up choosing semar key.
+[00:07:21] Um,
+[00:07:22] and the reason we chose somari is because it was very much a pure MDM play.
+[00:07:30] Um, the functionality was very strong.
+[00:07:33] uh we had other Technologies, we had other integration toolings, we had the data warehouse, we had best of breed technology all over the place but this was definitely in our eyes, the best of breed
+[00:07:44] When it came to MDM.
+[00:07:48] But it, but there was some unique um, aspects and features of semarchy. So the user interface was very strong which allowed us to do a lot of things which I'll speak about in a moment, but the delivery was quick. We were able to get the data into Samari very quickly and demonstrate it to the business and show the the value.
+[00:08:09] and and that was a big Advantage because we have to go inside and
+[00:08:15] Sell, um, MDM and those of you tried selling MDM, creating rois is not the easiest thing in the, in the world.
+[00:08:24] But I'm a believer that there's a probably a better way of selling MDM and that's to show people's data problems.
+[00:08:32] In an MDM solution.
+[00:08:34] So we went about getting all the data from all over the place and putting it in into some archive, very quickly from multiple systems and showing people. Look, here's your data. Look at the anomalies, look at the problems,
+[00:08:48] Um and it was the quickest way for senior people in my eyes and always has been to magically create some budget and decide. This is a way to to to go forward.
+[00:09:00] So, bad data showing it in MDM connected, the 2 things together.
+[00:09:04] Um, so once we decided to go ahead,
+[00:09:08] Uh, with with this we we, you know, we started to build our MDM team, not just our technical team.
+[00:09:15] But uh, our business team.
+[00:09:18] So we built a technical team, we decided to develop, um, semaki applications on our own.
+[00:09:24] And we decided to create a whole bunch of uh business domain leads data stewards, and so forth to engage all our stakeholders and markets on how uh MDM could be best used.
+[00:09:38] But as you can imagine, we spent a lot of time by the way, this this slide just shows some of the nice user interface.
+[00:09:45] um, that seemed like he has, um,
+[00:09:49] it is an important point when you're demonstrating data in a, in a nice UI, in a way that shows all the problems, people do engage with that and do, um, do understand that they need to fix that. And that's, that, that did create a lot of Rapid, uh, movement and confidence that at least this solution and our architecture was going to go forward onto the onto the next steps.
+[00:10:14] So, we were able to do that.
+[00:10:17] But you have lots of internal challenges.
+[00:10:20] Um, lots of people are not aware of Master data management and the benefits.
+[00:10:25] Um, everyone kind of agrees you need to standardize data, but getting Roi
+[00:10:30] Uh, through the door and understanding that that was is much more of a difficult uh exercise. And hence why we had to show the data in in the semeru product.
+[00:10:41] Data quality. Um when you've got 4 or 5 hundred Acquisitions, you can imagine there are some organizations who had lovely data quality. It was very good, others had
+[00:10:52] Zero To None U data quality. So not only have we got in our technology platform now, a whole bunch of canonical data, but we got this whole problem of very good data quality, which is a handful of organizations and then lots of bad data quality. Uh, so we had to make sense of of of
+[00:11:15] As well.
+[00:11:16] Operations wise, as I said it was only 2012 when the AC or the big acquisition Trail started. So the global processes were fairly
+[00:11:27] You know, very, very much in their infancy.
+[00:11:30] Um so they were being established and then we had to look at better ways of improving those Sops through data and how can we make that happen?
+[00:11:39] So we did dive into data entry standards guardrails for data propagation and governance and the source of Truth and where do the source of Truth come from? And that's not an easy question. Because when you've acquired several hundred Acquisitions, who's holding the source of Truth and where is it?
+[00:11:58] so, you have to go through every
+[00:12:00] single domain and ask where the source of truth is,
+[00:12:03] Uh, which is the best data quality and how we're going to do that. And that was many, many a conversations to make that that happen. Um, and even today certain domains have certain sources of Truth. Some argue becomes a source of truth of certain types of of, of domains
+[00:12:24] So, let me go through 1 particular domain and that's the client domain. So, all these organizations, all these Acquisitions have clients,
+[00:12:34] Uh we now have a central organization wanting to collect all this information. We have now put it all together and we've got to create some meaning behind that.
+[00:12:45] So using best practice, MDM principles, we've got to create a client reference base.
+[00:12:51] again, not an easy problem to solve because if you have 5 or 6 hundred sources of clients,
+[00:12:56] Ranging in data quality. How are you going to create the first client reference base?
+[00:13:02] So what we did is we looked at 3, we found 3 days of sources in our Global CRM.
+[00:13:08] In our credit reference information, uh, as well as in our finance system and found the best quality client information and bought those 3 data sets together because they were the most complete and they were the most alike.
+[00:13:22] um, so we put that into semi um and we wanted to create a very high quality first version of
+[00:13:30] The client reference base and we were able to do that.
+[00:13:33] Um, so you have to go through the whole process of MDM principles you have match and merge. You know, we're writing down 20 30 different uh
+[00:13:42] Matching rules and creating what some archaic call survivorship rules to create these golden records.
+[00:13:48] but you have to pre-process that data, you have to cleanse that data and we ended up not only cleansing it, we only ended up enriching it, we use companies like Melissa data and standard Imports to further, enhance the data Melissa data would clean all our International addresses,
+[00:14:04] And standard and pause would improve the company information. Things like parent companies, ultimate parent.
+[00:14:11] Legal registration numbers and and and so forth.
+[00:14:15] But once we put this together, the first version of the client reference is high quality and we've maximized as much as possible. The quality of that data. You still have the problem um of type 1 type 2 in uh matching.
+[00:14:32] Errors which are false positives or true negatives. And we have to measure that to measure the quality because we need to know where we start.
+[00:14:40] Then that will stage 1 done. What semi does it creates a unique ID? Something we call the mcid or the master client ID. So we were going to use this 1 iD to propagate the rest of the business to track what was doing.
+[00:14:55] But when we absorbed all the data from the Acquisitions, we needed their unique.
+[00:15:00] IDs as well. So we need to be able to tie everything together to create a true picture. So if we were able to connect all the IDS together, we knew we were going to be on a good footing and that's what we were able to do.
+[00:15:13] so stage 1 was to create this high-quality first version of the client reference
+[00:15:18] Now.
+[00:15:19] We had the problem of the other 497 client databases out there and bringing it together and you didn't want to just do it in any haphazard fashion, you had to do it in some form of systematic way, so we can't do it by hand. So we created stage 2 was to create automation, uh, to load that particular data into the Samari, uh, database and go through.
+[00:15:45] What they called the certification process.
+[00:15:48] so we created automation, where we took data from our data warehouse
+[00:15:52] Um, so wherever the client information was there, we were able to pump that in. We pump that in every night
+[00:15:58] And we match that up to the client reference space but hold on a second. You don't want to take bad data quality and start mixing it with good because you're going to ruin all the matching.
+[00:16:08] So, we had created 2 parallel systems 1 for our pre-production where we took the client information in and that would match. And we would look, and to make sure, and measure that nothing went wrong with the fundamental client reference base that we actually created
+[00:16:23] If that was good enough, it was given the green light and then it went into production.
+[00:16:28] So, there was this automation.
+[00:16:30] From the data warehouse.
+[00:16:31] There was an old but not all the organizations we work with had a system where we could use an integration tooling and pull that data on a daily basis. Some of them were small organizations so that had to be dealt with with files and we had to create a second automation system where we could drop files to a particular standard and put that into our reference base and go through that parallel client.
+[00:16:57] Um, process of checking that the quality of the client reference base, uh, was going to actually work.
+[00:17:04] so, we created that
+[00:17:06] So, what did we have after stage 2? Now, we had a methodology for taking all these client.
+[00:17:12] Databases and putting them into our MDM.
+[00:17:15] Application. Um, and we were monitoring very closely. The data quality of the client reference base in order for it to be useful.
+[00:17:23] Um, there was no point putting too much poor data quality in there because you were just ruin ruin that, that would defeat the the the purpose.
+[00:17:32] So at this point, we had an automatic way in batch mode for getting data in into the system.
+[00:17:41] Next question, is what about in real time mode? What about when our cells for system? They're starting to enter a new client in
+[00:17:49] Um, they're going to wait, you know, that client information would go in. They would wait to the end of the day.
+[00:17:54] Um before it goes in and checks what's happening in semeru. But we want to check at the point of
+[00:18:00] Data capture because ultimately in my experience at the point of data capture is when most areas happen and if you can stop it at that point then it's a good. It's a good thing.
+[00:18:10] So we use Samaras API module to publish apis.
+[00:18:14] um, so that our Global Salesforce system could invite those apis and check whether the client there were about to enter was already a client within this master uh, client reference base that we created and it either, it was
+[00:18:30] And if it was, they took the mcid and took the data. If it wasn't, they went on to create, uh, authored the client. And there was an integration at night, which connected the 2 together. So the IDS, from Salesforce, or from whichever local system, it
+[00:18:45] Was went into the MDM and vice versa so all the IDS, The Source IDs of the systems and the mcid was all connected at all times. So we knew what was going on.
+[00:18:58] so here we were after stage 3, we have to
+[00:19:03] uh persuade all these organizations and markets to use these apis to get the client information into this uh reference base. Um, we had a bulk process. We now had a real time process
+[00:19:16] Um, stage 4. We got a propagate this mcid. We need to know where these clients are going. You got to you know, you got, we're working in 145 countries. This data's got to get down into the data warehouse but it's
+[00:19:30] Going to get turned into the source systems. So all those Source systems like contributed to building the client reference base were giving back their mcids and we always hope that they load that into their system if they could not all systems could. But if they did then that was wonderful. Why did we ask them to do that? Well, we were taking a feed from them on a nightly basis. So the Delta of new clients added on every night if it came back with an mcid we knew about it. So Mark is job. Was easier it recognized that record before so we could maintain the data quality going forward.
+[00:20:06] So by propagating the mcid everywhere.
+[00:20:09] And ensuring we had all the IDS we now have. Um,
+[00:20:15] Pretty good data. Quality sitting in samaki for the client reference and as we continue.
+[00:20:22] The job is not finished yet. There are thousands of these systems out there and we are continuing to use the bulk matching and the online real-time process to continue to add, to the client reference base, but the 8020 rule applies. We know we got 80% of the client information in there. It's getting all the other bits over time and making sure all the new clients added in and that works. Well,
+[00:20:48] But you need to measure this as well, right? We we need to know how effective is. This mcid that's going around? The mcid is measured for penetration. Is this particular client having more MCI?
+[00:21:00] Is, is this number growing? Because if it's growing, we know it's working.
+[00:21:05] And we constantly measure that to make sure it's being propagated everywhere, everywhere else down down the road.
+[00:21:12] So after stage 4, we got this ongoing uh, bow process of onboarding uh clients.
+[00:21:20] But it doesn't actually stop there because we still got governance to talk about. Um, so we did a couple of Trials, uh, couple of markets, the UK and French Market, where we took the same Market product, and looked at the client authoring process.
+[00:21:34] and we use some are key because in those cases
+[00:21:38] Um, they may or not had a a very good authoring process, we put it into semaki and created.
+[00:21:45] high levels of
+[00:21:46] covenants, multiple levels of approval in those organizations. Um, so that data was on very high quality and it could be fed.
+[00:21:55] Down into Downstream systems like our finance system, and our media systems.
+[00:22:00] So this was very successful. Now this whole thing moves on to a global scale,
+[00:22:05] Now, the business wants to look at a process for authoring, all clients within the Samari platform and could we bring our more markets to do the governance there.
+[00:22:16] So this finishes, the jigsaw puzzle, uh, for, uh, for the client domain. We now, have high-quality client data, it's being used for analytical purposes for finance Dash,
+[00:22:30] For reporting, it's been segmented passed around the markets, uh, to take advantage commercially. So after this 6 year kind of Journey, um the quality and the use case of it is very good and we are looking to take more and more advantage of it as it becomes more and more complete
+[00:22:50] That was only 1 domain.
+[00:22:52] Um, client, as I mentioned earlier on, we created multiple data mods.
+[00:22:57] That design pattern that I just spoke about. Now, will be replicated for the vendor information.
+[00:23:03] So, media company has a lot of vendors.
+[00:23:05] We have not just it suppliers.
+[00:23:08] We buy media, we buy um billboard campaigns advertising tv ads, Google AdWords and so forth.
+[00:23:15] So we have a lot, a lot of suppliers, it's the same problem applies. So using this successful design pattern, we're going to be applying that um
+[00:23:24] Uh, to the supplier and vendor information and bringing that all together.
+[00:23:29] But the, the the success of Samari means that Financial dimensions are also being Consolidated uh across the globe.
+[00:23:38] Um, in in in 2025, and 2026. And, and next year as, as well.
+[00:23:44] so,
+[00:23:46] It's been, it's been a some keys, been a great success for us. It's been, um, we've used good practice, MDM principles with a robust MDM solution. So we've been able to put that together.
+[00:24:00] And get good levels of data quality that the the business can now use and given that there were several 100 Acqua and ensuring the data quality is there. Now I haven't mentioned those 2 letters AI um You probably heard about that a lot at the moment but we have Incorporated a AI llms into the ingest data. Ingestion process to improve the very poor levels of data quality where that's the case.
+[00:24:34] Um, to improve that. And we're looking at other methods, to improve the data Steward experience for improving the data quality. Um, so that's been, uh, looked at at the moment and
+[00:24:45] creating real, uh, use cases, uh,
+[00:24:48] You know, we we within what we are actually done.
+[00:24:51] Um, so there you go. So I've told you about the the, the long 6 year Journey. It's the journey continues. It won't finish for a few more years. I don't think you'll ever finish with data uh, for any for anyone but this is what tensor done tensor have done. So thank you for your time. Thank you for listening to me. Hopefully you found that interesting. Thank you.

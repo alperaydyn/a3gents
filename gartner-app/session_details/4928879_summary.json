@@ -1,0 +1,58 @@
+{
+  "summary": "The session discusses the critical importance of data management in the current environment, emphasizing the need for organizations to overhaul their data strategies to drive value from AI. It highlights the challenges faced by businesses in integrating data across various systems and the necessity of creating trustworthy data for effective AI deployment. A practical framework is introduced to help organizations create context and actionable insights from their data.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Importance of Data Management",
+      "key_points": [
+        "Organizations must overhaul their data strategies to drive value from AI.",
+        "Increased scrutiny from stakeholders is pushing for better data governance."
+      ],
+      "start_time": "00:00:00",
+      "end_time": "00:03:00"
+    },
+    {
+      "order": 2,
+      "topic": "Challenges in Data Integration",
+      "key_points": [
+        "Organizations struggle with integrating data across multiple systems.",
+        "Trustworthy data is essential for effective AI deployment."
+      ],
+      "start_time": "00:03:00",
+      "end_time": "00:07:00"
+    },
+    {
+      "order": 3,
+      "topic": "Framework for Actionable Insights",
+      "key_points": [
+        "A practical framework is needed to create context and actionable insights.",
+        "Continuous integration and active metadata are crucial for effective data management."
+      ],
+      "start_time": "00:07:00",
+      "end_time": "00:15:00"
+    }
+  ],
+  "key_takeaways": [
+    "Organizations must prioritize data management to leverage AI effectively.",
+    "Creating trustworthy data is essential for driving actionable insights.",
+    "A structured framework can help organizations navigate data challenges and enhance decision-making."
+  ],
+  "entities": [
+    {
+      "data governance": 5
+    },
+    {
+      "trustworthy data": 3
+    },
+    {
+      "data strategy": 4
+    },
+    {
+      "active metadata": 3
+    },
+    {
+      "data integration": 4
+    }
+  ],
+  "subject_area_id": "data_management"
+}

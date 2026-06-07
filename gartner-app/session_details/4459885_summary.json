@@ -1,0 +1,61 @@
+{
+  "summary": "The session discusses the key considerations for investing in agentic analytics platforms, emphasizing the importance of understanding AI agents and their capabilities. It highlights the challenges organizations face with data quality and the gap between perception and reality in AI agent implementation. The speaker also outlines when to use agentic analytics and how to ensure trust and transparency in these systems.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Agentic Analytics",
+      "key_points": [
+        "Importance of understanding AI agents",
+        "Challenges with data quality in analytics"
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:10:30"
+    },
+    {
+      "order": 2,
+      "topic": "Capabilities and Distinctions of AI Agents",
+      "key_points": [
+        "Distinction between task-focused and goal-focused agents",
+        "Overview of LLM-based agents"
+      ],
+      "start_time": "00:10:30",
+      "end_time": "00:20:00"
+    },
+    {
+      "order": 3,
+      "topic": "Implementing Agentic Analytics",
+      "key_points": [
+        "When not to use agentic analytics",
+        "Importance of trust and transparency"
+      ],
+      "start_time": "00:20:00",
+      "end_time": "00:27:35"
+    }
+  ],
+  "key_takeaways": [
+    "Understand the specific needs and capabilities of agentic analytics before implementation.",
+    "Ensure data quality to avoid poor outcomes in analytics.",
+    "Adopt an evidence-based approach to evaluate agentic analytics solutions."
+  ],
+  "entities": [
+    {
+      "agentic analytics": 8
+    },
+    {
+      "ai agents": 5
+    },
+    {
+      "data quality": 6
+    },
+    {
+      "llm-based agents": 3
+    },
+    {
+      "trust": 4
+    },
+    {
+      "transparency": 4
+    }
+  ],
+  "subject_area_id": "agentic_ai"
+}

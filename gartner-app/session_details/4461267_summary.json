@@ -1,0 +1,107 @@
+{
+  "summary": "The session discusses the evolution of analytics from traditional dashboards to a more agentic approach, emphasizing the integration of AI and real-time data to enhance decision-making. It highlights the shift towards conversational and autonomous analytics, where users can interact with systems to achieve specific outcomes without relying solely on visual dashboards. The presentation also explores the emergence of decision intelligence and the role of AI agents in transforming the data and analytics landscape.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction and Context",
+      "key_points": [
+        "The speaker shares a personal story to illustrate how traditional practices may not always serve their intended purpose.",
+        "The focus is on the transformation of analytics from dashboards to more proactive, intelligent systems."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:05:39"
+    },
+    {
+      "order": 2,
+      "topic": "Current State of BI and Analytics",
+      "key_points": [
+        "Business Intelligence (BI) is primarily used for exploring data and monitoring KPIs.",
+        "Adoption of BI tools remains low despite advancements like natural language interfaces."
+      ],
+      "start_time": "00:05:39",
+      "end_time": "00:10:06"
+    },
+    {
+      "order": 3,
+      "topic": "AI and the Future of Analytics",
+      "key_points": [
+        "AI introduces predictive and prescriptive analytics, reducing human bias in decision-making.",
+        "Generative AI and conversational analytics are changing how users interact with data."
+      ],
+      "start_time": "00:10:06",
+      "end_time": "00:12:21"
+    },
+    {
+      "order": 4,
+      "topic": "Emerging Trends in Analytics",
+      "key_points": [
+        "AI agents are infiltrating various aspects of the data and analytics continuum.",
+        "Decision intelligence is a new market focusing on improving decision-making processes."
+      ],
+      "start_time": "00:12:21",
+      "end_time": "00:18:00"
+    },
+    {
+      "order": 5,
+      "topic": "Multi-Agent Decision Fabric",
+      "key_points": [
+        "The concept of a multi-agent decision fabric is introduced as a new analytics approach.",
+        "Different vendors are developing agents that can work across various analytics markets."
+      ],
+      "start_time": "00:18:00",
+      "end_time": "00:22:30"
+    },
+    {
+      "order": 6,
+      "topic": "Methodologies and Architectures",
+      "key_points": [
+        "Two methodologies for analytics evolution are discussed: agent-to-agent communication and master agent architectures.",
+        "The importance of mCP servers in facilitating interactions between agents and tools is emphasized."
+      ],
+      "start_time": "00:22:30",
+      "end_time": "00:26:09"
+    },
+    {
+      "order": 7,
+      "topic": "Practical Applications and Recommendations",
+      "key_points": [
+        "Organizations should focus on decision-centric analytics rather than just data-driven approaches.",
+        "Upskilling employees in prompting techniques is crucial for maximizing the effectiveness of analytics tools."
+      ],
+      "start_time": "00:26:09",
+      "end_time": "00:32:29"
+    }
+  ],
+  "key_takeaways": [
+    "Transition from traditional dashboards to agentic analytics that proactively assist in decision-making.",
+    "Explore decision intelligence as a means to enhance the decision-making process within organizations.",
+    "Invest in training employees on how to effectively use new analytics tools and prompting techniques."
+  ],
+  "entities": [
+    {
+      "ai agents": 10
+    },
+    {
+      "decision intelligence": 5
+    },
+    {
+      "natural language interface": 4
+    },
+    {
+      "multi-agent decision fabric": 3
+    },
+    {
+      "predictive analytics": 3
+    },
+    {
+      "prescriptive analytics": 3
+    },
+    {
+      "data management": 3
+    },
+    {
+      "conversational analytics": 2
+    }
+  ],
+  "subject_area_id": "analytics_bi"
+}

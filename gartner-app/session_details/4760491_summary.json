@@ -1,0 +1,7 @@
+{
+  "summary": "Following its demerger from Unilever, The Magnum Ice Cream Company rebuilt its data ecosystem from the ground up. In this session, discover how Magnum built a lean, modern platform for real-time analytics and AI by unifying data in a Databricks Lakehouse. Using Fivetran to integrate SAP, Salesforce, and Workday, the team reduced complexity and costs while shifting focus from pipeline maintenance to high-impact insights and AI innovation.",
+  "sections": [],
+  "key_takeaways": [],
+  "entities": [],
+  "subject_area_id": "data_management"
+}

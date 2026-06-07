@@ -1,0 +1,167 @@
+[00:00:03] Good morning, at least. I think it's still morning. Welcome, uh, Welcome to our session on MDM
+[00:00:10] I'm Sally Parker, I'm a Brit but I work out of Australia. Um, working with clients globally on data and analytics strategy. Um, on governance and uh within that on MDM strategy.
+[00:00:23] And as part of that, I get to review a lot of data, analytic strategies, a lot of government strategies, a lot of MDM strategies and you know, as you review hundreds of these, you get to see some common challenges and if something's not getting across the EXO or you know not getting the approval or additional funding is not being attributed, you get to see some common reasons as to why that's happening.
+[00:00:45] On the flip side, I also get to see where organizations are doing this really, really well.
+[00:00:50] So, this is actually a foundational session.
+[00:00:53] Um that I put together which is really about capturing some of those best practices from clients. Looking at what their pitfalls are. If you're starting your journey and also some of the Frameworks and tools that you can take away and work with with some practical examples
+[00:01:10] can I first ask who is who is in an organization where you are just starting your MDM Journey the first time
+[00:01:19] Okay. Excellent. And somebody who might be taking a second run at it within an organization or expanding their program.
+[00:01:26] Cool. Okay. All right. That's good. Because over the years what I've seen is that you
+[00:01:30] Used to be sort of half and half and it's really cool to be able to stand up here and say MDM is hot. Because right now MDM is really hot and we do have ai to thank for, you know, governance getting some attention right now.
+[00:01:45] Um, you know, AI has served to amplify the voice for the need of things, like data, governance and MDM.
+[00:01:51] But it's also accelerated. The need that we get this, right? So it's lovely to see. So many programs that are starting
+[00:02:00] So, I'm using a race car analogy through here. But the point that I wanted to make is that, you know, I came from a technical background, many years ago, my background was business continuity, disaster recovery, and
+[00:02:11] We're problem. Solvers we are natural problem. Solvers we
+[00:02:15] See an issue. We want to fix it.
+[00:02:17] If we could build the perfect solution, you know the Money Was No Object Time Was No Object. We would absolutely want to do that. I know that I was definitely like that.
+[00:02:27] But we also want to be as operationally efficient as we can.
+[00:02:31] so, we see opportunities to refine to automate and increasingly so with AI
+[00:02:38] So, we see those opportunities with a problem solvers.
+[00:02:43] But the value is through the lens of the beholder. Okay, so my question here is but what problems are we trying to solve? Because if you think back to that race car analogy, some people care about the the materials the lineage of the materials. Some care about the
+[00:03:00] Wheels, the brakes, having the best of those others. Just care about the car. How it looks the brands that the marketed on the car and some just care about winning the race.
+[00:03:09] And the challenge that we have is because we do want to address this from a technology perspective and we do want to fix the data issues. I think oftentimes what I see in those strategies that I review is we lose sight of who is the stakeholder, and what they what do they want. And that's what much of this presentation is about.
+[00:03:27] so, what we're going to look at today is
+[00:03:30] Um, you know what, what's a classic business case anyway, and and why is that failing as why are we running off? Of course, at the first, at the first Bend,
+[00:03:39] And then we'll start to look at as I said some of the best practices, some of the Frameworks and things that you can use.
+[00:03:45] And then finally offer a case for change that inspires and 1 thing I will say about this is when we think about business case it's usually I need to get funding to progress. I need to get the green light to leave the starting line.
+[00:03:58] but if you think about MDM MDM is about data management, and about governance people process and Technology,
+[00:04:05] And for MDM in particular, it's not just about getting support for the business case, you need to maintain that support right through agreeing upon common data models, sharing data agreeing upon common data models right through doing the cleanup, and then sustainable governance. So it's a very long journey that we need to take these stakeholders on with us.
+[00:04:26] So, we'll talk a little bit about that.
+[00:04:31] So why are our classic business cases failing us?
+[00:04:35] What I've got in here, is a couple of examples of of of of business cases that that I've seen and the first 1, which is probably the most common um is very valid. It says our data, quality is terrible.
+[00:04:49] Our supplier data or whatever. Data customer data product data exists, across multiple silos. It takes us ages to fix this manually. See this a lot with product data. Okay, what we need is an MDM tool because it will make our lives so much easier.
+[00:05:04] It's a very valid business case, there's nothing wrong with this. You know, there's a valid reason we know how to fix this.
+[00:05:10] But what happens there is, it often falls on deaf ears, particularly right?
+[00:05:15] now, and we know that budgets are quite constrained, we have to differentiate the MDM proposal
+[00:05:21] So on the right hand side, I have a more business outcome. LED example here.
+[00:05:25] Which is.
+[00:05:27] Our customer has a goal of cost optimization. Okay? Our company has a goal of cost optimization. We're in cost efficiency mode.
+[00:05:35] Procurement carries a goal to support that of op of decreasing, our contract, spend by 5%. Now, we don't always have that but play with play along with me and we'll go through that.
+[00:05:45] We can't even say how many suppliers we have, let alone how much we're spending with them. What we need is an MDM program which will provide that visibility that we need to support the contract. Negotiations.
+[00:05:56] if I'm the CFO and I have a dollar to spend on,
+[00:06:00] The left hand side or the right hand side, which 1 do you think is going to get across, cross the line?
+[00:06:06] Anybody that from procurement or anybody that cares about cost, the 1 on the right hand side is is going to resonate with, we're proposing exactly the same thing. But we've taken time to think about the use case, who owns that use case we may or may not have the metrics that can be pretty hard depending on who you're dealing with. But what we're trying to get to is a proposal that looks something more like the right hand side.
+[00:06:31] Some good news is, you know, often times as I said, our business cases are about just making our lives easier. Um, of course, the MDM Market, the tooling Market is a very mature Market. I was previously the lead author for the magic
+[00:06:45] Quadrant here, and even at that time, the tools were were very mature. All right? But what we're seeing in the tools today are varying degrees of maturity is a lot of AI. That is supporting, um, you know, make making the data management, the modeling, uh, the match and merge much easier. So, some of those things that you are concerned about when you're putting the, the data hygiene business case, forward are actually being taken care of, in the tools today. And there are plenty of vendors on the floor. I think there are about 10 MDM vendors on the floor that you can go talk to and got on a can certainly help you navigate that vendor landscape. If you are at a point where you are looking to purchase at all but I will also say don't do not start your MDM program with a tool really, really important to start with the app.
+[00:07:32] So back to our, our main story line, another pitch that I'd like to see show you which has got a little bit, a little bit, more of a formula in this 1.
+[00:07:39] So, excuse me, I'm going to have to turn because I can't quite read that, but uh, we're desperately need to implement an MDM tool.
+[00:07:46] Our Master data is misaligned all throughout the business, big problems. Integrating this into our data warehouse,
+[00:07:52] it'll take a year of doing this to to to fix that data issues.
+[00:07:56] I still see lots of data governance strategies where the first year is all about getting a data house in order. We can't do that anymore, we have to take a much more granular. What I would call a minimal viable approach to both governance and to MDM or a use case based approach.
+[00:08:11] The example on the right hand side has a formula and before I show you
+[00:08:15] That the formula is descriptive diagnostic predictive and prescriptive.
+[00:08:21] 17% of our invoices contain errors.
+[00:08:26] The cause is not having a single way to identify a customer.
+[00:08:30] Each quarter, it's costing us. XY Z.
+[00:08:34] We should Implement a discipline called MDM again. It's a much more compelling case as to why you would want to adopt or take on an MDM program.
+[00:08:47] What most of the strategies that I I get to review look like is something like this.
+[00:08:52] Um, again very valid on the left hand side, just split the slide down the middle here. On the left hand side, you have the pre- MDM.
+[00:09:00] On the right hand side, the after MDM a super simplified diagram of what MDM does for you, but the story here is that I've got different stakeholders. It happens to be operation sales operations, sales, Services, analytics 3, operational use cases, 1 analysis. The point is that each of these stakeholders are using their own processes, their own data, they have different views of things like supplier or customer or product.
+[00:09:28] Now the challenge in getting from the right to the left. So sorry, the left to the right what you've got on. The right is MDM, which is just represented by a dotted Orange Box for the simple reason, you can architect this in many different ways. It's saying what I'm doing with MDM is I'm creating that trust.
+[00:09:45] Unified foundation. So now everybody has the same view, there's no conflicting views of that Master data, that people party places data.
+[00:09:55] The challenge with getting from the left. To the right here is not technology.
+[00:10:01] As I sort of mentioned, a little ahead of myself. Um, those stakeholders, you want them to share their data, they may need to agree on common data models.
+[00:10:11] And then ultimately, once you've done all the work, you want them to be the data stewards of this. You want them to take ownership governance is a team sport.
+[00:10:19] So the technology piece isn't the hard piece, it's the people piece and that's why getting the business case, right? And engaging that stakeholder right from the start. Um, it's going to set you on a stronger footing.
+[00:10:34] so, in summary to the first section,
+[00:10:38] Critical to remember that MDM is both data management and data governance. So data governance is policy, setting policy enforcement data management is informed by those for for the data, executor for the policy execution piece.
+[00:10:55] And in summary I should also say that anything typically what I see unless you have an organization or is super focused on cost, anything that is data hygiene. Gains is a much weaker value proposition than anything that is um, uh, risk or Revenue related. So, if you think about your organization's goals and you're a commercial entity, all of those goals will.
+[00:11:15] Fit into risk revenue and cost or risk value and cost if your commercial. But anything that is about operational or data, hygiene gains typically typically gets more push back.
+[00:11:27] So, what can we learn from others that have gone before us and failed?
+[00:11:31] And who are doing this? Well,
+[00:11:33] I think the first thing is to make it really, really clear. Clear? That and the same is true for governance. This is not something that is a responsibility of it or data alone.
+[00:11:43] So we have a common definition here of Gartner's definition. You really need to make it clear from the start that this is a team sport will only be successful if this is a team sport, okay? So what you see in the definition is that it's a business and it worked together to ensure.
+[00:12:00] For the uniformity accuracy and semantic, consistency, the data management side, but also the stewardship and accountability which is the governance side.
+[00:12:09] Okay.
+[00:12:10] So, sometimes I've seen clients put this in their, in their, in their business, um, when their strategy to make it very, very clear that, that this is not just the responsibility of it.
+[00:12:23] The common pitfalls that we see are very quick summary. Um, I probably won't say them in this order, but if I think about the, the things that I see most frequently is trying to take on too much too soon.
+[00:12:34] So thinking about the cereal, uh, mastering of domains, you know, we'll start with customer, then we'll do supplier, then we'll do employee.
+[00:12:42] The problem with that is that yes.
+[00:12:45] Cleaning up data, which is a really good thing.
+[00:12:47] but what happens, 6 months in, when you're asked for a status report,
+[00:12:51] Okay. And all all you can say is well we've cleaned up a number of data sets.
+[00:12:55] And actually haven't delivered anything. What happens if the funding is gone away? And now you're competing for funding to continue your program. Puts you in a very, very, very vulnerable position.
+[00:13:06] Okay, so don't take on too much these days, the way that organizations, who are doing this well are doing MDM well. They're taking a use case approach, they might start really, really small, you know. So it's a very much a think big start small delivery incremental, value approach.
+[00:13:20] And the vendors should support this. They shouldn't be trying to sell you a big um, solution. They call it land and expand, we call it think, big starts.
+[00:13:30] More deliver incremental value. So that's the first 1. The second 1, of course is, don't treat it as a technology project, it really is not.
+[00:13:37] Um,
+[00:13:41] a culture culture is a big 1 and when we think about that visual I showed earlier about getting from the left to the right? And I I'll come to this when we talk about prioritization of effort, but culture is a big 1 here.
+[00:13:55] What you see on the slide here and you may have seen the the the hexagons on the left a few times this week because this is our framework for a data analytics strategy. And our operating model, our very quickly summarize that by saying, if you split capabilities and deficits down the middle,
+[00:14:12] The how of our strategy ecosystem Market.
+[00:14:15] And delivery model is on the, right? So your governance, your resources, your, um, platforms. That's all on the right your data products, all on the right.
+[00:14:23] The left hand side, is your what Your why? So you've got your why and you've got your how
+[00:14:28] Where we need to start our Master data management. Program is with the stakeholder outcomes. If I was coming into your organization to create a data, analytic strategy, I would spend 40% of my time on the stakeholder outcomes, but I have some cheat sheets to do that, which I'm going to show you in here and that's what's going to help you prioritize. What the north compass of your MDM program is the things that you should be focusing on, all right? And once you've got that, then you can look at the right side and say, well what do I need to to fulfill those commitments? Those out.
+[00:15:00] Comes.
+[00:15:01] Now what you see on the right hand side is the classic MDM operating model, which is uh, 6 steps.
+[00:15:08] And what you will see is it starts with scope which is exactly what we're talking about. Its what are the use cases? What are the outcomes?
+[00:15:15] And it ends with technology. I said earlier, I don't start with technology. I'll put a little caveat in there and say that.
+[00:15:22] Many of the vendors are very, very good at marketing, and they will have examples of use cases and things that you can help to, to get your business case over the line, particularly if you have a vendor. For example, if you're in healthcare and you have a vendor, who's very good at Healthcare, um, you'll find a lot of collateral for your business case. So even though I was saying consider vendor last, you'll find lots of things that will help you with the scope piece as well.
+[00:15:45] But the scope is about. Why are we doing this metrics? How are we measure? Success. Um we'll talk a little bit more about that.
+[00:15:52] Then identifying the data and the people that need to be involved, how we will coordinate this and then the tooling that we will look at and again we can certainly help you navigate the tooling landscape.
+[00:16:07] So we talked about think big start small and deliver incremental value.
+[00:16:11] Um if you do already have an MDM program in play and I know there are a few people who said that you did, I would just encourage you to take a step back and say for the work that you have done.
+[00:16:22] Can you draw a direct line of sight between the work that's in progress or the work that you're doing and the outcomes that you're looking to to support?
+[00:16:30] And we'll talk a little bit more about that.
+[00:16:35] So adopt a programmatic approach, there's very simple, building blocks, they work. Um, they keep you on track.
+[00:16:42] And that will help you avoid some of the common pitfalls.
+[00:16:47] Building a case for change.
+[00:16:49] So,
+[00:16:50] There are 2 worksheets that I use very very, very frequently with clients in our in our inquiry discussions, which is those half-hour discussions.
+[00:16:59] And the first 1, which is this is really about finding your North Company. So when it comes to your MDM program it's about what are the things that I am going to include in this iteration of my MDM program, okay? If I was creating a data analytic strategy, it would be which
+[00:17:15] Things. Am I going to include in this iteration of the strategy?
+[00:17:19] This helps you a lot with culture. So again irrespective of where you are in your MDM program,
+[00:17:24] What you're looking for here is 1 of those outcomes, like the 1 at the start about procurement optimizing contract, spend that your MDM program could support. Perfect world scenario, you have your corporate strategy, it translates into a digital or a data analytic strategy, which informs your governance and MDM strategy.
+[00:17:44] We don't live in a perfect world. A lot of the time. When I'm talking with MDM clients, you'll have to you're having to prioritize yourself. What's going to be in. This is right iteration of your program and that's where this comes in handy. So, what I do is I go to the corporate strategy, look through the corporation
+[00:18:00] Strategy and see what are the things that I know rather than starting the data issues? What are the things that I know my MDM program could help with?
+[00:18:08] Okay, so I'll go through and I'll put the highlighter. The other thing I do cultural hack is I'm going to copy that verbatim on either to something that says Rango transform or because I know all the goals are in Risk. Revenue and cost columns, just 3 columns risk revenue and costs or risk value and cost for um public sector.
+[00:18:27] This is kind of building out an out of the possible for me, you know, it's kind of quick and dirty and I you know I can just put what I think. I know already there it's quick, and dirty me mapping out the things that MDM could support. Then I go through a prioritization exercise. What are the priority ones? The risk and compliance that I can't ignore.
+[00:18:44] What for my?
+[00:18:45] Priority 2's, it might be the CEO, the board, um, their hot topics. But if I have a lot of things that have equal value, I'm probably going to think about them in terms of, okay?
+[00:18:57] Where do I have the highest levels of data driven maturity? Because I really don't want to be embarking upon this journey with a group that just doesn't want to play, you know, they don't want to play, they don't understand data. And analytics, if I've got a choice, I'm going to grab gravitate towards that group of folks that are going to help help collaborate to deliver the outcome, okay?
+[00:19:17] The other thing I'm going to look at because we're talking about master data and master data is highly leveraged. How can I group some of these together? So in my example about supplier, they know optimizing contracts, depends contract, spend through, man,
+[00:19:30] Mastering the supplier data are the other goals that will benefit from having mastered the supplier data, perhaps some ESG compliance goals. So what I'm doing effectively on a sheet of paper,
+[00:19:40] Is mapping out something where I want the stakeholder to look at this.
+[00:19:44] And not think it's about data and Technology, but to look at it and say, oh yeah, that's my thing that's about me. Now, you've got my attention
+[00:19:52] Okay and then we have the conversation about what gets prioritized. So this might seem really high level for your MDM program because I know we're problem, solvers, we're thinking about the data, but this is what's going to draw that connection between the 2 and start to engage along that process from business case, right through to stewardship.
+[00:20:12] the other worksheet that I use very, very
+[00:20:15] Very regularly with clients. It's the 1 down from this which is more about the okay now let's roll up our sleeves and get this rubbish done. So this is about what's the north campus and you might have 1, you might have 2. You might have 3 that um strategy framework that you saw with the capabilities and efforts in the middle. That's that's a pivot point.
+[00:20:32] Where I go from here and I know you can't read this. Don't worry too much. I just want to focus on the pyramid for anything that you think is in scope pop. The outcome at the top of the pyramid. That's your why. For your stakeholder? The second block is how you're going to measure success often times for us. It's a data quality metric. If we can make that more relevant for the stakeholder, or the better, and the top 2 pieces of this pyramid are all about your stakeholder.
+[00:21:00] So that's your hook into into their world, then we start to have a conversation. So I will use this in a coffee conversation and I'll say, yep, I, you know, I know you've got to optimize contract. Spend what processes are supporting that what data is supporting that, what sort of quality is the data, do you have all the data that you need? So, I'm building out a picture.
+[00:21:20] That draws a direct line of sight between these blobs at the bottom, which are different types of data and the outcome at the top,
+[00:21:28] And what you're doing from a data driven culture perspective, because you're drawing a direct line of sight between the data the blobs.
+[00:21:34] And the outcome at the top, which is hugely powerful, from a data-driven culture perspective. It's also hugely powerful because the person who owns the outcome at the top, now suddenly really cares about who your data Steward is, and
+[00:21:45] More likely to get a data Steward support.
+[00:21:48] So this there's a whole Workshop comes with this with the academic examples on the right hand side, for me, it's about getting the engagement and getting the data that I need.
+[00:21:59] um,
+[00:22:02] I'm probably just going to go right to the next 1. This was all, this was simply to show that organizations will often have a business value model. Okay? So this 1, you've got engage in and enhance customer experience, operational excellence and social Acumen. I just wanted to show how Master data like, um aligned to what you will find in there and that what what the business value model does is it's got the high level goals that just spoke about and it translates some
+[00:22:30] Down into key performance metrics. So, I wanted to show which 1's Master data management would support because your organization will have something like this. So what you see for customer data is it supports things like customer responsiveness, which is how fast does our organization respond to client needs, um, customer support calls or orders or whatever it might be, okay? So we're trying to bridge that Gap.
+[00:22:57] And sometimes the other point with this too is that sometimes an outcome will require not just 1 type of media but multiple types of Master data. So when we're looking at the outcome base, top of the pyramid, some of those blobs. At the bottom might be different types of Master data.
+[00:23:15] Metrics are really really hard. Um, I always pick a very simple example of what we're trying to do, but getting metrics out of, people can be hard with that. Pyramid 1 of the reasons, I have a coffee conversation is when you've got the outcome you may not know what the measure of success is.
+[00:23:33] But cultural hack puts something outrageously huge in there. So if I was talking to procurement about optimizing their contract spend and and I think they're probably not going to give me that data, I might put 50% just to get a reaction and to get that refined and to get a better idea of what it should be.
+[00:23:50] um, another example would be, if you're an organization that sends out bills, you know, utility company, whatever you send out bills,
+[00:23:58] and a lot of those bills are coming.
+[00:24:00] Back and having to be manually, reconciled? Okay. Mass data management problem. Um, you have a baseline of how many of those bills are going out. We improve the customer Master data quality. Okay, then you can measure again, the impact of that.
+[00:24:14] But the point that I want to make there is that for us, it's a data quality metric, but the actual real metric is days payment outstanding for accounts. And that's where that business value model that I showed earlier comes in
+[00:24:26] Okay.
+[00:24:29] so, um,
+[00:24:33] We've only got 5 minutes left so I'm going to quickly go through the ones that I think are least relevant, but all this is doing is it's another way of looking at the rectangle that you had and it's about drawing that line of sight.
+[00:24:45] Between the business activity and the data and analytics activity. So what you've got here is you've got a number of different stakeholders. You've got the things so far as I think the corporate strategy and you've got your pillars, you know, employee Revenue Etc. The second column is the sort of goals that I would expect to find under that. Sometimes I don't have the percentages but that's the goals that you'll find at that level. They're the things that are driving my MDM program.
+[00:25:09] Um, then you got the particular use cases, the things that the organization is doing to support those pillars. So if we have a program which is or if 1 of corporate goals is all around customer experience, um, you know, improve our customer retention loyalty cross sale. Um, and that's 1 of the the use cases. And then on the right hand side, we have uh, the DNA value proposition.
+[00:25:30] Now, when I showed the rectangle and I showed row transform, most organizations are starting their MDM program more in that run area that relates to data analytics as a utility. Okay? It's about the operational improvements data analytics is a business enabler, is more about the revenue growth, the customer retention, that kind of thing. So you're contributing to the business outcomes. The last 1 DNA, as a business driver would have been right on the right hand side of that rectangle where I had transformed. So I actually um,
+[00:26:00] Finding new opportunities for growth for the organization. So this is just a different representation of that link between the 2 that you could use in your business case.
+[00:26:12] But you still do have to do your business case. So this
+[00:26:15] The 5 Steps for a business case. Again, it's broken down. Um,
+[00:26:20] The, the First Column is the CC cxo questions. So, you know, what is the business problem? You know, why are we doing this? Can you prove it to me? Um, metrics metrics for Success? How are you suggesting that we do this, so MDM and a few other things, um, when are you going to do this? So again better to have a Serial roll out of outcomes versus cleaning up data sets.
+[00:26:46] And then how much will it cost on the? How much will it cost? Often times I still see organizations forget to include the do nothing and do nothing. In the case of MDM has a massive impact on your organization. So make it very, very clear.
+[00:27:00] Here that there isn't there is a, you know, there is a financial penalty. There is a penalty if you choose not to do MDM. So don't forget to include that in there.
+[00:27:13] So finally, look at it, isn't that our MDM business cases aren't valid? It's about the lens that that we are using to, to show the value of them. It talks about the problems more that we need to solve versus the problems that we're solving for the organization.
+[00:27:32] So in summary, um, create and maintain the stakeholder engagement, not just for the business case, but be on the business case.
+[00:27:40] Um, wherever you can have the business Centric metrics can be a little hard. That's
+[00:27:45] For the pyramid, can help facilitate that conversation and bring out a little bit more information. Um 1 thing that we didn't talk about is some stakeholders will be more more readily willing to have that conversation with you than others. Um what I also do is I do a bit of stakeholder mapping so not just looking at where there's cultural maturity but who the influencers are and their stance on MDM and map out who I need to get on board and who I might need to stay away from as well.
+[00:28:12] Um,
+[00:28:14] The financial results and uh yeah think about it as a long-term governance is a process of continuing continuous Improvement. It's not just a a done, you know, once and done MDM program, the idea is that if you're successful with your first few use cases this
+[00:28:30] Will grow. And look, everybody wants to have a trusted Foundation of data and Trust in its use.
+[00:28:37] so I will just leave you with some uh, reading material, uh, the first 1
+[00:28:43] had the
+[00:28:45] So I don't have the 1, the bottom 1, the toolkit, how to connect data, and analytics to business outcomes. That's the workshop for the pyramid. That workshops actually taking place next door at the moment. So you do have the materials for that if you don't have access to to the the resource on. Gana.com. But as I said, when you thinking of using the pyramid which I think is gold, you can use it very informally in a workshop. If you do that, make sure that everybody understands why they're there and it's in context. So don't run it with a group. Um that has nothing in common.
+[00:29:15] Pick 1 of those goals, like improve Customer Loyalty, or optimize contract, spend whatever it is, but focus on a group where people know why they're there. And it's very, very valuable. So, I will leave you with that. And, um, thank you very much for your time and enjoy the rest of the conference.

@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  scraper:
+    build: .
+    container_name: sahibinden-scraper
+    ports:
+      - "8000:8000"
+    volumes:
+      - scraper-session:/app/session
+      - scraper-output:/app/output
+    env_file:
+      - .env
+    environment:
+      - SESSION_DIR=/app/session
+      - OUTPUT_DIR=/app/output
+    restart: unless-stopped
+
+volumes:
+  scraper-session:
+  scraper-output:

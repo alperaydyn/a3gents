@@ -1,0 +1,15 @@
+{
+  "session_id": "4458192",
+  "title": "7 Practical Actions to Improve Data Governance Now",
+  "speakers": "Sally Parker",
+  "time": "11:00 - 11:30 AM",
+  "date": "Monday, May 11",
+  "location": "Maritime Suite 24, Level 3",
+  "session_url": "https://cn.gartner.com/BIE27I/sessiondetails/4458192",
+  "has_files_csv": true,
+  "media_fetched": false,
+  "documents": [],
+  "errors": [
+    "Media API HTTP 500: 500 Server Error: Internal Server Error for url: https://api.ct.aws.gartner.com/ConfAggService/agenda/GetAppointmentMedia/13225/4458192?LanguageCode=en"
+  ]
+}

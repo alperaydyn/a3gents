@@ -1,0 +1,68 @@
+{
+  "summary": "The session discusses the importance of benchmarking in data and analytics, highlighting common challenges faced by organizations. It introduces Gartner's Budget and Efficiency Benchmark tool, which helps organizations assess their spending and staffing in relation to peers. Key insights from the benchmark reveal spending patterns and organizational structures that can guide better resource allocation.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Benchmarking",
+      "key_points": [
+        "Benchmarking is crucial for understanding spending and resource allocation in data and analytics.",
+        "Common challenges include the Apples to Apples problem, the heavy lift problem, and the right perspective problem."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:04:55"
+    },
+    {
+      "order": 2,
+      "topic": "Overview of the Budget and Efficiency Benchmark",
+      "key_points": [
+        "The benchmark tool collects data from over 120 organizations to provide insights on spending.",
+        "It focuses on key questions relevant to data and analytics leaders."
+      ],
+      "start_time": "00:04:55",
+      "end_time": "00:10:01"
+    },
+    {
+      "order": 3,
+      "topic": "Insights from the Benchmark",
+      "key_points": [
+        "The median spending on data and analytics is about 0.5% of company revenue.",
+        "Larger organizations tend to spend less on data and analytics relative to their revenue."
+      ],
+      "start_time": "00:10:01",
+      "end_time": "00:19:02"
+    },
+    {
+      "order": 4,
+      "topic": "Additional Benchmarking Tools",
+      "key_points": [
+        "The session introduces the DNA business value benchmark and the DNA 360 tool for assessing performance.",
+        "These tools help organizations measure outcomes and gather feedback on their data and analytics functions."
+      ],
+      "start_time": "00:19:02",
+      "end_time": "00:22:36"
+    }
+  ],
+  "key_takeaways": [
+    "Benchmarking is essential for organizations to understand their data and analytics spending relative to peers.",
+    "Gartner's Budget and Efficiency Benchmark provides valuable insights into spending patterns and staffing levels.",
+    "Organizations should consider using additional tools like the DNA business value benchmark to measure performance outcomes."
+  ],
+  "entities": [
+    {
+      "budget and efficiency benchmark": 5
+    },
+    {
+      "data and analytics": 10
+    },
+    {
+      "dna": 6
+    },
+    {
+      "organizational structure": 3
+    },
+    {
+      "spending patterns": 2
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

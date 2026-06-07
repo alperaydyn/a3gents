@@ -1,0 +1,87 @@
+{
+  "summary": "The session discusses the need for a technical reference architecture to support an analytics operating model that balances centralized control with decentralized agility. It emphasizes the importance of a federated approach to analytics that allows for consistent development while enabling local autonomy. The proposed framework aims to mitigate chaos and redundancy in analytics delivery across organizations.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Analytics Challenges",
+      "key_points": [
+        "Traditional centralized development methodologies are insufficient for current business demands.",
+        "A framework for managing analytics is necessary to reduce chaos and missed opportunities."
+      ],
+      "start_time": "00:00:00",
+      "end_time": "00:03:01"
+    },
+    {
+      "order": 2,
+      "topic": "Defining Reference Architecture",
+      "key_points": [
+        "A reference architecture serves as a blueprint for scalable and interoperable systems.",
+        "It addresses chaos from decentralized development and rigidity from centralized models."
+      ],
+      "start_time": "00:03:01",
+      "end_time": "00:06:14"
+    },
+    {
+      "order": 3,
+      "topic": "Analytical Service Framework",
+      "key_points": [
+        "The framework includes layers for data connection, analytical modeling, and delivery.",
+        "Data quality and standardized processes are critical for effective analytics."
+      ],
+      "start_time": "00:06:14",
+      "end_time": "00:10:30"
+    },
+    {
+      "order": 4,
+      "topic": "Federated Analytics Models",
+      "key_points": [
+        "Federated analytics can be based on centralized or decentralized data management paradigms.",
+        "The goal is to enable agility while maintaining governance and interoperability."
+      ],
+      "start_time": "00:10:30",
+      "end_time": "00:15:52"
+    },
+    {
+      "order": 5,
+      "topic": "Implementation Strategies",
+      "key_points": [
+        "Organizations should optimize existing tools and identify gaps for new implementations.",
+        "A shift towards a collaborative governance model is essential for operationalizing analytics."
+      ],
+      "start_time": "00:15:52",
+      "end_time": "00:19:38"
+    }
+  ],
+  "key_takeaways": [
+    "Adopt a federated analytics model to balance centralized control with local autonomy.",
+    "Implement a technical reference architecture to streamline analytics processes and reduce redundancy.",
+    "Focus on data quality and standardized practices to enhance analytics delivery across business units."
+  ],
+  "entities": [
+    {
+      "analytics operating model": 5
+    },
+    {
+      "technical reference architecture": 4
+    },
+    {
+      "federated analytics": 6
+    },
+    {
+      "data quality": 4
+    },
+    {
+      "decentralized development": 3
+    },
+    {
+      "centralized development": 3
+    },
+    {
+      "data management": 5
+    },
+    {
+      "analytics service framework": 3
+    }
+  ],
+  "subject_area_id": "data_management"
+}

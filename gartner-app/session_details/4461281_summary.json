@@ -1,0 +1,74 @@
+{
+  "summary": "The session discusses the integration of AI agents into existing data analytics teams, emphasizing the need for a shift in operating models to focus on business outcomes rather than traditional reporting metrics. It highlights real-world examples of organizations successfully adopting AI agents and outlines three key steps: facilitating a new delivery model, developing necessary skills, and establishing governance frameworks. The speaker advocates for a product-centric approach to AI implementation, ensuring that human oversight remains integral to the process.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to AI Agents",
+      "key_points": [
+        "AI agents are likened to historical technological advancements that faced initial skepticism.",
+        "Many organizations struggle to implement AI effectively due to outdated operating models."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:05:15"
+    },
+    {
+      "order": 2,
+      "topic": "Delivery Model",
+      "key_points": [
+        "An outcome-based delivery model is essential for effectively integrating AI agents.",
+        "Collaboration between business and analytics teams is crucial for achieving desired outcomes."
+      ],
+      "start_time": "00:05:15",
+      "end_time": "00:11:52"
+    },
+    {
+      "order": 3,
+      "topic": "Skills Development",
+      "key_points": [
+        "New roles, such as AI product managers, are necessary to guide AI integration.",
+        "Documenting existing workflows is vital for aligning analytics with business outcomes."
+      ],
+      "start_time": "00:11:52",
+      "end_time": "00:20:33"
+    },
+    {
+      "order": 4,
+      "topic": "Governance and Trust",
+      "key_points": [
+        "Establishing trust in AI outputs is critical due to potential inaccuracies.",
+        "Organizations must balance innovation with safety and complexity in AI governance."
+      ],
+      "start_time": "00:20:33",
+      "end_time": "00:28:55"
+    }
+  ],
+  "key_takeaways": [
+    "Shift your data analytics operating model to focus on business outcomes rather than just reporting metrics.",
+    "Develop new skills and roles within your team to effectively collaborate with AI agents.",
+    "Establish governance frameworks that prioritize trust and accountability in AI outputs."
+  ],
+  "entities": [
+    {
+      "ai agents": 10
+    },
+    {
+      "delivery model": 5
+    },
+    {
+      "business outcomes": 7
+    },
+    {
+      "governance": 6
+    },
+    {
+      "skills development": 4
+    },
+    {
+      "trust": 5
+    },
+    {
+      "product management": 3
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

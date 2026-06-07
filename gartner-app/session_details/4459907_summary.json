@@ -1,0 +1,61 @@
+{
+  "summary": "The session explores unconventional predictions about the future of AI and its societal implications, emphasizing the importance of interactive discourse in shaping these visions. It discusses potential scenarios involving AI's impact on jobs, governance, and personal data, urging participants to think critically about the future. The speaker advocates for a proactive approach to AI strategy, focusing on concrete outcomes and the evolving role of data ownership.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Maverick Predictions",
+      "key_points": [
+        "The Maverick program focuses on low probability but high impact ideas.",
+        "Future predictions should be shaped through interactive discourse."
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:10:00"
+    },
+    {
+      "order": 2,
+      "topic": "AI and Societal Concerns",
+      "key_points": [
+        "Predictions include potential sabotage of AI by employees fearing job loss.",
+        "Concerns about regulations against AI usage are growing."
+      ],
+      "start_time": "00:10:00",
+      "end_time": "00:20:00"
+    },
+    {
+      "order": 3,
+      "topic": "Future of Data and AI Integration",
+      "key_points": [
+        "The human body may become the next computing platform.",
+        "Cognitive enhancements could create a divide between the privileged and underprivileged."
+      ],
+      "start_time": "00:20:00",
+      "end_time": "00:30:00"
+    }
+  ],
+  "key_takeaways": [
+    "Develop a clear and focused AI strategy that prioritizes concrete business outcomes.",
+    "Embrace change management to address potential disruptions from AI.",
+    "Consider shifting data ownership to individuals rather than organizations."
+  ],
+  "entities": [
+    {
+      "maverick program": 3
+    },
+    {
+      "ai intentionality": 2
+    },
+    {
+      "data ownership": 3
+    },
+    {
+      "cognitive enhancements": 3
+    },
+    {
+      "transhumanism": 2
+    },
+    {
+      "data governance": 3
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

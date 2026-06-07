@@ -1,0 +1,131 @@
+{
+  "summary": "The session focuses on the concept of agentic workflows and their application in modern data and AI practices. It emphasizes the need for convergence between operational and analytical architectures to leverage quality data effectively. The speaker discusses the importance of data quality and readiness for AI use cases, highlighting the role of agents in enhancing business processes.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction to Agentic Workflows",
+      "key_points": [
+        "Understanding the AI mandate for data leaders",
+        "Defining agentic workflows and their application"
+      ],
+      "start_time": "00:00:03",
+      "end_time": "00:01:29"
+    },
+    {
+      "order": 2,
+      "topic": "The Urgency of Agentic Transformation",
+      "key_points": [
+        "The rise of agentic transformation in enterprises",
+        "The impact of data sprawl and the need for governance"
+      ],
+      "start_time": "00:01:29",
+      "end_time": "00:06:43"
+    },
+    {
+      "order": 3,
+      "topic": "Convergence of Architectures",
+      "key_points": [
+        "The need for operational and analytical architecture convergence",
+        "How agentic workflows can replace traditional processes"
+      ],
+      "start_time": "00:06:43",
+      "end_time": "00:09:11"
+    },
+    {
+      "order": 4,
+      "topic": "Deterministic vs. Agentic Processes",
+      "key_points": [
+        "Identifying deterministic processes suitable for automation",
+        "Using agents for probabilistic tasks"
+      ],
+      "start_time": "00:09:11",
+      "end_time": "00:12:58"
+    },
+    {
+      "order": 5,
+      "topic": "Data Quality and AI Readiness",
+      "key_points": [
+        "The importance of clean and connected data",
+        "Stages of data readiness for AI use cases"
+      ],
+      "start_time": "00:12:58",
+      "end_time": "00:21:35"
+    },
+    {
+      "order": 6,
+      "topic": "Context Engineering",
+      "key_points": [
+        "Strategies for curating metadata for agents",
+        "The significance of business context in agentic workflows"
+      ],
+      "start_time": "00:21:35",
+      "end_time": "00:25:30"
+    },
+    {
+      "order": 7,
+      "topic": "Conclusion and Call to Action",
+      "key_points": [
+        "Overview of the Boomi platform for agentic workflows",
+        "Invitation to learn more at the Boomi booth"
+      ],
+      "start_time": "00:25:30",
+      "end_time": "00:26:19"
+    }
+  ],
+  "key_takeaways": [
+    "Agentic workflows represent a significant shift in how data and AI can be utilized in business processes.",
+    "Convergence of operational and analytical architectures is essential for maximizing the value of data.",
+    "Data quality and readiness are critical for successful AI implementations, requiring a focus on clean and connected data."
+  ],
+  "entities": [
+    {
+      "agentic workflows": 10
+    },
+    {
+      "data quality": 5
+    },
+    {
+      "ai readiness": 4
+    },
+    {
+      "context engineering": 3
+    },
+    {
+      "data governance": 3
+    },
+    {
+      "data sprawl": 2
+    },
+    {
+      "deterministic processes": 2
+    },
+    {
+      "financial reporting": 2
+    },
+    {
+      "data architecture": 2
+    },
+    {
+      "knowledge graph": 2
+    },
+    {
+      "data integration": 2
+    },
+    {
+      "data modeling": 2
+    },
+    {
+      "data pipelines": 2
+    },
+    {
+      "operational architecture": 2
+    },
+    {
+      "analytical architecture": 2
+    },
+    {
+      "business context": 2
+    }
+  ],
+  "subject_area_id": "agentic_ai"
+}

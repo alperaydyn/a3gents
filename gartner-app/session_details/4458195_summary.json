@@ -1,0 +1,77 @@
+{
+  "summary": "The session focuses on the evolving role of Chief Data Analytics Officers and the challenges they face in delivering value amidst organizational silos and a lack of data literacy. It emphasizes the importance of articulating the impact of data initiatives and the need for a cultural shift towards problem-solving and collaboration. Attendees are encouraged to take ownership of their roles and drive change by clearly defining strategies and managing expectations.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Introduction and Role of CDAO",
+      "key_points": [
+        "Evolving role of Chief Data Analytics Officers",
+        "Impact of artificial intelligence on data strategy"
+      ],
+      "start_time": "00:00:04",
+      "end_time": "00:10:04"
+    },
+    {
+      "order": 2,
+      "topic": "Communicating Value",
+      "key_points": [
+        "Importance of articulating the value of data initiatives",
+        "Need for measurable outcomes and stakeholder engagement"
+      ],
+      "start_time": "00:10:04",
+      "end_time": "00:20:04"
+    },
+    {
+      "order": 3,
+      "topic": "Challenges and Solutions",
+      "key_points": [
+        "Addressing organizational silos and cultural issues",
+        "The necessity of skills and competencies for success"
+      ],
+      "start_time": "00:20:04",
+      "end_time": "00:30:04"
+    },
+    {
+      "order": 4,
+      "topic": "Actionable Strategies",
+      "key_points": [
+        "Defining clear strategies and operating models",
+        "Implementing formal value management techniques"
+      ],
+      "start_time": "00:30:04",
+      "end_time": "00:31:06"
+    }
+  ],
+  "key_takeaways": [
+    "Articulate the value of data initiatives to stakeholders to drive engagement.",
+    "Address cultural challenges and promote a problem-solving mindset within teams.",
+    "Define clear strategies and operating models to guide data initiatives effectively."
+  ],
+  "entities": [
+    {
+      "cdao": 5
+    },
+    {
+      "data governance": 4
+    },
+    {
+      "data literacy": 3
+    },
+    {
+      "organizational culture": 3
+    },
+    {
+      "value management": 2
+    },
+    {
+      "data strategy": 2
+    },
+    {
+      "collaboration": 2
+    },
+    {
+      "data initiatives": 2
+    }
+  ],
+  "subject_area_id": "ai_strategy"
+}

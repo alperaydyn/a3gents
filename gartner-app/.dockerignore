@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.env
+ex/
+backups/
+*.png
+*.jpg
+debug_after_submit.png
+client_secret_*.json

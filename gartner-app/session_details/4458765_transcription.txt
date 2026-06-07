@@ -1,0 +1,161 @@
+[00:00:14] Welcome everyone.
+[00:00:17] How are you doing?
+[00:00:19] Good, good. Thank you for joining this session about the top trends in data and analytics for 2026.
+[00:00:28] There is no doubt, everybody is doing something around AI.
+[00:00:33] And AI in many cases is hyped. In some cases, it is very grounded and for many reasons, we chose becoming an AI first Enterprise
+[00:00:45] As the ultimate vision for the top trends in 2026. So let's rock and roll.
+[00:00:52] First stop, if you look at the market there is a clear signal AI. Spend is on the rise for example at the end of year 2025.
+[00:01:04] We noticed the overall Global spend for AI including infrastructure.
+[00:01:11] Services and software the cost was roughly 2.6 trillion.
+[00:01:18] and in the last 2 years, it has accelerated rapidly close to 40 to 50% and if this rate continues
+[00:01:27] by 2029, you're looking at a
+[00:01:30] Market, that is roughly 4.7 trillion us.
+[00:01:35] Now.
+[00:01:37] What we have found is really interesting cost. Pressures are not stopping organizations to invest in AI.
+[00:01:45] Whereas cutting Corners around semantics.
+[00:01:50] and,
+[00:01:52] Working in a fragmented tool silos is costing organizations to realize value from their AI Investments.
+[00:02:00] So this is the clear Market signal that we see and therefore we picked up becoming an AI first Enterprise as the ultimate vision for the top trends in 2026.
+[00:02:15] First of all, let me ask an answer, what is AI first?
+[00:02:20] As you probably heard in our keynote yesterday. AI first is a strategic approach that you take to maximize the benefits of AI adoption in your organization.
+[00:02:35] And AI first organization. Always prioritizes AI alongside other options and chooses AI when it makes the most sense.
+[00:02:46] And most relevant for your business decisions.
+[00:02:50] And this is the key idea. Why we chose AI first as the primary, uh, vision for this year's top trends,
+[00:03:00] I'm yet to introduce the top trends themselves. I am building towards that bear with me. Now, what we also predict is by 2030
+[00:03:11] We expect 1 in 10 organizations will become AI first.
+[00:03:17] And being AI first gives you a competitive advantage over your peers.
+[00:03:24] You can ship things faster, get work done, much more quicker, operate leaner.
+[00:03:30] And the common trait that we find among organizations, who are on their Journey towards the becoming an AI first or 3 things, and they form the teams or the chapters for the top trends in.
+[00:03:45] 2026. Namely the first 1 being agents.
+[00:03:51] The second 1 being semantics.
+[00:03:55] And the third 1 being platforms.
+[00:03:58] So if you are a data and analytics leader in your organization and you are contemplating, how should my road map for the organization look like?
+[00:04:10] If by 2030, you want to become an AI first organization, these are your work streams.
+[00:04:17] How am I going to develop?
+[00:04:19] Agentic data and analytics capabilities in my organization first work stream. The second work stream is about grounding the context of your data.
+[00:04:30] How do we standardize our data definitions so that the AI models are not going to hallucinate or give you incorrect responses. The third stream is about creating converged platforms and not working in silos. We will talk about all these 3 work streams or the chapters, as we move on. And now with that said, I'm ready to introduce the top trends that we have picked up for 2026.
+[00:05:01] The top trends. As you see here, these are the 8 top trends.
+[00:05:06] So number 1 is agentic data management.
+[00:05:10] Number 2 is agentic data streaming.
+[00:05:14] Number.
+[00:05:15] 3 is decision governance.
+[00:05:17] All these 3 top trends are related and they sit under the topic of agentic data and Analytics.
+[00:05:25] the next set of,
+[00:05:27] Top trends are composite semantic layer.
+[00:05:31] And graph rag. They sit under the topic of semantics.
+[00:05:36] And lastly under platforms. You are looking at 2, converging Trends and 1 diverging trend.
+[00:05:44] The 2 converts or data management platforms.
+[00:05:47] And AI governance platforms.
+[00:05:49] And lastly, the diverging trend is Sovereign AI.
+[00:05:54] We will talk about each 1 of these Trends in the upcoming slides. And I have made it really simple.
+[00:06:00] For you to consume for every 1 of these top trends, you will find 4 slides, which will introduce what? The top trend is.
+[00:06:09] Then secondly, I will talk about. Why is it trending?
+[00:06:13] And thirdly and more importantly, how should you respond to that top trend?
+[00:06:19] So that's what we will cover for each 1 of that. And then we will go towards closing this particular uh session. So first off
+[00:06:27] Is a gentic data management.
+[00:06:32] Now.
+[00:06:33] Agentic data management. Let's understand the topic of Agents. When we talk about agents we are talking about large language model based agents.
+[00:06:42] So you are infused.
+[00:06:45] Using agentic capability to your existing data and analytics infrastructure.
+[00:06:50] To turn that into an Adaptive self-learning system.
+[00:06:56] Where there are going to be multiple agents automating different workloads for different categories of use. This is why we picked up agentic data management as the leading Trend in 2026.
+[00:07:11] So here is a what we call a signature graphic that introduces the top Trend itself.
+[00:07:18] The idea is not to do a rip and replacement of what you already have.
+[00:07:22] but Infuse, an agentic experience, using agents, which will bring a
+[00:07:30] High degree of automation.
+[00:07:32] To your current data management processes. For example, use cases, like optimizing your data storage,
+[00:07:41] handling data drift in your schemas as you are integrating different systems,
+[00:07:47] Or generating core as you're transforming data.
+[00:07:52] When you're building pipelines and so on. So, that's the whole idea, you are not looking at
+[00:07:59] Building agents separately in a new set of systems but trying to use your existing technology and bring the agentic experience into your operations. So what's the net outcome? You are going to have a much more streamlined
+[00:08:15] Leaner efficient data and analytics operations.
+[00:08:19] Now why is it trending?
+[00:08:21] I give you 3 reasons.
+[00:08:23] Number 1.
+[00:08:25] There is a strong necessity in organizations to automate repetitive data tasks.
+[00:08:33] For example, I know a telecom company that runs a data team that creates an operational data store by getting data from over 100 different systems.
+[00:08:44] And they always about a third of their Workforce was always involved in adapting to the schema drifts, the changes that are happening at source to be reflected on their operational data store. So that many teams can do their reporting and
+[00:09:00] Consume data from this Hub. So they primarily were spending a third of their resources in doing those repetitive tasks. What is the value? Net value? That is added ultimately very little, but you are still running and keeping your operations alive. So number 1, there is a high need to automate repetitive tasks. Think about your own organization, your own repetitive data tasks. Today second there is a need for proactive monitoring of what is already deployed not a reactive response to something has broken. Oh we need to firefight. We need to fix. There is an incident. Let's work on it versus what is the likelihood of something failing.
+[00:09:45] If the current state continues. So how do we avoid a failure point or an incident from happening? So you bring your able to adapt much more dynamically to your business needs. And lastly, all of this leads to reduced, human effort in running your data Management Solutions. And that delivers an increased operational efficiency, because you spend less effort. You spend your your teams are much more released so that they can work on much more strategic initiatives for your organization.
+[00:10:19] So I've introduced, what is agentic data management and why it is trending? Now, how should you respond to this trend?
+[00:10:28] so, number 1,
+[00:10:30] You you are looking to integrate agents. Like I said, llm based agents into your existing workflows you're not planning for a major rip and replacement or changing what you have but if possible upgrade your Technologies to the latest versions. And many vendors today, they offer, agentic capabilities. For example, if I pick data integration, you have agentic capabilities to building pipelines to generating a DBT model. For example, if you are applying data Transformations on the fly. So these are the type of capabilities. How can agents be doing those parts of repetitive work within your uh, within your architecture. That's number 1.
+[00:11:15] Second if you're interesting an agentic capability without any governance Frameworks, that is assure uh way to fail fast. So what is really needed? Are establishing the right safeguards to making sure your agents are performing as you have expected them to so there is going to be an element of human oversight.
+[00:11:39] Your data Engineers, for example, are going to be helping the agents, understand the right kind of skills that they need.
+[00:11:48] Looking at the memory of what is being stored in that agentic memory and those workflows are completing as they should. So that's the first step. The second step.
+[00:12:00] Establishing governance Frameworks. And lastly you're looking at monitoring your AI agents performance. It's both functional and non-functional functional in terms of are the agents delivering what they are supposed to be doing. Or is there a drift if there is a drift? How do we intervene? How do we correct? So that your system doesn't break or worst case produce something incorrect. That's the whole idea. So, this is the first Trend. Um, we, uh, we, we have picked up and moving on to the second top trend. For this year is agentic data streaming.
+[00:12:36] Agentic data streaming is critical for organizations that are interested in creating data agents. AI agents. If you
+[00:12:45] You are interested in those agents, these agents need real-time data and the data context, served to them.
+[00:12:55] When you are looking at an agentic system, you are not looking at 1 agenda. You're looking at a pool of Agents doing different parts of the process. Now these agents need to talk to each other collaborate. And this is where new protocols like agent to agent protocol even mCP to an extent are very useful. Now, agentic data streaming is
+[00:13:20] an extension of your current data streaming capabilities that help you to deliver the right context and the right data to your in.
+[00:13:30] Regions so that they are performing with the newest or the latest information that you have rather than to work with. Um,
+[00:13:39] Stale information, unlike traditional batch based data processing which can be too slow. You are looking at a continuous even driven flow of, uh, information across agents in a multi-agent architecture. It can support, use cases, for example, like decision intelligence
+[00:14:01] Say, you are looking at a bank that processes mortgage applications for its retail customers.
+[00:14:07] And here having the up-to-date, most up-to-date information about their client will help in an act.
+[00:14:15] Accurate decision making. So that's an example of what you're looking at.
+[00:14:19] Now why is it trending 3 reasons? Number 1 when you need faster response times? Think for a moment when you have 100 different agents working in an agentic system,
+[00:14:32] If you add a little bit of latency, a few seconds here, few seconds there, if you sum it up, you're actually looking at a huge lie. So therefore faster response times is essential
+[00:14:45] and multi-agent collaboration actually thrives. When an agent can consume an output or the reasoning of the first agent in a multi-hop reasoning process. So this is where agentic data streaming comes.
+[00:15:00] Handy. And lastly timely delivery of context updates. When context is new, or when context changes, those information need to be delivered to your agents.
+[00:15:11] Now, there is a catch here.
+[00:15:14] You really do not need an agentic data streaming for all use cases. This is the caveat so you not all use cases because in simple terms, not all use, cases need real-time data. If you are getting into a streaming architecture your overall ecosystem can become very complex and also the cost of operations can go much more highly and your operations can become much more disruptive in nature much more quickly. Therefore the first
+[00:15:45] Action. You need to take in responding to agentic data. Streaming is identifying the right business. Use case that would need real-time servicing of data and secondly,
+[00:15:59] Selecting the right tools that can do the job. For example, the, the hyperscalers, they provide these type of capabilities. If I were to pick other examples,
+[00:16:08] Players like Informatica data, bricks snowflake. They all have these capabilities to bring real-time data streaming to enable, um, agents, get the right, uh, data context, available to them.
+[00:16:23] Moving on to the third, um, top trend for this year is decision governance.
+[00:16:32] So decision governance is about applying the governance principles.
+[00:16:37] Around managing decision as an asset, just like you have a system of record for data, a system of record for metadata. The newest system of record that you really need to think about are your critical decisions the biggest business decisions that you're taking and modeling them as an asset and those decisions when they are managed, they as as an asset, they now need to be governed. This is where, uh, you apply the principles of who owns this decision and what is the accountability framework for that governance and so on. So,
+[00:17:15] So you bring that decision, accountability framework to what decisions are being made, who owns those decisions. And um and and and how do we create an audit trail of those decisions and the effectiveness of your decision models, as they work in your operational life cycle. Because if your decisions if you're using
+[00:17:41] Any generative AI application as a black box. You really need to know.
+[00:17:46] How effective are the decisions that are created out of that? That's the whole idea and why is it trending? Uh number 1, there is an escalating level of recommends to handle the compliance.
+[00:18:00] Risks. There are regulatory requirements that are internal auditory recommends in organizations to making sure that these decisions are properly tracked and are auditable and they are working as they should. So that's the top reason. The second reason is
+[00:18:15] You need just like managing your data, bringing ownership over the data, you also need some form of accountability for any AI based automated decisions because these decisions can be very quick without proper governance Frameworks. You can fail very fast.
+[00:18:33] Which is not good, right? Unlike the old school, devops mindset fail, fast is good, but with AI models failing fast, they can break your purse. They can break your brand reputation, really fast.
+[00:18:45] So this is where accountability for AI becomes really critical and lastly you need a decision traceability.
+[00:18:53] So uh, under what thresholds on what what where the input parameters that were fed and what led to this decision being made, can that be audited is really essential casing point.
+[00:19:06] Children's National Hospital in the US. They use they built a decision uh, model.
+[00:19:14] By scoring the quality of their data with very low thresholds and they they keep the decision flow moving, so that they do not want the decisions to be hindered, but the major heavily on data quality.
+[00:19:30] And the completeness of the data that is being fed and used in the decision process by these agents. So if you're interested to learn more about such case studies, we have a ton of case studies. For each of those top trends, representative vendors, we have published a lot of research in February this year, come and meet with us after the session.
+[00:19:52] So those are the top 3 uh Trends and how do you respond to the decision? Uh governance Trend, number 1, your existing data and analytics. Workforce need to be re-engineered around the stewardship of the decisions and how your augmenting with human in the loop, sometimes human in the lead.
+[00:20:15] Is ALS needed. And evaluating decision intelligence platforms this year. Got not unveiled, a new magic. Quadrant called decision intelligence platforms. You have an opportunity to consume. There are many, uh, uh, vendors like, decisions IBM, uh, Flex rule, uh, sapiens SAS Institute. There are many vendors out there that can help you to manage your decision models. Well, so, take advantage of that.
+[00:20:42] So moving on to the fourth Trend composite semantic layers.
+[00:20:47] Now, I want you to catch the word composite.
+[00:20:50] Because a single or a universal semantic layer is often inadequate in large Enterprises.
+[00:21:00] This emerging pattern of a composite semantic. Layer is really essential.
+[00:21:05] And the key idea behind a composite semantic. Layer is openness and interoperability, and the hole and it is needed. Because if you look at your existing architectures,
+[00:21:18] You have different forms of semantic objects from data products to metric, definitions to knowledge graphs. You have many, many different ways, just like your data is fragmented. The meaning of your data is also fragmented in different parts of your architecture. The composite semantic layer is not about consolidation, but how do you standardize these metric definitions? Even though the objects and the ways they are,
+[00:21:45] Court or in different places. And this approach is essential for filling the context Gap and reducing the silos of the semantic definitions in your organization. And why is it? Trending number 1. The accuracy of your analytics model is really critical uh, in in an agentic future.
+[00:22:06] Then you need to think about how do, which metric, definition do I trust? Even for humans often. It is very difficult. But now for AI agents, giving the right context boundaries for them is to limiting the top-end chunks that you would typically feed to a large language, model in responding is really critical. And lastly, there is a need for increased agent.
+[00:22:30] And reusability of these metric definitions as well. So how do you respond to this trend? You respond to it by implementing a coordinated semantic modeling approach.
+[00:22:42] The key word is coordinated. It is not centralized. Your models are going to be owned and developed by different business. Domains that take care of the business context. And that model is going to be Federated the Federated analytics product development is essential. And then you also prioritize some form of openness interoperability and portability of the semantic. Definitions for example, snowflake introduced something called OSI open, semantic interchange. So for every vendor that is
+[00:23:15] Uh, that is a member of the OSI, uh, pattern. They agreed to the certain metadata standard through which they will exchange metadata, by directionally. That's an example. There are many other vendors kyos is 1. Um, uh, data bricks has an equivalent 1. Google has 1. Microsoft is also working on a similar 1, so every other opportunity to
+[00:23:38] To to finalize on what are the Open Standards through which the semantics could be interchanged across different parts of your architecture is an essential question. Now, moving on to the fifth top Trend, you're looking at graph rag.
+[00:23:51] So, what is graph rag? So, you are, when you are handling, a high complex, use case. So to explain, I'll bring 2
+[00:24:00] Different models on the top, you're looking at a standard rag.
+[00:24:03] And in the bottom you're looking at graph rag. So the graph standard rag standing for retrieval augmented generation is how you would interact with the large language model. You will start with a user base question, you would feed the necessary input documents, which would be vectorized and stored in your knowledge base, that would be fed to the large language model and then the response is generated and given back to the user. The problem you always do not get a consistent answer.
+[00:24:32] Chances of bias, hallucination, and inconsistencies. They are all the inherent nature of a rag system. How do you ground that? And how do you solve the problem? You introduce a new component called the knowledge?
+[00:24:45] Graph, which can number 1. If the knowledge graph has, the answer directly say, I asked a simple question, am I keeping up with a sales Target for this quarter? And if the knowledge graph knows these semantic terms, who am I? And who are the members of my team? What is the, um, sales targets for me for this quarter and uh, what are the sales actuals? If that information is already available on the knowledge graph? You get the immediate response but if the answer is not there within the knowledge graph but it understands where these semantic terms are mapped in the architecture. It passes those information to the large language model therefore you are likely to get correct responses. That's the whole idea behind and why is it trending
+[00:25:30] Uh, it brings a degree of transparency and traceability. It gives accuracy to how context is being engineered. And lastly, when you are working on multihop queries reasoning queries which are Beyond rag applications, you need to Ember Knowledge, Graph capabilities. So how do you respond to this trend? Number 1, you begin with a minimal Knowledge, Graph solution. You do not need to think about a boiling, the whole ocean and creating a knowledge graph for your whole Enterprise. Start with what type of questions will we asked when this jaw application is created? And where are the semantic terms? Um, in our systems, how do we map those semantic terms and and purchase that we
+[00:26:15] Within the knowledge graph is your starting point then scale Benchmark and optimize your solution and um and and use these for further applications. Now moving on uh we are short on time, 4 minutes more uh Trend number 6.
+[00:26:31] Data management platforms data management platforms. The idea behind is
+[00:26:36] there have been too much fragmentation of Technology Solutions.
+[00:26:39] and today you have a possibility of creating a unified control plane that fabricates many of the layers of your architecture from persistence to integration metadata management governance, observability, and even the self-service, and the product layer being fabricated into 1 single control plane, which
+[00:27:00] Which means you can have a heterogeneous architecture where data has multiple gravities, but with a single data management platform that harnesses over all these different endpoints. Your rationalizing, your uh, technology Investments. Your data engineering teams, perform better as a result and so on.
+[00:27:19] Why is it trending? Like I said, fragmented data Management Solutions. They usually slow down the process and integrating multiple different Technologies is not an easy problem at all. And lastly most data and analytics systems that work, today they are focused, only on analytics, use cases. You now need to expand to building your AI specific data techniques and that needs a
+[00:27:45] Solid platform where you can blend your data, internal data with large language models, which means you bring accuracy and fluency together to service the needs of your customers. How do you respond? Um, not by doing a rip and replacement but leveraging the platforms for new use cases and start eliminating, you know, which parts of our technology or underused you start identifying them. And then testing for the completeness, the functional completeness of your data management platform before you choose to migrate your workloads. So that's data management. Platforms for you, moving on Trend number 7,
+[00:28:27] AI governance platforms. My clicker is
+[00:28:30] Not working.
+[00:28:31] Okay, it's working.
+[00:28:34] So AI governance platforms. The Mandate is really straightforward. Every AI leader who is responsible for governance of the use case. They ask for a centralized oversight of the entire AI life cycle.
+[00:28:50] I think that is a fair ask if anyone is responsible for how is AI governed in your organization, they would seek for this Central visibility. For example, if you look at the current state of AI governance in organization, it is very very fragmented this slide. I call it the problem statement. It exposes how fragmented the teams the ownership of risk
+[00:29:15] Compliance metadata governance in organizations or and that is the problem.
+[00:29:20] Singularly. Uh expected by your AI governance platforms to solve. And why is it trending that's Central oversight of your AI. Life cycle is essential number 2 managing risk and the compliance of your AI systems and lastly, monitoring and Reporting. Uh, the how your AI platforms are actually, uh, the runtime controls of your platforms are actually working. So how do you respond? So it is pretty much a technology selection. Looking at the right kind of vendors. We published a market guide earlier in the year and now there is a new magic quadrant for AI governance platforms. Which is, which is
+[00:30:00] About to be released very, very quickly. So, there are many vendors out here, uh, IBM to name 1, holistic, AI 1 crust through you. And there are many other vendors who give you this capability.
+[00:30:14] The last trend.
+[00:30:16] So Trend number 8, Sovereign AI
+[00:30:20] While the other Trends are all about converging different forms of Technologies, creating centralized, uh, repositories. And so on this is much more localized, your DNA controls because of sovereign mandates
+[00:30:34] The term Sovereign is it could be a nation state like in uh, Europe. It could be the U, AI act as an example which is a major driver of your AI.
+[00:30:45] Infrastructure and your Investments. You need to secure the future of your Investments. That's the whole idea and many nation states have many, many different Sovereign policies that is driving how and where they invest and that is a very critical area that you need to understand as a DNA leader in your organization, how you can understand the impact of a nation's mandate on your organization's architecture, technology selection and so on and and you respond to this change by setting up a cross functional team including your legal counterpart. You know there is a lot of legal requirements that need to be fulfilled anyway. Making sure the AI agents that you're using are not being
+[00:31:30] Trained with your Enterprise data and so on. So,
+[00:31:34] We have covered as a quick recap, the major vision for 2030 which is AI first Enterprise. And that is solved with 3 different work streams, agents, semantics, and platforms. Now, these are technology Trends and these technology Trends are going to be Amplified by certain practices that you need to invest in your organization. This is about upskilling and bringing your people to use the technology correctly. This is where new emerging disciplines, like, AI engineering Context, Engineering and platform, engineering for data, and analytics is becoming really essential for you to succeed. Lastly.
+[00:32:15] I want to say thank you and here is the team behind the top trends in data and analytics for 2026. Many of us are here come and ask us questions. Hey, you spoke about this? How does it work? This is our situation. Can you guide us? And we are more than happy to assist you and go build an AI first Enterprise. Thank you.

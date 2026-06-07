@@ -1,0 +1,320 @@
+[00:00:04] Thanks for joining for this session. Um, my name is Thomas Raj, I'm a manager in Gardner's research. Uh, my team looks after research on data, management data, pipelines data, architecture, data platforms and things like that.
+[00:00:22] And um what I want to talk about today is developed from 1 of my team members, Adam ronal.
+[00:00:29] And to put this session into context of the Keynote.
+[00:00:34] this is less about navigating the now, this is more about navigating the next
+[00:00:39] and yes, AI will also be involved who surprised. So um,
+[00:00:45] To get us started to think about this.
+[00:00:47] um,
+[00:00:49] I want to use a very old story.
+[00:00:52] Um, this is a production assembly line from Ford over 100 years ago.
+[00:00:57] and the question is,
+[00:00:58] how did that happen?
+[00:01:00] How did all of this happen? And it goes back to a gentleman called Tyler, a tailor and taylorism as a discipline. And what he said back then was we need to do a scientific approach to management.
+[00:01:17] We actually need to measure how things are working. How long things take to do something. So the whole discipline of scientific management was the foundation on how companies are run and organised and structured.
+[00:01:30] And I think we are at the Tipping Point.
+[00:01:34] Or getting to a Tipping Point.
+[00:01:36] of the Next Generation, the version 2.0 of Scientific Management if you like,
+[00:01:42] And we call it agentic optimization.
+[00:01:46] there is a future where agents,
+[00:01:49] Will drive many things that we still do manually, overdo things that we haven't even started to look at.
+[00:01:55] so in order to combine your Cloud cost which I know is an issue for several
+[00:02:00] Because it nicely very and it's unpredictable.
+[00:02:04] To the business value. You actually deliver for the business.
+[00:02:08] And you need 4 components and you need all of them.
+[00:02:11] Um, first of all, to the left, you need your data ecosystems.
+[00:02:15] And the plural is correct. I think it's very unlikely.
+[00:02:19] That there is a company that has 1 data. Ecosystem, is the question. How many you have and where they come from? Um, you need metadata.
+[00:02:27] And there's still a large volume of metadata that is, I would call it under utilized.
+[00:02:33] Or not really used, including active metadata.
+[00:02:37] You have the discipline of phobs financial operations, and financial governance.
+[00:02:41] That is the idea to actually identify, how much money are we spending on what? And at the bottom of, of course, you need, Ai and increasingly, you will use agents to do so.
+[00:02:53] So, the idea we have is to say you start with your Cloud cost to identify, how much money are you actually.
+[00:03:00] Spending on what?
+[00:03:01] That is the question.
+[00:03:03] And I want to start with the first 1, how do we measure cost?
+[00:03:07] And the focus here is on the financial operations side.
+[00:03:12] And there is an opportunity.
+[00:03:14] With cloud.
+[00:03:16] That we haven't had before, ever.
+[00:03:19] You can get the cost at a level of granularity by workload.
+[00:03:24] that you have never had the opportunity to see,
+[00:03:29] Question is, do you use that information already?
+[00:03:32] But the information is there, you can understand how much money you spend on each, and every workload because everything we do in data engineering every way how we manage a pipeline or run a lake house,
+[00:03:44] Is a workload.
+[00:03:45] That runs on your Cloud. That is a starting point.
+[00:03:49] Now, the idea is of the equation, as Adam calls, it of financial operational is to connect the 2.
+[00:03:57] Connect. What you how you spend money on to how it's used and what the value of that is, and there's 2 ways to look at value?
+[00:04:06] 1 of which is
+[00:04:09] to think of what you are doing in data management.
+[00:04:12] As an actual value chain.
+[00:04:15] I mean you remember the assembly line picture, everybody agrees, you take some stuff material.
+[00:04:21] You assemble it, you build a car that's called the value chain.
+[00:04:26] Do you think the same way?
+[00:04:29] About your data.
+[00:04:30] Products.
+[00:04:31] It is the same thing. You take raw data, you extract it, you adjust it, you transform it, you build, schemas, you, develop a whole data product, which is the assembly to have something of higher value than the data. You you started using
+[00:04:49] And the idea in the future is to think of it as a value chain.
+[00:04:54] And as data become more and more important. In particular, in the agentic world, it is a value chain. It is how you run your business to a large extent.
+[00:05:04] if I may ask,
+[00:05:07] How many of you look at what you're doing in data management, this way and consider the value Chain by show of hands? I will not come down.
+[00:05:15] Pick you don't worry. 1 2 3 4.
+[00:05:19] 5.
+[00:05:21] That's about 10% or less of the audience.
+[00:05:24] But the idea is to look at it this way, because the only way to start understanding, how are we investing?
+[00:05:32] Our resources and the money.
+[00:05:35] To build something that is then used.
+[00:05:38] because the unknown part of it, the business impact, the reason why you have data,
+[00:05:43] how you want to help your business and drive more Revenue, be more profitable, optimize your cost, Revenue, Grows, All these wonderful things that is largely unknown to you.
+[00:05:54] So how do we connect that? What is something you can do as a DNA leader or data management leader?
+[00:06:00] To get there.
+[00:06:02] so in, in order to get started in this,
+[00:06:07] In the equation to get to your cost. You need to think of workloads as a process chain.
+[00:06:15] Everything starts somewhere, we call it data events. All data start with an event and everything that happens in between all the way to the prologue is a single value chain.
+[00:06:26] From the ingestion to the integration to transformation, schema, building model building all these wonderful things and in the future building, semantics and building context.
+[00:06:36] You want to understand each step?
+[00:06:38] And that is I assume you. You probably in slightly larger company.
+[00:06:45] Not done manually. That's where you use Ai and agents to help you identify that and measure that.
+[00:06:51] But you want to be able to do that. There's already some Trends. We see on optimizing the use.
+[00:06:59] Of the capacity. You have the compute capacity and storage capacity in the cloud.
+[00:07:04] But it's just only starting.
+[00:07:07] But it's still a real issue for many to say. I'm actually every every month, I'm surprised about the bill I'm getting
+[00:07:14] And I don't know how to Bill looks like, 3 months. Now, starting to understand that, look at your workloads, your pipeline management as a value chain that you need to understand step by step,
+[00:07:26] That is the only way and that is where you will use agents.
+[00:07:30] they are not available today but other than you building yourself to optimize it, what needs to run when
+[00:07:37] where,
+[00:07:39] To optimize the outcome, while reducing the cost to the point. You want to be
+[00:07:44] so, if you have that part,
+[00:07:46] Of the exercise brought together.
+[00:07:49] We need to think about how do you get to the next 1?
+[00:07:53] That is the more difficult 1, the value of question.
+[00:07:57] and,
+[00:07:59] The value question is a struggle for.
+[00:08:02] As long as I'm in the industry.
+[00:08:05] so, 30 plus years,
+[00:08:07] Many leaders and data management and Analytics.
+[00:08:11] Do not really ask this question.
+[00:08:14] or if
+[00:08:15] They asked the question.
+[00:08:17] The reason is not to get a valid number. The reason is to help prioritize the requests you're getting
+[00:08:24] 1 of the main reasons, they're asking for that is say, I have 10 requests, I'll, I'm able to handle 5 of them. How do I decide which 1 to, to handle?
+[00:08:35] That is by far the most often reason I'm hearing.
+[00:08:39] From data management leaders of why they actually asking for the value.
+[00:08:44] but there are ways to think about value,
+[00:08:47] And to identify value.
+[00:08:49] Can I get this?
+[00:08:52] And the secret source is metadata.
+[00:08:55] Everything that happens in your Cloud environments.
+[00:08:59] Have.
+[00:09:00] Block files.
+[00:09:01] You can use knowledge graphs and other thing Technologies to identify what is really going on.
+[00:09:10] What is happening to the data?
+[00:09:12] Who is using the data? What is the data used for?
+[00:09:17] We at Gardner, talk about active metadata for quite some time, but I think it's still not mainstream.
+[00:09:24] It's still the early days.
+[00:09:26] But the information is there.
+[00:09:29] You can get to the information.
+[00:09:32] And that gives you a picture of how is what we are building and providing.
+[00:09:37] Used.
+[00:09:38] And that shall be the basis for it.
+[00:09:41] There's again, no ready to use.
+[00:09:45] Technology has to be built.
+[00:09:48] But it is the way forward.
+[00:09:50] And in a genetic world, this will be kind of the standard, you really want to know what's going on, who's using what? And this shall Define from your perspective, the value.
+[00:10:01] that you see from the data management side,
+[00:10:06] And there is, um, different ways to look at it in, in the way, how you value it.
+[00:10:12] Um, there's today's world.
+[00:10:14] It's says oh, someone said it's really important.
+[00:10:18] And this is the most important requirement that we have and it's really good for the company.
+[00:10:23] But it's never Quantified in the sense, it's always subjective.
+[00:10:28] Now, think about the
+[00:10:30] Tremendous amount of metadata you have available that you can use to assess from your perspective.
+[00:10:37] What is the most valuable thing we do?
+[00:10:41] The number of users you have on your systems.
+[00:10:44] The type of users you have the use cases, you support. If it's automated the frequency of use
+[00:10:52] That can give you an indication to say. What are the most important most valuable things we are doing?
+[00:10:59] And Adam has a nice formula. I'll show you in a minute, but the idea is really to say,
+[00:11:04] Like, think of The Medallion architecture, there is a bronze level, silver level gold, gold level.
+[00:11:11] The gold level. And there are companies who actually do that, who analyzed the data.
+[00:11:15] that say,
+[00:11:17] Beyond the Thousand users.
+[00:11:19] Frequency. Daily is the highest value. We can deliver
+[00:11:24] Compared to other use cases, where it's less and they invest their resources, their data Engineers into those use cases that have the highest level of usage and highest value.
+[00:11:40] But as I said, this is navigating the next.
+[00:11:43] Um, I had the presentation yesterday.
+[00:11:46] And I asked the audience.
+[00:11:49] Said, how many of you?
+[00:11:51] Maybe has someone been there yesterday in my session?
+[00:11:55] Okay, you missed something. Uh, I
+[00:12:00] I asked the audience.
+[00:12:01] Say, how many of you can tell me?
+[00:12:04] Which percentage?
+[00:12:06] Of your Enterprise data warehouse.
+[00:12:09] Has not been touched queried against in the last 12 months.
+[00:12:14] There were a few hundred people in the room.
+[00:12:19] 6.
+[00:12:20] Showed their hand.
+[00:12:22] So you don't even know how Enterprise data warehouses are used, because you did not have to.
+[00:12:29] In the new world of agentic optimization.
+[00:12:32] That is a logical thing to do.
+[00:12:35] if something hasn't been touched, get rid of it archive, it
+[00:12:38] Make it ready. If someone ever comes back, we're not wasting resources people as much as money for the cloud.
+[00:12:45] To think about it.
+[00:12:48] So it's a rethinking even what we do as the providers from it, of how we look at what success looks like for us.
+[00:12:58] Success May no longer be. We have the largest Enterprise data warehouse data, warehouse, and retail industry.
+[00:13:05] We have the most used is maybe the success factor.
+[00:13:09] It delivers the most value to the organization.
+[00:13:13] So, here comes a formula.
+[00:13:16] um,
+[00:13:18] And see that as a proposal.
+[00:13:22] A way to think about it. How you Define value?
+[00:13:26] And yes, it's an indirect assessment.
+[00:13:30] Of value.
+[00:13:32] Because you interpret the value of what you deliver and the data products by the factors of what type of user do I have? What is the usage?
+[00:13:43] Um, what is the waiting? You need to have a waiting.
+[00:13:47] There may be use cases for your sea level.
+[00:13:50] Board that have only 5 users but whatever comes out of it is of extremely high value. So you give it a different weighting
+[00:13:57] So, you should play around with it in the coming.
+[00:14:00] Future months.
+[00:14:02] Just think about how can I find out based on the metadata we have in can analyze.
+[00:14:08] What is the highest value in terms of usage of the data that we provide?
+[00:14:13] That is the idea behind.
+[00:14:15] Find that concept.
+[00:14:18] Is anyone of You by show of hand doing this?
+[00:14:23] Okay.
+[00:14:24] So, I was right to say this is next.
+[00:14:27] This is coming, but if you really think about the opportunity that comes from getting all of these things together.
+[00:14:34] using AI analyzing at a level of granularity that you'd never had before the ability to optimize
+[00:14:42] All your value chain and to really think of yourself.
+[00:14:45] Not as a shared service.
+[00:14:48] but as a part of the core value chain of a company,
+[00:14:52] and I think this formula is a starting point to think about how you assess that
+[00:14:57] Which will most definitely.
+[00:15:00] Lead to a different form of communication conversation and negotiation.
+[00:15:06] With all your business partners you have.
+[00:15:09] Because now you can confront them in a positive sense.
+[00:15:13] uh, with your assessment of value versus what their assessment of value is,
+[00:15:18] But I said this is a proposal.
+[00:15:23] What you then can do.
+[00:15:24] And should do.
+[00:15:26] Is to prioritize and optimize what you are actually doing, how you investing your resources.
+[00:15:33] Based on the value that you have identified, these are just example numbers.
+[00:15:38] And the what the more you go down, the more you will have a question, mark, shall we really do that?
+[00:15:45] Oh, shall we put it to something else to another place? How do we deal with it?
+[00:15:50] But the more you get the high value things.
+[00:15:53] You can start to prioritize.
+[00:15:56] And you can automate that process.
+[00:16:02] So, how do we link that? Uh, I mentioned it earlier at the beginning.
+[00:16:08] This new world of agentic optimization and using Cloud cost is the starting point not the endpoint.
+[00:16:15] Requires, you need to get your hand on all factors.
+[00:16:20] You really need to understand your detail ecosystems and how we get access to the metadata, how you can use the metadata, which AI models or
+[00:16:30] Agents, you can use to understand and optimize and analyze all the things that are going on. Who is doing. What? Why, where is it used? Where is it? Not used to ultimately get to the financial operations and governance you're looking for.
+[00:16:45] I'm fairly convinced your CFO will love this story.
+[00:16:50] Because they hate clout in a sense.
+[00:16:54] That they just don't know how much money the people will spend.
+[00:16:58] And we are just at the beginning.
+[00:17:02] Many of you probably let me ask how many of you have not agents but Genai conversational Bots already in the organization that you use.
+[00:17:14] Okay.
+[00:17:15] That's half of you half of the audience already uses that that is still low-level in terms of compute power. You will need
+[00:17:23] Agents is the next thing. The next big thing and it will require massive resources.
+[00:17:29] And the cloud service providers for good reasons are very happy to provide that to you at the price.
+[00:17:36] And the big run of building data centers across the world is just a signal.
+[00:17:42] That something, uh, of a magnitude is changing in terms of compute and storage capacity, that is needed in the future.
+[00:17:50] So get ready. Now, start thinking about that. As said this is not best practice. This is next practice.
+[00:17:56] To get a feeling for how can we shift our own?
+[00:18:00] Own way of operating, our own way of how we look at the value that we create relative to the value that is perceived or understood by the business.
+[00:18:10] So ultimately you get to this point?
+[00:18:13] You optimize your own value chain. You understand your own value chain.
+[00:18:18] you assess the value that you think you're creating the way how you would prioritize, what shall be done when and where
+[00:18:27] and now we can map that to the business impact.
+[00:18:32] You can now talk to the users, the stakeholders.
+[00:18:37] And tell them the numbers and ask them. We can do that for you.
+[00:18:41] It will cost you $50,000 a month. Are you happy to pay?
+[00:18:46] Which is the next thing that is changing.
+[00:18:49] Um, and there are companies actually that do that already.
+[00:18:54] Um,
+[00:18:56] data product management. How many of you are starting to think about data, product management or using data products, okay? Thank you very much. Oh, that's about a third.
+[00:19:06] By show of hands. How, how many of you charge?
+[00:19:10] For data products, you build.
+[00:19:13] Um, waiting for a hand, there's 1 hand.
+[00:19:16] Wonderful 1.
+[00:19:18] And we've seen some cases.
+[00:19:21] but if you think about the data product, if you think about delivering value,
+[00:19:26] you must have a price tag to it.
+[00:19:29] and,
+[00:19:30] Today's world it's very hard to actually get to that.
+[00:19:33] You've not analyzed your value chain, your value chain. You cannot split their own workload cost by workload and know what belongs to what.
+[00:19:43] but in the future, you will be able
+[00:19:47] in the future, there will be a price tag and I said there companies that we've talked to who already do that and if there's nobody willing to pay for it,
+[00:19:56] they're not doing it.
+[00:19:59] Because the way we operate it in the past has led to the situation that nobody even looks what percentage of my huge data warehouse hasn't been touched in the year.
+[00:20:09] Because it was never a Criterion.
+[00:20:12] Of doing so.
+[00:20:14] And I think there,
+[00:20:15] Lies the opportunity.
+[00:20:17] To finally move.
+[00:20:19] From, if I may say a free lunch, that means a free lunch.
+[00:20:24] To a real business.
+[00:20:27] And what I mean by 2, free lunches.
+[00:20:30] Typically.
+[00:20:33] Your budget for data management.
+[00:20:36] Is a free lunch.
+[00:20:38] You get it every year.
+[00:20:40] You're not measured against anything other than you fulfilled, what? You were the request that you got into?
+[00:20:46] But it's not tied to anything, it's an annual or sometimes monthly total it costs that is overhead for the business department.
+[00:20:56] the people that request from you,
+[00:21:00] Also get a free lunch because they don't pay the price that you told them they have to pay.
+[00:21:05] So, the 2 free lunches shall go away.
+[00:21:08] And become a real business.
+[00:21:10] And then it makes sense, and the technology starts being there.
+[00:21:14] And starts to emerge as as something even offered by vendors. To say, of course we can optimize all your workloads on all your Cloud platforms, we can tell you how much the cost is. We can even look into, how can we further optimized that this is going to happen.
+[00:21:31] It becomes a real important thing.
+[00:21:36] So, I hope I excited you a little bit.
+[00:21:39] Um,
+[00:21:41] I want to leave you with 1 more final thought, because
+[00:21:45] A whole bunch of you thinking about or have data products.
+[00:21:49] From our point of view.
+[00:21:53] The data products need to be owned.
+[00:21:55] By the business.
+[00:21:57] The users, the consumers of it.
+[00:22:01] Not by us.
+[00:22:02] if we are an it,
+[00:22:05] because only then you get to the point that
+[00:22:08] they need to understand.
+[00:22:11] It requires an investment.
+[00:22:13] It requires responsibility.
+[00:22:16] It requires upskilling my own people to make sure we know what we're doing.
+[00:22:21] So, supported by a team.
+[00:22:23] so, if I may ask again,
+[00:22:26] By show of hands. Those of you who have data product into a data product.
+[00:22:30] Management in your organization.
+[00:22:33] How many of you would say it's owned by the business? Not buy it.
+[00:22:39] Oh,
+[00:22:40] Wow.
+[00:22:42] Approximately half of the people already have that you're on the right path.
+[00:22:46] All you need to do is find a way to put a price tag on it. Say oh it's great that you do want to do that wonderful? It's 50k every month or 60 or whatever the price is
+[00:22:57] but this makes,
+[00:23:00] The use of data and the discipline of data management.
+[00:23:04] A real value chain and part of the business.
+[00:23:07] And that's what we think is going to happen.
+[00:23:11] So, look at the data products you have. And for those of you who have not
+[00:23:15] Get started with data product management.
+[00:23:17] Identify data assets.
+[00:23:20] That are worth.
+[00:23:22] Building a data product.
+[00:23:24] Managing. As a data product, that is frequently used High number of users. Think about that.
+[00:23:32] Try to analyze the value chain.
+[00:23:35] The process the pipeline that you're really using to build that and try to get an understanding of what does it take to actually build all of that?
+[00:23:44] Technical them, categorize them.
+[00:23:48] And invest in metadata.
+[00:23:51] Analysis and Technology to better understand the metadata that you have. It's a huge volume problem because there's a lot of if you have a lot of workloads running.
+[00:24:00] But you can automate that, but you want to do that.
+[00:24:03] Over time, you want to build.
+[00:24:07] Your own prioritization based on the indirect indirectly, assess value that you have created.
+[00:24:14] For your discipline and then work with the business.
+[00:24:18] On the pricing for that. Is it worth doing it? Or is it not worth doing it?
+[00:24:24] So, I hope I could give you a little bit of foresight into a nice future.
+[00:24:30] Where things change? There's no more free lunches, there's business.
+[00:24:35] And it's automated. And I think that is where we will end up in a few years from now. And I hope I could give you a little bit of inspiration. There's a
+[00:24:45] Lot of research uh already available published on that and you will see Adam ronells name quite often. So if you're going a client you want to talk to him, he's more than happy to talk to you about that but aent optimization is coming.
+[00:25:01] and um, now is the time for you to prepare to do so
+[00:25:06] Thank you very much for your attention. Thank you.

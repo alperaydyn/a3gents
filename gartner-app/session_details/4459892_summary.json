@@ -1,0 +1,73 @@
+{
+  "summary": "The session discusses the evolving landscape of data integration, emphasizing the continued relevance of ETL alongside emerging trends such as streaming and ontology-driven integration. It highlights best practices for organizations to enhance their integration maturity, including the adoption of minimum lovable products and self-service capabilities. The speaker also introduces a data integration maturity framework to guide organizations in optimizing their data integration strategies.",
+  "sections": [
+    {
+      "order": 1,
+      "topic": "Emerging Trends in Data Integration",
+      "key_points": [
+        "ETL is still relevant due to ongoing organizational needs for data movement.",
+        "Emerging technologies include zero ETL, streaming integration, and ontology-driven integration."
+      ],
+      "start_time": "00:00:03",
+      "end_time": "00:15:12"
+    },
+    {
+      "order": 2,
+      "topic": "Leading Practices for Data Integration",
+      "key_points": [
+        "Organizations should focus on developing minimum lovable products to validate business value.",
+        "Self-service capabilities should be enabled while maintaining governance and oversight."
+      ],
+      "start_time": "00:15:13",
+      "end_time": "00:30:54"
+    },
+    {
+      "order": 3,
+      "topic": "Improving Data Integration Maturity",
+      "key_points": [
+        "Adopt a data integration maturity framework to assess and enhance integration capabilities.",
+        "Focus on balancing integration styles and optimizing costs through effective governance."
+      ],
+      "start_time": "00:30:54",
+      "end_time": "00:31:11"
+    }
+  ],
+  "key_takeaways": [
+    "ETL remains a critical component of data integration despite emerging technologies.",
+    "Organizations should prioritize minimum lovable products to ensure alignment with business needs.",
+    "Implementing a data integration maturity framework can guide organizations towards enhanced integration capabilities."
+  ],
+  "entities": [
+    {
+      "etl": 10
+    },
+    {
+      "streaming": 5
+    },
+    {
+      "ontology-driven integration": 3
+    },
+    {
+      "minimum lovable products": 4
+    },
+    {
+      "data integration maturity framework": 3
+    },
+    {
+      "self-service": 5
+    },
+    {
+      "dataops": 3
+    },
+    {
+      "zero etl": 3
+    },
+    {
+      "data replication": 2
+    },
+    {
+      "data virtualization": 2
+    }
+  ],
+  "subject_area_id": "data_management"
+}

@@ -1,0 +1,197 @@
+[00:00:06] Good morning, everyone.
+[00:00:07] this was the voice of God, God I was told and you know, humans are here to at least applaud so that's like AI or
+[00:00:16] Technology and humans together. So I hope you all are enjoying the gutter conference. It's the third day.
+[00:00:23] And amazing sessions out there. And what I found AI Readiness is a common theme that you must have heard in many of the sessions.
+[00:00:32] So let's check out what does that mean for the government so as you all know, government today are operating at huge distal scales.
+[00:00:42] What does that mean? For UK, we have got
+[00:00:45] Millions of citizens who are using 1900 plus Public Services, which are based on shared digital platform.
+[00:00:54] What does that mean for AI? That means we have got a lot of opportunity, right?
+[00:01:00] And with this opportunity, what we need to together, we need the data foundations to be stronger,
+[00:01:07] because what AI is going to do is what AI exactly do it amplifies
+[00:01:13] What is already there?
+[00:01:15] If the data foundations are stronger.
+[00:01:18] It's going to accelerate and if data foundations are weak.
+[00:01:22] it will scale risk and
+[00:01:24] I'm sure you must have noticed in different parts of your carriers or the work you are doing now.
+[00:01:30] Now, uh, we are many of the pilots just got halted because they couldn't go to the production because of these risks.
+[00:01:38] And that matters for us. Why? Because we are looking for citizen outcomes. We are looking for how we could really prevent fraud, how we could really
+[00:01:49] Get insights into Health Data to better support our citizens, how we could really join a public services in a way through which the way the citizens expect for us.
+[00:02:02] so today I want to really focus on how we could really build a government, which is AI ready and how we could really
+[00:02:11] What It Takes actually to really.
+[00:02:15] get from Pilots to production when we are talking about the governments in terms of system foundations,
+[00:02:22] before I go further, just a quick show of hands and his Co cdio and his senior leaders in the room.
+[00:02:31] Any techie data Engineers data scientists.
+[00:02:35] Any policy leaders supplier procurement who are working trying to get AI machine reworking.
+[00:02:42] So good. Yeah we have got a mixed bunch and I'm really looking forward how I share my learnings for many of you.
+[00:02:50] A bit about me. I am a PhD in machine learning myself. I'm 25 years. I have got experience working.
+[00:03:00] Enter into intersection of data technology and real work. Uh, real working delivery.
+[00:03:07] How what have been my career has been from data science to exact digital transformations?
+[00:03:14] Industry Academia government different flavors over there. And what I have been working recently is founding the data Innovation labs, in the public sector where we have worked on Cutting, Edge data and Technology.
+[00:03:30] Use cases how we could really work on those complex areas, uh by improving data and Technology. Working alongside operational delivery where the heart constraint lies
+[00:03:45] In my last job in department for work work and pensions are you, uh, worked at the head of generative, AI, for Central, uh, Center of Excellence for generative AI. We, we really produced a lot of generative AI, you know, uh, proof of Concepts at PACE. And then, while working over there, we really learned the hard way what it means, actually to really bring, um, AI Pilots to production. And that brought me in my current role where I really wanted to see. Oh no, I know AI better. What does it mean? How I could really now? Support data foundations for the government and that's what we are doing at the center in government, Digital Services?
+[00:04:30] Bit about GDs, GDs, as you all may know, is the Strategic core.
+[00:04:35] Uh, of data technology and digital core of the government and where we are centrally working towards a common Mission. What? That is the blueprint for the modern digital government. If you see, if you go and see on the go to UK website, you will find out. It's all, it's all there, which talks about joining a public services, so that we could really reach to the vulnerable, small businesses, support them. They don't need to go through the fragmented Services how we could really actually use AI for public good.
+[00:05:10] What does that mean for digital and data infrastructure?
+[00:05:13] And how we could.
+[00:05:15] Really commit to transfer, uh, transparency and explainability because that matters to us, right? Because we are looking forward for citizen facing outcomes. We need to understand from where the data is coming. How it is being shared, how it is being assured, how it is being governed.
+[00:05:35] And that's something is explicitly there as the first step to accelerate AI.
+[00:05:43] So I would really say AI Readiness is not a separate agenda where we are working, uh, in the office of Chief data officer in GTS.
+[00:05:53] it's a delivery test, whether we will be able to make this blueprint real
+[00:05:58] and application.
+[00:06:01] For the government.
+[00:06:04] you must have heard about lot of these blockers throughout the like last 2, 3 days where
+[00:06:12] Uh, what actually is stopping AI from going from Pilots to production?
+[00:06:18] and then,
+[00:06:20] What does that mean for us? Where we really want to dive in now,
+[00:06:25] My experience have really shown and this is what like in my current job. I really interact with a lot of cross comment, departments to understand their problems and what we could really do from Center to support them and and it's a very similar issue where AI is accelerating at a very faster Pace as compared to data maturity.
+[00:06:45] Over there.
+[00:06:46] And that's why we are the teams are getting uh getting struck as data is fragmented unclassified.
+[00:06:54] sometimes data is,
+[00:06:57] There, but the classification is not for reuse and still if it's there, you cannot use it.
+[00:07:03] Ethics, most of the time when you are doing your Pilots or you're building your products and in this agile age you want to do it fast pace. This means ethics, chapter comes later in the journey when you are actually talking about production scaling and putting it in the front end.
+[00:07:22] How we could really solve that problem by bringing ethics earlier.
+[00:07:27] in, when actually you are
+[00:07:30] Doing that project in the design phase itself and governance many times. These policies don't exist. The policies for operationalization, never existed because no 1 Trieda.
+[00:07:50] Because it's not there.
+[00:07:51] and that means, the default answer from any pilot to production becomes know, rather than how, and how we could really change this no to
+[00:08:03] Potentially. Yes, by what we could really do in the center.
+[00:08:09] so,
+[00:08:10] when we spoke to the Departments, we really found that the
+[00:08:15] Fragmented.
+[00:08:16] Data set these. Ethics challenges are actually failing, the delivery. They are, they are causing reputational risks and that's why there is a kind of like, you know, a risk aversion out there not to take it further. So, in the center, we really work towards 6, building blocks, these are the 6 of many more things we are doing, but that's something we really help us to understand what could be done to actually.
+[00:08:45] Accelerate AI because it's not just about models. It's about the data foundations.
+[00:08:52] So everything that I'm exist. I'm covering here is not a theory. You may see them as a guidance on gov
+[00:09:00] UK but they have come up as a solutions to the failure modes that have been found out and they could solve some of the critical complex costly problems. First of all, which you all may be in your job struggling to make AI outcomes visible. As of now, many times explainability becomes a issue and that really
+[00:09:25] Causes a lost lot of.
+[00:09:29] Concerns fear and, you know, specially for the senior leaders in the room because they are the sros for those particular projects.
+[00:09:39] And the second most important is Assurance, how we could really make sure assure
+[00:09:45] Bring a particular project, a particular initiative. A tool is early in the journey, not later in the journey and third not least.
+[00:09:54] Data sharing.
+[00:09:56] collapsing, due, due to Legal uncertainty many times again,
+[00:10:01] You start so late with your data, sharing Journeys.
+[00:10:05] Because you had been so fixed focused on your pallets that you know, there are legal gateways but you have not explored them or you have explored later in the journey, I will go deeper in, atrs AI action, ready set data, set, and pets to show more how we are leveraging our learnings to support the government better.
+[00:10:30] Anyone who has experienced or know about algorithmic. Transparency.
+[00:10:39] I just got 2, 3 hands out of, I don't know. 50, 60, 80 people. So what exactly we are trying to do here it is a good example of turning values into operation where what we are trying to do how we could really make transparency as a work package of the delivery vehicle.
+[00:11:00] In UK, we don't treat transparency just as a communication.
+[00:11:05] Tool that. Oh, our AI tool is transparent. We really want to focus on how how we are making it transparent and this is the outcome of that.
+[00:11:15] So what it is, it is a policy mandate where the senior leaders in public sector are accountable to make their algorithmic tools, which are taking citizen decision in scope.
+[00:11:29] Public. They need to publish how they are making it transparent on algorithmic, uh, transparency record standard website.
+[00:11:38] It is a mandatory roll out so it is not for some an enthusiastic teams to go and you know try to do it. It is there for everyone and every department needs to do it for their in scope tools.
+[00:11:51] it is a product, this doesn't mean you are going into the very hard code of data Sciences, like, you know, you need to, or you need to
+[00:12:00] Be a very legal expert to do that. You need to understand your tool and the operating model it's not just algorithmic transparency. It's about the operating model how it is aligned to governance how it interacts with users, how it is making decisions. So it's all the ecosystem around the
+[00:12:20] tool that you need to think of when you are, uh,
+[00:12:25] Publishing your record here and then you get your record and this record is going to be there.
+[00:12:32] On publicly visible forever. So you could really show how you are enabling public trust by making it more visible.
+[00:12:43] And very proud to say that.
+[00:12:45] You know, we have this particular tool has got International recognition.
+[00:12:49] Estonia is also traveling some of these capabilities in their particular, you know, country and my team had been doing engagements and workshops to bring people on board. And it is also recognized in gpia, oecd. All the international forums who care about transparency and algorithmic transparency and ethics. So what we have done till now we have got 1 131 records which are
+[00:13:16] out there.
+[00:13:18] So atrs is already being used by the government teams to make their systems safer and defensible.
+[00:13:26] and we have got a lot of use cases, like, 131 recalls are
+[00:13:30] Out, you can go and have a look, but some, some different promising ones are where, uh, fcdo. They are using it to triage the administrative correspondence or it is being used to, to allocate organs, um, with fairness and transparency. It's being used to find illegal activities online in terms of gambling and all. And within within GDs, we are looking forward how we could really use the tools like 1 login, which are there for, you know, uh, for the citizens, how we could really leverage them and make them more transparent.
+[00:14:07] So,
+[00:14:08] While we were working on this tool.
+[00:14:11] it was very easy to come up with the concept and, you know,
+[00:14:15] Bring everyone on board with it. What is hard to make transparency as a chapter?
+[00:14:21] When of the, in the life cycle of a project, when your delivery pressure is already there, when you are very much moving towards, like, you know, Fast Track towards their, uh, towards your, towards the end point.
+[00:14:35] so,
+[00:14:37] My advice here will be just start small wherever you are. Either, you are a senior leader or, you know, you're actually coding it.
+[00:14:48] What is the impact your tool is going to make over there and what could be the tiny bits? That could be enabled as you are working towards it so that you know it's you are not
+[00:15:00] Retrospectively talking about transparency at the end when you are really looking forward to get this tool out. Although, this particular tool is there for the public sector, but we are looking forward to extend it to Alps and it is open for other organizations if they really are looking forward for some government connects.
+[00:15:20] Quickly on ethics by Design. Uh, we have got our data ethics and AI framework that we have re recently launched
+[00:15:28] Outside. And this is what.
+[00:15:32] I've been talking about that we need to think about data ethics, right? When you have good use case.
+[00:15:39] and this is my personal experience where when I was leading those AI projects I
+[00:15:45] really found that, you know, when we are doing those Baseline testings and the end with the Prototype
+[00:15:51] with a very high level of accuracy.
+[00:15:54] We were really asked.
+[00:15:57] Key questions Cutting Edge around ethics, so how again? We could really make sure we make it part of the your delivery life cycle. And this is what I did in every Sprint how we could have 1 particular ticket, which really talks about
+[00:16:13] What now is are the results. Ethical it is difficult, but as but this particular guidance can really make it simpler for you.
+[00:16:26] this is, this is a very interesting topic where we
+[00:16:30] We all talk about oh we don't our data is not AI ready.
+[00:16:34] Has anyone?
+[00:16:36] Heard about it like or are you struggling with it? Do you know what? AI ready data is actually.
+[00:16:44] I just got 1 hand. So what? Exactly? So the mindset is AI. Ready data. Set means a clean data. What do you mean by Clean data?
+[00:16:56] We worked here to understand work with the cross government. Again, based on what work is being done to understand. What does it mean for, uh, AI ready data set? And again, if your data is accessible, structured, documented governed, we can say
+[00:17:15] Aid. And do you think it happens? What are the blockers? We actually face.
+[00:17:22] First of all,
+[00:17:24] many times data is not discoverable.
+[00:17:27] You come up with a prototype based on what data you have, but you are not able to discover it as in the last scale.
+[00:17:35] Missing lineage very important for us in the government. We really want to make sure what data we are using. Is it ethical? It is legal before we actually go and go for it. No, clear data on a ship classification gaps. As I say it many times data is there, however, access controls on a ship is not clear. Classification is not right that you
+[00:18:00] You are not able to use it and it takes 8 is to really get it.
+[00:18:04] In the right form. So these are the challenges and we wanted to know how we actually solve them.
+[00:18:12] We really wanted to come with up with the operating model, that could really work for the go for the Departments how? And this means what a technical lead needs to do where they need to focus on when they are looking forward from growing from their AI Pilots to production. And here for the senior leaders, they need to think where they need to make the most in Investments first rather than looking forward for scaling AI quickly. So as you can see, if you
+[00:18:45] Before the left it is Data, catalog and Discovery. So it is very important that
+[00:18:51] we have got settled metadata tagging lineage, is there even if you start small for a particular initiative, you need to have know what data is there. So that analysts can actually find that data quickly.
+[00:19:06] So we need Investments there again.
+[00:19:09] Ownership of the data. When you you most of the time specially with the leads, we have file metadata standards are not adopted. Definitions are not there. And when you are trying to roll the big ball,
+[00:19:24] You don't know where to start. So, again, starting with your most promising use case for AI and understand.
+[00:19:30] Understanding how we can capture the ownership. What does that mean? What is the quality level of that particular data? Who are the stewards over there?
+[00:19:39] And then working backwards to understand, once we have got this data in Hand of teams, they actually know what they can do with data, and that comes under the governance and access controls. We have got this particular
+[00:19:54] Again, in terms of guidance, all on gov.uk, we have throughout the life cycle of the data, we have tried to map that what is needed to be done in each part of the life cycle to take it to the next level. Again, when you are prototyping, when you are at start start thinking and I would say there needs to be a
+[00:20:15] Data prototype, data discovery that needs to be done parallel to AI prototyping and this is what we are traveling.
+[00:20:24] Bit about the unstructured data.
+[00:20:27] not the time for today, uh, because, uh, it's itself is a, uh, long topic, but it's 1 of my favorite ones because we keep on talking about
+[00:20:37] Data Readiness and we focus more on structured data.
+[00:20:41] if you see around 80% of the data, that you are using is unstructured in terms of your teams guidance, emails, chats,
+[00:20:50] A lot of Legacy documents which are all all over there. How we could really make this unstructured data as you're critic.
+[00:21:00] Asset, which is very important and how we make it ready for AI. We are very closely working with the gkim that is a knowledge information management Community around. In Cross government to understand what are the concerns of interaction of information with AI. And we have really found. Again it is about your life cycle management ownership and governance around the guidance ambiguity and guidance Version Control and which could really lead to massive digital heaps out there.
+[00:21:34] And then some more work around gov.uk which is there, you could really find out that how we are really leveraging AI to make it better in G. GDs.
+[00:21:44] this 1 has
+[00:21:45] Recently become my favorite as I moved to this job.
+[00:21:49] We all talk about data sharing. As I said, very late in the journey
+[00:21:54] We me, many of us especially the technical teams or the leads are not actually aware of the legal gateways.
+[00:22:02] Are not aware of the time that takes actually to get those data sharing agreement sorted.
+[00:22:09] And many times you get your data sharing, agreements sorted, and you reflect back and you say, oh we didn't do it for the AI use case.
+[00:22:19] How we could really leverage the gateways, the gears legal gateways which are already there that could be used early, so you need that pragmatic View.
+[00:22:30] Early in the start. Again, when you are starting prototyping that word does that mean once we want this particular tool to scale. A quick example, is the digital economy act like, you know, my my team Engineers is, uh, leading on it. So there are 500, plus active information, sharing agreements again on public, uh, Records. You will find. They are, they are there. There are some very critical areas of fraud.
+[00:23:01] Fuel poverty, water poverty, where you could really find the data is being shared by big departments. Like DWP, Dennis with energy companies to really work on those complex areas.
+[00:23:15] Support the citizens better.
+[00:23:17] For for everyone in the room. It is for us to understand how we are using these gateways. Are you aware of them?
+[00:23:25] And many times it goes to the policy colleagues later or you know the data legislation teams or lawyers later in the journey to quickly open the legal Gateway without bringing them on board from the start that what is the intention of this AI tool? How we can really break them along with the journey together? So that these particular gateways, the legal gateways are there.
+[00:23:51] Which could be a delivery vehicle for your.
+[00:23:55] Pilot to production.
+[00:23:59] Quickly.
+[00:24:00] You are. I'm to be.
+[00:24:02] So I'm sure Tech is in the room. May have heard may have actually explored it and um so what mCP is it is a open standard that really
+[00:24:14] It claims can bring AI very close to the real data.
+[00:24:19] Within a government way. We did a Innovation day where we brought again, all the Departments together to understand where they are in mCP, adoption. Do they understand that emerging Tech? And we really found. Again, rather than fixing AI problems. It is surfacing the data foundational problems because data is not discoverable governed or owned. This means even adopting these emerging technology.
+[00:24:45] Technologies becomes difficult.
+[00:24:47] And again for the senior leads or policy colleagues, although you don't need to be there to build these tools, but you need to be aware that where your teams are getting stuck because there is a common blocker towards which all of us can work together.
+[00:25:02] quickly again on, uh,
+[00:25:05] what we are so with mCP with uh,
+[00:25:10] With these emerging Technologies or data sharing agreements. We could really make some
+[00:25:17] progress. But however, with very high sensitive data, many times, it's impossible and we really want to need to be aware of the Privacy enhanced Technologies. So what are the? These are the guard rails.
+[00:25:30] These are technical guard rails which could really help to safely use some of the sensitive data without exposing it to AI. So in GTS, we have done some pallets with NHS campaign where the data is in high constraint.
+[00:25:47] It is really sensitive and it needs. We need production Scale based analytics at scale actually to get some insights. And we have been working with in US, UK pet Challenge and through different ways to understand. What does it mean for us in the government? Synthetic data is very, very close to me from last if you see my blogs online, I have been championing it because that is the first thing.
+[00:26:15] When you are doing your pallets, you need to create that that intelligent clones.
+[00:26:21] Understanding what data is actually needed for that particular Journey.
+[00:26:26] And then you need to really look forward in your real world. Does the data exists in that way, if the data is not existing there are gaps over there, you may be able to come up with your prototypes and works, but you will be, you know, uh, very back in getting it to production. And sometimes we really found the project just halted because
+[00:26:50] The data that was being captured.
+[00:26:53] Was not.
+[00:26:54] Right? And that's why you need to go back and see what data we are. Capturing over there.
+[00:27:00] And injurious. We are working again to see.
+[00:27:04] in terms of emails which are very high risky, you know, sensitive but
+[00:27:10] but it can contain strategic information.
+[00:27:13] How and we need to dispose them right at some point.
+[00:27:17] How we could really create synthetic.
+[00:27:20] Uh, test sets and understand how we could actually uh again the digital Heap work, we are doing how we could accelerate the journey to uh to dispose safely. These kind of sensitive
+[00:27:35] Informations.
+[00:27:37] while working on while talking about all the different things we had been doing the common theme that has come
+[00:27:45] Is on a ship as you must have seen. If it is, there is a 1 takeaway for everyone in the room, it is for each. And every initiative that you are thinking, what is the initiate? Who is owning it?
+[00:27:57] Many times everyone owns the piece of the puzzle.
+[00:28:02] Oh, you are owning the governance strategy. Oh, you are owning the technology. Build SRO is owning the budget.
+[00:28:10] But what does that mean? When we are bringing it all together, who is actually owning the puzzle.
+[00:28:16] as a whole it needs to be 1 person, who is actually looking it from from
+[00:28:22] Top bottom. It could be a cdio or it could be a tech lead. I will leave it to you because once it is
+[00:28:30] Start with the system ownership is clear. You can you need to really align your incentives around this. You need to build those capabilities, not only Tech you need to get data literacy. Sorted, you need to bring stakeholders on more, you need to think about change management over there and then at that point Assurance doesn't come later. Assurance is part of the journey which can scale with confidence without restrictions.
+[00:29:01] so,
+[00:29:03] While ending, I just want you to go and think about whatever projects again, you're doing. Where are you on the AI? Ready, data, maturity letter, and who
+[00:29:15] Phones moving you forward. Because if if it is no 1's, problem to move you forward and everyone are doing their bits, then you are really missing the big picture and you are that is a very challenging situation.
+[00:29:29] Our ethics and insurance embedded by Design or are still late stage gates in your organization. So, if after prototype is done, if you're thinking, oh now I need to scale. I need to present it to 200 SMS from the workforce and then you are reverse engineering to make it tactically work. You may not be able to go a long way, due to reputational risks and how the the most important is how you can make sure your data.
+[00:30:00] Data, sharing Agreements are actually.
+[00:30:03] future proofing, your AI initiatives because many times you're looking at a very
+[00:30:10] Short Vision over there. You are not looking at long term and that is where you could really make a difference.
+[00:30:18] so,
+[00:30:19] If you're really looking forward for strong data foundations, ethics by Design, clear system ownership, we could really make AI ready. Government. Not just a aspiration but a Dependable capability. And we need to start from somewhere maybe small. So I would just end at where I started that AI Readiness isn't a model Choice. It is a system choice and we all
+[00:30:45] Need to own it. Thank you very much.

@@ -1,0 +1,1454 @@
+{% extends "base.html" %}
+{% block title %}{{ session.title }} — Gartner Sessions{% endblock %}
+
+{% block nav_extra %}
+<a href="/" class="nav-back">
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+    <polyline points="15 18 9 12 15 6"/>
+  </svg>
+  All Sessions
+</a>
+<span id="navbar-title" class="navbar-title">{{ session.title }}</span>
+{% endblock %}
+
+{% block content %}
+<div class="detail-layout">
+
+  <!-- ── Header (full width) ─────────────────────────────────────────────────── -->
+  <div class="detail-header" id="detail-header">
+    <h1 class="detail-title">{{ session.title }}</h1>
+    <div class="detail-meta">
+      {% if session.speakers %}
+      <span>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+        </svg>
+        {{ session.speakers }}
+      </span>
+      {% endif %}
+      <span>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+          <line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/>
+          <line x1="3" y1="10" x2="21" y2="10"/>
+        </svg>
+        {{ session.date }}
+      </span>
+      <span>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+        </svg>
+        {{ session.time }}
+      </span>
+      {% if session.location %}
+      <span>
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+          <circle cx="12" cy="10" r="3"/>
+        </svg>
+        {{ session.location }}
+      </span>
+      {% endif %}
+    </div>
+    <div class="detail-badges">
+      {% if session.attended %}<span class="badge badge-green">Attended</span>{% endif %}
+      {% if session.recommended %}<span class="badge badge-amber">Recommended</span>{% endif %}
+      {% if session.exclusive %}<span class="badge badge-red">Exclusive</span>{% endif %}
+      {% if session.on_agenda %}<span class="badge badge-blue">On Agenda</span>{% endif %}
+      {% if has_video %}<span class="badge badge-gray">Video</span>{% elif drive_video_url %}<span class="badge badge-gray">Drive Video</span>{% endif %}
+      {% if has_audio %}<span class="badge badge-green">Voice Rec</span>{% endif %}
+      <button id="read-flag-btn" class="read-flag-btn {% if is_read %}is-read{% endif %}"
+              onclick="toggleReadFlag()" title="{% if is_flagged %}Remove read flag{% else %}Mark as read{% endif %}">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+          <polyline points="22 4 12 14.01 9 11.01"/>
+        </svg>
+        <span id="read-flag-label">{% if is_read %}Read{% else %}Mark as read{% endif %}</span>
+      </button>
+      {% if transcription and is_admin %}
+      <button id="refresh-btn" class="btn-refresh" onclick="refreshSummary()" title="Re-generate AI summary from transcript">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <polyline points="23 4 23 10 17 10"/>
+          <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/>
+        </svg>
+        <span class="refresh-label">Refresh summary</span>
+      </button>
+      <span id="refresh-msg" class="refresh-msg hidden"></span>
+      {% endif %}
+    </div>
+    <div class="detail-visit-stats">
+      <button class="visit-stat visit-stat-btn" onclick="toggleVisitLog()" id="visit-count-btn" aria-expanded="false">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>
+        </svg>
+        {{ visit_count }} view{{ 's' if visit_count != 1 else '' }}
+        <svg class="visit-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polyline points="6 9 12 15 18 9"/>
+        </svg>
+      </button>
+      {% if last_visit %}
+      <span class="visit-stat">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+        </svg>
+        Last visited <span class="visit-time" data-ts="{{ last_visit.timestamp }}">{{ last_visit.timestamp[:10] }}</span>
+        {% if last_visit.user_name %} by {{ last_visit.user_name }}{% endif %}
+      </span>
+      {% endif %}
+    </div>
+    <div class="visit-log" id="visit-log" hidden>
+      {% for v in visits_desc %}
+      <div class="visit-log-row">
+        <span class="visit-log-user">{{ v.user_name or v.user_email or 'Unknown' }}</span>
+        <span class="visit-log-time" data-ts="{{ v.timestamp }}">{{ v.timestamp[:16].replace('T', ' ') }}</span>
+        {% if v.time_spent_seconds %}
+        <span class="visit-log-dur">{{ '%d:%02d' % (v.time_spent_seconds // 60, v.time_spent_seconds % 60) }}</span>
+        {% endif %}
+      </div>
+      {% endfor %}
+      {% if not visits_desc %}
+      <span class="muted" style="font-size:.78rem;padding:2px 4px">No visits longer than 60 s yet.</span>
+      {% endif %}
+    </div>
+  </div>
+
+  <!-- ── Prev / Next navigation ────────────────────────────────────────────── -->
+  <div class="session-nav">
+    {% if prev_session %}
+    <a href="/session/{{ prev_session.session_id }}" class="session-nav-btn session-nav-prev">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+      <div class="session-nav-text">
+        <span class="session-nav-label">Previous</span>
+        <span class="session-nav-title">{{ prev_session.title }}</span>
+        <span class="session-nav-meta">{{ prev_session.date }}{% if prev_session.time %} · {{ prev_session.time }}{% endif %}</span>
+      </div>
+    </a>
+    {% else %}
+    <div></div>
+    {% endif %}
+    {% if next_session %}
+    <a href="/session/{{ next_session.session_id }}" class="session-nav-btn session-nav-next">
+      <div class="session-nav-text">
+        <span class="session-nav-label">Next</span>
+        <span class="session-nav-title">{{ next_session.title }}</span>
+        <span class="session-nav-meta">{{ next_session.date }}{% if next_session.time %} · {{ next_session.time }}{% endif %}</span>
+      </div>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+    </a>
+    {% else %}
+    <div></div>
+    {% endif %}
+  </div>
+
+  <!-- ── Summary (2) + Topics (1) — full-width 2:1 row ─────────────────────── -->
+  {% if summary %}
+  <div class="summary-topics-row">
+
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">Summary</span>
+        {% if summary_mtime %}<span class="muted" style="font-size:.72rem">{{ summary_mtime }}</span>{% endif %}
+      </div>
+      <div class="panel-body summary-block">
+        <p>{{ summary.summary }}</p>
+        {% if summary.key_takeaways %}
+        <div class="summary-section-label" style="margin-top:14px">Key Takeaways</div>
+        <ul class="takeaway-list" style="margin-top:8px">
+          {% for t in summary.key_takeaways %}<li>{{ t }}</li>{% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if entities %}
+    <div class="panel">
+      <div class="panel-header"><span class="panel-title">Topics &amp; Entities</span></div>
+      <div class="panel-body">
+        <div class="entity-tags">
+          {% for e in entities %}
+          <span class="entity-tag" onclick="openEntityModal('{{ e.term | replace("'", "\\'") }}')">
+            {{ e.term }}
+            <span class="entity-tag-count" title="{{ e.sessions_count }} sessions total">{{ e.count }}</span>
+          </span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+  </div>
+  {% endif %}
+
+  <!-- ── Left: Video + timebar + sections ───────────────────────────────────── -->
+  <div class="video-panel">
+
+    {% if has_video %}
+    <div class="video-wrap">
+      <video id="session-video" controls preload="metadata" src="/video/{{ session.session_id }}">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+    {% elif drive_video_url %}
+    <div class="video-wrap drive-wrap">
+      <iframe id="drive-frame"
+              src="{{ drive_video_url }}"
+              allow="autoplay"
+              allowfullscreen
+              title="{{ session.title }}"></iframe>
+      <div class="drive-badge">
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+        </svg>
+        Google Drive
+      </div>
+    </div>
+    {% elif documents %}
+    {# Document viewer — tabs if more than one doc #}
+    {% if documents | length > 1 %}
+    <div class="doc-tabs" id="doc-tabs">
+      {% for doc in documents %}
+      <button class="doc-tab{% if loop.first %} active{% endif %}"
+              data-src="/document/{{ session.session_id }}/{{ doc.name }}"
+              data-ext="{{ doc.ext }}"
+              onclick="switchDoc(this)">
+        {% if doc.ext == 'pdf' %}
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        {% else %}
+        <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        {% endif %}
+        {{ doc.display }}
+      </button>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% set first = documents[0] %}
+    {% if first.ext == 'pdf' %}
+    <div class="doc-wrap" id="doc-wrap">
+      <iframe id="doc-frame" src="/document/{{ session.session_id }}/{{ first.name }}"
+              title="{{ first.display }}"></iframe>
+    </div>
+    {% else %}
+    <div class="doc-wrap doc-wrap-ppt" id="doc-wrap">
+      <div class="doc-ppt-placeholder" id="doc-ppt-placeholder">
+        <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="2" y="3" width="20" height="14" rx="2"/>
+          <path d="M8 21h8M12 17v4"/>
+        </svg>
+        <span id="doc-ppt-name">{{ first.display }}</span>
+        <span class="doc-ppt-note">PowerPoint files can't be previewed in the browser</span>
+        <a id="doc-ppt-download" href="/document/{{ session.session_id }}/{{ first.name }}"
+           download class="btn btn-ghost" style="margin-top:4px">Download to view</a>
+      </div>
+    </div>
+    {% endif %}
+    {% else %}
+    <div class="video-wrap">
+      <div class="no-video">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <polygon points="23 7 16 12 23 17 23 7"/>
+          <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+        </svg>
+        <span>No video available</span>
+      </div>
+    </div>
+    {% endif %}
+
+    {% if has_audio %}
+    <!-- ── Audio recording dock ───────────────────────────────────────────── -->
+    <div class="audio-dock" id="audio-dock">
+
+      <!-- waveform + scrubber — full width -->
+      <div class="audio-waveform" id="audio-waveform"></div>
+      <div class="audio-track" id="audio-track">
+        <div class="audio-fill" id="audio-fill"></div>
+        <div class="audio-thumb" id="audio-thumb"></div>
+      </div>
+
+      <!-- controls row -->
+      <div class="audio-controls">
+        <button class="audio-play-btn" id="audio-play-btn" onclick="toggleAudio()" title="Play / Pause">
+          <svg id="audio-icon-play" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+            <polygon points="5 3 19 12 5 21 5 3"/>
+          </svg>
+          <svg id="audio-icon-pause" class="hidden" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+            <rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>
+          </svg>
+        </button>
+
+        <div class="audio-badge">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+            <line x1="12" y1="19" x2="12" y2="23"/>
+            <line x1="8" y1="23" x2="16" y2="23"/>
+          </svg>
+          Voice Recording
+        </div>
+
+        <div class="audio-time-display">
+          <span id="audio-current">0:00</span>
+          <span class="audio-time-sep">/</span>
+          <span id="audio-duration">--:--</span>
+        </div>
+
+        <div class="audio-controls-right">
+          <!-- STT button -->
+          {% if not has_transcription %}
+          <button class="btn-stt" id="btn-stt" onclick="transcribeAudio()" title="Send to Speech-to-Text">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+              <line x1="12" y1="19" x2="12" y2="23"/>
+              <line x1="8" y1="23" x2="16" y2="23"/>
+            </svg>
+            <span id="btn-stt-label">Generate Transcript</span>
+          </button>
+          {% else %}
+          <span class="audio-transcript-exists">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            Transcript ready
+          </span>
+          {% endif %}
+          <span id="stt-msg" class="stt-msg"></span>
+          <!-- Volume -->
+          <div class="audio-vol-wrap">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+              <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+            </svg>
+            <input type="range" class="audio-vol-input" id="audio-vol-input" min="0" max="1" step="0.02" value="1" title="Volume">
+          </div>
+        </div>
+      </div>
+
+      <audio id="session-audio" src="/audio/{{ session.session_id }}" preload="metadata"></audio>
+    </div>
+    {% endif %}
+
+    {% if sections %}
+    <div class="timebar-wrap">
+      <div class="timebar-label">
+        <span>Sections</span>
+        <span id="video-time-display">0:00</span>
+      </div>
+      <div class="timebar" id="timebar">
+        {% for sec in sections %}
+        <div class="timebar-segment seg-{{ loop.index0 % 8 }}"
+             style="left:{{ sec.left_pct }}%; width:{{ sec.width_pct }}%;"
+             title="{{ sec.topic }} ({{ sec.start_time }} – {{ sec.end_time }})"
+             onclick="seekTo({{ sec.start_seconds }})">
+          <span>{{ sec.topic }}</span>
+        </div>
+        {% endfor %}
+        <div class="timebar-cursor" id="timebar-cursor" style="left:0%"></div>
+      </div>
+    </div>
+
+    <div class="sections-detail" id="sections-detail">
+      {% for sec in sections %}
+      <div class="section-card"
+           id="section-card-{{ loop.index0 }}"
+           data-start="{{ sec.start_seconds }}"
+           data-end="{{ sec.end_seconds }}"
+           onclick="seekTo({{ sec.start_seconds }})">
+        <div class="section-card-header">
+          <div class="section-dot seg-{{ loop.index0 % 8 }}" style="border-radius:50%"></div>
+          <div class="section-card-title">{{ sec.topic }}</div>
+          <div class="section-card-time">{{ sec.start_time }} – {{ sec.end_time }}</div>
+        </div>
+        {% if sec.key_points %}
+        <ul class="section-card-points">
+          {% for pt in sec.key_points %}<li>{{ pt }}</li>{% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+  </div>
+
+  <!-- ── Right sidebar: Transcription + Notes ───────────────────────────────── -->
+  <div class="sidebar">
+
+    {% if transcription or (is_admin and has_audio) %}
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">Transcription</span>
+        <div style="display:flex;align-items:center;gap:8px">
+          {% if transcription %}<span class="muted" style="font-size:.72rem">{{ transcription | length }} lines</span>{% endif %}
+          {% if is_admin and has_audio %}
+          <button id="retranscribe-btn" class="btn-icon retranscribe-btn"
+                  onclick="retranscribe()" title="Re-generate transcription from audio">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <polyline points="23 4 23 10 17 10"/>
+              <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/>
+            </svg>
+          </button>
+          <span id="retranscribe-msg" class="retranscribe-msg"></span>
+          {% endif %}
+        </div>
+      </div>
+      <div class="panel-body" style="padding:8px">
+        {% if transcription %}
+        <div class="transcription-panel" id="transcription-panel">
+          {% for line in transcription %}
+          <div class="trans-line"
+               id="trans-{{ loop.index0 }}"
+               data-seconds="{{ line.seconds }}"
+               onclick="seekTo({{ line.seconds }})">
+            <span class="trans-ts">{{ line.timestamp }}</span>
+            <span class="trans-text">{{ line.text }}</span>
+          </div>
+          {% endfor %}
+        </div>
+        {% else %}
+        <p class="muted" style="font-size:.8rem;padding:4px 6px">No transcription yet. Click the refresh button to generate one from the audio.</p>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
+
+    <div class="panel">
+      <div class="panel-header">
+        <span class="panel-title">Notes</span>
+        <span class="badge badge-gray">{{ session_notes | length }}</span>
+      </div>
+      <div class="panel-body">
+        {% if session_notes %}
+        <div class="notes-list" id="notes-list">
+          {% for note in session_notes %}
+          <div class="note-entry">
+            <div class="note-meta">
+              <span class="note-author">{{ note.user_name or 'Unknown' }}</span>
+              {% if note.timestamp %}
+              <span class="note-ts" data-ts="{{ note.timestamp }}">{{ note.timestamp[:10] }}</span>
+              {% else %}
+              <span class="note-ts">—</span>
+              {% endif %}
+            </div>
+            <div class="note-text">{{ note.text }}</div>
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+        <textarea class="notes-textarea" id="notes-textarea"
+                  placeholder="Add a new note for this session…"></textarea>
+        <div class="notes-footer">
+          <span class="notes-status" id="notes-status"></span>
+          <button class="btn btn-primary" onclick="saveNotes()">Add note</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Similar Sessions Panel ───────────────────────────────────────────── -->
+    <div class="panel" id="similar-panel">
+      <div class="panel-header">
+        <span class="panel-title">Similar Sessions</span>
+        <span class="badge badge-gray" id="similar-count" style="display:none"></span>
+        <span class="similar-status" id="similar-status">
+          <svg class="similar-spinner" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M21 12a9 9 0 1 1-6.219-8.56"/>
+          </svg>
+          Loading…
+        </span>
+        <button class="sim-filter-btn" id="sim-filter-btn" onclick="toggleSimFilter()" title="Show/hide visited sessions" style="display:none">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>
+          </svg>
+          <span id="sim-filter-label">Hide visited</span>
+        </button>
+      </div>
+      <div class="panel-body" id="similar-body">
+        <div class="similar-list" id="similar-list"></div>
+      </div>
+    </div>
+
+    <!-- ── Upload Content Panel ─────────────────────────────────────────────── -->
+    <div class="panel">
+      <div class="panel-header add-content-header" onclick="toggleAddContent()">
+        <span class="panel-title">Add Content</span>
+        <span class="add-content-right">
+          {% if not has_video and not has_transcription and not documents %}
+          <span class="badge badge-amber">No content yet</span>
+          {% endif %}
+          <svg class="add-content-chevron" id="add-content-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <polyline points="6 9 12 15 18 9"/>
+          </svg>
+        </span>
+      </div>
+      {% if not is_admin %}
+      <div class="add-content-locked" id="add-content-body">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+          <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+        </svg>
+        Only admins can add content to sessions.
+      </div>
+      {% else %}
+      <div class="panel-body upload-body" id="add-content-body" style="display:none">
+
+        <!-- Video upload -->
+        <div class="upload-section">
+          <div class="upload-label">Video{% if has_video %} <span class="upload-exists">✓ uploaded</span>{% endif %}</div>
+          <div class="upload-zone" id="video-drop-zone"
+               ondragover="handleDragOver(event,'video-drop-zone')"
+               ondragleave="handleDragLeave('video-drop-zone')"
+               ondrop="handleDrop(event,'video')"
+               onclick="document.getElementById('video-file-input').click()">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <polygon points="23 7 16 12 23 17 23 7"/>
+              <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+            </svg>
+            <span>Drop video or click to browse</span>
+            <span class="upload-note">MP4, MOV, AVI, MKV — saved as stream.mp4</span>
+          </div>
+          <input type="file" id="video-file-input" accept="video/*" style="display:none"
+                 onchange="uploadVideo(this.files[0])">
+          <div class="upload-progress hidden" id="video-progress">
+            <div class="progress-bar"><div class="progress-fill" id="video-progress-fill"></div></div>
+            <span class="progress-label" id="video-progress-label">0%</span>
+          </div>
+          <div class="upload-msg hidden" id="video-msg"></div>
+        </div>
+
+        <!-- Audio upload -->
+        <div class="upload-section">
+          <div class="upload-label">Voice Recording{% if has_audio %} <span class="upload-exists">✓ uploaded</span>{% endif %}</div>
+          <div class="upload-zone" id="audio-drop-zone"
+               ondragover="handleDragOver(event,'audio-drop-zone')"
+               ondragleave="handleDragLeave('audio-drop-zone')"
+               ondrop="handleDrop(event,'audio')"
+               onclick="document.getElementById('audio-file-input').click()">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+              <line x1="12" y1="19" x2="12" y2="23"/>
+              <line x1="8" y1="23" x2="16" y2="23"/>
+            </svg>
+            <span>Drop audio or click to browse</span>
+            <span class="upload-note">MP3, WAV, M4A, OGG, AAC, AIFF</span>
+          </div>
+          <input type="file" id="audio-file-input" accept="audio/*" style="display:none"
+                 onchange="uploadAudio(this.files[0])">
+          <div class="upload-progress hidden" id="audio-progress">
+            <div class="progress-bar"><div class="progress-fill" id="audio-progress-fill"></div></div>
+            <span class="progress-label" id="audio-progress-label">0%</span>
+          </div>
+          <div class="upload-msg hidden" id="audio-msg"></div>
+        </div>
+
+        <!-- Document upload -->
+        <div class="upload-section">
+          <div class="upload-label">Document (PDF / PPT)</div>
+          <div class="upload-zone" id="doc-drop-zone"
+               ondragover="handleDragOver(event,'doc-drop-zone')"
+               ondragleave="handleDragLeave('doc-drop-zone')"
+               ondrop="handleDrop(event,'doc')"
+               onclick="document.getElementById('doc-file-input').click()">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+            </svg>
+            <span>Drop file or click to browse</span>
+            <span class="upload-note">PDF, PPT, PPTX</span>
+          </div>
+          <input type="file" id="doc-file-input" accept=".pdf,.ppt,.pptx" style="display:none"
+                 onchange="uploadDocument(this.files[0])">
+          <div class="upload-msg hidden" id="doc-msg"></div>
+          {% if documents %}
+          <div class="upload-doc-list">
+            {% for doc in documents %}
+            <div class="upload-doc-item">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+              </svg>
+              {{ doc.display }}
+            </div>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+
+        <!-- Transcript paste -->
+        <div class="upload-section">
+          <div class="upload-label">Transcript{% if has_transcription %} <span class="upload-exists">✓ saved</span>{% endif %}</div>
+          <textarea class="notes-textarea" id="transcript-paste"
+                    placeholder="Paste transcript text here. Timestamps like [HH:MM:SS] are parsed automatically."
+                    style="min-height:90px;font-size:0.775rem;font-family:monospace">{{ transcript_raw }}</textarea>
+          <div class="notes-footer">
+            <span class="upload-msg" id="transcript-msg"></span>
+            <button class="btn btn-primary" onclick="saveTranscript()">Save transcript</button>
+          </div>
+        </div>
+
+      </div>
+      {% endif %}
+    </div>
+
+  </div>
+
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const SESSION_ID = "{{ session.session_id }}";
+const video    = document.getElementById('session-video');
+const audioEl  = document.getElementById('session-audio');
+
+// ── Navbar title on scroll ────────────────────────────────────────────────────
+const detailHeader = document.getElementById('detail-header');
+const navTitle     = document.getElementById('navbar-title');
+if (detailHeader && navTitle) {
+  const obs = new IntersectionObserver(
+    ([entry]) => navTitle.classList.toggle('visible', !entry.isIntersecting),
+    { threshold: 0, rootMargin: '-54px 0px 0px 0px' }
+  );
+  obs.observe(detailHeader);
+}
+
+// ── Video + timebar sync ──────────────────────────────────────────────────────
+const sections = {{ sections | tojson }};
+const totalEnd = sections.length ? Math.max(...sections.map(s => s.end_seconds)) : 0;
+
+function seekTo(seconds) {
+  if (video) {
+    video.currentTime = seconds;
+    video.play();
+  } else if (audioEl) {
+    audioEl.currentTime = seconds;
+    audioEl.play();
+    updatePlayIcon(true);
+  } else {
+    const frame = document.getElementById('drive-frame');
+    if (frame) {
+      const base = frame.src.split('?')[0];
+      frame.src = `${base}?t=${seconds}&autoplay=1`;
+    }
+  }
+}
+
+function formatTime(s) {
+  const m = Math.floor(s / 60), sec = Math.floor(s % 60);
+  return `${m}:${sec.toString().padStart(2, '0')}`;
+}
+
+function updateTimebar(currentTime) {
+  if (!totalEnd) return;
+  const pct = Math.min(currentTime / totalEnd * 100, 100);
+  const cursor = document.getElementById('timebar-cursor');
+  if (cursor) cursor.style.left = pct + '%';
+  const display = document.getElementById('video-time-display');
+  if (display) display.textContent = formatTime(currentTime);
+  sections.forEach((sec, i) => {
+    const card = document.getElementById(`section-card-${i}`);
+    if (!card) return;
+    card.classList.toggle('active', currentTime >= sec.start_seconds && currentTime < sec.end_seconds);
+  });
+}
+
+// ── Transcription sync ────────────────────────────────────────────────────────
+const transLines = Array.from(document.querySelectorAll('.trans-line'));
+let lastActiveIdx = -1;
+
+function updateTranscription(currentTime) {
+  if (!transLines.length) return;
+  let activeIdx = 0;
+  for (let i = transLines.length - 1; i >= 0; i--) {
+    if (currentTime >= parseInt(transLines[i].dataset.seconds)) { activeIdx = i; break; }
+  }
+  if (activeIdx === lastActiveIdx) return;
+  lastActiveIdx = activeIdx;
+  transLines.forEach((el, i) => el.classList.toggle('active', i === activeIdx));
+  const panel = document.getElementById('transcription-panel');
+  const el    = transLines[activeIdx];
+  if (panel && el) {
+    const panelRect = panel.getBoundingClientRect();
+    const elRect    = el.getBoundingClientRect();
+    const delta = elRect.top - panelRect.top - (panel.clientHeight / 2) + (el.offsetHeight / 2);
+    panel.scrollTop += delta;
+  }
+}
+
+if (video) {
+  video.addEventListener('timeupdate', () => {
+    updateTimebar(video.currentTime);
+    updateTranscription(video.currentTime);
+  });
+}
+
+// ── Audio player ──────────────────────────────────────────────────────────────
+const AUDIO_BAR_W   = 2;   // px — fixed bar width
+const AUDIO_BAR_GAP = 2;   // px — fixed gap between bars
+const waveformEl = document.getElementById('audio-waveform');
+const audioBars  = [];
+
+// Deterministic pseudo-random heights seeded by session ID
+let _wSeed = 0;
+for (let c of SESSION_ID) _wSeed = (_wSeed * 31 + c.charCodeAt(0)) & 0xffffffff;
+function seededRand() {
+  _wSeed = ((_wSeed >>> 0) * 1664525 + 1013904223) & 0xffffffff;
+  return (_wSeed >>> 0) / 0xffffffff;
+}
+
+function buildWaveform() {
+  if (!waveformEl) return;
+  // Measure the actual rendered width of the container
+  const w = waveformEl.offsetWidth;
+  if (!w) return;
+  const numBars = Math.floor(w / (AUDIO_BAR_W + AUDIO_BAR_GAP));
+  // Clear previous bars (in case of resize rebuild)
+  waveformEl.innerHTML = '';
+  audioBars.length = 0;
+  for (let i = 0; i < numBars; i++) {
+    const bar = document.createElement('div');
+    bar.className = 'audio-bar';
+    bar.style.height = Math.round(18 + seededRand() * 82) + '%';
+    waveformEl.appendChild(bar);
+    audioBars.push(bar);
+  }
+}
+
+// Build once layout is settled, rebuild on resize
+if (waveformEl) {
+  // Use requestAnimationFrame to ensure the layout has been painted
+  requestAnimationFrame(() => {
+    buildWaveform();
+    // Re-sync progress after rebuild if audio is already playing
+    if (audioEl && !isNaN(audioEl.duration)) updateAudioProgress(audioEl.currentTime);
+  });
+  let _resizeTimer;
+  window.addEventListener('resize', () => {
+    clearTimeout(_resizeTimer);
+    _resizeTimer = setTimeout(() => {
+      buildWaveform();
+      if (audioEl && !isNaN(audioEl.duration)) updateAudioProgress(audioEl.currentTime);
+    }, 150);
+  });
+}
+
+function updatePlayIcon(playing) {
+  const iconPlay  = document.getElementById('audio-icon-play');
+  const iconPause = document.getElementById('audio-icon-pause');
+  if (!iconPlay) return;
+  iconPlay.classList.toggle('hidden', playing);
+  iconPause.classList.toggle('hidden', !playing);
+}
+
+function updateAudioProgress(currentTime) {
+  if (!audioEl) return;
+  const duration = audioEl.duration || 0;
+  const pct = duration ? currentTime / duration : 0;
+
+  const fill  = document.getElementById('audio-fill');
+  const thumb = document.getElementById('audio-thumb');
+  const cur   = document.getElementById('audio-current');
+  if (fill)  fill.style.width  = (pct * 100) + '%';
+  if (thumb) thumb.style.left  = (pct * 100) + '%';
+  if (cur)   cur.textContent   = formatTime(currentTime);
+
+  // Colour waveform bars
+  const playedCount = Math.round(pct * audioBars.length);
+  audioBars.forEach((b, i) => b.classList.toggle('played', i < playedCount));
+
+  // Keep timebar and transcription in sync
+  updateTimebar(currentTime);
+  updateTranscription(currentTime);
+}
+
+function toggleAudio() {
+  if (!audioEl) return;
+  if (audioEl.paused) { audioEl.play(); } else { audioEl.pause(); }
+}
+
+if (audioEl) {
+  audioEl.addEventListener('loadedmetadata', () => {
+    const durEl = document.getElementById('audio-duration');
+    if (durEl) durEl.textContent = formatTime(audioEl.duration);
+  });
+  audioEl.addEventListener('timeupdate', () => updateAudioProgress(audioEl.currentTime));
+  audioEl.addEventListener('play',  () => updatePlayIcon(true));
+  audioEl.addEventListener('pause', () => updatePlayIcon(false));
+  audioEl.addEventListener('ended', () => updatePlayIcon(false));
+
+  // Scrubber seek on click/drag
+  const track = document.getElementById('audio-track');
+  if (track) {
+    let dragging = false;
+    function scrubTo(e) {
+      const rect = track.getBoundingClientRect();
+      const pct  = Math.max(0, Math.min(1, (e.clientX - rect.left) / rect.width));
+      audioEl.currentTime = pct * (audioEl.duration || 0);
+      updateAudioProgress(audioEl.currentTime);
+    }
+    track.addEventListener('mousedown', e => { dragging = true; scrubTo(e); });
+    document.addEventListener('mousemove', e => { if (dragging) scrubTo(e); });
+    document.addEventListener('mouseup',   () => { dragging = false; });
+  }
+
+  // Volume control
+  const volInput = document.getElementById('audio-vol-input');
+  if (volInput) volInput.addEventListener('input', e => { audioEl.volume = parseFloat(e.target.value); });
+}
+
+// ── Speech-to-Text transcription ──────────────────────────────────────────────
+let _sttPollTimer;
+
+function transcribeAudio() {
+  const btn     = document.getElementById('btn-stt');
+  const label   = document.getElementById('btn-stt-label');
+  const msg     = document.getElementById('stt-msg');
+  if (!btn) return;
+  btn.disabled  = true;
+  label.textContent = 'Starting…';
+  msg.textContent   = '';
+  msg.className     = 'stt-msg';
+
+  fetch(`/api/session/${SESSION_ID}/transcribe-audio`, { method: 'POST' })
+    .then(r => r.json())
+    .then(data => {
+      if (data.status === 'started') {
+        label.textContent = 'Transcribing…';
+        msg.textContent   = 'Processing audio — this may take a few minutes';
+        msg.className     = 'stt-msg stt-running';
+        _pollTranscription();
+      } else {
+        btn.disabled      = false;
+        label.textContent = 'Generate Transcript';
+        msg.textContent   = '✗ ' + (data.message || 'Failed to start');
+        msg.className     = 'stt-msg stt-error';
+      }
+    })
+    .catch(() => {
+      btn.disabled      = false;
+      label.textContent = 'Generate Transcript';
+      msg.textContent   = '✗ Network error';
+      msg.className     = 'stt-msg stt-error';
+    });
+}
+
+function _pollTranscription() {
+  clearTimeout(_sttPollTimer);
+  _sttPollTimer = setTimeout(() => {
+    fetch(`/api/session/${SESSION_ID}/transcription-status`)
+      .then(r => r.json())
+      .then(data => {
+        if (data.exists) {
+          const msg = document.getElementById('stt-msg');
+          if (msg) { msg.textContent = '✓ Done — reloading…'; msg.className = 'stt-msg stt-ok'; }
+          setTimeout(() => window.location.reload(), 800);
+        } else {
+          _pollTranscription();  // keep waiting
+        }
+      })
+      .catch(() => _pollTranscription());
+  }, 5000);
+}
+
+// ── Retranscribe (admin) ──────────────────────────────────────────────────────
+let _retranscribePollTimer;
+
+function retranscribe() {
+  const btn = document.getElementById('retranscribe-btn');
+  const msg = document.getElementById('retranscribe-msg');
+  if (!btn) return;
+  btn.disabled = true;
+  btn.classList.add('spinning');
+  msg.textContent = 'Starting…';
+  msg.className = 'retranscribe-msg running';
+
+  fetch(`/api/session/${SESSION_ID}/transcribe-audio`, { method: 'POST' })
+    .then(r => r.json())
+    .then(data => {
+      if (data.status === 'started') {
+        msg.textContent = 'Transcribing…';
+        _pollRetranscribe();
+      } else {
+        btn.disabled = false;
+        btn.classList.remove('spinning');
+        msg.textContent = '✗ ' + (data.message || 'Failed');
+        msg.className = 'retranscribe-msg error';
+      }
+    })
+    .catch(() => {
+      btn.disabled = false;
+      btn.classList.remove('spinning');
+      msg.textContent = '✗ Network error';
+      msg.className = 'retranscribe-msg error';
+    });
+}
+
+function _pollRetranscribe() {
+  clearTimeout(_retranscribePollTimer);
+  _retranscribePollTimer = setTimeout(() => {
+    fetch(`/api/session/${SESSION_ID}/transcription-status`)
+      .then(r => r.json())
+      .then(data => {
+        if (data.exists) {
+          const msg = document.getElementById('retranscribe-msg');
+          if (msg) { msg.textContent = '✓ Done — reloading…'; msg.className = 'retranscribe-msg ok'; }
+          setTimeout(() => window.location.reload(), 800);
+        } else {
+          _pollRetranscribe();
+        }
+      })
+      .catch(() => _pollRetranscribe());
+  }, 5000);
+}
+
+// ── Refresh summary ───────────────────────────────────────────────────────────
+function refreshSummary() {
+  const btn = document.getElementById('refresh-btn');
+  const msg = document.getElementById('refresh-msg');
+  btn.disabled = true;
+  btn.classList.add('spinning');
+  btn.querySelector('.refresh-label').textContent = 'Generating…';
+  msg.className = 'refresh-msg hidden';
+
+  fetch(`/api/session/${SESSION_ID}/refresh-summary`, { method: 'POST' })
+    .then(r => r.json())
+    .then(data => {
+      btn.classList.remove('spinning');
+      btn.querySelector('.refresh-label').textContent = 'Refresh summary';
+      if (data.status === 'ok') {
+        msg.textContent = '✓ Done — reloading…';
+        msg.className = 'refresh-msg ok';
+        setTimeout(() => window.location.reload(), 800);
+      } else {
+        msg.textContent = '✗ ' + (data.message || 'Unknown error');
+        msg.className = 'refresh-msg error';
+        btn.disabled = false;
+      }
+    })
+    .catch(err => {
+      btn.classList.remove('spinning');
+      btn.querySelector('.refresh-label').textContent = 'Refresh summary';
+      msg.textContent = '✗ ' + err.message;
+      msg.className = 'refresh-msg error';
+      btn.disabled = false;
+    });
+}
+
+// ── Document tab switching ────────────────────────────────────────────────────
+function switchDoc(btn) {
+  document.querySelectorAll('.doc-tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const src = btn.dataset.src;
+  const ext = btn.dataset.ext;
+  const wrap = document.getElementById('doc-wrap');
+  if (ext === 'pdf') {
+    wrap.className = 'doc-wrap';
+    wrap.innerHTML = `<iframe id="doc-frame" src="${src}" title="${btn.textContent.trim()}"></iframe>`;
+  } else {
+    const name = btn.textContent.trim();
+    wrap.className = 'doc-wrap doc-wrap-ppt';
+    wrap.innerHTML = `
+      <div class="doc-ppt-placeholder">
+        <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>
+        </svg>
+        <span>${name}</span>
+        <span class="doc-ppt-note">PowerPoint files can't be previewed in the browser</span>
+        <a href="${src}" download class="btn btn-ghost" style="margin-top:4px">Download to view</a>
+      </div>`;
+  }
+}
+
+// ── Upload helpers ────────────────────────────────────────────────────────────
+function handleDragOver(e, zoneId) {
+  e.preventDefault();
+  document.getElementById(zoneId).classList.add('drag-over');
+}
+function handleDragLeave(zoneId) {
+  document.getElementById(zoneId).classList.remove('drag-over');
+}
+function handleDrop(e, type) {
+  e.preventDefault();
+  const zoneId = type === 'video' ? 'video-drop-zone' : type === 'audio' ? 'audio-drop-zone' : 'doc-drop-zone';
+  document.getElementById(zoneId).classList.remove('drag-over');
+  const file = e.dataTransfer.files[0];
+  if (!file) return;
+  if (type === 'video') uploadVideo(file);
+  else if (type === 'audio') uploadAudio(file);
+  else uploadDocument(file);
+}
+
+function showUploadMsg(id, text, isError) {
+  const el = document.getElementById(id);
+  el.textContent = text;
+  el.className = 'upload-msg ' + (isError ? 'upload-msg-error' : 'upload-msg-ok');
+}
+
+function uploadVideo(file) {
+  if (!file) return;
+  const progress = document.getElementById('video-progress');
+  const fill     = document.getElementById('video-progress-fill');
+  const label    = document.getElementById('video-progress-label');
+  const msg      = document.getElementById('video-msg');
+  msg.className  = 'upload-msg hidden';
+  progress.classList.remove('hidden');
+
+  const xhr = new XMLHttpRequest();
+  xhr.upload.addEventListener('progress', e => {
+    if (!e.lengthComputable) return;
+    const pct = Math.round(e.loaded / e.total * 100);
+    fill.style.width  = pct + '%';
+    label.textContent = pct + '%';
+  });
+  xhr.addEventListener('load', () => {
+    progress.classList.add('hidden');
+    if (xhr.status === 200) {
+      showUploadMsg('video-msg', '✓ Video uploaded — reloading…', false);
+      setTimeout(() => window.location.reload(), 900);
+    } else {
+      const err = JSON.parse(xhr.responseText || '{}').message || 'Upload failed';
+      showUploadMsg('video-msg', '✗ ' + err, true);
+    }
+  });
+  xhr.addEventListener('error', () => {
+    progress.classList.add('hidden');
+    showUploadMsg('video-msg', '✗ Network error', true);
+  });
+
+  const fd = new FormData();
+  fd.append('file', file);
+  xhr.open('POST', `/api/session/${SESSION_ID}/upload-video`);
+  xhr.send(fd);
+}
+
+function uploadAudio(file) {
+  if (!file) return;
+  const progress = document.getElementById('audio-progress');
+  const fill     = document.getElementById('audio-progress-fill');
+  const label    = document.getElementById('audio-progress-label');
+  const msg      = document.getElementById('audio-msg');
+  msg.className  = 'upload-msg hidden';
+  progress.classList.remove('hidden');
+
+  const xhr = new XMLHttpRequest();
+  xhr.upload.addEventListener('progress', e => {
+    if (!e.lengthComputable) return;
+    const pct = Math.round(e.loaded / e.total * 100);
+    fill.style.width  = pct + '%';
+    label.textContent = pct + '%';
+  });
+  xhr.addEventListener('load', () => {
+    progress.classList.add('hidden');
+    if (xhr.status === 200) {
+      showUploadMsg('audio-msg', '✓ Audio uploaded — reloading…', false);
+      setTimeout(() => window.location.reload(), 900);
+    } else {
+      const err = JSON.parse(xhr.responseText || '{}').message || 'Upload failed';
+      showUploadMsg('audio-msg', '✗ ' + err, true);
+    }
+  });
+  xhr.addEventListener('error', () => {
+    progress.classList.add('hidden');
+    showUploadMsg('audio-msg', '✗ Network error', true);
+  });
+
+  const fd = new FormData();
+  fd.append('file', file);
+  xhr.open('POST', `/api/session/${SESSION_ID}/upload-audio`);
+  xhr.send(fd);
+}
+
+function uploadDocument(file) {
+  if (!file) return;
+  const fd = new FormData();
+  fd.append('file', file);
+  fetch(`/api/session/${SESSION_ID}/upload-document`, { method: 'POST', body: fd })
+    .then(r => r.json())
+    .then(data => {
+      if (data.status === 'ok') {
+        showUploadMsg('doc-msg', '✓ ' + data.filename + ' saved — reloading…', false);
+        setTimeout(() => window.location.reload(), 900);
+      } else {
+        showUploadMsg('doc-msg', '✗ ' + (data.message || 'Upload failed'), true);
+      }
+    })
+    .catch(() => showUploadMsg('doc-msg', '✗ Network error', true));
+}
+
+function saveTranscript() {
+  const text = document.getElementById('transcript-paste').value.trim();
+  if (!text) { showUploadMsg('transcript-msg', '✗ Nothing to save', true); return; }
+  fetch(`/api/session/${SESSION_ID}/save-transcript`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ text }),
+  })
+    .then(r => r.json())
+    .then(data => {
+      if (data.status === 'ok') {
+        showUploadMsg('transcript-msg', '✓ Saved — reloading…', false);
+        setTimeout(() => window.location.reload(), 900);
+      } else {
+        showUploadMsg('transcript-msg', '✗ ' + (data.message || 'Save failed'), true);
+      }
+    })
+    .catch(() => showUploadMsg('transcript-msg', '✗ Network error', true));
+}
+
+// ── Notes ─────────────────────────────────────────────────────────────────────
+const notesArea   = document.getElementById('notes-textarea');
+const notesStatus = document.getElementById('notes-status');
+
+function saveNotes() {
+  const text = notesArea.value.trim();
+  if (!text) return;
+  fetch(`/api/session/${SESSION_ID}/notes`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ notes: text }),
+  })
+    .then(r => r.json())
+    .then(data => {
+      if (data.status === 'ok') {
+        notesArea.value = '';
+        renderNotes(data.notes);
+        notesStatus.textContent = 'Note saved';
+        notesStatus.className = 'notes-status notes-status-ok';
+        setTimeout(() => { notesStatus.textContent = ''; notesStatus.className = 'notes-status'; }, 2000);
+      }
+    });
+}
+
+function renderNotes(notes) {
+  let list = document.getElementById('notes-list');
+  if (!list) {
+    list = document.createElement('div');
+    list.id = 'notes-list';
+    list.className = 'notes-list';
+    notesArea.parentNode.insertBefore(list, notesArea);
+  }
+  const badge = document.querySelector('.panel-header .badge-gray');
+  if (badge) badge.textContent = notes.length;
+  list.innerHTML = notes.map(n => `
+    <div class="note-entry">
+      <div class="note-meta">
+        <span class="note-author">${n.user_name || 'Unknown'}</span>
+        <span class="note-ts">${n.timestamp ? fmtRelTime(n.timestamp) : '—'}</span>
+      </div>
+      <div class="note-text">${escHtml(n.text)}</div>
+    </div>`).join('');
+}
+
+function escHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// ── Add Content toggle (admin only) ──────────────────────────────────────────
+function toggleAddContent() {
+  const body    = document.getElementById('add-content-body');
+  const chevron = document.getElementById('add-content-chevron');
+  if (!body || body.classList.contains('add-content-locked')) return;
+  const open = body.style.display !== 'none';
+  body.style.display = open ? 'none' : '';
+  if (chevron) chevron.style.transform = open ? '' : 'rotate(180deg)';
+}
+
+// ── Relative timestamps ───────────────────────────────────────────────────────
+function fmtRelTime(isoStr) {
+  if (!isoStr) return '—';
+  const diff = Date.now() - new Date(isoStr + 'Z').getTime();
+  const min = Math.floor(diff / 60000);
+  if (min < 1)   return 'just now';
+  if (min < 60)  return `${min}m ago`;
+  const h = Math.floor(min / 60);
+  if (h < 24)    return `${h}h ago`;
+  const d = Math.floor(h / 24);
+  if (d < 7)     return `${d}d ago`;
+  return new Date(isoStr).toLocaleDateString();
+}
+
+document.querySelectorAll('.visit-time, .note-ts[data-ts], .visit-log-time[data-ts]').forEach(el => {
+  if (el.dataset.ts) el.textContent = fmtRelTime(el.dataset.ts);
+});
+
+// ── Visit log toggle ──────────────────────────────────────────────────────────
+function toggleVisitLog() {
+  const log = document.getElementById('visit-log');
+  const btn = document.getElementById('visit-count-btn');
+  const open = !log.hidden;
+  log.hidden = open;
+  btn.setAttribute('aria-expanded', String(!open));
+  btn.querySelector('.visit-chevron').style.transform = open ? '' : 'rotate(180deg)';
+}
+
+/* ── Study-mode: path-aware prev/next ──────────────────────────────────── */
+(function () {
+  const CURRENT_SID = '{{ session.session_id }}';
+
+  function init() {
+    const study = window._getStudy ? window._getStudy() : null;
+    if (!study || !study.path) return;
+
+    const path  = study.path;
+    const idx   = path.findIndex(s => s.session_id === CURRENT_SID);
+    if (idx === -1) return;
+
+    // Sync index and re-render study bar
+    if (idx !== study.current_index) {
+      study.current_index = idx;
+      if (window._saveStudy) window._saveStudy(study);
+      if (window._studyBarRender) window._studyBarRender();
+    }
+
+    const color   = path[idx].stream_color || '#6366f1';
+    const bg      = path[idx].stream_bg    || '#eef2ff';
+    const navEl   = document.querySelector('.session-nav');
+    if (!navEl) return;
+
+    const prevPath = idx > 0          ? path[idx - 1] : null;
+    const nextPath = idx < path.length - 1 ? path[idx + 1] : null;
+
+    if (prevPath) {
+      const el = navEl.querySelector('.session-nav-prev') || navEl.children[0];
+      if (el && el.tagName === 'A') {
+        el.href = `/session/${prevPath.session_id}`;
+        el.classList.add('path-prev');
+        el.style.setProperty('--path-color', color);
+        const labelEl = el.querySelector('.session-nav-label');
+        const titleEl = el.querySelector('.session-nav-title');
+        const metaEl  = el.querySelector('.session-nav-meta');
+        if (labelEl) labelEl.innerHTML = `<span class="path-badge" style="--path-color:${color}">← Path</span>`;
+        if (titleEl) titleEl.textContent = prevPath.title;
+        if (metaEl)  metaEl.textContent  = `${prevPath.stream_short} · L${prevPath.level}`;
+      }
+    }
+
+    if (nextPath) {
+      const el = navEl.querySelector('.session-nav-next') || navEl.children[1];
+      if (el && el.tagName === 'A') {
+        el.href = `/session/${nextPath.session_id}`;
+        el.classList.add('path-next');
+        el.style.setProperty('--path-color', color);
+        el.style.setProperty('--path-bg',    bg);
+        const labelEl = el.querySelector('.session-nav-label');
+        const titleEl = el.querySelector('.session-nav-title');
+        const metaEl  = el.querySelector('.session-nav-meta');
+        if (labelEl) labelEl.innerHTML = `<span class="path-badge" style="--path-color:${color}">Path →</span>`;
+        if (titleEl) titleEl.textContent = nextPath.title;
+        if (metaEl)  metaEl.textContent  = `${nextPath.stream_short} · L${nextPath.level}`;
+      } else {
+        // No existing next button — create one
+        const wrapper = document.createElement('a');
+        wrapper.href = `/session/${nextPath.session_id}`;
+        wrapper.className = 'session-nav-btn session-nav-next path-next';
+        wrapper.style.setProperty('--path-color', color);
+        wrapper.style.setProperty('--path-bg',    bg);
+        wrapper.innerHTML = `
+          <div class="session-nav-text">
+            <span class="session-nav-label"><span class="path-badge" style="--path-color:${color}">Path →</span></span>
+            <span class="session-nav-title">${nextPath.title.replace(/</g,'&lt;')}</span>
+            <span class="session-nav-meta">${nextPath.stream_short} · L${nextPath.level}</span>
+          </div>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>`;
+        // Replace the placeholder div or append
+        const placeholder = navEl.children[1];
+        if (placeholder && placeholder.tagName === 'DIV') navEl.replaceChild(wrapper, placeholder);
+        else navEl.appendChild(wrapper);
+      }
+    }
+  }
+
+  // Exposed so base.html can call us after its active_study fetch resolves
+  window._studyNavInit = init;
+})();
+
+/* ── Time tracking ───────────────────────────────────────────────────────── */
+(function () {
+  const SID      = '{{ session.session_id }}';
+  const VISIT_ID = {{ visit_id }};
+  const MIN_SEND = 10;   // minimum seconds before we bother posting
+  const CAP      = 9999; // hard cap per visit
+  let   startTs  = Date.now();
+  let   sent     = 0;    // cumulative seconds already reported this page view
+
+  function _beacon(url, seconds) {
+    // Use Blob so browsers send Content-Type: application/json (required by Flask)
+    const blob = new Blob([JSON.stringify({ seconds })], { type: 'application/json' });
+    navigator.sendBeacon(url, blob);
+  }
+
+  function flush() {
+    const elapsed = Math.min(Math.round((Date.now() - startTs) / 1000), CAP);
+    const delta   = elapsed - sent;
+    if (delta < MIN_SEND) return;
+    sent = elapsed;
+    // Accumulate into session_reads (for "read" detection)
+    _beacon(`/api/session/${SID}/time`, delta);
+    // Record on this specific visit row (capped to 9999 server-side)
+    if (VISIT_ID) _beacon(`/api/visit/${VISIT_ID}/time`, delta);
+  }
+
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') flush();
+    else startTs = Date.now() - sent * 1000; // resume timer from where we left off
+  });
+  window.addEventListener('pagehide', flush);
+})();
+
+/* ── Read flag toggle ────────────────────────────────────────────────────── */
+function toggleReadFlag() {
+  const btn   = document.getElementById('read-flag-btn');
+  const label = document.getElementById('read-flag-label');
+  btn.disabled = true;
+  fetch(`/api/session/{{ session.session_id }}/flag`, { method: 'POST' })
+    .then(r => r.json())
+    .then(d => {
+      btn.disabled = false;
+      if (d.flagged) {
+        btn.classList.add('is-read');
+        label.textContent = 'Read';
+        btn.title = 'Remove read flag';
+      } else {
+        btn.classList.remove('is-read');
+        label.textContent = 'Mark as read';
+        btn.title = 'Mark as read';
+      }
+      // Notify similar sessions panel to refresh visited state
+      if (window._simRefreshVisited) window._simRefreshVisited();
+    })
+    .catch(() => { btn.disabled = false; });
+}
+
+/* ── Similar Sessions ────────────────────────────────────────────────────── */
+(function () {
+  const SID     = '{{ session.session_id }}';
+  const list    = document.getElementById('similar-list');
+  const status  = document.getElementById('similar-status');
+  const countEl = document.getElementById('similar-count');
+  const filterBtn   = document.getElementById('sim-filter-btn');
+  const filterLabel = document.getElementById('sim-filter-label');
+  const MAX     = 10;
+
+  let results      = [];
+  let visitedSet   = new Set();
+  let hideVisited  = false;
+
+  function escH(s) {
+    return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  function renderCard(s) {
+    const pct      = Math.round(s.score * 100);
+    const words    = (s.reasons || []).slice(0, 6);
+    const isRead   = visitedSet.has(s.session_id);
+    return `
+      <a href="/session/${s.session_id}" class="sim-card${isRead ? ' sim-card-read' : ''}" data-sid="${s.session_id}">
+        <div class="sim-stream-bar" style="background:${s.stream_color}"></div>
+        <div class="sim-card-body">
+          <div class="sim-title-row">
+            <span class="sim-title">${escH(s.title)}</span>
+            ${isRead ? `<span class="sim-read-badge" title="Visited">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+              </svg>
+            </span>` : ''}
+          </div>
+          <div class="sim-meta">
+            <span class="sim-stream-tag" style="color:${s.stream_color}">${escH(s.stream_short)}</span>
+            ${s.speakers ? `<span class="sim-speakers">${escH(s.speakers)}</span>` : ''}
+          </div>
+          ${words.length ? `<div class="sim-keywords">${words.map(w => `<span class="sim-kw">${escH(w)}</span>`).join('')}</div>` : ''}
+        </div>
+        <div class="sim-score-wrap">
+          <div class="sim-score-bar">
+            <div class="sim-score-fill" style="width:${pct}%;background:${s.stream_color}"></div>
+          </div>
+          <span class="sim-score-label">${pct}%</span>
+        </div>
+      </a>`;
+  }
+
+  function insertSorted(s) {
+    const pos = results.findIndex(r => r.score < s.score);
+    if (pos === -1) results.push(s);
+    else results.splice(pos, 0, s);
+    if (results.length > MAX) results.pop();
+  }
+
+  function applyFilter() {
+    list.querySelectorAll('.sim-card').forEach(el => {
+      const isRead = visitedSet.has(el.dataset.sid);
+      el.style.display = (hideVisited && isRead) ? 'none' : '';
+    });
+  }
+
+  function repaint() {
+    list.innerHTML = results.map(renderCard).join('');
+    applyFilter();
+  }
+
+  function setStatus(msg) {
+    status.innerHTML = msg || '';
+    status.style.display = msg ? '' : 'none';
+  }
+
+  function refreshVisited() {
+    fetch('/api/visited')
+      .then(r => r.json())
+      .then(d => {
+        visitedSet = new Set(d.visited || []);
+        const hasAny = results.some(s => visitedSet.has(s.session_id));
+        filterBtn.style.display = hasAny ? '' : 'none';
+        repaint();
+      });
+  }
+
+  window._simRefreshVisited = refreshVisited;
+
+  window.toggleSimFilter = function () {
+    hideVisited = !hideVisited;
+    filterLabel.textContent = hideVisited ? 'Show visited' : 'Hide visited';
+    filterBtn.classList.toggle('active', hideVisited);
+    applyFilter();
+  };
+
+  function startSSE() {
+    // Load visited state in parallel with SSE
+    fetch('/api/visited')
+      .then(r => r.json())
+      .then(d => { visitedSet = new Set(d.visited || []); repaint(); });
+
+    const es = new EventSource(`/api/studypath/suggestions/${SID}`);
+
+    es.onmessage = function (e) {
+      const msg = JSON.parse(e.data);
+
+      if (msg.type === 'start') {
+        setStatus(msg.cached
+          ? '<svg class="similar-spinner" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg> Loading…'
+          : '<svg class="similar-spinner" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg> Computing…');
+      }
+
+      if (msg.type === 'result') {
+        insertSorted(msg.session);
+        repaint();
+      }
+
+      if (msg.type === 'done' || msg.type === 'error') {
+        es.close();
+        repaint();
+        setStatus('');
+        countEl.textContent = results.length;
+        countEl.style.display = '';
+        const hasAny = results.some(s => visitedSet.has(s.session_id));
+        filterBtn.style.display = hasAny ? '' : 'none';
+      }
+    };
+
+    es.onerror = function () {
+      es.close();
+      setStatus('');
+    };
+  }
+
+  document.addEventListener('DOMContentLoaded', startSSE);
+})();
+</script>
+{% endblock %}

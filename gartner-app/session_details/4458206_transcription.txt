@@ -1,0 +1,174 @@
+[00:00:05] Hello, good afternoon and welcome. Thank you very much for attending this session on small, But Mighty how lean teams can prioritize data and analytics initiatives?
+[00:00:18] haven't got the
+[00:00:20] slides.
+[00:00:22] Sorry, this is my fault because I was animating when you look at your slides and you want to animate them all. Anyway, um, so my name's Alice Woodward and I advise what Gartner defines as midsize Enterprises on their data analytics and AI got it.
+[00:00:39] Um, and by Gartner's definition. A midsize organization is between
+[00:00:45] Million and 1 billion dollars in revenue or its state and local government, but it's not national government. Now, defining the midsize Enterprise sector is actually quite difficult because the point of us doing different research, for different groups is because they act different ways. They need different sorts of advice, but actually if you're a retailer that's multinational with 800 million in Revenue you act quite similarly to a large Enterprise from many perspectives. So what actually makes a midsize Enterprise different. From our research perspective is if you have a small it team which means a small data and analytics team as well. So the advice works for everyone but the Assumption being you don't have many
+[00:01:30] People.
+[00:01:34] if you think of how this goes,
+[00:01:37] Wrong. How? It doesn't work very well. You have lots of
+[00:01:42] People coming at you for requests, you have to throw them something, you know what you're giving them. Isn't fantastic. You don't have time to work with them to do anything better. It becomes something of a data analytics soup kitchen. Now we need soup kitchens but it would be good if we didn't need soup kitchens and they are not
+[00:02:03] a high standard of customer service necessarily. So we need to, you know, try and do things a little bit differently.
+[00:02:10] So, I'm going to talk about the common challenges for lean teams in data.
+[00:02:15] An analytics and how you can overcome them.
+[00:02:19] So,
+[00:02:20] You have this challenge, you have a small team and that often leads to a low-level of analytical maturity um not because not because it's your fault but also probably because the organization May well be.
+[00:02:37] Somewhat low maturity.
+[00:02:39] In the early days of data and analytics business people go and find their own information, they download their own tools.
+[00:02:47] The last few years. Of course we've had them now downloading generative AI trying to get data in any way possible. And this of course gives you a strategic challenge because use of data is and remain.
+[00:03:00] Tactical.
+[00:03:02] To the point in the keynote, your foundations aren't necessarily in place and this means you're not agile, you know, everything you're going to do is going to take you a long time because you haven't thought strategically about repeating things.
+[00:03:16] This also of course gives you Financial challenges. You've got overlapping purchases of different tools that where you really could streamline them into 1. You've got higher cost of ownership because you're not repeating between projects and also you're likely have underused Investments where somebody bought something for a year and then abandoned it after 3 months because they're not using it,
+[00:03:39] From a technology perspective. We get a proliferation of what I like to call cities.
+[00:03:45] Data and Analytics.
+[00:03:47] I think we should use the term Shadow analytics if people are being bad and they know they're being bad. But actually there's a very positive side to Citizen development. If citizens didn't develop their own things, it would be a lot harder for us to work with them on requirements and find out what they actually mean.
+[00:04:07] You also of course data quality and integration is always challenging and again in the midsize often we've been telling leaders, we need to do something on data management and Improvement and it's never been priority. Now, all of a sudden we've got Ai and people want to throw llms on the data. Well, we did say you need to need to deal with.
+[00:04:30] And of course, ungoverned Genai.
+[00:04:34] I'm going to try not to talk too much about the good old days because I've been in data and analytics a long time. But in the old days, we used to talk about spreadsheet Wars which is when people went into a meeting, everyone had their spreadsheet. Everyone said my spreadsheet is right? No 1 could validate anybody else's spreadsheet and perhaps naively. We thought that reporting tools would solve that. Well, if you do things right, they solve that. Um, but now, of course, we've got Genai. Well, Enterprise chat GPT and co-pilot told me this and even even worse. If we have this low maturity
+[00:05:13] We also have organization.
+[00:05:15] Challenges people don't know what analytics is happening. We don't necessarily have correct use of data for decision making and we have what we like to call a, non data-driven approach to decision making, which is that somebody just did their best with what they had at the time. If it's a good decision, we cannot
+[00:05:33] repeat it. If it was a bad decision, We cannot put rules in place to stop it happening again. We know nothing about that decision. And ultimately, we can also end up with people challenges, and employee burnout and difficulty sourcing talent because people in the organization know that this is a tough job.
+[00:05:53] No, on that cheerful note of all the problems, let me also talk about some of the common misconceptions.
+[00:06:00] that when you're in a smaller team,
+[00:06:02] Trying to do everything at once without time to think. Strategically this is these are some of the beliefs you can have that are not really correct.
+[00:06:11] we can't do proper data and analytics until
+[00:06:15] we fixed all the data.
+[00:06:18] Now, I have to say large organizations are better able to resist this 1 because large organizations. Know you cannot fix all the data. All the data will never be fixed, but in a smaller organization you can be forgiven for thinking surely
+[00:06:34] We can fix all of it and it is perfectly logical to say. Well, you can't take decisions on part of the data.
+[00:06:40] But the reality is all your data will never be fixed all your data.
+[00:06:45] Will never be governed perfectly by processes.
+[00:06:50] The perfect single Analytics tool does it even exist? I don't know, but it is fun to look isn't it? Let's be honest tool evaluations are the fun bit, you know, you can just ignore the Inbox and the team's messages for a little time and learn and it's it's great fun but it's also a Time sink stopped enjoying yourselves.
+[00:07:12] Um, and last we can't do anything until we have the budget to hire a data scientist. Um, those folks are rare. There are, you know, Vibe coded ones are available, but again, you cannot really hold your data and analytics back until you've got budget for humans.
+[00:07:30] Because they're expensive, particularly in the midsize.
+[00:07:33] Another set of misconceptions is based on the business will
+[00:07:37] the business will wait for us to live to deliver good data and to be fair,
+[00:07:43] We can't have it both ways because I've just said, oh, they'll take decisions based on no data, that's not good. No, but also if we haven't delivered them, the data. Then what choice do they have? Because the business Marches On decisions have to be taken. They will not wait for us to deliver good data. They will happily work with bad data or no data or the little person at the end of the question, told me to
+[00:08:08] They also will not agree that all the data needs governing. It's a perfectly logical thing when you think about,
+[00:08:15] about it that data needs to be of good quality, but actually,
+[00:08:19] Retail category, managers who care about the performance of their product or sales managers in a difficult environment or office of Finance people. They don't care about data governance per se. Now, they do care that the data they look at is right, but that's not the same thing. As buying into a broad data, governance process, particularly a challenge in midsize because in midsize, and in all in teams, to be fair, we wear multiple hats, we're trying to do multiple things. So good news. I've nominated you as a data Steward, and here's a 7-page job description.
+[00:08:55] doesn't work and I've spoken to so many people who have
+[00:09:00] Tried typically would be smaller organizations. They bring a consulting firm in to sort out their data management layer, which is great, they put in a data Lake and then they also say, can you do data governance for us please? And the consulting firm does data governance by writing all the policies and sending out the job descriptions a business person, getting a 7-page job description is not going to buy into that. They're not going to do it. The biggest problem with governance. There's nobody bothers.
+[00:09:30] The business will know how to use the data once we've given it them. And again, I really understand this on a lean Team without much time you think, look, I've worked really hard to clean to organize to purchase the platform. I've worked so hard.
+[00:09:45] On this lovely data platform. Come on, you guys. Meet me halfway.
+[00:09:51] Not that easy and F. Oh, and finally, this is sorry, I'm really spiraling into. It's going to get cheerful soon. A positive. It's going to get positive, the positive bits going to come. And finally, the business will value the data and analytics we provide well the more mature they are and the more they understand it, the more they will, but in those early days, know they think it's like spreadsheet data. It just it just kind of appears and
+[00:10:15] If you the more valued you are by your organization, the more budget, you can get the more investment you can get. It's it's actually really important to be visible in what you're doing and the business and the business value that you are providing
+[00:10:31] Low maturity holds back value in all these sorts of ways. But ultimately, I'll talk to you about what a small and mighty team is going to do differently.
+[00:10:42] To make it better. Oh, and this is a cio's love. This big type arrows. Value is down, your risk is up, and your costs are not understood and even with basic reporting and analytics. Your costs are not understood. If you don't know who's using, what and where, of course, now we're in token-based world where people could be querying engines and that could be the
+[00:11:08] Not knowing your cost is a huge.
+[00:11:15] As I just heard the other day of someone mistakenly using a certain database and running up 50,000 dollars in 5 days. You can't do that in the midsize. You don't have the margin, so
+[00:11:28] How can you overcome?
+[00:11:29] These challenges.
+[00:11:31] Let me talk a little because this is about lean teams and the different nuances. Let's say of how you might solve the problems in a large Enterprise versus a midsize Enterprise.
+[00:11:44] you may have noticed in the lot of our research particularly when talking in areas about areas that could be
+[00:11:51] Understood in like data management foundations. Cyber security is another 1. A lot of our research says You must invest in this
+[00:12:00] Is imperative, you have no choice. Now, that's kind of a large Enterprise message.
+[00:12:05] Particularly for data and analytics because in the midsize they might literally not have the money with a large Enterprise. You can redirect it from somewhere else not in the midsize.
+[00:12:17] So what a large Enterprise can do when they choose to.
+[00:12:22] Advance their maturity of data and analytics is higher a cdao. They can add people, they can recruit a team. They can hire expensive or rare skills if needed on the midsize it's not the same. What we would typically do
+[00:12:38] Perhaps you would nominate an executive sponsor.
+[00:12:41] And I've deliberately said nominate because it sounds a bit volatile.
+[00:12:45] You know, somebody's been volunteered to be the head of data and analytics, I think they think it means they'll answer an email that says yes.
+[00:12:54] It's like there's going to be a lot more for them to do as the executive sponsor of data analytics, add jobs to it. Good news. Bob and Sarah you know how you've got these 20 things that you try and do well. Now we want you to also
+[00:13:10] Do more work on data foundations, do more work on business. Enablement and drive a data-driven culture, I did speak to someone it was a few years ago and it was pre the AI wave that we're in.
+[00:13:23] But he was the report engineer. He sat in the basement. Doing reports all day and his annual objective was Bill.
+[00:13:30] A data-driven culture.
+[00:13:32] Doesn't happen from the basement. It happened from the top and then the last thing. Yes, upskill 0.25 of a person. I was in a great customer call with someone from midsize and actually we were talking about AI governance but um, I said well you need to get it legal security and procurement and he just said, those are all me.
+[00:13:53] so you know many hats a great deal to do, but we can get there, because as a midsize organization, you do have
+[00:14:02] Some advantages. So communication can not always of course, because plenty of midsize organizations, could be multinational brands or manufacturing, you've got more potential to just get
+[00:14:15] Everyone in the room or on a call and talk to them face to face.
+[00:14:20] You can use governance policies, you can get people to buy in sign themselves up and manage it better with just a policy.
+[00:14:29] We heard in the keynote today about use of AI, governance, tools are really effective and beneficial, but it may just be at the start of your journey. You've got enough tools to buy AI. Governance, tools are not yet something you need, if you're smaller because you can manage by policy, you also can more easily, clearly perceive pockets of resistance, I think as a midsize just because you know each other you know, the teams, you know, the Dynamics a little bit better.
+[00:14:58] There are some ways in which life is hard.
+[00:15:00] Harder for a large Enterprise, they may have to implement a large wide scale change management program rather than working more informally which of course is a huge investment. They can deploy governance tools, but again, it's more expensive and more challenging at the implementation stage and they have to monitor adoption and resistance. Probably, through technology, although 1 way I found is very effective to monitor resistance to AI is nobody ever says in 2026? I'm not doing it. I don't like it. They might say, I don't believe it, but they won't openly say in the workplace, in 2026 know AI is not for me. They don't feel able to what they will say is
+[00:15:45] I would love to, but I'm a bit busy. I've just got a few other things, you know, filing cabinets, old school, things organizing, my spreadsheets. There will be a passive resistance to Ai and it's easier to see if you just know people better and are more face to face.
+[00:16:06] So, what to do?
+[00:16:09] find a business need for
+[00:16:12] Data. And I mentioned, the voluntold executive.
+[00:16:16] Sponsor, not the voluntold 1. The 1 who genuinely has a business need and what you're going to have to do here is
+[00:16:24] Speak, truth to power.
+[00:16:27] You find somebody who needs data.
+[00:16:30] New managers coming in, by the way are brilliant and particularly if your midsize organization and they're coming in from a large Enterprise because they may well be used to a lot more maturity, a lot more data at their fingertips, a lot more ability to do things they come in from outside, they're a bit horrified, and they are a great person to start saying, okay, you've got a hunger for data. Let's start aligning with, with what you actually need to do.
+[00:16:57] As I said, you need to speak the truth to power. You need to find out genuinely what they want. This is why voluntold doesn't work. Um, bill from sales, says yes, he'll be the sponsor so you can send him lots of sales information.
+[00:17:12] and the way I think about this is at,
+[00:17:15] Asking questions getting to 5 levels of why if you can ask them why 5 times then you will have fleshed out that requirement.
+[00:17:24] When I first worked in data analytics, I worked with a lovely man called Barry. It was called the information center. It was a data warehouse where the reporting tool and you know, I thought he was great. And then I heard people saying, oh, Barry's really difficult, it's very grumpy, it's very defensive and I thought that doesn't sound like Barry and, um, then I heard him, engaging with the user said, well I would like to know. Um, we worked in container shipping. We'd like to know the, um, the daily rate of these particular containers. Why said Barry? And, you know, the user felt put on the spot and disapproved of
+[00:18:00] What he meant was, what are you trying to do with that information? Well, we have this new type of container lease called a reefer pool, and we're trying to work out the profitability of a reefer pool. So we need the daily rate and we need the number of days on higher.
+[00:18:15] No, you don't because actually refer pools have a lot of free days. So you need to you actually need to bring in 3 days. So it's about actually understanding the requirement
+[00:18:27] But you need you need to be working closely. And I know we spoke about this in the keynote and actually I was on a call. When would it have been 3 months ago, um, with 4 people from the same midsize organization and, um,
+[00:18:42] they were talking about their challenges with adoption and
+[00:18:45] Working very hard on all sorts of things but couldn't really get.
+[00:18:49] Business to engage and I said, really it's about, you know, the I didn't just say this. It was a
+[00:18:55] Conclusion of the conversation said really, it's about aligning it with the business outcome and they all laughed.
+[00:19:02] And I said, what's the joke?
+[00:19:04] And they said in our company, it's a joke that Gartner always says, align your it with business outcomes.
+[00:19:11] Yeah, we do say it all the time. So um have you done it? And they said, oh no, we haven't done it. And I said well, that's why we keep saying it, it is a cliche but it honestly, the only way. And actually, the reason this is important for your lean team is because this is where you find the most
+[00:19:30] Most important work you have to ring fence. The work that is going to make you a peer valuable popular with the business once the business start using something. They start understanding the quality of the data within it and they start
+[00:19:44] Understanding the need for data governance and everything flows from this business need so 5 levels of why, why is it that data? What are you trying to do? But not using the word, why all the time? Because it can sound uh, grumpy
+[00:20:00] Another way to approach really understanding a user request is to think of it as a decision. What decision are you trying to take? I think it was about
+[00:20:12] 10 years ago, we identified the trend of decision.
+[00:20:15] Intelligence and then last year, we published the decision intelligence platforms magic quadrant which you'll hear about tomorrow at 2 from me.
+[00:20:23] And but initially decision intelligence is really taking your data and analytics to decisions in, in the early days of data and analytics, it was called decision support. If business people can't think of why or the context that they need, then the important information is, what is the decision? You're trying to take, how do we underpin it with data and how do we make that repeatable and last? But definitely not least. It's always been a theme in data and analytics, start small and think big a small sounding data requirement from a senior person with influence.
+[00:21:00] Is.
+[00:21:01] much better to go after than something general you think might work with a load of people but you don't quite know what they're going to do it, do with it, start small and then think of this data being used for multiple,
+[00:21:16] Different use cases, and this person having multiple different use cases and then bringing their team and their direct reports along as they say. Now, I like this data and I want everybody to use it.
+[00:21:28] The next point is to skill up and democratize and democratize is a little bit of a
+[00:21:36] it's a little bit of a controversial concept. We tend to talk about democratize it but what we really mean is democratized technology.
+[00:21:45] Because everybody has access to technology to democratize it, you need everybody to understand more about General, it principles like security data sovereignty, scaling users, end user access, Etc. But anyway, we need to develop business users skills and also build
+[00:22:07] Build our team.
+[00:22:08] This is some work I did on.
+[00:22:11] How to start your AI team.
+[00:22:15] Getting loads of questions on this up to about 3 months ago and then it's kind of gone bit quiet. So, perhaps everybody has hired, their has got their AI team started, but just for your information when you're starting with an AI team on an absolute shoe string start.
+[00:22:30] With an trainee AI engineer. And they will have model development skills. Some understanding of data sourcing and pipelining, they'll know rag, they'll know, some engineering, they will probably be at the start of their career because many of them are and on a less mature data, and analytics team, you won't necessarily be. Um,
+[00:22:51] You won't necessarily be the you know, you're you're competing with um larger teams and perhaps potentially more exciting career opportunities.
+[00:23:01] Then you pair them with a data analyst, or data engineer that you already have. And if you don't have this person, then there's someone that needs to be developed and what they will bring to the pairing, they will bring data engineering.
+[00:23:15] Hearing and Vector databases and other data management skills. But the important contribution that they have is the ability to scale the solutions.
+[00:23:24] Newer AI Engineers, of course, depending on their training, can be great with models, great with prompts, great with getting answers, but all of the, it stuff about user access. How many tokens will it use? How will we set up the accounts? How will the security work? Are we allowed to do this in the cloud as you've assumed if we run it on our own data or if we run it on our customers data? How are all these things going to work? And that is the really important learning that the AI engineer will go through as the rest of the organization is, of course building its AI.
+[00:24:00] then you always need a business owner, not a voluntold 1, but somebody with a genuine proper need and don't take the photo yet because
+[00:24:11] There you go. Now it's finished. Um and we also need an AI lead, a single point of contact and perhaps the AI lead will probably be it in my opinion they should be it or data and analytics. However you work that out. But on the the technical side of of managing the project
+[00:24:30] Now, this is your lean team.
+[00:24:32] This is your less lean team and this is our raci Matrix, for an AI team. And of course, you can argue these a number of different ways. So you just saw 4 roles this spin.
+[00:24:45] It out into 11 roles and you can see. And I, I always noticed this because really with racy
+[00:24:52] Only 1, you're only supposed to have 1 response with with racy but you know what this is AI, this is data and analytics. We have to work together. Collaboration always always in there anyway. So this is our, you can see our development cycle. Our operate operationalization
+[00:25:11] and,
+[00:25:13] Here you can and you can see the many hats as well. If you think of this poor new person wearing the hats of the AI, architect the AI engineer and the data scientist.
+[00:25:22] And then we've got the data analyst.
+[00:25:25] An engineer.
+[00:25:27] And then we've got the business owner,
+[00:25:31] And the AI lead.
+[00:25:33] So everything comes together but start by bringing in those AI skills. This is the new skill that needs to come in. Okay. The next thing I'm going to talk about, is reinvigorating, self-service analytics and I suppose self-service analytics is kind of an old-fashioned term. We've been talking about it for a long time. We can't ever talk about how to start it off because most,
+[00:25:57] companies have tried and then sometimes it needs reinvigorating or kind of lifting again and really if we think about what goes wrong with self-service analytics, what we're ultimately trying to do is take you away from the DNA team of a few people churning
+[00:26:15] Out lots of reports and information and the business passively confu consuming because they always have or asking questions of it and then saying, well I I still need more information.
+[00:26:27] And the problem is generally overgeneralization.
+[00:26:31] Until generative AI. We could say there's no build it and they will come with analytics generative. AI has kind of broken that a little bit but the closer you are to what they actually want as a business, the better.
+[00:26:44] So look at what the business problem is to be achieved. Before you give them something. Don't give them something too much because the gap between them using it and and working with, it will be too great. So ring fence down in terms of what
+[00:27:00] Outcomes to be achieved and how they're going to measure it. So you can claim some of the success when it works. Don't build a solution in search of a problem. In some areas, you can do that in analytics and AI, it doesn't work.
+[00:27:14] Make the data literacy. An important part of the self-service analytics. We used to talk about certifying, individual people, to be competent to do certain things. And it seems to have died off a little bit with the enthusiasm around generative AI. I very much believe in that some organizations even call it an AI, driver's license. You have to do a certain level of training before you can be let loose on the tools but making sure going that last
+[00:27:45] Smile or even that last inch into the do users actually understand what they're doing. Now, of course, I'm telling you all these millions of things to do with your 0.25 of a person that already had has just worked the weekend and has a load of other things to do, but the point of making this connection to the business and what they want to do is if you do all of this, the rest of it gets a lot easier.
+[00:28:08] And lastly, analytics governance ensure you start with a prototype because generally people don't know what they want in the data until they've seen it and then they say no. That was terrible. Why did you give me that? This is what I wanted. We have to start that.
+[00:28:23] Process of agreeing and And discussing and iterating.
+[00:28:28] Certify your assets.
+[00:28:30] So they can be trusted.
+[00:28:33] I can't remember if it came up in the keynote, but I'm something I'm thinking about a lot, we don't trust each other so much, do we? We don't trust our business people to do the right thing, and they don't trust our data. Sometimes people trust AI to the exclusion of all else, but certified data sources as accurate as representative of reality, and then people can have at them and trust them and also always track user activity. It's the most useful thing ever. It always has been who is going on, how often are they on it? Really enthusiastically from a month and then all of a sudden they drop off did something go wrong, always.
+[00:29:15] Trap user activity to help nurture them ongoing.
+[00:29:24] I mentioned governance briefly before and how the risk with governance is it doesn't happen but in short what you need to do with data governance and this is from a fantastic presentation called data and analytics governance Essentials, not the newest, but is great stuff and
+[00:29:40] To summarize, you start from a business outcome.
+[00:29:45] You work down to the data, that's going to come from that business outcome.
+[00:29:51] And you govern this data first.
+[00:29:55] again, the logic is surely, I need to govern all the data you
+[00:30:00] Can't have ungoverned data. Nobody wants ungoverned data, but we have got ungoverned data, but you need to prioritize. You start with a business outcome, an important 1 because you've asked them and they're important. And you've done 5 levels of why, and you've asked them about their decisions and then as you iterate, multiple outcomes, what you'll start to see is what data is shared between the different outcomes. So for example, customer data product data, certain set of invoice data or data dates, if throughput is a challenge cash flow data cash, receipts find this widely shared data, get a grip on that.
+[00:30:40] And the less widely shared data is second p.
+[00:30:45] Ity, ultimately, you end up with what we call the 3 rings of information governance, which is where you've got data. Everyone uses govern that First Data more than 1 team uses. So it's shared, but not by, everybody could be shared by 2, could be shared by all apart from 1.
+[00:31:02] and then the last is local not shared govern that
+[00:31:07] less and think again about trust.
+[00:31:11] Your trusting people to govern their local data as much as it needs to be governed. Don't start by trying to govern everything and wondering why you don't get by
+[00:31:22] And finally, blow your own trumpet. Tell your story about data and analytics, it's really easy. I see it all the time.
+[00:31:30] Time, you know the data that's not accurate, the data, that's not governed, the work that's outstanding. The manager who doesn't use anything, you see all the negatives, but actually you need to focus on the positives because if you tell people the great things that you've done, they will get fomo and want to do them as well happens all the time. It's like a snowball. You start with something small, you roll it along and then people say, well,
+[00:31:56] I want 1 of these. That's that looks good again, that's why you want executive sponsorships who do people want to look good in front of
+[00:32:05] Get that get your data and analytics and AI so that they look good in front of that person, blow your trumpet, build Communications, build an Internet site speak.
+[00:32:15] Speak on Town Hall meetings, build videos of people doing cool things how they use the information. It sounds small but it makes a huge difference. It's a great use of your time and also help the initial sponsor to be the cool person that started all this and pull them along in that way. And then you end up with this from low maturity to small, But Mighty you've got democratized analytics with self-service.
+[00:32:46] Something a CIO said to me was a few, it was a few months ago and it was about AI because they'd put, um, generative AI on, um, their data source. But he said the data governance problems have gone away because
+[00:33:00] The business are using the data, they can see when it's wrong and they proactively correct it or work with us to correct it. Once you've got the Buy in all of the fighting dies away, but you've got to go through that, that process clear patterns of value delivery. You can see, more use cases that you need, you have wider adoption. And also, you haven't lost the AI. I've talked a few times today about how AI is the cool thing, and sometimes people try and get it away from you. Oh, no analytics. Is a rearview mirror. Oh no, analytics is not actionable. Well, decision intelligence and prescriptive analytics, analytics is highly actionable. And as you heard in the Keynote,
+[00:33:45] The chief data and analytics officer and their teams are absolutely in the right place to be leading AI.
+[00:33:53] So,
+[00:33:54] These are the recommendations. Find your hunger, add skills to your poh your own portfolio but also build the business skills democratize as they get more skilled they get more value tell your story and
+[00:34:09] Good things will flow, despite all the challenges. Um, I want to thank you all very much for your time, particularly at lunchtime, go and get some lunch. Thank you all for spending a few days with Dartmouth. Thank you.

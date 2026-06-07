@@ -1,0 +1,194 @@
+[00:00:03] So welcome. Thank you for making it at lunchtime. Um, my name is Anna. I'm from Gobi and I'll be co-presenting with Kenny Gman. I'm from British Airways. Yes. So I'll start by just sort of introducing optimization a bit. Um, to those of you who know what it is, bear with me for about 10 minutes, um, and for those of you who are new to optimization, hopefully, this is a gentle introduction to something that can be quite mathematical. Um, but we'll, we'll keep a high level today.
+[00:00:35] Okay.
+[00:00:37] So just a bit of an agenda just so you know what to expect. Um I'll start with answering the question of what is
+[00:00:45] Optimization. Um, so what do we do at groby? What do we have? Uh, as a tool, what do we offer? Um, and then move into sort of What kinds of problems can we solve? And maybe you can start to think about your own business use cases. And if there's something that feels like an optimization problem and of course um as always, if something resonates, please do do stop by um, we're booths 713, um downstairs.
+[00:01:13] And then I'll hand it over to Kenny. Um,
+[00:01:16] Okay. So to start, um,
+[00:01:20] What is AI? This term has been um bastardized a bit over the last years. Um, but we have this lovely diagram from Gartner.
+[00:01:30] In which we are there, uh, optimization. So
+[00:01:34] There are many, many different tools, um, and you've probably spoken to a lot of people today, um, about what they offer, whether it's a machine learning tool, um, a generative AI tool or some combination. Um,
+[00:01:48] And the the whole purpose of of using these tools obviously is to be able to do Advanced analytics to be able to, as a gardener says, um, apply these uh, Advanced analyses and logic based techniques to interpret events.
+[00:02:06] Um, support and automate decisions and take actions, right? So we are just a tool of of this Suite of tools.
+[00:02:15] So there's some terms here that I'm just going to briefly, run through, mathematical optimization is the actual, um, technology. So the method for modeling your business problem, um, so you can take whatever problem you have, write it in maths basically and then you can give it to a solver and that's what groby is. That's what we provide and this is the tool that then solves it and gives you some solution back, right?
+[00:02:43] So those are the 2 components.
+[00:02:49] So, the kinds of problems that optimization can tackle. Um, this slide is very small here, so we'll just
+[00:02:55] Run to the next.
+[00:02:57] um,
+[00:02:59] we are in.
+[00:03:00] Agnostic, obviously, so it doesn't matter whether you're in transportation, you have supply chain problems, you do portfolio optimization, um Airline scheduling, lots and lots of different things. It really just depends on the kinds of
+[00:03:17] Um, decisions that you have available to you, the kinds of constraints you're dealing with, um, and whether or not we can write this as as a mathematical problem and lots and lots of things can be written this way, even if it doesn't seem obvious on the surface, so do you have hard constraints that have to be respected capacity? Constraints, do you have pricing? Um regulations. Um do you have explicit business objectives? So things like okay,
+[00:03:45] We need to maximize Revenue. We also need to minimize risk and they may or may not be conflicting. Um,
+[00:03:52] Do you have a lot of possible actions so are you looking at a landscape of? Okay, I have a million different possible things. I could be doing right now over different time Horizons. I don't even know where to start. Um, how to measure what's better than than something else.
+[00:04:08] So if you're if these things resonate, it could be um, an optimization case.
+[00:04:14] So what would you put in your model? So if if you're thinking about your business problem of, okay? I need to decide what the best possible action is, or a set of actions. What would I need to tell? What do I what do I need to tell groby. Basically
+[00:04:30] So the first thing is, what's your goal, right? So what are you trying to maximize or minimize depending on on your use case? So in the case of, uh,
+[00:04:40] Maybe minimizing fuel costs, um, maximizing return.
+[00:04:46] Or some combination of.
+[00:04:49] Of things. The next part is decisions, right? So these are things that you have control over. So what levers can you pull? Um, what things can you switch on and off? What are the decisions that you're making now? Um, maybe manually? Um, you know, so for supply chain, how do we decide which trucks to send where and when how much, which should we put in them? Etc. So all
+[00:05:15] All these decisions, you enumerate them, and you put that in the model.
+[00:05:19] The final ingredient.
+[00:05:21] Is your business rules? So the limiting factors, right? What are the things that you need to adhere to?
+[00:05:27] In order to have something that works at the end of the day.
+[00:05:30] So for example with uh Airlines there's limitations on how long people can work. There's limitations on gate availability, um all the regulatory requirements, all of these things. Um, so you can put all of this in the model.
+[00:05:48] And package it up and so this is what gets sent to groi. Um, and then Gobi
+[00:05:55] Does its magic.
+[00:05:58] so, under the hood,
+[00:06:00] what groby does is it takes
+[00:06:03] your constraints and it looks at the space of possible decisions, right? So, this is multi-dimensional, this isn't a very nice, uh,
+[00:06:14] uh, 2 dimensional graph like this usually
+[00:06:17] And it finds.
+[00:06:18] Based on your constraints, what the feasible region is? So what are the space of actual things you could do? So, all of the different supply chain schedules, all of the different Airline schedules and of those
+[00:06:31] It then determines. What's the best, right?
+[00:06:34] And that's that's really the the tricky part. Um it's not just finding something that works but finding something that's optimal.
+[00:06:43] So what do you get back?
+[00:06:45] So, here's a little flowchart.
+[00:06:47] after you send your model to groby, and it solves,
+[00:06:51] You get back these, um, I mean, a a solution and in that solution or multiple Solutions you'll have values Associated to these things that you put in the model, right? So you'll get this objective value back. So, actually, okay, what's our, what's our best possible return? For example? Um, and if, if it is possible, groby will give you that best value. Um, and if not, it can also tell you how far away you are from an optimal solution.
+[00:07:21] And that was the star that we saw in that graph.
+[00:07:24] Variable values. So the actual decisions that you need to take. So it tells you okay if
+[00:07:30] If you want this objective value, these are the decisions that you should take. You should send 5 trucks to location a width, 20 units. Um, etc, etc.
+[00:07:40] And lastly, constraint adherence. So, you know, in a mathematically provable way that your business constraints that you put in the model were adhered to
+[00:07:50] So the solution you get back doesn't violate anything. Um, won't cause problems as long as you've put everything in the model
+[00:08:00] Now, there's a bit extra that you get and this is based on the actual nature of how our solver works.
+[00:08:07] So it's not a probabilistic algorithm meaning. If you give it the same inputs and the same parameters, you get that back.
+[00:08:15] Back the same every single time.
+[00:08:18] and what's nice about this is,
+[00:08:21] It allows you to really interrogate the solutions and really think about, um, okay. Is this the best and why is it the best and also for explanation purposes, um, explaining why certain decisions are taken or not taken
+[00:08:36] So, looking at sort of what else? Um, you can have a look at basically looking at. If we prioritize 1 objective over another, how does that affect the overall solution?
+[00:08:49] And you can run different scenarios, um, and see.
+[00:08:53] Also, for, um, interpretability. So what if maybe you are given a
+[00:09:00] Question of, okay, if we invest money into a new Fleet of trucks, um, what how, how would that affect, uh, the outputs, right? So if now, you're not dealing with 5, but you have 10,
+[00:09:11] What more can you do? So you can add that to your model and compare.
+[00:09:18] And finally defensibility. So why didn't you do something? Um, so because this is a mathematical algorithm we have, um, the ability to pinpoint in feasibility. So, if something cannot be done, it's not possible based on your constraints. We have approvable way of saying. Actually, there are no possible solutions that would, um, make your constraints, uh, or
+[00:09:45] Or um, actually work with with your constraints and we can we can show that.
+[00:09:52] Okay, very briefly before I hand off to Kenny, um, I just want to explain sort of where we sit in a lot of our customers, AI Stacks, if you will.
+[00:10:00] So it's very common that tools are mixed. Um, and most people have some kind of data layer. They may have predictive models that are um you know, running different forecasts, these all can feed into a growby model as well. So with all this data, if you have some predictions as well, these can be values that you put in your model.
+[00:10:23] And then from there, you can send it to growby.
+[00:10:26] so, for example, um, forecasting weather events
+[00:10:30] So maybe you have a, a prediction of okay, I think there may be 12 discharges over the 6-month period of time, and for your supply chain that, that becomes then a Value Inn in the optimization model.
+[00:10:44] And you can feed that into groix and that's your optimization layer.
+[00:10:48] And so, groix solves your problem?
+[00:10:51] And then, the final layer is, is always the actual probably the trickiest part, which is the operational decision-making and, um, change management and trying to explain. Oh, actually, this is the best option for us and why, um, and making sure that, you know, the people who, who had been doing these decisions manually also are on board, not alienated and understand.
+[00:11:15] the value of of doing this, um,
+[00:11:18] Of making these decisions in an algorithmic way and sometimes Genai can help with that communication piece too.
+[00:11:25] Okay, so I'm going to hand over to Kenny.
+[00:11:28] And he will walk us through a very interesting case. Um,
+[00:11:31] Yeah.
+[00:11:32] Awesome.
+[00:11:33] Thanks a lot Anna. And hi, everyone. Hope you're all having a good afternoon.
+[00:11:37] So Anna's just shared a bit of the theory about how optimization Works what it is and so on and so forth. And um, I'm going to seek to give you an example of how that can be put into practice. So I'm Kenny Grossman. I head up a department at British Airways called integrated optimization. And what we do is, we,
+[00:11:56] Grab the hardest, most challenging operational business.
+[00:12:00] problems that we have at the airline and we apply mathematical techniques to get
+[00:12:05] Better solutions to those and often that means we're taking a process that's, for example, manual or done in Excel or done in some kind of a, let's say more traditional way. Um, and introducing algorithms, um, largely optimization algorithms
+[00:12:19] to solve those problems, more optimally. Um, and just to give you a flavor,
+[00:12:23] I've been doing this for a number of years and whenever you take a problem that's kind of human solved and you apply a mathematical optimization framework into it. It is not rare to see a 1015, 20% Improvement in whatever it is that you're measuring. And so this is a super super valuable technique as your problems. Get really complicated.
+[00:12:43] so,
+[00:12:44] Let me.
+[00:12:45] Tell you a little bit about British Airways. Um, many of you if you live here, uh, hopefully have flown with us before. Uh, if you don't live here, hopefully, you flew with us to get here. Um, we are a very, very complicated operational system. So, just to give you a flavor, we operate about a little bit more than 700 flights per day on average. Um,
+[00:13:05] And in order to do that, we have uh, more than 200 airplanes. We've got more than 10,000 staff operating across our Network in our ground operations, um, in our hubs, as well as our crews. That are operating our aircraft.
+[00:13:18] Um, that adds up to more than 100,000 customers per day and 80,000 bags and we consider it a success. If you get where you need to go on time with your bags, so that you can go
+[00:13:30] Enjoy wherever you're going. And we're getting a lot better at it, um, for the people that are smiling in the room. So, um, what is challenging about? Operating an airline, um, a lot. So we have disruptions that are constantly hitting us externally. Um, we can't control the weather. Unfortunately, we can't control the snow. We can't control an unruly passenger or a baggage system breaking. Um, and these are things that are constantly perturbing our system. And yes, this is really bad in an airline but it's also true in many Industries. Um, we have a system that I'll call interdependent and nonlinear, and if you're not a math person, basically what that means is things snowball. So, if you have a delayed flight, guess what? That plan has another flight after, and those Pilots are going to go also to another flight and the cabin crew as well. So you have 1
+[00:14:15] it can turn into 3 and so you imagine that that multiplies and multiplies and things can get really bad if you don't manage it carefully,
+[00:14:21] Third is we have a fairly expensive assets. So airplanes cost a lot of money and we want to utilize them as much as possible. So that means buffer,
+[00:14:31] So spare time that we can use to fix disruptions is a very, very expensive thing for us. Um, and so we want to make sure that we're using it in the right ways.
+[00:14:39] And lastly,
+[00:14:40] Non-performance has a high cost for us, not only financially. Um but also reputational
+[00:14:46] And so, what is my team doing? Um, IELTS integrated optimization. So, we are trying to basically use Advanced Analytical software things, like optimization machine, learning simulation Etc, to help support operational decision-making.
+[00:15:00] At the airline.
+[00:15:01] So that we make the best use of our resources and ultimately deliver for our customers, which I will stress again, is, hopefully, you m,
+[00:15:09] So just to put this into practice a little bit what are the different kinds of decisions that airlines are making? Um we like to represent this as a wheel. Um
+[00:15:20] And you can kind of split it up into 4 quadrants. So we've got our Network and our schedule. What flights do we fly, uh, and which plans operate them, um, our Fleet and Engineering. So, literally, how many planes do we have? But how do we maintain them and make sure that they are, um, in the best shape to be able to operate the schedule?
+[00:15:37] We have our crewing operation. So that's all the way from hiring in the long term, um, all the way through to figuring out, how many stand
+[00:15:45] Buys or extra Crews you have to deal with disruption and then making sure that you allocate them in the right ways.
+[00:15:50] And then lastly our ground operation um you think of Airlines you think of the sky. But there's a lot of stuff happening on the ground and Orchestra of different baggage loaders um Logistics drivers, that people pushing back the airplanes um and not all of that requires significant operational decision-making to get the right people in. And then to make sure that they are
+[00:16:10] rostered at the right times and assigned to the right tasks and so on.
+[00:16:14] In this wheel, there's lots of long-term decisions that you make on the outside. But as you get closer and closer to what we call the day of operation today, all of these things come together in our control centers where
+[00:16:25] Um, that's the center of the wheel. And that is literally a place that the airline where we have.
+[00:16:30] Operators who are monitoring the entire health of the whole system and making decisions on how to intervene when things go wrong. Um, and things go wrong. And so it's really, really important particularly as you get nearer in that your decisions are
+[00:16:44] Aligned with each other that you don't have kind of your crewing, folks, undoing the decisions of your ground resource, folks. And that's when techniques, like, optimization become really, really important.
+[00:16:55] So we've got a bit of a framework on how we do this FBA and the goal is like I mentioned to make sure that we're all swimming in the same direction that we're all making aligned decisions across these domains, but also across time Horizons. So, how do we do it?
+[00:17:09] Um, there's a couple of layers that are shared.
+[00:17:13] so, and and that's really
+[00:17:15] Really important that everyone that's making an operational decision is doing. So, from the same sources of Truth and so the first layer there, which is everyone's problem, everywhere is data, you need to have the right data. It needs to be in the right shape. It needs to be
+[00:17:29] Interpreted in the same way by different groups and different teams, and that sounds really obvious. But we're 1005 year old company, and it is easier said than done.
+[00:17:39] I can't solve that 1 for you.
+[00:17:41] Um, second is you want to predict what's going to happen in the world? So we have like I mentioned a lot of uncertainty, okay? And so our data that says what's happening right now is actually not that good of a representation of what's going to be happening in 30 minutes or in an hour, or in a day, or in a week, or in a month. And so we have a
+[00:18:00] fiction layer that we've been building up to make sure that we all have a unified view of what's going to happen in the future based on what we know now,
+[00:18:08] So that's things like. Okay, which flights are likely is to be delayed, uh, our flights to, and from the Greek Islands, for example, 10 to go through a really congested airspace. And we know that they have a higher probability of being delayed than other flights because particularly in the summer,
+[00:18:24] That airspace is congested.
+[00:18:27] And so that's knowable.
+[00:18:28] Um passenger predictions, how many people are going to fly on a flight? Tomorrow, we know how many bookings we have today but that's going to change.
+[00:18:36] Um, absence. So some of our staff might fall ill. A lot of our staff might fall more ill on Wimbledon than they do at a different level.
+[00:18:45] Predictable um baggage predictions, how many people are going to be taking? How many pieces of luggage on different flights? That impacts things? Like how many drivers do we need at the airport? And we know that if uh certain destinations are more Leisure destinations than business ones. Well guess what Leisure customers tend to take more bags of them that kind of thing, we can start to put some prediction around and lastly schedule. Simulation. So can you bring it all together and start predicting some of those Dynamics?
+[00:19:12] Um in this what I call nonlinear systems. So how are things going to snowball? Will they snowball in a predictable way that we can actually start planning around?
+[00:19:20] All of this shared stuff. Um,
+[00:19:24] And it's important to get right?
+[00:19:26] But then you can start thinking about different use cases. And I'll I'll share 1 after
+[00:19:30] this more conceptual stuff, but
+[00:19:32] You can start thinking about then okay.
+[00:19:35] The optimization layer I'm going to pick a any particular decision problem at the airline, be it, a long-term planning problem or a decision about something that's happening tomorrow, and I can formulate it as an optimization problem, and it can consider the uncertainty of my predictions in the layer below. And so that's quite a cool, uh,
+[00:19:52] Feature of this style of modeling. So um as Anna mentioned we've got our business constraints and our trade-offs. So we know as an airline actually we're trying to it's actually really complicated. Uh
+[00:20:04] Yeah, we're trying to minimize cost and maximize revenue of course. But what does that actually mean? Um,
+[00:20:11] for example, if I delay your flight 3 hours,
+[00:20:15] Sometimes we have to do, we don't have a choice.
+[00:20:17] Versus delaying 2 flights by an hour and a half.
+[00:20:20] Yes, there's cost implications like in the literal pounds and Pence cost, but
+[00:20:25] Is delaying 1 Flight 3 hours. Going to mean that you're going to be less likely to book on a British Airways flight sometime in the future. We can start to think about these kinds of things.
+[00:20:33] Um, second is constraints and and what enter referred to as like feasibility. So, which decisions are actually valid, I can't send an A380 plane to a smaller airport. They can't land the runway to short. They don't have a gate to park it. We won't do it. Um, that's a very simple example, but there's lots of things like that, where they are constraints that you cannot, violate in order to run a safe secure operation.
+[00:20:55] Um,
+[00:20:56] and lastly, in importantly, is interpretability as we're formulating the
+[00:21:00] Problems. It's really important that we understand.
+[00:21:02] Why certain decisions are getting made particularly if they're different than the decisions that would have been made manually or how it would have been done in the past. And that's really, really important. Because the people in the change management part of this is 90% of the work.
+[00:21:19] And that's the last Point business change. How do we actually take these?
+[00:21:23] Techniques and intelligence and actually, make sure that they can be embedded in a software product that actually changes how we make decisions versus what we did yesterday and hence that we realized value from it.
+[00:21:35] So that means business processes. If you're introducing new software, you need to look at. How is that process done before and how will it be done differently. Tomorrow now that you have a piece of software
+[00:21:44] With that company.
+[00:21:45] Change management. Do you need to train people? Teach them how to use the tool explain to them at a very basic level, how the algorithm Works what it knows. And by the way, what it doesn't know because operations are really tricky things, and these algorithms will not always know everything.
+[00:21:58] Um,
+[00:22:00] code development. So everything we build, we build with our stakeholders, with our Frontline operations users, because they're the ones that know best
+[00:22:08] What works and what doesn't work? If we sit in a cave and build a piece of software and try to give it to them, they're going to laugh us out of the room.
+[00:22:15] Value measurement. Um,
+[00:22:17] especially if you're a manager, it's important that you're able to justify the investment that you've made in producing a piece of software. And so, it's really important, and actually some inherent characteristics of optimization techniques, make that a little bit easier.
+[00:22:30] Than some other methodologies. Um but it's also really important from a change management point of view if I'm going to ask you to do something differently tomorrow than you did yesterday.
+[00:22:39] I should be able to explain to you why that's going to lead to better outcomes for you, and for the business.
+[00:22:44] And then, lastly and this is something I'm the most passionate about is feedback. Loops models are only as good as the input that they're given and you can try to formulate all the business rules and constraints in the universe.
+[00:22:57] but you will miss some and so
+[00:23:00] It's really really important that when you're building these kinds of algorithms um and any models really that you build a feedback loop to allow for continuous Improvement and iteration over time.
+[00:23:10] And so, we put this into practice every day, British Airways. Um, we've got something like
+[00:23:15] 15 or 14 products live at the moment and we're working on lots more. Um but I want to give you an example of 1 of them.
+[00:23:21] Um, so that you can wrap your head around, what this technology can be used for.
+[00:23:26] Um and so I'm going to talk about a use case called smart tail assignment. Um, and I'll explain what that means. Tail assignment, a tail is like a license plate for an airplane. Uh each it's like an ID, a unique ID of an airplane.
+[00:23:39] And the problem we're trying to solve is to figure out which planes should fly, which flights and specifically, we're looking at tomorrow and the next 10 days. Okay. Sounds straightforward. Uh, not so. So why does this matter? There's a number of costs um, at the airline that are actually determined by what plane flies what, flights? There's hard costs. Like for example, some planes might be more
+[00:24:00] Dual efficient than other cost than other ones and so you might want to send a more fuel efficient plan for example, on a longer sector um versus a less fuel efficient older plane, but there's also soft costs. So things like
+[00:24:11] um,
+[00:24:14] if I do a certain T assignment, I'm going to have to do an extra
+[00:24:19] Toe to move an airplane from a terminal to another stand. Um, and that's not like a money cost directly. But over time it will mean that I need more. Towing resources. Maybe more tugs. It's Etc. Um,
+[00:24:32] and,
+[00:24:33] the other really interesting thing is that this problem determines your punctuality in a way that you might not expect, but if you think about how do you line up 1 Flight, and another flight on the same plane when you make that decision, you're inherently Des
+[00:24:45] Deciding how much buffer time to put in between those 2 flights.
+[00:24:48] And so this is a big Tetris puzzle. You have, 220 plans, you have 700 flights. How do you Tetris them together in such a way that you use your buffer, most optimally and if you can start, if you start thinking, oh if I can predict delays, maybe I can be a little bit clever about how I do that.
+[00:25:03] Um, and why is this a hard?
+[00:25:05] Thing to do. Well, we have 220 plans and 700 flights. I didn't actually do the math, but there are billions of options of how you actually can solve this problem.
+[00:25:14] That's number 1. Number 2, is your uncertain on your flight delays. Like I have a guess that the Greek flight might be more likely to be delayed tomorrow than the Dublin flight. But I definitely don't know that for a fact.
+[00:25:26] And lastly, there's a ton of operational constraints on feasibility and what planes can fly where
+[00:25:30] and if there's some particular component that, um, is due for maintenance and I don't want to send it to this location and so on, um, literally thousands of rules that we need to make sure that we capture
+[00:25:39] So, how does an optimization approach work here? Um,
+[00:25:44] Easy to explain a little bit harder in practice, but just to give the high level. As I mentioned, you can predict the likely delays on flights. So for each flight, we can predict a distribution of delay. So there's a 10% chance of a 5-minute delay, a, uh, 20% chance of a 10-minute delay, a 30% chance, that will be on time and so on and you can do that for every flight based on a prediction model.
+[00:26:05] Second is you can score your flight values. And so, this is really key. This is how we bring all of our objectives that are competing into 1 place. And we can say,
+[00:26:15] If this flight is delayed 5 minutes, it's going to cost me X. If it's delayed 10 minutes, it's going to cost me. Why, if it's still late 15 it's going to cost me Z and you can do that for every single flight. And you can consider lots of different things there, like the future value of that customer, as I mentioned, um, your customer connections. So if I'm delayed 15 minutes, I'm going to have a bunch of people that will miss their connection onwards to wherever else they're going. Um, you can think about your crew, constraints. So my crews are in a Timeout. If I'm delayed more than 60 minutes and so on
+[00:26:42] You chuckle of that into the optimizer with all of your rules and out pops a optimized schedule. So the so Gobi, which is what we use as our solver will will basically do the Jenga. Um, and they have lots of experts that are really good at coming up with algorithms that play Jenga, um, or tetra
+[00:27:00] Actually, sorry I've been saying Django. The whole anyway Tetris obviously M and um out comes a puzzle uh the solved puzzle on the other side, which we can then Implement into our solution. Um, so we are doing this every day. We've been running it live for uh number of years now. Um, and this has been actually pretty successful. So it's every single day in the morning, we optimize the next 3 or 4 days of the schedule. Um,
+[00:27:28] We found that actually, we're able to absorb a lot more delay, um, by using these, uh, kind of optimized assignments relative to what was being done before. And overall, that means that we have a 5% reduction in rotational delays on our Hub and
+[00:27:42] for those of you that are not operations, Airline
+[00:27:45] And Airline operations experts, that's a lot. Um, it has a gigantic impact on our ability to serve our customers and to prevent that snowballing that I was talking about in the in the past.
+[00:27:55] Um so this is just 1 example, we have lots more like them, um, and so I'll leave you with 1 last thought. Before passing it to Hannah to hand off, which is we're growing,
+[00:28:04] Um, we have a lot of optimization problems to solve at the airline across operations, crewing, Ground Engineering.
+[00:28:12] And we're not going to get bored for a number of years. I, I promise you that and so if you happen to be an optimization person, or a product manager, that happens to be interested in this,
+[00:28:20] I'll just put it into the world. This QR code goes to my email address. Just shoot me a note. Send me your CV. Um and I will look forward to hearing from you.
+[00:28:29] Otherwise.
+[00:28:30] Thank you and back to you Anna. Yeah.
+[00:28:32] Yeah, thank you, Jenny.
+[00:28:36] Okay, I think people have used your QR code.
+[00:28:41] So just to finish up, we've got about a minute here. Um,
+[00:28:46] just as takeaways, we are big fans of machine learning and generative AI for lots and lots of problems. But 1 thing about optimization that is very nice. Is this, interpretability this ability to interrogate a solution to ask? Well, why is this, um, the best decision and that in turn? Um, encourages trust? Um, and so some things about optimization that, um, we've touched
+[00:29:15] Upon today that it's deterministic and reproducible, you have this mathematical underpinning. Um, and that you can actually be sure that, whatever business constraints you've put in your model, won't be violated. Um, and that's hugely important, um, for for many different um, applications. So finally, please come by our booth. Um, we're 713 under the AI and data science, um, orange thing. Uh, and so if you just want to chat, um, we're around all day. Well, the rest of today and tomorrow. So thank you so much for coming.

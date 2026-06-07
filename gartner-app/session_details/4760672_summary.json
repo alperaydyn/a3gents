@@ -1,0 +1,7 @@
+{
+  "summary": "We've mastered data infrastructure—infinite scale, billions of events, AI at speed. Yet when data breaks, we still ask: What happened? Where? We're trapped in syntax, blind to semantics. This talk introduces semantic context in observability: not \"this table is stale,\" but \"47 sales reps can't quote.\" Discover how context graphs bridge technical signals and business meaning—before the silence becomes costly.",
+  "sections": [],
+  "key_takeaways": [],
+  "entities": [],
+  "subject_area_id": "data_management"
+}
