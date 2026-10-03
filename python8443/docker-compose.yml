@@ -2,21 +2,20 @@ services:
   python:
     build: .
     working_dir: /app
-    volumes:
-      - ./app:/app
-    ports:
-      - "8443:8443"
-      - "${JUPYTER_PORT}:8888"
-    restart: unless-stopped
     environment:
       - BOT_TOKEN=${BOT_TOKEN}
       - CUSTOMER_TOKEN_THEHUNGER=${CUSTOMER_TOKEN_THEHUNGER}
       - JUPYTER_PASSWORD=${JUPYTER_PASSWORD}
       - JUPYTER_PORT=${JUPYTER_PORT}
+    restart: unless-stopped
+    ports:
+      - ${JUPYTER_PORT}:8888
+    volumes:
+      - ./app:/app
     networks:
       - default
       - shared-network
-
 networks:
+  default: 
   shared-network:
     external: true
