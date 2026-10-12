@@ -1,0 +1,22 @@
+name: tafsil-web
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: web-web
+    container_name: tafsil-web
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3002:3000"
+    environment:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_API_URL=https://api.tafsil.net/api/v1
+      - NEXT_PUBLIC_SITE_URL=https://tafsil.net
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q --spider http://127.0.0.1:3000/ || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 10s

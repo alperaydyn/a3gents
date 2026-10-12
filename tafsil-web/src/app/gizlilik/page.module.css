@@ -1,0 +1,136 @@
+.main {
+  padding: 48px 0 96px;
+  min-height: calc(100vh - 160px);
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+  animation: rise 0.5s ease both;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold, #c9a227);
+  background: rgba(201, 162, 39, 0.08);
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(201, 162, 39, 0.25);
+  margin-bottom: 16px;
+}
+
+.title {
+  font-family: var(--font-serif, "Newsreader", serif);
+  font-size: clamp(32px, 5vw, 44px);
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0 0 16px;
+}
+
+.subtitle {
+  font-size: 17px;
+  color: var(--mut, #888);
+  max-width: 620px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.updated {
+  margin-top: 14px;
+  font-size: 13px;
+  color: var(--mut, #888);
+  opacity: 0.8;
+}
+
+.body {
+  max-width: 720px;
+  margin: 0 auto;
+  background: var(--surf, #1e1d19);
+  border: 1px solid var(--line, rgba(255, 255, 255, 0.08));
+  border-radius: 18px;
+  padding: clamp(24px, 4vw, 44px);
+  line-height: 1.75;
+  font-size: 16px;
+  animation: rise 0.6s 0.05s ease both;
+}
+
+.body section {
+  scroll-margin-top: 96px;
+}
+
+.body section + section {
+  margin-top: 32px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line, rgba(255, 255, 255, 0.08));
+}
+
+.body h2 {
+  font-family: var(--font-serif, "Newsreader", serif);
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 12px;
+}
+
+.body h3 {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold, #c9a227);
+  margin: 20px 0 8px;
+}
+
+.body p {
+  margin: 0 0 12px;
+}
+
+.body ul {
+  margin: 0 0 12px;
+  padding-left: 20px;
+}
+
+.body li {
+  margin-bottom: 6px;
+}
+
+.body a {
+  color: var(--gold, #c9a227);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.2s ease;
+}
+
+.body a:hover {
+  opacity: 0.75;
+}
+
+.back {
+  margin-top: 36px !important;
+  text-align: center;
+}
+
+.back a {
+  text-decoration: none;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero,
+  .body {
+    animation: none;
+  }
+}

@@ -1,0 +1,126 @@
+.main {
+  padding: 48px 0 96px;
+  min-height: calc(100vh - 160px);
+}
+
+.articleWrapper {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.breadcrumb {
+  margin-bottom: 24px;
+}
+
+.backLink {
+  font-size: 13.5px;
+  color: var(--mut, #888);
+  text-decoration: none;
+}
+
+.backLink:hover {
+  color: var(--gold, #c9a227);
+}
+
+.header {
+  border-bottom: 1px solid var(--line, rgba(255, 255, 255, 0.08));
+  padding-bottom: 32px;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-family: var(--font-serif, "Newsreader", serif);
+  font-size: clamp(32px, 5vw, 44px);
+  font-weight: 400;
+  line-height: 1.25;
+  margin: 16px 0;
+  color: var(--ink, #f4f1ea);
+}
+
+.meta {
+  font-size: 13.5px;
+  color: var(--mut, #888);
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.verificationCard {
+  background: var(--surf, #1e1d19);
+  border: 1px solid var(--line, rgba(255, 255, 255, 0.08));
+  border-left: 3px solid var(--gold, #c9a227);
+  border-radius: 14px;
+  padding: 20px 24px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.verificationTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--gold, #c9a227);
+  margin-bottom: 4px;
+}
+
+.verificationDesc {
+  font-size: 12.5px;
+  color: var(--mut, #888);
+}
+
+.verificationScore {
+  font-size: 28px;
+  font-family: var(--font-serif, "Newsreader", serif);
+  color: var(--gold, #c9a227);
+  font-weight: 500;
+}
+
+.content {
+  font-size: 17px;
+  line-height: 1.75;
+  color: var(--ink, #f4f1ea);
+}
+
+.content h1 {
+  display: none; /* Already shown in header */
+}
+
+.content h2 {
+  font-family: var(--font-serif, "Newsreader", serif);
+  font-size: 26px;
+  font-weight: 400;
+  margin: 40px 0 16px;
+  color: var(--ink, #f4f1ea);
+}
+
+.content h3 {
+  font-family: var(--font-serif, "Newsreader", serif);
+  font-size: 21px;
+  font-weight: 400;
+  margin: 32px 0 12px;
+  color: var(--ink, #f4f1ea);
+}
+
+.content p {
+  margin: 0 0 20px;
+}
+
+.content ul,
+.content ol {
+  margin: 0 0 24px 20px;
+  padding: 0;
+}
+
+.content li {
+  margin-bottom: 10px;
+}
+
+.content blockquote {
+  border-left: 2px solid var(--gold, #c9a227);
+  padding-left: 20px;
+  margin: 24px 0;
+  color: var(--mut, #888);
+  font-style: italic;
+}

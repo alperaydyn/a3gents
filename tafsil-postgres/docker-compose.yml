@@ -1,0 +1,24 @@
+name: tafsil-postgres
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: tafsil-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: 
+      POSTGRES_PASSWORD: 
+      POSTGRES_DB: 
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - tafsil-postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+
+volumes:
+  tafsil-postgres-data:

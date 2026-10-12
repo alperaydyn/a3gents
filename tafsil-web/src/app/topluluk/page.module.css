@@ -1,0 +1,171 @@
+.main {
+  padding: 48px 0 96px;
+  min-height: calc(100vh - 160px);
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.badge {
+  display: inline-block;
+  font-family: var(--font-sans, "Instrument Sans", sans-serif);
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--gold, #c9a227);
+  background: rgba(201, 162, 39, 0.08);
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(201, 162, 39, 0.25);
+  margin-bottom: 16px;
+}
+
+.title {
+  font-family: var(--font-serif, "Newsreader", serif);
+  font-size: clamp(32px, 5vw, 44px);
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0 0 16px;
+}
+
+.subtitle {
+  font-size: 17px;
+  color: var(--mut, #888);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.conceptCloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.conceptTag {
+  padding: 7px 14px;
+  border-radius: 12px;
+  background: var(--surf, #1e1d19);
+  border: 1px solid var(--line, rgba(255, 255, 255, 0.08));
+  color: var(--ink, #f4f1ea);
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.18s ease;
+}
+
+.conceptTag:hover,
+.conceptTagActive {
+  background: var(--gold, #c9a227);
+  color: #14130f;
+  border-color: var(--gold, #c9a227);
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 32px 0 20px;
+}
+
+.sectionTitle {
+  font-family: var(--font-serif, "Newsreader", serif);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.sectionCount {
+  font-size: 13px;
+  color: var(--mut, #888);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: var(--surf, #1e1d19);
+  border: 1px solid var(--line, rgba(255, 255, 255, 0.08));
+  border-radius: 18px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(201, 162, 39, 0.4);
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.cardTitle {
+  font-family: var(--font-serif, "Newsreader", serif);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.cardSummary {
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: var(--mut, #888);
+  margin-bottom: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.chipList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.chip {
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: var(--band, rgba(255, 255, 255, 0.04));
+  color: var(--mut, #888);
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--line, rgba(255, 255, 255, 0.08));
+  padding-top: 14px;
+  font-size: 12px;
+  color: var(--mut, #888);
+}
+
+.cardStats {
+  display: flex;
+  gap: 12px;
+}
+
+.cardAction {
+  color: var(--gold, #c9a227);
+  font-weight: 500;
+}

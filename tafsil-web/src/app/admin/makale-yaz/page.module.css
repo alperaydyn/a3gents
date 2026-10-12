@@ -1,0 +1,143 @@
+.main {
+  min-height: 100vh;
+  padding: 48px 0 96px;
+}
+
+.backLink {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--ink-secondary, #666);
+  text-decoration: none;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-family: var(--font-newsreader, serif);
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--ink, #171613);
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: var(--ink-secondary, #666);
+  font-size: 0.95rem;
+  margin-bottom: 32px;
+}
+
+.editorLayout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  margin-top: 24px;
+}
+
+@media (max-width: 900px) {
+  .editorLayout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.formPane {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.fieldGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-faint, #999);
+}
+
+.input {
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid var(--line, rgba(0, 0, 0, 0.12));
+  background: var(--surface, #fbf9f4);
+  font-size: 14px;
+  color: var(--ink, #171613);
+  outline: none;
+  font-family: inherit;
+}
+
+.input:focus {
+  border-color: var(--ink, #171613);
+}
+
+.textarea {
+  min-height: 280px;
+  font-family: monospace;
+  line-height: 1.6;
+  resize: vertical;
+}
+
+.previewPane {
+  background: var(--surface, #fbf9f4);
+  border: 1px solid var(--line, rgba(0, 0, 0, 0.08));
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.previewHeader {
+  border-bottom: 1px solid var(--line, rgba(0, 0, 0, 0.08));
+  padding-bottom: 16px;
+}
+
+.scoreCard {
+  background: var(--line, rgba(0, 0, 0, 0.04));
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scoreTitle {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink, #171613);
+}
+
+.scoreValue {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: var(--font-newsreader, serif);
+}
+
+.criteriaList {
+  font-size: 12px;
+  color: var(--ink-secondary, #666);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.submitBtn {
+  background: var(--ink, #171613);
+  color: var(--surface, #fff);
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: opacity 0.2s ease;
+}
+
+.submitBtn:hover {
+  opacity: 0.9;
+}

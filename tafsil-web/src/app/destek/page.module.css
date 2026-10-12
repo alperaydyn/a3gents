@@ -1,0 +1,175 @@
+.main {
+  padding: 48px 0 96px;
+  min-height: calc(100vh - 160px);
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 40px;
+  animation: rise 0.5s ease both;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold, #c9a227);
+  background: rgba(201, 162, 39, 0.08);
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(201, 162, 39, 0.25);
+  margin-bottom: 16px;
+}
+
+.title {
+  font-family: var(--font-serif, "Newsreader", serif);
+  font-size: clamp(32px, 5vw, 44px);
+  font-weight: 400;
+  line-height: 1.2;
+  margin: 0 0 16px;
+}
+
+.subtitle {
+  font-size: 17px;
+  color: var(--mut, #888);
+  max-width: 620px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.contactCard {
+  max-width: 720px;
+  margin: 0 auto 32px;
+  background: var(--surf, #1e1d19);
+  border: 1px solid var(--line, rgba(255, 255, 255, 0.08));
+  border-radius: 18px;
+  padding: 28px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  animation: rise 0.55s 0.03s ease both;
+}
+
+.contactInfo h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 4px;
+}
+
+.contactInfo p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--mut, #888);
+}
+
+.contactAction {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--gold, #c9a227);
+  color: #12110e;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.contactAction:hover {
+  opacity: 0.92;
+  transform: translateY(-1px);
+}
+
+.body {
+  max-width: 720px;
+  margin: 0 auto;
+  background: var(--surf, #1e1d19);
+  border: 1px solid var(--line, rgba(255, 255, 255, 0.08));
+  border-radius: 18px;
+  padding: clamp(24px, 4vw, 44px);
+  line-height: 1.75;
+  font-size: 16px;
+  animation: rise 0.6s 0.05s ease both;
+}
+
+.sectionTitle {
+  font-family: var(--font-serif, "Newsreader", serif);
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 20px;
+}
+
+.faqItem {
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--line, rgba(255, 255, 255, 0.08));
+}
+
+.faqItem:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.faqQuestion {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--fg, #f4f1ea);
+  margin: 0 0 8px;
+}
+
+.faqAnswer {
+  font-size: 15px;
+  color: var(--mut, #a09e97);
+  margin: 0;
+  line-height: 1.65;
+}
+
+.faqAnswer a {
+  color: var(--gold, #c9a227);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.back {
+  margin-top: 36px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.back a {
+  font-size: 14px;
+  color: var(--mut, #888);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.back a:hover {
+  color: var(--gold, #c9a227);
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero,
+  .contactCard,
+  .body {
+    animation: none;
+  }
+}

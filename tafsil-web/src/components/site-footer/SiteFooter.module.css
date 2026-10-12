@@ -1,0 +1,29 @@
+.footer {
+  border-top: 1px solid var(--line);
+  padding: 28px 0 40px;
+  margin-top: auto;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font: 400 12.5px var(--font-sans);
+  color: var(--faint);
+}
+
+.brand {
+  font-family: var(--font-serif);
+  font-size: 15px;
+  color: var(--mut);
+}
+
+.links {
+  display: flex;
+  gap: 18px;
+  flex: 1;
+}
+
+.links a:hover {
+  color: var(--ink);
+}

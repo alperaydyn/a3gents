@@ -1,0 +1,119 @@
+.readerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.actionRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.actionButtons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.actionButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-surface, #F4F1EA);
+  border: 1px solid var(--border-line, rgba(0, 0, 0, 0.1));
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted, #555);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.actionButton:hover {
+  border-color: #D4A853;
+  color: #171613;
+}
+
+.actionButtonActive {
+  background: #D4A853;
+  color: #171613;
+  border-color: #D4A853;
+  font-weight: 600;
+}
+
+.syncBadge {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 11px;
+  color: #2e7d32;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.syncDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #2e7d32;
+}
+
+.card {
+  background: var(--bg-surface, #F4F1EA);
+  border: 1px solid var(--border-line, rgba(0, 0, 0, 0.08));
+  border-radius: 24px;
+  padding: 32px 28px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+}
+
+.wordsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px 16px;
+  direction: rtl;
+  margin: 18px 0 24px;
+  line-height: 2.2;
+}
+
+.wordChip {
+  font-family: 'Amiri', 'Traditional Arabic', serif;
+  font-size: 34px;
+  color: #171613;
+  padding: 4px 10px;
+  border-radius: 10px;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: default;
+  display: inline-block;
+  user-select: none;
+}
+
+.wordChipActive {
+  background: rgba(212, 168, 83, 0.25);
+  color: #8c5b00;
+  transform: scale(1.08);
+  box-shadow: 0 0 16px rgba(212, 168, 83, 0.4);
+  border-radius: 12px;
+}
+
+.translit {
+  font-family: 'Instrument Sans', sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  color: #6E685F;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.meal {
+  font-family: 'Newsreader', serif;
+  font-size: 19px;
+  color: #171613;
+  line-height: 1.65;
+}

@@ -1,0 +1,28 @@
+name: slms-oracle
+
+services:
+  oracle:
+    image: gvenzl/oracle-free:23-slim
+    container_name: slms-oracle-dev
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:1521:1521"
+    environment:
+      ORACLE_PASSWORD: ${ORACLE_PASSWORD}
+      APP_USER: ${APP_USER}
+      APP_USER_PASSWORD: ${APP_USER_PASSWORD}
+      ORACLE_DATABASE: ${ORACLE_DATABASE}
+    volumes:
+      - slms_oracle_dev_data:/opt/oracle/oradata
+    networks:
+      - default
+      - shared-network
+
+volumes:
+  slms_oracle_dev_data:
+    external: true
+
+networks:
+  default:
+  shared-network:
+    external: true

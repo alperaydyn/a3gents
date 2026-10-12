@@ -1,0 +1,37 @@
+.container {
+  display: inline-flex;
+  align-items: center;
+  background: var(--surf);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 2px 4px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  transition: border-color 0.15s ease;
+}
+
+.container:hover {
+  border-color: var(--acc, #c9a227);
+}
+
+.item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  border-radius: 999px;
+  color: var(--mut, #888);
+  text-decoration: none;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.item:hover {
+  color: var(--ink);
+}
+
+.active {
+  background: var(--line);
+  color: var(--gold, #c9a227);
+  font-weight: 700;
+}

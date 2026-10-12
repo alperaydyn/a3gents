@@ -1,0 +1,59 @@
+# tafsil.net — Staging Docker Compose Override
+# Kullanım: docker compose -f docker-compose.yml -f docker-compose.staging.yml up -d
+# Bu dosya prodüksiyon docker-compose.yml üzerine staging değerlerini override eder.
+
+services:
+  postgres:
+    container_name: tafsil-postgres-staging
+    environment:
+      POSTGRES_DB: tafsil_staging_db
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - postgres_staging_data:/var/lib/postgresql/data
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: 1G
+
+  redis:
+    container_name: tafsil-redis-staging
+    command: >
+      redis-server
+      --appendonly yes
+      --maxmemory 128mb
+      --maxmemory-policy allkeys-lru
+    ports:
+      - "127.0.0.1:6380:6379"
+    volumes:
+      - redis_staging_data:/data
+    deploy:
+      resources:
+        limits:
+          cpus: "0.25"
+          memory: 256M
+
+  pgbouncer:
+    container_name: tafsil-pgbouncer-staging
+    environment:
+      DATABASE_URL: postgres://${POSTGRES_USER:-tafsil}:${POSTGRES_PASSWORD}@postgres:5432/tafsil_staging_db
+      MAX_CLIENT_CONN: 50
+      DEFAULT_POOL_SIZE: 5
+    ports:
+      - "127.0.0.1:6433:6432"
+    deploy:
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: 64M
+
+volumes:
+  postgres_staging_data:
+    driver: local
+  redis_staging_data:
+    driver: local
+
+networks:
+  default:
+    name: tafsil-staging

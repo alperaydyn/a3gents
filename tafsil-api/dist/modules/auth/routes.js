@@ -1,0 +1,174 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.authRoutes = authRoutes;
+const zod_1 = require("zod");
+const apple_js_1 = require("./apple.js");
+const google_js_1 = require("./google.js");
+const service_js_1 = require("../users/service.js");
+const dto_js_1 = require("../users/dto.js");
+const response_js_1 = require("../../utils/response.js");
+const loginSchema = zod_1.z.object({
+    provider: zod_1.z.enum(["apple", "google"]),
+    idToken: zod_1.z.string().min(10),
+    email: zod_1.z.string().email().optional(),
+    name: zod_1.z.string().optional(),
+});
+const linkSchema = zod_1.z.object({
+    provider: zod_1.z.enum(["apple", "google"]),
+    idToken: zod_1.z.string().min(10),
+    guestUserId: zod_1.z.string().optional(),
+    email: zod_1.z.string().email().optional(),
+    name: zod_1.z.string().optional(),
+});
+async function authRoutes(app) {
+    /**
+     * Apple / Google OAuth Giriş Ucu (PBI-4.4)
+     * Client'tan gelen idToken doğrulanır, kullanıcı bulunur veya yaratılır, Fastify JWT üretilir.
+     */
+    app.post("/login", async (request, reply) => {
+        const parsed = loginSchema.safeParse(request.body);
+        if (!parsed.success) {
+            return reply.status(400).send((0, response_js_1.fail)("VALIDATION_ERROR", "Geçersiz istek gövdesi", parsed.error.flatten()));
+        }
+        const { provider, idToken, email, name } = parsed.data;
+        let claims;
+        try {
+            claims = provider === "apple" ? await (0, apple_js_1.verifyAppleIdToken)(idToken, email) : await (0, google_js_1.verifyGoogleIdToken)(idToken, email);
+        }
+        catch (err) {
+            request.log.warn({ err, provider }, "OAuth id_token doğrulaması başarısız");
+            return reply.status(401).send((0, response_js_1.fail)("AUTH_FAILED", "Kimlik doğrulama başarısız oldu"));
+        }
+        const effectiveEmail = claims.email || email;
+        const user = await (0, service_js_1.findOrCreateUser)(provider, claims.sub, name, effectiveEmail);
+        const token = await reply.jwtSign({ sub: user.id, authProvider: provider });
+        const publicUser = (0, dto_js_1.toPublicUser)(user, effectiveEmail);
+        return reply.send((0, response_js_1.ok)({ token, user: publicUser }));
+    });
+    /**
+     * Misafir / Anonim Mod Oturumu (PBI-4.5)
+     * Hesap açmadan okumak isteyen kullanıcılar için geçici misafir oturumu ve JWT üretir.
+     */
+    app.post("/guest", async (_request, reply) => {
+        const user = await (0, service_js_1.createGuestUser)();
+        const token = await reply.jwtSign({ sub: user.id, authProvider: "guest" });
+        return reply.send((0, response_js_1.ok)({ token, user: (0, dto_js_1.toPublicUser)(user) }));
+    });
+    /**
+     * Misafir Hesabını Apple / Google Hesabına Bağlama (Account Linking - PBI-4.5)
+     * Misafir modunda oluşturulan yer imleri, okuma geçmişi ve ezber oturumlarını kalıcı hesaba aktarır.
+     */
+    app.post("/link", async (request, reply) => {
+        const parsed = linkSchema.safeParse(request.body);
+        if (!parsed.success) {
+            return reply.status(400).send((0, response_js_1.fail)("VALIDATION_ERROR", "Geçersiz istek gövdesi", parsed.error.flatten()));
+        }
+        const { provider, idToken, guestUserId, email, name } = parsed.data;
+        // Header token'ından veya body'den misafir ID'sini belirle
+        let effectiveGuestId = guestUserId;
+        if (!effectiveGuestId && request.headers.authorization) {
+            try {
+                const decoded = await request.jwtVerify();
+                effectiveGuestId = decoded.sub;
+            }
+            catch {
+                // Token çözülemediyse devam et
+            }
+        }
+        if (!effectiveGuestId) {
+            return reply.status(400).send((0, response_js_1.fail)("VALIDATION_ERROR", "Bağlanacak misafir kullanıcı ID'si bulunamadı"));
+        }
+        let claims;
+        try {
+            claims = provider === "apple" ? await (0, apple_js_1.verifyAppleIdToken)(idToken, email) : await (0, google_js_1.verifyGoogleIdToken)(idToken, email);
+        }
+        catch (err) {
+            request.log.warn({ err, provider }, "Account linking id_token doğrulaması başarısız");
+            return reply.status(401).send((0, response_js_1.fail)("AUTH_FAILED", "Kimlik doğrulama başarısız oldu"));
+        }
+        const effectiveEmail = claims.email || email;
+        const user = await (0, service_js_1.linkGuestUser)(effectiveGuestId, provider, claims.sub, name, effectiveEmail);
+        const token = await reply.jwtSign({ sub: user.id, authProvider: provider });
+        const publicUser = (0, dto_js_1.toPublicUser)(user, effectiveEmail);
+        return reply.send((0, response_js_1.ok)({ token, user: publicUser, linked: true }));
+    });
+    /**
+     * Aktif Oturum ve Kullanıcı Doğrulama (PBI-4.4)
+     */
+    app.get("/me", { preHandler: app.authenticate }, async (request, reply) => {
+        const user = await (0, service_js_1.getUserById)(request.user.sub);
+        if (!user) {
+            return reply.status(404).send((0, response_js_1.fail)("USER_NOT_FOUND", "Kullanıcı bulunamadı"));
+        }
+        return reply.send((0, response_js_1.ok)((0, dto_js_1.toPublicUser)(user)));
+    });
+    /**
+     * Şifre Sıfırlama Talebi (PBI-4.6.4)
+     * Kullanıcının e-posta adresine 15 dakika geçerli kriptografik sıfırlama bağlantısı üretir.
+     */
+    app.post("/forgot-password", async (request, reply) => {
+        const schema = zod_1.z.object({ email: zod_1.z.string().email() });
+        const parsed = schema.safeParse(request.body);
+        if (!parsed.success) {
+            return reply.status(400).send((0, response_js_1.fail)("VALIDATION_ERROR", "Geçerli bir e-posta adresi giriniz"));
+        }
+        const { createPasswordResetRequest } = await import("./passwordReset.js");
+        const result = await createPasswordResetRequest(parsed.data.email);
+        return reply.send((0, response_js_1.ok)({
+            message: "Eğer bu e-posta adresi ile bir hesap mevcutsa, şifre sıfırlama talimatları gönderilmiştir.",
+            ...(process.env.NODE_ENV !== "production" && result ? { resetUrl: result.resetUrl } : {}),
+        }));
+    });
+    /**
+     * Şifre Sıfırlama Tamamlama (PBI-4.6.4)
+     */
+    app.post("/reset-password", async (request, reply) => {
+        const schema = zod_1.z.object({
+            token: zod_1.z.string().min(20),
+            newPassword: zod_1.z.string().min(8, "Şifre en az 8 karakter olmalıdır"),
+        });
+        const parsed = schema.safeParse(request.body);
+        if (!parsed.success) {
+            return reply.status(400).send((0, response_js_1.fail)("VALIDATION_ERROR", "Geçersiz şifre veya bağlantı", parsed.error.flatten()));
+        }
+        const { completePasswordReset } = await import("./passwordReset.js");
+        const result = await completePasswordReset(parsed.data.token, parsed.data.newPassword);
+        if (!result.success) {
+            return reply.status(400).send((0, response_js_1.fail)("INVALID_TOKEN", result.message));
+        }
+        return reply.send((0, response_js_1.ok)({ message: result.message }));
+    });
+    /**
+     * Kullanıcı Hesabını Silme (PBI-AUTH.2 / App Store Guideline 5.1.1(v))
+     * Oturumu açık olan kullanıcının tüm verilerini (okuma geçmişi, kavram geçmişi, yer imleri, ezberler)
+     * ve profilini kalıcı olarak siler. Apple kullanıcısı ise Apple token iptal çağrısını gerçekleştirir.
+     */
+    app.delete("/me", { preHandler: app.authenticate }, async (request, reply) => {
+        const userId = request.user.sub;
+        const bodySchema = zod_1.z
+            .object({
+            appleAuthCode: zod_1.z.string().optional(),
+        })
+            .optional();
+        const parsed = bodySchema?.safeParse(request.body);
+        const appleAuthCode = parsed?.success ? parsed.data?.appleAuthCode : undefined;
+        const user = await (0, service_js_1.getUserById)(userId);
+        if (!user) {
+            return reply.status(404).send((0, response_js_1.fail)("USER_NOT_FOUND", "Silinecek kullanıcı bulunamadı"));
+        }
+        if (user.auth_provider === "apple") {
+            try {
+                await (0, apple_js_1.revokeAppleToken)(appleAuthCode);
+            }
+            catch (err) {
+                request.log.warn({ err, userId }, "Apple token revoke sırasında uyarı (işleme devam ediliyor)");
+            }
+        }
+        const deleted = await (0, service_js_1.deleteUserAccount)(userId);
+        if (!deleted) {
+            return reply.status(500).send((0, response_js_1.fail)("DELETE_FAILED", "Kullanıcı hesabı silinemedi"));
+        }
+        request.log.info({ userId, provider: user.auth_provider }, "Kullanıcı hesabı ve tüm verileri silindi");
+        return reply.send((0, response_js_1.ok)({ deleted: true, message: "Hesabınız ve tüm verileriniz kalıcı olarak silindi." }));
+    });
+}
